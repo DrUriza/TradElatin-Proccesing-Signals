@@ -1,0 +1,4227 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "cryptoquant",
+  "family": "derivatives_open_interest",
+  "subtype": "estimated_leverage_ratio",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "1m",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-29T14:01:00Z",
+      "blockheight": 856000,
+      "estimated_leverage_ratio": 116.44,
+      "value": 116.44,
+      "timestamp": 1782741660
+    },
+    {
+      "datetime": "2026-06-29T14:02:00Z",
+      "blockheight": 856001,
+      "estimated_leverage_ratio": 116.47,
+      "value": 116.47,
+      "timestamp": 1782741720
+    },
+    {
+      "datetime": "2026-06-29T14:03:00Z",
+      "blockheight": 856002,
+      "estimated_leverage_ratio": 116.5,
+      "value": 116.5,
+      "timestamp": 1782741780
+    },
+    {
+      "datetime": "2026-06-29T14:04:00Z",
+      "blockheight": 856003,
+      "estimated_leverage_ratio": 116.53,
+      "value": 116.53,
+      "timestamp": 1782741840
+    },
+    {
+      "datetime": "2026-06-29T14:05:00Z",
+      "blockheight": 856004,
+      "estimated_leverage_ratio": 116.56,
+      "value": 116.56,
+      "timestamp": 1782741900
+    },
+    {
+      "datetime": "2026-06-29T14:06:00Z",
+      "blockheight": 856005,
+      "estimated_leverage_ratio": 116.59,
+      "value": 116.59,
+      "timestamp": 1782741960
+    },
+    {
+      "datetime": "2026-06-29T14:07:00Z",
+      "blockheight": 856006,
+      "estimated_leverage_ratio": 116.62,
+      "value": 116.62,
+      "timestamp": 1782742020
+    },
+    {
+      "datetime": "2026-06-29T14:08:00Z",
+      "blockheight": 856007,
+      "estimated_leverage_ratio": 116.65,
+      "value": 116.65,
+      "timestamp": 1782742080
+    },
+    {
+      "datetime": "2026-06-29T14:09:00Z",
+      "blockheight": 856008,
+      "estimated_leverage_ratio": 116.68,
+      "value": 116.68,
+      "timestamp": 1782742140
+    },
+    {
+      "datetime": "2026-06-29T14:10:00Z",
+      "blockheight": 856009,
+      "estimated_leverage_ratio": 116.71,
+      "value": 116.71,
+      "timestamp": 1782742200
+    },
+    {
+      "datetime": "2026-06-29T14:11:00Z",
+      "blockheight": 856010,
+      "estimated_leverage_ratio": 116.74,
+      "value": 116.74,
+      "timestamp": 1782742260
+    },
+    {
+      "datetime": "2026-06-29T14:12:00Z",
+      "blockheight": 856011,
+      "estimated_leverage_ratio": 116.77,
+      "value": 116.77,
+      "timestamp": 1782742320
+    },
+    {
+      "datetime": "2026-06-29T14:13:00Z",
+      "blockheight": 856012,
+      "estimated_leverage_ratio": 116.8,
+      "value": 116.8,
+      "timestamp": 1782742380
+    },
+    {
+      "datetime": "2026-06-29T14:14:00Z",
+      "blockheight": 856013,
+      "estimated_leverage_ratio": 116.83,
+      "value": 116.83,
+      "timestamp": 1782742440
+    },
+    {
+      "datetime": "2026-06-29T14:15:00Z",
+      "blockheight": 856014,
+      "estimated_leverage_ratio": 116.86,
+      "value": 116.86,
+      "timestamp": 1782742500
+    },
+    {
+      "datetime": "2026-06-29T14:16:00Z",
+      "blockheight": 856015,
+      "estimated_leverage_ratio": 116.89,
+      "value": 116.89,
+      "timestamp": 1782742560
+    },
+    {
+      "datetime": "2026-06-29T14:17:00Z",
+      "blockheight": 856016,
+      "estimated_leverage_ratio": 116.92,
+      "value": 116.92,
+      "timestamp": 1782742620
+    },
+    {
+      "datetime": "2026-06-29T14:18:00Z",
+      "blockheight": 856017,
+      "estimated_leverage_ratio": 116.95,
+      "value": 116.95,
+      "timestamp": 1782742680
+    },
+    {
+      "datetime": "2026-06-29T14:19:00Z",
+      "blockheight": 856018,
+      "estimated_leverage_ratio": 116.98,
+      "value": 116.98,
+      "timestamp": 1782742740
+    },
+    {
+      "datetime": "2026-06-29T14:20:00Z",
+      "blockheight": 856019,
+      "estimated_leverage_ratio": 117.01,
+      "value": 117.01,
+      "timestamp": 1782742800
+    },
+    {
+      "datetime": "2026-06-29T14:21:00Z",
+      "blockheight": 856020,
+      "estimated_leverage_ratio": 117.04,
+      "value": 117.04,
+      "timestamp": 1782742860
+    },
+    {
+      "datetime": "2026-06-29T14:22:00Z",
+      "blockheight": 856021,
+      "estimated_leverage_ratio": 117.07,
+      "value": 117.07,
+      "timestamp": 1782742920
+    },
+    {
+      "datetime": "2026-06-29T14:23:00Z",
+      "blockheight": 856022,
+      "estimated_leverage_ratio": 117.1,
+      "value": 117.1,
+      "timestamp": 1782742980
+    },
+    {
+      "datetime": "2026-06-29T14:24:00Z",
+      "blockheight": 856023,
+      "estimated_leverage_ratio": 117.13,
+      "value": 117.13,
+      "timestamp": 1782743040
+    },
+    {
+      "datetime": "2026-06-29T14:25:00Z",
+      "blockheight": 856024,
+      "estimated_leverage_ratio": 117.16,
+      "value": 117.16,
+      "timestamp": 1782743100
+    },
+    {
+      "datetime": "2026-06-29T14:26:00Z",
+      "blockheight": 856025,
+      "estimated_leverage_ratio": 117.19,
+      "value": 117.19,
+      "timestamp": 1782743160
+    },
+    {
+      "datetime": "2026-06-29T14:27:00Z",
+      "blockheight": 856026,
+      "estimated_leverage_ratio": 117.22,
+      "value": 117.22,
+      "timestamp": 1782743220
+    },
+    {
+      "datetime": "2026-06-29T14:28:00Z",
+      "blockheight": 856027,
+      "estimated_leverage_ratio": 117.25,
+      "value": 117.25,
+      "timestamp": 1782743280
+    },
+    {
+      "datetime": "2026-06-29T14:29:00Z",
+      "blockheight": 856028,
+      "estimated_leverage_ratio": 117.28,
+      "value": 117.28,
+      "timestamp": 1782743340
+    },
+    {
+      "datetime": "2026-06-29T14:30:00Z",
+      "blockheight": 856029,
+      "estimated_leverage_ratio": 117.31,
+      "value": 117.31,
+      "timestamp": 1782743400
+    },
+    {
+      "datetime": "2026-06-29T14:31:00Z",
+      "blockheight": 856030,
+      "estimated_leverage_ratio": 117.34,
+      "value": 117.34,
+      "timestamp": 1782743460
+    },
+    {
+      "datetime": "2026-06-29T14:32:00Z",
+      "blockheight": 856031,
+      "estimated_leverage_ratio": 117.37,
+      "value": 117.37,
+      "timestamp": 1782743520
+    },
+    {
+      "datetime": "2026-06-29T14:33:00Z",
+      "blockheight": 856032,
+      "estimated_leverage_ratio": 117.4,
+      "value": 117.4,
+      "timestamp": 1782743580
+    },
+    {
+      "datetime": "2026-06-29T14:34:00Z",
+      "blockheight": 856033,
+      "estimated_leverage_ratio": 117.43,
+      "value": 117.43,
+      "timestamp": 1782743640
+    },
+    {
+      "datetime": "2026-06-29T14:35:00Z",
+      "blockheight": 856034,
+      "estimated_leverage_ratio": 117.46,
+      "value": 117.46,
+      "timestamp": 1782743700
+    },
+    {
+      "datetime": "2026-06-29T14:36:00Z",
+      "blockheight": 856035,
+      "estimated_leverage_ratio": 117.49,
+      "value": 117.49,
+      "timestamp": 1782743760
+    },
+    {
+      "datetime": "2026-06-29T14:37:00Z",
+      "blockheight": 856036,
+      "estimated_leverage_ratio": 117.52,
+      "value": 117.52,
+      "timestamp": 1782743820
+    },
+    {
+      "datetime": "2026-06-29T14:38:00Z",
+      "blockheight": 856037,
+      "estimated_leverage_ratio": 117.55,
+      "value": 117.55,
+      "timestamp": 1782743880
+    },
+    {
+      "datetime": "2026-06-29T14:39:00Z",
+      "blockheight": 856038,
+      "estimated_leverage_ratio": 117.58,
+      "value": 117.58,
+      "timestamp": 1782743940
+    },
+    {
+      "datetime": "2026-06-29T14:40:00Z",
+      "blockheight": 856039,
+      "estimated_leverage_ratio": 117.61,
+      "value": 117.61,
+      "timestamp": 1782744000
+    },
+    {
+      "datetime": "2026-06-29T14:41:00Z",
+      "blockheight": 856040,
+      "estimated_leverage_ratio": 117.64,
+      "value": 117.64,
+      "timestamp": 1782744060
+    },
+    {
+      "datetime": "2026-06-29T14:42:00Z",
+      "blockheight": 856041,
+      "estimated_leverage_ratio": 117.67,
+      "value": 117.67,
+      "timestamp": 1782744120
+    },
+    {
+      "datetime": "2026-06-29T14:43:00Z",
+      "blockheight": 856042,
+      "estimated_leverage_ratio": 117.7,
+      "value": 117.7,
+      "timestamp": 1782744180
+    },
+    {
+      "datetime": "2026-06-29T14:44:00Z",
+      "blockheight": 856043,
+      "estimated_leverage_ratio": 117.73,
+      "value": 117.73,
+      "timestamp": 1782744240
+    },
+    {
+      "datetime": "2026-06-29T14:45:00Z",
+      "blockheight": 856044,
+      "estimated_leverage_ratio": 117.76,
+      "value": 117.76,
+      "timestamp": 1782744300
+    },
+    {
+      "datetime": "2026-06-29T14:46:00Z",
+      "blockheight": 856045,
+      "estimated_leverage_ratio": 117.79,
+      "value": 117.79,
+      "timestamp": 1782744360
+    },
+    {
+      "datetime": "2026-06-29T14:47:00Z",
+      "blockheight": 856046,
+      "estimated_leverage_ratio": 117.82,
+      "value": 117.82,
+      "timestamp": 1782744420
+    },
+    {
+      "datetime": "2026-06-29T14:48:00Z",
+      "blockheight": 856047,
+      "estimated_leverage_ratio": 117.85,
+      "value": 117.85,
+      "timestamp": 1782744480
+    },
+    {
+      "datetime": "2026-06-29T14:49:00Z",
+      "blockheight": 856048,
+      "estimated_leverage_ratio": 117.88,
+      "value": 117.88,
+      "timestamp": 1782744540
+    },
+    {
+      "datetime": "2026-06-29T14:50:00Z",
+      "blockheight": 856049,
+      "estimated_leverage_ratio": 117.91,
+      "value": 117.91,
+      "timestamp": 1782744600
+    },
+    {
+      "datetime": "2026-06-29T14:51:00Z",
+      "blockheight": 856050,
+      "estimated_leverage_ratio": 117.94,
+      "value": 117.94,
+      "timestamp": 1782744660
+    },
+    {
+      "datetime": "2026-06-29T14:52:00Z",
+      "blockheight": 856051,
+      "estimated_leverage_ratio": 117.97,
+      "value": 117.97,
+      "timestamp": 1782744720
+    },
+    {
+      "datetime": "2026-06-29T14:53:00Z",
+      "blockheight": 856052,
+      "estimated_leverage_ratio": 118.0,
+      "value": 118.0,
+      "timestamp": 1782744780
+    },
+    {
+      "datetime": "2026-06-29T14:54:00Z",
+      "blockheight": 856053,
+      "estimated_leverage_ratio": 118.03,
+      "value": 118.03,
+      "timestamp": 1782744840
+    },
+    {
+      "datetime": "2026-06-29T14:55:00Z",
+      "blockheight": 856054,
+      "estimated_leverage_ratio": 118.06,
+      "value": 118.06,
+      "timestamp": 1782744900
+    },
+    {
+      "datetime": "2026-06-29T14:56:00Z",
+      "blockheight": 856055,
+      "estimated_leverage_ratio": 118.09,
+      "value": 118.09,
+      "timestamp": 1782744960
+    },
+    {
+      "datetime": "2026-06-29T14:57:00Z",
+      "blockheight": 856056,
+      "estimated_leverage_ratio": 118.12,
+      "value": 118.12,
+      "timestamp": 1782745020
+    },
+    {
+      "datetime": "2026-06-29T14:58:00Z",
+      "blockheight": 856057,
+      "estimated_leverage_ratio": 118.15,
+      "value": 118.15,
+      "timestamp": 1782745080
+    },
+    {
+      "datetime": "2026-06-29T14:59:00Z",
+      "blockheight": 856058,
+      "estimated_leverage_ratio": 118.18,
+      "value": 118.18,
+      "timestamp": 1782745140
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856059,
+      "estimated_leverage_ratio": 118.21,
+      "value": 118.21,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T15:01:00Z",
+      "blockheight": 856060,
+      "estimated_leverage_ratio": 118.24,
+      "value": 118.24,
+      "timestamp": 1782745260
+    },
+    {
+      "datetime": "2026-06-29T15:02:00Z",
+      "blockheight": 856061,
+      "estimated_leverage_ratio": 118.27,
+      "value": 118.27,
+      "timestamp": 1782745320
+    },
+    {
+      "datetime": "2026-06-29T15:03:00Z",
+      "blockheight": 856062,
+      "estimated_leverage_ratio": 118.3,
+      "value": 118.3,
+      "timestamp": 1782745380
+    },
+    {
+      "datetime": "2026-06-29T15:04:00Z",
+      "blockheight": 856063,
+      "estimated_leverage_ratio": 118.33,
+      "value": 118.33,
+      "timestamp": 1782745440
+    },
+    {
+      "datetime": "2026-06-29T15:05:00Z",
+      "blockheight": 856064,
+      "estimated_leverage_ratio": 118.36,
+      "value": 118.36,
+      "timestamp": 1782745500
+    },
+    {
+      "datetime": "2026-06-29T15:06:00Z",
+      "blockheight": 856065,
+      "estimated_leverage_ratio": 118.39,
+      "value": 118.39,
+      "timestamp": 1782745560
+    },
+    {
+      "datetime": "2026-06-29T15:07:00Z",
+      "blockheight": 856066,
+      "estimated_leverage_ratio": 118.42,
+      "value": 118.42,
+      "timestamp": 1782745620
+    },
+    {
+      "datetime": "2026-06-29T15:08:00Z",
+      "blockheight": 856067,
+      "estimated_leverage_ratio": 118.45,
+      "value": 118.45,
+      "timestamp": 1782745680
+    },
+    {
+      "datetime": "2026-06-29T15:09:00Z",
+      "blockheight": 856068,
+      "estimated_leverage_ratio": 118.48,
+      "value": 118.48,
+      "timestamp": 1782745740
+    },
+    {
+      "datetime": "2026-06-29T15:10:00Z",
+      "blockheight": 856069,
+      "estimated_leverage_ratio": 118.51,
+      "value": 118.51,
+      "timestamp": 1782745800
+    },
+    {
+      "datetime": "2026-06-29T15:11:00Z",
+      "blockheight": 856070,
+      "estimated_leverage_ratio": 118.54,
+      "value": 118.54,
+      "timestamp": 1782745860
+    },
+    {
+      "datetime": "2026-06-29T15:12:00Z",
+      "blockheight": 856071,
+      "estimated_leverage_ratio": 118.57,
+      "value": 118.57,
+      "timestamp": 1782745920
+    },
+    {
+      "datetime": "2026-06-29T15:13:00Z",
+      "blockheight": 856072,
+      "estimated_leverage_ratio": 118.6,
+      "value": 118.6,
+      "timestamp": 1782745980
+    },
+    {
+      "datetime": "2026-06-29T15:14:00Z",
+      "blockheight": 856073,
+      "estimated_leverage_ratio": 118.63,
+      "value": 118.63,
+      "timestamp": 1782746040
+    },
+    {
+      "datetime": "2026-06-29T15:15:00Z",
+      "blockheight": 856074,
+      "estimated_leverage_ratio": 118.66,
+      "value": 118.66,
+      "timestamp": 1782746100
+    },
+    {
+      "datetime": "2026-06-29T15:16:00Z",
+      "blockheight": 856075,
+      "estimated_leverage_ratio": 118.69,
+      "value": 118.69,
+      "timestamp": 1782746160
+    },
+    {
+      "datetime": "2026-06-29T15:17:00Z",
+      "blockheight": 856076,
+      "estimated_leverage_ratio": 118.72,
+      "value": 118.72,
+      "timestamp": 1782746220
+    },
+    {
+      "datetime": "2026-06-29T15:18:00Z",
+      "blockheight": 856077,
+      "estimated_leverage_ratio": 118.75,
+      "value": 118.75,
+      "timestamp": 1782746280
+    },
+    {
+      "datetime": "2026-06-29T15:19:00Z",
+      "blockheight": 856078,
+      "estimated_leverage_ratio": 118.78,
+      "value": 118.78,
+      "timestamp": 1782746340
+    },
+    {
+      "datetime": "2026-06-29T15:20:00Z",
+      "blockheight": 856079,
+      "estimated_leverage_ratio": 118.81,
+      "value": 118.81,
+      "timestamp": 1782746400
+    },
+    {
+      "datetime": "2026-06-29T15:21:00Z",
+      "blockheight": 856080,
+      "estimated_leverage_ratio": 118.84,
+      "value": 118.84,
+      "timestamp": 1782746460
+    },
+    {
+      "datetime": "2026-06-29T15:22:00Z",
+      "blockheight": 856081,
+      "estimated_leverage_ratio": 118.87,
+      "value": 118.87,
+      "timestamp": 1782746520
+    },
+    {
+      "datetime": "2026-06-29T15:23:00Z",
+      "blockheight": 856082,
+      "estimated_leverage_ratio": 118.9,
+      "value": 118.9,
+      "timestamp": 1782746580
+    },
+    {
+      "datetime": "2026-06-29T15:24:00Z",
+      "blockheight": 856083,
+      "estimated_leverage_ratio": 118.93,
+      "value": 118.93,
+      "timestamp": 1782746640
+    },
+    {
+      "datetime": "2026-06-29T15:25:00Z",
+      "blockheight": 856084,
+      "estimated_leverage_ratio": 118.96,
+      "value": 118.96,
+      "timestamp": 1782746700
+    },
+    {
+      "datetime": "2026-06-29T15:26:00Z",
+      "blockheight": 856085,
+      "estimated_leverage_ratio": 118.99,
+      "value": 118.99,
+      "timestamp": 1782746760
+    },
+    {
+      "datetime": "2026-06-29T15:27:00Z",
+      "blockheight": 856086,
+      "estimated_leverage_ratio": 119.02,
+      "value": 119.02,
+      "timestamp": 1782746820
+    },
+    {
+      "datetime": "2026-06-29T15:28:00Z",
+      "blockheight": 856087,
+      "estimated_leverage_ratio": 119.05,
+      "value": 119.05,
+      "timestamp": 1782746880
+    },
+    {
+      "datetime": "2026-06-29T15:29:00Z",
+      "blockheight": 856088,
+      "estimated_leverage_ratio": 119.08,
+      "value": 119.08,
+      "timestamp": 1782746940
+    },
+    {
+      "datetime": "2026-06-29T15:30:00Z",
+      "blockheight": 856089,
+      "estimated_leverage_ratio": 119.11,
+      "value": 119.11,
+      "timestamp": 1782747000
+    },
+    {
+      "datetime": "2026-06-29T15:31:00Z",
+      "blockheight": 856090,
+      "estimated_leverage_ratio": 119.14,
+      "value": 119.14,
+      "timestamp": 1782747060
+    },
+    {
+      "datetime": "2026-06-29T15:32:00Z",
+      "blockheight": 856091,
+      "estimated_leverage_ratio": 119.17,
+      "value": 119.17,
+      "timestamp": 1782747120
+    },
+    {
+      "datetime": "2026-06-29T15:33:00Z",
+      "blockheight": 856092,
+      "estimated_leverage_ratio": 119.2,
+      "value": 119.2,
+      "timestamp": 1782747180
+    },
+    {
+      "datetime": "2026-06-29T15:34:00Z",
+      "blockheight": 856093,
+      "estimated_leverage_ratio": 119.23,
+      "value": 119.23,
+      "timestamp": 1782747240
+    },
+    {
+      "datetime": "2026-06-29T15:35:00Z",
+      "blockheight": 856094,
+      "estimated_leverage_ratio": 119.26,
+      "value": 119.26,
+      "timestamp": 1782747300
+    },
+    {
+      "datetime": "2026-06-29T15:36:00Z",
+      "blockheight": 856095,
+      "estimated_leverage_ratio": 119.29,
+      "value": 119.29,
+      "timestamp": 1782747360
+    },
+    {
+      "datetime": "2026-06-29T15:37:00Z",
+      "blockheight": 856096,
+      "estimated_leverage_ratio": 119.32,
+      "value": 119.32,
+      "timestamp": 1782747420
+    },
+    {
+      "datetime": "2026-06-29T15:38:00Z",
+      "blockheight": 856097,
+      "estimated_leverage_ratio": 119.35,
+      "value": 119.35,
+      "timestamp": 1782747480
+    },
+    {
+      "datetime": "2026-06-29T15:39:00Z",
+      "blockheight": 856098,
+      "estimated_leverage_ratio": 119.38,
+      "value": 119.38,
+      "timestamp": 1782747540
+    },
+    {
+      "datetime": "2026-06-29T15:40:00Z",
+      "blockheight": 856099,
+      "estimated_leverage_ratio": 119.41,
+      "value": 119.41,
+      "timestamp": 1782747600
+    },
+    {
+      "datetime": "2026-06-29T15:41:00Z",
+      "blockheight": 856100,
+      "estimated_leverage_ratio": 119.44,
+      "value": 119.44,
+      "timestamp": 1782747660
+    },
+    {
+      "datetime": "2026-06-29T15:42:00Z",
+      "blockheight": 856101,
+      "estimated_leverage_ratio": 119.47,
+      "value": 119.47,
+      "timestamp": 1782747720
+    },
+    {
+      "datetime": "2026-06-29T15:43:00Z",
+      "blockheight": 856102,
+      "estimated_leverage_ratio": 119.5,
+      "value": 119.5,
+      "timestamp": 1782747780
+    },
+    {
+      "datetime": "2026-06-29T15:44:00Z",
+      "blockheight": 856103,
+      "estimated_leverage_ratio": 119.53,
+      "value": 119.53,
+      "timestamp": 1782747840
+    },
+    {
+      "datetime": "2026-06-29T15:45:00Z",
+      "blockheight": 856104,
+      "estimated_leverage_ratio": 119.56,
+      "value": 119.56,
+      "timestamp": 1782747900
+    },
+    {
+      "datetime": "2026-06-29T15:46:00Z",
+      "blockheight": 856105,
+      "estimated_leverage_ratio": 119.59,
+      "value": 119.59,
+      "timestamp": 1782747960
+    },
+    {
+      "datetime": "2026-06-29T15:47:00Z",
+      "blockheight": 856106,
+      "estimated_leverage_ratio": 119.62,
+      "value": 119.62,
+      "timestamp": 1782748020
+    },
+    {
+      "datetime": "2026-06-29T15:48:00Z",
+      "blockheight": 856107,
+      "estimated_leverage_ratio": 119.65,
+      "value": 119.65,
+      "timestamp": 1782748080
+    },
+    {
+      "datetime": "2026-06-29T15:49:00Z",
+      "blockheight": 856108,
+      "estimated_leverage_ratio": 119.68,
+      "value": 119.68,
+      "timestamp": 1782748140
+    },
+    {
+      "datetime": "2026-06-29T15:50:00Z",
+      "blockheight": 856109,
+      "estimated_leverage_ratio": 119.71,
+      "value": 119.71,
+      "timestamp": 1782748200
+    },
+    {
+      "datetime": "2026-06-29T15:51:00Z",
+      "blockheight": 856110,
+      "estimated_leverage_ratio": 119.74,
+      "value": 119.74,
+      "timestamp": 1782748260
+    },
+    {
+      "datetime": "2026-06-29T15:52:00Z",
+      "blockheight": 856111,
+      "estimated_leverage_ratio": 119.77,
+      "value": 119.77,
+      "timestamp": 1782748320
+    },
+    {
+      "datetime": "2026-06-29T15:53:00Z",
+      "blockheight": 856112,
+      "estimated_leverage_ratio": 119.8,
+      "value": 119.8,
+      "timestamp": 1782748380
+    },
+    {
+      "datetime": "2026-06-29T15:54:00Z",
+      "blockheight": 856113,
+      "estimated_leverage_ratio": 119.83,
+      "value": 119.83,
+      "timestamp": 1782748440
+    },
+    {
+      "datetime": "2026-06-29T15:55:00Z",
+      "blockheight": 856114,
+      "estimated_leverage_ratio": 119.86,
+      "value": 119.86,
+      "timestamp": 1782748500
+    },
+    {
+      "datetime": "2026-06-29T15:56:00Z",
+      "blockheight": 856115,
+      "estimated_leverage_ratio": 119.89,
+      "value": 119.89,
+      "timestamp": 1782748560
+    },
+    {
+      "datetime": "2026-06-29T15:57:00Z",
+      "blockheight": 856116,
+      "estimated_leverage_ratio": 119.92,
+      "value": 119.92,
+      "timestamp": 1782748620
+    },
+    {
+      "datetime": "2026-06-29T15:58:00Z",
+      "blockheight": 856117,
+      "estimated_leverage_ratio": 119.95,
+      "value": 119.95,
+      "timestamp": 1782748680
+    },
+    {
+      "datetime": "2026-06-29T15:59:00Z",
+      "blockheight": 856118,
+      "estimated_leverage_ratio": 119.98,
+      "value": 119.98,
+      "timestamp": 1782748740
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856119,
+      "estimated_leverage_ratio": 120.01,
+      "value": 120.01,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T16:01:00Z",
+      "blockheight": 856120,
+      "estimated_leverage_ratio": 120.04,
+      "value": 120.04,
+      "timestamp": 1782748860
+    },
+    {
+      "datetime": "2026-06-29T16:02:00Z",
+      "blockheight": 856121,
+      "estimated_leverage_ratio": 120.07,
+      "value": 120.07,
+      "timestamp": 1782748920
+    },
+    {
+      "datetime": "2026-06-29T16:03:00Z",
+      "blockheight": 856122,
+      "estimated_leverage_ratio": 120.1,
+      "value": 120.1,
+      "timestamp": 1782748980
+    },
+    {
+      "datetime": "2026-06-29T16:04:00Z",
+      "blockheight": 856123,
+      "estimated_leverage_ratio": 120.13,
+      "value": 120.13,
+      "timestamp": 1782749040
+    },
+    {
+      "datetime": "2026-06-29T16:05:00Z",
+      "blockheight": 856124,
+      "estimated_leverage_ratio": 120.16,
+      "value": 120.16,
+      "timestamp": 1782749100
+    },
+    {
+      "datetime": "2026-06-29T16:06:00Z",
+      "blockheight": 856125,
+      "estimated_leverage_ratio": 120.19,
+      "value": 120.19,
+      "timestamp": 1782749160
+    },
+    {
+      "datetime": "2026-06-29T16:07:00Z",
+      "blockheight": 856126,
+      "estimated_leverage_ratio": 120.22,
+      "value": 120.22,
+      "timestamp": 1782749220
+    },
+    {
+      "datetime": "2026-06-29T16:08:00Z",
+      "blockheight": 856127,
+      "estimated_leverage_ratio": 120.25,
+      "value": 120.25,
+      "timestamp": 1782749280
+    },
+    {
+      "datetime": "2026-06-29T16:09:00Z",
+      "blockheight": 856128,
+      "estimated_leverage_ratio": 120.28,
+      "value": 120.28,
+      "timestamp": 1782749340
+    },
+    {
+      "datetime": "2026-06-29T16:10:00Z",
+      "blockheight": 856129,
+      "estimated_leverage_ratio": 120.31,
+      "value": 120.31,
+      "timestamp": 1782749400
+    },
+    {
+      "datetime": "2026-06-29T16:11:00Z",
+      "blockheight": 856130,
+      "estimated_leverage_ratio": 120.34,
+      "value": 120.34,
+      "timestamp": 1782749460
+    },
+    {
+      "datetime": "2026-06-29T16:12:00Z",
+      "blockheight": 856131,
+      "estimated_leverage_ratio": 120.37,
+      "value": 120.37,
+      "timestamp": 1782749520
+    },
+    {
+      "datetime": "2026-06-29T16:13:00Z",
+      "blockheight": 856132,
+      "estimated_leverage_ratio": 120.4,
+      "value": 120.4,
+      "timestamp": 1782749580
+    },
+    {
+      "datetime": "2026-06-29T16:14:00Z",
+      "blockheight": 856133,
+      "estimated_leverage_ratio": 120.43,
+      "value": 120.43,
+      "timestamp": 1782749640
+    },
+    {
+      "datetime": "2026-06-29T16:15:00Z",
+      "blockheight": 856134,
+      "estimated_leverage_ratio": 120.46,
+      "value": 120.46,
+      "timestamp": 1782749700
+    },
+    {
+      "datetime": "2026-06-29T16:16:00Z",
+      "blockheight": 856135,
+      "estimated_leverage_ratio": 120.49,
+      "value": 120.49,
+      "timestamp": 1782749760
+    },
+    {
+      "datetime": "2026-06-29T16:17:00Z",
+      "blockheight": 856136,
+      "estimated_leverage_ratio": 120.52,
+      "value": 120.52,
+      "timestamp": 1782749820
+    },
+    {
+      "datetime": "2026-06-29T16:18:00Z",
+      "blockheight": 856137,
+      "estimated_leverage_ratio": 120.55,
+      "value": 120.55,
+      "timestamp": 1782749880
+    },
+    {
+      "datetime": "2026-06-29T16:19:00Z",
+      "blockheight": 856138,
+      "estimated_leverage_ratio": 120.58,
+      "value": 120.58,
+      "timestamp": 1782749940
+    },
+    {
+      "datetime": "2026-06-29T16:20:00Z",
+      "blockheight": 856139,
+      "estimated_leverage_ratio": 120.61,
+      "value": 120.61,
+      "timestamp": 1782750000
+    },
+    {
+      "datetime": "2026-06-29T16:21:00Z",
+      "blockheight": 856140,
+      "estimated_leverage_ratio": 120.64,
+      "value": 120.64,
+      "timestamp": 1782750060
+    },
+    {
+      "datetime": "2026-06-29T16:22:00Z",
+      "blockheight": 856141,
+      "estimated_leverage_ratio": 120.67,
+      "value": 120.67,
+      "timestamp": 1782750120
+    },
+    {
+      "datetime": "2026-06-29T16:23:00Z",
+      "blockheight": 856142,
+      "estimated_leverage_ratio": 120.7,
+      "value": 120.7,
+      "timestamp": 1782750180
+    },
+    {
+      "datetime": "2026-06-29T16:24:00Z",
+      "blockheight": 856143,
+      "estimated_leverage_ratio": 120.73,
+      "value": 120.73,
+      "timestamp": 1782750240
+    },
+    {
+      "datetime": "2026-06-29T16:25:00Z",
+      "blockheight": 856144,
+      "estimated_leverage_ratio": 120.76,
+      "value": 120.76,
+      "timestamp": 1782750300
+    },
+    {
+      "datetime": "2026-06-29T16:26:00Z",
+      "blockheight": 856145,
+      "estimated_leverage_ratio": 120.79,
+      "value": 120.79,
+      "timestamp": 1782750360
+    },
+    {
+      "datetime": "2026-06-29T16:27:00Z",
+      "blockheight": 856146,
+      "estimated_leverage_ratio": 120.82,
+      "value": 120.82,
+      "timestamp": 1782750420
+    },
+    {
+      "datetime": "2026-06-29T16:28:00Z",
+      "blockheight": 856147,
+      "estimated_leverage_ratio": 120.85,
+      "value": 120.85,
+      "timestamp": 1782750480
+    },
+    {
+      "datetime": "2026-06-29T16:29:00Z",
+      "blockheight": 856148,
+      "estimated_leverage_ratio": 120.88,
+      "value": 120.88,
+      "timestamp": 1782750540
+    },
+    {
+      "datetime": "2026-06-29T16:30:00Z",
+      "blockheight": 856149,
+      "estimated_leverage_ratio": 120.91,
+      "value": 120.91,
+      "timestamp": 1782750600
+    },
+    {
+      "datetime": "2026-06-29T16:31:00Z",
+      "blockheight": 856150,
+      "estimated_leverage_ratio": 120.94,
+      "value": 120.94,
+      "timestamp": 1782750660
+    },
+    {
+      "datetime": "2026-06-29T16:32:00Z",
+      "blockheight": 856151,
+      "estimated_leverage_ratio": 120.97,
+      "value": 120.97,
+      "timestamp": 1782750720
+    },
+    {
+      "datetime": "2026-06-29T16:33:00Z",
+      "blockheight": 856152,
+      "estimated_leverage_ratio": 121.0,
+      "value": 121.0,
+      "timestamp": 1782750780
+    },
+    {
+      "datetime": "2026-06-29T16:34:00Z",
+      "blockheight": 856153,
+      "estimated_leverage_ratio": 121.03,
+      "value": 121.03,
+      "timestamp": 1782750840
+    },
+    {
+      "datetime": "2026-06-29T16:35:00Z",
+      "blockheight": 856154,
+      "estimated_leverage_ratio": 121.06,
+      "value": 121.06,
+      "timestamp": 1782750900
+    },
+    {
+      "datetime": "2026-06-29T16:36:00Z",
+      "blockheight": 856155,
+      "estimated_leverage_ratio": 121.09,
+      "value": 121.09,
+      "timestamp": 1782750960
+    },
+    {
+      "datetime": "2026-06-29T16:37:00Z",
+      "blockheight": 856156,
+      "estimated_leverage_ratio": 121.12,
+      "value": 121.12,
+      "timestamp": 1782751020
+    },
+    {
+      "datetime": "2026-06-29T16:38:00Z",
+      "blockheight": 856157,
+      "estimated_leverage_ratio": 121.15,
+      "value": 121.15,
+      "timestamp": 1782751080
+    },
+    {
+      "datetime": "2026-06-29T16:39:00Z",
+      "blockheight": 856158,
+      "estimated_leverage_ratio": 121.18,
+      "value": 121.18,
+      "timestamp": 1782751140
+    },
+    {
+      "datetime": "2026-06-29T16:40:00Z",
+      "blockheight": 856159,
+      "estimated_leverage_ratio": 121.21,
+      "value": 121.21,
+      "timestamp": 1782751200
+    },
+    {
+      "datetime": "2026-06-29T16:41:00Z",
+      "blockheight": 856160,
+      "estimated_leverage_ratio": 121.24,
+      "value": 121.24,
+      "timestamp": 1782751260
+    },
+    {
+      "datetime": "2026-06-29T16:42:00Z",
+      "blockheight": 856161,
+      "estimated_leverage_ratio": 121.27,
+      "value": 121.27,
+      "timestamp": 1782751320
+    },
+    {
+      "datetime": "2026-06-29T16:43:00Z",
+      "blockheight": 856162,
+      "estimated_leverage_ratio": 121.3,
+      "value": 121.3,
+      "timestamp": 1782751380
+    },
+    {
+      "datetime": "2026-06-29T16:44:00Z",
+      "blockheight": 856163,
+      "estimated_leverage_ratio": 121.33,
+      "value": 121.33,
+      "timestamp": 1782751440
+    },
+    {
+      "datetime": "2026-06-29T16:45:00Z",
+      "blockheight": 856164,
+      "estimated_leverage_ratio": 121.36,
+      "value": 121.36,
+      "timestamp": 1782751500
+    },
+    {
+      "datetime": "2026-06-29T16:46:00Z",
+      "blockheight": 856165,
+      "estimated_leverage_ratio": 121.39,
+      "value": 121.39,
+      "timestamp": 1782751560
+    },
+    {
+      "datetime": "2026-06-29T16:47:00Z",
+      "blockheight": 856166,
+      "estimated_leverage_ratio": 121.42,
+      "value": 121.42,
+      "timestamp": 1782751620
+    },
+    {
+      "datetime": "2026-06-29T16:48:00Z",
+      "blockheight": 856167,
+      "estimated_leverage_ratio": 121.45,
+      "value": 121.45,
+      "timestamp": 1782751680
+    },
+    {
+      "datetime": "2026-06-29T16:49:00Z",
+      "blockheight": 856168,
+      "estimated_leverage_ratio": 121.48,
+      "value": 121.48,
+      "timestamp": 1782751740
+    },
+    {
+      "datetime": "2026-06-29T16:50:00Z",
+      "blockheight": 856169,
+      "estimated_leverage_ratio": 121.51,
+      "value": 121.51,
+      "timestamp": 1782751800
+    },
+    {
+      "datetime": "2026-06-29T16:51:00Z",
+      "blockheight": 856170,
+      "estimated_leverage_ratio": 121.54,
+      "value": 121.54,
+      "timestamp": 1782751860
+    },
+    {
+      "datetime": "2026-06-29T16:52:00Z",
+      "blockheight": 856171,
+      "estimated_leverage_ratio": 121.57,
+      "value": 121.57,
+      "timestamp": 1782751920
+    },
+    {
+      "datetime": "2026-06-29T16:53:00Z",
+      "blockheight": 856172,
+      "estimated_leverage_ratio": 121.6,
+      "value": 121.6,
+      "timestamp": 1782751980
+    },
+    {
+      "datetime": "2026-06-29T16:54:00Z",
+      "blockheight": 856173,
+      "estimated_leverage_ratio": 121.63,
+      "value": 121.63,
+      "timestamp": 1782752040
+    },
+    {
+      "datetime": "2026-06-29T16:55:00Z",
+      "blockheight": 856174,
+      "estimated_leverage_ratio": 121.66,
+      "value": 121.66,
+      "timestamp": 1782752100
+    },
+    {
+      "datetime": "2026-06-29T16:56:00Z",
+      "blockheight": 856175,
+      "estimated_leverage_ratio": 121.69,
+      "value": 121.69,
+      "timestamp": 1782752160
+    },
+    {
+      "datetime": "2026-06-29T16:57:00Z",
+      "blockheight": 856176,
+      "estimated_leverage_ratio": 121.72,
+      "value": 121.72,
+      "timestamp": 1782752220
+    },
+    {
+      "datetime": "2026-06-29T16:58:00Z",
+      "blockheight": 856177,
+      "estimated_leverage_ratio": 121.75,
+      "value": 121.75,
+      "timestamp": 1782752280
+    },
+    {
+      "datetime": "2026-06-29T16:59:00Z",
+      "blockheight": 856178,
+      "estimated_leverage_ratio": 121.78,
+      "value": 121.78,
+      "timestamp": 1782752340
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856179,
+      "estimated_leverage_ratio": 121.81,
+      "value": 121.81,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T17:01:00Z",
+      "blockheight": 856180,
+      "estimated_leverage_ratio": 121.84,
+      "value": 121.84,
+      "timestamp": 1782752460
+    },
+    {
+      "datetime": "2026-06-29T17:02:00Z",
+      "blockheight": 856181,
+      "estimated_leverage_ratio": 121.87,
+      "value": 121.87,
+      "timestamp": 1782752520
+    },
+    {
+      "datetime": "2026-06-29T17:03:00Z",
+      "blockheight": 856182,
+      "estimated_leverage_ratio": 121.9,
+      "value": 121.9,
+      "timestamp": 1782752580
+    },
+    {
+      "datetime": "2026-06-29T17:04:00Z",
+      "blockheight": 856183,
+      "estimated_leverage_ratio": 121.93,
+      "value": 121.93,
+      "timestamp": 1782752640
+    },
+    {
+      "datetime": "2026-06-29T17:05:00Z",
+      "blockheight": 856184,
+      "estimated_leverage_ratio": 121.96,
+      "value": 121.96,
+      "timestamp": 1782752700
+    },
+    {
+      "datetime": "2026-06-29T17:06:00Z",
+      "blockheight": 856185,
+      "estimated_leverage_ratio": 121.99,
+      "value": 121.99,
+      "timestamp": 1782752760
+    },
+    {
+      "datetime": "2026-06-29T17:07:00Z",
+      "blockheight": 856186,
+      "estimated_leverage_ratio": 122.02,
+      "value": 122.02,
+      "timestamp": 1782752820
+    },
+    {
+      "datetime": "2026-06-29T17:08:00Z",
+      "blockheight": 856187,
+      "estimated_leverage_ratio": 122.05,
+      "value": 122.05,
+      "timestamp": 1782752880
+    },
+    {
+      "datetime": "2026-06-29T17:09:00Z",
+      "blockheight": 856188,
+      "estimated_leverage_ratio": 122.08,
+      "value": 122.08,
+      "timestamp": 1782752940
+    },
+    {
+      "datetime": "2026-06-29T17:10:00Z",
+      "blockheight": 856189,
+      "estimated_leverage_ratio": 122.11,
+      "value": 122.11,
+      "timestamp": 1782753000
+    },
+    {
+      "datetime": "2026-06-29T17:11:00Z",
+      "blockheight": 856190,
+      "estimated_leverage_ratio": 122.14,
+      "value": 122.14,
+      "timestamp": 1782753060
+    },
+    {
+      "datetime": "2026-06-29T17:12:00Z",
+      "blockheight": 856191,
+      "estimated_leverage_ratio": 122.17,
+      "value": 122.17,
+      "timestamp": 1782753120
+    },
+    {
+      "datetime": "2026-06-29T17:13:00Z",
+      "blockheight": 856192,
+      "estimated_leverage_ratio": 122.2,
+      "value": 122.2,
+      "timestamp": 1782753180
+    },
+    {
+      "datetime": "2026-06-29T17:14:00Z",
+      "blockheight": 856193,
+      "estimated_leverage_ratio": 122.23,
+      "value": 122.23,
+      "timestamp": 1782753240
+    },
+    {
+      "datetime": "2026-06-29T17:15:00Z",
+      "blockheight": 856194,
+      "estimated_leverage_ratio": 122.26,
+      "value": 122.26,
+      "timestamp": 1782753300
+    },
+    {
+      "datetime": "2026-06-29T17:16:00Z",
+      "blockheight": 856195,
+      "estimated_leverage_ratio": 122.29,
+      "value": 122.29,
+      "timestamp": 1782753360
+    },
+    {
+      "datetime": "2026-06-29T17:17:00Z",
+      "blockheight": 856196,
+      "estimated_leverage_ratio": 122.32,
+      "value": 122.32,
+      "timestamp": 1782753420
+    },
+    {
+      "datetime": "2026-06-29T17:18:00Z",
+      "blockheight": 856197,
+      "estimated_leverage_ratio": 122.35,
+      "value": 122.35,
+      "timestamp": 1782753480
+    },
+    {
+      "datetime": "2026-06-29T17:19:00Z",
+      "blockheight": 856198,
+      "estimated_leverage_ratio": 122.38,
+      "value": 122.38,
+      "timestamp": 1782753540
+    },
+    {
+      "datetime": "2026-06-29T17:20:00Z",
+      "blockheight": 856199,
+      "estimated_leverage_ratio": 122.41,
+      "value": 122.41,
+      "timestamp": 1782753600
+    },
+    {
+      "datetime": "2026-06-29T17:21:00Z",
+      "blockheight": 856200,
+      "estimated_leverage_ratio": 122.44,
+      "value": 122.44,
+      "timestamp": 1782753660
+    },
+    {
+      "datetime": "2026-06-29T17:22:00Z",
+      "blockheight": 856201,
+      "estimated_leverage_ratio": 122.47,
+      "value": 122.47,
+      "timestamp": 1782753720
+    },
+    {
+      "datetime": "2026-06-29T17:23:00Z",
+      "blockheight": 856202,
+      "estimated_leverage_ratio": 122.5,
+      "value": 122.5,
+      "timestamp": 1782753780
+    },
+    {
+      "datetime": "2026-06-29T17:24:00Z",
+      "blockheight": 856203,
+      "estimated_leverage_ratio": 122.53,
+      "value": 122.53,
+      "timestamp": 1782753840
+    },
+    {
+      "datetime": "2026-06-29T17:25:00Z",
+      "blockheight": 856204,
+      "estimated_leverage_ratio": 122.56,
+      "value": 122.56,
+      "timestamp": 1782753900
+    },
+    {
+      "datetime": "2026-06-29T17:26:00Z",
+      "blockheight": 856205,
+      "estimated_leverage_ratio": 122.59,
+      "value": 122.59,
+      "timestamp": 1782753960
+    },
+    {
+      "datetime": "2026-06-29T17:27:00Z",
+      "blockheight": 856206,
+      "estimated_leverage_ratio": 122.62,
+      "value": 122.62,
+      "timestamp": 1782754020
+    },
+    {
+      "datetime": "2026-06-29T17:28:00Z",
+      "blockheight": 856207,
+      "estimated_leverage_ratio": 122.65,
+      "value": 122.65,
+      "timestamp": 1782754080
+    },
+    {
+      "datetime": "2026-06-29T17:29:00Z",
+      "blockheight": 856208,
+      "estimated_leverage_ratio": 122.68,
+      "value": 122.68,
+      "timestamp": 1782754140
+    },
+    {
+      "datetime": "2026-06-29T17:30:00Z",
+      "blockheight": 856209,
+      "estimated_leverage_ratio": 122.71,
+      "value": 122.71,
+      "timestamp": 1782754200
+    },
+    {
+      "datetime": "2026-06-29T17:31:00Z",
+      "blockheight": 856210,
+      "estimated_leverage_ratio": 122.74,
+      "value": 122.74,
+      "timestamp": 1782754260
+    },
+    {
+      "datetime": "2026-06-29T17:32:00Z",
+      "blockheight": 856211,
+      "estimated_leverage_ratio": 122.77,
+      "value": 122.77,
+      "timestamp": 1782754320
+    },
+    {
+      "datetime": "2026-06-29T17:33:00Z",
+      "blockheight": 856212,
+      "estimated_leverage_ratio": 122.8,
+      "value": 122.8,
+      "timestamp": 1782754380
+    },
+    {
+      "datetime": "2026-06-29T17:34:00Z",
+      "blockheight": 856213,
+      "estimated_leverage_ratio": 122.83,
+      "value": 122.83,
+      "timestamp": 1782754440
+    },
+    {
+      "datetime": "2026-06-29T17:35:00Z",
+      "blockheight": 856214,
+      "estimated_leverage_ratio": 122.86,
+      "value": 122.86,
+      "timestamp": 1782754500
+    },
+    {
+      "datetime": "2026-06-29T17:36:00Z",
+      "blockheight": 856215,
+      "estimated_leverage_ratio": 122.89,
+      "value": 122.89,
+      "timestamp": 1782754560
+    },
+    {
+      "datetime": "2026-06-29T17:37:00Z",
+      "blockheight": 856216,
+      "estimated_leverage_ratio": 122.92,
+      "value": 122.92,
+      "timestamp": 1782754620
+    },
+    {
+      "datetime": "2026-06-29T17:38:00Z",
+      "blockheight": 856217,
+      "estimated_leverage_ratio": 122.95,
+      "value": 122.95,
+      "timestamp": 1782754680
+    },
+    {
+      "datetime": "2026-06-29T17:39:00Z",
+      "blockheight": 856218,
+      "estimated_leverage_ratio": 122.98,
+      "value": 122.98,
+      "timestamp": 1782754740
+    },
+    {
+      "datetime": "2026-06-29T17:40:00Z",
+      "blockheight": 856219,
+      "estimated_leverage_ratio": 123.01,
+      "value": 123.01,
+      "timestamp": 1782754800
+    },
+    {
+      "datetime": "2026-06-29T17:41:00Z",
+      "blockheight": 856220,
+      "estimated_leverage_ratio": 123.04,
+      "value": 123.04,
+      "timestamp": 1782754860
+    },
+    {
+      "datetime": "2026-06-29T17:42:00Z",
+      "blockheight": 856221,
+      "estimated_leverage_ratio": 123.07,
+      "value": 123.07,
+      "timestamp": 1782754920
+    },
+    {
+      "datetime": "2026-06-29T17:43:00Z",
+      "blockheight": 856222,
+      "estimated_leverage_ratio": 123.1,
+      "value": 123.1,
+      "timestamp": 1782754980
+    },
+    {
+      "datetime": "2026-06-29T17:44:00Z",
+      "blockheight": 856223,
+      "estimated_leverage_ratio": 123.13,
+      "value": 123.13,
+      "timestamp": 1782755040
+    },
+    {
+      "datetime": "2026-06-29T17:45:00Z",
+      "blockheight": 856224,
+      "estimated_leverage_ratio": 123.16,
+      "value": 123.16,
+      "timestamp": 1782755100
+    },
+    {
+      "datetime": "2026-06-29T17:46:00Z",
+      "blockheight": 856225,
+      "estimated_leverage_ratio": 123.19,
+      "value": 123.19,
+      "timestamp": 1782755160
+    },
+    {
+      "datetime": "2026-06-29T17:47:00Z",
+      "blockheight": 856226,
+      "estimated_leverage_ratio": 123.22,
+      "value": 123.22,
+      "timestamp": 1782755220
+    },
+    {
+      "datetime": "2026-06-29T17:48:00Z",
+      "blockheight": 856227,
+      "estimated_leverage_ratio": 123.25,
+      "value": 123.25,
+      "timestamp": 1782755280
+    },
+    {
+      "datetime": "2026-06-29T17:49:00Z",
+      "blockheight": 856228,
+      "estimated_leverage_ratio": 123.28,
+      "value": 123.28,
+      "timestamp": 1782755340
+    },
+    {
+      "datetime": "2026-06-29T17:50:00Z",
+      "blockheight": 856229,
+      "estimated_leverage_ratio": 123.31,
+      "value": 123.31,
+      "timestamp": 1782755400
+    },
+    {
+      "datetime": "2026-06-29T17:51:00Z",
+      "blockheight": 856230,
+      "estimated_leverage_ratio": 123.34,
+      "value": 123.34,
+      "timestamp": 1782755460
+    },
+    {
+      "datetime": "2026-06-29T17:52:00Z",
+      "blockheight": 856231,
+      "estimated_leverage_ratio": 123.37,
+      "value": 123.37,
+      "timestamp": 1782755520
+    },
+    {
+      "datetime": "2026-06-29T17:53:00Z",
+      "blockheight": 856232,
+      "estimated_leverage_ratio": 123.4,
+      "value": 123.4,
+      "timestamp": 1782755580
+    },
+    {
+      "datetime": "2026-06-29T17:54:00Z",
+      "blockheight": 856233,
+      "estimated_leverage_ratio": 123.43,
+      "value": 123.43,
+      "timestamp": 1782755640
+    },
+    {
+      "datetime": "2026-06-29T17:55:00Z",
+      "blockheight": 856234,
+      "estimated_leverage_ratio": 123.46,
+      "value": 123.46,
+      "timestamp": 1782755700
+    },
+    {
+      "datetime": "2026-06-29T17:56:00Z",
+      "blockheight": 856235,
+      "estimated_leverage_ratio": 123.49,
+      "value": 123.49,
+      "timestamp": 1782755760
+    },
+    {
+      "datetime": "2026-06-29T17:57:00Z",
+      "blockheight": 856236,
+      "estimated_leverage_ratio": 123.52,
+      "value": 123.52,
+      "timestamp": 1782755820
+    },
+    {
+      "datetime": "2026-06-29T17:58:00Z",
+      "blockheight": 856237,
+      "estimated_leverage_ratio": 123.55,
+      "value": 123.55,
+      "timestamp": 1782755880
+    },
+    {
+      "datetime": "2026-06-29T17:59:00Z",
+      "blockheight": 856238,
+      "estimated_leverage_ratio": 123.58,
+      "value": 123.58,
+      "timestamp": 1782755940
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856239,
+      "estimated_leverage_ratio": 123.61,
+      "value": 123.61,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T18:01:00Z",
+      "blockheight": 856240,
+      "estimated_leverage_ratio": 123.64,
+      "value": 123.64,
+      "timestamp": 1782756060
+    },
+    {
+      "datetime": "2026-06-29T18:02:00Z",
+      "blockheight": 856241,
+      "estimated_leverage_ratio": 123.67,
+      "value": 123.67,
+      "timestamp": 1782756120
+    },
+    {
+      "datetime": "2026-06-29T18:03:00Z",
+      "blockheight": 856242,
+      "estimated_leverage_ratio": 123.7,
+      "value": 123.7,
+      "timestamp": 1782756180
+    },
+    {
+      "datetime": "2026-06-29T18:04:00Z",
+      "blockheight": 856243,
+      "estimated_leverage_ratio": 123.73,
+      "value": 123.73,
+      "timestamp": 1782756240
+    },
+    {
+      "datetime": "2026-06-29T18:05:00Z",
+      "blockheight": 856244,
+      "estimated_leverage_ratio": 123.76,
+      "value": 123.76,
+      "timestamp": 1782756300
+    },
+    {
+      "datetime": "2026-06-29T18:06:00Z",
+      "blockheight": 856245,
+      "estimated_leverage_ratio": 123.79,
+      "value": 123.79,
+      "timestamp": 1782756360
+    },
+    {
+      "datetime": "2026-06-29T18:07:00Z",
+      "blockheight": 856246,
+      "estimated_leverage_ratio": 123.82,
+      "value": 123.82,
+      "timestamp": 1782756420
+    },
+    {
+      "datetime": "2026-06-29T18:08:00Z",
+      "blockheight": 856247,
+      "estimated_leverage_ratio": 123.85,
+      "value": 123.85,
+      "timestamp": 1782756480
+    },
+    {
+      "datetime": "2026-06-29T18:09:00Z",
+      "blockheight": 856248,
+      "estimated_leverage_ratio": 123.88,
+      "value": 123.88,
+      "timestamp": 1782756540
+    },
+    {
+      "datetime": "2026-06-29T18:10:00Z",
+      "blockheight": 856249,
+      "estimated_leverage_ratio": 123.91,
+      "value": 123.91,
+      "timestamp": 1782756600
+    },
+    {
+      "datetime": "2026-06-29T18:11:00Z",
+      "blockheight": 856250,
+      "estimated_leverage_ratio": 123.94,
+      "value": 123.94,
+      "timestamp": 1782756660
+    },
+    {
+      "datetime": "2026-06-29T18:12:00Z",
+      "blockheight": 856251,
+      "estimated_leverage_ratio": 123.97,
+      "value": 123.97,
+      "timestamp": 1782756720
+    },
+    {
+      "datetime": "2026-06-29T18:13:00Z",
+      "blockheight": 856252,
+      "estimated_leverage_ratio": 124.0,
+      "value": 124.0,
+      "timestamp": 1782756780
+    },
+    {
+      "datetime": "2026-06-29T18:14:00Z",
+      "blockheight": 856253,
+      "estimated_leverage_ratio": 124.03,
+      "value": 124.03,
+      "timestamp": 1782756840
+    },
+    {
+      "datetime": "2026-06-29T18:15:00Z",
+      "blockheight": 856254,
+      "estimated_leverage_ratio": 124.06,
+      "value": 124.06,
+      "timestamp": 1782756900
+    },
+    {
+      "datetime": "2026-06-29T18:16:00Z",
+      "blockheight": 856255,
+      "estimated_leverage_ratio": 124.09,
+      "value": 124.09,
+      "timestamp": 1782756960
+    },
+    {
+      "datetime": "2026-06-29T18:17:00Z",
+      "blockheight": 856256,
+      "estimated_leverage_ratio": 124.12,
+      "value": 124.12,
+      "timestamp": 1782757020
+    },
+    {
+      "datetime": "2026-06-29T18:18:00Z",
+      "blockheight": 856257,
+      "estimated_leverage_ratio": 124.15,
+      "value": 124.15,
+      "timestamp": 1782757080
+    },
+    {
+      "datetime": "2026-06-29T18:19:00Z",
+      "blockheight": 856258,
+      "estimated_leverage_ratio": 124.18,
+      "value": 124.18,
+      "timestamp": 1782757140
+    },
+    {
+      "datetime": "2026-06-29T18:20:00Z",
+      "blockheight": 856259,
+      "estimated_leverage_ratio": 124.21,
+      "value": 124.21,
+      "timestamp": 1782757200
+    },
+    {
+      "datetime": "2026-06-29T18:21:00Z",
+      "blockheight": 856260,
+      "estimated_leverage_ratio": 124.24,
+      "value": 124.24,
+      "timestamp": 1782757260
+    },
+    {
+      "datetime": "2026-06-29T18:22:00Z",
+      "blockheight": 856261,
+      "estimated_leverage_ratio": 124.27,
+      "value": 124.27,
+      "timestamp": 1782757320
+    },
+    {
+      "datetime": "2026-06-29T18:23:00Z",
+      "blockheight": 856262,
+      "estimated_leverage_ratio": 124.3,
+      "value": 124.3,
+      "timestamp": 1782757380
+    },
+    {
+      "datetime": "2026-06-29T18:24:00Z",
+      "blockheight": 856263,
+      "estimated_leverage_ratio": 124.33,
+      "value": 124.33,
+      "timestamp": 1782757440
+    },
+    {
+      "datetime": "2026-06-29T18:25:00Z",
+      "blockheight": 856264,
+      "estimated_leverage_ratio": 124.36,
+      "value": 124.36,
+      "timestamp": 1782757500
+    },
+    {
+      "datetime": "2026-06-29T18:26:00Z",
+      "blockheight": 856265,
+      "estimated_leverage_ratio": 124.39,
+      "value": 124.39,
+      "timestamp": 1782757560
+    },
+    {
+      "datetime": "2026-06-29T18:27:00Z",
+      "blockheight": 856266,
+      "estimated_leverage_ratio": 124.42,
+      "value": 124.42,
+      "timestamp": 1782757620
+    },
+    {
+      "datetime": "2026-06-29T18:28:00Z",
+      "blockheight": 856267,
+      "estimated_leverage_ratio": 124.45,
+      "value": 124.45,
+      "timestamp": 1782757680
+    },
+    {
+      "datetime": "2026-06-29T18:29:00Z",
+      "blockheight": 856268,
+      "estimated_leverage_ratio": 124.48,
+      "value": 124.48,
+      "timestamp": 1782757740
+    },
+    {
+      "datetime": "2026-06-29T18:30:00Z",
+      "blockheight": 856269,
+      "estimated_leverage_ratio": 124.51,
+      "value": 124.51,
+      "timestamp": 1782757800
+    },
+    {
+      "datetime": "2026-06-29T18:31:00Z",
+      "blockheight": 856270,
+      "estimated_leverage_ratio": 124.54,
+      "value": 124.54,
+      "timestamp": 1782757860
+    },
+    {
+      "datetime": "2026-06-29T18:32:00Z",
+      "blockheight": 856271,
+      "estimated_leverage_ratio": 124.57,
+      "value": 124.57,
+      "timestamp": 1782757920
+    },
+    {
+      "datetime": "2026-06-29T18:33:00Z",
+      "blockheight": 856272,
+      "estimated_leverage_ratio": 124.6,
+      "value": 124.6,
+      "timestamp": 1782757980
+    },
+    {
+      "datetime": "2026-06-29T18:34:00Z",
+      "blockheight": 856273,
+      "estimated_leverage_ratio": 124.63,
+      "value": 124.63,
+      "timestamp": 1782758040
+    },
+    {
+      "datetime": "2026-06-29T18:35:00Z",
+      "blockheight": 856274,
+      "estimated_leverage_ratio": 124.66,
+      "value": 124.66,
+      "timestamp": 1782758100
+    },
+    {
+      "datetime": "2026-06-29T18:36:00Z",
+      "blockheight": 856275,
+      "estimated_leverage_ratio": 124.69,
+      "value": 124.69,
+      "timestamp": 1782758160
+    },
+    {
+      "datetime": "2026-06-29T18:37:00Z",
+      "blockheight": 856276,
+      "estimated_leverage_ratio": 124.72,
+      "value": 124.72,
+      "timestamp": 1782758220
+    },
+    {
+      "datetime": "2026-06-29T18:38:00Z",
+      "blockheight": 856277,
+      "estimated_leverage_ratio": 124.75,
+      "value": 124.75,
+      "timestamp": 1782758280
+    },
+    {
+      "datetime": "2026-06-29T18:39:00Z",
+      "blockheight": 856278,
+      "estimated_leverage_ratio": 124.78,
+      "value": 124.78,
+      "timestamp": 1782758340
+    },
+    {
+      "datetime": "2026-06-29T18:40:00Z",
+      "blockheight": 856279,
+      "estimated_leverage_ratio": 124.81,
+      "value": 124.81,
+      "timestamp": 1782758400
+    },
+    {
+      "datetime": "2026-06-29T18:41:00Z",
+      "blockheight": 856280,
+      "estimated_leverage_ratio": 124.84,
+      "value": 124.84,
+      "timestamp": 1782758460
+    },
+    {
+      "datetime": "2026-06-29T18:42:00Z",
+      "blockheight": 856281,
+      "estimated_leverage_ratio": 124.87,
+      "value": 124.87,
+      "timestamp": 1782758520
+    },
+    {
+      "datetime": "2026-06-29T18:43:00Z",
+      "blockheight": 856282,
+      "estimated_leverage_ratio": 124.9,
+      "value": 124.9,
+      "timestamp": 1782758580
+    },
+    {
+      "datetime": "2026-06-29T18:44:00Z",
+      "blockheight": 856283,
+      "estimated_leverage_ratio": 124.93,
+      "value": 124.93,
+      "timestamp": 1782758640
+    },
+    {
+      "datetime": "2026-06-29T18:45:00Z",
+      "blockheight": 856284,
+      "estimated_leverage_ratio": 124.96,
+      "value": 124.96,
+      "timestamp": 1782758700
+    },
+    {
+      "datetime": "2026-06-29T18:46:00Z",
+      "blockheight": 856285,
+      "estimated_leverage_ratio": 124.99,
+      "value": 124.99,
+      "timestamp": 1782758760
+    },
+    {
+      "datetime": "2026-06-29T18:47:00Z",
+      "blockheight": 856286,
+      "estimated_leverage_ratio": 125.02,
+      "value": 125.02,
+      "timestamp": 1782758820
+    },
+    {
+      "datetime": "2026-06-29T18:48:00Z",
+      "blockheight": 856287,
+      "estimated_leverage_ratio": 125.05,
+      "value": 125.05,
+      "timestamp": 1782758880
+    },
+    {
+      "datetime": "2026-06-29T18:49:00Z",
+      "blockheight": 856288,
+      "estimated_leverage_ratio": 125.08,
+      "value": 125.08,
+      "timestamp": 1782758940
+    },
+    {
+      "datetime": "2026-06-29T18:50:00Z",
+      "blockheight": 856289,
+      "estimated_leverage_ratio": 125.11,
+      "value": 125.11,
+      "timestamp": 1782759000
+    },
+    {
+      "datetime": "2026-06-29T18:51:00Z",
+      "blockheight": 856290,
+      "estimated_leverage_ratio": 125.14,
+      "value": 125.14,
+      "timestamp": 1782759060
+    },
+    {
+      "datetime": "2026-06-29T18:52:00Z",
+      "blockheight": 856291,
+      "estimated_leverage_ratio": 125.17,
+      "value": 125.17,
+      "timestamp": 1782759120
+    },
+    {
+      "datetime": "2026-06-29T18:53:00Z",
+      "blockheight": 856292,
+      "estimated_leverage_ratio": 125.2,
+      "value": 125.2,
+      "timestamp": 1782759180
+    },
+    {
+      "datetime": "2026-06-29T18:54:00Z",
+      "blockheight": 856293,
+      "estimated_leverage_ratio": 125.23,
+      "value": 125.23,
+      "timestamp": 1782759240
+    },
+    {
+      "datetime": "2026-06-29T18:55:00Z",
+      "blockheight": 856294,
+      "estimated_leverage_ratio": 125.26,
+      "value": 125.26,
+      "timestamp": 1782759300
+    },
+    {
+      "datetime": "2026-06-29T18:56:00Z",
+      "blockheight": 856295,
+      "estimated_leverage_ratio": 125.29,
+      "value": 125.29,
+      "timestamp": 1782759360
+    },
+    {
+      "datetime": "2026-06-29T18:57:00Z",
+      "blockheight": 856296,
+      "estimated_leverage_ratio": 125.32,
+      "value": 125.32,
+      "timestamp": 1782759420
+    },
+    {
+      "datetime": "2026-06-29T18:58:00Z",
+      "blockheight": 856297,
+      "estimated_leverage_ratio": 125.35,
+      "value": 125.35,
+      "timestamp": 1782759480
+    },
+    {
+      "datetime": "2026-06-29T18:59:00Z",
+      "blockheight": 856298,
+      "estimated_leverage_ratio": 125.38,
+      "value": 125.38,
+      "timestamp": 1782759540
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856299,
+      "estimated_leverage_ratio": 125.41,
+      "value": 125.41,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T19:01:00Z",
+      "blockheight": 856300,
+      "estimated_leverage_ratio": 125.44,
+      "value": 125.44,
+      "timestamp": 1782759660
+    },
+    {
+      "datetime": "2026-06-29T19:02:00Z",
+      "blockheight": 856301,
+      "estimated_leverage_ratio": 125.47,
+      "value": 125.47,
+      "timestamp": 1782759720
+    },
+    {
+      "datetime": "2026-06-29T19:03:00Z",
+      "blockheight": 856302,
+      "estimated_leverage_ratio": 125.5,
+      "value": 125.5,
+      "timestamp": 1782759780
+    },
+    {
+      "datetime": "2026-06-29T19:04:00Z",
+      "blockheight": 856303,
+      "estimated_leverage_ratio": 125.53,
+      "value": 125.53,
+      "timestamp": 1782759840
+    },
+    {
+      "datetime": "2026-06-29T19:05:00Z",
+      "blockheight": 856304,
+      "estimated_leverage_ratio": 125.56,
+      "value": 125.56,
+      "timestamp": 1782759900
+    },
+    {
+      "datetime": "2026-06-29T19:06:00Z",
+      "blockheight": 856305,
+      "estimated_leverage_ratio": 125.59,
+      "value": 125.59,
+      "timestamp": 1782759960
+    },
+    {
+      "datetime": "2026-06-29T19:07:00Z",
+      "blockheight": 856306,
+      "estimated_leverage_ratio": 125.62,
+      "value": 125.62,
+      "timestamp": 1782760020
+    },
+    {
+      "datetime": "2026-06-29T19:08:00Z",
+      "blockheight": 856307,
+      "estimated_leverage_ratio": 125.65,
+      "value": 125.65,
+      "timestamp": 1782760080
+    },
+    {
+      "datetime": "2026-06-29T19:09:00Z",
+      "blockheight": 856308,
+      "estimated_leverage_ratio": 125.68,
+      "value": 125.68,
+      "timestamp": 1782760140
+    },
+    {
+      "datetime": "2026-06-29T19:10:00Z",
+      "blockheight": 856309,
+      "estimated_leverage_ratio": 125.71,
+      "value": 125.71,
+      "timestamp": 1782760200
+    },
+    {
+      "datetime": "2026-06-29T19:11:00Z",
+      "blockheight": 856310,
+      "estimated_leverage_ratio": 125.74,
+      "value": 125.74,
+      "timestamp": 1782760260
+    },
+    {
+      "datetime": "2026-06-29T19:12:00Z",
+      "blockheight": 856311,
+      "estimated_leverage_ratio": 125.77,
+      "value": 125.77,
+      "timestamp": 1782760320
+    },
+    {
+      "datetime": "2026-06-29T19:13:00Z",
+      "blockheight": 856312,
+      "estimated_leverage_ratio": 125.8,
+      "value": 125.8,
+      "timestamp": 1782760380
+    },
+    {
+      "datetime": "2026-06-29T19:14:00Z",
+      "blockheight": 856313,
+      "estimated_leverage_ratio": 125.83,
+      "value": 125.83,
+      "timestamp": 1782760440
+    },
+    {
+      "datetime": "2026-06-29T19:15:00Z",
+      "blockheight": 856314,
+      "estimated_leverage_ratio": 125.86,
+      "value": 125.86,
+      "timestamp": 1782760500
+    },
+    {
+      "datetime": "2026-06-29T19:16:00Z",
+      "blockheight": 856315,
+      "estimated_leverage_ratio": 125.89,
+      "value": 125.89,
+      "timestamp": 1782760560
+    },
+    {
+      "datetime": "2026-06-29T19:17:00Z",
+      "blockheight": 856316,
+      "estimated_leverage_ratio": 125.92,
+      "value": 125.92,
+      "timestamp": 1782760620
+    },
+    {
+      "datetime": "2026-06-29T19:18:00Z",
+      "blockheight": 856317,
+      "estimated_leverage_ratio": 125.95,
+      "value": 125.95,
+      "timestamp": 1782760680
+    },
+    {
+      "datetime": "2026-06-29T19:19:00Z",
+      "blockheight": 856318,
+      "estimated_leverage_ratio": 125.98,
+      "value": 125.98,
+      "timestamp": 1782760740
+    },
+    {
+      "datetime": "2026-06-29T19:20:00Z",
+      "blockheight": 856319,
+      "estimated_leverage_ratio": 126.01,
+      "value": 126.01,
+      "timestamp": 1782760800
+    },
+    {
+      "datetime": "2026-06-29T19:21:00Z",
+      "blockheight": 856320,
+      "estimated_leverage_ratio": 126.04,
+      "value": 126.04,
+      "timestamp": 1782760860
+    },
+    {
+      "datetime": "2026-06-29T19:22:00Z",
+      "blockheight": 856321,
+      "estimated_leverage_ratio": 126.07,
+      "value": 126.07,
+      "timestamp": 1782760920
+    },
+    {
+      "datetime": "2026-06-29T19:23:00Z",
+      "blockheight": 856322,
+      "estimated_leverage_ratio": 126.1,
+      "value": 126.1,
+      "timestamp": 1782760980
+    },
+    {
+      "datetime": "2026-06-29T19:24:00Z",
+      "blockheight": 856323,
+      "estimated_leverage_ratio": 126.13,
+      "value": 126.13,
+      "timestamp": 1782761040
+    },
+    {
+      "datetime": "2026-06-29T19:25:00Z",
+      "blockheight": 856324,
+      "estimated_leverage_ratio": 126.16,
+      "value": 126.16,
+      "timestamp": 1782761100
+    },
+    {
+      "datetime": "2026-06-29T19:26:00Z",
+      "blockheight": 856325,
+      "estimated_leverage_ratio": 126.19,
+      "value": 126.19,
+      "timestamp": 1782761160
+    },
+    {
+      "datetime": "2026-06-29T19:27:00Z",
+      "blockheight": 856326,
+      "estimated_leverage_ratio": 126.22,
+      "value": 126.22,
+      "timestamp": 1782761220
+    },
+    {
+      "datetime": "2026-06-29T19:28:00Z",
+      "blockheight": 856327,
+      "estimated_leverage_ratio": 126.25,
+      "value": 126.25,
+      "timestamp": 1782761280
+    },
+    {
+      "datetime": "2026-06-29T19:29:00Z",
+      "blockheight": 856328,
+      "estimated_leverage_ratio": 126.28,
+      "value": 126.28,
+      "timestamp": 1782761340
+    },
+    {
+      "datetime": "2026-06-29T19:30:00Z",
+      "blockheight": 856329,
+      "estimated_leverage_ratio": 126.31,
+      "value": 126.31,
+      "timestamp": 1782761400
+    },
+    {
+      "datetime": "2026-06-29T19:31:00Z",
+      "blockheight": 856330,
+      "estimated_leverage_ratio": 126.34,
+      "value": 126.34,
+      "timestamp": 1782761460
+    },
+    {
+      "datetime": "2026-06-29T19:32:00Z",
+      "blockheight": 856331,
+      "estimated_leverage_ratio": 126.37,
+      "value": 126.37,
+      "timestamp": 1782761520
+    },
+    {
+      "datetime": "2026-06-29T19:33:00Z",
+      "blockheight": 856332,
+      "estimated_leverage_ratio": 126.4,
+      "value": 126.4,
+      "timestamp": 1782761580
+    },
+    {
+      "datetime": "2026-06-29T19:34:00Z",
+      "blockheight": 856333,
+      "estimated_leverage_ratio": 126.43,
+      "value": 126.43,
+      "timestamp": 1782761640
+    },
+    {
+      "datetime": "2026-06-29T19:35:00Z",
+      "blockheight": 856334,
+      "estimated_leverage_ratio": 126.46,
+      "value": 126.46,
+      "timestamp": 1782761700
+    },
+    {
+      "datetime": "2026-06-29T19:36:00Z",
+      "blockheight": 856335,
+      "estimated_leverage_ratio": 126.49,
+      "value": 126.49,
+      "timestamp": 1782761760
+    },
+    {
+      "datetime": "2026-06-29T19:37:00Z",
+      "blockheight": 856336,
+      "estimated_leverage_ratio": 126.52,
+      "value": 126.52,
+      "timestamp": 1782761820
+    },
+    {
+      "datetime": "2026-06-29T19:38:00Z",
+      "blockheight": 856337,
+      "estimated_leverage_ratio": 126.55,
+      "value": 126.55,
+      "timestamp": 1782761880
+    },
+    {
+      "datetime": "2026-06-29T19:39:00Z",
+      "blockheight": 856338,
+      "estimated_leverage_ratio": 126.58,
+      "value": 126.58,
+      "timestamp": 1782761940
+    },
+    {
+      "datetime": "2026-06-29T19:40:00Z",
+      "blockheight": 856339,
+      "estimated_leverage_ratio": 126.61,
+      "value": 126.61,
+      "timestamp": 1782762000
+    },
+    {
+      "datetime": "2026-06-29T19:41:00Z",
+      "blockheight": 856340,
+      "estimated_leverage_ratio": 126.64,
+      "value": 126.64,
+      "timestamp": 1782762060
+    },
+    {
+      "datetime": "2026-06-29T19:42:00Z",
+      "blockheight": 856341,
+      "estimated_leverage_ratio": 126.67,
+      "value": 126.67,
+      "timestamp": 1782762120
+    },
+    {
+      "datetime": "2026-06-29T19:43:00Z",
+      "blockheight": 856342,
+      "estimated_leverage_ratio": 126.7,
+      "value": 126.7,
+      "timestamp": 1782762180
+    },
+    {
+      "datetime": "2026-06-29T19:44:00Z",
+      "blockheight": 856343,
+      "estimated_leverage_ratio": 126.73,
+      "value": 126.73,
+      "timestamp": 1782762240
+    },
+    {
+      "datetime": "2026-06-29T19:45:00Z",
+      "blockheight": 856344,
+      "estimated_leverage_ratio": 126.76,
+      "value": 126.76,
+      "timestamp": 1782762300
+    },
+    {
+      "datetime": "2026-06-29T19:46:00Z",
+      "blockheight": 856345,
+      "estimated_leverage_ratio": 126.79,
+      "value": 126.79,
+      "timestamp": 1782762360
+    },
+    {
+      "datetime": "2026-06-29T19:47:00Z",
+      "blockheight": 856346,
+      "estimated_leverage_ratio": 126.82,
+      "value": 126.82,
+      "timestamp": 1782762420
+    },
+    {
+      "datetime": "2026-06-29T19:48:00Z",
+      "blockheight": 856347,
+      "estimated_leverage_ratio": 126.85,
+      "value": 126.85,
+      "timestamp": 1782762480
+    },
+    {
+      "datetime": "2026-06-29T19:49:00Z",
+      "blockheight": 856348,
+      "estimated_leverage_ratio": 126.88,
+      "value": 126.88,
+      "timestamp": 1782762540
+    },
+    {
+      "datetime": "2026-06-29T19:50:00Z",
+      "blockheight": 856349,
+      "estimated_leverage_ratio": 126.91,
+      "value": 126.91,
+      "timestamp": 1782762600
+    },
+    {
+      "datetime": "2026-06-29T19:51:00Z",
+      "blockheight": 856350,
+      "estimated_leverage_ratio": 126.94,
+      "value": 126.94,
+      "timestamp": 1782762660
+    },
+    {
+      "datetime": "2026-06-29T19:52:00Z",
+      "blockheight": 856351,
+      "estimated_leverage_ratio": 126.97,
+      "value": 126.97,
+      "timestamp": 1782762720
+    },
+    {
+      "datetime": "2026-06-29T19:53:00Z",
+      "blockheight": 856352,
+      "estimated_leverage_ratio": 127.0,
+      "value": 127.0,
+      "timestamp": 1782762780
+    },
+    {
+      "datetime": "2026-06-29T19:54:00Z",
+      "blockheight": 856353,
+      "estimated_leverage_ratio": 127.03,
+      "value": 127.03,
+      "timestamp": 1782762840
+    },
+    {
+      "datetime": "2026-06-29T19:55:00Z",
+      "blockheight": 856354,
+      "estimated_leverage_ratio": 127.06,
+      "value": 127.06,
+      "timestamp": 1782762900
+    },
+    {
+      "datetime": "2026-06-29T19:56:00Z",
+      "blockheight": 856355,
+      "estimated_leverage_ratio": 127.09,
+      "value": 127.09,
+      "timestamp": 1782762960
+    },
+    {
+      "datetime": "2026-06-29T19:57:00Z",
+      "blockheight": 856356,
+      "estimated_leverage_ratio": 127.12,
+      "value": 127.12,
+      "timestamp": 1782763020
+    },
+    {
+      "datetime": "2026-06-29T19:58:00Z",
+      "blockheight": 856357,
+      "estimated_leverage_ratio": 127.15,
+      "value": 127.15,
+      "timestamp": 1782763080
+    },
+    {
+      "datetime": "2026-06-29T19:59:00Z",
+      "blockheight": 856358,
+      "estimated_leverage_ratio": 127.18,
+      "value": 127.18,
+      "timestamp": 1782763140
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856359,
+      "estimated_leverage_ratio": 127.21,
+      "value": 127.21,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T20:01:00Z",
+      "blockheight": 856360,
+      "estimated_leverage_ratio": 127.24,
+      "value": 127.24,
+      "timestamp": 1782763260
+    },
+    {
+      "datetime": "2026-06-29T20:02:00Z",
+      "blockheight": 856361,
+      "estimated_leverage_ratio": 127.27,
+      "value": 127.27,
+      "timestamp": 1782763320
+    },
+    {
+      "datetime": "2026-06-29T20:03:00Z",
+      "blockheight": 856362,
+      "estimated_leverage_ratio": 127.3,
+      "value": 127.3,
+      "timestamp": 1782763380
+    },
+    {
+      "datetime": "2026-06-29T20:04:00Z",
+      "blockheight": 856363,
+      "estimated_leverage_ratio": 127.33,
+      "value": 127.33,
+      "timestamp": 1782763440
+    },
+    {
+      "datetime": "2026-06-29T20:05:00Z",
+      "blockheight": 856364,
+      "estimated_leverage_ratio": 127.36,
+      "value": 127.36,
+      "timestamp": 1782763500
+    },
+    {
+      "datetime": "2026-06-29T20:06:00Z",
+      "blockheight": 856365,
+      "estimated_leverage_ratio": 127.39,
+      "value": 127.39,
+      "timestamp": 1782763560
+    },
+    {
+      "datetime": "2026-06-29T20:07:00Z",
+      "blockheight": 856366,
+      "estimated_leverage_ratio": 127.42,
+      "value": 127.42,
+      "timestamp": 1782763620
+    },
+    {
+      "datetime": "2026-06-29T20:08:00Z",
+      "blockheight": 856367,
+      "estimated_leverage_ratio": 127.45,
+      "value": 127.45,
+      "timestamp": 1782763680
+    },
+    {
+      "datetime": "2026-06-29T20:09:00Z",
+      "blockheight": 856368,
+      "estimated_leverage_ratio": 127.48,
+      "value": 127.48,
+      "timestamp": 1782763740
+    },
+    {
+      "datetime": "2026-06-29T20:10:00Z",
+      "blockheight": 856369,
+      "estimated_leverage_ratio": 127.51,
+      "value": 127.51,
+      "timestamp": 1782763800
+    },
+    {
+      "datetime": "2026-06-29T20:11:00Z",
+      "blockheight": 856370,
+      "estimated_leverage_ratio": 127.54,
+      "value": 127.54,
+      "timestamp": 1782763860
+    },
+    {
+      "datetime": "2026-06-29T20:12:00Z",
+      "blockheight": 856371,
+      "estimated_leverage_ratio": 127.57,
+      "value": 127.57,
+      "timestamp": 1782763920
+    },
+    {
+      "datetime": "2026-06-29T20:13:00Z",
+      "blockheight": 856372,
+      "estimated_leverage_ratio": 127.6,
+      "value": 127.6,
+      "timestamp": 1782763980
+    },
+    {
+      "datetime": "2026-06-29T20:14:00Z",
+      "blockheight": 856373,
+      "estimated_leverage_ratio": 127.63,
+      "value": 127.63,
+      "timestamp": 1782764040
+    },
+    {
+      "datetime": "2026-06-29T20:15:00Z",
+      "blockheight": 856374,
+      "estimated_leverage_ratio": 127.66,
+      "value": 127.66,
+      "timestamp": 1782764100
+    },
+    {
+      "datetime": "2026-06-29T20:16:00Z",
+      "blockheight": 856375,
+      "estimated_leverage_ratio": 127.69,
+      "value": 127.69,
+      "timestamp": 1782764160
+    },
+    {
+      "datetime": "2026-06-29T20:17:00Z",
+      "blockheight": 856376,
+      "estimated_leverage_ratio": 127.72,
+      "value": 127.72,
+      "timestamp": 1782764220
+    },
+    {
+      "datetime": "2026-06-29T20:18:00Z",
+      "blockheight": 856377,
+      "estimated_leverage_ratio": 127.75,
+      "value": 127.75,
+      "timestamp": 1782764280
+    },
+    {
+      "datetime": "2026-06-29T20:19:00Z",
+      "blockheight": 856378,
+      "estimated_leverage_ratio": 127.78,
+      "value": 127.78,
+      "timestamp": 1782764340
+    },
+    {
+      "datetime": "2026-06-29T20:20:00Z",
+      "blockheight": 856379,
+      "estimated_leverage_ratio": 127.81,
+      "value": 127.81,
+      "timestamp": 1782764400
+    },
+    {
+      "datetime": "2026-06-29T20:21:00Z",
+      "blockheight": 856380,
+      "estimated_leverage_ratio": 127.84,
+      "value": 127.84,
+      "timestamp": 1782764460
+    },
+    {
+      "datetime": "2026-06-29T20:22:00Z",
+      "blockheight": 856381,
+      "estimated_leverage_ratio": 127.87,
+      "value": 127.87,
+      "timestamp": 1782764520
+    },
+    {
+      "datetime": "2026-06-29T20:23:00Z",
+      "blockheight": 856382,
+      "estimated_leverage_ratio": 127.9,
+      "value": 127.9,
+      "timestamp": 1782764580
+    },
+    {
+      "datetime": "2026-06-29T20:24:00Z",
+      "blockheight": 856383,
+      "estimated_leverage_ratio": 127.93,
+      "value": 127.93,
+      "timestamp": 1782764640
+    },
+    {
+      "datetime": "2026-06-29T20:25:00Z",
+      "blockheight": 856384,
+      "estimated_leverage_ratio": 127.96,
+      "value": 127.96,
+      "timestamp": 1782764700
+    },
+    {
+      "datetime": "2026-06-29T20:26:00Z",
+      "blockheight": 856385,
+      "estimated_leverage_ratio": 127.99,
+      "value": 127.99,
+      "timestamp": 1782764760
+    },
+    {
+      "datetime": "2026-06-29T20:27:00Z",
+      "blockheight": 856386,
+      "estimated_leverage_ratio": 128.02,
+      "value": 128.02,
+      "timestamp": 1782764820
+    },
+    {
+      "datetime": "2026-06-29T20:28:00Z",
+      "blockheight": 856387,
+      "estimated_leverage_ratio": 128.05,
+      "value": 128.05,
+      "timestamp": 1782764880
+    },
+    {
+      "datetime": "2026-06-29T20:29:00Z",
+      "blockheight": 856388,
+      "estimated_leverage_ratio": 128.08,
+      "value": 128.08,
+      "timestamp": 1782764940
+    },
+    {
+      "datetime": "2026-06-29T20:30:00Z",
+      "blockheight": 856389,
+      "estimated_leverage_ratio": 128.11,
+      "value": 128.11,
+      "timestamp": 1782765000
+    },
+    {
+      "datetime": "2026-06-29T20:31:00Z",
+      "blockheight": 856390,
+      "estimated_leverage_ratio": 128.14,
+      "value": 128.14,
+      "timestamp": 1782765060
+    },
+    {
+      "datetime": "2026-06-29T20:32:00Z",
+      "blockheight": 856391,
+      "estimated_leverage_ratio": 128.17,
+      "value": 128.17,
+      "timestamp": 1782765120
+    },
+    {
+      "datetime": "2026-06-29T20:33:00Z",
+      "blockheight": 856392,
+      "estimated_leverage_ratio": 128.2,
+      "value": 128.2,
+      "timestamp": 1782765180
+    },
+    {
+      "datetime": "2026-06-29T20:34:00Z",
+      "blockheight": 856393,
+      "estimated_leverage_ratio": 128.23,
+      "value": 128.23,
+      "timestamp": 1782765240
+    },
+    {
+      "datetime": "2026-06-29T20:35:00Z",
+      "blockheight": 856394,
+      "estimated_leverage_ratio": 128.26,
+      "value": 128.26,
+      "timestamp": 1782765300
+    },
+    {
+      "datetime": "2026-06-29T20:36:00Z",
+      "blockheight": 856395,
+      "estimated_leverage_ratio": 128.29,
+      "value": 128.29,
+      "timestamp": 1782765360
+    },
+    {
+      "datetime": "2026-06-29T20:37:00Z",
+      "blockheight": 856396,
+      "estimated_leverage_ratio": 128.32,
+      "value": 128.32,
+      "timestamp": 1782765420
+    },
+    {
+      "datetime": "2026-06-29T20:38:00Z",
+      "blockheight": 856397,
+      "estimated_leverage_ratio": 128.35,
+      "value": 128.35,
+      "timestamp": 1782765480
+    },
+    {
+      "datetime": "2026-06-29T20:39:00Z",
+      "blockheight": 856398,
+      "estimated_leverage_ratio": 128.38,
+      "value": 128.38,
+      "timestamp": 1782765540
+    },
+    {
+      "datetime": "2026-06-29T20:40:00Z",
+      "blockheight": 856399,
+      "estimated_leverage_ratio": 128.41,
+      "value": 128.41,
+      "timestamp": 1782765600
+    },
+    {
+      "datetime": "2026-06-29T20:41:00Z",
+      "blockheight": 856400,
+      "estimated_leverage_ratio": 128.44,
+      "value": 128.44,
+      "timestamp": 1782765660
+    },
+    {
+      "datetime": "2026-06-29T20:42:00Z",
+      "blockheight": 856401,
+      "estimated_leverage_ratio": 128.47,
+      "value": 128.47,
+      "timestamp": 1782765720
+    },
+    {
+      "datetime": "2026-06-29T20:43:00Z",
+      "blockheight": 856402,
+      "estimated_leverage_ratio": 128.5,
+      "value": 128.5,
+      "timestamp": 1782765780
+    },
+    {
+      "datetime": "2026-06-29T20:44:00Z",
+      "blockheight": 856403,
+      "estimated_leverage_ratio": 128.53,
+      "value": 128.53,
+      "timestamp": 1782765840
+    },
+    {
+      "datetime": "2026-06-29T20:45:00Z",
+      "blockheight": 856404,
+      "estimated_leverage_ratio": 128.56,
+      "value": 128.56,
+      "timestamp": 1782765900
+    },
+    {
+      "datetime": "2026-06-29T20:46:00Z",
+      "blockheight": 856405,
+      "estimated_leverage_ratio": 128.59,
+      "value": 128.59,
+      "timestamp": 1782765960
+    },
+    {
+      "datetime": "2026-06-29T20:47:00Z",
+      "blockheight": 856406,
+      "estimated_leverage_ratio": 128.62,
+      "value": 128.62,
+      "timestamp": 1782766020
+    },
+    {
+      "datetime": "2026-06-29T20:48:00Z",
+      "blockheight": 856407,
+      "estimated_leverage_ratio": 128.65,
+      "value": 128.65,
+      "timestamp": 1782766080
+    },
+    {
+      "datetime": "2026-06-29T20:49:00Z",
+      "blockheight": 856408,
+      "estimated_leverage_ratio": 128.68,
+      "value": 128.68,
+      "timestamp": 1782766140
+    },
+    {
+      "datetime": "2026-06-29T20:50:00Z",
+      "blockheight": 856409,
+      "estimated_leverage_ratio": 128.71,
+      "value": 128.71,
+      "timestamp": 1782766200
+    },
+    {
+      "datetime": "2026-06-29T20:51:00Z",
+      "blockheight": 856410,
+      "estimated_leverage_ratio": 128.74,
+      "value": 128.74,
+      "timestamp": 1782766260
+    },
+    {
+      "datetime": "2026-06-29T20:52:00Z",
+      "blockheight": 856411,
+      "estimated_leverage_ratio": 128.77,
+      "value": 128.77,
+      "timestamp": 1782766320
+    },
+    {
+      "datetime": "2026-06-29T20:53:00Z",
+      "blockheight": 856412,
+      "estimated_leverage_ratio": 128.8,
+      "value": 128.8,
+      "timestamp": 1782766380
+    },
+    {
+      "datetime": "2026-06-29T20:54:00Z",
+      "blockheight": 856413,
+      "estimated_leverage_ratio": 128.83,
+      "value": 128.83,
+      "timestamp": 1782766440
+    },
+    {
+      "datetime": "2026-06-29T20:55:00Z",
+      "blockheight": 856414,
+      "estimated_leverage_ratio": 128.86,
+      "value": 128.86,
+      "timestamp": 1782766500
+    },
+    {
+      "datetime": "2026-06-29T20:56:00Z",
+      "blockheight": 856415,
+      "estimated_leverage_ratio": 128.89,
+      "value": 128.89,
+      "timestamp": 1782766560
+    },
+    {
+      "datetime": "2026-06-29T20:57:00Z",
+      "blockheight": 856416,
+      "estimated_leverage_ratio": 128.92,
+      "value": 128.92,
+      "timestamp": 1782766620
+    },
+    {
+      "datetime": "2026-06-29T20:58:00Z",
+      "blockheight": 856417,
+      "estimated_leverage_ratio": 128.95,
+      "value": 128.95,
+      "timestamp": 1782766680
+    },
+    {
+      "datetime": "2026-06-29T20:59:00Z",
+      "blockheight": 856418,
+      "estimated_leverage_ratio": 128.98,
+      "value": 128.98,
+      "timestamp": 1782766740
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856419,
+      "estimated_leverage_ratio": 129.01,
+      "value": 129.01,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T21:01:00Z",
+      "blockheight": 856420,
+      "estimated_leverage_ratio": 129.04,
+      "value": 129.04,
+      "timestamp": 1782766860
+    },
+    {
+      "datetime": "2026-06-29T21:02:00Z",
+      "blockheight": 856421,
+      "estimated_leverage_ratio": 129.07,
+      "value": 129.07,
+      "timestamp": 1782766920
+    },
+    {
+      "datetime": "2026-06-29T21:03:00Z",
+      "blockheight": 856422,
+      "estimated_leverage_ratio": 129.1,
+      "value": 129.1,
+      "timestamp": 1782766980
+    },
+    {
+      "datetime": "2026-06-29T21:04:00Z",
+      "blockheight": 856423,
+      "estimated_leverage_ratio": 129.13,
+      "value": 129.13,
+      "timestamp": 1782767040
+    },
+    {
+      "datetime": "2026-06-29T21:05:00Z",
+      "blockheight": 856424,
+      "estimated_leverage_ratio": 129.16,
+      "value": 129.16,
+      "timestamp": 1782767100
+    },
+    {
+      "datetime": "2026-06-29T21:06:00Z",
+      "blockheight": 856425,
+      "estimated_leverage_ratio": 129.19,
+      "value": 129.19,
+      "timestamp": 1782767160
+    },
+    {
+      "datetime": "2026-06-29T21:07:00Z",
+      "blockheight": 856426,
+      "estimated_leverage_ratio": 129.22,
+      "value": 129.22,
+      "timestamp": 1782767220
+    },
+    {
+      "datetime": "2026-06-29T21:08:00Z",
+      "blockheight": 856427,
+      "estimated_leverage_ratio": 129.25,
+      "value": 129.25,
+      "timestamp": 1782767280
+    },
+    {
+      "datetime": "2026-06-29T21:09:00Z",
+      "blockheight": 856428,
+      "estimated_leverage_ratio": 129.28,
+      "value": 129.28,
+      "timestamp": 1782767340
+    },
+    {
+      "datetime": "2026-06-29T21:10:00Z",
+      "blockheight": 856429,
+      "estimated_leverage_ratio": 129.31,
+      "value": 129.31,
+      "timestamp": 1782767400
+    },
+    {
+      "datetime": "2026-06-29T21:11:00Z",
+      "blockheight": 856430,
+      "estimated_leverage_ratio": 129.34,
+      "value": 129.34,
+      "timestamp": 1782767460
+    },
+    {
+      "datetime": "2026-06-29T21:12:00Z",
+      "blockheight": 856431,
+      "estimated_leverage_ratio": 129.37,
+      "value": 129.37,
+      "timestamp": 1782767520
+    },
+    {
+      "datetime": "2026-06-29T21:13:00Z",
+      "blockheight": 856432,
+      "estimated_leverage_ratio": 129.4,
+      "value": 129.4,
+      "timestamp": 1782767580
+    },
+    {
+      "datetime": "2026-06-29T21:14:00Z",
+      "blockheight": 856433,
+      "estimated_leverage_ratio": 129.43,
+      "value": 129.43,
+      "timestamp": 1782767640
+    },
+    {
+      "datetime": "2026-06-29T21:15:00Z",
+      "blockheight": 856434,
+      "estimated_leverage_ratio": 129.46,
+      "value": 129.46,
+      "timestamp": 1782767700
+    },
+    {
+      "datetime": "2026-06-29T21:16:00Z",
+      "blockheight": 856435,
+      "estimated_leverage_ratio": 129.49,
+      "value": 129.49,
+      "timestamp": 1782767760
+    },
+    {
+      "datetime": "2026-06-29T21:17:00Z",
+      "blockheight": 856436,
+      "estimated_leverage_ratio": 129.52,
+      "value": 129.52,
+      "timestamp": 1782767820
+    },
+    {
+      "datetime": "2026-06-29T21:18:00Z",
+      "blockheight": 856437,
+      "estimated_leverage_ratio": 129.55,
+      "value": 129.55,
+      "timestamp": 1782767880
+    },
+    {
+      "datetime": "2026-06-29T21:19:00Z",
+      "blockheight": 856438,
+      "estimated_leverage_ratio": 129.58,
+      "value": 129.58,
+      "timestamp": 1782767940
+    },
+    {
+      "datetime": "2026-06-29T21:20:00Z",
+      "blockheight": 856439,
+      "estimated_leverage_ratio": 129.61,
+      "value": 129.61,
+      "timestamp": 1782768000
+    },
+    {
+      "datetime": "2026-06-29T21:21:00Z",
+      "blockheight": 856440,
+      "estimated_leverage_ratio": 129.64,
+      "value": 129.64,
+      "timestamp": 1782768060
+    },
+    {
+      "datetime": "2026-06-29T21:22:00Z",
+      "blockheight": 856441,
+      "estimated_leverage_ratio": 129.67,
+      "value": 129.67,
+      "timestamp": 1782768120
+    },
+    {
+      "datetime": "2026-06-29T21:23:00Z",
+      "blockheight": 856442,
+      "estimated_leverage_ratio": 129.7,
+      "value": 129.7,
+      "timestamp": 1782768180
+    },
+    {
+      "datetime": "2026-06-29T21:24:00Z",
+      "blockheight": 856443,
+      "estimated_leverage_ratio": 129.73,
+      "value": 129.73,
+      "timestamp": 1782768240
+    },
+    {
+      "datetime": "2026-06-29T21:25:00Z",
+      "blockheight": 856444,
+      "estimated_leverage_ratio": 129.76,
+      "value": 129.76,
+      "timestamp": 1782768300
+    },
+    {
+      "datetime": "2026-06-29T21:26:00Z",
+      "blockheight": 856445,
+      "estimated_leverage_ratio": 129.79,
+      "value": 129.79,
+      "timestamp": 1782768360
+    },
+    {
+      "datetime": "2026-06-29T21:27:00Z",
+      "blockheight": 856446,
+      "estimated_leverage_ratio": 129.82,
+      "value": 129.82,
+      "timestamp": 1782768420
+    },
+    {
+      "datetime": "2026-06-29T21:28:00Z",
+      "blockheight": 856447,
+      "estimated_leverage_ratio": 129.85,
+      "value": 129.85,
+      "timestamp": 1782768480
+    },
+    {
+      "datetime": "2026-06-29T21:29:00Z",
+      "blockheight": 856448,
+      "estimated_leverage_ratio": 129.88,
+      "value": 129.88,
+      "timestamp": 1782768540
+    },
+    {
+      "datetime": "2026-06-29T21:30:00Z",
+      "blockheight": 856449,
+      "estimated_leverage_ratio": 129.91,
+      "value": 129.91,
+      "timestamp": 1782768600
+    },
+    {
+      "datetime": "2026-06-29T21:31:00Z",
+      "blockheight": 856450,
+      "estimated_leverage_ratio": 129.94,
+      "value": 129.94,
+      "timestamp": 1782768660
+    },
+    {
+      "datetime": "2026-06-29T21:32:00Z",
+      "blockheight": 856451,
+      "estimated_leverage_ratio": 129.97,
+      "value": 129.97,
+      "timestamp": 1782768720
+    },
+    {
+      "datetime": "2026-06-29T21:33:00Z",
+      "blockheight": 856452,
+      "estimated_leverage_ratio": 130.0,
+      "value": 130.0,
+      "timestamp": 1782768780
+    },
+    {
+      "datetime": "2026-06-29T21:34:00Z",
+      "blockheight": 856453,
+      "estimated_leverage_ratio": 130.03,
+      "value": 130.03,
+      "timestamp": 1782768840
+    },
+    {
+      "datetime": "2026-06-29T21:35:00Z",
+      "blockheight": 856454,
+      "estimated_leverage_ratio": 130.06,
+      "value": 130.06,
+      "timestamp": 1782768900
+    },
+    {
+      "datetime": "2026-06-29T21:36:00Z",
+      "blockheight": 856455,
+      "estimated_leverage_ratio": 130.09,
+      "value": 130.09,
+      "timestamp": 1782768960
+    },
+    {
+      "datetime": "2026-06-29T21:37:00Z",
+      "blockheight": 856456,
+      "estimated_leverage_ratio": 130.12,
+      "value": 130.12,
+      "timestamp": 1782769020
+    },
+    {
+      "datetime": "2026-06-29T21:38:00Z",
+      "blockheight": 856457,
+      "estimated_leverage_ratio": 130.15,
+      "value": 130.15,
+      "timestamp": 1782769080
+    },
+    {
+      "datetime": "2026-06-29T21:39:00Z",
+      "blockheight": 856458,
+      "estimated_leverage_ratio": 130.18,
+      "value": 130.18,
+      "timestamp": 1782769140
+    },
+    {
+      "datetime": "2026-06-29T21:40:00Z",
+      "blockheight": 856459,
+      "estimated_leverage_ratio": 130.21,
+      "value": 130.21,
+      "timestamp": 1782769200
+    },
+    {
+      "datetime": "2026-06-29T21:41:00Z",
+      "blockheight": 856460,
+      "estimated_leverage_ratio": 130.24,
+      "value": 130.24,
+      "timestamp": 1782769260
+    },
+    {
+      "datetime": "2026-06-29T21:42:00Z",
+      "blockheight": 856461,
+      "estimated_leverage_ratio": 130.27,
+      "value": 130.27,
+      "timestamp": 1782769320
+    },
+    {
+      "datetime": "2026-06-29T21:43:00Z",
+      "blockheight": 856462,
+      "estimated_leverage_ratio": 130.3,
+      "value": 130.3,
+      "timestamp": 1782769380
+    },
+    {
+      "datetime": "2026-06-29T21:44:00Z",
+      "blockheight": 856463,
+      "estimated_leverage_ratio": 130.33,
+      "value": 130.33,
+      "timestamp": 1782769440
+    },
+    {
+      "datetime": "2026-06-29T21:45:00Z",
+      "blockheight": 856464,
+      "estimated_leverage_ratio": 130.36,
+      "value": 130.36,
+      "timestamp": 1782769500
+    },
+    {
+      "datetime": "2026-06-29T21:46:00Z",
+      "blockheight": 856465,
+      "estimated_leverage_ratio": 130.39,
+      "value": 130.39,
+      "timestamp": 1782769560
+    },
+    {
+      "datetime": "2026-06-29T21:47:00Z",
+      "blockheight": 856466,
+      "estimated_leverage_ratio": 130.42,
+      "value": 130.42,
+      "timestamp": 1782769620
+    },
+    {
+      "datetime": "2026-06-29T21:48:00Z",
+      "blockheight": 856467,
+      "estimated_leverage_ratio": 130.45,
+      "value": 130.45,
+      "timestamp": 1782769680
+    },
+    {
+      "datetime": "2026-06-29T21:49:00Z",
+      "blockheight": 856468,
+      "estimated_leverage_ratio": 130.48,
+      "value": 130.48,
+      "timestamp": 1782769740
+    },
+    {
+      "datetime": "2026-06-29T21:50:00Z",
+      "blockheight": 856469,
+      "estimated_leverage_ratio": 130.51,
+      "value": 130.51,
+      "timestamp": 1782769800
+    },
+    {
+      "datetime": "2026-06-29T21:51:00Z",
+      "blockheight": 856470,
+      "estimated_leverage_ratio": 130.54,
+      "value": 130.54,
+      "timestamp": 1782769860
+    },
+    {
+      "datetime": "2026-06-29T21:52:00Z",
+      "blockheight": 856471,
+      "estimated_leverage_ratio": 130.57,
+      "value": 130.57,
+      "timestamp": 1782769920
+    },
+    {
+      "datetime": "2026-06-29T21:53:00Z",
+      "blockheight": 856472,
+      "estimated_leverage_ratio": 130.6,
+      "value": 130.6,
+      "timestamp": 1782769980
+    },
+    {
+      "datetime": "2026-06-29T21:54:00Z",
+      "blockheight": 856473,
+      "estimated_leverage_ratio": 130.63,
+      "value": 130.63,
+      "timestamp": 1782770040
+    },
+    {
+      "datetime": "2026-06-29T21:55:00Z",
+      "blockheight": 856474,
+      "estimated_leverage_ratio": 130.66,
+      "value": 130.66,
+      "timestamp": 1782770100
+    },
+    {
+      "datetime": "2026-06-29T21:56:00Z",
+      "blockheight": 856475,
+      "estimated_leverage_ratio": 130.69,
+      "value": 130.69,
+      "timestamp": 1782770160
+    },
+    {
+      "datetime": "2026-06-29T21:57:00Z",
+      "blockheight": 856476,
+      "estimated_leverage_ratio": 130.72,
+      "value": 130.72,
+      "timestamp": 1782770220
+    },
+    {
+      "datetime": "2026-06-29T21:58:00Z",
+      "blockheight": 856477,
+      "estimated_leverage_ratio": 130.75,
+      "value": 130.75,
+      "timestamp": 1782770280
+    },
+    {
+      "datetime": "2026-06-29T21:59:00Z",
+      "blockheight": 856478,
+      "estimated_leverage_ratio": 130.78,
+      "value": 130.78,
+      "timestamp": 1782770340
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856479,
+      "estimated_leverage_ratio": 130.81,
+      "value": 130.81,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T22:01:00Z",
+      "blockheight": 856480,
+      "estimated_leverage_ratio": 130.84,
+      "value": 130.84,
+      "timestamp": 1782770460
+    },
+    {
+      "datetime": "2026-06-29T22:02:00Z",
+      "blockheight": 856481,
+      "estimated_leverage_ratio": 130.87,
+      "value": 130.87,
+      "timestamp": 1782770520
+    },
+    {
+      "datetime": "2026-06-29T22:03:00Z",
+      "blockheight": 856482,
+      "estimated_leverage_ratio": 130.9,
+      "value": 130.9,
+      "timestamp": 1782770580
+    },
+    {
+      "datetime": "2026-06-29T22:04:00Z",
+      "blockheight": 856483,
+      "estimated_leverage_ratio": 130.93,
+      "value": 130.93,
+      "timestamp": 1782770640
+    },
+    {
+      "datetime": "2026-06-29T22:05:00Z",
+      "blockheight": 856484,
+      "estimated_leverage_ratio": 130.96,
+      "value": 130.96,
+      "timestamp": 1782770700
+    },
+    {
+      "datetime": "2026-06-29T22:06:00Z",
+      "blockheight": 856485,
+      "estimated_leverage_ratio": 130.99,
+      "value": 130.99,
+      "timestamp": 1782770760
+    },
+    {
+      "datetime": "2026-06-29T22:07:00Z",
+      "blockheight": 856486,
+      "estimated_leverage_ratio": 131.02,
+      "value": 131.02,
+      "timestamp": 1782770820
+    },
+    {
+      "datetime": "2026-06-29T22:08:00Z",
+      "blockheight": 856487,
+      "estimated_leverage_ratio": 131.05,
+      "value": 131.05,
+      "timestamp": 1782770880
+    },
+    {
+      "datetime": "2026-06-29T22:09:00Z",
+      "blockheight": 856488,
+      "estimated_leverage_ratio": 131.08,
+      "value": 131.08,
+      "timestamp": 1782770940
+    },
+    {
+      "datetime": "2026-06-29T22:10:00Z",
+      "blockheight": 856489,
+      "estimated_leverage_ratio": 131.11,
+      "value": 131.11,
+      "timestamp": 1782771000
+    },
+    {
+      "datetime": "2026-06-29T22:11:00Z",
+      "blockheight": 856490,
+      "estimated_leverage_ratio": 131.14,
+      "value": 131.14,
+      "timestamp": 1782771060
+    },
+    {
+      "datetime": "2026-06-29T22:12:00Z",
+      "blockheight": 856491,
+      "estimated_leverage_ratio": 131.17,
+      "value": 131.17,
+      "timestamp": 1782771120
+    },
+    {
+      "datetime": "2026-06-29T22:13:00Z",
+      "blockheight": 856492,
+      "estimated_leverage_ratio": 131.2,
+      "value": 131.2,
+      "timestamp": 1782771180
+    },
+    {
+      "datetime": "2026-06-29T22:14:00Z",
+      "blockheight": 856493,
+      "estimated_leverage_ratio": 131.23,
+      "value": 131.23,
+      "timestamp": 1782771240
+    },
+    {
+      "datetime": "2026-06-29T22:15:00Z",
+      "blockheight": 856494,
+      "estimated_leverage_ratio": 131.26,
+      "value": 131.26,
+      "timestamp": 1782771300
+    },
+    {
+      "datetime": "2026-06-29T22:16:00Z",
+      "blockheight": 856495,
+      "estimated_leverage_ratio": 131.29,
+      "value": 131.29,
+      "timestamp": 1782771360
+    },
+    {
+      "datetime": "2026-06-29T22:17:00Z",
+      "blockheight": 856496,
+      "estimated_leverage_ratio": 131.32,
+      "value": 131.32,
+      "timestamp": 1782771420
+    },
+    {
+      "datetime": "2026-06-29T22:18:00Z",
+      "blockheight": 856497,
+      "estimated_leverage_ratio": 131.35,
+      "value": 131.35,
+      "timestamp": 1782771480
+    },
+    {
+      "datetime": "2026-06-29T22:19:00Z",
+      "blockheight": 856498,
+      "estimated_leverage_ratio": 131.38,
+      "value": 131.38,
+      "timestamp": 1782771540
+    },
+    {
+      "datetime": "2026-06-29T22:20:00Z",
+      "blockheight": 856499,
+      "estimated_leverage_ratio": 131.41,
+      "value": 131.41,
+      "timestamp": 1782771600
+    },
+    {
+      "datetime": "2026-06-29T22:21:00Z",
+      "blockheight": 856500,
+      "estimated_leverage_ratio": 131.44,
+      "value": 131.44,
+      "timestamp": 1782771660
+    },
+    {
+      "datetime": "2026-06-29T22:22:00Z",
+      "blockheight": 856501,
+      "estimated_leverage_ratio": 131.47,
+      "value": 131.47,
+      "timestamp": 1782771720
+    },
+    {
+      "datetime": "2026-06-29T22:23:00Z",
+      "blockheight": 856502,
+      "estimated_leverage_ratio": 131.5,
+      "value": 131.5,
+      "timestamp": 1782771780
+    },
+    {
+      "datetime": "2026-06-29T22:24:00Z",
+      "blockheight": 856503,
+      "estimated_leverage_ratio": 131.53,
+      "value": 131.53,
+      "timestamp": 1782771840
+    },
+    {
+      "datetime": "2026-06-29T22:25:00Z",
+      "blockheight": 856504,
+      "estimated_leverage_ratio": 131.56,
+      "value": 131.56,
+      "timestamp": 1782771900
+    },
+    {
+      "datetime": "2026-06-29T22:26:00Z",
+      "blockheight": 856505,
+      "estimated_leverage_ratio": 131.59,
+      "value": 131.59,
+      "timestamp": 1782771960
+    },
+    {
+      "datetime": "2026-06-29T22:27:00Z",
+      "blockheight": 856506,
+      "estimated_leverage_ratio": 131.62,
+      "value": 131.62,
+      "timestamp": 1782772020
+    },
+    {
+      "datetime": "2026-06-29T22:28:00Z",
+      "blockheight": 856507,
+      "estimated_leverage_ratio": 131.65,
+      "value": 131.65,
+      "timestamp": 1782772080
+    },
+    {
+      "datetime": "2026-06-29T22:29:00Z",
+      "blockheight": 856508,
+      "estimated_leverage_ratio": 131.68,
+      "value": 131.68,
+      "timestamp": 1782772140
+    },
+    {
+      "datetime": "2026-06-29T22:30:00Z",
+      "blockheight": 856509,
+      "estimated_leverage_ratio": 131.71,
+      "value": 131.71,
+      "timestamp": 1782772200
+    },
+    {
+      "datetime": "2026-06-29T22:31:00Z",
+      "blockheight": 856510,
+      "estimated_leverage_ratio": 131.74,
+      "value": 131.74,
+      "timestamp": 1782772260
+    },
+    {
+      "datetime": "2026-06-29T22:32:00Z",
+      "blockheight": 856511,
+      "estimated_leverage_ratio": 131.77,
+      "value": 131.77,
+      "timestamp": 1782772320
+    },
+    {
+      "datetime": "2026-06-29T22:33:00Z",
+      "blockheight": 856512,
+      "estimated_leverage_ratio": 131.8,
+      "value": 131.8,
+      "timestamp": 1782772380
+    },
+    {
+      "datetime": "2026-06-29T22:34:00Z",
+      "blockheight": 856513,
+      "estimated_leverage_ratio": 131.83,
+      "value": 131.83,
+      "timestamp": 1782772440
+    },
+    {
+      "datetime": "2026-06-29T22:35:00Z",
+      "blockheight": 856514,
+      "estimated_leverage_ratio": 131.86,
+      "value": 131.86,
+      "timestamp": 1782772500
+    },
+    {
+      "datetime": "2026-06-29T22:36:00Z",
+      "blockheight": 856515,
+      "estimated_leverage_ratio": 131.89,
+      "value": 131.89,
+      "timestamp": 1782772560
+    },
+    {
+      "datetime": "2026-06-29T22:37:00Z",
+      "blockheight": 856516,
+      "estimated_leverage_ratio": 131.92,
+      "value": 131.92,
+      "timestamp": 1782772620
+    },
+    {
+      "datetime": "2026-06-29T22:38:00Z",
+      "blockheight": 856517,
+      "estimated_leverage_ratio": 131.95,
+      "value": 131.95,
+      "timestamp": 1782772680
+    },
+    {
+      "datetime": "2026-06-29T22:39:00Z",
+      "blockheight": 856518,
+      "estimated_leverage_ratio": 131.98,
+      "value": 131.98,
+      "timestamp": 1782772740
+    },
+    {
+      "datetime": "2026-06-29T22:40:00Z",
+      "blockheight": 856519,
+      "estimated_leverage_ratio": 132.01,
+      "value": 132.01,
+      "timestamp": 1782772800
+    },
+    {
+      "datetime": "2026-06-29T22:41:00Z",
+      "blockheight": 856520,
+      "estimated_leverage_ratio": 132.04,
+      "value": 132.04,
+      "timestamp": 1782772860
+    },
+    {
+      "datetime": "2026-06-29T22:42:00Z",
+      "blockheight": 856521,
+      "estimated_leverage_ratio": 132.07,
+      "value": 132.07,
+      "timestamp": 1782772920
+    },
+    {
+      "datetime": "2026-06-29T22:43:00Z",
+      "blockheight": 856522,
+      "estimated_leverage_ratio": 132.1,
+      "value": 132.1,
+      "timestamp": 1782772980
+    },
+    {
+      "datetime": "2026-06-29T22:44:00Z",
+      "blockheight": 856523,
+      "estimated_leverage_ratio": 132.13,
+      "value": 132.13,
+      "timestamp": 1782773040
+    },
+    {
+      "datetime": "2026-06-29T22:45:00Z",
+      "blockheight": 856524,
+      "estimated_leverage_ratio": 132.16,
+      "value": 132.16,
+      "timestamp": 1782773100
+    },
+    {
+      "datetime": "2026-06-29T22:46:00Z",
+      "blockheight": 856525,
+      "estimated_leverage_ratio": 132.19,
+      "value": 132.19,
+      "timestamp": 1782773160
+    },
+    {
+      "datetime": "2026-06-29T22:47:00Z",
+      "blockheight": 856526,
+      "estimated_leverage_ratio": 132.22,
+      "value": 132.22,
+      "timestamp": 1782773220
+    },
+    {
+      "datetime": "2026-06-29T22:48:00Z",
+      "blockheight": 856527,
+      "estimated_leverage_ratio": 132.25,
+      "value": 132.25,
+      "timestamp": 1782773280
+    },
+    {
+      "datetime": "2026-06-29T22:49:00Z",
+      "blockheight": 856528,
+      "estimated_leverage_ratio": 132.28,
+      "value": 132.28,
+      "timestamp": 1782773340
+    },
+    {
+      "datetime": "2026-06-29T22:50:00Z",
+      "blockheight": 856529,
+      "estimated_leverage_ratio": 132.31,
+      "value": 132.31,
+      "timestamp": 1782773400
+    },
+    {
+      "datetime": "2026-06-29T22:51:00Z",
+      "blockheight": 856530,
+      "estimated_leverage_ratio": 132.34,
+      "value": 132.34,
+      "timestamp": 1782773460
+    },
+    {
+      "datetime": "2026-06-29T22:52:00Z",
+      "blockheight": 856531,
+      "estimated_leverage_ratio": 132.37,
+      "value": 132.37,
+      "timestamp": 1782773520
+    },
+    {
+      "datetime": "2026-06-29T22:53:00Z",
+      "blockheight": 856532,
+      "estimated_leverage_ratio": 132.4,
+      "value": 132.4,
+      "timestamp": 1782773580
+    },
+    {
+      "datetime": "2026-06-29T22:54:00Z",
+      "blockheight": 856533,
+      "estimated_leverage_ratio": 132.43,
+      "value": 132.43,
+      "timestamp": 1782773640
+    },
+    {
+      "datetime": "2026-06-29T22:55:00Z",
+      "blockheight": 856534,
+      "estimated_leverage_ratio": 132.46,
+      "value": 132.46,
+      "timestamp": 1782773700
+    },
+    {
+      "datetime": "2026-06-29T22:56:00Z",
+      "blockheight": 856535,
+      "estimated_leverage_ratio": 132.49,
+      "value": 132.49,
+      "timestamp": 1782773760
+    },
+    {
+      "datetime": "2026-06-29T22:57:00Z",
+      "blockheight": 856536,
+      "estimated_leverage_ratio": 132.52,
+      "value": 132.52,
+      "timestamp": 1782773820
+    },
+    {
+      "datetime": "2026-06-29T22:58:00Z",
+      "blockheight": 856537,
+      "estimated_leverage_ratio": 132.55,
+      "value": 132.55,
+      "timestamp": 1782773880
+    },
+    {
+      "datetime": "2026-06-29T22:59:00Z",
+      "blockheight": 856538,
+      "estimated_leverage_ratio": 132.58,
+      "value": 132.58,
+      "timestamp": 1782773940
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856539,
+      "estimated_leverage_ratio": 132.61,
+      "value": 132.61,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-29T23:01:00Z",
+      "blockheight": 856540,
+      "estimated_leverage_ratio": 132.64,
+      "value": 132.64,
+      "timestamp": 1782774060
+    },
+    {
+      "datetime": "2026-06-29T23:02:00Z",
+      "blockheight": 856541,
+      "estimated_leverage_ratio": 132.67,
+      "value": 132.67,
+      "timestamp": 1782774120
+    },
+    {
+      "datetime": "2026-06-29T23:03:00Z",
+      "blockheight": 856542,
+      "estimated_leverage_ratio": 132.7,
+      "value": 132.7,
+      "timestamp": 1782774180
+    },
+    {
+      "datetime": "2026-06-29T23:04:00Z",
+      "blockheight": 856543,
+      "estimated_leverage_ratio": 132.73,
+      "value": 132.73,
+      "timestamp": 1782774240
+    },
+    {
+      "datetime": "2026-06-29T23:05:00Z",
+      "blockheight": 856544,
+      "estimated_leverage_ratio": 132.76,
+      "value": 132.76,
+      "timestamp": 1782774300
+    },
+    {
+      "datetime": "2026-06-29T23:06:00Z",
+      "blockheight": 856545,
+      "estimated_leverage_ratio": 132.79,
+      "value": 132.79,
+      "timestamp": 1782774360
+    },
+    {
+      "datetime": "2026-06-29T23:07:00Z",
+      "blockheight": 856546,
+      "estimated_leverage_ratio": 132.82,
+      "value": 132.82,
+      "timestamp": 1782774420
+    },
+    {
+      "datetime": "2026-06-29T23:08:00Z",
+      "blockheight": 856547,
+      "estimated_leverage_ratio": 132.85,
+      "value": 132.85,
+      "timestamp": 1782774480
+    },
+    {
+      "datetime": "2026-06-29T23:09:00Z",
+      "blockheight": 856548,
+      "estimated_leverage_ratio": 132.88,
+      "value": 132.88,
+      "timestamp": 1782774540
+    },
+    {
+      "datetime": "2026-06-29T23:10:00Z",
+      "blockheight": 856549,
+      "estimated_leverage_ratio": 132.91,
+      "value": 132.91,
+      "timestamp": 1782774600
+    },
+    {
+      "datetime": "2026-06-29T23:11:00Z",
+      "blockheight": 856550,
+      "estimated_leverage_ratio": 132.94,
+      "value": 132.94,
+      "timestamp": 1782774660
+    },
+    {
+      "datetime": "2026-06-29T23:12:00Z",
+      "blockheight": 856551,
+      "estimated_leverage_ratio": 132.97,
+      "value": 132.97,
+      "timestamp": 1782774720
+    },
+    {
+      "datetime": "2026-06-29T23:13:00Z",
+      "blockheight": 856552,
+      "estimated_leverage_ratio": 133.0,
+      "value": 133.0,
+      "timestamp": 1782774780
+    },
+    {
+      "datetime": "2026-06-29T23:14:00Z",
+      "blockheight": 856553,
+      "estimated_leverage_ratio": 133.03,
+      "value": 133.03,
+      "timestamp": 1782774840
+    },
+    {
+      "datetime": "2026-06-29T23:15:00Z",
+      "blockheight": 856554,
+      "estimated_leverage_ratio": 133.06,
+      "value": 133.06,
+      "timestamp": 1782774900
+    },
+    {
+      "datetime": "2026-06-29T23:16:00Z",
+      "blockheight": 856555,
+      "estimated_leverage_ratio": 133.09,
+      "value": 133.09,
+      "timestamp": 1782774960
+    },
+    {
+      "datetime": "2026-06-29T23:17:00Z",
+      "blockheight": 856556,
+      "estimated_leverage_ratio": 133.12,
+      "value": 133.12,
+      "timestamp": 1782775020
+    },
+    {
+      "datetime": "2026-06-29T23:18:00Z",
+      "blockheight": 856557,
+      "estimated_leverage_ratio": 133.15,
+      "value": 133.15,
+      "timestamp": 1782775080
+    },
+    {
+      "datetime": "2026-06-29T23:19:00Z",
+      "blockheight": 856558,
+      "estimated_leverage_ratio": 133.18,
+      "value": 133.18,
+      "timestamp": 1782775140
+    },
+    {
+      "datetime": "2026-06-29T23:20:00Z",
+      "blockheight": 856559,
+      "estimated_leverage_ratio": 133.21,
+      "value": 133.21,
+      "timestamp": 1782775200
+    },
+    {
+      "datetime": "2026-06-29T23:21:00Z",
+      "blockheight": 856560,
+      "estimated_leverage_ratio": 133.24,
+      "value": 133.24,
+      "timestamp": 1782775260
+    },
+    {
+      "datetime": "2026-06-29T23:22:00Z",
+      "blockheight": 856561,
+      "estimated_leverage_ratio": 133.27,
+      "value": 133.27,
+      "timestamp": 1782775320
+    },
+    {
+      "datetime": "2026-06-29T23:23:00Z",
+      "blockheight": 856562,
+      "estimated_leverage_ratio": 133.3,
+      "value": 133.3,
+      "timestamp": 1782775380
+    },
+    {
+      "datetime": "2026-06-29T23:24:00Z",
+      "blockheight": 856563,
+      "estimated_leverage_ratio": 133.33,
+      "value": 133.33,
+      "timestamp": 1782775440
+    },
+    {
+      "datetime": "2026-06-29T23:25:00Z",
+      "blockheight": 856564,
+      "estimated_leverage_ratio": 133.36,
+      "value": 133.36,
+      "timestamp": 1782775500
+    },
+    {
+      "datetime": "2026-06-29T23:26:00Z",
+      "blockheight": 856565,
+      "estimated_leverage_ratio": 133.39,
+      "value": 133.39,
+      "timestamp": 1782775560
+    },
+    {
+      "datetime": "2026-06-29T23:27:00Z",
+      "blockheight": 856566,
+      "estimated_leverage_ratio": 133.42,
+      "value": 133.42,
+      "timestamp": 1782775620
+    },
+    {
+      "datetime": "2026-06-29T23:28:00Z",
+      "blockheight": 856567,
+      "estimated_leverage_ratio": 133.45,
+      "value": 133.45,
+      "timestamp": 1782775680
+    },
+    {
+      "datetime": "2026-06-29T23:29:00Z",
+      "blockheight": 856568,
+      "estimated_leverage_ratio": 133.48,
+      "value": 133.48,
+      "timestamp": 1782775740
+    },
+    {
+      "datetime": "2026-06-29T23:30:00Z",
+      "blockheight": 856569,
+      "estimated_leverage_ratio": 133.51,
+      "value": 133.51,
+      "timestamp": 1782775800
+    },
+    {
+      "datetime": "2026-06-29T23:31:00Z",
+      "blockheight": 856570,
+      "estimated_leverage_ratio": 133.54,
+      "value": 133.54,
+      "timestamp": 1782775860
+    },
+    {
+      "datetime": "2026-06-29T23:32:00Z",
+      "blockheight": 856571,
+      "estimated_leverage_ratio": 133.57,
+      "value": 133.57,
+      "timestamp": 1782775920
+    },
+    {
+      "datetime": "2026-06-29T23:33:00Z",
+      "blockheight": 856572,
+      "estimated_leverage_ratio": 133.6,
+      "value": 133.6,
+      "timestamp": 1782775980
+    },
+    {
+      "datetime": "2026-06-29T23:34:00Z",
+      "blockheight": 856573,
+      "estimated_leverage_ratio": 133.63,
+      "value": 133.63,
+      "timestamp": 1782776040
+    },
+    {
+      "datetime": "2026-06-29T23:35:00Z",
+      "blockheight": 856574,
+      "estimated_leverage_ratio": 133.66,
+      "value": 133.66,
+      "timestamp": 1782776100
+    },
+    {
+      "datetime": "2026-06-29T23:36:00Z",
+      "blockheight": 856575,
+      "estimated_leverage_ratio": 133.69,
+      "value": 133.69,
+      "timestamp": 1782776160
+    },
+    {
+      "datetime": "2026-06-29T23:37:00Z",
+      "blockheight": 856576,
+      "estimated_leverage_ratio": 133.72,
+      "value": 133.72,
+      "timestamp": 1782776220
+    },
+    {
+      "datetime": "2026-06-29T23:38:00Z",
+      "blockheight": 856577,
+      "estimated_leverage_ratio": 133.75,
+      "value": 133.75,
+      "timestamp": 1782776280
+    },
+    {
+      "datetime": "2026-06-29T23:39:00Z",
+      "blockheight": 856578,
+      "estimated_leverage_ratio": 133.78,
+      "value": 133.78,
+      "timestamp": 1782776340
+    },
+    {
+      "datetime": "2026-06-29T23:40:00Z",
+      "blockheight": 856579,
+      "estimated_leverage_ratio": 133.81,
+      "value": 133.81,
+      "timestamp": 1782776400
+    },
+    {
+      "datetime": "2026-06-29T23:41:00Z",
+      "blockheight": 856580,
+      "estimated_leverage_ratio": 133.84,
+      "value": 133.84,
+      "timestamp": 1782776460
+    },
+    {
+      "datetime": "2026-06-29T23:42:00Z",
+      "blockheight": 856581,
+      "estimated_leverage_ratio": 133.87,
+      "value": 133.87,
+      "timestamp": 1782776520
+    },
+    {
+      "datetime": "2026-06-29T23:43:00Z",
+      "blockheight": 856582,
+      "estimated_leverage_ratio": 133.9,
+      "value": 133.9,
+      "timestamp": 1782776580
+    },
+    {
+      "datetime": "2026-06-29T23:44:00Z",
+      "blockheight": 856583,
+      "estimated_leverage_ratio": 133.93,
+      "value": 133.93,
+      "timestamp": 1782776640
+    },
+    {
+      "datetime": "2026-06-29T23:45:00Z",
+      "blockheight": 856584,
+      "estimated_leverage_ratio": 133.96,
+      "value": 133.96,
+      "timestamp": 1782776700
+    },
+    {
+      "datetime": "2026-06-29T23:46:00Z",
+      "blockheight": 856585,
+      "estimated_leverage_ratio": 133.99,
+      "value": 133.99,
+      "timestamp": 1782776760
+    },
+    {
+      "datetime": "2026-06-29T23:47:00Z",
+      "blockheight": 856586,
+      "estimated_leverage_ratio": 134.02,
+      "value": 134.02,
+      "timestamp": 1782776820
+    },
+    {
+      "datetime": "2026-06-29T23:48:00Z",
+      "blockheight": 856587,
+      "estimated_leverage_ratio": 134.05,
+      "value": 134.05,
+      "timestamp": 1782776880
+    },
+    {
+      "datetime": "2026-06-29T23:49:00Z",
+      "blockheight": 856588,
+      "estimated_leverage_ratio": 134.08,
+      "value": 134.08,
+      "timestamp": 1782776940
+    },
+    {
+      "datetime": "2026-06-29T23:50:00Z",
+      "blockheight": 856589,
+      "estimated_leverage_ratio": 134.11,
+      "value": 134.11,
+      "timestamp": 1782777000
+    },
+    {
+      "datetime": "2026-06-29T23:51:00Z",
+      "blockheight": 856590,
+      "estimated_leverage_ratio": 134.14,
+      "value": 134.14,
+      "timestamp": 1782777060
+    },
+    {
+      "datetime": "2026-06-29T23:52:00Z",
+      "blockheight": 856591,
+      "estimated_leverage_ratio": 134.17,
+      "value": 134.17,
+      "timestamp": 1782777120
+    },
+    {
+      "datetime": "2026-06-29T23:53:00Z",
+      "blockheight": 856592,
+      "estimated_leverage_ratio": 134.2,
+      "value": 134.2,
+      "timestamp": 1782777180
+    },
+    {
+      "datetime": "2026-06-29T23:54:00Z",
+      "blockheight": 856593,
+      "estimated_leverage_ratio": 134.23,
+      "value": 134.23,
+      "timestamp": 1782777240
+    },
+    {
+      "datetime": "2026-06-29T23:55:00Z",
+      "blockheight": 856594,
+      "estimated_leverage_ratio": 134.26,
+      "value": 134.26,
+      "timestamp": 1782777300
+    },
+    {
+      "datetime": "2026-06-29T23:56:00Z",
+      "blockheight": 856595,
+      "estimated_leverage_ratio": 134.29,
+      "value": 134.29,
+      "timestamp": 1782777360
+    },
+    {
+      "datetime": "2026-06-29T23:57:00Z",
+      "blockheight": 856596,
+      "estimated_leverage_ratio": 134.32,
+      "value": 134.32,
+      "timestamp": 1782777420
+    },
+    {
+      "datetime": "2026-06-29T23:58:00Z",
+      "blockheight": 856597,
+      "estimated_leverage_ratio": 134.35,
+      "value": 134.35,
+      "timestamp": 1782777480
+    },
+    {
+      "datetime": "2026-06-29T23:59:00Z",
+      "blockheight": 856598,
+      "estimated_leverage_ratio": 134.38,
+      "value": 134.38,
+      "timestamp": 1782777540
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856599,
+      "estimated_leverage_ratio": 134.41,
+      "value": 134.41,
+      "timestamp": 1782777600
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_derivatives_open_interest_estimated_leverage_ratio",
+    "path": null,
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260703T023307Z/derivatives_open_interest/estimated_leverage_ratio/1m_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 600,
+    "duplicates_removed": 0
+  }
+}

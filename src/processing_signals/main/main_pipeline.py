@@ -1,29 +1,139 @@
-﻿from __future__ import annotations
-
+﻿from __future__  import annotations
+from dataclasses import dataclass
+from pathlib     import Path
+from typing      import Any
 import argparse
-from pathlib import Path
+import json
+import shutil
 import sys
-from typing import Any
+import zipfile
 
 if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+
 from processing_signals.classification.output_classifier import OutputClassifier
-from processing_signals.input.config import RuntimeConfig, load_runtime_config
-from processing_signals.input.input_reader import InputReader
-from processing_signals.input.json_loader import InputRecord
-from processing_signals.input.input_pipeline import InputPipeline
-from processing_signals.output.family_output_builder import FamilyOutputBuilder
-from processing_signals.output.output_builder import OutputBuilder
-from processing_signals.output.output_family_rules import resolve_output_family
-from processing_signals.output.output_validator import OutputValidator
+from processing_signals.input.input_pipeline             import run_input_pipeline
+from processing_signals.output.family_output_builder     import FamilyOutputBuilder
+from processing_signals.output.output_builder            import OutputBuilder
+from processing_signals.output.output_family_rules       import resolve_output_family
+from processing_signals.output.output_validator          import OutputValidator
 from processing_signals.processing.detection.data_type_detector import DataTypeDetector
-from processing_signals.processing.indicator_decision_engine import IndicatorDecisionEngine
-from processing_signals.processing.transforms.transform_engine import TransformEngine
-from processing_signals.processing.vectorization.vectorizer import Vectorizer
-from processing_signals.processing.math.math_engine import ProcessingMathEngine
-from processing_signals.processing.normalization.normalizer import Normalizer
-from processing_signals.processing.patterns.pattern_engine import PatternEngine
+from processing_signals.processing.indicator_decision_engine    import IndicatorDecisionEngine
+from processing_signals.processing.transforms.transform_engine  import TransformEngine
+from processing_signals.processing.vectorization.vectorizer     import Vectorizer
+from processing_signals.processing.math.math_engine             import ProcessingMathEngine
+from processing_signals.processing.normalization.normalizer     import Normalizer
+from processing_signals.processing.patterns.pattern_engine      import PatternEngine
+
+
+def resolve_project_path(path: str | Path) -> Path:
+    path = Path(path)
+    if path.is_absolute():
+        return path
+    return PROJECT_ROOT / path
+
+
+def ensure_project_directories(
+    *,
+    input_dir: Path,
+    output_path: Path,
+    write_manifest: bool = True,
+    write_validation_report: bool = True,
+) -> None:
+    input_dir.mkdir(parents=True, exist_ok=True)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    (output_path.parent / "families").mkdir(parents=True, exist_ok=True)
+
+
+@dataclass(frozen=True)
+class InputRecord:
+    source_name: str
+    payload: dict[str, Any]
+
+
+class NormalizedInputReader:
+    """Read normalized Input payloads from a JSON file, ZIP, or directory."""
+    def __init__(self, input_path: Path):
+        self.input_path = Path(input_path)
+
+    def load(self) -> list[InputRecord]:
+        if self.input_path.is_dir():
+            return self._load_directory(self.input_path)
+        if self.input_path.suffix.lower() == ".zip":
+            return self._load_zip(self.input_path)
+        return [self._load_file(self.input_path, self.input_path.name)]
+
+    def _load_directory(self, path: Path) -> list[InputRecord]:
+        records = [
+            self._load_file(json_path, json_path.relative_to(path).as_posix())
+            for json_path in sorted(path.rglob("*.json"))
+            if json_path.name != "manifest.json"
+        ]
+        if not records:
+            raise FileNotFoundError(f"No normalized JSON payloads found in {path}")
+        return records
+
+    def _load_zip(self, path: Path) -> list[InputRecord]:
+        records: list[InputRecord] = []
+        with zipfile.ZipFile(path, "r") as archive:
+            for name in sorted(archive.namelist()):
+                if not name.lower().endswith(".json") or Path(name).name == "manifest.json":
+                    continue
+                payload = json.loads(archive.read(name).decode("utf-8"))
+                records.append(InputRecord(source_name=name, payload=_prepare_processing_payload(payload)))
+        if not records:
+            raise FileNotFoundError(f"No normalized JSON payloads found in {path}")
+        return records
+
+    def _load_file(self, path: Path, source_name: str) -> InputRecord:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        return InputRecord(source_name=source_name, payload=_prepare_processing_payload(payload))
+
+
+def _prepare_processing_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    item = dict(payload)
+    metadata = dict(item.get("metadata", {}) if isinstance(item.get("metadata"), dict) else {})
+    for key in [
+        "provider",
+        "family",
+        "subtype",
+        "data_type",
+        "asset",
+        "symbol",
+        "exchange",
+        "timeframe",
+        "extraction_window",
+        "run_id",
+    ]:
+        if key in item and key not in metadata:
+            metadata[key] = item[key]
+    if "family" in item and "family_key" not in metadata:
+        metadata["family_key"] = item["family"]
+    input_data_type = str(item.get("data_type") or metadata.get("data_type") or "")
+    subtype = str(item.get("subtype") or metadata.get("subtype") or "")
+    if input_data_type:
+        metadata["input_data_type"] = input_data_type
+    if input_data_type in {"time_series", "snapshot", "event_list", "heatmap"} and subtype:
+        if input_data_type == "time_series" and subtype == "orderbook_conventional":
+            metadata["data_type"] = "market_depth"
+        else:
+            metadata["data_type"] = subtype
+    item["metadata"] = metadata
+    return item
+
+
+def promote_input_manifest(normalized_dir: Path) -> Path | None:
+    source = normalized_dir / "manifest.json"
+    if not source.exists():
+        return None
+
+    target = normalized_dir.parent / "manifest.json"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, target)
+    source.unlink()
+    return target
 
 
 class MainPipeline:
@@ -41,7 +151,7 @@ class MainPipeline:
         self.output_path = Path(output_path)
         self.write_validation_report = write_validation_report
         self.write_manifest = write_manifest
-        self.loader = InputReader(self.input_path)
+        self.loader = NormalizedInputReader(self.input_path)
         self.detector = DataTypeDetector()
         self.normalizer = Normalizer()
         self.vectorizer = Vectorizer()
@@ -67,11 +177,7 @@ class MainPipeline:
             family_info = resolve_output_family(block)
             block.update(family_info)
             if family_info.get("is_metadata"):
-                block["family_output_path"] = (
-                    str(self.output_path.parent / "metadata" / family_info["output_filename"])
-                    if self.write_manifest
-                    else ""
-                )
+                block["family_output_path"] = str(self.output_path) if self.write_manifest else ""
             else:
                 block["family_output_path"] = str(
                     family_output_dir / family_info["family_key"] / family_info["output_filename"]
@@ -82,56 +188,32 @@ class MainPipeline:
             pipeline_name="Processing-Signals MainPipeline",
             version="0.1.0",
         )
-        family_outputs_index = family_builder.write_family_outputs(blocks)
-
-        payload = self.output_builder.build(blocks)
-        payload["family_outputs"] = family_outputs_index
+        family_outputs_index         = family_builder.write_family_outputs(blocks)
+        payload                      = self.output_builder.build(blocks)
+        payload["family_outputs"]    = family_outputs_index
         payload["official_families"] = family_outputs_index.get("official_families", [])
-        payload["active_families"] = family_outputs_index.get("active_families", [])
+        payload["active_families"]   = family_outputs_index.get("active_families", [])
         payload["inactive_families"] = family_outputs_index.get("inactive_families", [])
         manifest = self.output_builder.build_manifest(blocks)
         validation_report = OutputValidator(self.output_path.parent).validate()
-        payload["manifest_summary"] = {
-            "output_shape": manifest["output_shape"],
-            "records_processed": manifest["records_processed"],
-        }
-        payload["validation"] = validation_report
+        payload["manifest_summary"]  = {"output_shape": manifest["output_shape"], "records_processed": manifest["records_processed"]}
+        payload["validation"]        = validation_report
         payload["validation_status"] = validation_report["status"]
-        payload["errors"] = validation_report.get("errors", [])
-        payload["warnings"] = [
-            *payload.get("warnings", []),
-            *validation_report.get("warnings", []),
-        ]
+        payload["errors"]            = validation_report.get("errors", [])
+        payload["warnings"]          = [*payload.get("warnings", []), *validation_report.get("warnings", [])]
 
         if self.write_manifest:
-            manifest_path = self.output_path.parent / "metadata" / "manifest.json"
-            self.output_builder.write_json(manifest, manifest_path)
-            payload["manifest_summary"]["path"] = str(manifest_path)
-            payload["metaoutputs"] = [
-                {
-                    "output_shape": "manifest",
-                    "path": str(manifest_path),
-                    "records_processed": manifest["records_processed"],
-                }
-            ]
-
-        if self.write_validation_report:
-            validation_path = self.output_path.parent / "validation_report.json"
-            self.output_builder.write_json(validation_report, validation_path)
-            payload["validation_report"] = str(validation_path)
-
+            payload["manifest_summary"]["path"] = str(self.output_path)
+            payload["metaoutputs"] = [{"output_shape": "manifest",
+                                       "path": str(self.output_path),
+                                       "records_processed": manifest["records_processed"]}]
         self.output_builder.write_json(payload, self.output_path)
         return payload
 
     def _detect_blocks(self, raw_payloads: list[InputRecord]) -> list[dict[str, Any]]:
-        return [
-            {
-                "source_name": record.source_name,
-                "raw_payload": record.payload,
-                "detected": self.detector.detect(record.payload, source_name=record.source_name),
-            }
-            for record in raw_payloads
-        ]
+        return [{"source_name": record.source_name,
+                 "raw_payload": record.payload,
+                 "detected": self.detector.detect(record.payload, source_name=record.source_name)} for record in raw_payloads]
 
     def _normalize_blocks(self, detected_blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
         for block in detected_blocks:
@@ -183,59 +265,65 @@ class MainPipeline:
             block.pop("raw_payload", None)
         return pattern_blocks
 
-
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Run Processing-Signals main pipeline: input -> processing -> math -> classification -> output."
-    )
-    parser.add_argument(
-        "--runtime",
-        default="runtime.json",
-        help="Runtime configuration JSON used to orchestrate the internal input pipeline before processing.",
-    )
-    parser.add_argument(
-        "--input",
-        default=None,
-        help="Input JSON file, ZIP file, or directory containing JSON files. Defaults to the first supported file in data_input/.",
-    )
-    parser.add_argument(
-        "--output",
-        default="src/processing_signals/output/main_pipeline_output.json",
-        help="Output JSON path.",
-    )
-    parser.add_argument(
-        "--max-rows",
-        type=int,
-        default=None,
-        help="Optional row limit for small previews in the master report.",
-    )
-    parser.add_argument(
-        "--write-validation-report",
-        action="store_true",
-        help="Write src/processing_signals/output/validation_report.json in addition to embedding validation in the main output.",
-    )
-    parser.add_argument(
-        "--write-manifest",
-        action="store_true",
-        help="Write src/processing_signals/output/metadata/manifest.json in addition to embedding manifest in the main output.",
-    )
+    parser = argparse.ArgumentParser(description="Run Processing-Signals main pipeline: input -> processing -> math -> classification -> output.")
+    parser.add_argument("--input", default=None,
+                        help="Input JSON file, ZIP file, or directory containing normalized JSON files. Defaults to data_input/families.")
+    parser.add_argument("--generate-input", choices=["synthetic"], default="synthetic",
+                        help="Generate normalized Input payloads before Processing. Defaults to synthetic.")
+    parser.add_argument("--no-generate-input", action="store_true",
+                        help="Do not generate Input synthetic data; use existing data_input/families or --input.")
+    parser.add_argument("--output", default="data_output/manifest.json",
+                        help="Output JSON path.")
+    parser.add_argument("--max-rows", type=int, default=20, 
+                        help="Optional row limit for small previews in the master report.")
+    parser.add_argument("--write-validation-report", action=argparse.BooleanOptionalAction, default=False, 
+                        help="Deprecated no-op. Validation is embedded in data_output/manifest.json.")
+    parser.add_argument("--write-manifest", action=argparse.BooleanOptionalAction, default=True, 
+                        help="Write data_output/manifest.json. Enabled by default.")
     return parser.parse_args()
-
 
 def main() -> None:
     args = parse_args()
-    runtime = _load_runtime_if_exists(args.runtime)
-    input_path = Path(args.input) if args.input else None
+    output_path = resolve_project_path(args.output)
+    default_input_path = resolve_project_path("data_input/families")
 
-    if runtime and runtime.input.enabled and not args.input:
-        input_result = InputPipeline(runtime_path=args.runtime).run()
+    if args.input:
+        input_path = resolve_project_path(args.input)
+    else:
+        input_path = default_input_path
+
+    ensure_project_directories(
+        input_dir=input_path if input_path.suffix == "" else input_path.parent,
+        output_path=output_path,
+        write_manifest=args.write_manifest,
+        write_validation_report=args.write_validation_report,
+    )
+
+    should_generate_input = (
+        not args.no_generate_input
+        and args.generate_input == "synthetic"
+        and args.input is None
+    )
+
+    if should_generate_input:
+        input_result = run_input_pipeline(
+            mode="synthetic",
+            providers=["coinglass", "cryptoquant", "glassnode", "external_indices"],
+            asset="BTC",
+            symbol="BTCUSDT",
+            output_dir=default_input_path,
+            min_records=600,
+        )
+        if input_result.get("status") not in {"ok", "warning"}:
+            raise RuntimeError(f"Input generation failed: {input_result}")
         input_path = Path(input_result["output_path"])
-    elif input_path is None:
+        promote_input_manifest(input_path)
+    elif args.input is None:
         input_path = resolve_input_path(None)
 
-    output_path = Path(args.output)
-    if runtime and args.output == "src/processing_signals/output/main_pipeline_output.json":
-        output_path = Path(runtime.processing.output_path)
+    if input_path.is_dir() and input_path.name in {"families", "normalized"}:
+        promote_input_manifest(input_path)
 
     pipeline = MainPipeline(
         input_path=input_path,
@@ -259,12 +347,8 @@ def main() -> None:
     print()
     print(f"validation_status: {result.get('validation_status')}")
     print()
-    if args.write_validation_report:
-        print("validation_report:")
-        print(output_path.parent / "validation_report.json")
-        print()
     if args.write_manifest:
-        print("metaoutputs:")
+        print("manifest:")
         for output in result.get("metaoutputs", []):
             print(output["path"])
         print()
@@ -290,11 +374,18 @@ def main() -> None:
 
 def resolve_input_path(input_arg: str | None) -> Path:
     if input_arg:
-        return Path(input_arg)
+        return resolve_project_path(input_arg)
 
-    input_dir = Path("data_input")
-    if not input_dir.exists():
-        raise FileNotFoundError("No --input provided and data_input/ does not exist.")
+    families_dir = resolve_project_path("data_input/families")
+    if families_dir.exists():
+        return families_dir
+
+    normalized_dir = resolve_project_path("data_input/normalized")
+    if normalized_dir.exists():
+        return normalized_dir
+
+    input_dir = resolve_project_path("data_input")
+    input_dir.mkdir(parents=True, exist_ok=True)
 
     candidates = [
         path
@@ -304,22 +395,12 @@ def resolve_input_path(input_arg: str | None) -> Path:
     candidates.sort(key=lambda path: (path.suffix.lower() != ".zip", path.name.lower()))
 
     if not candidates:
-        raise FileNotFoundError("No --input provided and no .zip or .json files were found in data_input/.")
+        raise FileNotFoundError(
+            "No normalized input found. Run with default synthetic generation or provide --input."
+        )
 
     return candidates[0]
 
 
-def _load_runtime_if_exists(path_str: str | None) -> RuntimeConfig | None:
-    if not path_str:
-        return None
-
-    path = Path(path_str)
-    if not path.exists():
-        return None
-
-    return load_runtime_config(path)
-
-
 if __name__ == "__main__":
     main()
-

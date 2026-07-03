@@ -1,0 +1,153 @@
+{
+  "pipeline": "Processing-Signals MainPipeline",
+  "version": "0.1.0",
+  "family_key": "liquidity_microstructure",
+  "output_shape": "bars",
+  "records_processed": 2,
+  "symbols": [
+    "BTCUSDT"
+  ],
+  "timeframes": [],
+  "data_types": {
+    "orderbook_large_trades": 1,
+    "orderbook_whale_orders": 1
+  },
+  "blocks": [
+    {
+      "source_name": "liquidity_microstructure/coinglass_orderbook_large_trades_latest.json",
+      "family_key": "liquidity_microstructure",
+      "source_family_key": "liquidity_microstructure",
+      "output_shape": "bars",
+      "symbol": "BTCUSDT",
+      "timeframe": null,
+      "data_type": "orderbook_large_trades",
+      "source_subtype": "large_trades",
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "bar_schema": {
+        "timestamp": "datetime",
+        "open": "float",
+        "high": "float",
+        "low": "float",
+        "close": "float",
+        "volume": "optional"
+      },
+      "bars": [],
+      "summary": {
+        "rows": 0,
+        "source_rows": 120,
+        "reference_column": null
+      },
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 4,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 12,
+        "has_feature_snapshot": true,
+        "feature_count": 267
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "liquidity_microstructure/coinglass_orderbook_whale_orders_latest.json",
+      "family_key": "liquidity_microstructure",
+      "source_family_key": "liquidity_microstructure",
+      "output_shape": "bars",
+      "symbol": "BTCUSDT",
+      "timeframe": null,
+      "data_type": "orderbook_whale_orders",
+      "source_subtype": "whale_orders",
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "bar_schema": {
+        "timestamp": "datetime",
+        "open": "float",
+        "high": "float",
+        "low": "float",
+        "close": "float",
+        "volume": "optional"
+      },
+      "bars": [],
+      "summary": {
+        "rows": 0,
+        "source_rows": 120,
+        "reference_column": null
+      },
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 4,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 12,
+        "has_feature_snapshot": true,
+        "feature_count": 267
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    }
+  ]
+}

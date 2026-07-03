@@ -1,0 +1,1287 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "coinglass",
+  "family": "liquidations",
+  "subtype": "liquidation_heatmap",
+  "data_type": "heatmap",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": null,
+  "extraction_window": "24h",
+  "records": [
+    {
+      "time": 1782777600000,
+      "price_level": 58000.0,
+      "liquidation_usd": 1000000.0,
+      "side": "long",
+      "timestamp": 1782777600
+    },
+    {
+      "time": 1782777660000,
+      "price_level": 58025.0,
+      "liquidation_usd": 1015000.0,
+      "side": "short",
+      "timestamp": 1782777660
+    },
+    {
+      "time": 1782777720000,
+      "price_level": 58050.0,
+      "liquidation_usd": 1030000.0,
+      "side": "long",
+      "timestamp": 1782777720
+    },
+    {
+      "time": 1782777780000,
+      "price_level": 58075.0,
+      "liquidation_usd": 1045000.0,
+      "side": "short",
+      "timestamp": 1782777780
+    },
+    {
+      "time": 1782777840000,
+      "price_level": 58100.0,
+      "liquidation_usd": 1060000.0,
+      "side": "long",
+      "timestamp": 1782777840
+    },
+    {
+      "time": 1782777900000,
+      "price_level": 58125.0,
+      "liquidation_usd": 1075000.0,
+      "side": "short",
+      "timestamp": 1782777900
+    },
+    {
+      "time": 1782777960000,
+      "price_level": 58150.0,
+      "liquidation_usd": 1090000.0,
+      "side": "long",
+      "timestamp": 1782777960
+    },
+    {
+      "time": 1782778020000,
+      "price_level": 58175.0,
+      "liquidation_usd": 1105000.0,
+      "side": "short",
+      "timestamp": 1782778020
+    },
+    {
+      "time": 1782778080000,
+      "price_level": 58200.0,
+      "liquidation_usd": 1120000.0,
+      "side": "long",
+      "timestamp": 1782778080
+    },
+    {
+      "time": 1782778140000,
+      "price_level": 58225.0,
+      "liquidation_usd": 1135000.0,
+      "side": "short",
+      "timestamp": 1782778140
+    },
+    {
+      "time": 1782778200000,
+      "price_level": 58250.0,
+      "liquidation_usd": 1150000.0,
+      "side": "long",
+      "timestamp": 1782778200
+    },
+    {
+      "time": 1782778260000,
+      "price_level": 58275.0,
+      "liquidation_usd": 1165000.0,
+      "side": "short",
+      "timestamp": 1782778260
+    },
+    {
+      "time": 1782778320000,
+      "price_level": 58300.0,
+      "liquidation_usd": 1180000.0,
+      "side": "long",
+      "timestamp": 1782778320
+    },
+    {
+      "time": 1782778380000,
+      "price_level": 58325.0,
+      "liquidation_usd": 1195000.0,
+      "side": "short",
+      "timestamp": 1782778380
+    },
+    {
+      "time": 1782778440000,
+      "price_level": 58350.0,
+      "liquidation_usd": 1210000.0,
+      "side": "long",
+      "timestamp": 1782778440
+    },
+    {
+      "time": 1782778500000,
+      "price_level": 58375.0,
+      "liquidation_usd": 1225000.0,
+      "side": "short",
+      "timestamp": 1782778500
+    },
+    {
+      "time": 1782778560000,
+      "price_level": 58400.0,
+      "liquidation_usd": 1240000.0,
+      "side": "long",
+      "timestamp": 1782778560
+    },
+    {
+      "time": 1782778620000,
+      "price_level": 58425.0,
+      "liquidation_usd": 1255000.0,
+      "side": "short",
+      "timestamp": 1782778620
+    },
+    {
+      "time": 1782778680000,
+      "price_level": 58450.0,
+      "liquidation_usd": 1270000.0,
+      "side": "long",
+      "timestamp": 1782778680
+    },
+    {
+      "time": 1782778740000,
+      "price_level": 58475.0,
+      "liquidation_usd": 1285000.0,
+      "side": "short",
+      "timestamp": 1782778740
+    },
+    {
+      "time": 1782778800000,
+      "price_level": 58500.0,
+      "liquidation_usd": 1300000.0,
+      "side": "long",
+      "timestamp": 1782778800
+    },
+    {
+      "time": 1782778860000,
+      "price_level": 58525.0,
+      "liquidation_usd": 1315000.0,
+      "side": "short",
+      "timestamp": 1782778860
+    },
+    {
+      "time": 1782778920000,
+      "price_level": 58550.0,
+      "liquidation_usd": 1330000.0,
+      "side": "long",
+      "timestamp": 1782778920
+    },
+    {
+      "time": 1782778980000,
+      "price_level": 58575.0,
+      "liquidation_usd": 1345000.0,
+      "side": "short",
+      "timestamp": 1782778980
+    },
+    {
+      "time": 1782779040000,
+      "price_level": 58600.0,
+      "liquidation_usd": 1360000.0,
+      "side": "long",
+      "timestamp": 1782779040
+    },
+    {
+      "time": 1782779100000,
+      "price_level": 58625.0,
+      "liquidation_usd": 1375000.0,
+      "side": "short",
+      "timestamp": 1782779100
+    },
+    {
+      "time": 1782779160000,
+      "price_level": 58650.0,
+      "liquidation_usd": 1390000.0,
+      "side": "long",
+      "timestamp": 1782779160
+    },
+    {
+      "time": 1782779220000,
+      "price_level": 58675.0,
+      "liquidation_usd": 1405000.0,
+      "side": "short",
+      "timestamp": 1782779220
+    },
+    {
+      "time": 1782779280000,
+      "price_level": 58700.0,
+      "liquidation_usd": 1420000.0,
+      "side": "long",
+      "timestamp": 1782779280
+    },
+    {
+      "time": 1782779340000,
+      "price_level": 58725.0,
+      "liquidation_usd": 1435000.0,
+      "side": "short",
+      "timestamp": 1782779340
+    },
+    {
+      "time": 1782779400000,
+      "price_level": 58750.0,
+      "liquidation_usd": 1450000.0,
+      "side": "long",
+      "timestamp": 1782779400
+    },
+    {
+      "time": 1782779460000,
+      "price_level": 58775.0,
+      "liquidation_usd": 1465000.0,
+      "side": "short",
+      "timestamp": 1782779460
+    },
+    {
+      "time": 1782779520000,
+      "price_level": 58800.0,
+      "liquidation_usd": 1480000.0,
+      "side": "long",
+      "timestamp": 1782779520
+    },
+    {
+      "time": 1782779580000,
+      "price_level": 58825.0,
+      "liquidation_usd": 1495000.0,
+      "side": "short",
+      "timestamp": 1782779580
+    },
+    {
+      "time": 1782779640000,
+      "price_level": 58850.0,
+      "liquidation_usd": 1510000.0,
+      "side": "long",
+      "timestamp": 1782779640
+    },
+    {
+      "time": 1782779700000,
+      "price_level": 58875.0,
+      "liquidation_usd": 1525000.0,
+      "side": "short",
+      "timestamp": 1782779700
+    },
+    {
+      "time": 1782779760000,
+      "price_level": 58900.0,
+      "liquidation_usd": 1540000.0,
+      "side": "long",
+      "timestamp": 1782779760
+    },
+    {
+      "time": 1782779820000,
+      "price_level": 58925.0,
+      "liquidation_usd": 1555000.0,
+      "side": "short",
+      "timestamp": 1782779820
+    },
+    {
+      "time": 1782779880000,
+      "price_level": 58950.0,
+      "liquidation_usd": 1570000.0,
+      "side": "long",
+      "timestamp": 1782779880
+    },
+    {
+      "time": 1782779940000,
+      "price_level": 58975.0,
+      "liquidation_usd": 1585000.0,
+      "side": "short",
+      "timestamp": 1782779940
+    },
+    {
+      "time": 1782780000000,
+      "price_level": 59000.0,
+      "liquidation_usd": 1600000.0,
+      "side": "long",
+      "timestamp": 1782780000
+    },
+    {
+      "time": 1782780060000,
+      "price_level": 59025.0,
+      "liquidation_usd": 1615000.0,
+      "side": "short",
+      "timestamp": 1782780060
+    },
+    {
+      "time": 1782780120000,
+      "price_level": 59050.0,
+      "liquidation_usd": 1630000.0,
+      "side": "long",
+      "timestamp": 1782780120
+    },
+    {
+      "time": 1782780180000,
+      "price_level": 59075.0,
+      "liquidation_usd": 1645000.0,
+      "side": "short",
+      "timestamp": 1782780180
+    },
+    {
+      "time": 1782780240000,
+      "price_level": 59100.0,
+      "liquidation_usd": 1660000.0,
+      "side": "long",
+      "timestamp": 1782780240
+    },
+    {
+      "time": 1782780300000,
+      "price_level": 59125.0,
+      "liquidation_usd": 1675000.0,
+      "side": "short",
+      "timestamp": 1782780300
+    },
+    {
+      "time": 1782780360000,
+      "price_level": 59150.0,
+      "liquidation_usd": 1690000.0,
+      "side": "long",
+      "timestamp": 1782780360
+    },
+    {
+      "time": 1782780420000,
+      "price_level": 59175.0,
+      "liquidation_usd": 1705000.0,
+      "side": "short",
+      "timestamp": 1782780420
+    },
+    {
+      "time": 1782780480000,
+      "price_level": 59200.0,
+      "liquidation_usd": 1720000.0,
+      "side": "long",
+      "timestamp": 1782780480
+    },
+    {
+      "time": 1782780540000,
+      "price_level": 59225.0,
+      "liquidation_usd": 1735000.0,
+      "side": "short",
+      "timestamp": 1782780540
+    },
+    {
+      "time": 1782780600000,
+      "price_level": 59250.0,
+      "liquidation_usd": 1750000.0,
+      "side": "long",
+      "timestamp": 1782780600
+    },
+    {
+      "time": 1782780660000,
+      "price_level": 59275.0,
+      "liquidation_usd": 1765000.0,
+      "side": "short",
+      "timestamp": 1782780660
+    },
+    {
+      "time": 1782780720000,
+      "price_level": 59300.0,
+      "liquidation_usd": 1780000.0,
+      "side": "long",
+      "timestamp": 1782780720
+    },
+    {
+      "time": 1782780780000,
+      "price_level": 59325.0,
+      "liquidation_usd": 1795000.0,
+      "side": "short",
+      "timestamp": 1782780780
+    },
+    {
+      "time": 1782780840000,
+      "price_level": 59350.0,
+      "liquidation_usd": 1810000.0,
+      "side": "long",
+      "timestamp": 1782780840
+    },
+    {
+      "time": 1782780900000,
+      "price_level": 59375.0,
+      "liquidation_usd": 1825000.0,
+      "side": "short",
+      "timestamp": 1782780900
+    },
+    {
+      "time": 1782780960000,
+      "price_level": 59400.0,
+      "liquidation_usd": 1840000.0,
+      "side": "long",
+      "timestamp": 1782780960
+    },
+    {
+      "time": 1782781020000,
+      "price_level": 59425.0,
+      "liquidation_usd": 1855000.0,
+      "side": "short",
+      "timestamp": 1782781020
+    },
+    {
+      "time": 1782781080000,
+      "price_level": 59450.0,
+      "liquidation_usd": 1870000.0,
+      "side": "long",
+      "timestamp": 1782781080
+    },
+    {
+      "time": 1782781140000,
+      "price_level": 59475.0,
+      "liquidation_usd": 1885000.0,
+      "side": "short",
+      "timestamp": 1782781140
+    },
+    {
+      "time": 1782781200000,
+      "price_level": 59500.0,
+      "liquidation_usd": 1900000.0,
+      "side": "long",
+      "timestamp": 1782781200
+    },
+    {
+      "time": 1782781260000,
+      "price_level": 59525.0,
+      "liquidation_usd": 1915000.0,
+      "side": "short",
+      "timestamp": 1782781260
+    },
+    {
+      "time": 1782781320000,
+      "price_level": 59550.0,
+      "liquidation_usd": 1930000.0,
+      "side": "long",
+      "timestamp": 1782781320
+    },
+    {
+      "time": 1782781380000,
+      "price_level": 59575.0,
+      "liquidation_usd": 1945000.0,
+      "side": "short",
+      "timestamp": 1782781380
+    },
+    {
+      "time": 1782781440000,
+      "price_level": 59600.0,
+      "liquidation_usd": 1960000.0,
+      "side": "long",
+      "timestamp": 1782781440
+    },
+    {
+      "time": 1782781500000,
+      "price_level": 59625.0,
+      "liquidation_usd": 1975000.0,
+      "side": "short",
+      "timestamp": 1782781500
+    },
+    {
+      "time": 1782781560000,
+      "price_level": 59650.0,
+      "liquidation_usd": 1990000.0,
+      "side": "long",
+      "timestamp": 1782781560
+    },
+    {
+      "time": 1782781620000,
+      "price_level": 59675.0,
+      "liquidation_usd": 2005000.0,
+      "side": "short",
+      "timestamp": 1782781620
+    },
+    {
+      "time": 1782781680000,
+      "price_level": 59700.0,
+      "liquidation_usd": 2020000.0,
+      "side": "long",
+      "timestamp": 1782781680
+    },
+    {
+      "time": 1782781740000,
+      "price_level": 59725.0,
+      "liquidation_usd": 2035000.0,
+      "side": "short",
+      "timestamp": 1782781740
+    },
+    {
+      "time": 1782781800000,
+      "price_level": 59750.0,
+      "liquidation_usd": 2050000.0,
+      "side": "long",
+      "timestamp": 1782781800
+    },
+    {
+      "time": 1782781860000,
+      "price_level": 59775.0,
+      "liquidation_usd": 2065000.0,
+      "side": "short",
+      "timestamp": 1782781860
+    },
+    {
+      "time": 1782781920000,
+      "price_level": 59800.0,
+      "liquidation_usd": 2080000.0,
+      "side": "long",
+      "timestamp": 1782781920
+    },
+    {
+      "time": 1782781980000,
+      "price_level": 59825.0,
+      "liquidation_usd": 2095000.0,
+      "side": "short",
+      "timestamp": 1782781980
+    },
+    {
+      "time": 1782782040000,
+      "price_level": 59850.0,
+      "liquidation_usd": 2110000.0,
+      "side": "long",
+      "timestamp": 1782782040
+    },
+    {
+      "time": 1782782100000,
+      "price_level": 59875.0,
+      "liquidation_usd": 2125000.0,
+      "side": "short",
+      "timestamp": 1782782100
+    },
+    {
+      "time": 1782782160000,
+      "price_level": 59900.0,
+      "liquidation_usd": 2140000.0,
+      "side": "long",
+      "timestamp": 1782782160
+    },
+    {
+      "time": 1782782220000,
+      "price_level": 59925.0,
+      "liquidation_usd": 2155000.0,
+      "side": "short",
+      "timestamp": 1782782220
+    },
+    {
+      "time": 1782782280000,
+      "price_level": 59950.0,
+      "liquidation_usd": 2170000.0,
+      "side": "long",
+      "timestamp": 1782782280
+    },
+    {
+      "time": 1782782340000,
+      "price_level": 59975.0,
+      "liquidation_usd": 2185000.0,
+      "side": "short",
+      "timestamp": 1782782340
+    },
+    {
+      "time": 1782782400000,
+      "price_level": 60000.0,
+      "liquidation_usd": 2200000.0,
+      "side": "long",
+      "timestamp": 1782782400
+    },
+    {
+      "time": 1782782460000,
+      "price_level": 60025.0,
+      "liquidation_usd": 2215000.0,
+      "side": "short",
+      "timestamp": 1782782460
+    },
+    {
+      "time": 1782782520000,
+      "price_level": 60050.0,
+      "liquidation_usd": 2230000.0,
+      "side": "long",
+      "timestamp": 1782782520
+    },
+    {
+      "time": 1782782580000,
+      "price_level": 60075.0,
+      "liquidation_usd": 2245000.0,
+      "side": "short",
+      "timestamp": 1782782580
+    },
+    {
+      "time": 1782782640000,
+      "price_level": 60100.0,
+      "liquidation_usd": 2260000.0,
+      "side": "long",
+      "timestamp": 1782782640
+    },
+    {
+      "time": 1782782700000,
+      "price_level": 60125.0,
+      "liquidation_usd": 2275000.0,
+      "side": "short",
+      "timestamp": 1782782700
+    },
+    {
+      "time": 1782782760000,
+      "price_level": 60150.0,
+      "liquidation_usd": 2290000.0,
+      "side": "long",
+      "timestamp": 1782782760
+    },
+    {
+      "time": 1782782820000,
+      "price_level": 60175.0,
+      "liquidation_usd": 2305000.0,
+      "side": "short",
+      "timestamp": 1782782820
+    },
+    {
+      "time": 1782782880000,
+      "price_level": 60200.0,
+      "liquidation_usd": 2320000.0,
+      "side": "long",
+      "timestamp": 1782782880
+    },
+    {
+      "time": 1782782940000,
+      "price_level": 60225.0,
+      "liquidation_usd": 2335000.0,
+      "side": "short",
+      "timestamp": 1782782940
+    },
+    {
+      "time": 1782783000000,
+      "price_level": 60250.0,
+      "liquidation_usd": 2350000.0,
+      "side": "long",
+      "timestamp": 1782783000
+    },
+    {
+      "time": 1782783060000,
+      "price_level": 60275.0,
+      "liquidation_usd": 2365000.0,
+      "side": "short",
+      "timestamp": 1782783060
+    },
+    {
+      "time": 1782783120000,
+      "price_level": 60300.0,
+      "liquidation_usd": 2380000.0,
+      "side": "long",
+      "timestamp": 1782783120
+    },
+    {
+      "time": 1782783180000,
+      "price_level": 60325.0,
+      "liquidation_usd": 2395000.0,
+      "side": "short",
+      "timestamp": 1782783180
+    },
+    {
+      "time": 1782783240000,
+      "price_level": 60350.0,
+      "liquidation_usd": 2410000.0,
+      "side": "long",
+      "timestamp": 1782783240
+    },
+    {
+      "time": 1782783300000,
+      "price_level": 60375.0,
+      "liquidation_usd": 2425000.0,
+      "side": "short",
+      "timestamp": 1782783300
+    },
+    {
+      "time": 1782783360000,
+      "price_level": 60400.0,
+      "liquidation_usd": 2440000.0,
+      "side": "long",
+      "timestamp": 1782783360
+    },
+    {
+      "time": 1782783420000,
+      "price_level": 60425.0,
+      "liquidation_usd": 2455000.0,
+      "side": "short",
+      "timestamp": 1782783420
+    },
+    {
+      "time": 1782783480000,
+      "price_level": 60450.0,
+      "liquidation_usd": 2470000.0,
+      "side": "long",
+      "timestamp": 1782783480
+    },
+    {
+      "time": 1782783540000,
+      "price_level": 60475.0,
+      "liquidation_usd": 2485000.0,
+      "side": "short",
+      "timestamp": 1782783540
+    },
+    {
+      "time": 1782783600000,
+      "price_level": 60500.0,
+      "liquidation_usd": 2500000.0,
+      "side": "long",
+      "timestamp": 1782783600
+    },
+    {
+      "time": 1782783660000,
+      "price_level": 60525.0,
+      "liquidation_usd": 2515000.0,
+      "side": "short",
+      "timestamp": 1782783660
+    },
+    {
+      "time": 1782783720000,
+      "price_level": 60550.0,
+      "liquidation_usd": 2530000.0,
+      "side": "long",
+      "timestamp": 1782783720
+    },
+    {
+      "time": 1782783780000,
+      "price_level": 60575.0,
+      "liquidation_usd": 2545000.0,
+      "side": "short",
+      "timestamp": 1782783780
+    },
+    {
+      "time": 1782783840000,
+      "price_level": 60600.0,
+      "liquidation_usd": 2560000.0,
+      "side": "long",
+      "timestamp": 1782783840
+    },
+    {
+      "time": 1782783900000,
+      "price_level": 60625.0,
+      "liquidation_usd": 2575000.0,
+      "side": "short",
+      "timestamp": 1782783900
+    },
+    {
+      "time": 1782783960000,
+      "price_level": 60650.0,
+      "liquidation_usd": 2590000.0,
+      "side": "long",
+      "timestamp": 1782783960
+    },
+    {
+      "time": 1782784020000,
+      "price_level": 60675.0,
+      "liquidation_usd": 2605000.0,
+      "side": "short",
+      "timestamp": 1782784020
+    },
+    {
+      "time": 1782784080000,
+      "price_level": 60700.0,
+      "liquidation_usd": 2620000.0,
+      "side": "long",
+      "timestamp": 1782784080
+    },
+    {
+      "time": 1782784140000,
+      "price_level": 60725.0,
+      "liquidation_usd": 2635000.0,
+      "side": "short",
+      "timestamp": 1782784140
+    },
+    {
+      "time": 1782784200000,
+      "price_level": 60750.0,
+      "liquidation_usd": 2650000.0,
+      "side": "long",
+      "timestamp": 1782784200
+    },
+    {
+      "time": 1782784260000,
+      "price_level": 60775.0,
+      "liquidation_usd": 2665000.0,
+      "side": "short",
+      "timestamp": 1782784260
+    },
+    {
+      "time": 1782784320000,
+      "price_level": 60800.0,
+      "liquidation_usd": 2680000.0,
+      "side": "long",
+      "timestamp": 1782784320
+    },
+    {
+      "time": 1782784380000,
+      "price_level": 60825.0,
+      "liquidation_usd": 2695000.0,
+      "side": "short",
+      "timestamp": 1782784380
+    },
+    {
+      "time": 1782784440000,
+      "price_level": 60850.0,
+      "liquidation_usd": 2710000.0,
+      "side": "long",
+      "timestamp": 1782784440
+    },
+    {
+      "time": 1782784500000,
+      "price_level": 60875.0,
+      "liquidation_usd": 2725000.0,
+      "side": "short",
+      "timestamp": 1782784500
+    },
+    {
+      "time": 1782784560000,
+      "price_level": 60900.0,
+      "liquidation_usd": 2740000.0,
+      "side": "long",
+      "timestamp": 1782784560
+    },
+    {
+      "time": 1782784620000,
+      "price_level": 60925.0,
+      "liquidation_usd": 2755000.0,
+      "side": "short",
+      "timestamp": 1782784620
+    },
+    {
+      "time": 1782784680000,
+      "price_level": 60950.0,
+      "liquidation_usd": 2770000.0,
+      "side": "long",
+      "timestamp": 1782784680
+    },
+    {
+      "time": 1782784740000,
+      "price_level": 60975.0,
+      "liquidation_usd": 2785000.0,
+      "side": "short",
+      "timestamp": 1782784740
+    },
+    {
+      "time": 1782784800000,
+      "price_level": 61000.0,
+      "liquidation_usd": 2800000.0,
+      "side": "long",
+      "timestamp": 1782784800
+    },
+    {
+      "time": 1782784860000,
+      "price_level": 61025.0,
+      "liquidation_usd": 2815000.0,
+      "side": "short",
+      "timestamp": 1782784860
+    },
+    {
+      "time": 1782784920000,
+      "price_level": 61050.0,
+      "liquidation_usd": 2830000.0,
+      "side": "long",
+      "timestamp": 1782784920
+    },
+    {
+      "time": 1782784980000,
+      "price_level": 61075.0,
+      "liquidation_usd": 2845000.0,
+      "side": "short",
+      "timestamp": 1782784980
+    },
+    {
+      "time": 1782785040000,
+      "price_level": 61100.0,
+      "liquidation_usd": 2860000.0,
+      "side": "long",
+      "timestamp": 1782785040
+    },
+    {
+      "time": 1782785100000,
+      "price_level": 61125.0,
+      "liquidation_usd": 2875000.0,
+      "side": "short",
+      "timestamp": 1782785100
+    },
+    {
+      "time": 1782785160000,
+      "price_level": 61150.0,
+      "liquidation_usd": 2890000.0,
+      "side": "long",
+      "timestamp": 1782785160
+    },
+    {
+      "time": 1782785220000,
+      "price_level": 61175.0,
+      "liquidation_usd": 2905000.0,
+      "side": "short",
+      "timestamp": 1782785220
+    },
+    {
+      "time": 1782785280000,
+      "price_level": 61200.0,
+      "liquidation_usd": 2920000.0,
+      "side": "long",
+      "timestamp": 1782785280
+    },
+    {
+      "time": 1782785340000,
+      "price_level": 61225.0,
+      "liquidation_usd": 2935000.0,
+      "side": "short",
+      "timestamp": 1782785340
+    },
+    {
+      "time": 1782785400000,
+      "price_level": 61250.0,
+      "liquidation_usd": 2950000.0,
+      "side": "long",
+      "timestamp": 1782785400
+    },
+    {
+      "time": 1782785460000,
+      "price_level": 61275.0,
+      "liquidation_usd": 2965000.0,
+      "side": "short",
+      "timestamp": 1782785460
+    },
+    {
+      "time": 1782785520000,
+      "price_level": 61300.0,
+      "liquidation_usd": 2980000.0,
+      "side": "long",
+      "timestamp": 1782785520
+    },
+    {
+      "time": 1782785580000,
+      "price_level": 61325.0,
+      "liquidation_usd": 2995000.0,
+      "side": "short",
+      "timestamp": 1782785580
+    },
+    {
+      "time": 1782785640000,
+      "price_level": 61350.0,
+      "liquidation_usd": 3010000.0,
+      "side": "long",
+      "timestamp": 1782785640
+    },
+    {
+      "time": 1782785700000,
+      "price_level": 61375.0,
+      "liquidation_usd": 3025000.0,
+      "side": "short",
+      "timestamp": 1782785700
+    },
+    {
+      "time": 1782785760000,
+      "price_level": 61400.0,
+      "liquidation_usd": 3040000.0,
+      "side": "long",
+      "timestamp": 1782785760
+    },
+    {
+      "time": 1782785820000,
+      "price_level": 61425.0,
+      "liquidation_usd": 3055000.0,
+      "side": "short",
+      "timestamp": 1782785820
+    },
+    {
+      "time": 1782785880000,
+      "price_level": 61450.0,
+      "liquidation_usd": 3070000.0,
+      "side": "long",
+      "timestamp": 1782785880
+    },
+    {
+      "time": 1782785940000,
+      "price_level": 61475.0,
+      "liquidation_usd": 3085000.0,
+      "side": "short",
+      "timestamp": 1782785940
+    },
+    {
+      "time": 1782786000000,
+      "price_level": 61500.0,
+      "liquidation_usd": 3100000.0,
+      "side": "long",
+      "timestamp": 1782786000
+    },
+    {
+      "time": 1782786060000,
+      "price_level": 61525.0,
+      "liquidation_usd": 3115000.0,
+      "side": "short",
+      "timestamp": 1782786060
+    },
+    {
+      "time": 1782786120000,
+      "price_level": 61550.0,
+      "liquidation_usd": 3130000.0,
+      "side": "long",
+      "timestamp": 1782786120
+    },
+    {
+      "time": 1782786180000,
+      "price_level": 61575.0,
+      "liquidation_usd": 3145000.0,
+      "side": "short",
+      "timestamp": 1782786180
+    },
+    {
+      "time": 1782786240000,
+      "price_level": 61600.0,
+      "liquidation_usd": 3160000.0,
+      "side": "long",
+      "timestamp": 1782786240
+    },
+    {
+      "time": 1782786300000,
+      "price_level": 61625.0,
+      "liquidation_usd": 3175000.0,
+      "side": "short",
+      "timestamp": 1782786300
+    },
+    {
+      "time": 1782786360000,
+      "price_level": 61650.0,
+      "liquidation_usd": 3190000.0,
+      "side": "long",
+      "timestamp": 1782786360
+    },
+    {
+      "time": 1782786420000,
+      "price_level": 61675.0,
+      "liquidation_usd": 3205000.0,
+      "side": "short",
+      "timestamp": 1782786420
+    },
+    {
+      "time": 1782786480000,
+      "price_level": 61700.0,
+      "liquidation_usd": 3220000.0,
+      "side": "long",
+      "timestamp": 1782786480
+    },
+    {
+      "time": 1782786540000,
+      "price_level": 61725.0,
+      "liquidation_usd": 3235000.0,
+      "side": "short",
+      "timestamp": 1782786540
+    },
+    {
+      "time": 1782786600000,
+      "price_level": 61750.0,
+      "liquidation_usd": 3250000.0,
+      "side": "long",
+      "timestamp": 1782786600
+    },
+    {
+      "time": 1782786660000,
+      "price_level": 61775.0,
+      "liquidation_usd": 3265000.0,
+      "side": "short",
+      "timestamp": 1782786660
+    },
+    {
+      "time": 1782786720000,
+      "price_level": 61800.0,
+      "liquidation_usd": 3280000.0,
+      "side": "long",
+      "timestamp": 1782786720
+    },
+    {
+      "time": 1782786780000,
+      "price_level": 61825.0,
+      "liquidation_usd": 3295000.0,
+      "side": "short",
+      "timestamp": 1782786780
+    },
+    {
+      "time": 1782786840000,
+      "price_level": 61850.0,
+      "liquidation_usd": 3310000.0,
+      "side": "long",
+      "timestamp": 1782786840
+    },
+    {
+      "time": 1782786900000,
+      "price_level": 61875.0,
+      "liquidation_usd": 3325000.0,
+      "side": "short",
+      "timestamp": 1782786900
+    },
+    {
+      "time": 1782786960000,
+      "price_level": 61900.0,
+      "liquidation_usd": 3340000.0,
+      "side": "long",
+      "timestamp": 1782786960
+    },
+    {
+      "time": 1782787020000,
+      "price_level": 61925.0,
+      "liquidation_usd": 3355000.0,
+      "side": "short",
+      "timestamp": 1782787020
+    },
+    {
+      "time": 1782787080000,
+      "price_level": 61950.0,
+      "liquidation_usd": 3370000.0,
+      "side": "long",
+      "timestamp": 1782787080
+    },
+    {
+      "time": 1782787140000,
+      "price_level": 61975.0,
+      "liquidation_usd": 3385000.0,
+      "side": "short",
+      "timestamp": 1782787140
+    },
+    {
+      "time": 1782787200000,
+      "price_level": 62000.0,
+      "liquidation_usd": 3400000.0,
+      "side": "long",
+      "timestamp": 1782787200
+    },
+    {
+      "time": 1782787260000,
+      "price_level": 62025.0,
+      "liquidation_usd": 3415000.0,
+      "side": "short",
+      "timestamp": 1782787260
+    },
+    {
+      "time": 1782787320000,
+      "price_level": 62050.0,
+      "liquidation_usd": 3430000.0,
+      "side": "long",
+      "timestamp": 1782787320
+    },
+    {
+      "time": 1782787380000,
+      "price_level": 62075.0,
+      "liquidation_usd": 3445000.0,
+      "side": "short",
+      "timestamp": 1782787380
+    },
+    {
+      "time": 1782787440000,
+      "price_level": 62100.0,
+      "liquidation_usd": 3460000.0,
+      "side": "long",
+      "timestamp": 1782787440
+    },
+    {
+      "time": 1782787500000,
+      "price_level": 62125.0,
+      "liquidation_usd": 3475000.0,
+      "side": "short",
+      "timestamp": 1782787500
+    },
+    {
+      "time": 1782787560000,
+      "price_level": 62150.0,
+      "liquidation_usd": 3490000.0,
+      "side": "long",
+      "timestamp": 1782787560
+    },
+    {
+      "time": 1782787620000,
+      "price_level": 62175.0,
+      "liquidation_usd": 3505000.0,
+      "side": "short",
+      "timestamp": 1782787620
+    },
+    {
+      "time": 1782787680000,
+      "price_level": 62200.0,
+      "liquidation_usd": 3520000.0,
+      "side": "long",
+      "timestamp": 1782787680
+    },
+    {
+      "time": 1782787740000,
+      "price_level": 62225.0,
+      "liquidation_usd": 3535000.0,
+      "side": "short",
+      "timestamp": 1782787740
+    },
+    {
+      "time": 1782787800000,
+      "price_level": 62250.0,
+      "liquidation_usd": 3550000.0,
+      "side": "long",
+      "timestamp": 1782787800
+    },
+    {
+      "time": 1782787860000,
+      "price_level": 62275.0,
+      "liquidation_usd": 3565000.0,
+      "side": "short",
+      "timestamp": 1782787860
+    },
+    {
+      "time": 1782787920000,
+      "price_level": 62300.0,
+      "liquidation_usd": 3580000.0,
+      "side": "long",
+      "timestamp": 1782787920
+    },
+    {
+      "time": 1782787980000,
+      "price_level": 62325.0,
+      "liquidation_usd": 3595000.0,
+      "side": "short",
+      "timestamp": 1782787980
+    },
+    {
+      "time": 1782788040000,
+      "price_level": 62350.0,
+      "liquidation_usd": 3610000.0,
+      "side": "long",
+      "timestamp": 1782788040
+    },
+    {
+      "time": 1782788100000,
+      "price_level": 62375.0,
+      "liquidation_usd": 3625000.0,
+      "side": "short",
+      "timestamp": 1782788100
+    },
+    {
+      "time": 1782788160000,
+      "price_level": 62400.0,
+      "liquidation_usd": 3640000.0,
+      "side": "long",
+      "timestamp": 1782788160
+    },
+    {
+      "time": 1782788220000,
+      "price_level": 62425.0,
+      "liquidation_usd": 3655000.0,
+      "side": "short",
+      "timestamp": 1782788220
+    },
+    {
+      "time": 1782788280000,
+      "price_level": 62450.0,
+      "liquidation_usd": 3670000.0,
+      "side": "long",
+      "timestamp": 1782788280
+    },
+    {
+      "time": 1782788340000,
+      "price_level": 62475.0,
+      "liquidation_usd": 3685000.0,
+      "side": "short",
+      "timestamp": 1782788340
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "coinglass_liquidations_liquidation_heatmap",
+    "path": "/api/futures/liquidation/aggregated-heatmap/model1",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/coinglass/extracted_raw/20260703T023307Z/liquidations/liquidation_heatmap/24h_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 180,
+    "min_records_required": 0,
+    "duplicates_removed": 0
+  }
+}

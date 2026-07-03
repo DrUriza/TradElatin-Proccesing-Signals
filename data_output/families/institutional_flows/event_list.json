@@ -1,0 +1,3405 @@
+{
+  "pipeline": "Processing-Signals MainPipeline",
+  "version": "0.1.0",
+  "family_key": "institutional_flows",
+  "output_shape": "event_list",
+  "records_processed": 52,
+  "symbols": [
+    "BTCUSDT"
+  ],
+  "timeframes": [
+    "15m",
+    "1h",
+    "1m",
+    "5m"
+  ],
+  "data_types": {
+    "etf_flows": 8,
+    "unknown": 20,
+    "exchange_inflow": 8,
+    "exchange_netflow": 8,
+    "exchange_outflow": 8
+  },
+  "blocks": [
+    {
+      "source_name": "institutional_flows/coinglass_etf_flows_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": true,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": true,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/coinglass_etf_flows_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/coinglass_etf_flows_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": true,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": true,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/coinglass_etf_flows_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": true,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": true,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/coinglass_stablecoin_flows_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": true,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": true,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/coinglass_stablecoin_flows_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/coinglass_stablecoin_flows_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": true,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": true,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/coinglass_stablecoin_flows_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": true,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 2,
+        "reference_column": "time",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 6,
+        "has_feature_snapshot": true,
+        "feature_count": 120
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": true,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_inflow_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_inflow_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_inflow_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_inflow_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_netflow_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_netflow_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_netflow_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_netflow_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_outflow_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_outflow_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_outflow_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_outflow_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_reserve_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_reserve_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_reserve_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_exchange_reserve_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_stablecoin_flows_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_stablecoin_flows_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_stablecoin_flows_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/cryptoquant_stablecoin_flows_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": true,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": true
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": true,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": true
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_etf_flows_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_etf_flows_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_etf_flows_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_etf_flows_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "etf_flows",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_inflow_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_inflow_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_inflow_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_inflow_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "exchange_inflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_netflow_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_netflow_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_netflow_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_netflow_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "exchange_netflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_outflow_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_outflow_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_outflow_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_outflow_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "exchange_outflow",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_reserve_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_reserve_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_reserve_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_exchange_reserve_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_stablecoin_flows_15m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_stablecoin_flows_1h.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_stablecoin_flows_1m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "institutional_flows/glassnode_stablecoin_flows_5m.json",
+      "family_key": "institutional_flows",
+      "source_family_key": "institutional_flows",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": false,
+        "trend_expansion": false,
+        "mean_reversion_zone": true,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 0,
+        "reference_column": null,
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 0,
+        "has_feature_snapshot": false,
+        "feature_count": 0
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": false,
+          "trend_expansion": false,
+          "mean_reversion_zone": true,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    }
+  ]
+}

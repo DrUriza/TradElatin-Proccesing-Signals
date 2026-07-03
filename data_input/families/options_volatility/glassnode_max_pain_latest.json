@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "glassnode",
+  "family": "options_volatility",
+  "subtype": "max_pain",
+  "data_type": "snapshot",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": null,
+  "extraction_window": "latest",
+  "records": [
+    {
+      "timestamp": 1782777600,
+      "value": 89.75
+    },
+    {
+      "timestamp": 1782777660,
+      "value": 89.8
+    },
+    {
+      "timestamp": 1782777720,
+      "value": 89.85
+    },
+    {
+      "timestamp": 1782777780,
+      "value": 89.9
+    },
+    {
+      "timestamp": 1782777840,
+      "value": 89.95
+    },
+    {
+      "timestamp": 1782777900,
+      "value": 90.0
+    },
+    {
+      "timestamp": 1782777960,
+      "value": 90.05
+    },
+    {
+      "timestamp": 1782778020,
+      "value": 90.1
+    },
+    {
+      "timestamp": 1782778080,
+      "value": 90.15
+    },
+    {
+      "timestamp": 1782778140,
+      "value": 90.2
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "glassnode_options_volatility_max_pain",
+    "path": null,
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/glassnode/extracted_raw/20260703T023307Z/options_volatility/max_pain/latest_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 10,
+    "min_records_required": 0,
+    "duplicates_removed": 0
+  }
+}

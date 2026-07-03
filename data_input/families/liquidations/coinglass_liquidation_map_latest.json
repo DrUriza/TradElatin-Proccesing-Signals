@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "coinglass",
+  "family": "liquidations",
+  "subtype": "liquidation_map",
+  "data_type": "snapshot",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": null,
+  "extraction_window": "latest",
+  "records": [
+    {
+      "time": 1782777600000,
+      "value": 90.55,
+      "window": "latest",
+      "timestamp": 1782777600
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "coinglass_liquidations_liquidation_map",
+    "path": "/api/futures/liquidation/aggregated-map",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/coinglass/extracted_raw/20260703T023307Z/liquidations/liquidation_map/latest_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 1,
+    "min_records_required": 0,
+    "duplicates_removed": 0
+  }
+}

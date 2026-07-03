@@ -1,0 +1,4227 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "cryptoquant",
+  "family": "sentiment_positioning",
+  "subtype": "sentiment_index",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "1h",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-05T01:00:00Z",
+      "blockheight": 856000,
+      "sentiment_index": 103.11,
+      "value": 103.11,
+      "timestamp": 1780621200
+    },
+    {
+      "datetime": "2026-06-05T02:00:00Z",
+      "blockheight": 856001,
+      "sentiment_index": 103.14,
+      "value": 103.14,
+      "timestamp": 1780624800
+    },
+    {
+      "datetime": "2026-06-05T03:00:00Z",
+      "blockheight": 856002,
+      "sentiment_index": 103.17,
+      "value": 103.17,
+      "timestamp": 1780628400
+    },
+    {
+      "datetime": "2026-06-05T04:00:00Z",
+      "blockheight": 856003,
+      "sentiment_index": 103.2,
+      "value": 103.2,
+      "timestamp": 1780632000
+    },
+    {
+      "datetime": "2026-06-05T05:00:00Z",
+      "blockheight": 856004,
+      "sentiment_index": 103.23,
+      "value": 103.23,
+      "timestamp": 1780635600
+    },
+    {
+      "datetime": "2026-06-05T06:00:00Z",
+      "blockheight": 856005,
+      "sentiment_index": 103.26,
+      "value": 103.26,
+      "timestamp": 1780639200
+    },
+    {
+      "datetime": "2026-06-05T07:00:00Z",
+      "blockheight": 856006,
+      "sentiment_index": 103.29,
+      "value": 103.29,
+      "timestamp": 1780642800
+    },
+    {
+      "datetime": "2026-06-05T08:00:00Z",
+      "blockheight": 856007,
+      "sentiment_index": 103.32,
+      "value": 103.32,
+      "timestamp": 1780646400
+    },
+    {
+      "datetime": "2026-06-05T09:00:00Z",
+      "blockheight": 856008,
+      "sentiment_index": 103.35,
+      "value": 103.35,
+      "timestamp": 1780650000
+    },
+    {
+      "datetime": "2026-06-05T10:00:00Z",
+      "blockheight": 856009,
+      "sentiment_index": 103.38,
+      "value": 103.38,
+      "timestamp": 1780653600
+    },
+    {
+      "datetime": "2026-06-05T11:00:00Z",
+      "blockheight": 856010,
+      "sentiment_index": 103.41,
+      "value": 103.41,
+      "timestamp": 1780657200
+    },
+    {
+      "datetime": "2026-06-05T12:00:00Z",
+      "blockheight": 856011,
+      "sentiment_index": 103.44,
+      "value": 103.44,
+      "timestamp": 1780660800
+    },
+    {
+      "datetime": "2026-06-05T13:00:00Z",
+      "blockheight": 856012,
+      "sentiment_index": 103.47,
+      "value": 103.47,
+      "timestamp": 1780664400
+    },
+    {
+      "datetime": "2026-06-05T14:00:00Z",
+      "blockheight": 856013,
+      "sentiment_index": 103.5,
+      "value": 103.5,
+      "timestamp": 1780668000
+    },
+    {
+      "datetime": "2026-06-05T15:00:00Z",
+      "blockheight": 856014,
+      "sentiment_index": 103.53,
+      "value": 103.53,
+      "timestamp": 1780671600
+    },
+    {
+      "datetime": "2026-06-05T16:00:00Z",
+      "blockheight": 856015,
+      "sentiment_index": 103.56,
+      "value": 103.56,
+      "timestamp": 1780675200
+    },
+    {
+      "datetime": "2026-06-05T17:00:00Z",
+      "blockheight": 856016,
+      "sentiment_index": 103.59,
+      "value": 103.59,
+      "timestamp": 1780678800
+    },
+    {
+      "datetime": "2026-06-05T18:00:00Z",
+      "blockheight": 856017,
+      "sentiment_index": 103.62,
+      "value": 103.62,
+      "timestamp": 1780682400
+    },
+    {
+      "datetime": "2026-06-05T19:00:00Z",
+      "blockheight": 856018,
+      "sentiment_index": 103.65,
+      "value": 103.65,
+      "timestamp": 1780686000
+    },
+    {
+      "datetime": "2026-06-05T20:00:00Z",
+      "blockheight": 856019,
+      "sentiment_index": 103.68,
+      "value": 103.68,
+      "timestamp": 1780689600
+    },
+    {
+      "datetime": "2026-06-05T21:00:00Z",
+      "blockheight": 856020,
+      "sentiment_index": 103.71,
+      "value": 103.71,
+      "timestamp": 1780693200
+    },
+    {
+      "datetime": "2026-06-05T22:00:00Z",
+      "blockheight": 856021,
+      "sentiment_index": 103.74,
+      "value": 103.74,
+      "timestamp": 1780696800
+    },
+    {
+      "datetime": "2026-06-05T23:00:00Z",
+      "blockheight": 856022,
+      "sentiment_index": 103.77,
+      "value": 103.77,
+      "timestamp": 1780700400
+    },
+    {
+      "datetime": "2026-06-06T00:00:00Z",
+      "blockheight": 856023,
+      "sentiment_index": 103.8,
+      "value": 103.8,
+      "timestamp": 1780704000
+    },
+    {
+      "datetime": "2026-06-06T01:00:00Z",
+      "blockheight": 856024,
+      "sentiment_index": 103.83,
+      "value": 103.83,
+      "timestamp": 1780707600
+    },
+    {
+      "datetime": "2026-06-06T02:00:00Z",
+      "blockheight": 856025,
+      "sentiment_index": 103.86,
+      "value": 103.86,
+      "timestamp": 1780711200
+    },
+    {
+      "datetime": "2026-06-06T03:00:00Z",
+      "blockheight": 856026,
+      "sentiment_index": 103.89,
+      "value": 103.89,
+      "timestamp": 1780714800
+    },
+    {
+      "datetime": "2026-06-06T04:00:00Z",
+      "blockheight": 856027,
+      "sentiment_index": 103.92,
+      "value": 103.92,
+      "timestamp": 1780718400
+    },
+    {
+      "datetime": "2026-06-06T05:00:00Z",
+      "blockheight": 856028,
+      "sentiment_index": 103.95,
+      "value": 103.95,
+      "timestamp": 1780722000
+    },
+    {
+      "datetime": "2026-06-06T06:00:00Z",
+      "blockheight": 856029,
+      "sentiment_index": 103.98,
+      "value": 103.98,
+      "timestamp": 1780725600
+    },
+    {
+      "datetime": "2026-06-06T07:00:00Z",
+      "blockheight": 856030,
+      "sentiment_index": 104.01,
+      "value": 104.01,
+      "timestamp": 1780729200
+    },
+    {
+      "datetime": "2026-06-06T08:00:00Z",
+      "blockheight": 856031,
+      "sentiment_index": 104.04,
+      "value": 104.04,
+      "timestamp": 1780732800
+    },
+    {
+      "datetime": "2026-06-06T09:00:00Z",
+      "blockheight": 856032,
+      "sentiment_index": 104.07,
+      "value": 104.07,
+      "timestamp": 1780736400
+    },
+    {
+      "datetime": "2026-06-06T10:00:00Z",
+      "blockheight": 856033,
+      "sentiment_index": 104.1,
+      "value": 104.1,
+      "timestamp": 1780740000
+    },
+    {
+      "datetime": "2026-06-06T11:00:00Z",
+      "blockheight": 856034,
+      "sentiment_index": 104.13,
+      "value": 104.13,
+      "timestamp": 1780743600
+    },
+    {
+      "datetime": "2026-06-06T12:00:00Z",
+      "blockheight": 856035,
+      "sentiment_index": 104.16,
+      "value": 104.16,
+      "timestamp": 1780747200
+    },
+    {
+      "datetime": "2026-06-06T13:00:00Z",
+      "blockheight": 856036,
+      "sentiment_index": 104.19,
+      "value": 104.19,
+      "timestamp": 1780750800
+    },
+    {
+      "datetime": "2026-06-06T14:00:00Z",
+      "blockheight": 856037,
+      "sentiment_index": 104.22,
+      "value": 104.22,
+      "timestamp": 1780754400
+    },
+    {
+      "datetime": "2026-06-06T15:00:00Z",
+      "blockheight": 856038,
+      "sentiment_index": 104.25,
+      "value": 104.25,
+      "timestamp": 1780758000
+    },
+    {
+      "datetime": "2026-06-06T16:00:00Z",
+      "blockheight": 856039,
+      "sentiment_index": 104.28,
+      "value": 104.28,
+      "timestamp": 1780761600
+    },
+    {
+      "datetime": "2026-06-06T17:00:00Z",
+      "blockheight": 856040,
+      "sentiment_index": 104.31,
+      "value": 104.31,
+      "timestamp": 1780765200
+    },
+    {
+      "datetime": "2026-06-06T18:00:00Z",
+      "blockheight": 856041,
+      "sentiment_index": 104.34,
+      "value": 104.34,
+      "timestamp": 1780768800
+    },
+    {
+      "datetime": "2026-06-06T19:00:00Z",
+      "blockheight": 856042,
+      "sentiment_index": 104.37,
+      "value": 104.37,
+      "timestamp": 1780772400
+    },
+    {
+      "datetime": "2026-06-06T20:00:00Z",
+      "blockheight": 856043,
+      "sentiment_index": 104.4,
+      "value": 104.4,
+      "timestamp": 1780776000
+    },
+    {
+      "datetime": "2026-06-06T21:00:00Z",
+      "blockheight": 856044,
+      "sentiment_index": 104.43,
+      "value": 104.43,
+      "timestamp": 1780779600
+    },
+    {
+      "datetime": "2026-06-06T22:00:00Z",
+      "blockheight": 856045,
+      "sentiment_index": 104.46,
+      "value": 104.46,
+      "timestamp": 1780783200
+    },
+    {
+      "datetime": "2026-06-06T23:00:00Z",
+      "blockheight": 856046,
+      "sentiment_index": 104.49,
+      "value": 104.49,
+      "timestamp": 1780786800
+    },
+    {
+      "datetime": "2026-06-07T00:00:00Z",
+      "blockheight": 856047,
+      "sentiment_index": 104.52,
+      "value": 104.52,
+      "timestamp": 1780790400
+    },
+    {
+      "datetime": "2026-06-07T01:00:00Z",
+      "blockheight": 856048,
+      "sentiment_index": 104.55,
+      "value": 104.55,
+      "timestamp": 1780794000
+    },
+    {
+      "datetime": "2026-06-07T02:00:00Z",
+      "blockheight": 856049,
+      "sentiment_index": 104.58,
+      "value": 104.58,
+      "timestamp": 1780797600
+    },
+    {
+      "datetime": "2026-06-07T03:00:00Z",
+      "blockheight": 856050,
+      "sentiment_index": 104.61,
+      "value": 104.61,
+      "timestamp": 1780801200
+    },
+    {
+      "datetime": "2026-06-07T04:00:00Z",
+      "blockheight": 856051,
+      "sentiment_index": 104.64,
+      "value": 104.64,
+      "timestamp": 1780804800
+    },
+    {
+      "datetime": "2026-06-07T05:00:00Z",
+      "blockheight": 856052,
+      "sentiment_index": 104.67,
+      "value": 104.67,
+      "timestamp": 1780808400
+    },
+    {
+      "datetime": "2026-06-07T06:00:00Z",
+      "blockheight": 856053,
+      "sentiment_index": 104.7,
+      "value": 104.7,
+      "timestamp": 1780812000
+    },
+    {
+      "datetime": "2026-06-07T07:00:00Z",
+      "blockheight": 856054,
+      "sentiment_index": 104.73,
+      "value": 104.73,
+      "timestamp": 1780815600
+    },
+    {
+      "datetime": "2026-06-07T08:00:00Z",
+      "blockheight": 856055,
+      "sentiment_index": 104.76,
+      "value": 104.76,
+      "timestamp": 1780819200
+    },
+    {
+      "datetime": "2026-06-07T09:00:00Z",
+      "blockheight": 856056,
+      "sentiment_index": 104.79,
+      "value": 104.79,
+      "timestamp": 1780822800
+    },
+    {
+      "datetime": "2026-06-07T10:00:00Z",
+      "blockheight": 856057,
+      "sentiment_index": 104.82,
+      "value": 104.82,
+      "timestamp": 1780826400
+    },
+    {
+      "datetime": "2026-06-07T11:00:00Z",
+      "blockheight": 856058,
+      "sentiment_index": 104.85,
+      "value": 104.85,
+      "timestamp": 1780830000
+    },
+    {
+      "datetime": "2026-06-07T12:00:00Z",
+      "blockheight": 856059,
+      "sentiment_index": 104.88,
+      "value": 104.88,
+      "timestamp": 1780833600
+    },
+    {
+      "datetime": "2026-06-07T13:00:00Z",
+      "blockheight": 856060,
+      "sentiment_index": 104.91,
+      "value": 104.91,
+      "timestamp": 1780837200
+    },
+    {
+      "datetime": "2026-06-07T14:00:00Z",
+      "blockheight": 856061,
+      "sentiment_index": 104.94,
+      "value": 104.94,
+      "timestamp": 1780840800
+    },
+    {
+      "datetime": "2026-06-07T15:00:00Z",
+      "blockheight": 856062,
+      "sentiment_index": 104.97,
+      "value": 104.97,
+      "timestamp": 1780844400
+    },
+    {
+      "datetime": "2026-06-07T16:00:00Z",
+      "blockheight": 856063,
+      "sentiment_index": 105.0,
+      "value": 105.0,
+      "timestamp": 1780848000
+    },
+    {
+      "datetime": "2026-06-07T17:00:00Z",
+      "blockheight": 856064,
+      "sentiment_index": 105.03,
+      "value": 105.03,
+      "timestamp": 1780851600
+    },
+    {
+      "datetime": "2026-06-07T18:00:00Z",
+      "blockheight": 856065,
+      "sentiment_index": 105.06,
+      "value": 105.06,
+      "timestamp": 1780855200
+    },
+    {
+      "datetime": "2026-06-07T19:00:00Z",
+      "blockheight": 856066,
+      "sentiment_index": 105.09,
+      "value": 105.09,
+      "timestamp": 1780858800
+    },
+    {
+      "datetime": "2026-06-07T20:00:00Z",
+      "blockheight": 856067,
+      "sentiment_index": 105.12,
+      "value": 105.12,
+      "timestamp": 1780862400
+    },
+    {
+      "datetime": "2026-06-07T21:00:00Z",
+      "blockheight": 856068,
+      "sentiment_index": 105.15,
+      "value": 105.15,
+      "timestamp": 1780866000
+    },
+    {
+      "datetime": "2026-06-07T22:00:00Z",
+      "blockheight": 856069,
+      "sentiment_index": 105.18,
+      "value": 105.18,
+      "timestamp": 1780869600
+    },
+    {
+      "datetime": "2026-06-07T23:00:00Z",
+      "blockheight": 856070,
+      "sentiment_index": 105.21,
+      "value": 105.21,
+      "timestamp": 1780873200
+    },
+    {
+      "datetime": "2026-06-08T00:00:00Z",
+      "blockheight": 856071,
+      "sentiment_index": 105.24,
+      "value": 105.24,
+      "timestamp": 1780876800
+    },
+    {
+      "datetime": "2026-06-08T01:00:00Z",
+      "blockheight": 856072,
+      "sentiment_index": 105.27,
+      "value": 105.27,
+      "timestamp": 1780880400
+    },
+    {
+      "datetime": "2026-06-08T02:00:00Z",
+      "blockheight": 856073,
+      "sentiment_index": 105.3,
+      "value": 105.3,
+      "timestamp": 1780884000
+    },
+    {
+      "datetime": "2026-06-08T03:00:00Z",
+      "blockheight": 856074,
+      "sentiment_index": 105.33,
+      "value": 105.33,
+      "timestamp": 1780887600
+    },
+    {
+      "datetime": "2026-06-08T04:00:00Z",
+      "blockheight": 856075,
+      "sentiment_index": 105.36,
+      "value": 105.36,
+      "timestamp": 1780891200
+    },
+    {
+      "datetime": "2026-06-08T05:00:00Z",
+      "blockheight": 856076,
+      "sentiment_index": 105.39,
+      "value": 105.39,
+      "timestamp": 1780894800
+    },
+    {
+      "datetime": "2026-06-08T06:00:00Z",
+      "blockheight": 856077,
+      "sentiment_index": 105.42,
+      "value": 105.42,
+      "timestamp": 1780898400
+    },
+    {
+      "datetime": "2026-06-08T07:00:00Z",
+      "blockheight": 856078,
+      "sentiment_index": 105.45,
+      "value": 105.45,
+      "timestamp": 1780902000
+    },
+    {
+      "datetime": "2026-06-08T08:00:00Z",
+      "blockheight": 856079,
+      "sentiment_index": 105.48,
+      "value": 105.48,
+      "timestamp": 1780905600
+    },
+    {
+      "datetime": "2026-06-08T09:00:00Z",
+      "blockheight": 856080,
+      "sentiment_index": 105.51,
+      "value": 105.51,
+      "timestamp": 1780909200
+    },
+    {
+      "datetime": "2026-06-08T10:00:00Z",
+      "blockheight": 856081,
+      "sentiment_index": 105.54,
+      "value": 105.54,
+      "timestamp": 1780912800
+    },
+    {
+      "datetime": "2026-06-08T11:00:00Z",
+      "blockheight": 856082,
+      "sentiment_index": 105.57,
+      "value": 105.57,
+      "timestamp": 1780916400
+    },
+    {
+      "datetime": "2026-06-08T12:00:00Z",
+      "blockheight": 856083,
+      "sentiment_index": 105.6,
+      "value": 105.6,
+      "timestamp": 1780920000
+    },
+    {
+      "datetime": "2026-06-08T13:00:00Z",
+      "blockheight": 856084,
+      "sentiment_index": 105.63,
+      "value": 105.63,
+      "timestamp": 1780923600
+    },
+    {
+      "datetime": "2026-06-08T14:00:00Z",
+      "blockheight": 856085,
+      "sentiment_index": 105.66,
+      "value": 105.66,
+      "timestamp": 1780927200
+    },
+    {
+      "datetime": "2026-06-08T15:00:00Z",
+      "blockheight": 856086,
+      "sentiment_index": 105.69,
+      "value": 105.69,
+      "timestamp": 1780930800
+    },
+    {
+      "datetime": "2026-06-08T16:00:00Z",
+      "blockheight": 856087,
+      "sentiment_index": 105.72,
+      "value": 105.72,
+      "timestamp": 1780934400
+    },
+    {
+      "datetime": "2026-06-08T17:00:00Z",
+      "blockheight": 856088,
+      "sentiment_index": 105.75,
+      "value": 105.75,
+      "timestamp": 1780938000
+    },
+    {
+      "datetime": "2026-06-08T18:00:00Z",
+      "blockheight": 856089,
+      "sentiment_index": 105.78,
+      "value": 105.78,
+      "timestamp": 1780941600
+    },
+    {
+      "datetime": "2026-06-08T19:00:00Z",
+      "blockheight": 856090,
+      "sentiment_index": 105.81,
+      "value": 105.81,
+      "timestamp": 1780945200
+    },
+    {
+      "datetime": "2026-06-08T20:00:00Z",
+      "blockheight": 856091,
+      "sentiment_index": 105.84,
+      "value": 105.84,
+      "timestamp": 1780948800
+    },
+    {
+      "datetime": "2026-06-08T21:00:00Z",
+      "blockheight": 856092,
+      "sentiment_index": 105.87,
+      "value": 105.87,
+      "timestamp": 1780952400
+    },
+    {
+      "datetime": "2026-06-08T22:00:00Z",
+      "blockheight": 856093,
+      "sentiment_index": 105.9,
+      "value": 105.9,
+      "timestamp": 1780956000
+    },
+    {
+      "datetime": "2026-06-08T23:00:00Z",
+      "blockheight": 856094,
+      "sentiment_index": 105.93,
+      "value": 105.93,
+      "timestamp": 1780959600
+    },
+    {
+      "datetime": "2026-06-09T00:00:00Z",
+      "blockheight": 856095,
+      "sentiment_index": 105.96,
+      "value": 105.96,
+      "timestamp": 1780963200
+    },
+    {
+      "datetime": "2026-06-09T01:00:00Z",
+      "blockheight": 856096,
+      "sentiment_index": 105.99,
+      "value": 105.99,
+      "timestamp": 1780966800
+    },
+    {
+      "datetime": "2026-06-09T02:00:00Z",
+      "blockheight": 856097,
+      "sentiment_index": 106.02,
+      "value": 106.02,
+      "timestamp": 1780970400
+    },
+    {
+      "datetime": "2026-06-09T03:00:00Z",
+      "blockheight": 856098,
+      "sentiment_index": 106.05,
+      "value": 106.05,
+      "timestamp": 1780974000
+    },
+    {
+      "datetime": "2026-06-09T04:00:00Z",
+      "blockheight": 856099,
+      "sentiment_index": 106.08,
+      "value": 106.08,
+      "timestamp": 1780977600
+    },
+    {
+      "datetime": "2026-06-09T05:00:00Z",
+      "blockheight": 856100,
+      "sentiment_index": 106.11,
+      "value": 106.11,
+      "timestamp": 1780981200
+    },
+    {
+      "datetime": "2026-06-09T06:00:00Z",
+      "blockheight": 856101,
+      "sentiment_index": 106.14,
+      "value": 106.14,
+      "timestamp": 1780984800
+    },
+    {
+      "datetime": "2026-06-09T07:00:00Z",
+      "blockheight": 856102,
+      "sentiment_index": 106.17,
+      "value": 106.17,
+      "timestamp": 1780988400
+    },
+    {
+      "datetime": "2026-06-09T08:00:00Z",
+      "blockheight": 856103,
+      "sentiment_index": 106.2,
+      "value": 106.2,
+      "timestamp": 1780992000
+    },
+    {
+      "datetime": "2026-06-09T09:00:00Z",
+      "blockheight": 856104,
+      "sentiment_index": 106.23,
+      "value": 106.23,
+      "timestamp": 1780995600
+    },
+    {
+      "datetime": "2026-06-09T10:00:00Z",
+      "blockheight": 856105,
+      "sentiment_index": 106.26,
+      "value": 106.26,
+      "timestamp": 1780999200
+    },
+    {
+      "datetime": "2026-06-09T11:00:00Z",
+      "blockheight": 856106,
+      "sentiment_index": 106.29,
+      "value": 106.29,
+      "timestamp": 1781002800
+    },
+    {
+      "datetime": "2026-06-09T12:00:00Z",
+      "blockheight": 856107,
+      "sentiment_index": 106.32,
+      "value": 106.32,
+      "timestamp": 1781006400
+    },
+    {
+      "datetime": "2026-06-09T13:00:00Z",
+      "blockheight": 856108,
+      "sentiment_index": 106.35,
+      "value": 106.35,
+      "timestamp": 1781010000
+    },
+    {
+      "datetime": "2026-06-09T14:00:00Z",
+      "blockheight": 856109,
+      "sentiment_index": 106.38,
+      "value": 106.38,
+      "timestamp": 1781013600
+    },
+    {
+      "datetime": "2026-06-09T15:00:00Z",
+      "blockheight": 856110,
+      "sentiment_index": 106.41,
+      "value": 106.41,
+      "timestamp": 1781017200
+    },
+    {
+      "datetime": "2026-06-09T16:00:00Z",
+      "blockheight": 856111,
+      "sentiment_index": 106.44,
+      "value": 106.44,
+      "timestamp": 1781020800
+    },
+    {
+      "datetime": "2026-06-09T17:00:00Z",
+      "blockheight": 856112,
+      "sentiment_index": 106.47,
+      "value": 106.47,
+      "timestamp": 1781024400
+    },
+    {
+      "datetime": "2026-06-09T18:00:00Z",
+      "blockheight": 856113,
+      "sentiment_index": 106.5,
+      "value": 106.5,
+      "timestamp": 1781028000
+    },
+    {
+      "datetime": "2026-06-09T19:00:00Z",
+      "blockheight": 856114,
+      "sentiment_index": 106.53,
+      "value": 106.53,
+      "timestamp": 1781031600
+    },
+    {
+      "datetime": "2026-06-09T20:00:00Z",
+      "blockheight": 856115,
+      "sentiment_index": 106.56,
+      "value": 106.56,
+      "timestamp": 1781035200
+    },
+    {
+      "datetime": "2026-06-09T21:00:00Z",
+      "blockheight": 856116,
+      "sentiment_index": 106.59,
+      "value": 106.59,
+      "timestamp": 1781038800
+    },
+    {
+      "datetime": "2026-06-09T22:00:00Z",
+      "blockheight": 856117,
+      "sentiment_index": 106.62,
+      "value": 106.62,
+      "timestamp": 1781042400
+    },
+    {
+      "datetime": "2026-06-09T23:00:00Z",
+      "blockheight": 856118,
+      "sentiment_index": 106.65,
+      "value": 106.65,
+      "timestamp": 1781046000
+    },
+    {
+      "datetime": "2026-06-10T00:00:00Z",
+      "blockheight": 856119,
+      "sentiment_index": 106.68,
+      "value": 106.68,
+      "timestamp": 1781049600
+    },
+    {
+      "datetime": "2026-06-10T01:00:00Z",
+      "blockheight": 856120,
+      "sentiment_index": 106.71,
+      "value": 106.71,
+      "timestamp": 1781053200
+    },
+    {
+      "datetime": "2026-06-10T02:00:00Z",
+      "blockheight": 856121,
+      "sentiment_index": 106.74,
+      "value": 106.74,
+      "timestamp": 1781056800
+    },
+    {
+      "datetime": "2026-06-10T03:00:00Z",
+      "blockheight": 856122,
+      "sentiment_index": 106.77,
+      "value": 106.77,
+      "timestamp": 1781060400
+    },
+    {
+      "datetime": "2026-06-10T04:00:00Z",
+      "blockheight": 856123,
+      "sentiment_index": 106.8,
+      "value": 106.8,
+      "timestamp": 1781064000
+    },
+    {
+      "datetime": "2026-06-10T05:00:00Z",
+      "blockheight": 856124,
+      "sentiment_index": 106.83,
+      "value": 106.83,
+      "timestamp": 1781067600
+    },
+    {
+      "datetime": "2026-06-10T06:00:00Z",
+      "blockheight": 856125,
+      "sentiment_index": 106.86,
+      "value": 106.86,
+      "timestamp": 1781071200
+    },
+    {
+      "datetime": "2026-06-10T07:00:00Z",
+      "blockheight": 856126,
+      "sentiment_index": 106.89,
+      "value": 106.89,
+      "timestamp": 1781074800
+    },
+    {
+      "datetime": "2026-06-10T08:00:00Z",
+      "blockheight": 856127,
+      "sentiment_index": 106.92,
+      "value": 106.92,
+      "timestamp": 1781078400
+    },
+    {
+      "datetime": "2026-06-10T09:00:00Z",
+      "blockheight": 856128,
+      "sentiment_index": 106.95,
+      "value": 106.95,
+      "timestamp": 1781082000
+    },
+    {
+      "datetime": "2026-06-10T10:00:00Z",
+      "blockheight": 856129,
+      "sentiment_index": 106.98,
+      "value": 106.98,
+      "timestamp": 1781085600
+    },
+    {
+      "datetime": "2026-06-10T11:00:00Z",
+      "blockheight": 856130,
+      "sentiment_index": 107.01,
+      "value": 107.01,
+      "timestamp": 1781089200
+    },
+    {
+      "datetime": "2026-06-10T12:00:00Z",
+      "blockheight": 856131,
+      "sentiment_index": 107.04,
+      "value": 107.04,
+      "timestamp": 1781092800
+    },
+    {
+      "datetime": "2026-06-10T13:00:00Z",
+      "blockheight": 856132,
+      "sentiment_index": 107.07,
+      "value": 107.07,
+      "timestamp": 1781096400
+    },
+    {
+      "datetime": "2026-06-10T14:00:00Z",
+      "blockheight": 856133,
+      "sentiment_index": 107.1,
+      "value": 107.1,
+      "timestamp": 1781100000
+    },
+    {
+      "datetime": "2026-06-10T15:00:00Z",
+      "blockheight": 856134,
+      "sentiment_index": 107.13,
+      "value": 107.13,
+      "timestamp": 1781103600
+    },
+    {
+      "datetime": "2026-06-10T16:00:00Z",
+      "blockheight": 856135,
+      "sentiment_index": 107.16,
+      "value": 107.16,
+      "timestamp": 1781107200
+    },
+    {
+      "datetime": "2026-06-10T17:00:00Z",
+      "blockheight": 856136,
+      "sentiment_index": 107.19,
+      "value": 107.19,
+      "timestamp": 1781110800
+    },
+    {
+      "datetime": "2026-06-10T18:00:00Z",
+      "blockheight": 856137,
+      "sentiment_index": 107.22,
+      "value": 107.22,
+      "timestamp": 1781114400
+    },
+    {
+      "datetime": "2026-06-10T19:00:00Z",
+      "blockheight": 856138,
+      "sentiment_index": 107.25,
+      "value": 107.25,
+      "timestamp": 1781118000
+    },
+    {
+      "datetime": "2026-06-10T20:00:00Z",
+      "blockheight": 856139,
+      "sentiment_index": 107.28,
+      "value": 107.28,
+      "timestamp": 1781121600
+    },
+    {
+      "datetime": "2026-06-10T21:00:00Z",
+      "blockheight": 856140,
+      "sentiment_index": 107.31,
+      "value": 107.31,
+      "timestamp": 1781125200
+    },
+    {
+      "datetime": "2026-06-10T22:00:00Z",
+      "blockheight": 856141,
+      "sentiment_index": 107.34,
+      "value": 107.34,
+      "timestamp": 1781128800
+    },
+    {
+      "datetime": "2026-06-10T23:00:00Z",
+      "blockheight": 856142,
+      "sentiment_index": 107.37,
+      "value": 107.37,
+      "timestamp": 1781132400
+    },
+    {
+      "datetime": "2026-06-11T00:00:00Z",
+      "blockheight": 856143,
+      "sentiment_index": 107.4,
+      "value": 107.4,
+      "timestamp": 1781136000
+    },
+    {
+      "datetime": "2026-06-11T01:00:00Z",
+      "blockheight": 856144,
+      "sentiment_index": 107.43,
+      "value": 107.43,
+      "timestamp": 1781139600
+    },
+    {
+      "datetime": "2026-06-11T02:00:00Z",
+      "blockheight": 856145,
+      "sentiment_index": 107.46,
+      "value": 107.46,
+      "timestamp": 1781143200
+    },
+    {
+      "datetime": "2026-06-11T03:00:00Z",
+      "blockheight": 856146,
+      "sentiment_index": 107.49,
+      "value": 107.49,
+      "timestamp": 1781146800
+    },
+    {
+      "datetime": "2026-06-11T04:00:00Z",
+      "blockheight": 856147,
+      "sentiment_index": 107.52,
+      "value": 107.52,
+      "timestamp": 1781150400
+    },
+    {
+      "datetime": "2026-06-11T05:00:00Z",
+      "blockheight": 856148,
+      "sentiment_index": 107.55,
+      "value": 107.55,
+      "timestamp": 1781154000
+    },
+    {
+      "datetime": "2026-06-11T06:00:00Z",
+      "blockheight": 856149,
+      "sentiment_index": 107.58,
+      "value": 107.58,
+      "timestamp": 1781157600
+    },
+    {
+      "datetime": "2026-06-11T07:00:00Z",
+      "blockheight": 856150,
+      "sentiment_index": 107.61,
+      "value": 107.61,
+      "timestamp": 1781161200
+    },
+    {
+      "datetime": "2026-06-11T08:00:00Z",
+      "blockheight": 856151,
+      "sentiment_index": 107.64,
+      "value": 107.64,
+      "timestamp": 1781164800
+    },
+    {
+      "datetime": "2026-06-11T09:00:00Z",
+      "blockheight": 856152,
+      "sentiment_index": 107.67,
+      "value": 107.67,
+      "timestamp": 1781168400
+    },
+    {
+      "datetime": "2026-06-11T10:00:00Z",
+      "blockheight": 856153,
+      "sentiment_index": 107.7,
+      "value": 107.7,
+      "timestamp": 1781172000
+    },
+    {
+      "datetime": "2026-06-11T11:00:00Z",
+      "blockheight": 856154,
+      "sentiment_index": 107.73,
+      "value": 107.73,
+      "timestamp": 1781175600
+    },
+    {
+      "datetime": "2026-06-11T12:00:00Z",
+      "blockheight": 856155,
+      "sentiment_index": 107.76,
+      "value": 107.76,
+      "timestamp": 1781179200
+    },
+    {
+      "datetime": "2026-06-11T13:00:00Z",
+      "blockheight": 856156,
+      "sentiment_index": 107.79,
+      "value": 107.79,
+      "timestamp": 1781182800
+    },
+    {
+      "datetime": "2026-06-11T14:00:00Z",
+      "blockheight": 856157,
+      "sentiment_index": 107.82,
+      "value": 107.82,
+      "timestamp": 1781186400
+    },
+    {
+      "datetime": "2026-06-11T15:00:00Z",
+      "blockheight": 856158,
+      "sentiment_index": 107.85,
+      "value": 107.85,
+      "timestamp": 1781190000
+    },
+    {
+      "datetime": "2026-06-11T16:00:00Z",
+      "blockheight": 856159,
+      "sentiment_index": 107.88,
+      "value": 107.88,
+      "timestamp": 1781193600
+    },
+    {
+      "datetime": "2026-06-11T17:00:00Z",
+      "blockheight": 856160,
+      "sentiment_index": 107.91,
+      "value": 107.91,
+      "timestamp": 1781197200
+    },
+    {
+      "datetime": "2026-06-11T18:00:00Z",
+      "blockheight": 856161,
+      "sentiment_index": 107.94,
+      "value": 107.94,
+      "timestamp": 1781200800
+    },
+    {
+      "datetime": "2026-06-11T19:00:00Z",
+      "blockheight": 856162,
+      "sentiment_index": 107.97,
+      "value": 107.97,
+      "timestamp": 1781204400
+    },
+    {
+      "datetime": "2026-06-11T20:00:00Z",
+      "blockheight": 856163,
+      "sentiment_index": 108.0,
+      "value": 108.0,
+      "timestamp": 1781208000
+    },
+    {
+      "datetime": "2026-06-11T21:00:00Z",
+      "blockheight": 856164,
+      "sentiment_index": 108.03,
+      "value": 108.03,
+      "timestamp": 1781211600
+    },
+    {
+      "datetime": "2026-06-11T22:00:00Z",
+      "blockheight": 856165,
+      "sentiment_index": 108.06,
+      "value": 108.06,
+      "timestamp": 1781215200
+    },
+    {
+      "datetime": "2026-06-11T23:00:00Z",
+      "blockheight": 856166,
+      "sentiment_index": 108.09,
+      "value": 108.09,
+      "timestamp": 1781218800
+    },
+    {
+      "datetime": "2026-06-12T00:00:00Z",
+      "blockheight": 856167,
+      "sentiment_index": 108.12,
+      "value": 108.12,
+      "timestamp": 1781222400
+    },
+    {
+      "datetime": "2026-06-12T01:00:00Z",
+      "blockheight": 856168,
+      "sentiment_index": 108.15,
+      "value": 108.15,
+      "timestamp": 1781226000
+    },
+    {
+      "datetime": "2026-06-12T02:00:00Z",
+      "blockheight": 856169,
+      "sentiment_index": 108.18,
+      "value": 108.18,
+      "timestamp": 1781229600
+    },
+    {
+      "datetime": "2026-06-12T03:00:00Z",
+      "blockheight": 856170,
+      "sentiment_index": 108.21,
+      "value": 108.21,
+      "timestamp": 1781233200
+    },
+    {
+      "datetime": "2026-06-12T04:00:00Z",
+      "blockheight": 856171,
+      "sentiment_index": 108.24,
+      "value": 108.24,
+      "timestamp": 1781236800
+    },
+    {
+      "datetime": "2026-06-12T05:00:00Z",
+      "blockheight": 856172,
+      "sentiment_index": 108.27,
+      "value": 108.27,
+      "timestamp": 1781240400
+    },
+    {
+      "datetime": "2026-06-12T06:00:00Z",
+      "blockheight": 856173,
+      "sentiment_index": 108.3,
+      "value": 108.3,
+      "timestamp": 1781244000
+    },
+    {
+      "datetime": "2026-06-12T07:00:00Z",
+      "blockheight": 856174,
+      "sentiment_index": 108.33,
+      "value": 108.33,
+      "timestamp": 1781247600
+    },
+    {
+      "datetime": "2026-06-12T08:00:00Z",
+      "blockheight": 856175,
+      "sentiment_index": 108.36,
+      "value": 108.36,
+      "timestamp": 1781251200
+    },
+    {
+      "datetime": "2026-06-12T09:00:00Z",
+      "blockheight": 856176,
+      "sentiment_index": 108.39,
+      "value": 108.39,
+      "timestamp": 1781254800
+    },
+    {
+      "datetime": "2026-06-12T10:00:00Z",
+      "blockheight": 856177,
+      "sentiment_index": 108.42,
+      "value": 108.42,
+      "timestamp": 1781258400
+    },
+    {
+      "datetime": "2026-06-12T11:00:00Z",
+      "blockheight": 856178,
+      "sentiment_index": 108.45,
+      "value": 108.45,
+      "timestamp": 1781262000
+    },
+    {
+      "datetime": "2026-06-12T12:00:00Z",
+      "blockheight": 856179,
+      "sentiment_index": 108.48,
+      "value": 108.48,
+      "timestamp": 1781265600
+    },
+    {
+      "datetime": "2026-06-12T13:00:00Z",
+      "blockheight": 856180,
+      "sentiment_index": 108.51,
+      "value": 108.51,
+      "timestamp": 1781269200
+    },
+    {
+      "datetime": "2026-06-12T14:00:00Z",
+      "blockheight": 856181,
+      "sentiment_index": 108.54,
+      "value": 108.54,
+      "timestamp": 1781272800
+    },
+    {
+      "datetime": "2026-06-12T15:00:00Z",
+      "blockheight": 856182,
+      "sentiment_index": 108.57,
+      "value": 108.57,
+      "timestamp": 1781276400
+    },
+    {
+      "datetime": "2026-06-12T16:00:00Z",
+      "blockheight": 856183,
+      "sentiment_index": 108.6,
+      "value": 108.6,
+      "timestamp": 1781280000
+    },
+    {
+      "datetime": "2026-06-12T17:00:00Z",
+      "blockheight": 856184,
+      "sentiment_index": 108.63,
+      "value": 108.63,
+      "timestamp": 1781283600
+    },
+    {
+      "datetime": "2026-06-12T18:00:00Z",
+      "blockheight": 856185,
+      "sentiment_index": 108.66,
+      "value": 108.66,
+      "timestamp": 1781287200
+    },
+    {
+      "datetime": "2026-06-12T19:00:00Z",
+      "blockheight": 856186,
+      "sentiment_index": 108.69,
+      "value": 108.69,
+      "timestamp": 1781290800
+    },
+    {
+      "datetime": "2026-06-12T20:00:00Z",
+      "blockheight": 856187,
+      "sentiment_index": 108.72,
+      "value": 108.72,
+      "timestamp": 1781294400
+    },
+    {
+      "datetime": "2026-06-12T21:00:00Z",
+      "blockheight": 856188,
+      "sentiment_index": 108.75,
+      "value": 108.75,
+      "timestamp": 1781298000
+    },
+    {
+      "datetime": "2026-06-12T22:00:00Z",
+      "blockheight": 856189,
+      "sentiment_index": 108.78,
+      "value": 108.78,
+      "timestamp": 1781301600
+    },
+    {
+      "datetime": "2026-06-12T23:00:00Z",
+      "blockheight": 856190,
+      "sentiment_index": 108.81,
+      "value": 108.81,
+      "timestamp": 1781305200
+    },
+    {
+      "datetime": "2026-06-13T00:00:00Z",
+      "blockheight": 856191,
+      "sentiment_index": 108.84,
+      "value": 108.84,
+      "timestamp": 1781308800
+    },
+    {
+      "datetime": "2026-06-13T01:00:00Z",
+      "blockheight": 856192,
+      "sentiment_index": 108.87,
+      "value": 108.87,
+      "timestamp": 1781312400
+    },
+    {
+      "datetime": "2026-06-13T02:00:00Z",
+      "blockheight": 856193,
+      "sentiment_index": 108.9,
+      "value": 108.9,
+      "timestamp": 1781316000
+    },
+    {
+      "datetime": "2026-06-13T03:00:00Z",
+      "blockheight": 856194,
+      "sentiment_index": 108.93,
+      "value": 108.93,
+      "timestamp": 1781319600
+    },
+    {
+      "datetime": "2026-06-13T04:00:00Z",
+      "blockheight": 856195,
+      "sentiment_index": 108.96,
+      "value": 108.96,
+      "timestamp": 1781323200
+    },
+    {
+      "datetime": "2026-06-13T05:00:00Z",
+      "blockheight": 856196,
+      "sentiment_index": 108.99,
+      "value": 108.99,
+      "timestamp": 1781326800
+    },
+    {
+      "datetime": "2026-06-13T06:00:00Z",
+      "blockheight": 856197,
+      "sentiment_index": 109.02,
+      "value": 109.02,
+      "timestamp": 1781330400
+    },
+    {
+      "datetime": "2026-06-13T07:00:00Z",
+      "blockheight": 856198,
+      "sentiment_index": 109.05,
+      "value": 109.05,
+      "timestamp": 1781334000
+    },
+    {
+      "datetime": "2026-06-13T08:00:00Z",
+      "blockheight": 856199,
+      "sentiment_index": 109.08,
+      "value": 109.08,
+      "timestamp": 1781337600
+    },
+    {
+      "datetime": "2026-06-13T09:00:00Z",
+      "blockheight": 856200,
+      "sentiment_index": 109.11,
+      "value": 109.11,
+      "timestamp": 1781341200
+    },
+    {
+      "datetime": "2026-06-13T10:00:00Z",
+      "blockheight": 856201,
+      "sentiment_index": 109.14,
+      "value": 109.14,
+      "timestamp": 1781344800
+    },
+    {
+      "datetime": "2026-06-13T11:00:00Z",
+      "blockheight": 856202,
+      "sentiment_index": 109.17,
+      "value": 109.17,
+      "timestamp": 1781348400
+    },
+    {
+      "datetime": "2026-06-13T12:00:00Z",
+      "blockheight": 856203,
+      "sentiment_index": 109.2,
+      "value": 109.2,
+      "timestamp": 1781352000
+    },
+    {
+      "datetime": "2026-06-13T13:00:00Z",
+      "blockheight": 856204,
+      "sentiment_index": 109.23,
+      "value": 109.23,
+      "timestamp": 1781355600
+    },
+    {
+      "datetime": "2026-06-13T14:00:00Z",
+      "blockheight": 856205,
+      "sentiment_index": 109.26,
+      "value": 109.26,
+      "timestamp": 1781359200
+    },
+    {
+      "datetime": "2026-06-13T15:00:00Z",
+      "blockheight": 856206,
+      "sentiment_index": 109.29,
+      "value": 109.29,
+      "timestamp": 1781362800
+    },
+    {
+      "datetime": "2026-06-13T16:00:00Z",
+      "blockheight": 856207,
+      "sentiment_index": 109.32,
+      "value": 109.32,
+      "timestamp": 1781366400
+    },
+    {
+      "datetime": "2026-06-13T17:00:00Z",
+      "blockheight": 856208,
+      "sentiment_index": 109.35,
+      "value": 109.35,
+      "timestamp": 1781370000
+    },
+    {
+      "datetime": "2026-06-13T18:00:00Z",
+      "blockheight": 856209,
+      "sentiment_index": 109.38,
+      "value": 109.38,
+      "timestamp": 1781373600
+    },
+    {
+      "datetime": "2026-06-13T19:00:00Z",
+      "blockheight": 856210,
+      "sentiment_index": 109.41,
+      "value": 109.41,
+      "timestamp": 1781377200
+    },
+    {
+      "datetime": "2026-06-13T20:00:00Z",
+      "blockheight": 856211,
+      "sentiment_index": 109.44,
+      "value": 109.44,
+      "timestamp": 1781380800
+    },
+    {
+      "datetime": "2026-06-13T21:00:00Z",
+      "blockheight": 856212,
+      "sentiment_index": 109.47,
+      "value": 109.47,
+      "timestamp": 1781384400
+    },
+    {
+      "datetime": "2026-06-13T22:00:00Z",
+      "blockheight": 856213,
+      "sentiment_index": 109.5,
+      "value": 109.5,
+      "timestamp": 1781388000
+    },
+    {
+      "datetime": "2026-06-13T23:00:00Z",
+      "blockheight": 856214,
+      "sentiment_index": 109.53,
+      "value": 109.53,
+      "timestamp": 1781391600
+    },
+    {
+      "datetime": "2026-06-14T00:00:00Z",
+      "blockheight": 856215,
+      "sentiment_index": 109.56,
+      "value": 109.56,
+      "timestamp": 1781395200
+    },
+    {
+      "datetime": "2026-06-14T01:00:00Z",
+      "blockheight": 856216,
+      "sentiment_index": 109.59,
+      "value": 109.59,
+      "timestamp": 1781398800
+    },
+    {
+      "datetime": "2026-06-14T02:00:00Z",
+      "blockheight": 856217,
+      "sentiment_index": 109.62,
+      "value": 109.62,
+      "timestamp": 1781402400
+    },
+    {
+      "datetime": "2026-06-14T03:00:00Z",
+      "blockheight": 856218,
+      "sentiment_index": 109.65,
+      "value": 109.65,
+      "timestamp": 1781406000
+    },
+    {
+      "datetime": "2026-06-14T04:00:00Z",
+      "blockheight": 856219,
+      "sentiment_index": 109.68,
+      "value": 109.68,
+      "timestamp": 1781409600
+    },
+    {
+      "datetime": "2026-06-14T05:00:00Z",
+      "blockheight": 856220,
+      "sentiment_index": 109.71,
+      "value": 109.71,
+      "timestamp": 1781413200
+    },
+    {
+      "datetime": "2026-06-14T06:00:00Z",
+      "blockheight": 856221,
+      "sentiment_index": 109.74,
+      "value": 109.74,
+      "timestamp": 1781416800
+    },
+    {
+      "datetime": "2026-06-14T07:00:00Z",
+      "blockheight": 856222,
+      "sentiment_index": 109.77,
+      "value": 109.77,
+      "timestamp": 1781420400
+    },
+    {
+      "datetime": "2026-06-14T08:00:00Z",
+      "blockheight": 856223,
+      "sentiment_index": 109.8,
+      "value": 109.8,
+      "timestamp": 1781424000
+    },
+    {
+      "datetime": "2026-06-14T09:00:00Z",
+      "blockheight": 856224,
+      "sentiment_index": 109.83,
+      "value": 109.83,
+      "timestamp": 1781427600
+    },
+    {
+      "datetime": "2026-06-14T10:00:00Z",
+      "blockheight": 856225,
+      "sentiment_index": 109.86,
+      "value": 109.86,
+      "timestamp": 1781431200
+    },
+    {
+      "datetime": "2026-06-14T11:00:00Z",
+      "blockheight": 856226,
+      "sentiment_index": 109.89,
+      "value": 109.89,
+      "timestamp": 1781434800
+    },
+    {
+      "datetime": "2026-06-14T12:00:00Z",
+      "blockheight": 856227,
+      "sentiment_index": 109.92,
+      "value": 109.92,
+      "timestamp": 1781438400
+    },
+    {
+      "datetime": "2026-06-14T13:00:00Z",
+      "blockheight": 856228,
+      "sentiment_index": 109.95,
+      "value": 109.95,
+      "timestamp": 1781442000
+    },
+    {
+      "datetime": "2026-06-14T14:00:00Z",
+      "blockheight": 856229,
+      "sentiment_index": 109.98,
+      "value": 109.98,
+      "timestamp": 1781445600
+    },
+    {
+      "datetime": "2026-06-14T15:00:00Z",
+      "blockheight": 856230,
+      "sentiment_index": 110.01,
+      "value": 110.01,
+      "timestamp": 1781449200
+    },
+    {
+      "datetime": "2026-06-14T16:00:00Z",
+      "blockheight": 856231,
+      "sentiment_index": 110.04,
+      "value": 110.04,
+      "timestamp": 1781452800
+    },
+    {
+      "datetime": "2026-06-14T17:00:00Z",
+      "blockheight": 856232,
+      "sentiment_index": 110.07,
+      "value": 110.07,
+      "timestamp": 1781456400
+    },
+    {
+      "datetime": "2026-06-14T18:00:00Z",
+      "blockheight": 856233,
+      "sentiment_index": 110.1,
+      "value": 110.1,
+      "timestamp": 1781460000
+    },
+    {
+      "datetime": "2026-06-14T19:00:00Z",
+      "blockheight": 856234,
+      "sentiment_index": 110.13,
+      "value": 110.13,
+      "timestamp": 1781463600
+    },
+    {
+      "datetime": "2026-06-14T20:00:00Z",
+      "blockheight": 856235,
+      "sentiment_index": 110.16,
+      "value": 110.16,
+      "timestamp": 1781467200
+    },
+    {
+      "datetime": "2026-06-14T21:00:00Z",
+      "blockheight": 856236,
+      "sentiment_index": 110.19,
+      "value": 110.19,
+      "timestamp": 1781470800
+    },
+    {
+      "datetime": "2026-06-14T22:00:00Z",
+      "blockheight": 856237,
+      "sentiment_index": 110.22,
+      "value": 110.22,
+      "timestamp": 1781474400
+    },
+    {
+      "datetime": "2026-06-14T23:00:00Z",
+      "blockheight": 856238,
+      "sentiment_index": 110.25,
+      "value": 110.25,
+      "timestamp": 1781478000
+    },
+    {
+      "datetime": "2026-06-15T00:00:00Z",
+      "blockheight": 856239,
+      "sentiment_index": 110.28,
+      "value": 110.28,
+      "timestamp": 1781481600
+    },
+    {
+      "datetime": "2026-06-15T01:00:00Z",
+      "blockheight": 856240,
+      "sentiment_index": 110.31,
+      "value": 110.31,
+      "timestamp": 1781485200
+    },
+    {
+      "datetime": "2026-06-15T02:00:00Z",
+      "blockheight": 856241,
+      "sentiment_index": 110.34,
+      "value": 110.34,
+      "timestamp": 1781488800
+    },
+    {
+      "datetime": "2026-06-15T03:00:00Z",
+      "blockheight": 856242,
+      "sentiment_index": 110.37,
+      "value": 110.37,
+      "timestamp": 1781492400
+    },
+    {
+      "datetime": "2026-06-15T04:00:00Z",
+      "blockheight": 856243,
+      "sentiment_index": 110.4,
+      "value": 110.4,
+      "timestamp": 1781496000
+    },
+    {
+      "datetime": "2026-06-15T05:00:00Z",
+      "blockheight": 856244,
+      "sentiment_index": 110.43,
+      "value": 110.43,
+      "timestamp": 1781499600
+    },
+    {
+      "datetime": "2026-06-15T06:00:00Z",
+      "blockheight": 856245,
+      "sentiment_index": 110.46,
+      "value": 110.46,
+      "timestamp": 1781503200
+    },
+    {
+      "datetime": "2026-06-15T07:00:00Z",
+      "blockheight": 856246,
+      "sentiment_index": 110.49,
+      "value": 110.49,
+      "timestamp": 1781506800
+    },
+    {
+      "datetime": "2026-06-15T08:00:00Z",
+      "blockheight": 856247,
+      "sentiment_index": 110.52,
+      "value": 110.52,
+      "timestamp": 1781510400
+    },
+    {
+      "datetime": "2026-06-15T09:00:00Z",
+      "blockheight": 856248,
+      "sentiment_index": 110.55,
+      "value": 110.55,
+      "timestamp": 1781514000
+    },
+    {
+      "datetime": "2026-06-15T10:00:00Z",
+      "blockheight": 856249,
+      "sentiment_index": 110.58,
+      "value": 110.58,
+      "timestamp": 1781517600
+    },
+    {
+      "datetime": "2026-06-15T11:00:00Z",
+      "blockheight": 856250,
+      "sentiment_index": 110.61,
+      "value": 110.61,
+      "timestamp": 1781521200
+    },
+    {
+      "datetime": "2026-06-15T12:00:00Z",
+      "blockheight": 856251,
+      "sentiment_index": 110.64,
+      "value": 110.64,
+      "timestamp": 1781524800
+    },
+    {
+      "datetime": "2026-06-15T13:00:00Z",
+      "blockheight": 856252,
+      "sentiment_index": 110.67,
+      "value": 110.67,
+      "timestamp": 1781528400
+    },
+    {
+      "datetime": "2026-06-15T14:00:00Z",
+      "blockheight": 856253,
+      "sentiment_index": 110.7,
+      "value": 110.7,
+      "timestamp": 1781532000
+    },
+    {
+      "datetime": "2026-06-15T15:00:00Z",
+      "blockheight": 856254,
+      "sentiment_index": 110.73,
+      "value": 110.73,
+      "timestamp": 1781535600
+    },
+    {
+      "datetime": "2026-06-15T16:00:00Z",
+      "blockheight": 856255,
+      "sentiment_index": 110.76,
+      "value": 110.76,
+      "timestamp": 1781539200
+    },
+    {
+      "datetime": "2026-06-15T17:00:00Z",
+      "blockheight": 856256,
+      "sentiment_index": 110.79,
+      "value": 110.79,
+      "timestamp": 1781542800
+    },
+    {
+      "datetime": "2026-06-15T18:00:00Z",
+      "blockheight": 856257,
+      "sentiment_index": 110.82,
+      "value": 110.82,
+      "timestamp": 1781546400
+    },
+    {
+      "datetime": "2026-06-15T19:00:00Z",
+      "blockheight": 856258,
+      "sentiment_index": 110.85,
+      "value": 110.85,
+      "timestamp": 1781550000
+    },
+    {
+      "datetime": "2026-06-15T20:00:00Z",
+      "blockheight": 856259,
+      "sentiment_index": 110.88,
+      "value": 110.88,
+      "timestamp": 1781553600
+    },
+    {
+      "datetime": "2026-06-15T21:00:00Z",
+      "blockheight": 856260,
+      "sentiment_index": 110.91,
+      "value": 110.91,
+      "timestamp": 1781557200
+    },
+    {
+      "datetime": "2026-06-15T22:00:00Z",
+      "blockheight": 856261,
+      "sentiment_index": 110.94,
+      "value": 110.94,
+      "timestamp": 1781560800
+    },
+    {
+      "datetime": "2026-06-15T23:00:00Z",
+      "blockheight": 856262,
+      "sentiment_index": 110.97,
+      "value": 110.97,
+      "timestamp": 1781564400
+    },
+    {
+      "datetime": "2026-06-16T00:00:00Z",
+      "blockheight": 856263,
+      "sentiment_index": 111.0,
+      "value": 111.0,
+      "timestamp": 1781568000
+    },
+    {
+      "datetime": "2026-06-16T01:00:00Z",
+      "blockheight": 856264,
+      "sentiment_index": 111.03,
+      "value": 111.03,
+      "timestamp": 1781571600
+    },
+    {
+      "datetime": "2026-06-16T02:00:00Z",
+      "blockheight": 856265,
+      "sentiment_index": 111.06,
+      "value": 111.06,
+      "timestamp": 1781575200
+    },
+    {
+      "datetime": "2026-06-16T03:00:00Z",
+      "blockheight": 856266,
+      "sentiment_index": 111.09,
+      "value": 111.09,
+      "timestamp": 1781578800
+    },
+    {
+      "datetime": "2026-06-16T04:00:00Z",
+      "blockheight": 856267,
+      "sentiment_index": 111.12,
+      "value": 111.12,
+      "timestamp": 1781582400
+    },
+    {
+      "datetime": "2026-06-16T05:00:00Z",
+      "blockheight": 856268,
+      "sentiment_index": 111.15,
+      "value": 111.15,
+      "timestamp": 1781586000
+    },
+    {
+      "datetime": "2026-06-16T06:00:00Z",
+      "blockheight": 856269,
+      "sentiment_index": 111.18,
+      "value": 111.18,
+      "timestamp": 1781589600
+    },
+    {
+      "datetime": "2026-06-16T07:00:00Z",
+      "blockheight": 856270,
+      "sentiment_index": 111.21,
+      "value": 111.21,
+      "timestamp": 1781593200
+    },
+    {
+      "datetime": "2026-06-16T08:00:00Z",
+      "blockheight": 856271,
+      "sentiment_index": 111.24,
+      "value": 111.24,
+      "timestamp": 1781596800
+    },
+    {
+      "datetime": "2026-06-16T09:00:00Z",
+      "blockheight": 856272,
+      "sentiment_index": 111.27,
+      "value": 111.27,
+      "timestamp": 1781600400
+    },
+    {
+      "datetime": "2026-06-16T10:00:00Z",
+      "blockheight": 856273,
+      "sentiment_index": 111.3,
+      "value": 111.3,
+      "timestamp": 1781604000
+    },
+    {
+      "datetime": "2026-06-16T11:00:00Z",
+      "blockheight": 856274,
+      "sentiment_index": 111.33,
+      "value": 111.33,
+      "timestamp": 1781607600
+    },
+    {
+      "datetime": "2026-06-16T12:00:00Z",
+      "blockheight": 856275,
+      "sentiment_index": 111.36,
+      "value": 111.36,
+      "timestamp": 1781611200
+    },
+    {
+      "datetime": "2026-06-16T13:00:00Z",
+      "blockheight": 856276,
+      "sentiment_index": 111.39,
+      "value": 111.39,
+      "timestamp": 1781614800
+    },
+    {
+      "datetime": "2026-06-16T14:00:00Z",
+      "blockheight": 856277,
+      "sentiment_index": 111.42,
+      "value": 111.42,
+      "timestamp": 1781618400
+    },
+    {
+      "datetime": "2026-06-16T15:00:00Z",
+      "blockheight": 856278,
+      "sentiment_index": 111.45,
+      "value": 111.45,
+      "timestamp": 1781622000
+    },
+    {
+      "datetime": "2026-06-16T16:00:00Z",
+      "blockheight": 856279,
+      "sentiment_index": 111.48,
+      "value": 111.48,
+      "timestamp": 1781625600
+    },
+    {
+      "datetime": "2026-06-16T17:00:00Z",
+      "blockheight": 856280,
+      "sentiment_index": 111.51,
+      "value": 111.51,
+      "timestamp": 1781629200
+    },
+    {
+      "datetime": "2026-06-16T18:00:00Z",
+      "blockheight": 856281,
+      "sentiment_index": 111.54,
+      "value": 111.54,
+      "timestamp": 1781632800
+    },
+    {
+      "datetime": "2026-06-16T19:00:00Z",
+      "blockheight": 856282,
+      "sentiment_index": 111.57,
+      "value": 111.57,
+      "timestamp": 1781636400
+    },
+    {
+      "datetime": "2026-06-16T20:00:00Z",
+      "blockheight": 856283,
+      "sentiment_index": 111.6,
+      "value": 111.6,
+      "timestamp": 1781640000
+    },
+    {
+      "datetime": "2026-06-16T21:00:00Z",
+      "blockheight": 856284,
+      "sentiment_index": 111.63,
+      "value": 111.63,
+      "timestamp": 1781643600
+    },
+    {
+      "datetime": "2026-06-16T22:00:00Z",
+      "blockheight": 856285,
+      "sentiment_index": 111.66,
+      "value": 111.66,
+      "timestamp": 1781647200
+    },
+    {
+      "datetime": "2026-06-16T23:00:00Z",
+      "blockheight": 856286,
+      "sentiment_index": 111.69,
+      "value": 111.69,
+      "timestamp": 1781650800
+    },
+    {
+      "datetime": "2026-06-17T00:00:00Z",
+      "blockheight": 856287,
+      "sentiment_index": 111.72,
+      "value": 111.72,
+      "timestamp": 1781654400
+    },
+    {
+      "datetime": "2026-06-17T01:00:00Z",
+      "blockheight": 856288,
+      "sentiment_index": 111.75,
+      "value": 111.75,
+      "timestamp": 1781658000
+    },
+    {
+      "datetime": "2026-06-17T02:00:00Z",
+      "blockheight": 856289,
+      "sentiment_index": 111.78,
+      "value": 111.78,
+      "timestamp": 1781661600
+    },
+    {
+      "datetime": "2026-06-17T03:00:00Z",
+      "blockheight": 856290,
+      "sentiment_index": 111.81,
+      "value": 111.81,
+      "timestamp": 1781665200
+    },
+    {
+      "datetime": "2026-06-17T04:00:00Z",
+      "blockheight": 856291,
+      "sentiment_index": 111.84,
+      "value": 111.84,
+      "timestamp": 1781668800
+    },
+    {
+      "datetime": "2026-06-17T05:00:00Z",
+      "blockheight": 856292,
+      "sentiment_index": 111.87,
+      "value": 111.87,
+      "timestamp": 1781672400
+    },
+    {
+      "datetime": "2026-06-17T06:00:00Z",
+      "blockheight": 856293,
+      "sentiment_index": 111.9,
+      "value": 111.9,
+      "timestamp": 1781676000
+    },
+    {
+      "datetime": "2026-06-17T07:00:00Z",
+      "blockheight": 856294,
+      "sentiment_index": 111.93,
+      "value": 111.93,
+      "timestamp": 1781679600
+    },
+    {
+      "datetime": "2026-06-17T08:00:00Z",
+      "blockheight": 856295,
+      "sentiment_index": 111.96,
+      "value": 111.96,
+      "timestamp": 1781683200
+    },
+    {
+      "datetime": "2026-06-17T09:00:00Z",
+      "blockheight": 856296,
+      "sentiment_index": 111.99,
+      "value": 111.99,
+      "timestamp": 1781686800
+    },
+    {
+      "datetime": "2026-06-17T10:00:00Z",
+      "blockheight": 856297,
+      "sentiment_index": 112.02,
+      "value": 112.02,
+      "timestamp": 1781690400
+    },
+    {
+      "datetime": "2026-06-17T11:00:00Z",
+      "blockheight": 856298,
+      "sentiment_index": 112.05,
+      "value": 112.05,
+      "timestamp": 1781694000
+    },
+    {
+      "datetime": "2026-06-17T12:00:00Z",
+      "blockheight": 856299,
+      "sentiment_index": 112.08,
+      "value": 112.08,
+      "timestamp": 1781697600
+    },
+    {
+      "datetime": "2026-06-17T13:00:00Z",
+      "blockheight": 856300,
+      "sentiment_index": 112.11,
+      "value": 112.11,
+      "timestamp": 1781701200
+    },
+    {
+      "datetime": "2026-06-17T14:00:00Z",
+      "blockheight": 856301,
+      "sentiment_index": 112.14,
+      "value": 112.14,
+      "timestamp": 1781704800
+    },
+    {
+      "datetime": "2026-06-17T15:00:00Z",
+      "blockheight": 856302,
+      "sentiment_index": 112.17,
+      "value": 112.17,
+      "timestamp": 1781708400
+    },
+    {
+      "datetime": "2026-06-17T16:00:00Z",
+      "blockheight": 856303,
+      "sentiment_index": 112.2,
+      "value": 112.2,
+      "timestamp": 1781712000
+    },
+    {
+      "datetime": "2026-06-17T17:00:00Z",
+      "blockheight": 856304,
+      "sentiment_index": 112.23,
+      "value": 112.23,
+      "timestamp": 1781715600
+    },
+    {
+      "datetime": "2026-06-17T18:00:00Z",
+      "blockheight": 856305,
+      "sentiment_index": 112.26,
+      "value": 112.26,
+      "timestamp": 1781719200
+    },
+    {
+      "datetime": "2026-06-17T19:00:00Z",
+      "blockheight": 856306,
+      "sentiment_index": 112.29,
+      "value": 112.29,
+      "timestamp": 1781722800
+    },
+    {
+      "datetime": "2026-06-17T20:00:00Z",
+      "blockheight": 856307,
+      "sentiment_index": 112.32,
+      "value": 112.32,
+      "timestamp": 1781726400
+    },
+    {
+      "datetime": "2026-06-17T21:00:00Z",
+      "blockheight": 856308,
+      "sentiment_index": 112.35,
+      "value": 112.35,
+      "timestamp": 1781730000
+    },
+    {
+      "datetime": "2026-06-17T22:00:00Z",
+      "blockheight": 856309,
+      "sentiment_index": 112.38,
+      "value": 112.38,
+      "timestamp": 1781733600
+    },
+    {
+      "datetime": "2026-06-17T23:00:00Z",
+      "blockheight": 856310,
+      "sentiment_index": 112.41,
+      "value": 112.41,
+      "timestamp": 1781737200
+    },
+    {
+      "datetime": "2026-06-18T00:00:00Z",
+      "blockheight": 856311,
+      "sentiment_index": 112.44,
+      "value": 112.44,
+      "timestamp": 1781740800
+    },
+    {
+      "datetime": "2026-06-18T01:00:00Z",
+      "blockheight": 856312,
+      "sentiment_index": 112.47,
+      "value": 112.47,
+      "timestamp": 1781744400
+    },
+    {
+      "datetime": "2026-06-18T02:00:00Z",
+      "blockheight": 856313,
+      "sentiment_index": 112.5,
+      "value": 112.5,
+      "timestamp": 1781748000
+    },
+    {
+      "datetime": "2026-06-18T03:00:00Z",
+      "blockheight": 856314,
+      "sentiment_index": 112.53,
+      "value": 112.53,
+      "timestamp": 1781751600
+    },
+    {
+      "datetime": "2026-06-18T04:00:00Z",
+      "blockheight": 856315,
+      "sentiment_index": 112.56,
+      "value": 112.56,
+      "timestamp": 1781755200
+    },
+    {
+      "datetime": "2026-06-18T05:00:00Z",
+      "blockheight": 856316,
+      "sentiment_index": 112.59,
+      "value": 112.59,
+      "timestamp": 1781758800
+    },
+    {
+      "datetime": "2026-06-18T06:00:00Z",
+      "blockheight": 856317,
+      "sentiment_index": 112.62,
+      "value": 112.62,
+      "timestamp": 1781762400
+    },
+    {
+      "datetime": "2026-06-18T07:00:00Z",
+      "blockheight": 856318,
+      "sentiment_index": 112.65,
+      "value": 112.65,
+      "timestamp": 1781766000
+    },
+    {
+      "datetime": "2026-06-18T08:00:00Z",
+      "blockheight": 856319,
+      "sentiment_index": 112.68,
+      "value": 112.68,
+      "timestamp": 1781769600
+    },
+    {
+      "datetime": "2026-06-18T09:00:00Z",
+      "blockheight": 856320,
+      "sentiment_index": 112.71,
+      "value": 112.71,
+      "timestamp": 1781773200
+    },
+    {
+      "datetime": "2026-06-18T10:00:00Z",
+      "blockheight": 856321,
+      "sentiment_index": 112.74,
+      "value": 112.74,
+      "timestamp": 1781776800
+    },
+    {
+      "datetime": "2026-06-18T11:00:00Z",
+      "blockheight": 856322,
+      "sentiment_index": 112.77,
+      "value": 112.77,
+      "timestamp": 1781780400
+    },
+    {
+      "datetime": "2026-06-18T12:00:00Z",
+      "blockheight": 856323,
+      "sentiment_index": 112.8,
+      "value": 112.8,
+      "timestamp": 1781784000
+    },
+    {
+      "datetime": "2026-06-18T13:00:00Z",
+      "blockheight": 856324,
+      "sentiment_index": 112.83,
+      "value": 112.83,
+      "timestamp": 1781787600
+    },
+    {
+      "datetime": "2026-06-18T14:00:00Z",
+      "blockheight": 856325,
+      "sentiment_index": 112.86,
+      "value": 112.86,
+      "timestamp": 1781791200
+    },
+    {
+      "datetime": "2026-06-18T15:00:00Z",
+      "blockheight": 856326,
+      "sentiment_index": 112.89,
+      "value": 112.89,
+      "timestamp": 1781794800
+    },
+    {
+      "datetime": "2026-06-18T16:00:00Z",
+      "blockheight": 856327,
+      "sentiment_index": 112.92,
+      "value": 112.92,
+      "timestamp": 1781798400
+    },
+    {
+      "datetime": "2026-06-18T17:00:00Z",
+      "blockheight": 856328,
+      "sentiment_index": 112.95,
+      "value": 112.95,
+      "timestamp": 1781802000
+    },
+    {
+      "datetime": "2026-06-18T18:00:00Z",
+      "blockheight": 856329,
+      "sentiment_index": 112.98,
+      "value": 112.98,
+      "timestamp": 1781805600
+    },
+    {
+      "datetime": "2026-06-18T19:00:00Z",
+      "blockheight": 856330,
+      "sentiment_index": 113.01,
+      "value": 113.01,
+      "timestamp": 1781809200
+    },
+    {
+      "datetime": "2026-06-18T20:00:00Z",
+      "blockheight": 856331,
+      "sentiment_index": 113.04,
+      "value": 113.04,
+      "timestamp": 1781812800
+    },
+    {
+      "datetime": "2026-06-18T21:00:00Z",
+      "blockheight": 856332,
+      "sentiment_index": 113.07,
+      "value": 113.07,
+      "timestamp": 1781816400
+    },
+    {
+      "datetime": "2026-06-18T22:00:00Z",
+      "blockheight": 856333,
+      "sentiment_index": 113.1,
+      "value": 113.1,
+      "timestamp": 1781820000
+    },
+    {
+      "datetime": "2026-06-18T23:00:00Z",
+      "blockheight": 856334,
+      "sentiment_index": 113.13,
+      "value": 113.13,
+      "timestamp": 1781823600
+    },
+    {
+      "datetime": "2026-06-19T00:00:00Z",
+      "blockheight": 856335,
+      "sentiment_index": 113.16,
+      "value": 113.16,
+      "timestamp": 1781827200
+    },
+    {
+      "datetime": "2026-06-19T01:00:00Z",
+      "blockheight": 856336,
+      "sentiment_index": 113.19,
+      "value": 113.19,
+      "timestamp": 1781830800
+    },
+    {
+      "datetime": "2026-06-19T02:00:00Z",
+      "blockheight": 856337,
+      "sentiment_index": 113.22,
+      "value": 113.22,
+      "timestamp": 1781834400
+    },
+    {
+      "datetime": "2026-06-19T03:00:00Z",
+      "blockheight": 856338,
+      "sentiment_index": 113.25,
+      "value": 113.25,
+      "timestamp": 1781838000
+    },
+    {
+      "datetime": "2026-06-19T04:00:00Z",
+      "blockheight": 856339,
+      "sentiment_index": 113.28,
+      "value": 113.28,
+      "timestamp": 1781841600
+    },
+    {
+      "datetime": "2026-06-19T05:00:00Z",
+      "blockheight": 856340,
+      "sentiment_index": 113.31,
+      "value": 113.31,
+      "timestamp": 1781845200
+    },
+    {
+      "datetime": "2026-06-19T06:00:00Z",
+      "blockheight": 856341,
+      "sentiment_index": 113.34,
+      "value": 113.34,
+      "timestamp": 1781848800
+    },
+    {
+      "datetime": "2026-06-19T07:00:00Z",
+      "blockheight": 856342,
+      "sentiment_index": 113.37,
+      "value": 113.37,
+      "timestamp": 1781852400
+    },
+    {
+      "datetime": "2026-06-19T08:00:00Z",
+      "blockheight": 856343,
+      "sentiment_index": 113.4,
+      "value": 113.4,
+      "timestamp": 1781856000
+    },
+    {
+      "datetime": "2026-06-19T09:00:00Z",
+      "blockheight": 856344,
+      "sentiment_index": 113.43,
+      "value": 113.43,
+      "timestamp": 1781859600
+    },
+    {
+      "datetime": "2026-06-19T10:00:00Z",
+      "blockheight": 856345,
+      "sentiment_index": 113.46,
+      "value": 113.46,
+      "timestamp": 1781863200
+    },
+    {
+      "datetime": "2026-06-19T11:00:00Z",
+      "blockheight": 856346,
+      "sentiment_index": 113.49,
+      "value": 113.49,
+      "timestamp": 1781866800
+    },
+    {
+      "datetime": "2026-06-19T12:00:00Z",
+      "blockheight": 856347,
+      "sentiment_index": 113.52,
+      "value": 113.52,
+      "timestamp": 1781870400
+    },
+    {
+      "datetime": "2026-06-19T13:00:00Z",
+      "blockheight": 856348,
+      "sentiment_index": 113.55,
+      "value": 113.55,
+      "timestamp": 1781874000
+    },
+    {
+      "datetime": "2026-06-19T14:00:00Z",
+      "blockheight": 856349,
+      "sentiment_index": 113.58,
+      "value": 113.58,
+      "timestamp": 1781877600
+    },
+    {
+      "datetime": "2026-06-19T15:00:00Z",
+      "blockheight": 856350,
+      "sentiment_index": 113.61,
+      "value": 113.61,
+      "timestamp": 1781881200
+    },
+    {
+      "datetime": "2026-06-19T16:00:00Z",
+      "blockheight": 856351,
+      "sentiment_index": 113.64,
+      "value": 113.64,
+      "timestamp": 1781884800
+    },
+    {
+      "datetime": "2026-06-19T17:00:00Z",
+      "blockheight": 856352,
+      "sentiment_index": 113.67,
+      "value": 113.67,
+      "timestamp": 1781888400
+    },
+    {
+      "datetime": "2026-06-19T18:00:00Z",
+      "blockheight": 856353,
+      "sentiment_index": 113.7,
+      "value": 113.7,
+      "timestamp": 1781892000
+    },
+    {
+      "datetime": "2026-06-19T19:00:00Z",
+      "blockheight": 856354,
+      "sentiment_index": 113.73,
+      "value": 113.73,
+      "timestamp": 1781895600
+    },
+    {
+      "datetime": "2026-06-19T20:00:00Z",
+      "blockheight": 856355,
+      "sentiment_index": 113.76,
+      "value": 113.76,
+      "timestamp": 1781899200
+    },
+    {
+      "datetime": "2026-06-19T21:00:00Z",
+      "blockheight": 856356,
+      "sentiment_index": 113.79,
+      "value": 113.79,
+      "timestamp": 1781902800
+    },
+    {
+      "datetime": "2026-06-19T22:00:00Z",
+      "blockheight": 856357,
+      "sentiment_index": 113.82,
+      "value": 113.82,
+      "timestamp": 1781906400
+    },
+    {
+      "datetime": "2026-06-19T23:00:00Z",
+      "blockheight": 856358,
+      "sentiment_index": 113.85,
+      "value": 113.85,
+      "timestamp": 1781910000
+    },
+    {
+      "datetime": "2026-06-20T00:00:00Z",
+      "blockheight": 856359,
+      "sentiment_index": 113.88,
+      "value": 113.88,
+      "timestamp": 1781913600
+    },
+    {
+      "datetime": "2026-06-20T01:00:00Z",
+      "blockheight": 856360,
+      "sentiment_index": 113.91,
+      "value": 113.91,
+      "timestamp": 1781917200
+    },
+    {
+      "datetime": "2026-06-20T02:00:00Z",
+      "blockheight": 856361,
+      "sentiment_index": 113.94,
+      "value": 113.94,
+      "timestamp": 1781920800
+    },
+    {
+      "datetime": "2026-06-20T03:00:00Z",
+      "blockheight": 856362,
+      "sentiment_index": 113.97,
+      "value": 113.97,
+      "timestamp": 1781924400
+    },
+    {
+      "datetime": "2026-06-20T04:00:00Z",
+      "blockheight": 856363,
+      "sentiment_index": 114.0,
+      "value": 114.0,
+      "timestamp": 1781928000
+    },
+    {
+      "datetime": "2026-06-20T05:00:00Z",
+      "blockheight": 856364,
+      "sentiment_index": 114.03,
+      "value": 114.03,
+      "timestamp": 1781931600
+    },
+    {
+      "datetime": "2026-06-20T06:00:00Z",
+      "blockheight": 856365,
+      "sentiment_index": 114.06,
+      "value": 114.06,
+      "timestamp": 1781935200
+    },
+    {
+      "datetime": "2026-06-20T07:00:00Z",
+      "blockheight": 856366,
+      "sentiment_index": 114.09,
+      "value": 114.09,
+      "timestamp": 1781938800
+    },
+    {
+      "datetime": "2026-06-20T08:00:00Z",
+      "blockheight": 856367,
+      "sentiment_index": 114.12,
+      "value": 114.12,
+      "timestamp": 1781942400
+    },
+    {
+      "datetime": "2026-06-20T09:00:00Z",
+      "blockheight": 856368,
+      "sentiment_index": 114.15,
+      "value": 114.15,
+      "timestamp": 1781946000
+    },
+    {
+      "datetime": "2026-06-20T10:00:00Z",
+      "blockheight": 856369,
+      "sentiment_index": 114.18,
+      "value": 114.18,
+      "timestamp": 1781949600
+    },
+    {
+      "datetime": "2026-06-20T11:00:00Z",
+      "blockheight": 856370,
+      "sentiment_index": 114.21,
+      "value": 114.21,
+      "timestamp": 1781953200
+    },
+    {
+      "datetime": "2026-06-20T12:00:00Z",
+      "blockheight": 856371,
+      "sentiment_index": 114.24,
+      "value": 114.24,
+      "timestamp": 1781956800
+    },
+    {
+      "datetime": "2026-06-20T13:00:00Z",
+      "blockheight": 856372,
+      "sentiment_index": 114.27,
+      "value": 114.27,
+      "timestamp": 1781960400
+    },
+    {
+      "datetime": "2026-06-20T14:00:00Z",
+      "blockheight": 856373,
+      "sentiment_index": 114.3,
+      "value": 114.3,
+      "timestamp": 1781964000
+    },
+    {
+      "datetime": "2026-06-20T15:00:00Z",
+      "blockheight": 856374,
+      "sentiment_index": 114.33,
+      "value": 114.33,
+      "timestamp": 1781967600
+    },
+    {
+      "datetime": "2026-06-20T16:00:00Z",
+      "blockheight": 856375,
+      "sentiment_index": 114.36,
+      "value": 114.36,
+      "timestamp": 1781971200
+    },
+    {
+      "datetime": "2026-06-20T17:00:00Z",
+      "blockheight": 856376,
+      "sentiment_index": 114.39,
+      "value": 114.39,
+      "timestamp": 1781974800
+    },
+    {
+      "datetime": "2026-06-20T18:00:00Z",
+      "blockheight": 856377,
+      "sentiment_index": 114.42,
+      "value": 114.42,
+      "timestamp": 1781978400
+    },
+    {
+      "datetime": "2026-06-20T19:00:00Z",
+      "blockheight": 856378,
+      "sentiment_index": 114.45,
+      "value": 114.45,
+      "timestamp": 1781982000
+    },
+    {
+      "datetime": "2026-06-20T20:00:00Z",
+      "blockheight": 856379,
+      "sentiment_index": 114.48,
+      "value": 114.48,
+      "timestamp": 1781985600
+    },
+    {
+      "datetime": "2026-06-20T21:00:00Z",
+      "blockheight": 856380,
+      "sentiment_index": 114.51,
+      "value": 114.51,
+      "timestamp": 1781989200
+    },
+    {
+      "datetime": "2026-06-20T22:00:00Z",
+      "blockheight": 856381,
+      "sentiment_index": 114.54,
+      "value": 114.54,
+      "timestamp": 1781992800
+    },
+    {
+      "datetime": "2026-06-20T23:00:00Z",
+      "blockheight": 856382,
+      "sentiment_index": 114.57,
+      "value": 114.57,
+      "timestamp": 1781996400
+    },
+    {
+      "datetime": "2026-06-21T00:00:00Z",
+      "blockheight": 856383,
+      "sentiment_index": 114.6,
+      "value": 114.6,
+      "timestamp": 1782000000
+    },
+    {
+      "datetime": "2026-06-21T01:00:00Z",
+      "blockheight": 856384,
+      "sentiment_index": 114.63,
+      "value": 114.63,
+      "timestamp": 1782003600
+    },
+    {
+      "datetime": "2026-06-21T02:00:00Z",
+      "blockheight": 856385,
+      "sentiment_index": 114.66,
+      "value": 114.66,
+      "timestamp": 1782007200
+    },
+    {
+      "datetime": "2026-06-21T03:00:00Z",
+      "blockheight": 856386,
+      "sentiment_index": 114.69,
+      "value": 114.69,
+      "timestamp": 1782010800
+    },
+    {
+      "datetime": "2026-06-21T04:00:00Z",
+      "blockheight": 856387,
+      "sentiment_index": 114.72,
+      "value": 114.72,
+      "timestamp": 1782014400
+    },
+    {
+      "datetime": "2026-06-21T05:00:00Z",
+      "blockheight": 856388,
+      "sentiment_index": 114.75,
+      "value": 114.75,
+      "timestamp": 1782018000
+    },
+    {
+      "datetime": "2026-06-21T06:00:00Z",
+      "blockheight": 856389,
+      "sentiment_index": 114.78,
+      "value": 114.78,
+      "timestamp": 1782021600
+    },
+    {
+      "datetime": "2026-06-21T07:00:00Z",
+      "blockheight": 856390,
+      "sentiment_index": 114.81,
+      "value": 114.81,
+      "timestamp": 1782025200
+    },
+    {
+      "datetime": "2026-06-21T08:00:00Z",
+      "blockheight": 856391,
+      "sentiment_index": 114.84,
+      "value": 114.84,
+      "timestamp": 1782028800
+    },
+    {
+      "datetime": "2026-06-21T09:00:00Z",
+      "blockheight": 856392,
+      "sentiment_index": 114.87,
+      "value": 114.87,
+      "timestamp": 1782032400
+    },
+    {
+      "datetime": "2026-06-21T10:00:00Z",
+      "blockheight": 856393,
+      "sentiment_index": 114.9,
+      "value": 114.9,
+      "timestamp": 1782036000
+    },
+    {
+      "datetime": "2026-06-21T11:00:00Z",
+      "blockheight": 856394,
+      "sentiment_index": 114.93,
+      "value": 114.93,
+      "timestamp": 1782039600
+    },
+    {
+      "datetime": "2026-06-21T12:00:00Z",
+      "blockheight": 856395,
+      "sentiment_index": 114.96,
+      "value": 114.96,
+      "timestamp": 1782043200
+    },
+    {
+      "datetime": "2026-06-21T13:00:00Z",
+      "blockheight": 856396,
+      "sentiment_index": 114.99,
+      "value": 114.99,
+      "timestamp": 1782046800
+    },
+    {
+      "datetime": "2026-06-21T14:00:00Z",
+      "blockheight": 856397,
+      "sentiment_index": 115.02,
+      "value": 115.02,
+      "timestamp": 1782050400
+    },
+    {
+      "datetime": "2026-06-21T15:00:00Z",
+      "blockheight": 856398,
+      "sentiment_index": 115.05,
+      "value": 115.05,
+      "timestamp": 1782054000
+    },
+    {
+      "datetime": "2026-06-21T16:00:00Z",
+      "blockheight": 856399,
+      "sentiment_index": 115.08,
+      "value": 115.08,
+      "timestamp": 1782057600
+    },
+    {
+      "datetime": "2026-06-21T17:00:00Z",
+      "blockheight": 856400,
+      "sentiment_index": 115.11,
+      "value": 115.11,
+      "timestamp": 1782061200
+    },
+    {
+      "datetime": "2026-06-21T18:00:00Z",
+      "blockheight": 856401,
+      "sentiment_index": 115.14,
+      "value": 115.14,
+      "timestamp": 1782064800
+    },
+    {
+      "datetime": "2026-06-21T19:00:00Z",
+      "blockheight": 856402,
+      "sentiment_index": 115.17,
+      "value": 115.17,
+      "timestamp": 1782068400
+    },
+    {
+      "datetime": "2026-06-21T20:00:00Z",
+      "blockheight": 856403,
+      "sentiment_index": 115.2,
+      "value": 115.2,
+      "timestamp": 1782072000
+    },
+    {
+      "datetime": "2026-06-21T21:00:00Z",
+      "blockheight": 856404,
+      "sentiment_index": 115.23,
+      "value": 115.23,
+      "timestamp": 1782075600
+    },
+    {
+      "datetime": "2026-06-21T22:00:00Z",
+      "blockheight": 856405,
+      "sentiment_index": 115.26,
+      "value": 115.26,
+      "timestamp": 1782079200
+    },
+    {
+      "datetime": "2026-06-21T23:00:00Z",
+      "blockheight": 856406,
+      "sentiment_index": 115.29,
+      "value": 115.29,
+      "timestamp": 1782082800
+    },
+    {
+      "datetime": "2026-06-22T00:00:00Z",
+      "blockheight": 856407,
+      "sentiment_index": 115.32,
+      "value": 115.32,
+      "timestamp": 1782086400
+    },
+    {
+      "datetime": "2026-06-22T01:00:00Z",
+      "blockheight": 856408,
+      "sentiment_index": 115.35,
+      "value": 115.35,
+      "timestamp": 1782090000
+    },
+    {
+      "datetime": "2026-06-22T02:00:00Z",
+      "blockheight": 856409,
+      "sentiment_index": 115.38,
+      "value": 115.38,
+      "timestamp": 1782093600
+    },
+    {
+      "datetime": "2026-06-22T03:00:00Z",
+      "blockheight": 856410,
+      "sentiment_index": 115.41,
+      "value": 115.41,
+      "timestamp": 1782097200
+    },
+    {
+      "datetime": "2026-06-22T04:00:00Z",
+      "blockheight": 856411,
+      "sentiment_index": 115.44,
+      "value": 115.44,
+      "timestamp": 1782100800
+    },
+    {
+      "datetime": "2026-06-22T05:00:00Z",
+      "blockheight": 856412,
+      "sentiment_index": 115.47,
+      "value": 115.47,
+      "timestamp": 1782104400
+    },
+    {
+      "datetime": "2026-06-22T06:00:00Z",
+      "blockheight": 856413,
+      "sentiment_index": 115.5,
+      "value": 115.5,
+      "timestamp": 1782108000
+    },
+    {
+      "datetime": "2026-06-22T07:00:00Z",
+      "blockheight": 856414,
+      "sentiment_index": 115.53,
+      "value": 115.53,
+      "timestamp": 1782111600
+    },
+    {
+      "datetime": "2026-06-22T08:00:00Z",
+      "blockheight": 856415,
+      "sentiment_index": 115.56,
+      "value": 115.56,
+      "timestamp": 1782115200
+    },
+    {
+      "datetime": "2026-06-22T09:00:00Z",
+      "blockheight": 856416,
+      "sentiment_index": 115.59,
+      "value": 115.59,
+      "timestamp": 1782118800
+    },
+    {
+      "datetime": "2026-06-22T10:00:00Z",
+      "blockheight": 856417,
+      "sentiment_index": 115.62,
+      "value": 115.62,
+      "timestamp": 1782122400
+    },
+    {
+      "datetime": "2026-06-22T11:00:00Z",
+      "blockheight": 856418,
+      "sentiment_index": 115.65,
+      "value": 115.65,
+      "timestamp": 1782126000
+    },
+    {
+      "datetime": "2026-06-22T12:00:00Z",
+      "blockheight": 856419,
+      "sentiment_index": 115.68,
+      "value": 115.68,
+      "timestamp": 1782129600
+    },
+    {
+      "datetime": "2026-06-22T13:00:00Z",
+      "blockheight": 856420,
+      "sentiment_index": 115.71,
+      "value": 115.71,
+      "timestamp": 1782133200
+    },
+    {
+      "datetime": "2026-06-22T14:00:00Z",
+      "blockheight": 856421,
+      "sentiment_index": 115.74,
+      "value": 115.74,
+      "timestamp": 1782136800
+    },
+    {
+      "datetime": "2026-06-22T15:00:00Z",
+      "blockheight": 856422,
+      "sentiment_index": 115.77,
+      "value": 115.77,
+      "timestamp": 1782140400
+    },
+    {
+      "datetime": "2026-06-22T16:00:00Z",
+      "blockheight": 856423,
+      "sentiment_index": 115.8,
+      "value": 115.8,
+      "timestamp": 1782144000
+    },
+    {
+      "datetime": "2026-06-22T17:00:00Z",
+      "blockheight": 856424,
+      "sentiment_index": 115.83,
+      "value": 115.83,
+      "timestamp": 1782147600
+    },
+    {
+      "datetime": "2026-06-22T18:00:00Z",
+      "blockheight": 856425,
+      "sentiment_index": 115.86,
+      "value": 115.86,
+      "timestamp": 1782151200
+    },
+    {
+      "datetime": "2026-06-22T19:00:00Z",
+      "blockheight": 856426,
+      "sentiment_index": 115.89,
+      "value": 115.89,
+      "timestamp": 1782154800
+    },
+    {
+      "datetime": "2026-06-22T20:00:00Z",
+      "blockheight": 856427,
+      "sentiment_index": 115.92,
+      "value": 115.92,
+      "timestamp": 1782158400
+    },
+    {
+      "datetime": "2026-06-22T21:00:00Z",
+      "blockheight": 856428,
+      "sentiment_index": 115.95,
+      "value": 115.95,
+      "timestamp": 1782162000
+    },
+    {
+      "datetime": "2026-06-22T22:00:00Z",
+      "blockheight": 856429,
+      "sentiment_index": 115.98,
+      "value": 115.98,
+      "timestamp": 1782165600
+    },
+    {
+      "datetime": "2026-06-22T23:00:00Z",
+      "blockheight": 856430,
+      "sentiment_index": 116.01,
+      "value": 116.01,
+      "timestamp": 1782169200
+    },
+    {
+      "datetime": "2026-06-23T00:00:00Z",
+      "blockheight": 856431,
+      "sentiment_index": 116.04,
+      "value": 116.04,
+      "timestamp": 1782172800
+    },
+    {
+      "datetime": "2026-06-23T01:00:00Z",
+      "blockheight": 856432,
+      "sentiment_index": 116.07,
+      "value": 116.07,
+      "timestamp": 1782176400
+    },
+    {
+      "datetime": "2026-06-23T02:00:00Z",
+      "blockheight": 856433,
+      "sentiment_index": 116.1,
+      "value": 116.1,
+      "timestamp": 1782180000
+    },
+    {
+      "datetime": "2026-06-23T03:00:00Z",
+      "blockheight": 856434,
+      "sentiment_index": 116.13,
+      "value": 116.13,
+      "timestamp": 1782183600
+    },
+    {
+      "datetime": "2026-06-23T04:00:00Z",
+      "blockheight": 856435,
+      "sentiment_index": 116.16,
+      "value": 116.16,
+      "timestamp": 1782187200
+    },
+    {
+      "datetime": "2026-06-23T05:00:00Z",
+      "blockheight": 856436,
+      "sentiment_index": 116.19,
+      "value": 116.19,
+      "timestamp": 1782190800
+    },
+    {
+      "datetime": "2026-06-23T06:00:00Z",
+      "blockheight": 856437,
+      "sentiment_index": 116.22,
+      "value": 116.22,
+      "timestamp": 1782194400
+    },
+    {
+      "datetime": "2026-06-23T07:00:00Z",
+      "blockheight": 856438,
+      "sentiment_index": 116.25,
+      "value": 116.25,
+      "timestamp": 1782198000
+    },
+    {
+      "datetime": "2026-06-23T08:00:00Z",
+      "blockheight": 856439,
+      "sentiment_index": 116.28,
+      "value": 116.28,
+      "timestamp": 1782201600
+    },
+    {
+      "datetime": "2026-06-23T09:00:00Z",
+      "blockheight": 856440,
+      "sentiment_index": 116.31,
+      "value": 116.31,
+      "timestamp": 1782205200
+    },
+    {
+      "datetime": "2026-06-23T10:00:00Z",
+      "blockheight": 856441,
+      "sentiment_index": 116.34,
+      "value": 116.34,
+      "timestamp": 1782208800
+    },
+    {
+      "datetime": "2026-06-23T11:00:00Z",
+      "blockheight": 856442,
+      "sentiment_index": 116.37,
+      "value": 116.37,
+      "timestamp": 1782212400
+    },
+    {
+      "datetime": "2026-06-23T12:00:00Z",
+      "blockheight": 856443,
+      "sentiment_index": 116.4,
+      "value": 116.4,
+      "timestamp": 1782216000
+    },
+    {
+      "datetime": "2026-06-23T13:00:00Z",
+      "blockheight": 856444,
+      "sentiment_index": 116.43,
+      "value": 116.43,
+      "timestamp": 1782219600
+    },
+    {
+      "datetime": "2026-06-23T14:00:00Z",
+      "blockheight": 856445,
+      "sentiment_index": 116.46,
+      "value": 116.46,
+      "timestamp": 1782223200
+    },
+    {
+      "datetime": "2026-06-23T15:00:00Z",
+      "blockheight": 856446,
+      "sentiment_index": 116.49,
+      "value": 116.49,
+      "timestamp": 1782226800
+    },
+    {
+      "datetime": "2026-06-23T16:00:00Z",
+      "blockheight": 856447,
+      "sentiment_index": 116.52,
+      "value": 116.52,
+      "timestamp": 1782230400
+    },
+    {
+      "datetime": "2026-06-23T17:00:00Z",
+      "blockheight": 856448,
+      "sentiment_index": 116.55,
+      "value": 116.55,
+      "timestamp": 1782234000
+    },
+    {
+      "datetime": "2026-06-23T18:00:00Z",
+      "blockheight": 856449,
+      "sentiment_index": 116.58,
+      "value": 116.58,
+      "timestamp": 1782237600
+    },
+    {
+      "datetime": "2026-06-23T19:00:00Z",
+      "blockheight": 856450,
+      "sentiment_index": 116.61,
+      "value": 116.61,
+      "timestamp": 1782241200
+    },
+    {
+      "datetime": "2026-06-23T20:00:00Z",
+      "blockheight": 856451,
+      "sentiment_index": 116.64,
+      "value": 116.64,
+      "timestamp": 1782244800
+    },
+    {
+      "datetime": "2026-06-23T21:00:00Z",
+      "blockheight": 856452,
+      "sentiment_index": 116.67,
+      "value": 116.67,
+      "timestamp": 1782248400
+    },
+    {
+      "datetime": "2026-06-23T22:00:00Z",
+      "blockheight": 856453,
+      "sentiment_index": 116.7,
+      "value": 116.7,
+      "timestamp": 1782252000
+    },
+    {
+      "datetime": "2026-06-23T23:00:00Z",
+      "blockheight": 856454,
+      "sentiment_index": 116.73,
+      "value": 116.73,
+      "timestamp": 1782255600
+    },
+    {
+      "datetime": "2026-06-24T00:00:00Z",
+      "blockheight": 856455,
+      "sentiment_index": 116.76,
+      "value": 116.76,
+      "timestamp": 1782259200
+    },
+    {
+      "datetime": "2026-06-24T01:00:00Z",
+      "blockheight": 856456,
+      "sentiment_index": 116.79,
+      "value": 116.79,
+      "timestamp": 1782262800
+    },
+    {
+      "datetime": "2026-06-24T02:00:00Z",
+      "blockheight": 856457,
+      "sentiment_index": 116.82,
+      "value": 116.82,
+      "timestamp": 1782266400
+    },
+    {
+      "datetime": "2026-06-24T03:00:00Z",
+      "blockheight": 856458,
+      "sentiment_index": 116.85,
+      "value": 116.85,
+      "timestamp": 1782270000
+    },
+    {
+      "datetime": "2026-06-24T04:00:00Z",
+      "blockheight": 856459,
+      "sentiment_index": 116.88,
+      "value": 116.88,
+      "timestamp": 1782273600
+    },
+    {
+      "datetime": "2026-06-24T05:00:00Z",
+      "blockheight": 856460,
+      "sentiment_index": 116.91,
+      "value": 116.91,
+      "timestamp": 1782277200
+    },
+    {
+      "datetime": "2026-06-24T06:00:00Z",
+      "blockheight": 856461,
+      "sentiment_index": 116.94,
+      "value": 116.94,
+      "timestamp": 1782280800
+    },
+    {
+      "datetime": "2026-06-24T07:00:00Z",
+      "blockheight": 856462,
+      "sentiment_index": 116.97,
+      "value": 116.97,
+      "timestamp": 1782284400
+    },
+    {
+      "datetime": "2026-06-24T08:00:00Z",
+      "blockheight": 856463,
+      "sentiment_index": 117.0,
+      "value": 117.0,
+      "timestamp": 1782288000
+    },
+    {
+      "datetime": "2026-06-24T09:00:00Z",
+      "blockheight": 856464,
+      "sentiment_index": 117.03,
+      "value": 117.03,
+      "timestamp": 1782291600
+    },
+    {
+      "datetime": "2026-06-24T10:00:00Z",
+      "blockheight": 856465,
+      "sentiment_index": 117.06,
+      "value": 117.06,
+      "timestamp": 1782295200
+    },
+    {
+      "datetime": "2026-06-24T11:00:00Z",
+      "blockheight": 856466,
+      "sentiment_index": 117.09,
+      "value": 117.09,
+      "timestamp": 1782298800
+    },
+    {
+      "datetime": "2026-06-24T12:00:00Z",
+      "blockheight": 856467,
+      "sentiment_index": 117.12,
+      "value": 117.12,
+      "timestamp": 1782302400
+    },
+    {
+      "datetime": "2026-06-24T13:00:00Z",
+      "blockheight": 856468,
+      "sentiment_index": 117.15,
+      "value": 117.15,
+      "timestamp": 1782306000
+    },
+    {
+      "datetime": "2026-06-24T14:00:00Z",
+      "blockheight": 856469,
+      "sentiment_index": 117.18,
+      "value": 117.18,
+      "timestamp": 1782309600
+    },
+    {
+      "datetime": "2026-06-24T15:00:00Z",
+      "blockheight": 856470,
+      "sentiment_index": 117.21,
+      "value": 117.21,
+      "timestamp": 1782313200
+    },
+    {
+      "datetime": "2026-06-24T16:00:00Z",
+      "blockheight": 856471,
+      "sentiment_index": 117.24,
+      "value": 117.24,
+      "timestamp": 1782316800
+    },
+    {
+      "datetime": "2026-06-24T17:00:00Z",
+      "blockheight": 856472,
+      "sentiment_index": 117.27,
+      "value": 117.27,
+      "timestamp": 1782320400
+    },
+    {
+      "datetime": "2026-06-24T18:00:00Z",
+      "blockheight": 856473,
+      "sentiment_index": 117.3,
+      "value": 117.3,
+      "timestamp": 1782324000
+    },
+    {
+      "datetime": "2026-06-24T19:00:00Z",
+      "blockheight": 856474,
+      "sentiment_index": 117.33,
+      "value": 117.33,
+      "timestamp": 1782327600
+    },
+    {
+      "datetime": "2026-06-24T20:00:00Z",
+      "blockheight": 856475,
+      "sentiment_index": 117.36,
+      "value": 117.36,
+      "timestamp": 1782331200
+    },
+    {
+      "datetime": "2026-06-24T21:00:00Z",
+      "blockheight": 856476,
+      "sentiment_index": 117.39,
+      "value": 117.39,
+      "timestamp": 1782334800
+    },
+    {
+      "datetime": "2026-06-24T22:00:00Z",
+      "blockheight": 856477,
+      "sentiment_index": 117.42,
+      "value": 117.42,
+      "timestamp": 1782338400
+    },
+    {
+      "datetime": "2026-06-24T23:00:00Z",
+      "blockheight": 856478,
+      "sentiment_index": 117.45,
+      "value": 117.45,
+      "timestamp": 1782342000
+    },
+    {
+      "datetime": "2026-06-25T00:00:00Z",
+      "blockheight": 856479,
+      "sentiment_index": 117.48,
+      "value": 117.48,
+      "timestamp": 1782345600
+    },
+    {
+      "datetime": "2026-06-25T01:00:00Z",
+      "blockheight": 856480,
+      "sentiment_index": 117.51,
+      "value": 117.51,
+      "timestamp": 1782349200
+    },
+    {
+      "datetime": "2026-06-25T02:00:00Z",
+      "blockheight": 856481,
+      "sentiment_index": 117.54,
+      "value": 117.54,
+      "timestamp": 1782352800
+    },
+    {
+      "datetime": "2026-06-25T03:00:00Z",
+      "blockheight": 856482,
+      "sentiment_index": 117.57,
+      "value": 117.57,
+      "timestamp": 1782356400
+    },
+    {
+      "datetime": "2026-06-25T04:00:00Z",
+      "blockheight": 856483,
+      "sentiment_index": 117.6,
+      "value": 117.6,
+      "timestamp": 1782360000
+    },
+    {
+      "datetime": "2026-06-25T05:00:00Z",
+      "blockheight": 856484,
+      "sentiment_index": 117.63,
+      "value": 117.63,
+      "timestamp": 1782363600
+    },
+    {
+      "datetime": "2026-06-25T06:00:00Z",
+      "blockheight": 856485,
+      "sentiment_index": 117.66,
+      "value": 117.66,
+      "timestamp": 1782367200
+    },
+    {
+      "datetime": "2026-06-25T07:00:00Z",
+      "blockheight": 856486,
+      "sentiment_index": 117.69,
+      "value": 117.69,
+      "timestamp": 1782370800
+    },
+    {
+      "datetime": "2026-06-25T08:00:00Z",
+      "blockheight": 856487,
+      "sentiment_index": 117.72,
+      "value": 117.72,
+      "timestamp": 1782374400
+    },
+    {
+      "datetime": "2026-06-25T09:00:00Z",
+      "blockheight": 856488,
+      "sentiment_index": 117.75,
+      "value": 117.75,
+      "timestamp": 1782378000
+    },
+    {
+      "datetime": "2026-06-25T10:00:00Z",
+      "blockheight": 856489,
+      "sentiment_index": 117.78,
+      "value": 117.78,
+      "timestamp": 1782381600
+    },
+    {
+      "datetime": "2026-06-25T11:00:00Z",
+      "blockheight": 856490,
+      "sentiment_index": 117.81,
+      "value": 117.81,
+      "timestamp": 1782385200
+    },
+    {
+      "datetime": "2026-06-25T12:00:00Z",
+      "blockheight": 856491,
+      "sentiment_index": 117.84,
+      "value": 117.84,
+      "timestamp": 1782388800
+    },
+    {
+      "datetime": "2026-06-25T13:00:00Z",
+      "blockheight": 856492,
+      "sentiment_index": 117.87,
+      "value": 117.87,
+      "timestamp": 1782392400
+    },
+    {
+      "datetime": "2026-06-25T14:00:00Z",
+      "blockheight": 856493,
+      "sentiment_index": 117.9,
+      "value": 117.9,
+      "timestamp": 1782396000
+    },
+    {
+      "datetime": "2026-06-25T15:00:00Z",
+      "blockheight": 856494,
+      "sentiment_index": 117.93,
+      "value": 117.93,
+      "timestamp": 1782399600
+    },
+    {
+      "datetime": "2026-06-25T16:00:00Z",
+      "blockheight": 856495,
+      "sentiment_index": 117.96,
+      "value": 117.96,
+      "timestamp": 1782403200
+    },
+    {
+      "datetime": "2026-06-25T17:00:00Z",
+      "blockheight": 856496,
+      "sentiment_index": 117.99,
+      "value": 117.99,
+      "timestamp": 1782406800
+    },
+    {
+      "datetime": "2026-06-25T18:00:00Z",
+      "blockheight": 856497,
+      "sentiment_index": 118.02,
+      "value": 118.02,
+      "timestamp": 1782410400
+    },
+    {
+      "datetime": "2026-06-25T19:00:00Z",
+      "blockheight": 856498,
+      "sentiment_index": 118.05,
+      "value": 118.05,
+      "timestamp": 1782414000
+    },
+    {
+      "datetime": "2026-06-25T20:00:00Z",
+      "blockheight": 856499,
+      "sentiment_index": 118.08,
+      "value": 118.08,
+      "timestamp": 1782417600
+    },
+    {
+      "datetime": "2026-06-25T21:00:00Z",
+      "blockheight": 856500,
+      "sentiment_index": 118.11,
+      "value": 118.11,
+      "timestamp": 1782421200
+    },
+    {
+      "datetime": "2026-06-25T22:00:00Z",
+      "blockheight": 856501,
+      "sentiment_index": 118.14,
+      "value": 118.14,
+      "timestamp": 1782424800
+    },
+    {
+      "datetime": "2026-06-25T23:00:00Z",
+      "blockheight": 856502,
+      "sentiment_index": 118.17,
+      "value": 118.17,
+      "timestamp": 1782428400
+    },
+    {
+      "datetime": "2026-06-26T00:00:00Z",
+      "blockheight": 856503,
+      "sentiment_index": 118.2,
+      "value": 118.2,
+      "timestamp": 1782432000
+    },
+    {
+      "datetime": "2026-06-26T01:00:00Z",
+      "blockheight": 856504,
+      "sentiment_index": 118.23,
+      "value": 118.23,
+      "timestamp": 1782435600
+    },
+    {
+      "datetime": "2026-06-26T02:00:00Z",
+      "blockheight": 856505,
+      "sentiment_index": 118.26,
+      "value": 118.26,
+      "timestamp": 1782439200
+    },
+    {
+      "datetime": "2026-06-26T03:00:00Z",
+      "blockheight": 856506,
+      "sentiment_index": 118.29,
+      "value": 118.29,
+      "timestamp": 1782442800
+    },
+    {
+      "datetime": "2026-06-26T04:00:00Z",
+      "blockheight": 856507,
+      "sentiment_index": 118.32,
+      "value": 118.32,
+      "timestamp": 1782446400
+    },
+    {
+      "datetime": "2026-06-26T05:00:00Z",
+      "blockheight": 856508,
+      "sentiment_index": 118.35,
+      "value": 118.35,
+      "timestamp": 1782450000
+    },
+    {
+      "datetime": "2026-06-26T06:00:00Z",
+      "blockheight": 856509,
+      "sentiment_index": 118.38,
+      "value": 118.38,
+      "timestamp": 1782453600
+    },
+    {
+      "datetime": "2026-06-26T07:00:00Z",
+      "blockheight": 856510,
+      "sentiment_index": 118.41,
+      "value": 118.41,
+      "timestamp": 1782457200
+    },
+    {
+      "datetime": "2026-06-26T08:00:00Z",
+      "blockheight": 856511,
+      "sentiment_index": 118.44,
+      "value": 118.44,
+      "timestamp": 1782460800
+    },
+    {
+      "datetime": "2026-06-26T09:00:00Z",
+      "blockheight": 856512,
+      "sentiment_index": 118.47,
+      "value": 118.47,
+      "timestamp": 1782464400
+    },
+    {
+      "datetime": "2026-06-26T10:00:00Z",
+      "blockheight": 856513,
+      "sentiment_index": 118.5,
+      "value": 118.5,
+      "timestamp": 1782468000
+    },
+    {
+      "datetime": "2026-06-26T11:00:00Z",
+      "blockheight": 856514,
+      "sentiment_index": 118.53,
+      "value": 118.53,
+      "timestamp": 1782471600
+    },
+    {
+      "datetime": "2026-06-26T12:00:00Z",
+      "blockheight": 856515,
+      "sentiment_index": 118.56,
+      "value": 118.56,
+      "timestamp": 1782475200
+    },
+    {
+      "datetime": "2026-06-26T13:00:00Z",
+      "blockheight": 856516,
+      "sentiment_index": 118.59,
+      "value": 118.59,
+      "timestamp": 1782478800
+    },
+    {
+      "datetime": "2026-06-26T14:00:00Z",
+      "blockheight": 856517,
+      "sentiment_index": 118.62,
+      "value": 118.62,
+      "timestamp": 1782482400
+    },
+    {
+      "datetime": "2026-06-26T15:00:00Z",
+      "blockheight": 856518,
+      "sentiment_index": 118.65,
+      "value": 118.65,
+      "timestamp": 1782486000
+    },
+    {
+      "datetime": "2026-06-26T16:00:00Z",
+      "blockheight": 856519,
+      "sentiment_index": 118.68,
+      "value": 118.68,
+      "timestamp": 1782489600
+    },
+    {
+      "datetime": "2026-06-26T17:00:00Z",
+      "blockheight": 856520,
+      "sentiment_index": 118.71,
+      "value": 118.71,
+      "timestamp": 1782493200
+    },
+    {
+      "datetime": "2026-06-26T18:00:00Z",
+      "blockheight": 856521,
+      "sentiment_index": 118.74,
+      "value": 118.74,
+      "timestamp": 1782496800
+    },
+    {
+      "datetime": "2026-06-26T19:00:00Z",
+      "blockheight": 856522,
+      "sentiment_index": 118.77,
+      "value": 118.77,
+      "timestamp": 1782500400
+    },
+    {
+      "datetime": "2026-06-26T20:00:00Z",
+      "blockheight": 856523,
+      "sentiment_index": 118.8,
+      "value": 118.8,
+      "timestamp": 1782504000
+    },
+    {
+      "datetime": "2026-06-26T21:00:00Z",
+      "blockheight": 856524,
+      "sentiment_index": 118.83,
+      "value": 118.83,
+      "timestamp": 1782507600
+    },
+    {
+      "datetime": "2026-06-26T22:00:00Z",
+      "blockheight": 856525,
+      "sentiment_index": 118.86,
+      "value": 118.86,
+      "timestamp": 1782511200
+    },
+    {
+      "datetime": "2026-06-26T23:00:00Z",
+      "blockheight": 856526,
+      "sentiment_index": 118.89,
+      "value": 118.89,
+      "timestamp": 1782514800
+    },
+    {
+      "datetime": "2026-06-27T00:00:00Z",
+      "blockheight": 856527,
+      "sentiment_index": 118.92,
+      "value": 118.92,
+      "timestamp": 1782518400
+    },
+    {
+      "datetime": "2026-06-27T01:00:00Z",
+      "blockheight": 856528,
+      "sentiment_index": 118.95,
+      "value": 118.95,
+      "timestamp": 1782522000
+    },
+    {
+      "datetime": "2026-06-27T02:00:00Z",
+      "blockheight": 856529,
+      "sentiment_index": 118.98,
+      "value": 118.98,
+      "timestamp": 1782525600
+    },
+    {
+      "datetime": "2026-06-27T03:00:00Z",
+      "blockheight": 856530,
+      "sentiment_index": 119.01,
+      "value": 119.01,
+      "timestamp": 1782529200
+    },
+    {
+      "datetime": "2026-06-27T04:00:00Z",
+      "blockheight": 856531,
+      "sentiment_index": 119.04,
+      "value": 119.04,
+      "timestamp": 1782532800
+    },
+    {
+      "datetime": "2026-06-27T05:00:00Z",
+      "blockheight": 856532,
+      "sentiment_index": 119.07,
+      "value": 119.07,
+      "timestamp": 1782536400
+    },
+    {
+      "datetime": "2026-06-27T06:00:00Z",
+      "blockheight": 856533,
+      "sentiment_index": 119.1,
+      "value": 119.1,
+      "timestamp": 1782540000
+    },
+    {
+      "datetime": "2026-06-27T07:00:00Z",
+      "blockheight": 856534,
+      "sentiment_index": 119.13,
+      "value": 119.13,
+      "timestamp": 1782543600
+    },
+    {
+      "datetime": "2026-06-27T08:00:00Z",
+      "blockheight": 856535,
+      "sentiment_index": 119.16,
+      "value": 119.16,
+      "timestamp": 1782547200
+    },
+    {
+      "datetime": "2026-06-27T09:00:00Z",
+      "blockheight": 856536,
+      "sentiment_index": 119.19,
+      "value": 119.19,
+      "timestamp": 1782550800
+    },
+    {
+      "datetime": "2026-06-27T10:00:00Z",
+      "blockheight": 856537,
+      "sentiment_index": 119.22,
+      "value": 119.22,
+      "timestamp": 1782554400
+    },
+    {
+      "datetime": "2026-06-27T11:00:00Z",
+      "blockheight": 856538,
+      "sentiment_index": 119.25,
+      "value": 119.25,
+      "timestamp": 1782558000
+    },
+    {
+      "datetime": "2026-06-27T12:00:00Z",
+      "blockheight": 856539,
+      "sentiment_index": 119.28,
+      "value": 119.28,
+      "timestamp": 1782561600
+    },
+    {
+      "datetime": "2026-06-27T13:00:00Z",
+      "blockheight": 856540,
+      "sentiment_index": 119.31,
+      "value": 119.31,
+      "timestamp": 1782565200
+    },
+    {
+      "datetime": "2026-06-27T14:00:00Z",
+      "blockheight": 856541,
+      "sentiment_index": 119.34,
+      "value": 119.34,
+      "timestamp": 1782568800
+    },
+    {
+      "datetime": "2026-06-27T15:00:00Z",
+      "blockheight": 856542,
+      "sentiment_index": 119.37,
+      "value": 119.37,
+      "timestamp": 1782572400
+    },
+    {
+      "datetime": "2026-06-27T16:00:00Z",
+      "blockheight": 856543,
+      "sentiment_index": 119.4,
+      "value": 119.4,
+      "timestamp": 1782576000
+    },
+    {
+      "datetime": "2026-06-27T17:00:00Z",
+      "blockheight": 856544,
+      "sentiment_index": 119.43,
+      "value": 119.43,
+      "timestamp": 1782579600
+    },
+    {
+      "datetime": "2026-06-27T18:00:00Z",
+      "blockheight": 856545,
+      "sentiment_index": 119.46,
+      "value": 119.46,
+      "timestamp": 1782583200
+    },
+    {
+      "datetime": "2026-06-27T19:00:00Z",
+      "blockheight": 856546,
+      "sentiment_index": 119.49,
+      "value": 119.49,
+      "timestamp": 1782586800
+    },
+    {
+      "datetime": "2026-06-27T20:00:00Z",
+      "blockheight": 856547,
+      "sentiment_index": 119.52,
+      "value": 119.52,
+      "timestamp": 1782590400
+    },
+    {
+      "datetime": "2026-06-27T21:00:00Z",
+      "blockheight": 856548,
+      "sentiment_index": 119.55,
+      "value": 119.55,
+      "timestamp": 1782594000
+    },
+    {
+      "datetime": "2026-06-27T22:00:00Z",
+      "blockheight": 856549,
+      "sentiment_index": 119.58,
+      "value": 119.58,
+      "timestamp": 1782597600
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856550,
+      "sentiment_index": 119.61,
+      "value": 119.61,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856551,
+      "sentiment_index": 119.64,
+      "value": 119.64,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856552,
+      "sentiment_index": 119.67,
+      "value": 119.67,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856553,
+      "sentiment_index": 119.7,
+      "value": 119.7,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856554,
+      "sentiment_index": 119.73,
+      "value": 119.73,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856555,
+      "sentiment_index": 119.76,
+      "value": 119.76,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856556,
+      "sentiment_index": 119.79,
+      "value": 119.79,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856557,
+      "sentiment_index": 119.82,
+      "value": 119.82,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856558,
+      "sentiment_index": 119.85,
+      "value": 119.85,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856559,
+      "sentiment_index": 119.88,
+      "value": 119.88,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856560,
+      "sentiment_index": 119.91,
+      "value": 119.91,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856561,
+      "sentiment_index": 119.94,
+      "value": 119.94,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856562,
+      "sentiment_index": 119.97,
+      "value": 119.97,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856563,
+      "sentiment_index": 120.0,
+      "value": 120.0,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856564,
+      "sentiment_index": 120.03,
+      "value": 120.03,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856565,
+      "sentiment_index": 120.06,
+      "value": 120.06,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856566,
+      "sentiment_index": 120.09,
+      "value": 120.09,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856567,
+      "sentiment_index": 120.12,
+      "value": 120.12,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856568,
+      "sentiment_index": 120.15,
+      "value": 120.15,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856569,
+      "sentiment_index": 120.18,
+      "value": 120.18,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856570,
+      "sentiment_index": 120.21,
+      "value": 120.21,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856571,
+      "sentiment_index": 120.24,
+      "value": 120.24,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856572,
+      "sentiment_index": 120.27,
+      "value": 120.27,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856573,
+      "sentiment_index": 120.3,
+      "value": 120.3,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856574,
+      "sentiment_index": 120.33,
+      "value": 120.33,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856575,
+      "sentiment_index": 120.36,
+      "value": 120.36,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856576,
+      "sentiment_index": 120.39,
+      "value": 120.39,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856577,
+      "sentiment_index": 120.42,
+      "value": 120.42,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856578,
+      "sentiment_index": 120.45,
+      "value": 120.45,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856579,
+      "sentiment_index": 120.48,
+      "value": 120.48,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856580,
+      "sentiment_index": 120.51,
+      "value": 120.51,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856581,
+      "sentiment_index": 120.54,
+      "value": 120.54,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856582,
+      "sentiment_index": 120.57,
+      "value": 120.57,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856583,
+      "sentiment_index": 120.6,
+      "value": 120.6,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856584,
+      "sentiment_index": 120.63,
+      "value": 120.63,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856585,
+      "sentiment_index": 120.66,
+      "value": 120.66,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856586,
+      "sentiment_index": 120.69,
+      "value": 120.69,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856587,
+      "sentiment_index": 120.72,
+      "value": 120.72,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856588,
+      "sentiment_index": 120.75,
+      "value": 120.75,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856589,
+      "sentiment_index": 120.78,
+      "value": 120.78,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856590,
+      "sentiment_index": 120.81,
+      "value": 120.81,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856591,
+      "sentiment_index": 120.84,
+      "value": 120.84,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856592,
+      "sentiment_index": 120.87,
+      "value": 120.87,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856593,
+      "sentiment_index": 120.9,
+      "value": 120.9,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856594,
+      "sentiment_index": 120.93,
+      "value": 120.93,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856595,
+      "sentiment_index": 120.96,
+      "value": 120.96,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856596,
+      "sentiment_index": 120.99,
+      "value": 120.99,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856597,
+      "sentiment_index": 121.02,
+      "value": 121.02,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856598,
+      "sentiment_index": 121.05,
+      "value": 121.05,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856599,
+      "sentiment_index": 121.08,
+      "value": 121.08,
+      "timestamp": 1782777600
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_sentiment_positioning_sentiment_index",
+    "path": null,
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260703T023307Z/sentiment_positioning/sentiment_index/1h_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 600,
+    "duplicates_removed": 0
+  }
+}

@@ -1,0 +1,5427 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "glassnode",
+  "family": "options_volatility",
+  "subtype": "options_volume",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "1h",
+  "extraction_window": null,
+  "records": [
+    {
+      "timestamp": 1780621200,
+      "value": {
+        "total": 96.69,
+        "binance": 33.8415,
+        "coinbase": 29.007,
+        "okx": 33.8415
+      }
+    },
+    {
+      "timestamp": 1780624800,
+      "value": {
+        "total": 96.72,
+        "binance": 33.852,
+        "coinbase": 29.016,
+        "okx": 33.852
+      }
+    },
+    {
+      "timestamp": 1780628400,
+      "value": {
+        "total": 96.75,
+        "binance": 33.8625,
+        "coinbase": 29.025,
+        "okx": 33.8625
+      }
+    },
+    {
+      "timestamp": 1780632000,
+      "value": {
+        "total": 96.78,
+        "binance": 33.873,
+        "coinbase": 29.034,
+        "okx": 33.873
+      }
+    },
+    {
+      "timestamp": 1780635600,
+      "value": {
+        "total": 96.81,
+        "binance": 33.8835,
+        "coinbase": 29.043,
+        "okx": 33.8835
+      }
+    },
+    {
+      "timestamp": 1780639200,
+      "value": {
+        "total": 96.84,
+        "binance": 33.894,
+        "coinbase": 29.052,
+        "okx": 33.894
+      }
+    },
+    {
+      "timestamp": 1780642800,
+      "value": {
+        "total": 96.87,
+        "binance": 33.9045,
+        "coinbase": 29.061,
+        "okx": 33.9045
+      }
+    },
+    {
+      "timestamp": 1780646400,
+      "value": {
+        "total": 96.9,
+        "binance": 33.915,
+        "coinbase": 29.07,
+        "okx": 33.915
+      }
+    },
+    {
+      "timestamp": 1780650000,
+      "value": {
+        "total": 96.93,
+        "binance": 33.9255,
+        "coinbase": 29.079,
+        "okx": 33.9255
+      }
+    },
+    {
+      "timestamp": 1780653600,
+      "value": {
+        "total": 96.96,
+        "binance": 33.936,
+        "coinbase": 29.088,
+        "okx": 33.936
+      }
+    },
+    {
+      "timestamp": 1780657200,
+      "value": {
+        "total": 96.99,
+        "binance": 33.9465,
+        "coinbase": 29.097,
+        "okx": 33.9465
+      }
+    },
+    {
+      "timestamp": 1780660800,
+      "value": {
+        "total": 97.02,
+        "binance": 33.957,
+        "coinbase": 29.106,
+        "okx": 33.957
+      }
+    },
+    {
+      "timestamp": 1780664400,
+      "value": {
+        "total": 97.05,
+        "binance": 33.9675,
+        "coinbase": 29.115,
+        "okx": 33.9675
+      }
+    },
+    {
+      "timestamp": 1780668000,
+      "value": {
+        "total": 97.08,
+        "binance": 33.978,
+        "coinbase": 29.124,
+        "okx": 33.978
+      }
+    },
+    {
+      "timestamp": 1780671600,
+      "value": {
+        "total": 97.11,
+        "binance": 33.9885,
+        "coinbase": 29.133,
+        "okx": 33.9885
+      }
+    },
+    {
+      "timestamp": 1780675200,
+      "value": {
+        "total": 97.14,
+        "binance": 33.999,
+        "coinbase": 29.142,
+        "okx": 33.999
+      }
+    },
+    {
+      "timestamp": 1780678800,
+      "value": {
+        "total": 97.17,
+        "binance": 34.0095,
+        "coinbase": 29.151,
+        "okx": 34.0095
+      }
+    },
+    {
+      "timestamp": 1780682400,
+      "value": {
+        "total": 97.2,
+        "binance": 34.02,
+        "coinbase": 29.16,
+        "okx": 34.02
+      }
+    },
+    {
+      "timestamp": 1780686000,
+      "value": {
+        "total": 97.23,
+        "binance": 34.0305,
+        "coinbase": 29.169,
+        "okx": 34.0305
+      }
+    },
+    {
+      "timestamp": 1780689600,
+      "value": {
+        "total": 97.26,
+        "binance": 34.041,
+        "coinbase": 29.178,
+        "okx": 34.041
+      }
+    },
+    {
+      "timestamp": 1780693200,
+      "value": {
+        "total": 97.29,
+        "binance": 34.0515,
+        "coinbase": 29.187,
+        "okx": 34.0515
+      }
+    },
+    {
+      "timestamp": 1780696800,
+      "value": {
+        "total": 97.32,
+        "binance": 34.062,
+        "coinbase": 29.196,
+        "okx": 34.062
+      }
+    },
+    {
+      "timestamp": 1780700400,
+      "value": {
+        "total": 97.35,
+        "binance": 34.0725,
+        "coinbase": 29.205,
+        "okx": 34.0725
+      }
+    },
+    {
+      "timestamp": 1780704000,
+      "value": {
+        "total": 97.38,
+        "binance": 34.083,
+        "coinbase": 29.214,
+        "okx": 34.083
+      }
+    },
+    {
+      "timestamp": 1780707600,
+      "value": {
+        "total": 97.41,
+        "binance": 34.0935,
+        "coinbase": 29.223,
+        "okx": 34.0935
+      }
+    },
+    {
+      "timestamp": 1780711200,
+      "value": {
+        "total": 97.44,
+        "binance": 34.104,
+        "coinbase": 29.232,
+        "okx": 34.104
+      }
+    },
+    {
+      "timestamp": 1780714800,
+      "value": {
+        "total": 97.47,
+        "binance": 34.1145,
+        "coinbase": 29.241,
+        "okx": 34.1145
+      }
+    },
+    {
+      "timestamp": 1780718400,
+      "value": {
+        "total": 97.5,
+        "binance": 34.125,
+        "coinbase": 29.25,
+        "okx": 34.125
+      }
+    },
+    {
+      "timestamp": 1780722000,
+      "value": {
+        "total": 97.53,
+        "binance": 34.1355,
+        "coinbase": 29.259,
+        "okx": 34.1355
+      }
+    },
+    {
+      "timestamp": 1780725600,
+      "value": {
+        "total": 97.56,
+        "binance": 34.146,
+        "coinbase": 29.268,
+        "okx": 34.146
+      }
+    },
+    {
+      "timestamp": 1780729200,
+      "value": {
+        "total": 97.59,
+        "binance": 34.1565,
+        "coinbase": 29.277,
+        "okx": 34.1565
+      }
+    },
+    {
+      "timestamp": 1780732800,
+      "value": {
+        "total": 97.62,
+        "binance": 34.167,
+        "coinbase": 29.286,
+        "okx": 34.167
+      }
+    },
+    {
+      "timestamp": 1780736400,
+      "value": {
+        "total": 97.65,
+        "binance": 34.1775,
+        "coinbase": 29.295,
+        "okx": 34.1775
+      }
+    },
+    {
+      "timestamp": 1780740000,
+      "value": {
+        "total": 97.68,
+        "binance": 34.188,
+        "coinbase": 29.304,
+        "okx": 34.188
+      }
+    },
+    {
+      "timestamp": 1780743600,
+      "value": {
+        "total": 97.71,
+        "binance": 34.1985,
+        "coinbase": 29.313,
+        "okx": 34.1985
+      }
+    },
+    {
+      "timestamp": 1780747200,
+      "value": {
+        "total": 97.74,
+        "binance": 34.209,
+        "coinbase": 29.322,
+        "okx": 34.209
+      }
+    },
+    {
+      "timestamp": 1780750800,
+      "value": {
+        "total": 97.77,
+        "binance": 34.2195,
+        "coinbase": 29.331,
+        "okx": 34.2195
+      }
+    },
+    {
+      "timestamp": 1780754400,
+      "value": {
+        "total": 97.8,
+        "binance": 34.23,
+        "coinbase": 29.34,
+        "okx": 34.23
+      }
+    },
+    {
+      "timestamp": 1780758000,
+      "value": {
+        "total": 97.83,
+        "binance": 34.2405,
+        "coinbase": 29.349,
+        "okx": 34.2405
+      }
+    },
+    {
+      "timestamp": 1780761600,
+      "value": {
+        "total": 97.86,
+        "binance": 34.251,
+        "coinbase": 29.358,
+        "okx": 34.251
+      }
+    },
+    {
+      "timestamp": 1780765200,
+      "value": {
+        "total": 97.89,
+        "binance": 34.2615,
+        "coinbase": 29.367,
+        "okx": 34.2615
+      }
+    },
+    {
+      "timestamp": 1780768800,
+      "value": {
+        "total": 97.92,
+        "binance": 34.272,
+        "coinbase": 29.376,
+        "okx": 34.272
+      }
+    },
+    {
+      "timestamp": 1780772400,
+      "value": {
+        "total": 97.95,
+        "binance": 34.2825,
+        "coinbase": 29.385,
+        "okx": 34.2825
+      }
+    },
+    {
+      "timestamp": 1780776000,
+      "value": {
+        "total": 97.98,
+        "binance": 34.293,
+        "coinbase": 29.394,
+        "okx": 34.293
+      }
+    },
+    {
+      "timestamp": 1780779600,
+      "value": {
+        "total": 98.01,
+        "binance": 34.3035,
+        "coinbase": 29.403,
+        "okx": 34.3035
+      }
+    },
+    {
+      "timestamp": 1780783200,
+      "value": {
+        "total": 98.04,
+        "binance": 34.314,
+        "coinbase": 29.412,
+        "okx": 34.314
+      }
+    },
+    {
+      "timestamp": 1780786800,
+      "value": {
+        "total": 98.07,
+        "binance": 34.3245,
+        "coinbase": 29.421,
+        "okx": 34.3245
+      }
+    },
+    {
+      "timestamp": 1780790400,
+      "value": {
+        "total": 98.1,
+        "binance": 34.335,
+        "coinbase": 29.43,
+        "okx": 34.335
+      }
+    },
+    {
+      "timestamp": 1780794000,
+      "value": {
+        "total": 98.13,
+        "binance": 34.3455,
+        "coinbase": 29.439,
+        "okx": 34.3455
+      }
+    },
+    {
+      "timestamp": 1780797600,
+      "value": {
+        "total": 98.16,
+        "binance": 34.356,
+        "coinbase": 29.448,
+        "okx": 34.356
+      }
+    },
+    {
+      "timestamp": 1780801200,
+      "value": {
+        "total": 98.19,
+        "binance": 34.3665,
+        "coinbase": 29.457,
+        "okx": 34.3665
+      }
+    },
+    {
+      "timestamp": 1780804800,
+      "value": {
+        "total": 98.22,
+        "binance": 34.377,
+        "coinbase": 29.466,
+        "okx": 34.377
+      }
+    },
+    {
+      "timestamp": 1780808400,
+      "value": {
+        "total": 98.25,
+        "binance": 34.3875,
+        "coinbase": 29.475,
+        "okx": 34.3875
+      }
+    },
+    {
+      "timestamp": 1780812000,
+      "value": {
+        "total": 98.28,
+        "binance": 34.398,
+        "coinbase": 29.484,
+        "okx": 34.398
+      }
+    },
+    {
+      "timestamp": 1780815600,
+      "value": {
+        "total": 98.31,
+        "binance": 34.4085,
+        "coinbase": 29.493,
+        "okx": 34.4085
+      }
+    },
+    {
+      "timestamp": 1780819200,
+      "value": {
+        "total": 98.34,
+        "binance": 34.419,
+        "coinbase": 29.502,
+        "okx": 34.419
+      }
+    },
+    {
+      "timestamp": 1780822800,
+      "value": {
+        "total": 98.37,
+        "binance": 34.4295,
+        "coinbase": 29.511,
+        "okx": 34.4295
+      }
+    },
+    {
+      "timestamp": 1780826400,
+      "value": {
+        "total": 98.4,
+        "binance": 34.44,
+        "coinbase": 29.52,
+        "okx": 34.44
+      }
+    },
+    {
+      "timestamp": 1780830000,
+      "value": {
+        "total": 98.43,
+        "binance": 34.4505,
+        "coinbase": 29.529,
+        "okx": 34.4505
+      }
+    },
+    {
+      "timestamp": 1780833600,
+      "value": {
+        "total": 98.46,
+        "binance": 34.461,
+        "coinbase": 29.538,
+        "okx": 34.461
+      }
+    },
+    {
+      "timestamp": 1780837200,
+      "value": {
+        "total": 98.49,
+        "binance": 34.4715,
+        "coinbase": 29.547,
+        "okx": 34.4715
+      }
+    },
+    {
+      "timestamp": 1780840800,
+      "value": {
+        "total": 98.52,
+        "binance": 34.482,
+        "coinbase": 29.556,
+        "okx": 34.482
+      }
+    },
+    {
+      "timestamp": 1780844400,
+      "value": {
+        "total": 98.55,
+        "binance": 34.4925,
+        "coinbase": 29.565,
+        "okx": 34.4925
+      }
+    },
+    {
+      "timestamp": 1780848000,
+      "value": {
+        "total": 98.58,
+        "binance": 34.503,
+        "coinbase": 29.574,
+        "okx": 34.503
+      }
+    },
+    {
+      "timestamp": 1780851600,
+      "value": {
+        "total": 98.61,
+        "binance": 34.5135,
+        "coinbase": 29.583,
+        "okx": 34.5135
+      }
+    },
+    {
+      "timestamp": 1780855200,
+      "value": {
+        "total": 98.64,
+        "binance": 34.524,
+        "coinbase": 29.592,
+        "okx": 34.524
+      }
+    },
+    {
+      "timestamp": 1780858800,
+      "value": {
+        "total": 98.67,
+        "binance": 34.5345,
+        "coinbase": 29.601,
+        "okx": 34.5345
+      }
+    },
+    {
+      "timestamp": 1780862400,
+      "value": {
+        "total": 98.7,
+        "binance": 34.545,
+        "coinbase": 29.61,
+        "okx": 34.545
+      }
+    },
+    {
+      "timestamp": 1780866000,
+      "value": {
+        "total": 98.73,
+        "binance": 34.5555,
+        "coinbase": 29.619,
+        "okx": 34.5555
+      }
+    },
+    {
+      "timestamp": 1780869600,
+      "value": {
+        "total": 98.76,
+        "binance": 34.566,
+        "coinbase": 29.628,
+        "okx": 34.566
+      }
+    },
+    {
+      "timestamp": 1780873200,
+      "value": {
+        "total": 98.79,
+        "binance": 34.5765,
+        "coinbase": 29.637,
+        "okx": 34.5765
+      }
+    },
+    {
+      "timestamp": 1780876800,
+      "value": {
+        "total": 98.82,
+        "binance": 34.587,
+        "coinbase": 29.646,
+        "okx": 34.587
+      }
+    },
+    {
+      "timestamp": 1780880400,
+      "value": {
+        "total": 98.85,
+        "binance": 34.5975,
+        "coinbase": 29.655,
+        "okx": 34.5975
+      }
+    },
+    {
+      "timestamp": 1780884000,
+      "value": {
+        "total": 98.88,
+        "binance": 34.608,
+        "coinbase": 29.664,
+        "okx": 34.608
+      }
+    },
+    {
+      "timestamp": 1780887600,
+      "value": {
+        "total": 98.91,
+        "binance": 34.6185,
+        "coinbase": 29.673,
+        "okx": 34.6185
+      }
+    },
+    {
+      "timestamp": 1780891200,
+      "value": {
+        "total": 98.94,
+        "binance": 34.629,
+        "coinbase": 29.682,
+        "okx": 34.629
+      }
+    },
+    {
+      "timestamp": 1780894800,
+      "value": {
+        "total": 98.97,
+        "binance": 34.6395,
+        "coinbase": 29.691,
+        "okx": 34.6395
+      }
+    },
+    {
+      "timestamp": 1780898400,
+      "value": {
+        "total": 99.0,
+        "binance": 34.65,
+        "coinbase": 29.7,
+        "okx": 34.65
+      }
+    },
+    {
+      "timestamp": 1780902000,
+      "value": {
+        "total": 99.03,
+        "binance": 34.6605,
+        "coinbase": 29.709,
+        "okx": 34.6605
+      }
+    },
+    {
+      "timestamp": 1780905600,
+      "value": {
+        "total": 99.06,
+        "binance": 34.671,
+        "coinbase": 29.718,
+        "okx": 34.671
+      }
+    },
+    {
+      "timestamp": 1780909200,
+      "value": {
+        "total": 99.09,
+        "binance": 34.6815,
+        "coinbase": 29.727,
+        "okx": 34.6815
+      }
+    },
+    {
+      "timestamp": 1780912800,
+      "value": {
+        "total": 99.12,
+        "binance": 34.692,
+        "coinbase": 29.736,
+        "okx": 34.692
+      }
+    },
+    {
+      "timestamp": 1780916400,
+      "value": {
+        "total": 99.15,
+        "binance": 34.7025,
+        "coinbase": 29.745,
+        "okx": 34.7025
+      }
+    },
+    {
+      "timestamp": 1780920000,
+      "value": {
+        "total": 99.18,
+        "binance": 34.713,
+        "coinbase": 29.754,
+        "okx": 34.713
+      }
+    },
+    {
+      "timestamp": 1780923600,
+      "value": {
+        "total": 99.21,
+        "binance": 34.7235,
+        "coinbase": 29.763,
+        "okx": 34.7235
+      }
+    },
+    {
+      "timestamp": 1780927200,
+      "value": {
+        "total": 99.24,
+        "binance": 34.734,
+        "coinbase": 29.772,
+        "okx": 34.734
+      }
+    },
+    {
+      "timestamp": 1780930800,
+      "value": {
+        "total": 99.27,
+        "binance": 34.7445,
+        "coinbase": 29.781,
+        "okx": 34.7445
+      }
+    },
+    {
+      "timestamp": 1780934400,
+      "value": {
+        "total": 99.3,
+        "binance": 34.755,
+        "coinbase": 29.79,
+        "okx": 34.755
+      }
+    },
+    {
+      "timestamp": 1780938000,
+      "value": {
+        "total": 99.33,
+        "binance": 34.7655,
+        "coinbase": 29.799,
+        "okx": 34.7655
+      }
+    },
+    {
+      "timestamp": 1780941600,
+      "value": {
+        "total": 99.36,
+        "binance": 34.776,
+        "coinbase": 29.808,
+        "okx": 34.776
+      }
+    },
+    {
+      "timestamp": 1780945200,
+      "value": {
+        "total": 99.39,
+        "binance": 34.7865,
+        "coinbase": 29.817,
+        "okx": 34.7865
+      }
+    },
+    {
+      "timestamp": 1780948800,
+      "value": {
+        "total": 99.42,
+        "binance": 34.797,
+        "coinbase": 29.826,
+        "okx": 34.797
+      }
+    },
+    {
+      "timestamp": 1780952400,
+      "value": {
+        "total": 99.45,
+        "binance": 34.8075,
+        "coinbase": 29.835,
+        "okx": 34.8075
+      }
+    },
+    {
+      "timestamp": 1780956000,
+      "value": {
+        "total": 99.48,
+        "binance": 34.818,
+        "coinbase": 29.844,
+        "okx": 34.818
+      }
+    },
+    {
+      "timestamp": 1780959600,
+      "value": {
+        "total": 99.51,
+        "binance": 34.8285,
+        "coinbase": 29.853,
+        "okx": 34.8285
+      }
+    },
+    {
+      "timestamp": 1780963200,
+      "value": {
+        "total": 99.54,
+        "binance": 34.839,
+        "coinbase": 29.862,
+        "okx": 34.839
+      }
+    },
+    {
+      "timestamp": 1780966800,
+      "value": {
+        "total": 99.57,
+        "binance": 34.8495,
+        "coinbase": 29.871,
+        "okx": 34.8495
+      }
+    },
+    {
+      "timestamp": 1780970400,
+      "value": {
+        "total": 99.6,
+        "binance": 34.86,
+        "coinbase": 29.88,
+        "okx": 34.86
+      }
+    },
+    {
+      "timestamp": 1780974000,
+      "value": {
+        "total": 99.63,
+        "binance": 34.8705,
+        "coinbase": 29.889,
+        "okx": 34.8705
+      }
+    },
+    {
+      "timestamp": 1780977600,
+      "value": {
+        "total": 99.66,
+        "binance": 34.881,
+        "coinbase": 29.898,
+        "okx": 34.881
+      }
+    },
+    {
+      "timestamp": 1780981200,
+      "value": {
+        "total": 99.69,
+        "binance": 34.8915,
+        "coinbase": 29.907,
+        "okx": 34.8915
+      }
+    },
+    {
+      "timestamp": 1780984800,
+      "value": {
+        "total": 99.72,
+        "binance": 34.902,
+        "coinbase": 29.916,
+        "okx": 34.902
+      }
+    },
+    {
+      "timestamp": 1780988400,
+      "value": {
+        "total": 99.75,
+        "binance": 34.9125,
+        "coinbase": 29.925,
+        "okx": 34.9125
+      }
+    },
+    {
+      "timestamp": 1780992000,
+      "value": {
+        "total": 99.78,
+        "binance": 34.923,
+        "coinbase": 29.934,
+        "okx": 34.923
+      }
+    },
+    {
+      "timestamp": 1780995600,
+      "value": {
+        "total": 99.81,
+        "binance": 34.9335,
+        "coinbase": 29.943,
+        "okx": 34.9335
+      }
+    },
+    {
+      "timestamp": 1780999200,
+      "value": {
+        "total": 99.84,
+        "binance": 34.944,
+        "coinbase": 29.952,
+        "okx": 34.944
+      }
+    },
+    {
+      "timestamp": 1781002800,
+      "value": {
+        "total": 99.87,
+        "binance": 34.9545,
+        "coinbase": 29.961,
+        "okx": 34.9545
+      }
+    },
+    {
+      "timestamp": 1781006400,
+      "value": {
+        "total": 99.9,
+        "binance": 34.965,
+        "coinbase": 29.97,
+        "okx": 34.965
+      }
+    },
+    {
+      "timestamp": 1781010000,
+      "value": {
+        "total": 99.93,
+        "binance": 34.9755,
+        "coinbase": 29.979,
+        "okx": 34.9755
+      }
+    },
+    {
+      "timestamp": 1781013600,
+      "value": {
+        "total": 99.96,
+        "binance": 34.986,
+        "coinbase": 29.988,
+        "okx": 34.986
+      }
+    },
+    {
+      "timestamp": 1781017200,
+      "value": {
+        "total": 99.99,
+        "binance": 34.9965,
+        "coinbase": 29.997,
+        "okx": 34.9965
+      }
+    },
+    {
+      "timestamp": 1781020800,
+      "value": {
+        "total": 100.02,
+        "binance": 35.007,
+        "coinbase": 30.006,
+        "okx": 35.007
+      }
+    },
+    {
+      "timestamp": 1781024400,
+      "value": {
+        "total": 100.05,
+        "binance": 35.0175,
+        "coinbase": 30.015,
+        "okx": 35.0175
+      }
+    },
+    {
+      "timestamp": 1781028000,
+      "value": {
+        "total": 100.08,
+        "binance": 35.028,
+        "coinbase": 30.024,
+        "okx": 35.028
+      }
+    },
+    {
+      "timestamp": 1781031600,
+      "value": {
+        "total": 100.11,
+        "binance": 35.0385,
+        "coinbase": 30.033,
+        "okx": 35.0385
+      }
+    },
+    {
+      "timestamp": 1781035200,
+      "value": {
+        "total": 100.14,
+        "binance": 35.049,
+        "coinbase": 30.042,
+        "okx": 35.049
+      }
+    },
+    {
+      "timestamp": 1781038800,
+      "value": {
+        "total": 100.17,
+        "binance": 35.0595,
+        "coinbase": 30.051,
+        "okx": 35.0595
+      }
+    },
+    {
+      "timestamp": 1781042400,
+      "value": {
+        "total": 100.2,
+        "binance": 35.07,
+        "coinbase": 30.06,
+        "okx": 35.07
+      }
+    },
+    {
+      "timestamp": 1781046000,
+      "value": {
+        "total": 100.23,
+        "binance": 35.0805,
+        "coinbase": 30.069,
+        "okx": 35.0805
+      }
+    },
+    {
+      "timestamp": 1781049600,
+      "value": {
+        "total": 100.26,
+        "binance": 35.091,
+        "coinbase": 30.078,
+        "okx": 35.091
+      }
+    },
+    {
+      "timestamp": 1781053200,
+      "value": {
+        "total": 100.29,
+        "binance": 35.1015,
+        "coinbase": 30.087,
+        "okx": 35.1015
+      }
+    },
+    {
+      "timestamp": 1781056800,
+      "value": {
+        "total": 100.32,
+        "binance": 35.112,
+        "coinbase": 30.096,
+        "okx": 35.112
+      }
+    },
+    {
+      "timestamp": 1781060400,
+      "value": {
+        "total": 100.35,
+        "binance": 35.1225,
+        "coinbase": 30.105,
+        "okx": 35.1225
+      }
+    },
+    {
+      "timestamp": 1781064000,
+      "value": {
+        "total": 100.38,
+        "binance": 35.133,
+        "coinbase": 30.114,
+        "okx": 35.133
+      }
+    },
+    {
+      "timestamp": 1781067600,
+      "value": {
+        "total": 100.41,
+        "binance": 35.1435,
+        "coinbase": 30.123,
+        "okx": 35.1435
+      }
+    },
+    {
+      "timestamp": 1781071200,
+      "value": {
+        "total": 100.44,
+        "binance": 35.154,
+        "coinbase": 30.132,
+        "okx": 35.154
+      }
+    },
+    {
+      "timestamp": 1781074800,
+      "value": {
+        "total": 100.47,
+        "binance": 35.1645,
+        "coinbase": 30.141,
+        "okx": 35.1645
+      }
+    },
+    {
+      "timestamp": 1781078400,
+      "value": {
+        "total": 100.5,
+        "binance": 35.175,
+        "coinbase": 30.15,
+        "okx": 35.175
+      }
+    },
+    {
+      "timestamp": 1781082000,
+      "value": {
+        "total": 100.53,
+        "binance": 35.1855,
+        "coinbase": 30.159,
+        "okx": 35.1855
+      }
+    },
+    {
+      "timestamp": 1781085600,
+      "value": {
+        "total": 100.56,
+        "binance": 35.196,
+        "coinbase": 30.168,
+        "okx": 35.196
+      }
+    },
+    {
+      "timestamp": 1781089200,
+      "value": {
+        "total": 100.59,
+        "binance": 35.2065,
+        "coinbase": 30.177,
+        "okx": 35.2065
+      }
+    },
+    {
+      "timestamp": 1781092800,
+      "value": {
+        "total": 100.62,
+        "binance": 35.217,
+        "coinbase": 30.186,
+        "okx": 35.217
+      }
+    },
+    {
+      "timestamp": 1781096400,
+      "value": {
+        "total": 100.65,
+        "binance": 35.2275,
+        "coinbase": 30.195,
+        "okx": 35.2275
+      }
+    },
+    {
+      "timestamp": 1781100000,
+      "value": {
+        "total": 100.68,
+        "binance": 35.238,
+        "coinbase": 30.204,
+        "okx": 35.238
+      }
+    },
+    {
+      "timestamp": 1781103600,
+      "value": {
+        "total": 100.71,
+        "binance": 35.2485,
+        "coinbase": 30.213,
+        "okx": 35.2485
+      }
+    },
+    {
+      "timestamp": 1781107200,
+      "value": {
+        "total": 100.74,
+        "binance": 35.259,
+        "coinbase": 30.222,
+        "okx": 35.259
+      }
+    },
+    {
+      "timestamp": 1781110800,
+      "value": {
+        "total": 100.77,
+        "binance": 35.2695,
+        "coinbase": 30.231,
+        "okx": 35.2695
+      }
+    },
+    {
+      "timestamp": 1781114400,
+      "value": {
+        "total": 100.8,
+        "binance": 35.28,
+        "coinbase": 30.24,
+        "okx": 35.28
+      }
+    },
+    {
+      "timestamp": 1781118000,
+      "value": {
+        "total": 100.83,
+        "binance": 35.2905,
+        "coinbase": 30.249,
+        "okx": 35.2905
+      }
+    },
+    {
+      "timestamp": 1781121600,
+      "value": {
+        "total": 100.86,
+        "binance": 35.301,
+        "coinbase": 30.258,
+        "okx": 35.301
+      }
+    },
+    {
+      "timestamp": 1781125200,
+      "value": {
+        "total": 100.89,
+        "binance": 35.3115,
+        "coinbase": 30.267,
+        "okx": 35.3115
+      }
+    },
+    {
+      "timestamp": 1781128800,
+      "value": {
+        "total": 100.92,
+        "binance": 35.322,
+        "coinbase": 30.276,
+        "okx": 35.322
+      }
+    },
+    {
+      "timestamp": 1781132400,
+      "value": {
+        "total": 100.95,
+        "binance": 35.3325,
+        "coinbase": 30.285,
+        "okx": 35.3325
+      }
+    },
+    {
+      "timestamp": 1781136000,
+      "value": {
+        "total": 100.98,
+        "binance": 35.343,
+        "coinbase": 30.294,
+        "okx": 35.343
+      }
+    },
+    {
+      "timestamp": 1781139600,
+      "value": {
+        "total": 101.01,
+        "binance": 35.3535,
+        "coinbase": 30.303,
+        "okx": 35.3535
+      }
+    },
+    {
+      "timestamp": 1781143200,
+      "value": {
+        "total": 101.04,
+        "binance": 35.364,
+        "coinbase": 30.312,
+        "okx": 35.364
+      }
+    },
+    {
+      "timestamp": 1781146800,
+      "value": {
+        "total": 101.07,
+        "binance": 35.3745,
+        "coinbase": 30.321,
+        "okx": 35.3745
+      }
+    },
+    {
+      "timestamp": 1781150400,
+      "value": {
+        "total": 101.1,
+        "binance": 35.385,
+        "coinbase": 30.33,
+        "okx": 35.385
+      }
+    },
+    {
+      "timestamp": 1781154000,
+      "value": {
+        "total": 101.13,
+        "binance": 35.3955,
+        "coinbase": 30.339,
+        "okx": 35.3955
+      }
+    },
+    {
+      "timestamp": 1781157600,
+      "value": {
+        "total": 101.16,
+        "binance": 35.406,
+        "coinbase": 30.348,
+        "okx": 35.406
+      }
+    },
+    {
+      "timestamp": 1781161200,
+      "value": {
+        "total": 101.19,
+        "binance": 35.4165,
+        "coinbase": 30.357,
+        "okx": 35.4165
+      }
+    },
+    {
+      "timestamp": 1781164800,
+      "value": {
+        "total": 101.22,
+        "binance": 35.427,
+        "coinbase": 30.366,
+        "okx": 35.427
+      }
+    },
+    {
+      "timestamp": 1781168400,
+      "value": {
+        "total": 101.25,
+        "binance": 35.4375,
+        "coinbase": 30.375,
+        "okx": 35.4375
+      }
+    },
+    {
+      "timestamp": 1781172000,
+      "value": {
+        "total": 101.28,
+        "binance": 35.448,
+        "coinbase": 30.384,
+        "okx": 35.448
+      }
+    },
+    {
+      "timestamp": 1781175600,
+      "value": {
+        "total": 101.31,
+        "binance": 35.4585,
+        "coinbase": 30.393,
+        "okx": 35.4585
+      }
+    },
+    {
+      "timestamp": 1781179200,
+      "value": {
+        "total": 101.34,
+        "binance": 35.469,
+        "coinbase": 30.402,
+        "okx": 35.469
+      }
+    },
+    {
+      "timestamp": 1781182800,
+      "value": {
+        "total": 101.37,
+        "binance": 35.4795,
+        "coinbase": 30.411,
+        "okx": 35.4795
+      }
+    },
+    {
+      "timestamp": 1781186400,
+      "value": {
+        "total": 101.4,
+        "binance": 35.49,
+        "coinbase": 30.42,
+        "okx": 35.49
+      }
+    },
+    {
+      "timestamp": 1781190000,
+      "value": {
+        "total": 101.43,
+        "binance": 35.5005,
+        "coinbase": 30.429,
+        "okx": 35.5005
+      }
+    },
+    {
+      "timestamp": 1781193600,
+      "value": {
+        "total": 101.46,
+        "binance": 35.511,
+        "coinbase": 30.438,
+        "okx": 35.511
+      }
+    },
+    {
+      "timestamp": 1781197200,
+      "value": {
+        "total": 101.49,
+        "binance": 35.5215,
+        "coinbase": 30.447,
+        "okx": 35.5215
+      }
+    },
+    {
+      "timestamp": 1781200800,
+      "value": {
+        "total": 101.52,
+        "binance": 35.532,
+        "coinbase": 30.456,
+        "okx": 35.532
+      }
+    },
+    {
+      "timestamp": 1781204400,
+      "value": {
+        "total": 101.55,
+        "binance": 35.5425,
+        "coinbase": 30.465,
+        "okx": 35.5425
+      }
+    },
+    {
+      "timestamp": 1781208000,
+      "value": {
+        "total": 101.58,
+        "binance": 35.553,
+        "coinbase": 30.474,
+        "okx": 35.553
+      }
+    },
+    {
+      "timestamp": 1781211600,
+      "value": {
+        "total": 101.61,
+        "binance": 35.5635,
+        "coinbase": 30.483,
+        "okx": 35.5635
+      }
+    },
+    {
+      "timestamp": 1781215200,
+      "value": {
+        "total": 101.64,
+        "binance": 35.574,
+        "coinbase": 30.492,
+        "okx": 35.574
+      }
+    },
+    {
+      "timestamp": 1781218800,
+      "value": {
+        "total": 101.67,
+        "binance": 35.5845,
+        "coinbase": 30.501,
+        "okx": 35.5845
+      }
+    },
+    {
+      "timestamp": 1781222400,
+      "value": {
+        "total": 101.7,
+        "binance": 35.595,
+        "coinbase": 30.51,
+        "okx": 35.595
+      }
+    },
+    {
+      "timestamp": 1781226000,
+      "value": {
+        "total": 101.73,
+        "binance": 35.6055,
+        "coinbase": 30.519,
+        "okx": 35.6055
+      }
+    },
+    {
+      "timestamp": 1781229600,
+      "value": {
+        "total": 101.76,
+        "binance": 35.616,
+        "coinbase": 30.528,
+        "okx": 35.616
+      }
+    },
+    {
+      "timestamp": 1781233200,
+      "value": {
+        "total": 101.79,
+        "binance": 35.6265,
+        "coinbase": 30.537,
+        "okx": 35.6265
+      }
+    },
+    {
+      "timestamp": 1781236800,
+      "value": {
+        "total": 101.82,
+        "binance": 35.637,
+        "coinbase": 30.546,
+        "okx": 35.637
+      }
+    },
+    {
+      "timestamp": 1781240400,
+      "value": {
+        "total": 101.85,
+        "binance": 35.6475,
+        "coinbase": 30.555,
+        "okx": 35.6475
+      }
+    },
+    {
+      "timestamp": 1781244000,
+      "value": {
+        "total": 101.88,
+        "binance": 35.658,
+        "coinbase": 30.564,
+        "okx": 35.658
+      }
+    },
+    {
+      "timestamp": 1781247600,
+      "value": {
+        "total": 101.91,
+        "binance": 35.6685,
+        "coinbase": 30.573,
+        "okx": 35.6685
+      }
+    },
+    {
+      "timestamp": 1781251200,
+      "value": {
+        "total": 101.94,
+        "binance": 35.679,
+        "coinbase": 30.582,
+        "okx": 35.679
+      }
+    },
+    {
+      "timestamp": 1781254800,
+      "value": {
+        "total": 101.97,
+        "binance": 35.6895,
+        "coinbase": 30.591,
+        "okx": 35.6895
+      }
+    },
+    {
+      "timestamp": 1781258400,
+      "value": {
+        "total": 102.0,
+        "binance": 35.7,
+        "coinbase": 30.6,
+        "okx": 35.7
+      }
+    },
+    {
+      "timestamp": 1781262000,
+      "value": {
+        "total": 102.03,
+        "binance": 35.7105,
+        "coinbase": 30.609,
+        "okx": 35.7105
+      }
+    },
+    {
+      "timestamp": 1781265600,
+      "value": {
+        "total": 102.06,
+        "binance": 35.721,
+        "coinbase": 30.618,
+        "okx": 35.721
+      }
+    },
+    {
+      "timestamp": 1781269200,
+      "value": {
+        "total": 102.09,
+        "binance": 35.7315,
+        "coinbase": 30.627,
+        "okx": 35.7315
+      }
+    },
+    {
+      "timestamp": 1781272800,
+      "value": {
+        "total": 102.12,
+        "binance": 35.742,
+        "coinbase": 30.636,
+        "okx": 35.742
+      }
+    },
+    {
+      "timestamp": 1781276400,
+      "value": {
+        "total": 102.15,
+        "binance": 35.7525,
+        "coinbase": 30.645,
+        "okx": 35.7525
+      }
+    },
+    {
+      "timestamp": 1781280000,
+      "value": {
+        "total": 102.18,
+        "binance": 35.763,
+        "coinbase": 30.654,
+        "okx": 35.763
+      }
+    },
+    {
+      "timestamp": 1781283600,
+      "value": {
+        "total": 102.21,
+        "binance": 35.7735,
+        "coinbase": 30.663,
+        "okx": 35.7735
+      }
+    },
+    {
+      "timestamp": 1781287200,
+      "value": {
+        "total": 102.24,
+        "binance": 35.784,
+        "coinbase": 30.672,
+        "okx": 35.784
+      }
+    },
+    {
+      "timestamp": 1781290800,
+      "value": {
+        "total": 102.27,
+        "binance": 35.7945,
+        "coinbase": 30.681,
+        "okx": 35.7945
+      }
+    },
+    {
+      "timestamp": 1781294400,
+      "value": {
+        "total": 102.3,
+        "binance": 35.805,
+        "coinbase": 30.69,
+        "okx": 35.805
+      }
+    },
+    {
+      "timestamp": 1781298000,
+      "value": {
+        "total": 102.33,
+        "binance": 35.8155,
+        "coinbase": 30.699,
+        "okx": 35.8155
+      }
+    },
+    {
+      "timestamp": 1781301600,
+      "value": {
+        "total": 102.36,
+        "binance": 35.826,
+        "coinbase": 30.708,
+        "okx": 35.826
+      }
+    },
+    {
+      "timestamp": 1781305200,
+      "value": {
+        "total": 102.39,
+        "binance": 35.8365,
+        "coinbase": 30.717,
+        "okx": 35.8365
+      }
+    },
+    {
+      "timestamp": 1781308800,
+      "value": {
+        "total": 102.42,
+        "binance": 35.847,
+        "coinbase": 30.726,
+        "okx": 35.847
+      }
+    },
+    {
+      "timestamp": 1781312400,
+      "value": {
+        "total": 102.45,
+        "binance": 35.8575,
+        "coinbase": 30.735,
+        "okx": 35.8575
+      }
+    },
+    {
+      "timestamp": 1781316000,
+      "value": {
+        "total": 102.48,
+        "binance": 35.868,
+        "coinbase": 30.744,
+        "okx": 35.868
+      }
+    },
+    {
+      "timestamp": 1781319600,
+      "value": {
+        "total": 102.51,
+        "binance": 35.8785,
+        "coinbase": 30.753,
+        "okx": 35.8785
+      }
+    },
+    {
+      "timestamp": 1781323200,
+      "value": {
+        "total": 102.54,
+        "binance": 35.889,
+        "coinbase": 30.762,
+        "okx": 35.889
+      }
+    },
+    {
+      "timestamp": 1781326800,
+      "value": {
+        "total": 102.57,
+        "binance": 35.8995,
+        "coinbase": 30.771,
+        "okx": 35.8995
+      }
+    },
+    {
+      "timestamp": 1781330400,
+      "value": {
+        "total": 102.6,
+        "binance": 35.91,
+        "coinbase": 30.78,
+        "okx": 35.91
+      }
+    },
+    {
+      "timestamp": 1781334000,
+      "value": {
+        "total": 102.63,
+        "binance": 35.9205,
+        "coinbase": 30.789,
+        "okx": 35.9205
+      }
+    },
+    {
+      "timestamp": 1781337600,
+      "value": {
+        "total": 102.66,
+        "binance": 35.931,
+        "coinbase": 30.798,
+        "okx": 35.931
+      }
+    },
+    {
+      "timestamp": 1781341200,
+      "value": {
+        "total": 102.69,
+        "binance": 35.9415,
+        "coinbase": 30.807,
+        "okx": 35.9415
+      }
+    },
+    {
+      "timestamp": 1781344800,
+      "value": {
+        "total": 102.72,
+        "binance": 35.952,
+        "coinbase": 30.816,
+        "okx": 35.952
+      }
+    },
+    {
+      "timestamp": 1781348400,
+      "value": {
+        "total": 102.75,
+        "binance": 35.9625,
+        "coinbase": 30.825,
+        "okx": 35.9625
+      }
+    },
+    {
+      "timestamp": 1781352000,
+      "value": {
+        "total": 102.78,
+        "binance": 35.973,
+        "coinbase": 30.834,
+        "okx": 35.973
+      }
+    },
+    {
+      "timestamp": 1781355600,
+      "value": {
+        "total": 102.81,
+        "binance": 35.9835,
+        "coinbase": 30.843,
+        "okx": 35.9835
+      }
+    },
+    {
+      "timestamp": 1781359200,
+      "value": {
+        "total": 102.84,
+        "binance": 35.994,
+        "coinbase": 30.852,
+        "okx": 35.994
+      }
+    },
+    {
+      "timestamp": 1781362800,
+      "value": {
+        "total": 102.87,
+        "binance": 36.0045,
+        "coinbase": 30.861,
+        "okx": 36.0045
+      }
+    },
+    {
+      "timestamp": 1781366400,
+      "value": {
+        "total": 102.9,
+        "binance": 36.015,
+        "coinbase": 30.87,
+        "okx": 36.015
+      }
+    },
+    {
+      "timestamp": 1781370000,
+      "value": {
+        "total": 102.93,
+        "binance": 36.0255,
+        "coinbase": 30.879,
+        "okx": 36.0255
+      }
+    },
+    {
+      "timestamp": 1781373600,
+      "value": {
+        "total": 102.96,
+        "binance": 36.036,
+        "coinbase": 30.888,
+        "okx": 36.036
+      }
+    },
+    {
+      "timestamp": 1781377200,
+      "value": {
+        "total": 102.99,
+        "binance": 36.0465,
+        "coinbase": 30.897,
+        "okx": 36.0465
+      }
+    },
+    {
+      "timestamp": 1781380800,
+      "value": {
+        "total": 103.02,
+        "binance": 36.057,
+        "coinbase": 30.906,
+        "okx": 36.057
+      }
+    },
+    {
+      "timestamp": 1781384400,
+      "value": {
+        "total": 103.05,
+        "binance": 36.0675,
+        "coinbase": 30.915,
+        "okx": 36.0675
+      }
+    },
+    {
+      "timestamp": 1781388000,
+      "value": {
+        "total": 103.08,
+        "binance": 36.078,
+        "coinbase": 30.924,
+        "okx": 36.078
+      }
+    },
+    {
+      "timestamp": 1781391600,
+      "value": {
+        "total": 103.11,
+        "binance": 36.0885,
+        "coinbase": 30.933,
+        "okx": 36.0885
+      }
+    },
+    {
+      "timestamp": 1781395200,
+      "value": {
+        "total": 103.14,
+        "binance": 36.099,
+        "coinbase": 30.942,
+        "okx": 36.099
+      }
+    },
+    {
+      "timestamp": 1781398800,
+      "value": {
+        "total": 103.17,
+        "binance": 36.1095,
+        "coinbase": 30.951,
+        "okx": 36.1095
+      }
+    },
+    {
+      "timestamp": 1781402400,
+      "value": {
+        "total": 103.2,
+        "binance": 36.12,
+        "coinbase": 30.96,
+        "okx": 36.12
+      }
+    },
+    {
+      "timestamp": 1781406000,
+      "value": {
+        "total": 103.23,
+        "binance": 36.1305,
+        "coinbase": 30.969,
+        "okx": 36.1305
+      }
+    },
+    {
+      "timestamp": 1781409600,
+      "value": {
+        "total": 103.26,
+        "binance": 36.141,
+        "coinbase": 30.978,
+        "okx": 36.141
+      }
+    },
+    {
+      "timestamp": 1781413200,
+      "value": {
+        "total": 103.29,
+        "binance": 36.1515,
+        "coinbase": 30.987,
+        "okx": 36.1515
+      }
+    },
+    {
+      "timestamp": 1781416800,
+      "value": {
+        "total": 103.32,
+        "binance": 36.162,
+        "coinbase": 30.996,
+        "okx": 36.162
+      }
+    },
+    {
+      "timestamp": 1781420400,
+      "value": {
+        "total": 103.35,
+        "binance": 36.1725,
+        "coinbase": 31.005,
+        "okx": 36.1725
+      }
+    },
+    {
+      "timestamp": 1781424000,
+      "value": {
+        "total": 103.38,
+        "binance": 36.183,
+        "coinbase": 31.014,
+        "okx": 36.183
+      }
+    },
+    {
+      "timestamp": 1781427600,
+      "value": {
+        "total": 103.41,
+        "binance": 36.1935,
+        "coinbase": 31.023,
+        "okx": 36.1935
+      }
+    },
+    {
+      "timestamp": 1781431200,
+      "value": {
+        "total": 103.44,
+        "binance": 36.204,
+        "coinbase": 31.032,
+        "okx": 36.204
+      }
+    },
+    {
+      "timestamp": 1781434800,
+      "value": {
+        "total": 103.47,
+        "binance": 36.2145,
+        "coinbase": 31.041,
+        "okx": 36.2145
+      }
+    },
+    {
+      "timestamp": 1781438400,
+      "value": {
+        "total": 103.5,
+        "binance": 36.225,
+        "coinbase": 31.05,
+        "okx": 36.225
+      }
+    },
+    {
+      "timestamp": 1781442000,
+      "value": {
+        "total": 103.53,
+        "binance": 36.2355,
+        "coinbase": 31.059,
+        "okx": 36.2355
+      }
+    },
+    {
+      "timestamp": 1781445600,
+      "value": {
+        "total": 103.56,
+        "binance": 36.246,
+        "coinbase": 31.068,
+        "okx": 36.246
+      }
+    },
+    {
+      "timestamp": 1781449200,
+      "value": {
+        "total": 103.59,
+        "binance": 36.2565,
+        "coinbase": 31.077,
+        "okx": 36.2565
+      }
+    },
+    {
+      "timestamp": 1781452800,
+      "value": {
+        "total": 103.62,
+        "binance": 36.267,
+        "coinbase": 31.086,
+        "okx": 36.267
+      }
+    },
+    {
+      "timestamp": 1781456400,
+      "value": {
+        "total": 103.65,
+        "binance": 36.2775,
+        "coinbase": 31.095,
+        "okx": 36.2775
+      }
+    },
+    {
+      "timestamp": 1781460000,
+      "value": {
+        "total": 103.68,
+        "binance": 36.288,
+        "coinbase": 31.104,
+        "okx": 36.288
+      }
+    },
+    {
+      "timestamp": 1781463600,
+      "value": {
+        "total": 103.71,
+        "binance": 36.2985,
+        "coinbase": 31.113,
+        "okx": 36.2985
+      }
+    },
+    {
+      "timestamp": 1781467200,
+      "value": {
+        "total": 103.74,
+        "binance": 36.309,
+        "coinbase": 31.122,
+        "okx": 36.309
+      }
+    },
+    {
+      "timestamp": 1781470800,
+      "value": {
+        "total": 103.77,
+        "binance": 36.3195,
+        "coinbase": 31.131,
+        "okx": 36.3195
+      }
+    },
+    {
+      "timestamp": 1781474400,
+      "value": {
+        "total": 103.8,
+        "binance": 36.33,
+        "coinbase": 31.14,
+        "okx": 36.33
+      }
+    },
+    {
+      "timestamp": 1781478000,
+      "value": {
+        "total": 103.83,
+        "binance": 36.3405,
+        "coinbase": 31.149,
+        "okx": 36.3405
+      }
+    },
+    {
+      "timestamp": 1781481600,
+      "value": {
+        "total": 103.86,
+        "binance": 36.351,
+        "coinbase": 31.158,
+        "okx": 36.351
+      }
+    },
+    {
+      "timestamp": 1781485200,
+      "value": {
+        "total": 103.89,
+        "binance": 36.3615,
+        "coinbase": 31.167,
+        "okx": 36.3615
+      }
+    },
+    {
+      "timestamp": 1781488800,
+      "value": {
+        "total": 103.92,
+        "binance": 36.372,
+        "coinbase": 31.176,
+        "okx": 36.372
+      }
+    },
+    {
+      "timestamp": 1781492400,
+      "value": {
+        "total": 103.95,
+        "binance": 36.3825,
+        "coinbase": 31.185,
+        "okx": 36.3825
+      }
+    },
+    {
+      "timestamp": 1781496000,
+      "value": {
+        "total": 103.98,
+        "binance": 36.393,
+        "coinbase": 31.194,
+        "okx": 36.393
+      }
+    },
+    {
+      "timestamp": 1781499600,
+      "value": {
+        "total": 104.01,
+        "binance": 36.4035,
+        "coinbase": 31.203,
+        "okx": 36.4035
+      }
+    },
+    {
+      "timestamp": 1781503200,
+      "value": {
+        "total": 104.04,
+        "binance": 36.414,
+        "coinbase": 31.212,
+        "okx": 36.414
+      }
+    },
+    {
+      "timestamp": 1781506800,
+      "value": {
+        "total": 104.07,
+        "binance": 36.4245,
+        "coinbase": 31.221,
+        "okx": 36.4245
+      }
+    },
+    {
+      "timestamp": 1781510400,
+      "value": {
+        "total": 104.1,
+        "binance": 36.435,
+        "coinbase": 31.23,
+        "okx": 36.435
+      }
+    },
+    {
+      "timestamp": 1781514000,
+      "value": {
+        "total": 104.13,
+        "binance": 36.4455,
+        "coinbase": 31.239,
+        "okx": 36.4455
+      }
+    },
+    {
+      "timestamp": 1781517600,
+      "value": {
+        "total": 104.16,
+        "binance": 36.456,
+        "coinbase": 31.248,
+        "okx": 36.456
+      }
+    },
+    {
+      "timestamp": 1781521200,
+      "value": {
+        "total": 104.19,
+        "binance": 36.4665,
+        "coinbase": 31.257,
+        "okx": 36.4665
+      }
+    },
+    {
+      "timestamp": 1781524800,
+      "value": {
+        "total": 104.22,
+        "binance": 36.477,
+        "coinbase": 31.266,
+        "okx": 36.477
+      }
+    },
+    {
+      "timestamp": 1781528400,
+      "value": {
+        "total": 104.25,
+        "binance": 36.4875,
+        "coinbase": 31.275,
+        "okx": 36.4875
+      }
+    },
+    {
+      "timestamp": 1781532000,
+      "value": {
+        "total": 104.28,
+        "binance": 36.498,
+        "coinbase": 31.284,
+        "okx": 36.498
+      }
+    },
+    {
+      "timestamp": 1781535600,
+      "value": {
+        "total": 104.31,
+        "binance": 36.5085,
+        "coinbase": 31.293,
+        "okx": 36.5085
+      }
+    },
+    {
+      "timestamp": 1781539200,
+      "value": {
+        "total": 104.34,
+        "binance": 36.519,
+        "coinbase": 31.302,
+        "okx": 36.519
+      }
+    },
+    {
+      "timestamp": 1781542800,
+      "value": {
+        "total": 104.37,
+        "binance": 36.5295,
+        "coinbase": 31.311,
+        "okx": 36.5295
+      }
+    },
+    {
+      "timestamp": 1781546400,
+      "value": {
+        "total": 104.4,
+        "binance": 36.54,
+        "coinbase": 31.32,
+        "okx": 36.54
+      }
+    },
+    {
+      "timestamp": 1781550000,
+      "value": {
+        "total": 104.43,
+        "binance": 36.5505,
+        "coinbase": 31.329,
+        "okx": 36.5505
+      }
+    },
+    {
+      "timestamp": 1781553600,
+      "value": {
+        "total": 104.46,
+        "binance": 36.561,
+        "coinbase": 31.338,
+        "okx": 36.561
+      }
+    },
+    {
+      "timestamp": 1781557200,
+      "value": {
+        "total": 104.49,
+        "binance": 36.5715,
+        "coinbase": 31.347,
+        "okx": 36.5715
+      }
+    },
+    {
+      "timestamp": 1781560800,
+      "value": {
+        "total": 104.52,
+        "binance": 36.582,
+        "coinbase": 31.356,
+        "okx": 36.582
+      }
+    },
+    {
+      "timestamp": 1781564400,
+      "value": {
+        "total": 104.55,
+        "binance": 36.5925,
+        "coinbase": 31.365,
+        "okx": 36.5925
+      }
+    },
+    {
+      "timestamp": 1781568000,
+      "value": {
+        "total": 104.58,
+        "binance": 36.603,
+        "coinbase": 31.374,
+        "okx": 36.603
+      }
+    },
+    {
+      "timestamp": 1781571600,
+      "value": {
+        "total": 104.61,
+        "binance": 36.6135,
+        "coinbase": 31.383,
+        "okx": 36.6135
+      }
+    },
+    {
+      "timestamp": 1781575200,
+      "value": {
+        "total": 104.64,
+        "binance": 36.624,
+        "coinbase": 31.392,
+        "okx": 36.624
+      }
+    },
+    {
+      "timestamp": 1781578800,
+      "value": {
+        "total": 104.67,
+        "binance": 36.6345,
+        "coinbase": 31.401,
+        "okx": 36.6345
+      }
+    },
+    {
+      "timestamp": 1781582400,
+      "value": {
+        "total": 104.7,
+        "binance": 36.645,
+        "coinbase": 31.41,
+        "okx": 36.645
+      }
+    },
+    {
+      "timestamp": 1781586000,
+      "value": {
+        "total": 104.73,
+        "binance": 36.6555,
+        "coinbase": 31.419,
+        "okx": 36.6555
+      }
+    },
+    {
+      "timestamp": 1781589600,
+      "value": {
+        "total": 104.76,
+        "binance": 36.666,
+        "coinbase": 31.428,
+        "okx": 36.666
+      }
+    },
+    {
+      "timestamp": 1781593200,
+      "value": {
+        "total": 104.79,
+        "binance": 36.6765,
+        "coinbase": 31.437,
+        "okx": 36.6765
+      }
+    },
+    {
+      "timestamp": 1781596800,
+      "value": {
+        "total": 104.82,
+        "binance": 36.687,
+        "coinbase": 31.446,
+        "okx": 36.687
+      }
+    },
+    {
+      "timestamp": 1781600400,
+      "value": {
+        "total": 104.85,
+        "binance": 36.6975,
+        "coinbase": 31.455,
+        "okx": 36.6975
+      }
+    },
+    {
+      "timestamp": 1781604000,
+      "value": {
+        "total": 104.88,
+        "binance": 36.708,
+        "coinbase": 31.464,
+        "okx": 36.708
+      }
+    },
+    {
+      "timestamp": 1781607600,
+      "value": {
+        "total": 104.91,
+        "binance": 36.7185,
+        "coinbase": 31.473,
+        "okx": 36.7185
+      }
+    },
+    {
+      "timestamp": 1781611200,
+      "value": {
+        "total": 104.94,
+        "binance": 36.729,
+        "coinbase": 31.482,
+        "okx": 36.729
+      }
+    },
+    {
+      "timestamp": 1781614800,
+      "value": {
+        "total": 104.97,
+        "binance": 36.7395,
+        "coinbase": 31.491,
+        "okx": 36.7395
+      }
+    },
+    {
+      "timestamp": 1781618400,
+      "value": {
+        "total": 105.0,
+        "binance": 36.75,
+        "coinbase": 31.5,
+        "okx": 36.75
+      }
+    },
+    {
+      "timestamp": 1781622000,
+      "value": {
+        "total": 105.03,
+        "binance": 36.7605,
+        "coinbase": 31.509,
+        "okx": 36.7605
+      }
+    },
+    {
+      "timestamp": 1781625600,
+      "value": {
+        "total": 105.06,
+        "binance": 36.771,
+        "coinbase": 31.518,
+        "okx": 36.771
+      }
+    },
+    {
+      "timestamp": 1781629200,
+      "value": {
+        "total": 105.09,
+        "binance": 36.7815,
+        "coinbase": 31.527,
+        "okx": 36.7815
+      }
+    },
+    {
+      "timestamp": 1781632800,
+      "value": {
+        "total": 105.12,
+        "binance": 36.792,
+        "coinbase": 31.536,
+        "okx": 36.792
+      }
+    },
+    {
+      "timestamp": 1781636400,
+      "value": {
+        "total": 105.15,
+        "binance": 36.8025,
+        "coinbase": 31.545,
+        "okx": 36.8025
+      }
+    },
+    {
+      "timestamp": 1781640000,
+      "value": {
+        "total": 105.18,
+        "binance": 36.813,
+        "coinbase": 31.554,
+        "okx": 36.813
+      }
+    },
+    {
+      "timestamp": 1781643600,
+      "value": {
+        "total": 105.21,
+        "binance": 36.8235,
+        "coinbase": 31.563,
+        "okx": 36.8235
+      }
+    },
+    {
+      "timestamp": 1781647200,
+      "value": {
+        "total": 105.24,
+        "binance": 36.834,
+        "coinbase": 31.572,
+        "okx": 36.834
+      }
+    },
+    {
+      "timestamp": 1781650800,
+      "value": {
+        "total": 105.27,
+        "binance": 36.8445,
+        "coinbase": 31.581,
+        "okx": 36.8445
+      }
+    },
+    {
+      "timestamp": 1781654400,
+      "value": {
+        "total": 105.3,
+        "binance": 36.855,
+        "coinbase": 31.59,
+        "okx": 36.855
+      }
+    },
+    {
+      "timestamp": 1781658000,
+      "value": {
+        "total": 105.33,
+        "binance": 36.8655,
+        "coinbase": 31.599,
+        "okx": 36.8655
+      }
+    },
+    {
+      "timestamp": 1781661600,
+      "value": {
+        "total": 105.36,
+        "binance": 36.876,
+        "coinbase": 31.608,
+        "okx": 36.876
+      }
+    },
+    {
+      "timestamp": 1781665200,
+      "value": {
+        "total": 105.39,
+        "binance": 36.8865,
+        "coinbase": 31.617,
+        "okx": 36.8865
+      }
+    },
+    {
+      "timestamp": 1781668800,
+      "value": {
+        "total": 105.42,
+        "binance": 36.897,
+        "coinbase": 31.626,
+        "okx": 36.897
+      }
+    },
+    {
+      "timestamp": 1781672400,
+      "value": {
+        "total": 105.45,
+        "binance": 36.9075,
+        "coinbase": 31.635,
+        "okx": 36.9075
+      }
+    },
+    {
+      "timestamp": 1781676000,
+      "value": {
+        "total": 105.48,
+        "binance": 36.918,
+        "coinbase": 31.644,
+        "okx": 36.918
+      }
+    },
+    {
+      "timestamp": 1781679600,
+      "value": {
+        "total": 105.51,
+        "binance": 36.9285,
+        "coinbase": 31.653,
+        "okx": 36.9285
+      }
+    },
+    {
+      "timestamp": 1781683200,
+      "value": {
+        "total": 105.54,
+        "binance": 36.939,
+        "coinbase": 31.662,
+        "okx": 36.939
+      }
+    },
+    {
+      "timestamp": 1781686800,
+      "value": {
+        "total": 105.57,
+        "binance": 36.9495,
+        "coinbase": 31.671,
+        "okx": 36.9495
+      }
+    },
+    {
+      "timestamp": 1781690400,
+      "value": {
+        "total": 105.6,
+        "binance": 36.96,
+        "coinbase": 31.68,
+        "okx": 36.96
+      }
+    },
+    {
+      "timestamp": 1781694000,
+      "value": {
+        "total": 105.63,
+        "binance": 36.9705,
+        "coinbase": 31.689,
+        "okx": 36.9705
+      }
+    },
+    {
+      "timestamp": 1781697600,
+      "value": {
+        "total": 105.66,
+        "binance": 36.981,
+        "coinbase": 31.698,
+        "okx": 36.981
+      }
+    },
+    {
+      "timestamp": 1781701200,
+      "value": {
+        "total": 105.69,
+        "binance": 36.9915,
+        "coinbase": 31.707,
+        "okx": 36.9915
+      }
+    },
+    {
+      "timestamp": 1781704800,
+      "value": {
+        "total": 105.72,
+        "binance": 37.002,
+        "coinbase": 31.716,
+        "okx": 37.002
+      }
+    },
+    {
+      "timestamp": 1781708400,
+      "value": {
+        "total": 105.75,
+        "binance": 37.0125,
+        "coinbase": 31.725,
+        "okx": 37.0125
+      }
+    },
+    {
+      "timestamp": 1781712000,
+      "value": {
+        "total": 105.78,
+        "binance": 37.023,
+        "coinbase": 31.734,
+        "okx": 37.023
+      }
+    },
+    {
+      "timestamp": 1781715600,
+      "value": {
+        "total": 105.81,
+        "binance": 37.0335,
+        "coinbase": 31.743,
+        "okx": 37.0335
+      }
+    },
+    {
+      "timestamp": 1781719200,
+      "value": {
+        "total": 105.84,
+        "binance": 37.044,
+        "coinbase": 31.752,
+        "okx": 37.044
+      }
+    },
+    {
+      "timestamp": 1781722800,
+      "value": {
+        "total": 105.87,
+        "binance": 37.0545,
+        "coinbase": 31.761,
+        "okx": 37.0545
+      }
+    },
+    {
+      "timestamp": 1781726400,
+      "value": {
+        "total": 105.9,
+        "binance": 37.065,
+        "coinbase": 31.77,
+        "okx": 37.065
+      }
+    },
+    {
+      "timestamp": 1781730000,
+      "value": {
+        "total": 105.93,
+        "binance": 37.0755,
+        "coinbase": 31.779,
+        "okx": 37.0755
+      }
+    },
+    {
+      "timestamp": 1781733600,
+      "value": {
+        "total": 105.96,
+        "binance": 37.086,
+        "coinbase": 31.788,
+        "okx": 37.086
+      }
+    },
+    {
+      "timestamp": 1781737200,
+      "value": {
+        "total": 105.99,
+        "binance": 37.0965,
+        "coinbase": 31.797,
+        "okx": 37.0965
+      }
+    },
+    {
+      "timestamp": 1781740800,
+      "value": {
+        "total": 106.02,
+        "binance": 37.107,
+        "coinbase": 31.806,
+        "okx": 37.107
+      }
+    },
+    {
+      "timestamp": 1781744400,
+      "value": {
+        "total": 106.05,
+        "binance": 37.1175,
+        "coinbase": 31.815,
+        "okx": 37.1175
+      }
+    },
+    {
+      "timestamp": 1781748000,
+      "value": {
+        "total": 106.08,
+        "binance": 37.128,
+        "coinbase": 31.824,
+        "okx": 37.128
+      }
+    },
+    {
+      "timestamp": 1781751600,
+      "value": {
+        "total": 106.11,
+        "binance": 37.1385,
+        "coinbase": 31.833,
+        "okx": 37.1385
+      }
+    },
+    {
+      "timestamp": 1781755200,
+      "value": {
+        "total": 106.14,
+        "binance": 37.149,
+        "coinbase": 31.842,
+        "okx": 37.149
+      }
+    },
+    {
+      "timestamp": 1781758800,
+      "value": {
+        "total": 106.17,
+        "binance": 37.1595,
+        "coinbase": 31.851,
+        "okx": 37.1595
+      }
+    },
+    {
+      "timestamp": 1781762400,
+      "value": {
+        "total": 106.2,
+        "binance": 37.17,
+        "coinbase": 31.86,
+        "okx": 37.17
+      }
+    },
+    {
+      "timestamp": 1781766000,
+      "value": {
+        "total": 106.23,
+        "binance": 37.1805,
+        "coinbase": 31.869,
+        "okx": 37.1805
+      }
+    },
+    {
+      "timestamp": 1781769600,
+      "value": {
+        "total": 106.26,
+        "binance": 37.191,
+        "coinbase": 31.878,
+        "okx": 37.191
+      }
+    },
+    {
+      "timestamp": 1781773200,
+      "value": {
+        "total": 106.29,
+        "binance": 37.2015,
+        "coinbase": 31.887,
+        "okx": 37.2015
+      }
+    },
+    {
+      "timestamp": 1781776800,
+      "value": {
+        "total": 106.32,
+        "binance": 37.212,
+        "coinbase": 31.896,
+        "okx": 37.212
+      }
+    },
+    {
+      "timestamp": 1781780400,
+      "value": {
+        "total": 106.35,
+        "binance": 37.2225,
+        "coinbase": 31.905,
+        "okx": 37.2225
+      }
+    },
+    {
+      "timestamp": 1781784000,
+      "value": {
+        "total": 106.38,
+        "binance": 37.233,
+        "coinbase": 31.914,
+        "okx": 37.233
+      }
+    },
+    {
+      "timestamp": 1781787600,
+      "value": {
+        "total": 106.41,
+        "binance": 37.2435,
+        "coinbase": 31.923,
+        "okx": 37.2435
+      }
+    },
+    {
+      "timestamp": 1781791200,
+      "value": {
+        "total": 106.44,
+        "binance": 37.254,
+        "coinbase": 31.932,
+        "okx": 37.254
+      }
+    },
+    {
+      "timestamp": 1781794800,
+      "value": {
+        "total": 106.47,
+        "binance": 37.2645,
+        "coinbase": 31.941,
+        "okx": 37.2645
+      }
+    },
+    {
+      "timestamp": 1781798400,
+      "value": {
+        "total": 106.5,
+        "binance": 37.275,
+        "coinbase": 31.95,
+        "okx": 37.275
+      }
+    },
+    {
+      "timestamp": 1781802000,
+      "value": {
+        "total": 106.53,
+        "binance": 37.2855,
+        "coinbase": 31.959,
+        "okx": 37.2855
+      }
+    },
+    {
+      "timestamp": 1781805600,
+      "value": {
+        "total": 106.56,
+        "binance": 37.296,
+        "coinbase": 31.968,
+        "okx": 37.296
+      }
+    },
+    {
+      "timestamp": 1781809200,
+      "value": {
+        "total": 106.59,
+        "binance": 37.3065,
+        "coinbase": 31.977,
+        "okx": 37.3065
+      }
+    },
+    {
+      "timestamp": 1781812800,
+      "value": {
+        "total": 106.62,
+        "binance": 37.317,
+        "coinbase": 31.986,
+        "okx": 37.317
+      }
+    },
+    {
+      "timestamp": 1781816400,
+      "value": {
+        "total": 106.65,
+        "binance": 37.3275,
+        "coinbase": 31.995,
+        "okx": 37.3275
+      }
+    },
+    {
+      "timestamp": 1781820000,
+      "value": {
+        "total": 106.68,
+        "binance": 37.338,
+        "coinbase": 32.004,
+        "okx": 37.338
+      }
+    },
+    {
+      "timestamp": 1781823600,
+      "value": {
+        "total": 106.71,
+        "binance": 37.3485,
+        "coinbase": 32.013,
+        "okx": 37.3485
+      }
+    },
+    {
+      "timestamp": 1781827200,
+      "value": {
+        "total": 106.74,
+        "binance": 37.359,
+        "coinbase": 32.022,
+        "okx": 37.359
+      }
+    },
+    {
+      "timestamp": 1781830800,
+      "value": {
+        "total": 106.77,
+        "binance": 37.3695,
+        "coinbase": 32.031,
+        "okx": 37.3695
+      }
+    },
+    {
+      "timestamp": 1781834400,
+      "value": {
+        "total": 106.8,
+        "binance": 37.38,
+        "coinbase": 32.04,
+        "okx": 37.38
+      }
+    },
+    {
+      "timestamp": 1781838000,
+      "value": {
+        "total": 106.83,
+        "binance": 37.3905,
+        "coinbase": 32.049,
+        "okx": 37.3905
+      }
+    },
+    {
+      "timestamp": 1781841600,
+      "value": {
+        "total": 106.86,
+        "binance": 37.401,
+        "coinbase": 32.058,
+        "okx": 37.401
+      }
+    },
+    {
+      "timestamp": 1781845200,
+      "value": {
+        "total": 106.89,
+        "binance": 37.4115,
+        "coinbase": 32.067,
+        "okx": 37.4115
+      }
+    },
+    {
+      "timestamp": 1781848800,
+      "value": {
+        "total": 106.92,
+        "binance": 37.422,
+        "coinbase": 32.076,
+        "okx": 37.422
+      }
+    },
+    {
+      "timestamp": 1781852400,
+      "value": {
+        "total": 106.95,
+        "binance": 37.4325,
+        "coinbase": 32.085,
+        "okx": 37.4325
+      }
+    },
+    {
+      "timestamp": 1781856000,
+      "value": {
+        "total": 106.98,
+        "binance": 37.443,
+        "coinbase": 32.094,
+        "okx": 37.443
+      }
+    },
+    {
+      "timestamp": 1781859600,
+      "value": {
+        "total": 107.01,
+        "binance": 37.4535,
+        "coinbase": 32.103,
+        "okx": 37.4535
+      }
+    },
+    {
+      "timestamp": 1781863200,
+      "value": {
+        "total": 107.04,
+        "binance": 37.464,
+        "coinbase": 32.112,
+        "okx": 37.464
+      }
+    },
+    {
+      "timestamp": 1781866800,
+      "value": {
+        "total": 107.07,
+        "binance": 37.4745,
+        "coinbase": 32.121,
+        "okx": 37.4745
+      }
+    },
+    {
+      "timestamp": 1781870400,
+      "value": {
+        "total": 107.1,
+        "binance": 37.485,
+        "coinbase": 32.13,
+        "okx": 37.485
+      }
+    },
+    {
+      "timestamp": 1781874000,
+      "value": {
+        "total": 107.13,
+        "binance": 37.4955,
+        "coinbase": 32.139,
+        "okx": 37.4955
+      }
+    },
+    {
+      "timestamp": 1781877600,
+      "value": {
+        "total": 107.16,
+        "binance": 37.506,
+        "coinbase": 32.148,
+        "okx": 37.506
+      }
+    },
+    {
+      "timestamp": 1781881200,
+      "value": {
+        "total": 107.19,
+        "binance": 37.5165,
+        "coinbase": 32.157,
+        "okx": 37.5165
+      }
+    },
+    {
+      "timestamp": 1781884800,
+      "value": {
+        "total": 107.22,
+        "binance": 37.527,
+        "coinbase": 32.166,
+        "okx": 37.527
+      }
+    },
+    {
+      "timestamp": 1781888400,
+      "value": {
+        "total": 107.25,
+        "binance": 37.5375,
+        "coinbase": 32.175,
+        "okx": 37.5375
+      }
+    },
+    {
+      "timestamp": 1781892000,
+      "value": {
+        "total": 107.28,
+        "binance": 37.548,
+        "coinbase": 32.184,
+        "okx": 37.548
+      }
+    },
+    {
+      "timestamp": 1781895600,
+      "value": {
+        "total": 107.31,
+        "binance": 37.5585,
+        "coinbase": 32.193,
+        "okx": 37.5585
+      }
+    },
+    {
+      "timestamp": 1781899200,
+      "value": {
+        "total": 107.34,
+        "binance": 37.569,
+        "coinbase": 32.202,
+        "okx": 37.569
+      }
+    },
+    {
+      "timestamp": 1781902800,
+      "value": {
+        "total": 107.37,
+        "binance": 37.5795,
+        "coinbase": 32.211,
+        "okx": 37.5795
+      }
+    },
+    {
+      "timestamp": 1781906400,
+      "value": {
+        "total": 107.4,
+        "binance": 37.59,
+        "coinbase": 32.22,
+        "okx": 37.59
+      }
+    },
+    {
+      "timestamp": 1781910000,
+      "value": {
+        "total": 107.43,
+        "binance": 37.6005,
+        "coinbase": 32.229,
+        "okx": 37.6005
+      }
+    },
+    {
+      "timestamp": 1781913600,
+      "value": {
+        "total": 107.46,
+        "binance": 37.611,
+        "coinbase": 32.238,
+        "okx": 37.611
+      }
+    },
+    {
+      "timestamp": 1781917200,
+      "value": {
+        "total": 107.49,
+        "binance": 37.6215,
+        "coinbase": 32.247,
+        "okx": 37.6215
+      }
+    },
+    {
+      "timestamp": 1781920800,
+      "value": {
+        "total": 107.52,
+        "binance": 37.632,
+        "coinbase": 32.256,
+        "okx": 37.632
+      }
+    },
+    {
+      "timestamp": 1781924400,
+      "value": {
+        "total": 107.55,
+        "binance": 37.6425,
+        "coinbase": 32.265,
+        "okx": 37.6425
+      }
+    },
+    {
+      "timestamp": 1781928000,
+      "value": {
+        "total": 107.58,
+        "binance": 37.653,
+        "coinbase": 32.274,
+        "okx": 37.653
+      }
+    },
+    {
+      "timestamp": 1781931600,
+      "value": {
+        "total": 107.61,
+        "binance": 37.6635,
+        "coinbase": 32.283,
+        "okx": 37.6635
+      }
+    },
+    {
+      "timestamp": 1781935200,
+      "value": {
+        "total": 107.64,
+        "binance": 37.674,
+        "coinbase": 32.292,
+        "okx": 37.674
+      }
+    },
+    {
+      "timestamp": 1781938800,
+      "value": {
+        "total": 107.67,
+        "binance": 37.6845,
+        "coinbase": 32.301,
+        "okx": 37.6845
+      }
+    },
+    {
+      "timestamp": 1781942400,
+      "value": {
+        "total": 107.7,
+        "binance": 37.695,
+        "coinbase": 32.31,
+        "okx": 37.695
+      }
+    },
+    {
+      "timestamp": 1781946000,
+      "value": {
+        "total": 107.73,
+        "binance": 37.7055,
+        "coinbase": 32.319,
+        "okx": 37.7055
+      }
+    },
+    {
+      "timestamp": 1781949600,
+      "value": {
+        "total": 107.76,
+        "binance": 37.716,
+        "coinbase": 32.328,
+        "okx": 37.716
+      }
+    },
+    {
+      "timestamp": 1781953200,
+      "value": {
+        "total": 107.79,
+        "binance": 37.7265,
+        "coinbase": 32.337,
+        "okx": 37.7265
+      }
+    },
+    {
+      "timestamp": 1781956800,
+      "value": {
+        "total": 107.82,
+        "binance": 37.737,
+        "coinbase": 32.346,
+        "okx": 37.737
+      }
+    },
+    {
+      "timestamp": 1781960400,
+      "value": {
+        "total": 107.85,
+        "binance": 37.7475,
+        "coinbase": 32.355,
+        "okx": 37.7475
+      }
+    },
+    {
+      "timestamp": 1781964000,
+      "value": {
+        "total": 107.88,
+        "binance": 37.758,
+        "coinbase": 32.364,
+        "okx": 37.758
+      }
+    },
+    {
+      "timestamp": 1781967600,
+      "value": {
+        "total": 107.91,
+        "binance": 37.7685,
+        "coinbase": 32.373,
+        "okx": 37.7685
+      }
+    },
+    {
+      "timestamp": 1781971200,
+      "value": {
+        "total": 107.94,
+        "binance": 37.779,
+        "coinbase": 32.382,
+        "okx": 37.779
+      }
+    },
+    {
+      "timestamp": 1781974800,
+      "value": {
+        "total": 107.97,
+        "binance": 37.7895,
+        "coinbase": 32.391,
+        "okx": 37.7895
+      }
+    },
+    {
+      "timestamp": 1781978400,
+      "value": {
+        "total": 108.0,
+        "binance": 37.8,
+        "coinbase": 32.4,
+        "okx": 37.8
+      }
+    },
+    {
+      "timestamp": 1781982000,
+      "value": {
+        "total": 108.03,
+        "binance": 37.8105,
+        "coinbase": 32.409,
+        "okx": 37.8105
+      }
+    },
+    {
+      "timestamp": 1781985600,
+      "value": {
+        "total": 108.06,
+        "binance": 37.821,
+        "coinbase": 32.418,
+        "okx": 37.821
+      }
+    },
+    {
+      "timestamp": 1781989200,
+      "value": {
+        "total": 108.09,
+        "binance": 37.8315,
+        "coinbase": 32.427,
+        "okx": 37.8315
+      }
+    },
+    {
+      "timestamp": 1781992800,
+      "value": {
+        "total": 108.12,
+        "binance": 37.842,
+        "coinbase": 32.436,
+        "okx": 37.842
+      }
+    },
+    {
+      "timestamp": 1781996400,
+      "value": {
+        "total": 108.15,
+        "binance": 37.8525,
+        "coinbase": 32.445,
+        "okx": 37.8525
+      }
+    },
+    {
+      "timestamp": 1782000000,
+      "value": {
+        "total": 108.18,
+        "binance": 37.863,
+        "coinbase": 32.454,
+        "okx": 37.863
+      }
+    },
+    {
+      "timestamp": 1782003600,
+      "value": {
+        "total": 108.21,
+        "binance": 37.8735,
+        "coinbase": 32.463,
+        "okx": 37.8735
+      }
+    },
+    {
+      "timestamp": 1782007200,
+      "value": {
+        "total": 108.24,
+        "binance": 37.884,
+        "coinbase": 32.472,
+        "okx": 37.884
+      }
+    },
+    {
+      "timestamp": 1782010800,
+      "value": {
+        "total": 108.27,
+        "binance": 37.8945,
+        "coinbase": 32.481,
+        "okx": 37.8945
+      }
+    },
+    {
+      "timestamp": 1782014400,
+      "value": {
+        "total": 108.3,
+        "binance": 37.905,
+        "coinbase": 32.49,
+        "okx": 37.905
+      }
+    },
+    {
+      "timestamp": 1782018000,
+      "value": {
+        "total": 108.33,
+        "binance": 37.9155,
+        "coinbase": 32.499,
+        "okx": 37.9155
+      }
+    },
+    {
+      "timestamp": 1782021600,
+      "value": {
+        "total": 108.36,
+        "binance": 37.926,
+        "coinbase": 32.508,
+        "okx": 37.926
+      }
+    },
+    {
+      "timestamp": 1782025200,
+      "value": {
+        "total": 108.39,
+        "binance": 37.9365,
+        "coinbase": 32.517,
+        "okx": 37.9365
+      }
+    },
+    {
+      "timestamp": 1782028800,
+      "value": {
+        "total": 108.42,
+        "binance": 37.947,
+        "coinbase": 32.526,
+        "okx": 37.947
+      }
+    },
+    {
+      "timestamp": 1782032400,
+      "value": {
+        "total": 108.45,
+        "binance": 37.9575,
+        "coinbase": 32.535,
+        "okx": 37.9575
+      }
+    },
+    {
+      "timestamp": 1782036000,
+      "value": {
+        "total": 108.48,
+        "binance": 37.968,
+        "coinbase": 32.544,
+        "okx": 37.968
+      }
+    },
+    {
+      "timestamp": 1782039600,
+      "value": {
+        "total": 108.51,
+        "binance": 37.9785,
+        "coinbase": 32.553,
+        "okx": 37.9785
+      }
+    },
+    {
+      "timestamp": 1782043200,
+      "value": {
+        "total": 108.54,
+        "binance": 37.989,
+        "coinbase": 32.562,
+        "okx": 37.989
+      }
+    },
+    {
+      "timestamp": 1782046800,
+      "value": {
+        "total": 108.57,
+        "binance": 37.9995,
+        "coinbase": 32.571,
+        "okx": 37.9995
+      }
+    },
+    {
+      "timestamp": 1782050400,
+      "value": {
+        "total": 108.6,
+        "binance": 38.01,
+        "coinbase": 32.58,
+        "okx": 38.01
+      }
+    },
+    {
+      "timestamp": 1782054000,
+      "value": {
+        "total": 108.63,
+        "binance": 38.0205,
+        "coinbase": 32.589,
+        "okx": 38.0205
+      }
+    },
+    {
+      "timestamp": 1782057600,
+      "value": {
+        "total": 108.66,
+        "binance": 38.031,
+        "coinbase": 32.598,
+        "okx": 38.031
+      }
+    },
+    {
+      "timestamp": 1782061200,
+      "value": {
+        "total": 108.69,
+        "binance": 38.0415,
+        "coinbase": 32.607,
+        "okx": 38.0415
+      }
+    },
+    {
+      "timestamp": 1782064800,
+      "value": {
+        "total": 108.72,
+        "binance": 38.052,
+        "coinbase": 32.616,
+        "okx": 38.052
+      }
+    },
+    {
+      "timestamp": 1782068400,
+      "value": {
+        "total": 108.75,
+        "binance": 38.0625,
+        "coinbase": 32.625,
+        "okx": 38.0625
+      }
+    },
+    {
+      "timestamp": 1782072000,
+      "value": {
+        "total": 108.78,
+        "binance": 38.073,
+        "coinbase": 32.634,
+        "okx": 38.073
+      }
+    },
+    {
+      "timestamp": 1782075600,
+      "value": {
+        "total": 108.81,
+        "binance": 38.0835,
+        "coinbase": 32.643,
+        "okx": 38.0835
+      }
+    },
+    {
+      "timestamp": 1782079200,
+      "value": {
+        "total": 108.84,
+        "binance": 38.094,
+        "coinbase": 32.652,
+        "okx": 38.094
+      }
+    },
+    {
+      "timestamp": 1782082800,
+      "value": {
+        "total": 108.87,
+        "binance": 38.1045,
+        "coinbase": 32.661,
+        "okx": 38.1045
+      }
+    },
+    {
+      "timestamp": 1782086400,
+      "value": {
+        "total": 108.9,
+        "binance": 38.115,
+        "coinbase": 32.67,
+        "okx": 38.115
+      }
+    },
+    {
+      "timestamp": 1782090000,
+      "value": {
+        "total": 108.93,
+        "binance": 38.1255,
+        "coinbase": 32.679,
+        "okx": 38.1255
+      }
+    },
+    {
+      "timestamp": 1782093600,
+      "value": {
+        "total": 108.96,
+        "binance": 38.136,
+        "coinbase": 32.688,
+        "okx": 38.136
+      }
+    },
+    {
+      "timestamp": 1782097200,
+      "value": {
+        "total": 108.99,
+        "binance": 38.1465,
+        "coinbase": 32.697,
+        "okx": 38.1465
+      }
+    },
+    {
+      "timestamp": 1782100800,
+      "value": {
+        "total": 109.02,
+        "binance": 38.157,
+        "coinbase": 32.706,
+        "okx": 38.157
+      }
+    },
+    {
+      "timestamp": 1782104400,
+      "value": {
+        "total": 109.05,
+        "binance": 38.1675,
+        "coinbase": 32.715,
+        "okx": 38.1675
+      }
+    },
+    {
+      "timestamp": 1782108000,
+      "value": {
+        "total": 109.08,
+        "binance": 38.178,
+        "coinbase": 32.724,
+        "okx": 38.178
+      }
+    },
+    {
+      "timestamp": 1782111600,
+      "value": {
+        "total": 109.11,
+        "binance": 38.1885,
+        "coinbase": 32.733,
+        "okx": 38.1885
+      }
+    },
+    {
+      "timestamp": 1782115200,
+      "value": {
+        "total": 109.14,
+        "binance": 38.199,
+        "coinbase": 32.742,
+        "okx": 38.199
+      }
+    },
+    {
+      "timestamp": 1782118800,
+      "value": {
+        "total": 109.17,
+        "binance": 38.2095,
+        "coinbase": 32.751,
+        "okx": 38.2095
+      }
+    },
+    {
+      "timestamp": 1782122400,
+      "value": {
+        "total": 109.2,
+        "binance": 38.22,
+        "coinbase": 32.76,
+        "okx": 38.22
+      }
+    },
+    {
+      "timestamp": 1782126000,
+      "value": {
+        "total": 109.23,
+        "binance": 38.2305,
+        "coinbase": 32.769,
+        "okx": 38.2305
+      }
+    },
+    {
+      "timestamp": 1782129600,
+      "value": {
+        "total": 109.26,
+        "binance": 38.241,
+        "coinbase": 32.778,
+        "okx": 38.241
+      }
+    },
+    {
+      "timestamp": 1782133200,
+      "value": {
+        "total": 109.29,
+        "binance": 38.2515,
+        "coinbase": 32.787,
+        "okx": 38.2515
+      }
+    },
+    {
+      "timestamp": 1782136800,
+      "value": {
+        "total": 109.32,
+        "binance": 38.262,
+        "coinbase": 32.796,
+        "okx": 38.262
+      }
+    },
+    {
+      "timestamp": 1782140400,
+      "value": {
+        "total": 109.35,
+        "binance": 38.2725,
+        "coinbase": 32.805,
+        "okx": 38.2725
+      }
+    },
+    {
+      "timestamp": 1782144000,
+      "value": {
+        "total": 109.38,
+        "binance": 38.283,
+        "coinbase": 32.814,
+        "okx": 38.283
+      }
+    },
+    {
+      "timestamp": 1782147600,
+      "value": {
+        "total": 109.41,
+        "binance": 38.2935,
+        "coinbase": 32.823,
+        "okx": 38.2935
+      }
+    },
+    {
+      "timestamp": 1782151200,
+      "value": {
+        "total": 109.44,
+        "binance": 38.304,
+        "coinbase": 32.832,
+        "okx": 38.304
+      }
+    },
+    {
+      "timestamp": 1782154800,
+      "value": {
+        "total": 109.47,
+        "binance": 38.3145,
+        "coinbase": 32.841,
+        "okx": 38.3145
+      }
+    },
+    {
+      "timestamp": 1782158400,
+      "value": {
+        "total": 109.5,
+        "binance": 38.325,
+        "coinbase": 32.85,
+        "okx": 38.325
+      }
+    },
+    {
+      "timestamp": 1782162000,
+      "value": {
+        "total": 109.53,
+        "binance": 38.3355,
+        "coinbase": 32.859,
+        "okx": 38.3355
+      }
+    },
+    {
+      "timestamp": 1782165600,
+      "value": {
+        "total": 109.56,
+        "binance": 38.346,
+        "coinbase": 32.868,
+        "okx": 38.346
+      }
+    },
+    {
+      "timestamp": 1782169200,
+      "value": {
+        "total": 109.59,
+        "binance": 38.3565,
+        "coinbase": 32.877,
+        "okx": 38.3565
+      }
+    },
+    {
+      "timestamp": 1782172800,
+      "value": {
+        "total": 109.62,
+        "binance": 38.367,
+        "coinbase": 32.886,
+        "okx": 38.367
+      }
+    },
+    {
+      "timestamp": 1782176400,
+      "value": {
+        "total": 109.65,
+        "binance": 38.3775,
+        "coinbase": 32.895,
+        "okx": 38.3775
+      }
+    },
+    {
+      "timestamp": 1782180000,
+      "value": {
+        "total": 109.68,
+        "binance": 38.388,
+        "coinbase": 32.904,
+        "okx": 38.388
+      }
+    },
+    {
+      "timestamp": 1782183600,
+      "value": {
+        "total": 109.71,
+        "binance": 38.3985,
+        "coinbase": 32.913,
+        "okx": 38.3985
+      }
+    },
+    {
+      "timestamp": 1782187200,
+      "value": {
+        "total": 109.74,
+        "binance": 38.409,
+        "coinbase": 32.922,
+        "okx": 38.409
+      }
+    },
+    {
+      "timestamp": 1782190800,
+      "value": {
+        "total": 109.77,
+        "binance": 38.4195,
+        "coinbase": 32.931,
+        "okx": 38.4195
+      }
+    },
+    {
+      "timestamp": 1782194400,
+      "value": {
+        "total": 109.8,
+        "binance": 38.43,
+        "coinbase": 32.94,
+        "okx": 38.43
+      }
+    },
+    {
+      "timestamp": 1782198000,
+      "value": {
+        "total": 109.83,
+        "binance": 38.4405,
+        "coinbase": 32.949,
+        "okx": 38.4405
+      }
+    },
+    {
+      "timestamp": 1782201600,
+      "value": {
+        "total": 109.86,
+        "binance": 38.451,
+        "coinbase": 32.958,
+        "okx": 38.451
+      }
+    },
+    {
+      "timestamp": 1782205200,
+      "value": {
+        "total": 109.89,
+        "binance": 38.4615,
+        "coinbase": 32.967,
+        "okx": 38.4615
+      }
+    },
+    {
+      "timestamp": 1782208800,
+      "value": {
+        "total": 109.92,
+        "binance": 38.472,
+        "coinbase": 32.976,
+        "okx": 38.472
+      }
+    },
+    {
+      "timestamp": 1782212400,
+      "value": {
+        "total": 109.95,
+        "binance": 38.4825,
+        "coinbase": 32.985,
+        "okx": 38.4825
+      }
+    },
+    {
+      "timestamp": 1782216000,
+      "value": {
+        "total": 109.98,
+        "binance": 38.493,
+        "coinbase": 32.994,
+        "okx": 38.493
+      }
+    },
+    {
+      "timestamp": 1782219600,
+      "value": {
+        "total": 110.01,
+        "binance": 38.5035,
+        "coinbase": 33.003,
+        "okx": 38.5035
+      }
+    },
+    {
+      "timestamp": 1782223200,
+      "value": {
+        "total": 110.04,
+        "binance": 38.514,
+        "coinbase": 33.012,
+        "okx": 38.514
+      }
+    },
+    {
+      "timestamp": 1782226800,
+      "value": {
+        "total": 110.07,
+        "binance": 38.5245,
+        "coinbase": 33.021,
+        "okx": 38.5245
+      }
+    },
+    {
+      "timestamp": 1782230400,
+      "value": {
+        "total": 110.1,
+        "binance": 38.535,
+        "coinbase": 33.03,
+        "okx": 38.535
+      }
+    },
+    {
+      "timestamp": 1782234000,
+      "value": {
+        "total": 110.13,
+        "binance": 38.5455,
+        "coinbase": 33.039,
+        "okx": 38.5455
+      }
+    },
+    {
+      "timestamp": 1782237600,
+      "value": {
+        "total": 110.16,
+        "binance": 38.556,
+        "coinbase": 33.048,
+        "okx": 38.556
+      }
+    },
+    {
+      "timestamp": 1782241200,
+      "value": {
+        "total": 110.19,
+        "binance": 38.5665,
+        "coinbase": 33.057,
+        "okx": 38.5665
+      }
+    },
+    {
+      "timestamp": 1782244800,
+      "value": {
+        "total": 110.22,
+        "binance": 38.577,
+        "coinbase": 33.066,
+        "okx": 38.577
+      }
+    },
+    {
+      "timestamp": 1782248400,
+      "value": {
+        "total": 110.25,
+        "binance": 38.5875,
+        "coinbase": 33.075,
+        "okx": 38.5875
+      }
+    },
+    {
+      "timestamp": 1782252000,
+      "value": {
+        "total": 110.28,
+        "binance": 38.598,
+        "coinbase": 33.084,
+        "okx": 38.598
+      }
+    },
+    {
+      "timestamp": 1782255600,
+      "value": {
+        "total": 110.31,
+        "binance": 38.6085,
+        "coinbase": 33.093,
+        "okx": 38.6085
+      }
+    },
+    {
+      "timestamp": 1782259200,
+      "value": {
+        "total": 110.34,
+        "binance": 38.619,
+        "coinbase": 33.102,
+        "okx": 38.619
+      }
+    },
+    {
+      "timestamp": 1782262800,
+      "value": {
+        "total": 110.37,
+        "binance": 38.6295,
+        "coinbase": 33.111,
+        "okx": 38.6295
+      }
+    },
+    {
+      "timestamp": 1782266400,
+      "value": {
+        "total": 110.4,
+        "binance": 38.64,
+        "coinbase": 33.12,
+        "okx": 38.64
+      }
+    },
+    {
+      "timestamp": 1782270000,
+      "value": {
+        "total": 110.43,
+        "binance": 38.6505,
+        "coinbase": 33.129,
+        "okx": 38.6505
+      }
+    },
+    {
+      "timestamp": 1782273600,
+      "value": {
+        "total": 110.46,
+        "binance": 38.661,
+        "coinbase": 33.138,
+        "okx": 38.661
+      }
+    },
+    {
+      "timestamp": 1782277200,
+      "value": {
+        "total": 110.49,
+        "binance": 38.6715,
+        "coinbase": 33.147,
+        "okx": 38.6715
+      }
+    },
+    {
+      "timestamp": 1782280800,
+      "value": {
+        "total": 110.52,
+        "binance": 38.682,
+        "coinbase": 33.156,
+        "okx": 38.682
+      }
+    },
+    {
+      "timestamp": 1782284400,
+      "value": {
+        "total": 110.55,
+        "binance": 38.6925,
+        "coinbase": 33.165,
+        "okx": 38.6925
+      }
+    },
+    {
+      "timestamp": 1782288000,
+      "value": {
+        "total": 110.58,
+        "binance": 38.703,
+        "coinbase": 33.174,
+        "okx": 38.703
+      }
+    },
+    {
+      "timestamp": 1782291600,
+      "value": {
+        "total": 110.61,
+        "binance": 38.7135,
+        "coinbase": 33.183,
+        "okx": 38.7135
+      }
+    },
+    {
+      "timestamp": 1782295200,
+      "value": {
+        "total": 110.64,
+        "binance": 38.724,
+        "coinbase": 33.192,
+        "okx": 38.724
+      }
+    },
+    {
+      "timestamp": 1782298800,
+      "value": {
+        "total": 110.67,
+        "binance": 38.7345,
+        "coinbase": 33.201,
+        "okx": 38.7345
+      }
+    },
+    {
+      "timestamp": 1782302400,
+      "value": {
+        "total": 110.7,
+        "binance": 38.745,
+        "coinbase": 33.21,
+        "okx": 38.745
+      }
+    },
+    {
+      "timestamp": 1782306000,
+      "value": {
+        "total": 110.73,
+        "binance": 38.7555,
+        "coinbase": 33.219,
+        "okx": 38.7555
+      }
+    },
+    {
+      "timestamp": 1782309600,
+      "value": {
+        "total": 110.76,
+        "binance": 38.766,
+        "coinbase": 33.228,
+        "okx": 38.766
+      }
+    },
+    {
+      "timestamp": 1782313200,
+      "value": {
+        "total": 110.79,
+        "binance": 38.7765,
+        "coinbase": 33.237,
+        "okx": 38.7765
+      }
+    },
+    {
+      "timestamp": 1782316800,
+      "value": {
+        "total": 110.82,
+        "binance": 38.787,
+        "coinbase": 33.246,
+        "okx": 38.787
+      }
+    },
+    {
+      "timestamp": 1782320400,
+      "value": {
+        "total": 110.85,
+        "binance": 38.7975,
+        "coinbase": 33.255,
+        "okx": 38.7975
+      }
+    },
+    {
+      "timestamp": 1782324000,
+      "value": {
+        "total": 110.88,
+        "binance": 38.808,
+        "coinbase": 33.264,
+        "okx": 38.808
+      }
+    },
+    {
+      "timestamp": 1782327600,
+      "value": {
+        "total": 110.91,
+        "binance": 38.8185,
+        "coinbase": 33.273,
+        "okx": 38.8185
+      }
+    },
+    {
+      "timestamp": 1782331200,
+      "value": {
+        "total": 110.94,
+        "binance": 38.829,
+        "coinbase": 33.282,
+        "okx": 38.829
+      }
+    },
+    {
+      "timestamp": 1782334800,
+      "value": {
+        "total": 110.97,
+        "binance": 38.8395,
+        "coinbase": 33.291,
+        "okx": 38.8395
+      }
+    },
+    {
+      "timestamp": 1782338400,
+      "value": {
+        "total": 111.0,
+        "binance": 38.85,
+        "coinbase": 33.3,
+        "okx": 38.85
+      }
+    },
+    {
+      "timestamp": 1782342000,
+      "value": {
+        "total": 111.03,
+        "binance": 38.8605,
+        "coinbase": 33.309,
+        "okx": 38.8605
+      }
+    },
+    {
+      "timestamp": 1782345600,
+      "value": {
+        "total": 111.06,
+        "binance": 38.871,
+        "coinbase": 33.318,
+        "okx": 38.871
+      }
+    },
+    {
+      "timestamp": 1782349200,
+      "value": {
+        "total": 111.09,
+        "binance": 38.8815,
+        "coinbase": 33.327,
+        "okx": 38.8815
+      }
+    },
+    {
+      "timestamp": 1782352800,
+      "value": {
+        "total": 111.12,
+        "binance": 38.892,
+        "coinbase": 33.336,
+        "okx": 38.892
+      }
+    },
+    {
+      "timestamp": 1782356400,
+      "value": {
+        "total": 111.15,
+        "binance": 38.9025,
+        "coinbase": 33.345,
+        "okx": 38.9025
+      }
+    },
+    {
+      "timestamp": 1782360000,
+      "value": {
+        "total": 111.18,
+        "binance": 38.913,
+        "coinbase": 33.354,
+        "okx": 38.913
+      }
+    },
+    {
+      "timestamp": 1782363600,
+      "value": {
+        "total": 111.21,
+        "binance": 38.9235,
+        "coinbase": 33.363,
+        "okx": 38.9235
+      }
+    },
+    {
+      "timestamp": 1782367200,
+      "value": {
+        "total": 111.24,
+        "binance": 38.934,
+        "coinbase": 33.372,
+        "okx": 38.934
+      }
+    },
+    {
+      "timestamp": 1782370800,
+      "value": {
+        "total": 111.27,
+        "binance": 38.9445,
+        "coinbase": 33.381,
+        "okx": 38.9445
+      }
+    },
+    {
+      "timestamp": 1782374400,
+      "value": {
+        "total": 111.3,
+        "binance": 38.955,
+        "coinbase": 33.39,
+        "okx": 38.955
+      }
+    },
+    {
+      "timestamp": 1782378000,
+      "value": {
+        "total": 111.33,
+        "binance": 38.9655,
+        "coinbase": 33.399,
+        "okx": 38.9655
+      }
+    },
+    {
+      "timestamp": 1782381600,
+      "value": {
+        "total": 111.36,
+        "binance": 38.976,
+        "coinbase": 33.408,
+        "okx": 38.976
+      }
+    },
+    {
+      "timestamp": 1782385200,
+      "value": {
+        "total": 111.39,
+        "binance": 38.9865,
+        "coinbase": 33.417,
+        "okx": 38.9865
+      }
+    },
+    {
+      "timestamp": 1782388800,
+      "value": {
+        "total": 111.42,
+        "binance": 38.997,
+        "coinbase": 33.426,
+        "okx": 38.997
+      }
+    },
+    {
+      "timestamp": 1782392400,
+      "value": {
+        "total": 111.45,
+        "binance": 39.0075,
+        "coinbase": 33.435,
+        "okx": 39.0075
+      }
+    },
+    {
+      "timestamp": 1782396000,
+      "value": {
+        "total": 111.48,
+        "binance": 39.018,
+        "coinbase": 33.444,
+        "okx": 39.018
+      }
+    },
+    {
+      "timestamp": 1782399600,
+      "value": {
+        "total": 111.51,
+        "binance": 39.0285,
+        "coinbase": 33.453,
+        "okx": 39.0285
+      }
+    },
+    {
+      "timestamp": 1782403200,
+      "value": {
+        "total": 111.54,
+        "binance": 39.039,
+        "coinbase": 33.462,
+        "okx": 39.039
+      }
+    },
+    {
+      "timestamp": 1782406800,
+      "value": {
+        "total": 111.57,
+        "binance": 39.0495,
+        "coinbase": 33.471,
+        "okx": 39.0495
+      }
+    },
+    {
+      "timestamp": 1782410400,
+      "value": {
+        "total": 111.6,
+        "binance": 39.06,
+        "coinbase": 33.48,
+        "okx": 39.06
+      }
+    },
+    {
+      "timestamp": 1782414000,
+      "value": {
+        "total": 111.63,
+        "binance": 39.0705,
+        "coinbase": 33.489,
+        "okx": 39.0705
+      }
+    },
+    {
+      "timestamp": 1782417600,
+      "value": {
+        "total": 111.66,
+        "binance": 39.081,
+        "coinbase": 33.498,
+        "okx": 39.081
+      }
+    },
+    {
+      "timestamp": 1782421200,
+      "value": {
+        "total": 111.69,
+        "binance": 39.0915,
+        "coinbase": 33.507,
+        "okx": 39.0915
+      }
+    },
+    {
+      "timestamp": 1782424800,
+      "value": {
+        "total": 111.72,
+        "binance": 39.102,
+        "coinbase": 33.516,
+        "okx": 39.102
+      }
+    },
+    {
+      "timestamp": 1782428400,
+      "value": {
+        "total": 111.75,
+        "binance": 39.1125,
+        "coinbase": 33.525,
+        "okx": 39.1125
+      }
+    },
+    {
+      "timestamp": 1782432000,
+      "value": {
+        "total": 111.78,
+        "binance": 39.123,
+        "coinbase": 33.534,
+        "okx": 39.123
+      }
+    },
+    {
+      "timestamp": 1782435600,
+      "value": {
+        "total": 111.81,
+        "binance": 39.1335,
+        "coinbase": 33.543,
+        "okx": 39.1335
+      }
+    },
+    {
+      "timestamp": 1782439200,
+      "value": {
+        "total": 111.84,
+        "binance": 39.144,
+        "coinbase": 33.552,
+        "okx": 39.144
+      }
+    },
+    {
+      "timestamp": 1782442800,
+      "value": {
+        "total": 111.87,
+        "binance": 39.1545,
+        "coinbase": 33.561,
+        "okx": 39.1545
+      }
+    },
+    {
+      "timestamp": 1782446400,
+      "value": {
+        "total": 111.9,
+        "binance": 39.165,
+        "coinbase": 33.57,
+        "okx": 39.165
+      }
+    },
+    {
+      "timestamp": 1782450000,
+      "value": {
+        "total": 111.93,
+        "binance": 39.1755,
+        "coinbase": 33.579,
+        "okx": 39.1755
+      }
+    },
+    {
+      "timestamp": 1782453600,
+      "value": {
+        "total": 111.96,
+        "binance": 39.186,
+        "coinbase": 33.588,
+        "okx": 39.186
+      }
+    },
+    {
+      "timestamp": 1782457200,
+      "value": {
+        "total": 111.99,
+        "binance": 39.1965,
+        "coinbase": 33.597,
+        "okx": 39.1965
+      }
+    },
+    {
+      "timestamp": 1782460800,
+      "value": {
+        "total": 112.02,
+        "binance": 39.207,
+        "coinbase": 33.606,
+        "okx": 39.207
+      }
+    },
+    {
+      "timestamp": 1782464400,
+      "value": {
+        "total": 112.05,
+        "binance": 39.2175,
+        "coinbase": 33.615,
+        "okx": 39.2175
+      }
+    },
+    {
+      "timestamp": 1782468000,
+      "value": {
+        "total": 112.08,
+        "binance": 39.228,
+        "coinbase": 33.624,
+        "okx": 39.228
+      }
+    },
+    {
+      "timestamp": 1782471600,
+      "value": {
+        "total": 112.11,
+        "binance": 39.2385,
+        "coinbase": 33.633,
+        "okx": 39.2385
+      }
+    },
+    {
+      "timestamp": 1782475200,
+      "value": {
+        "total": 112.14,
+        "binance": 39.249,
+        "coinbase": 33.642,
+        "okx": 39.249
+      }
+    },
+    {
+      "timestamp": 1782478800,
+      "value": {
+        "total": 112.17,
+        "binance": 39.2595,
+        "coinbase": 33.651,
+        "okx": 39.2595
+      }
+    },
+    {
+      "timestamp": 1782482400,
+      "value": {
+        "total": 112.2,
+        "binance": 39.27,
+        "coinbase": 33.66,
+        "okx": 39.27
+      }
+    },
+    {
+      "timestamp": 1782486000,
+      "value": {
+        "total": 112.23,
+        "binance": 39.2805,
+        "coinbase": 33.669,
+        "okx": 39.2805
+      }
+    },
+    {
+      "timestamp": 1782489600,
+      "value": {
+        "total": 112.26,
+        "binance": 39.291,
+        "coinbase": 33.678,
+        "okx": 39.291
+      }
+    },
+    {
+      "timestamp": 1782493200,
+      "value": {
+        "total": 112.29,
+        "binance": 39.3015,
+        "coinbase": 33.687,
+        "okx": 39.3015
+      }
+    },
+    {
+      "timestamp": 1782496800,
+      "value": {
+        "total": 112.32,
+        "binance": 39.312,
+        "coinbase": 33.696,
+        "okx": 39.312
+      }
+    },
+    {
+      "timestamp": 1782500400,
+      "value": {
+        "total": 112.35,
+        "binance": 39.3225,
+        "coinbase": 33.705,
+        "okx": 39.3225
+      }
+    },
+    {
+      "timestamp": 1782504000,
+      "value": {
+        "total": 112.38,
+        "binance": 39.333,
+        "coinbase": 33.714,
+        "okx": 39.333
+      }
+    },
+    {
+      "timestamp": 1782507600,
+      "value": {
+        "total": 112.41,
+        "binance": 39.3435,
+        "coinbase": 33.723,
+        "okx": 39.3435
+      }
+    },
+    {
+      "timestamp": 1782511200,
+      "value": {
+        "total": 112.44,
+        "binance": 39.354,
+        "coinbase": 33.732,
+        "okx": 39.354
+      }
+    },
+    {
+      "timestamp": 1782514800,
+      "value": {
+        "total": 112.47,
+        "binance": 39.3645,
+        "coinbase": 33.741,
+        "okx": 39.3645
+      }
+    },
+    {
+      "timestamp": 1782518400,
+      "value": {
+        "total": 112.5,
+        "binance": 39.375,
+        "coinbase": 33.75,
+        "okx": 39.375
+      }
+    },
+    {
+      "timestamp": 1782522000,
+      "value": {
+        "total": 112.53,
+        "binance": 39.3855,
+        "coinbase": 33.759,
+        "okx": 39.3855
+      }
+    },
+    {
+      "timestamp": 1782525600,
+      "value": {
+        "total": 112.56,
+        "binance": 39.396,
+        "coinbase": 33.768,
+        "okx": 39.396
+      }
+    },
+    {
+      "timestamp": 1782529200,
+      "value": {
+        "total": 112.59,
+        "binance": 39.4065,
+        "coinbase": 33.777,
+        "okx": 39.4065
+      }
+    },
+    {
+      "timestamp": 1782532800,
+      "value": {
+        "total": 112.62,
+        "binance": 39.417,
+        "coinbase": 33.786,
+        "okx": 39.417
+      }
+    },
+    {
+      "timestamp": 1782536400,
+      "value": {
+        "total": 112.65,
+        "binance": 39.4275,
+        "coinbase": 33.795,
+        "okx": 39.4275
+      }
+    },
+    {
+      "timestamp": 1782540000,
+      "value": {
+        "total": 112.68,
+        "binance": 39.438,
+        "coinbase": 33.804,
+        "okx": 39.438
+      }
+    },
+    {
+      "timestamp": 1782543600,
+      "value": {
+        "total": 112.71,
+        "binance": 39.4485,
+        "coinbase": 33.813,
+        "okx": 39.4485
+      }
+    },
+    {
+      "timestamp": 1782547200,
+      "value": {
+        "total": 112.74,
+        "binance": 39.459,
+        "coinbase": 33.822,
+        "okx": 39.459
+      }
+    },
+    {
+      "timestamp": 1782550800,
+      "value": {
+        "total": 112.77,
+        "binance": 39.4695,
+        "coinbase": 33.831,
+        "okx": 39.4695
+      }
+    },
+    {
+      "timestamp": 1782554400,
+      "value": {
+        "total": 112.8,
+        "binance": 39.48,
+        "coinbase": 33.84,
+        "okx": 39.48
+      }
+    },
+    {
+      "timestamp": 1782558000,
+      "value": {
+        "total": 112.83,
+        "binance": 39.4905,
+        "coinbase": 33.849,
+        "okx": 39.4905
+      }
+    },
+    {
+      "timestamp": 1782561600,
+      "value": {
+        "total": 112.86,
+        "binance": 39.501,
+        "coinbase": 33.858,
+        "okx": 39.501
+      }
+    },
+    {
+      "timestamp": 1782565200,
+      "value": {
+        "total": 112.89,
+        "binance": 39.5115,
+        "coinbase": 33.867,
+        "okx": 39.5115
+      }
+    },
+    {
+      "timestamp": 1782568800,
+      "value": {
+        "total": 112.92,
+        "binance": 39.522,
+        "coinbase": 33.876,
+        "okx": 39.522
+      }
+    },
+    {
+      "timestamp": 1782572400,
+      "value": {
+        "total": 112.95,
+        "binance": 39.5325,
+        "coinbase": 33.885,
+        "okx": 39.5325
+      }
+    },
+    {
+      "timestamp": 1782576000,
+      "value": {
+        "total": 112.98,
+        "binance": 39.543,
+        "coinbase": 33.894,
+        "okx": 39.543
+      }
+    },
+    {
+      "timestamp": 1782579600,
+      "value": {
+        "total": 113.01,
+        "binance": 39.5535,
+        "coinbase": 33.903,
+        "okx": 39.5535
+      }
+    },
+    {
+      "timestamp": 1782583200,
+      "value": {
+        "total": 113.04,
+        "binance": 39.564,
+        "coinbase": 33.912,
+        "okx": 39.564
+      }
+    },
+    {
+      "timestamp": 1782586800,
+      "value": {
+        "total": 113.07,
+        "binance": 39.5745,
+        "coinbase": 33.921,
+        "okx": 39.5745
+      }
+    },
+    {
+      "timestamp": 1782590400,
+      "value": {
+        "total": 113.1,
+        "binance": 39.585,
+        "coinbase": 33.93,
+        "okx": 39.585
+      }
+    },
+    {
+      "timestamp": 1782594000,
+      "value": {
+        "total": 113.13,
+        "binance": 39.5955,
+        "coinbase": 33.939,
+        "okx": 39.5955
+      }
+    },
+    {
+      "timestamp": 1782597600,
+      "value": {
+        "total": 113.16,
+        "binance": 39.606,
+        "coinbase": 33.948,
+        "okx": 39.606
+      }
+    },
+    {
+      "timestamp": 1782601200,
+      "value": {
+        "total": 113.19,
+        "binance": 39.6165,
+        "coinbase": 33.957,
+        "okx": 39.6165
+      }
+    },
+    {
+      "timestamp": 1782604800,
+      "value": {
+        "total": 113.22,
+        "binance": 39.627,
+        "coinbase": 33.966,
+        "okx": 39.627
+      }
+    },
+    {
+      "timestamp": 1782608400,
+      "value": {
+        "total": 113.25,
+        "binance": 39.6375,
+        "coinbase": 33.975,
+        "okx": 39.6375
+      }
+    },
+    {
+      "timestamp": 1782612000,
+      "value": {
+        "total": 113.28,
+        "binance": 39.648,
+        "coinbase": 33.984,
+        "okx": 39.648
+      }
+    },
+    {
+      "timestamp": 1782615600,
+      "value": {
+        "total": 113.31,
+        "binance": 39.6585,
+        "coinbase": 33.993,
+        "okx": 39.6585
+      }
+    },
+    {
+      "timestamp": 1782619200,
+      "value": {
+        "total": 113.34,
+        "binance": 39.669,
+        "coinbase": 34.002,
+        "okx": 39.669
+      }
+    },
+    {
+      "timestamp": 1782622800,
+      "value": {
+        "total": 113.37,
+        "binance": 39.6795,
+        "coinbase": 34.011,
+        "okx": 39.6795
+      }
+    },
+    {
+      "timestamp": 1782626400,
+      "value": {
+        "total": 113.4,
+        "binance": 39.69,
+        "coinbase": 34.02,
+        "okx": 39.69
+      }
+    },
+    {
+      "timestamp": 1782630000,
+      "value": {
+        "total": 113.43,
+        "binance": 39.7005,
+        "coinbase": 34.029,
+        "okx": 39.7005
+      }
+    },
+    {
+      "timestamp": 1782633600,
+      "value": {
+        "total": 113.46,
+        "binance": 39.711,
+        "coinbase": 34.038,
+        "okx": 39.711
+      }
+    },
+    {
+      "timestamp": 1782637200,
+      "value": {
+        "total": 113.49,
+        "binance": 39.7215,
+        "coinbase": 34.047,
+        "okx": 39.7215
+      }
+    },
+    {
+      "timestamp": 1782640800,
+      "value": {
+        "total": 113.52,
+        "binance": 39.732,
+        "coinbase": 34.056,
+        "okx": 39.732
+      }
+    },
+    {
+      "timestamp": 1782644400,
+      "value": {
+        "total": 113.55,
+        "binance": 39.7425,
+        "coinbase": 34.065,
+        "okx": 39.7425
+      }
+    },
+    {
+      "timestamp": 1782648000,
+      "value": {
+        "total": 113.58,
+        "binance": 39.753,
+        "coinbase": 34.074,
+        "okx": 39.753
+      }
+    },
+    {
+      "timestamp": 1782651600,
+      "value": {
+        "total": 113.61,
+        "binance": 39.7635,
+        "coinbase": 34.083,
+        "okx": 39.7635
+      }
+    },
+    {
+      "timestamp": 1782655200,
+      "value": {
+        "total": 113.64,
+        "binance": 39.774,
+        "coinbase": 34.092,
+        "okx": 39.774
+      }
+    },
+    {
+      "timestamp": 1782658800,
+      "value": {
+        "total": 113.67,
+        "binance": 39.7845,
+        "coinbase": 34.101,
+        "okx": 39.7845
+      }
+    },
+    {
+      "timestamp": 1782662400,
+      "value": {
+        "total": 113.7,
+        "binance": 39.795,
+        "coinbase": 34.11,
+        "okx": 39.795
+      }
+    },
+    {
+      "timestamp": 1782666000,
+      "value": {
+        "total": 113.73,
+        "binance": 39.8055,
+        "coinbase": 34.119,
+        "okx": 39.8055
+      }
+    },
+    {
+      "timestamp": 1782669600,
+      "value": {
+        "total": 113.76,
+        "binance": 39.816,
+        "coinbase": 34.128,
+        "okx": 39.816
+      }
+    },
+    {
+      "timestamp": 1782673200,
+      "value": {
+        "total": 113.79,
+        "binance": 39.8265,
+        "coinbase": 34.137,
+        "okx": 39.8265
+      }
+    },
+    {
+      "timestamp": 1782676800,
+      "value": {
+        "total": 113.82,
+        "binance": 39.837,
+        "coinbase": 34.146,
+        "okx": 39.837
+      }
+    },
+    {
+      "timestamp": 1782680400,
+      "value": {
+        "total": 113.85,
+        "binance": 39.8475,
+        "coinbase": 34.155,
+        "okx": 39.8475
+      }
+    },
+    {
+      "timestamp": 1782684000,
+      "value": {
+        "total": 113.88,
+        "binance": 39.858,
+        "coinbase": 34.164,
+        "okx": 39.858
+      }
+    },
+    {
+      "timestamp": 1782687600,
+      "value": {
+        "total": 113.91,
+        "binance": 39.8685,
+        "coinbase": 34.173,
+        "okx": 39.8685
+      }
+    },
+    {
+      "timestamp": 1782691200,
+      "value": {
+        "total": 113.94,
+        "binance": 39.879,
+        "coinbase": 34.182,
+        "okx": 39.879
+      }
+    },
+    {
+      "timestamp": 1782694800,
+      "value": {
+        "total": 113.97,
+        "binance": 39.8895,
+        "coinbase": 34.191,
+        "okx": 39.8895
+      }
+    },
+    {
+      "timestamp": 1782698400,
+      "value": {
+        "total": 114.0,
+        "binance": 39.9,
+        "coinbase": 34.2,
+        "okx": 39.9
+      }
+    },
+    {
+      "timestamp": 1782702000,
+      "value": {
+        "total": 114.03,
+        "binance": 39.9105,
+        "coinbase": 34.209,
+        "okx": 39.9105
+      }
+    },
+    {
+      "timestamp": 1782705600,
+      "value": {
+        "total": 114.06,
+        "binance": 39.921,
+        "coinbase": 34.218,
+        "okx": 39.921
+      }
+    },
+    {
+      "timestamp": 1782709200,
+      "value": {
+        "total": 114.09,
+        "binance": 39.9315,
+        "coinbase": 34.227,
+        "okx": 39.9315
+      }
+    },
+    {
+      "timestamp": 1782712800,
+      "value": {
+        "total": 114.12,
+        "binance": 39.942,
+        "coinbase": 34.236,
+        "okx": 39.942
+      }
+    },
+    {
+      "timestamp": 1782716400,
+      "value": {
+        "total": 114.15,
+        "binance": 39.9525,
+        "coinbase": 34.245,
+        "okx": 39.9525
+      }
+    },
+    {
+      "timestamp": 1782720000,
+      "value": {
+        "total": 114.18,
+        "binance": 39.963,
+        "coinbase": 34.254,
+        "okx": 39.963
+      }
+    },
+    {
+      "timestamp": 1782723600,
+      "value": {
+        "total": 114.21,
+        "binance": 39.9735,
+        "coinbase": 34.263,
+        "okx": 39.9735
+      }
+    },
+    {
+      "timestamp": 1782727200,
+      "value": {
+        "total": 114.24,
+        "binance": 39.984,
+        "coinbase": 34.272,
+        "okx": 39.984
+      }
+    },
+    {
+      "timestamp": 1782730800,
+      "value": {
+        "total": 114.27,
+        "binance": 39.9945,
+        "coinbase": 34.281,
+        "okx": 39.9945
+      }
+    },
+    {
+      "timestamp": 1782734400,
+      "value": {
+        "total": 114.3,
+        "binance": 40.005,
+        "coinbase": 34.29,
+        "okx": 40.005
+      }
+    },
+    {
+      "timestamp": 1782738000,
+      "value": {
+        "total": 114.33,
+        "binance": 40.0155,
+        "coinbase": 34.299,
+        "okx": 40.0155
+      }
+    },
+    {
+      "timestamp": 1782741600,
+      "value": {
+        "total": 114.36,
+        "binance": 40.026,
+        "coinbase": 34.308,
+        "okx": 40.026
+      }
+    },
+    {
+      "timestamp": 1782745200,
+      "value": {
+        "total": 114.39,
+        "binance": 40.0365,
+        "coinbase": 34.317,
+        "okx": 40.0365
+      }
+    },
+    {
+      "timestamp": 1782748800,
+      "value": {
+        "total": 114.42,
+        "binance": 40.047,
+        "coinbase": 34.326,
+        "okx": 40.047
+      }
+    },
+    {
+      "timestamp": 1782752400,
+      "value": {
+        "total": 114.45,
+        "binance": 40.0575,
+        "coinbase": 34.335,
+        "okx": 40.0575
+      }
+    },
+    {
+      "timestamp": 1782756000,
+      "value": {
+        "total": 114.48,
+        "binance": 40.068,
+        "coinbase": 34.344,
+        "okx": 40.068
+      }
+    },
+    {
+      "timestamp": 1782759600,
+      "value": {
+        "total": 114.51,
+        "binance": 40.0785,
+        "coinbase": 34.353,
+        "okx": 40.0785
+      }
+    },
+    {
+      "timestamp": 1782763200,
+      "value": {
+        "total": 114.54,
+        "binance": 40.089,
+        "coinbase": 34.362,
+        "okx": 40.089
+      }
+    },
+    {
+      "timestamp": 1782766800,
+      "value": {
+        "total": 114.57,
+        "binance": 40.0995,
+        "coinbase": 34.371,
+        "okx": 40.0995
+      }
+    },
+    {
+      "timestamp": 1782770400,
+      "value": {
+        "total": 114.6,
+        "binance": 40.11,
+        "coinbase": 34.38,
+        "okx": 40.11
+      }
+    },
+    {
+      "timestamp": 1782774000,
+      "value": {
+        "total": 114.63,
+        "binance": 40.1205,
+        "coinbase": 34.389,
+        "okx": 40.1205
+      }
+    },
+    {
+      "timestamp": 1782777600,
+      "value": {
+        "total": 114.66,
+        "binance": 40.131,
+        "coinbase": 34.398,
+        "okx": 40.131
+      }
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "glassnode_options_volatility_options_volume",
+    "path": null,
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/glassnode/extracted_raw/20260703T023307Z/options_volatility/options_volume/1h_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 600,
+    "duplicates_removed": 0
+  }
+}

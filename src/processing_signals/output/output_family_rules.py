@@ -2,13 +2,37 @@ from __future__ import annotations
 from typing     import Any
 
 
+INPUT_OFFICIAL_FAMILIES = {
+    "prices_ohlcv",
+    "volume_orderflow",
+    "liquidity_microstructure",
+    "institutional_flows",
+    "liquidations",
+    "derivatives_open_interest",
+    "sentiment_positioning",
+    "on_chain_miners",
+    "options_volatility",
+}
+
+
 def resolve_output_family(block: dict[str, Any]) -> dict[str, str]:
     detected = block.get("detected", {})
     normalized = block.get("normalized", {})
+    metadata = detected.get("metadata", {}) if isinstance(detected.get("metadata"), dict) else {}
     data_type = str(detected.get("data_type") or "").lower()
     canonical_type = str(detected.get("canonical_type") or "").lower()
     kind = str(normalized.get("kind") or "").lower()
     shape_source = " ".join([data_type, canonical_type, kind])
+    input_family = str(
+        detected.get("suggested_family_key")
+        or metadata.get("family_key")
+        or metadata.get("family")
+        or ""
+    ).lower()
+
+    if input_family in INPUT_OFFICIAL_FAMILIES:
+        output_shape = _input_family_shape(input_family, data_type, canonical_type, kind, metadata)
+        return _family(input_family, output_shape, f"{output_shape}.json")
 
     if any(
         token in data_type
@@ -115,6 +139,54 @@ def _volume_orderflow_shape(data_type: str, shape_source: str) -> str:
     if "bar" in shape_source:
         return "volume_bar"
     return "volume_features"
+
+
+def _input_family_shape(
+    family_key: str,
+    data_type: str,
+    canonical_type: str,
+    kind: str,
+    metadata: dict[str, Any],
+) -> str:
+    input_data_type = str(metadata.get("input_data_type") or "").lower()
+    shape_source = " ".join([data_type, canonical_type, kind, input_data_type])
+
+    if data_type == "candlestick" or input_data_type == "candlestick":
+        return "candlestick"
+    if input_data_type in {"bars", "event_list", "heatmap", "snapshot"}:
+        if family_key == "liquidity_microstructure" and input_data_type == "snapshot":
+            return "event_list"
+        return input_data_type
+
+    if family_key == "prices_ohlcv":
+        return "time_series"
+    if family_key == "volume_orderflow":
+        return _volume_orderflow_shape(data_type, shape_source)
+    if family_key == "liquidity_microstructure":
+        if data_type == "orderbook_conventional":
+            return "conventional_orderbook"
+        if data_type == "orderbook_large_trades":
+            return "large_trades_orderbook"
+        if data_type == "orderbook_whale_orders":
+            return "whale_orders_orderbook"
+        if "wall" in data_type or "trade" in data_type or "whale" in data_type:
+            return "event_list"
+        return "time_series"
+    if family_key in {"institutional_flows", "liquidations"}:
+        return _institutional_shape(shape_source)
+    if family_key == "derivatives_open_interest":
+        return _open_interest_shape(shape_source)
+    if family_key == "sentiment_positioning":
+        return _sentiment_shape(shape_source)
+    if family_key == "on_chain_miners":
+        return _network_or_onchain_shape(shape_source)
+    if family_key == "options_volatility":
+        if "gamma" in data_type:
+            return "heatmap"
+        if "max_pain" in data_type:
+            return "snapshot"
+        return "time_series"
+    return input_data_type or kind or canonical_type or "time_series"
 
 
 def _institutional_shape(shape_source: str) -> str:

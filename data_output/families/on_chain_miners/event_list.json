@@ -1,0 +1,3922 @@
+{
+  "pipeline": "Processing-Signals MainPipeline",
+  "version": "0.1.0",
+  "family_key": "on_chain_miners",
+  "output_shape": "event_list",
+  "records_processed": 60,
+  "symbols": [
+    "BTCUSDT"
+  ],
+  "timeframes": [
+    "15m",
+    "1h",
+    "1m",
+    "5m"
+  ],
+  "data_types": {
+    "mining_network_health": 52,
+    "unknown": 8
+  },
+  "blocks": [
+    {
+      "source_name": "on_chain_miners/cryptoquant_difficulty_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_difficulty_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_difficulty_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_difficulty_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_hash_rate_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_hash_rate_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_hash_rate_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_hash_rate_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_inflow_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_inflow_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_inflow_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_inflow_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_multiple_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_multiple_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_multiple_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_outflow_multiple_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_reserve_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_reserve_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_reserve_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_miner_reserve_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_mpi_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_mpi_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_mpi_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/cryptoquant_mpi_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 6,
+        "reference_column": "blockheight",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 18,
+        "has_feature_snapshot": true,
+        "feature_count": 360
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_difficulty_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_difficulty_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_difficulty_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_difficulty_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_hash_rate_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_hash_rate_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_hash_rate_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_hash_rate_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_inflow_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_inflow_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_inflow_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_inflow_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_multiple_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_multiple_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_multiple_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_outflow_multiple_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_reserve_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_reserve_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_reserve_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_reserve_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_revenue_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_revenue_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_revenue_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_miner_revenue_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "mining_network_health",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_mpi_15m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "15m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_mpi_1h.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_mpi_1m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    },
+    {
+      "source_name": "on_chain_miners/glassnode_mpi_5m.json",
+      "family_key": "on_chain_miners",
+      "source_family_key": "on_chain_miners",
+      "output_shape": "event_list",
+      "symbol": "BTCUSDT",
+      "timeframe": "5m",
+      "data_type": "unknown",
+      "source_subtype": null,
+      "regime_flags": {
+        "high_volatility_regime": false,
+        "low_volatility_regime": true,
+        "trend_expansion": false,
+        "mean_reversion_zone": false,
+        "outlier_positive": false,
+        "outlier_negative": false,
+        "distribution_skewed_positive": false,
+        "distribution_skewed_negative": false,
+        "fat_tail_risk": false
+      },
+      "warnings": [],
+      "events": [],
+      "event_summary": {
+        "events": 0,
+        "source_rows": 600
+      },
+      "event_counts": {
+        "by_type": {},
+        "by_severity": {}
+      },
+      "event_counts_by_type": {},
+      "event_counts_by_severity": {},
+      "math_summary": {
+        "has_statistics": true,
+        "statistics_windows": [
+          20,
+          50,
+          100
+        ],
+        "numeric_columns_count": 1,
+        "reference_column": "value",
+        "has_statistical_regimes": true,
+        "regime_windows": [
+          20,
+          50,
+          100
+        ],
+        "last_regime_count": 3,
+        "has_feature_snapshot": true,
+        "feature_count": 60
+      },
+      "math": {
+        "regime_flags": {
+          "high_volatility_regime": false,
+          "low_volatility_regime": true,
+          "trend_expansion": false,
+          "mean_reversion_zone": false,
+          "outlier_positive": false,
+          "outlier_negative": false,
+          "distribution_skewed_positive": false,
+          "distribution_skewed_negative": false,
+          "fat_tail_risk": false
+        }
+      }
+    }
+  ]
+}

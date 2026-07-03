@@ -59,9 +59,16 @@ def event_flow_metrics(events: pd.DataFrame, notional_column: str = "notional_us
         return {}
 
     df = events.copy()
+    if notional_column not in df.columns:
+        df[notional_column] = 0
+    if "quantity_btc" not in df.columns:
+        df["quantity_btc"] = 0
+    if "price" not in df.columns:
+        df["price"] = np.nan
+
     df[notional_column] = pd.to_numeric(df[notional_column], errors="coerce").fillna(0)
-    df["quantity_btc"] = pd.to_numeric(df.get("quantity_btc"), errors="coerce").fillna(0)
-    df["price"] = pd.to_numeric(df.get("price"), errors="coerce")
+    df["quantity_btc"] = pd.to_numeric(df["quantity_btc"], errors="coerce").fillna(0)
+    df["price"] = pd.to_numeric(df["price"], errors="coerce")
 
     buy = df[df["side"] == "buy"] if "side" in df.columns else df.iloc[0:0]
     sell = df[df["side"] == "sell"] if "side" in df.columns else df.iloc[0:0]

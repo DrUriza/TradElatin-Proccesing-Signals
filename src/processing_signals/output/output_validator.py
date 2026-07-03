@@ -14,8 +14,8 @@ class OutputValidator:
         "liquidations",
         "derivatives_open_interest",
         "sentiment_positioning",
-        "mining_network_health",
-        "onchain_holder_behavior",
+        "on_chain_miners",
+        "options_volatility",
     ]
     REQUIRED_PAYLOAD_KEYS = {
         "pipeline",

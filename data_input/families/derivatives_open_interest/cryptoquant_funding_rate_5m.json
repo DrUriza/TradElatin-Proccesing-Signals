@@ -1,0 +1,4227 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "cryptoquant",
+  "family": "derivatives_open_interest",
+  "subtype": "funding_rate",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "5m",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-27T22:05:00Z",
+      "blockheight": 856000,
+      "funding_rate": 103.78,
+      "value": 103.78,
+      "timestamp": 1782597900
+    },
+    {
+      "datetime": "2026-06-27T22:10:00Z",
+      "blockheight": 856001,
+      "funding_rate": 103.81,
+      "value": 103.81,
+      "timestamp": 1782598200
+    },
+    {
+      "datetime": "2026-06-27T22:15:00Z",
+      "blockheight": 856002,
+      "funding_rate": 103.84,
+      "value": 103.84,
+      "timestamp": 1782598500
+    },
+    {
+      "datetime": "2026-06-27T22:20:00Z",
+      "blockheight": 856003,
+      "funding_rate": 103.87,
+      "value": 103.87,
+      "timestamp": 1782598800
+    },
+    {
+      "datetime": "2026-06-27T22:25:00Z",
+      "blockheight": 856004,
+      "funding_rate": 103.9,
+      "value": 103.9,
+      "timestamp": 1782599100
+    },
+    {
+      "datetime": "2026-06-27T22:30:00Z",
+      "blockheight": 856005,
+      "funding_rate": 103.93,
+      "value": 103.93,
+      "timestamp": 1782599400
+    },
+    {
+      "datetime": "2026-06-27T22:35:00Z",
+      "blockheight": 856006,
+      "funding_rate": 103.96,
+      "value": 103.96,
+      "timestamp": 1782599700
+    },
+    {
+      "datetime": "2026-06-27T22:40:00Z",
+      "blockheight": 856007,
+      "funding_rate": 103.99,
+      "value": 103.99,
+      "timestamp": 1782600000
+    },
+    {
+      "datetime": "2026-06-27T22:45:00Z",
+      "blockheight": 856008,
+      "funding_rate": 104.02,
+      "value": 104.02,
+      "timestamp": 1782600300
+    },
+    {
+      "datetime": "2026-06-27T22:50:00Z",
+      "blockheight": 856009,
+      "funding_rate": 104.05,
+      "value": 104.05,
+      "timestamp": 1782600600
+    },
+    {
+      "datetime": "2026-06-27T22:55:00Z",
+      "blockheight": 856010,
+      "funding_rate": 104.08,
+      "value": 104.08,
+      "timestamp": 1782600900
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856011,
+      "funding_rate": 104.11,
+      "value": 104.11,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-27T23:05:00Z",
+      "blockheight": 856012,
+      "funding_rate": 104.14,
+      "value": 104.14,
+      "timestamp": 1782601500
+    },
+    {
+      "datetime": "2026-06-27T23:10:00Z",
+      "blockheight": 856013,
+      "funding_rate": 104.17,
+      "value": 104.17,
+      "timestamp": 1782601800
+    },
+    {
+      "datetime": "2026-06-27T23:15:00Z",
+      "blockheight": 856014,
+      "funding_rate": 104.2,
+      "value": 104.2,
+      "timestamp": 1782602100
+    },
+    {
+      "datetime": "2026-06-27T23:20:00Z",
+      "blockheight": 856015,
+      "funding_rate": 104.23,
+      "value": 104.23,
+      "timestamp": 1782602400
+    },
+    {
+      "datetime": "2026-06-27T23:25:00Z",
+      "blockheight": 856016,
+      "funding_rate": 104.26,
+      "value": 104.26,
+      "timestamp": 1782602700
+    },
+    {
+      "datetime": "2026-06-27T23:30:00Z",
+      "blockheight": 856017,
+      "funding_rate": 104.29,
+      "value": 104.29,
+      "timestamp": 1782603000
+    },
+    {
+      "datetime": "2026-06-27T23:35:00Z",
+      "blockheight": 856018,
+      "funding_rate": 104.32,
+      "value": 104.32,
+      "timestamp": 1782603300
+    },
+    {
+      "datetime": "2026-06-27T23:40:00Z",
+      "blockheight": 856019,
+      "funding_rate": 104.35,
+      "value": 104.35,
+      "timestamp": 1782603600
+    },
+    {
+      "datetime": "2026-06-27T23:45:00Z",
+      "blockheight": 856020,
+      "funding_rate": 104.38,
+      "value": 104.38,
+      "timestamp": 1782603900
+    },
+    {
+      "datetime": "2026-06-27T23:50:00Z",
+      "blockheight": 856021,
+      "funding_rate": 104.41,
+      "value": 104.41,
+      "timestamp": 1782604200
+    },
+    {
+      "datetime": "2026-06-27T23:55:00Z",
+      "blockheight": 856022,
+      "funding_rate": 104.44,
+      "value": 104.44,
+      "timestamp": 1782604500
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856023,
+      "funding_rate": 104.47,
+      "value": 104.47,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T00:05:00Z",
+      "blockheight": 856024,
+      "funding_rate": 104.5,
+      "value": 104.5,
+      "timestamp": 1782605100
+    },
+    {
+      "datetime": "2026-06-28T00:10:00Z",
+      "blockheight": 856025,
+      "funding_rate": 104.53,
+      "value": 104.53,
+      "timestamp": 1782605400
+    },
+    {
+      "datetime": "2026-06-28T00:15:00Z",
+      "blockheight": 856026,
+      "funding_rate": 104.56,
+      "value": 104.56,
+      "timestamp": 1782605700
+    },
+    {
+      "datetime": "2026-06-28T00:20:00Z",
+      "blockheight": 856027,
+      "funding_rate": 104.59,
+      "value": 104.59,
+      "timestamp": 1782606000
+    },
+    {
+      "datetime": "2026-06-28T00:25:00Z",
+      "blockheight": 856028,
+      "funding_rate": 104.62,
+      "value": 104.62,
+      "timestamp": 1782606300
+    },
+    {
+      "datetime": "2026-06-28T00:30:00Z",
+      "blockheight": 856029,
+      "funding_rate": 104.65,
+      "value": 104.65,
+      "timestamp": 1782606600
+    },
+    {
+      "datetime": "2026-06-28T00:35:00Z",
+      "blockheight": 856030,
+      "funding_rate": 104.68,
+      "value": 104.68,
+      "timestamp": 1782606900
+    },
+    {
+      "datetime": "2026-06-28T00:40:00Z",
+      "blockheight": 856031,
+      "funding_rate": 104.71,
+      "value": 104.71,
+      "timestamp": 1782607200
+    },
+    {
+      "datetime": "2026-06-28T00:45:00Z",
+      "blockheight": 856032,
+      "funding_rate": 104.74,
+      "value": 104.74,
+      "timestamp": 1782607500
+    },
+    {
+      "datetime": "2026-06-28T00:50:00Z",
+      "blockheight": 856033,
+      "funding_rate": 104.77,
+      "value": 104.77,
+      "timestamp": 1782607800
+    },
+    {
+      "datetime": "2026-06-28T00:55:00Z",
+      "blockheight": 856034,
+      "funding_rate": 104.8,
+      "value": 104.8,
+      "timestamp": 1782608100
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856035,
+      "funding_rate": 104.83,
+      "value": 104.83,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T01:05:00Z",
+      "blockheight": 856036,
+      "funding_rate": 104.86,
+      "value": 104.86,
+      "timestamp": 1782608700
+    },
+    {
+      "datetime": "2026-06-28T01:10:00Z",
+      "blockheight": 856037,
+      "funding_rate": 104.89,
+      "value": 104.89,
+      "timestamp": 1782609000
+    },
+    {
+      "datetime": "2026-06-28T01:15:00Z",
+      "blockheight": 856038,
+      "funding_rate": 104.92,
+      "value": 104.92,
+      "timestamp": 1782609300
+    },
+    {
+      "datetime": "2026-06-28T01:20:00Z",
+      "blockheight": 856039,
+      "funding_rate": 104.95,
+      "value": 104.95,
+      "timestamp": 1782609600
+    },
+    {
+      "datetime": "2026-06-28T01:25:00Z",
+      "blockheight": 856040,
+      "funding_rate": 104.98,
+      "value": 104.98,
+      "timestamp": 1782609900
+    },
+    {
+      "datetime": "2026-06-28T01:30:00Z",
+      "blockheight": 856041,
+      "funding_rate": 105.01,
+      "value": 105.01,
+      "timestamp": 1782610200
+    },
+    {
+      "datetime": "2026-06-28T01:35:00Z",
+      "blockheight": 856042,
+      "funding_rate": 105.04,
+      "value": 105.04,
+      "timestamp": 1782610500
+    },
+    {
+      "datetime": "2026-06-28T01:40:00Z",
+      "blockheight": 856043,
+      "funding_rate": 105.07,
+      "value": 105.07,
+      "timestamp": 1782610800
+    },
+    {
+      "datetime": "2026-06-28T01:45:00Z",
+      "blockheight": 856044,
+      "funding_rate": 105.1,
+      "value": 105.1,
+      "timestamp": 1782611100
+    },
+    {
+      "datetime": "2026-06-28T01:50:00Z",
+      "blockheight": 856045,
+      "funding_rate": 105.13,
+      "value": 105.13,
+      "timestamp": 1782611400
+    },
+    {
+      "datetime": "2026-06-28T01:55:00Z",
+      "blockheight": 856046,
+      "funding_rate": 105.16,
+      "value": 105.16,
+      "timestamp": 1782611700
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856047,
+      "funding_rate": 105.19,
+      "value": 105.19,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T02:05:00Z",
+      "blockheight": 856048,
+      "funding_rate": 105.22,
+      "value": 105.22,
+      "timestamp": 1782612300
+    },
+    {
+      "datetime": "2026-06-28T02:10:00Z",
+      "blockheight": 856049,
+      "funding_rate": 105.25,
+      "value": 105.25,
+      "timestamp": 1782612600
+    },
+    {
+      "datetime": "2026-06-28T02:15:00Z",
+      "blockheight": 856050,
+      "funding_rate": 105.28,
+      "value": 105.28,
+      "timestamp": 1782612900
+    },
+    {
+      "datetime": "2026-06-28T02:20:00Z",
+      "blockheight": 856051,
+      "funding_rate": 105.31,
+      "value": 105.31,
+      "timestamp": 1782613200
+    },
+    {
+      "datetime": "2026-06-28T02:25:00Z",
+      "blockheight": 856052,
+      "funding_rate": 105.34,
+      "value": 105.34,
+      "timestamp": 1782613500
+    },
+    {
+      "datetime": "2026-06-28T02:30:00Z",
+      "blockheight": 856053,
+      "funding_rate": 105.37,
+      "value": 105.37,
+      "timestamp": 1782613800
+    },
+    {
+      "datetime": "2026-06-28T02:35:00Z",
+      "blockheight": 856054,
+      "funding_rate": 105.4,
+      "value": 105.4,
+      "timestamp": 1782614100
+    },
+    {
+      "datetime": "2026-06-28T02:40:00Z",
+      "blockheight": 856055,
+      "funding_rate": 105.43,
+      "value": 105.43,
+      "timestamp": 1782614400
+    },
+    {
+      "datetime": "2026-06-28T02:45:00Z",
+      "blockheight": 856056,
+      "funding_rate": 105.46,
+      "value": 105.46,
+      "timestamp": 1782614700
+    },
+    {
+      "datetime": "2026-06-28T02:50:00Z",
+      "blockheight": 856057,
+      "funding_rate": 105.49,
+      "value": 105.49,
+      "timestamp": 1782615000
+    },
+    {
+      "datetime": "2026-06-28T02:55:00Z",
+      "blockheight": 856058,
+      "funding_rate": 105.52,
+      "value": 105.52,
+      "timestamp": 1782615300
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856059,
+      "funding_rate": 105.55,
+      "value": 105.55,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T03:05:00Z",
+      "blockheight": 856060,
+      "funding_rate": 105.58,
+      "value": 105.58,
+      "timestamp": 1782615900
+    },
+    {
+      "datetime": "2026-06-28T03:10:00Z",
+      "blockheight": 856061,
+      "funding_rate": 105.61,
+      "value": 105.61,
+      "timestamp": 1782616200
+    },
+    {
+      "datetime": "2026-06-28T03:15:00Z",
+      "blockheight": 856062,
+      "funding_rate": 105.64,
+      "value": 105.64,
+      "timestamp": 1782616500
+    },
+    {
+      "datetime": "2026-06-28T03:20:00Z",
+      "blockheight": 856063,
+      "funding_rate": 105.67,
+      "value": 105.67,
+      "timestamp": 1782616800
+    },
+    {
+      "datetime": "2026-06-28T03:25:00Z",
+      "blockheight": 856064,
+      "funding_rate": 105.7,
+      "value": 105.7,
+      "timestamp": 1782617100
+    },
+    {
+      "datetime": "2026-06-28T03:30:00Z",
+      "blockheight": 856065,
+      "funding_rate": 105.73,
+      "value": 105.73,
+      "timestamp": 1782617400
+    },
+    {
+      "datetime": "2026-06-28T03:35:00Z",
+      "blockheight": 856066,
+      "funding_rate": 105.76,
+      "value": 105.76,
+      "timestamp": 1782617700
+    },
+    {
+      "datetime": "2026-06-28T03:40:00Z",
+      "blockheight": 856067,
+      "funding_rate": 105.79,
+      "value": 105.79,
+      "timestamp": 1782618000
+    },
+    {
+      "datetime": "2026-06-28T03:45:00Z",
+      "blockheight": 856068,
+      "funding_rate": 105.82,
+      "value": 105.82,
+      "timestamp": 1782618300
+    },
+    {
+      "datetime": "2026-06-28T03:50:00Z",
+      "blockheight": 856069,
+      "funding_rate": 105.85,
+      "value": 105.85,
+      "timestamp": 1782618600
+    },
+    {
+      "datetime": "2026-06-28T03:55:00Z",
+      "blockheight": 856070,
+      "funding_rate": 105.88,
+      "value": 105.88,
+      "timestamp": 1782618900
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856071,
+      "funding_rate": 105.91,
+      "value": 105.91,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T04:05:00Z",
+      "blockheight": 856072,
+      "funding_rate": 105.94,
+      "value": 105.94,
+      "timestamp": 1782619500
+    },
+    {
+      "datetime": "2026-06-28T04:10:00Z",
+      "blockheight": 856073,
+      "funding_rate": 105.97,
+      "value": 105.97,
+      "timestamp": 1782619800
+    },
+    {
+      "datetime": "2026-06-28T04:15:00Z",
+      "blockheight": 856074,
+      "funding_rate": 106.0,
+      "value": 106.0,
+      "timestamp": 1782620100
+    },
+    {
+      "datetime": "2026-06-28T04:20:00Z",
+      "blockheight": 856075,
+      "funding_rate": 106.03,
+      "value": 106.03,
+      "timestamp": 1782620400
+    },
+    {
+      "datetime": "2026-06-28T04:25:00Z",
+      "blockheight": 856076,
+      "funding_rate": 106.06,
+      "value": 106.06,
+      "timestamp": 1782620700
+    },
+    {
+      "datetime": "2026-06-28T04:30:00Z",
+      "blockheight": 856077,
+      "funding_rate": 106.09,
+      "value": 106.09,
+      "timestamp": 1782621000
+    },
+    {
+      "datetime": "2026-06-28T04:35:00Z",
+      "blockheight": 856078,
+      "funding_rate": 106.12,
+      "value": 106.12,
+      "timestamp": 1782621300
+    },
+    {
+      "datetime": "2026-06-28T04:40:00Z",
+      "blockheight": 856079,
+      "funding_rate": 106.15,
+      "value": 106.15,
+      "timestamp": 1782621600
+    },
+    {
+      "datetime": "2026-06-28T04:45:00Z",
+      "blockheight": 856080,
+      "funding_rate": 106.18,
+      "value": 106.18,
+      "timestamp": 1782621900
+    },
+    {
+      "datetime": "2026-06-28T04:50:00Z",
+      "blockheight": 856081,
+      "funding_rate": 106.21,
+      "value": 106.21,
+      "timestamp": 1782622200
+    },
+    {
+      "datetime": "2026-06-28T04:55:00Z",
+      "blockheight": 856082,
+      "funding_rate": 106.24,
+      "value": 106.24,
+      "timestamp": 1782622500
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856083,
+      "funding_rate": 106.27,
+      "value": 106.27,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T05:05:00Z",
+      "blockheight": 856084,
+      "funding_rate": 106.3,
+      "value": 106.3,
+      "timestamp": 1782623100
+    },
+    {
+      "datetime": "2026-06-28T05:10:00Z",
+      "blockheight": 856085,
+      "funding_rate": 106.33,
+      "value": 106.33,
+      "timestamp": 1782623400
+    },
+    {
+      "datetime": "2026-06-28T05:15:00Z",
+      "blockheight": 856086,
+      "funding_rate": 106.36,
+      "value": 106.36,
+      "timestamp": 1782623700
+    },
+    {
+      "datetime": "2026-06-28T05:20:00Z",
+      "blockheight": 856087,
+      "funding_rate": 106.39,
+      "value": 106.39,
+      "timestamp": 1782624000
+    },
+    {
+      "datetime": "2026-06-28T05:25:00Z",
+      "blockheight": 856088,
+      "funding_rate": 106.42,
+      "value": 106.42,
+      "timestamp": 1782624300
+    },
+    {
+      "datetime": "2026-06-28T05:30:00Z",
+      "blockheight": 856089,
+      "funding_rate": 106.45,
+      "value": 106.45,
+      "timestamp": 1782624600
+    },
+    {
+      "datetime": "2026-06-28T05:35:00Z",
+      "blockheight": 856090,
+      "funding_rate": 106.48,
+      "value": 106.48,
+      "timestamp": 1782624900
+    },
+    {
+      "datetime": "2026-06-28T05:40:00Z",
+      "blockheight": 856091,
+      "funding_rate": 106.51,
+      "value": 106.51,
+      "timestamp": 1782625200
+    },
+    {
+      "datetime": "2026-06-28T05:45:00Z",
+      "blockheight": 856092,
+      "funding_rate": 106.54,
+      "value": 106.54,
+      "timestamp": 1782625500
+    },
+    {
+      "datetime": "2026-06-28T05:50:00Z",
+      "blockheight": 856093,
+      "funding_rate": 106.57,
+      "value": 106.57,
+      "timestamp": 1782625800
+    },
+    {
+      "datetime": "2026-06-28T05:55:00Z",
+      "blockheight": 856094,
+      "funding_rate": 106.6,
+      "value": 106.6,
+      "timestamp": 1782626100
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856095,
+      "funding_rate": 106.63,
+      "value": 106.63,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T06:05:00Z",
+      "blockheight": 856096,
+      "funding_rate": 106.66,
+      "value": 106.66,
+      "timestamp": 1782626700
+    },
+    {
+      "datetime": "2026-06-28T06:10:00Z",
+      "blockheight": 856097,
+      "funding_rate": 106.69,
+      "value": 106.69,
+      "timestamp": 1782627000
+    },
+    {
+      "datetime": "2026-06-28T06:15:00Z",
+      "blockheight": 856098,
+      "funding_rate": 106.72,
+      "value": 106.72,
+      "timestamp": 1782627300
+    },
+    {
+      "datetime": "2026-06-28T06:20:00Z",
+      "blockheight": 856099,
+      "funding_rate": 106.75,
+      "value": 106.75,
+      "timestamp": 1782627600
+    },
+    {
+      "datetime": "2026-06-28T06:25:00Z",
+      "blockheight": 856100,
+      "funding_rate": 106.78,
+      "value": 106.78,
+      "timestamp": 1782627900
+    },
+    {
+      "datetime": "2026-06-28T06:30:00Z",
+      "blockheight": 856101,
+      "funding_rate": 106.81,
+      "value": 106.81,
+      "timestamp": 1782628200
+    },
+    {
+      "datetime": "2026-06-28T06:35:00Z",
+      "blockheight": 856102,
+      "funding_rate": 106.84,
+      "value": 106.84,
+      "timestamp": 1782628500
+    },
+    {
+      "datetime": "2026-06-28T06:40:00Z",
+      "blockheight": 856103,
+      "funding_rate": 106.87,
+      "value": 106.87,
+      "timestamp": 1782628800
+    },
+    {
+      "datetime": "2026-06-28T06:45:00Z",
+      "blockheight": 856104,
+      "funding_rate": 106.9,
+      "value": 106.9,
+      "timestamp": 1782629100
+    },
+    {
+      "datetime": "2026-06-28T06:50:00Z",
+      "blockheight": 856105,
+      "funding_rate": 106.93,
+      "value": 106.93,
+      "timestamp": 1782629400
+    },
+    {
+      "datetime": "2026-06-28T06:55:00Z",
+      "blockheight": 856106,
+      "funding_rate": 106.96,
+      "value": 106.96,
+      "timestamp": 1782629700
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856107,
+      "funding_rate": 106.99,
+      "value": 106.99,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T07:05:00Z",
+      "blockheight": 856108,
+      "funding_rate": 107.02,
+      "value": 107.02,
+      "timestamp": 1782630300
+    },
+    {
+      "datetime": "2026-06-28T07:10:00Z",
+      "blockheight": 856109,
+      "funding_rate": 107.05,
+      "value": 107.05,
+      "timestamp": 1782630600
+    },
+    {
+      "datetime": "2026-06-28T07:15:00Z",
+      "blockheight": 856110,
+      "funding_rate": 107.08,
+      "value": 107.08,
+      "timestamp": 1782630900
+    },
+    {
+      "datetime": "2026-06-28T07:20:00Z",
+      "blockheight": 856111,
+      "funding_rate": 107.11,
+      "value": 107.11,
+      "timestamp": 1782631200
+    },
+    {
+      "datetime": "2026-06-28T07:25:00Z",
+      "blockheight": 856112,
+      "funding_rate": 107.14,
+      "value": 107.14,
+      "timestamp": 1782631500
+    },
+    {
+      "datetime": "2026-06-28T07:30:00Z",
+      "blockheight": 856113,
+      "funding_rate": 107.17,
+      "value": 107.17,
+      "timestamp": 1782631800
+    },
+    {
+      "datetime": "2026-06-28T07:35:00Z",
+      "blockheight": 856114,
+      "funding_rate": 107.2,
+      "value": 107.2,
+      "timestamp": 1782632100
+    },
+    {
+      "datetime": "2026-06-28T07:40:00Z",
+      "blockheight": 856115,
+      "funding_rate": 107.23,
+      "value": 107.23,
+      "timestamp": 1782632400
+    },
+    {
+      "datetime": "2026-06-28T07:45:00Z",
+      "blockheight": 856116,
+      "funding_rate": 107.26,
+      "value": 107.26,
+      "timestamp": 1782632700
+    },
+    {
+      "datetime": "2026-06-28T07:50:00Z",
+      "blockheight": 856117,
+      "funding_rate": 107.29,
+      "value": 107.29,
+      "timestamp": 1782633000
+    },
+    {
+      "datetime": "2026-06-28T07:55:00Z",
+      "blockheight": 856118,
+      "funding_rate": 107.32,
+      "value": 107.32,
+      "timestamp": 1782633300
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856119,
+      "funding_rate": 107.35,
+      "value": 107.35,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T08:05:00Z",
+      "blockheight": 856120,
+      "funding_rate": 107.38,
+      "value": 107.38,
+      "timestamp": 1782633900
+    },
+    {
+      "datetime": "2026-06-28T08:10:00Z",
+      "blockheight": 856121,
+      "funding_rate": 107.41,
+      "value": 107.41,
+      "timestamp": 1782634200
+    },
+    {
+      "datetime": "2026-06-28T08:15:00Z",
+      "blockheight": 856122,
+      "funding_rate": 107.44,
+      "value": 107.44,
+      "timestamp": 1782634500
+    },
+    {
+      "datetime": "2026-06-28T08:20:00Z",
+      "blockheight": 856123,
+      "funding_rate": 107.47,
+      "value": 107.47,
+      "timestamp": 1782634800
+    },
+    {
+      "datetime": "2026-06-28T08:25:00Z",
+      "blockheight": 856124,
+      "funding_rate": 107.5,
+      "value": 107.5,
+      "timestamp": 1782635100
+    },
+    {
+      "datetime": "2026-06-28T08:30:00Z",
+      "blockheight": 856125,
+      "funding_rate": 107.53,
+      "value": 107.53,
+      "timestamp": 1782635400
+    },
+    {
+      "datetime": "2026-06-28T08:35:00Z",
+      "blockheight": 856126,
+      "funding_rate": 107.56,
+      "value": 107.56,
+      "timestamp": 1782635700
+    },
+    {
+      "datetime": "2026-06-28T08:40:00Z",
+      "blockheight": 856127,
+      "funding_rate": 107.59,
+      "value": 107.59,
+      "timestamp": 1782636000
+    },
+    {
+      "datetime": "2026-06-28T08:45:00Z",
+      "blockheight": 856128,
+      "funding_rate": 107.62,
+      "value": 107.62,
+      "timestamp": 1782636300
+    },
+    {
+      "datetime": "2026-06-28T08:50:00Z",
+      "blockheight": 856129,
+      "funding_rate": 107.65,
+      "value": 107.65,
+      "timestamp": 1782636600
+    },
+    {
+      "datetime": "2026-06-28T08:55:00Z",
+      "blockheight": 856130,
+      "funding_rate": 107.68,
+      "value": 107.68,
+      "timestamp": 1782636900
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856131,
+      "funding_rate": 107.71,
+      "value": 107.71,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T09:05:00Z",
+      "blockheight": 856132,
+      "funding_rate": 107.74,
+      "value": 107.74,
+      "timestamp": 1782637500
+    },
+    {
+      "datetime": "2026-06-28T09:10:00Z",
+      "blockheight": 856133,
+      "funding_rate": 107.77,
+      "value": 107.77,
+      "timestamp": 1782637800
+    },
+    {
+      "datetime": "2026-06-28T09:15:00Z",
+      "blockheight": 856134,
+      "funding_rate": 107.8,
+      "value": 107.8,
+      "timestamp": 1782638100
+    },
+    {
+      "datetime": "2026-06-28T09:20:00Z",
+      "blockheight": 856135,
+      "funding_rate": 107.83,
+      "value": 107.83,
+      "timestamp": 1782638400
+    },
+    {
+      "datetime": "2026-06-28T09:25:00Z",
+      "blockheight": 856136,
+      "funding_rate": 107.86,
+      "value": 107.86,
+      "timestamp": 1782638700
+    },
+    {
+      "datetime": "2026-06-28T09:30:00Z",
+      "blockheight": 856137,
+      "funding_rate": 107.89,
+      "value": 107.89,
+      "timestamp": 1782639000
+    },
+    {
+      "datetime": "2026-06-28T09:35:00Z",
+      "blockheight": 856138,
+      "funding_rate": 107.92,
+      "value": 107.92,
+      "timestamp": 1782639300
+    },
+    {
+      "datetime": "2026-06-28T09:40:00Z",
+      "blockheight": 856139,
+      "funding_rate": 107.95,
+      "value": 107.95,
+      "timestamp": 1782639600
+    },
+    {
+      "datetime": "2026-06-28T09:45:00Z",
+      "blockheight": 856140,
+      "funding_rate": 107.98,
+      "value": 107.98,
+      "timestamp": 1782639900
+    },
+    {
+      "datetime": "2026-06-28T09:50:00Z",
+      "blockheight": 856141,
+      "funding_rate": 108.01,
+      "value": 108.01,
+      "timestamp": 1782640200
+    },
+    {
+      "datetime": "2026-06-28T09:55:00Z",
+      "blockheight": 856142,
+      "funding_rate": 108.04,
+      "value": 108.04,
+      "timestamp": 1782640500
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856143,
+      "funding_rate": 108.07,
+      "value": 108.07,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T10:05:00Z",
+      "blockheight": 856144,
+      "funding_rate": 108.1,
+      "value": 108.1,
+      "timestamp": 1782641100
+    },
+    {
+      "datetime": "2026-06-28T10:10:00Z",
+      "blockheight": 856145,
+      "funding_rate": 108.13,
+      "value": 108.13,
+      "timestamp": 1782641400
+    },
+    {
+      "datetime": "2026-06-28T10:15:00Z",
+      "blockheight": 856146,
+      "funding_rate": 108.16,
+      "value": 108.16,
+      "timestamp": 1782641700
+    },
+    {
+      "datetime": "2026-06-28T10:20:00Z",
+      "blockheight": 856147,
+      "funding_rate": 108.19,
+      "value": 108.19,
+      "timestamp": 1782642000
+    },
+    {
+      "datetime": "2026-06-28T10:25:00Z",
+      "blockheight": 856148,
+      "funding_rate": 108.22,
+      "value": 108.22,
+      "timestamp": 1782642300
+    },
+    {
+      "datetime": "2026-06-28T10:30:00Z",
+      "blockheight": 856149,
+      "funding_rate": 108.25,
+      "value": 108.25,
+      "timestamp": 1782642600
+    },
+    {
+      "datetime": "2026-06-28T10:35:00Z",
+      "blockheight": 856150,
+      "funding_rate": 108.28,
+      "value": 108.28,
+      "timestamp": 1782642900
+    },
+    {
+      "datetime": "2026-06-28T10:40:00Z",
+      "blockheight": 856151,
+      "funding_rate": 108.31,
+      "value": 108.31,
+      "timestamp": 1782643200
+    },
+    {
+      "datetime": "2026-06-28T10:45:00Z",
+      "blockheight": 856152,
+      "funding_rate": 108.34,
+      "value": 108.34,
+      "timestamp": 1782643500
+    },
+    {
+      "datetime": "2026-06-28T10:50:00Z",
+      "blockheight": 856153,
+      "funding_rate": 108.37,
+      "value": 108.37,
+      "timestamp": 1782643800
+    },
+    {
+      "datetime": "2026-06-28T10:55:00Z",
+      "blockheight": 856154,
+      "funding_rate": 108.4,
+      "value": 108.4,
+      "timestamp": 1782644100
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856155,
+      "funding_rate": 108.43,
+      "value": 108.43,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T11:05:00Z",
+      "blockheight": 856156,
+      "funding_rate": 108.46,
+      "value": 108.46,
+      "timestamp": 1782644700
+    },
+    {
+      "datetime": "2026-06-28T11:10:00Z",
+      "blockheight": 856157,
+      "funding_rate": 108.49,
+      "value": 108.49,
+      "timestamp": 1782645000
+    },
+    {
+      "datetime": "2026-06-28T11:15:00Z",
+      "blockheight": 856158,
+      "funding_rate": 108.52,
+      "value": 108.52,
+      "timestamp": 1782645300
+    },
+    {
+      "datetime": "2026-06-28T11:20:00Z",
+      "blockheight": 856159,
+      "funding_rate": 108.55,
+      "value": 108.55,
+      "timestamp": 1782645600
+    },
+    {
+      "datetime": "2026-06-28T11:25:00Z",
+      "blockheight": 856160,
+      "funding_rate": 108.58,
+      "value": 108.58,
+      "timestamp": 1782645900
+    },
+    {
+      "datetime": "2026-06-28T11:30:00Z",
+      "blockheight": 856161,
+      "funding_rate": 108.61,
+      "value": 108.61,
+      "timestamp": 1782646200
+    },
+    {
+      "datetime": "2026-06-28T11:35:00Z",
+      "blockheight": 856162,
+      "funding_rate": 108.64,
+      "value": 108.64,
+      "timestamp": 1782646500
+    },
+    {
+      "datetime": "2026-06-28T11:40:00Z",
+      "blockheight": 856163,
+      "funding_rate": 108.67,
+      "value": 108.67,
+      "timestamp": 1782646800
+    },
+    {
+      "datetime": "2026-06-28T11:45:00Z",
+      "blockheight": 856164,
+      "funding_rate": 108.7,
+      "value": 108.7,
+      "timestamp": 1782647100
+    },
+    {
+      "datetime": "2026-06-28T11:50:00Z",
+      "blockheight": 856165,
+      "funding_rate": 108.73,
+      "value": 108.73,
+      "timestamp": 1782647400
+    },
+    {
+      "datetime": "2026-06-28T11:55:00Z",
+      "blockheight": 856166,
+      "funding_rate": 108.76,
+      "value": 108.76,
+      "timestamp": 1782647700
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856167,
+      "funding_rate": 108.79,
+      "value": 108.79,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T12:05:00Z",
+      "blockheight": 856168,
+      "funding_rate": 108.82,
+      "value": 108.82,
+      "timestamp": 1782648300
+    },
+    {
+      "datetime": "2026-06-28T12:10:00Z",
+      "blockheight": 856169,
+      "funding_rate": 108.85,
+      "value": 108.85,
+      "timestamp": 1782648600
+    },
+    {
+      "datetime": "2026-06-28T12:15:00Z",
+      "blockheight": 856170,
+      "funding_rate": 108.88,
+      "value": 108.88,
+      "timestamp": 1782648900
+    },
+    {
+      "datetime": "2026-06-28T12:20:00Z",
+      "blockheight": 856171,
+      "funding_rate": 108.91,
+      "value": 108.91,
+      "timestamp": 1782649200
+    },
+    {
+      "datetime": "2026-06-28T12:25:00Z",
+      "blockheight": 856172,
+      "funding_rate": 108.94,
+      "value": 108.94,
+      "timestamp": 1782649500
+    },
+    {
+      "datetime": "2026-06-28T12:30:00Z",
+      "blockheight": 856173,
+      "funding_rate": 108.97,
+      "value": 108.97,
+      "timestamp": 1782649800
+    },
+    {
+      "datetime": "2026-06-28T12:35:00Z",
+      "blockheight": 856174,
+      "funding_rate": 109.0,
+      "value": 109.0,
+      "timestamp": 1782650100
+    },
+    {
+      "datetime": "2026-06-28T12:40:00Z",
+      "blockheight": 856175,
+      "funding_rate": 109.03,
+      "value": 109.03,
+      "timestamp": 1782650400
+    },
+    {
+      "datetime": "2026-06-28T12:45:00Z",
+      "blockheight": 856176,
+      "funding_rate": 109.06,
+      "value": 109.06,
+      "timestamp": 1782650700
+    },
+    {
+      "datetime": "2026-06-28T12:50:00Z",
+      "blockheight": 856177,
+      "funding_rate": 109.09,
+      "value": 109.09,
+      "timestamp": 1782651000
+    },
+    {
+      "datetime": "2026-06-28T12:55:00Z",
+      "blockheight": 856178,
+      "funding_rate": 109.12,
+      "value": 109.12,
+      "timestamp": 1782651300
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856179,
+      "funding_rate": 109.15,
+      "value": 109.15,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T13:05:00Z",
+      "blockheight": 856180,
+      "funding_rate": 109.18,
+      "value": 109.18,
+      "timestamp": 1782651900
+    },
+    {
+      "datetime": "2026-06-28T13:10:00Z",
+      "blockheight": 856181,
+      "funding_rate": 109.21,
+      "value": 109.21,
+      "timestamp": 1782652200
+    },
+    {
+      "datetime": "2026-06-28T13:15:00Z",
+      "blockheight": 856182,
+      "funding_rate": 109.24,
+      "value": 109.24,
+      "timestamp": 1782652500
+    },
+    {
+      "datetime": "2026-06-28T13:20:00Z",
+      "blockheight": 856183,
+      "funding_rate": 109.27,
+      "value": 109.27,
+      "timestamp": 1782652800
+    },
+    {
+      "datetime": "2026-06-28T13:25:00Z",
+      "blockheight": 856184,
+      "funding_rate": 109.3,
+      "value": 109.3,
+      "timestamp": 1782653100
+    },
+    {
+      "datetime": "2026-06-28T13:30:00Z",
+      "blockheight": 856185,
+      "funding_rate": 109.33,
+      "value": 109.33,
+      "timestamp": 1782653400
+    },
+    {
+      "datetime": "2026-06-28T13:35:00Z",
+      "blockheight": 856186,
+      "funding_rate": 109.36,
+      "value": 109.36,
+      "timestamp": 1782653700
+    },
+    {
+      "datetime": "2026-06-28T13:40:00Z",
+      "blockheight": 856187,
+      "funding_rate": 109.39,
+      "value": 109.39,
+      "timestamp": 1782654000
+    },
+    {
+      "datetime": "2026-06-28T13:45:00Z",
+      "blockheight": 856188,
+      "funding_rate": 109.42,
+      "value": 109.42,
+      "timestamp": 1782654300
+    },
+    {
+      "datetime": "2026-06-28T13:50:00Z",
+      "blockheight": 856189,
+      "funding_rate": 109.45,
+      "value": 109.45,
+      "timestamp": 1782654600
+    },
+    {
+      "datetime": "2026-06-28T13:55:00Z",
+      "blockheight": 856190,
+      "funding_rate": 109.48,
+      "value": 109.48,
+      "timestamp": 1782654900
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856191,
+      "funding_rate": 109.51,
+      "value": 109.51,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T14:05:00Z",
+      "blockheight": 856192,
+      "funding_rate": 109.54,
+      "value": 109.54,
+      "timestamp": 1782655500
+    },
+    {
+      "datetime": "2026-06-28T14:10:00Z",
+      "blockheight": 856193,
+      "funding_rate": 109.57,
+      "value": 109.57,
+      "timestamp": 1782655800
+    },
+    {
+      "datetime": "2026-06-28T14:15:00Z",
+      "blockheight": 856194,
+      "funding_rate": 109.6,
+      "value": 109.6,
+      "timestamp": 1782656100
+    },
+    {
+      "datetime": "2026-06-28T14:20:00Z",
+      "blockheight": 856195,
+      "funding_rate": 109.63,
+      "value": 109.63,
+      "timestamp": 1782656400
+    },
+    {
+      "datetime": "2026-06-28T14:25:00Z",
+      "blockheight": 856196,
+      "funding_rate": 109.66,
+      "value": 109.66,
+      "timestamp": 1782656700
+    },
+    {
+      "datetime": "2026-06-28T14:30:00Z",
+      "blockheight": 856197,
+      "funding_rate": 109.69,
+      "value": 109.69,
+      "timestamp": 1782657000
+    },
+    {
+      "datetime": "2026-06-28T14:35:00Z",
+      "blockheight": 856198,
+      "funding_rate": 109.72,
+      "value": 109.72,
+      "timestamp": 1782657300
+    },
+    {
+      "datetime": "2026-06-28T14:40:00Z",
+      "blockheight": 856199,
+      "funding_rate": 109.75,
+      "value": 109.75,
+      "timestamp": 1782657600
+    },
+    {
+      "datetime": "2026-06-28T14:45:00Z",
+      "blockheight": 856200,
+      "funding_rate": 109.78,
+      "value": 109.78,
+      "timestamp": 1782657900
+    },
+    {
+      "datetime": "2026-06-28T14:50:00Z",
+      "blockheight": 856201,
+      "funding_rate": 109.81,
+      "value": 109.81,
+      "timestamp": 1782658200
+    },
+    {
+      "datetime": "2026-06-28T14:55:00Z",
+      "blockheight": 856202,
+      "funding_rate": 109.84,
+      "value": 109.84,
+      "timestamp": 1782658500
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856203,
+      "funding_rate": 109.87,
+      "value": 109.87,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T15:05:00Z",
+      "blockheight": 856204,
+      "funding_rate": 109.9,
+      "value": 109.9,
+      "timestamp": 1782659100
+    },
+    {
+      "datetime": "2026-06-28T15:10:00Z",
+      "blockheight": 856205,
+      "funding_rate": 109.93,
+      "value": 109.93,
+      "timestamp": 1782659400
+    },
+    {
+      "datetime": "2026-06-28T15:15:00Z",
+      "blockheight": 856206,
+      "funding_rate": 109.96,
+      "value": 109.96,
+      "timestamp": 1782659700
+    },
+    {
+      "datetime": "2026-06-28T15:20:00Z",
+      "blockheight": 856207,
+      "funding_rate": 109.99,
+      "value": 109.99,
+      "timestamp": 1782660000
+    },
+    {
+      "datetime": "2026-06-28T15:25:00Z",
+      "blockheight": 856208,
+      "funding_rate": 110.02,
+      "value": 110.02,
+      "timestamp": 1782660300
+    },
+    {
+      "datetime": "2026-06-28T15:30:00Z",
+      "blockheight": 856209,
+      "funding_rate": 110.05,
+      "value": 110.05,
+      "timestamp": 1782660600
+    },
+    {
+      "datetime": "2026-06-28T15:35:00Z",
+      "blockheight": 856210,
+      "funding_rate": 110.08,
+      "value": 110.08,
+      "timestamp": 1782660900
+    },
+    {
+      "datetime": "2026-06-28T15:40:00Z",
+      "blockheight": 856211,
+      "funding_rate": 110.11,
+      "value": 110.11,
+      "timestamp": 1782661200
+    },
+    {
+      "datetime": "2026-06-28T15:45:00Z",
+      "blockheight": 856212,
+      "funding_rate": 110.14,
+      "value": 110.14,
+      "timestamp": 1782661500
+    },
+    {
+      "datetime": "2026-06-28T15:50:00Z",
+      "blockheight": 856213,
+      "funding_rate": 110.17,
+      "value": 110.17,
+      "timestamp": 1782661800
+    },
+    {
+      "datetime": "2026-06-28T15:55:00Z",
+      "blockheight": 856214,
+      "funding_rate": 110.2,
+      "value": 110.2,
+      "timestamp": 1782662100
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856215,
+      "funding_rate": 110.23,
+      "value": 110.23,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T16:05:00Z",
+      "blockheight": 856216,
+      "funding_rate": 110.26,
+      "value": 110.26,
+      "timestamp": 1782662700
+    },
+    {
+      "datetime": "2026-06-28T16:10:00Z",
+      "blockheight": 856217,
+      "funding_rate": 110.29,
+      "value": 110.29,
+      "timestamp": 1782663000
+    },
+    {
+      "datetime": "2026-06-28T16:15:00Z",
+      "blockheight": 856218,
+      "funding_rate": 110.32,
+      "value": 110.32,
+      "timestamp": 1782663300
+    },
+    {
+      "datetime": "2026-06-28T16:20:00Z",
+      "blockheight": 856219,
+      "funding_rate": 110.35,
+      "value": 110.35,
+      "timestamp": 1782663600
+    },
+    {
+      "datetime": "2026-06-28T16:25:00Z",
+      "blockheight": 856220,
+      "funding_rate": 110.38,
+      "value": 110.38,
+      "timestamp": 1782663900
+    },
+    {
+      "datetime": "2026-06-28T16:30:00Z",
+      "blockheight": 856221,
+      "funding_rate": 110.41,
+      "value": 110.41,
+      "timestamp": 1782664200
+    },
+    {
+      "datetime": "2026-06-28T16:35:00Z",
+      "blockheight": 856222,
+      "funding_rate": 110.44,
+      "value": 110.44,
+      "timestamp": 1782664500
+    },
+    {
+      "datetime": "2026-06-28T16:40:00Z",
+      "blockheight": 856223,
+      "funding_rate": 110.47,
+      "value": 110.47,
+      "timestamp": 1782664800
+    },
+    {
+      "datetime": "2026-06-28T16:45:00Z",
+      "blockheight": 856224,
+      "funding_rate": 110.5,
+      "value": 110.5,
+      "timestamp": 1782665100
+    },
+    {
+      "datetime": "2026-06-28T16:50:00Z",
+      "blockheight": 856225,
+      "funding_rate": 110.53,
+      "value": 110.53,
+      "timestamp": 1782665400
+    },
+    {
+      "datetime": "2026-06-28T16:55:00Z",
+      "blockheight": 856226,
+      "funding_rate": 110.56,
+      "value": 110.56,
+      "timestamp": 1782665700
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856227,
+      "funding_rate": 110.59,
+      "value": 110.59,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T17:05:00Z",
+      "blockheight": 856228,
+      "funding_rate": 110.62,
+      "value": 110.62,
+      "timestamp": 1782666300
+    },
+    {
+      "datetime": "2026-06-28T17:10:00Z",
+      "blockheight": 856229,
+      "funding_rate": 110.65,
+      "value": 110.65,
+      "timestamp": 1782666600
+    },
+    {
+      "datetime": "2026-06-28T17:15:00Z",
+      "blockheight": 856230,
+      "funding_rate": 110.68,
+      "value": 110.68,
+      "timestamp": 1782666900
+    },
+    {
+      "datetime": "2026-06-28T17:20:00Z",
+      "blockheight": 856231,
+      "funding_rate": 110.71,
+      "value": 110.71,
+      "timestamp": 1782667200
+    },
+    {
+      "datetime": "2026-06-28T17:25:00Z",
+      "blockheight": 856232,
+      "funding_rate": 110.74,
+      "value": 110.74,
+      "timestamp": 1782667500
+    },
+    {
+      "datetime": "2026-06-28T17:30:00Z",
+      "blockheight": 856233,
+      "funding_rate": 110.77,
+      "value": 110.77,
+      "timestamp": 1782667800
+    },
+    {
+      "datetime": "2026-06-28T17:35:00Z",
+      "blockheight": 856234,
+      "funding_rate": 110.8,
+      "value": 110.8,
+      "timestamp": 1782668100
+    },
+    {
+      "datetime": "2026-06-28T17:40:00Z",
+      "blockheight": 856235,
+      "funding_rate": 110.83,
+      "value": 110.83,
+      "timestamp": 1782668400
+    },
+    {
+      "datetime": "2026-06-28T17:45:00Z",
+      "blockheight": 856236,
+      "funding_rate": 110.86,
+      "value": 110.86,
+      "timestamp": 1782668700
+    },
+    {
+      "datetime": "2026-06-28T17:50:00Z",
+      "blockheight": 856237,
+      "funding_rate": 110.89,
+      "value": 110.89,
+      "timestamp": 1782669000
+    },
+    {
+      "datetime": "2026-06-28T17:55:00Z",
+      "blockheight": 856238,
+      "funding_rate": 110.92,
+      "value": 110.92,
+      "timestamp": 1782669300
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856239,
+      "funding_rate": 110.95,
+      "value": 110.95,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T18:05:00Z",
+      "blockheight": 856240,
+      "funding_rate": 110.98,
+      "value": 110.98,
+      "timestamp": 1782669900
+    },
+    {
+      "datetime": "2026-06-28T18:10:00Z",
+      "blockheight": 856241,
+      "funding_rate": 111.01,
+      "value": 111.01,
+      "timestamp": 1782670200
+    },
+    {
+      "datetime": "2026-06-28T18:15:00Z",
+      "blockheight": 856242,
+      "funding_rate": 111.04,
+      "value": 111.04,
+      "timestamp": 1782670500
+    },
+    {
+      "datetime": "2026-06-28T18:20:00Z",
+      "blockheight": 856243,
+      "funding_rate": 111.07,
+      "value": 111.07,
+      "timestamp": 1782670800
+    },
+    {
+      "datetime": "2026-06-28T18:25:00Z",
+      "blockheight": 856244,
+      "funding_rate": 111.1,
+      "value": 111.1,
+      "timestamp": 1782671100
+    },
+    {
+      "datetime": "2026-06-28T18:30:00Z",
+      "blockheight": 856245,
+      "funding_rate": 111.13,
+      "value": 111.13,
+      "timestamp": 1782671400
+    },
+    {
+      "datetime": "2026-06-28T18:35:00Z",
+      "blockheight": 856246,
+      "funding_rate": 111.16,
+      "value": 111.16,
+      "timestamp": 1782671700
+    },
+    {
+      "datetime": "2026-06-28T18:40:00Z",
+      "blockheight": 856247,
+      "funding_rate": 111.19,
+      "value": 111.19,
+      "timestamp": 1782672000
+    },
+    {
+      "datetime": "2026-06-28T18:45:00Z",
+      "blockheight": 856248,
+      "funding_rate": 111.22,
+      "value": 111.22,
+      "timestamp": 1782672300
+    },
+    {
+      "datetime": "2026-06-28T18:50:00Z",
+      "blockheight": 856249,
+      "funding_rate": 111.25,
+      "value": 111.25,
+      "timestamp": 1782672600
+    },
+    {
+      "datetime": "2026-06-28T18:55:00Z",
+      "blockheight": 856250,
+      "funding_rate": 111.28,
+      "value": 111.28,
+      "timestamp": 1782672900
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856251,
+      "funding_rate": 111.31,
+      "value": 111.31,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T19:05:00Z",
+      "blockheight": 856252,
+      "funding_rate": 111.34,
+      "value": 111.34,
+      "timestamp": 1782673500
+    },
+    {
+      "datetime": "2026-06-28T19:10:00Z",
+      "blockheight": 856253,
+      "funding_rate": 111.37,
+      "value": 111.37,
+      "timestamp": 1782673800
+    },
+    {
+      "datetime": "2026-06-28T19:15:00Z",
+      "blockheight": 856254,
+      "funding_rate": 111.4,
+      "value": 111.4,
+      "timestamp": 1782674100
+    },
+    {
+      "datetime": "2026-06-28T19:20:00Z",
+      "blockheight": 856255,
+      "funding_rate": 111.43,
+      "value": 111.43,
+      "timestamp": 1782674400
+    },
+    {
+      "datetime": "2026-06-28T19:25:00Z",
+      "blockheight": 856256,
+      "funding_rate": 111.46,
+      "value": 111.46,
+      "timestamp": 1782674700
+    },
+    {
+      "datetime": "2026-06-28T19:30:00Z",
+      "blockheight": 856257,
+      "funding_rate": 111.49,
+      "value": 111.49,
+      "timestamp": 1782675000
+    },
+    {
+      "datetime": "2026-06-28T19:35:00Z",
+      "blockheight": 856258,
+      "funding_rate": 111.52,
+      "value": 111.52,
+      "timestamp": 1782675300
+    },
+    {
+      "datetime": "2026-06-28T19:40:00Z",
+      "blockheight": 856259,
+      "funding_rate": 111.55,
+      "value": 111.55,
+      "timestamp": 1782675600
+    },
+    {
+      "datetime": "2026-06-28T19:45:00Z",
+      "blockheight": 856260,
+      "funding_rate": 111.58,
+      "value": 111.58,
+      "timestamp": 1782675900
+    },
+    {
+      "datetime": "2026-06-28T19:50:00Z",
+      "blockheight": 856261,
+      "funding_rate": 111.61,
+      "value": 111.61,
+      "timestamp": 1782676200
+    },
+    {
+      "datetime": "2026-06-28T19:55:00Z",
+      "blockheight": 856262,
+      "funding_rate": 111.64,
+      "value": 111.64,
+      "timestamp": 1782676500
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856263,
+      "funding_rate": 111.67,
+      "value": 111.67,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T20:05:00Z",
+      "blockheight": 856264,
+      "funding_rate": 111.7,
+      "value": 111.7,
+      "timestamp": 1782677100
+    },
+    {
+      "datetime": "2026-06-28T20:10:00Z",
+      "blockheight": 856265,
+      "funding_rate": 111.73,
+      "value": 111.73,
+      "timestamp": 1782677400
+    },
+    {
+      "datetime": "2026-06-28T20:15:00Z",
+      "blockheight": 856266,
+      "funding_rate": 111.76,
+      "value": 111.76,
+      "timestamp": 1782677700
+    },
+    {
+      "datetime": "2026-06-28T20:20:00Z",
+      "blockheight": 856267,
+      "funding_rate": 111.79,
+      "value": 111.79,
+      "timestamp": 1782678000
+    },
+    {
+      "datetime": "2026-06-28T20:25:00Z",
+      "blockheight": 856268,
+      "funding_rate": 111.82,
+      "value": 111.82,
+      "timestamp": 1782678300
+    },
+    {
+      "datetime": "2026-06-28T20:30:00Z",
+      "blockheight": 856269,
+      "funding_rate": 111.85,
+      "value": 111.85,
+      "timestamp": 1782678600
+    },
+    {
+      "datetime": "2026-06-28T20:35:00Z",
+      "blockheight": 856270,
+      "funding_rate": 111.88,
+      "value": 111.88,
+      "timestamp": 1782678900
+    },
+    {
+      "datetime": "2026-06-28T20:40:00Z",
+      "blockheight": 856271,
+      "funding_rate": 111.91,
+      "value": 111.91,
+      "timestamp": 1782679200
+    },
+    {
+      "datetime": "2026-06-28T20:45:00Z",
+      "blockheight": 856272,
+      "funding_rate": 111.94,
+      "value": 111.94,
+      "timestamp": 1782679500
+    },
+    {
+      "datetime": "2026-06-28T20:50:00Z",
+      "blockheight": 856273,
+      "funding_rate": 111.97,
+      "value": 111.97,
+      "timestamp": 1782679800
+    },
+    {
+      "datetime": "2026-06-28T20:55:00Z",
+      "blockheight": 856274,
+      "funding_rate": 112.0,
+      "value": 112.0,
+      "timestamp": 1782680100
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856275,
+      "funding_rate": 112.03,
+      "value": 112.03,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T21:05:00Z",
+      "blockheight": 856276,
+      "funding_rate": 112.06,
+      "value": 112.06,
+      "timestamp": 1782680700
+    },
+    {
+      "datetime": "2026-06-28T21:10:00Z",
+      "blockheight": 856277,
+      "funding_rate": 112.09,
+      "value": 112.09,
+      "timestamp": 1782681000
+    },
+    {
+      "datetime": "2026-06-28T21:15:00Z",
+      "blockheight": 856278,
+      "funding_rate": 112.12,
+      "value": 112.12,
+      "timestamp": 1782681300
+    },
+    {
+      "datetime": "2026-06-28T21:20:00Z",
+      "blockheight": 856279,
+      "funding_rate": 112.15,
+      "value": 112.15,
+      "timestamp": 1782681600
+    },
+    {
+      "datetime": "2026-06-28T21:25:00Z",
+      "blockheight": 856280,
+      "funding_rate": 112.18,
+      "value": 112.18,
+      "timestamp": 1782681900
+    },
+    {
+      "datetime": "2026-06-28T21:30:00Z",
+      "blockheight": 856281,
+      "funding_rate": 112.21,
+      "value": 112.21,
+      "timestamp": 1782682200
+    },
+    {
+      "datetime": "2026-06-28T21:35:00Z",
+      "blockheight": 856282,
+      "funding_rate": 112.24,
+      "value": 112.24,
+      "timestamp": 1782682500
+    },
+    {
+      "datetime": "2026-06-28T21:40:00Z",
+      "blockheight": 856283,
+      "funding_rate": 112.27,
+      "value": 112.27,
+      "timestamp": 1782682800
+    },
+    {
+      "datetime": "2026-06-28T21:45:00Z",
+      "blockheight": 856284,
+      "funding_rate": 112.3,
+      "value": 112.3,
+      "timestamp": 1782683100
+    },
+    {
+      "datetime": "2026-06-28T21:50:00Z",
+      "blockheight": 856285,
+      "funding_rate": 112.33,
+      "value": 112.33,
+      "timestamp": 1782683400
+    },
+    {
+      "datetime": "2026-06-28T21:55:00Z",
+      "blockheight": 856286,
+      "funding_rate": 112.36,
+      "value": 112.36,
+      "timestamp": 1782683700
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856287,
+      "funding_rate": 112.39,
+      "value": 112.39,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T22:05:00Z",
+      "blockheight": 856288,
+      "funding_rate": 112.42,
+      "value": 112.42,
+      "timestamp": 1782684300
+    },
+    {
+      "datetime": "2026-06-28T22:10:00Z",
+      "blockheight": 856289,
+      "funding_rate": 112.45,
+      "value": 112.45,
+      "timestamp": 1782684600
+    },
+    {
+      "datetime": "2026-06-28T22:15:00Z",
+      "blockheight": 856290,
+      "funding_rate": 112.48,
+      "value": 112.48,
+      "timestamp": 1782684900
+    },
+    {
+      "datetime": "2026-06-28T22:20:00Z",
+      "blockheight": 856291,
+      "funding_rate": 112.51,
+      "value": 112.51,
+      "timestamp": 1782685200
+    },
+    {
+      "datetime": "2026-06-28T22:25:00Z",
+      "blockheight": 856292,
+      "funding_rate": 112.54,
+      "value": 112.54,
+      "timestamp": 1782685500
+    },
+    {
+      "datetime": "2026-06-28T22:30:00Z",
+      "blockheight": 856293,
+      "funding_rate": 112.57,
+      "value": 112.57,
+      "timestamp": 1782685800
+    },
+    {
+      "datetime": "2026-06-28T22:35:00Z",
+      "blockheight": 856294,
+      "funding_rate": 112.6,
+      "value": 112.6,
+      "timestamp": 1782686100
+    },
+    {
+      "datetime": "2026-06-28T22:40:00Z",
+      "blockheight": 856295,
+      "funding_rate": 112.63,
+      "value": 112.63,
+      "timestamp": 1782686400
+    },
+    {
+      "datetime": "2026-06-28T22:45:00Z",
+      "blockheight": 856296,
+      "funding_rate": 112.66,
+      "value": 112.66,
+      "timestamp": 1782686700
+    },
+    {
+      "datetime": "2026-06-28T22:50:00Z",
+      "blockheight": 856297,
+      "funding_rate": 112.69,
+      "value": 112.69,
+      "timestamp": 1782687000
+    },
+    {
+      "datetime": "2026-06-28T22:55:00Z",
+      "blockheight": 856298,
+      "funding_rate": 112.72,
+      "value": 112.72,
+      "timestamp": 1782687300
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856299,
+      "funding_rate": 112.75,
+      "value": 112.75,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-28T23:05:00Z",
+      "blockheight": 856300,
+      "funding_rate": 112.78,
+      "value": 112.78,
+      "timestamp": 1782687900
+    },
+    {
+      "datetime": "2026-06-28T23:10:00Z",
+      "blockheight": 856301,
+      "funding_rate": 112.81,
+      "value": 112.81,
+      "timestamp": 1782688200
+    },
+    {
+      "datetime": "2026-06-28T23:15:00Z",
+      "blockheight": 856302,
+      "funding_rate": 112.84,
+      "value": 112.84,
+      "timestamp": 1782688500
+    },
+    {
+      "datetime": "2026-06-28T23:20:00Z",
+      "blockheight": 856303,
+      "funding_rate": 112.87,
+      "value": 112.87,
+      "timestamp": 1782688800
+    },
+    {
+      "datetime": "2026-06-28T23:25:00Z",
+      "blockheight": 856304,
+      "funding_rate": 112.9,
+      "value": 112.9,
+      "timestamp": 1782689100
+    },
+    {
+      "datetime": "2026-06-28T23:30:00Z",
+      "blockheight": 856305,
+      "funding_rate": 112.93,
+      "value": 112.93,
+      "timestamp": 1782689400
+    },
+    {
+      "datetime": "2026-06-28T23:35:00Z",
+      "blockheight": 856306,
+      "funding_rate": 112.96,
+      "value": 112.96,
+      "timestamp": 1782689700
+    },
+    {
+      "datetime": "2026-06-28T23:40:00Z",
+      "blockheight": 856307,
+      "funding_rate": 112.99,
+      "value": 112.99,
+      "timestamp": 1782690000
+    },
+    {
+      "datetime": "2026-06-28T23:45:00Z",
+      "blockheight": 856308,
+      "funding_rate": 113.02,
+      "value": 113.02,
+      "timestamp": 1782690300
+    },
+    {
+      "datetime": "2026-06-28T23:50:00Z",
+      "blockheight": 856309,
+      "funding_rate": 113.05,
+      "value": 113.05,
+      "timestamp": 1782690600
+    },
+    {
+      "datetime": "2026-06-28T23:55:00Z",
+      "blockheight": 856310,
+      "funding_rate": 113.08,
+      "value": 113.08,
+      "timestamp": 1782690900
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856311,
+      "funding_rate": 113.11,
+      "value": 113.11,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T00:05:00Z",
+      "blockheight": 856312,
+      "funding_rate": 113.14,
+      "value": 113.14,
+      "timestamp": 1782691500
+    },
+    {
+      "datetime": "2026-06-29T00:10:00Z",
+      "blockheight": 856313,
+      "funding_rate": 113.17,
+      "value": 113.17,
+      "timestamp": 1782691800
+    },
+    {
+      "datetime": "2026-06-29T00:15:00Z",
+      "blockheight": 856314,
+      "funding_rate": 113.2,
+      "value": 113.2,
+      "timestamp": 1782692100
+    },
+    {
+      "datetime": "2026-06-29T00:20:00Z",
+      "blockheight": 856315,
+      "funding_rate": 113.23,
+      "value": 113.23,
+      "timestamp": 1782692400
+    },
+    {
+      "datetime": "2026-06-29T00:25:00Z",
+      "blockheight": 856316,
+      "funding_rate": 113.26,
+      "value": 113.26,
+      "timestamp": 1782692700
+    },
+    {
+      "datetime": "2026-06-29T00:30:00Z",
+      "blockheight": 856317,
+      "funding_rate": 113.29,
+      "value": 113.29,
+      "timestamp": 1782693000
+    },
+    {
+      "datetime": "2026-06-29T00:35:00Z",
+      "blockheight": 856318,
+      "funding_rate": 113.32,
+      "value": 113.32,
+      "timestamp": 1782693300
+    },
+    {
+      "datetime": "2026-06-29T00:40:00Z",
+      "blockheight": 856319,
+      "funding_rate": 113.35,
+      "value": 113.35,
+      "timestamp": 1782693600
+    },
+    {
+      "datetime": "2026-06-29T00:45:00Z",
+      "blockheight": 856320,
+      "funding_rate": 113.38,
+      "value": 113.38,
+      "timestamp": 1782693900
+    },
+    {
+      "datetime": "2026-06-29T00:50:00Z",
+      "blockheight": 856321,
+      "funding_rate": 113.41,
+      "value": 113.41,
+      "timestamp": 1782694200
+    },
+    {
+      "datetime": "2026-06-29T00:55:00Z",
+      "blockheight": 856322,
+      "funding_rate": 113.44,
+      "value": 113.44,
+      "timestamp": 1782694500
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856323,
+      "funding_rate": 113.47,
+      "value": 113.47,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T01:05:00Z",
+      "blockheight": 856324,
+      "funding_rate": 113.5,
+      "value": 113.5,
+      "timestamp": 1782695100
+    },
+    {
+      "datetime": "2026-06-29T01:10:00Z",
+      "blockheight": 856325,
+      "funding_rate": 113.53,
+      "value": 113.53,
+      "timestamp": 1782695400
+    },
+    {
+      "datetime": "2026-06-29T01:15:00Z",
+      "blockheight": 856326,
+      "funding_rate": 113.56,
+      "value": 113.56,
+      "timestamp": 1782695700
+    },
+    {
+      "datetime": "2026-06-29T01:20:00Z",
+      "blockheight": 856327,
+      "funding_rate": 113.59,
+      "value": 113.59,
+      "timestamp": 1782696000
+    },
+    {
+      "datetime": "2026-06-29T01:25:00Z",
+      "blockheight": 856328,
+      "funding_rate": 113.62,
+      "value": 113.62,
+      "timestamp": 1782696300
+    },
+    {
+      "datetime": "2026-06-29T01:30:00Z",
+      "blockheight": 856329,
+      "funding_rate": 113.65,
+      "value": 113.65,
+      "timestamp": 1782696600
+    },
+    {
+      "datetime": "2026-06-29T01:35:00Z",
+      "blockheight": 856330,
+      "funding_rate": 113.68,
+      "value": 113.68,
+      "timestamp": 1782696900
+    },
+    {
+      "datetime": "2026-06-29T01:40:00Z",
+      "blockheight": 856331,
+      "funding_rate": 113.71,
+      "value": 113.71,
+      "timestamp": 1782697200
+    },
+    {
+      "datetime": "2026-06-29T01:45:00Z",
+      "blockheight": 856332,
+      "funding_rate": 113.74,
+      "value": 113.74,
+      "timestamp": 1782697500
+    },
+    {
+      "datetime": "2026-06-29T01:50:00Z",
+      "blockheight": 856333,
+      "funding_rate": 113.77,
+      "value": 113.77,
+      "timestamp": 1782697800
+    },
+    {
+      "datetime": "2026-06-29T01:55:00Z",
+      "blockheight": 856334,
+      "funding_rate": 113.8,
+      "value": 113.8,
+      "timestamp": 1782698100
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856335,
+      "funding_rate": 113.83,
+      "value": 113.83,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T02:05:00Z",
+      "blockheight": 856336,
+      "funding_rate": 113.86,
+      "value": 113.86,
+      "timestamp": 1782698700
+    },
+    {
+      "datetime": "2026-06-29T02:10:00Z",
+      "blockheight": 856337,
+      "funding_rate": 113.89,
+      "value": 113.89,
+      "timestamp": 1782699000
+    },
+    {
+      "datetime": "2026-06-29T02:15:00Z",
+      "blockheight": 856338,
+      "funding_rate": 113.92,
+      "value": 113.92,
+      "timestamp": 1782699300
+    },
+    {
+      "datetime": "2026-06-29T02:20:00Z",
+      "blockheight": 856339,
+      "funding_rate": 113.95,
+      "value": 113.95,
+      "timestamp": 1782699600
+    },
+    {
+      "datetime": "2026-06-29T02:25:00Z",
+      "blockheight": 856340,
+      "funding_rate": 113.98,
+      "value": 113.98,
+      "timestamp": 1782699900
+    },
+    {
+      "datetime": "2026-06-29T02:30:00Z",
+      "blockheight": 856341,
+      "funding_rate": 114.01,
+      "value": 114.01,
+      "timestamp": 1782700200
+    },
+    {
+      "datetime": "2026-06-29T02:35:00Z",
+      "blockheight": 856342,
+      "funding_rate": 114.04,
+      "value": 114.04,
+      "timestamp": 1782700500
+    },
+    {
+      "datetime": "2026-06-29T02:40:00Z",
+      "blockheight": 856343,
+      "funding_rate": 114.07,
+      "value": 114.07,
+      "timestamp": 1782700800
+    },
+    {
+      "datetime": "2026-06-29T02:45:00Z",
+      "blockheight": 856344,
+      "funding_rate": 114.1,
+      "value": 114.1,
+      "timestamp": 1782701100
+    },
+    {
+      "datetime": "2026-06-29T02:50:00Z",
+      "blockheight": 856345,
+      "funding_rate": 114.13,
+      "value": 114.13,
+      "timestamp": 1782701400
+    },
+    {
+      "datetime": "2026-06-29T02:55:00Z",
+      "blockheight": 856346,
+      "funding_rate": 114.16,
+      "value": 114.16,
+      "timestamp": 1782701700
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856347,
+      "funding_rate": 114.19,
+      "value": 114.19,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T03:05:00Z",
+      "blockheight": 856348,
+      "funding_rate": 114.22,
+      "value": 114.22,
+      "timestamp": 1782702300
+    },
+    {
+      "datetime": "2026-06-29T03:10:00Z",
+      "blockheight": 856349,
+      "funding_rate": 114.25,
+      "value": 114.25,
+      "timestamp": 1782702600
+    },
+    {
+      "datetime": "2026-06-29T03:15:00Z",
+      "blockheight": 856350,
+      "funding_rate": 114.28,
+      "value": 114.28,
+      "timestamp": 1782702900
+    },
+    {
+      "datetime": "2026-06-29T03:20:00Z",
+      "blockheight": 856351,
+      "funding_rate": 114.31,
+      "value": 114.31,
+      "timestamp": 1782703200
+    },
+    {
+      "datetime": "2026-06-29T03:25:00Z",
+      "blockheight": 856352,
+      "funding_rate": 114.34,
+      "value": 114.34,
+      "timestamp": 1782703500
+    },
+    {
+      "datetime": "2026-06-29T03:30:00Z",
+      "blockheight": 856353,
+      "funding_rate": 114.37,
+      "value": 114.37,
+      "timestamp": 1782703800
+    },
+    {
+      "datetime": "2026-06-29T03:35:00Z",
+      "blockheight": 856354,
+      "funding_rate": 114.4,
+      "value": 114.4,
+      "timestamp": 1782704100
+    },
+    {
+      "datetime": "2026-06-29T03:40:00Z",
+      "blockheight": 856355,
+      "funding_rate": 114.43,
+      "value": 114.43,
+      "timestamp": 1782704400
+    },
+    {
+      "datetime": "2026-06-29T03:45:00Z",
+      "blockheight": 856356,
+      "funding_rate": 114.46,
+      "value": 114.46,
+      "timestamp": 1782704700
+    },
+    {
+      "datetime": "2026-06-29T03:50:00Z",
+      "blockheight": 856357,
+      "funding_rate": 114.49,
+      "value": 114.49,
+      "timestamp": 1782705000
+    },
+    {
+      "datetime": "2026-06-29T03:55:00Z",
+      "blockheight": 856358,
+      "funding_rate": 114.52,
+      "value": 114.52,
+      "timestamp": 1782705300
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856359,
+      "funding_rate": 114.55,
+      "value": 114.55,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T04:05:00Z",
+      "blockheight": 856360,
+      "funding_rate": 114.58,
+      "value": 114.58,
+      "timestamp": 1782705900
+    },
+    {
+      "datetime": "2026-06-29T04:10:00Z",
+      "blockheight": 856361,
+      "funding_rate": 114.61,
+      "value": 114.61,
+      "timestamp": 1782706200
+    },
+    {
+      "datetime": "2026-06-29T04:15:00Z",
+      "blockheight": 856362,
+      "funding_rate": 114.64,
+      "value": 114.64,
+      "timestamp": 1782706500
+    },
+    {
+      "datetime": "2026-06-29T04:20:00Z",
+      "blockheight": 856363,
+      "funding_rate": 114.67,
+      "value": 114.67,
+      "timestamp": 1782706800
+    },
+    {
+      "datetime": "2026-06-29T04:25:00Z",
+      "blockheight": 856364,
+      "funding_rate": 114.7,
+      "value": 114.7,
+      "timestamp": 1782707100
+    },
+    {
+      "datetime": "2026-06-29T04:30:00Z",
+      "blockheight": 856365,
+      "funding_rate": 114.73,
+      "value": 114.73,
+      "timestamp": 1782707400
+    },
+    {
+      "datetime": "2026-06-29T04:35:00Z",
+      "blockheight": 856366,
+      "funding_rate": 114.76,
+      "value": 114.76,
+      "timestamp": 1782707700
+    },
+    {
+      "datetime": "2026-06-29T04:40:00Z",
+      "blockheight": 856367,
+      "funding_rate": 114.79,
+      "value": 114.79,
+      "timestamp": 1782708000
+    },
+    {
+      "datetime": "2026-06-29T04:45:00Z",
+      "blockheight": 856368,
+      "funding_rate": 114.82,
+      "value": 114.82,
+      "timestamp": 1782708300
+    },
+    {
+      "datetime": "2026-06-29T04:50:00Z",
+      "blockheight": 856369,
+      "funding_rate": 114.85,
+      "value": 114.85,
+      "timestamp": 1782708600
+    },
+    {
+      "datetime": "2026-06-29T04:55:00Z",
+      "blockheight": 856370,
+      "funding_rate": 114.88,
+      "value": 114.88,
+      "timestamp": 1782708900
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856371,
+      "funding_rate": 114.91,
+      "value": 114.91,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T05:05:00Z",
+      "blockheight": 856372,
+      "funding_rate": 114.94,
+      "value": 114.94,
+      "timestamp": 1782709500
+    },
+    {
+      "datetime": "2026-06-29T05:10:00Z",
+      "blockheight": 856373,
+      "funding_rate": 114.97,
+      "value": 114.97,
+      "timestamp": 1782709800
+    },
+    {
+      "datetime": "2026-06-29T05:15:00Z",
+      "blockheight": 856374,
+      "funding_rate": 115.0,
+      "value": 115.0,
+      "timestamp": 1782710100
+    },
+    {
+      "datetime": "2026-06-29T05:20:00Z",
+      "blockheight": 856375,
+      "funding_rate": 115.03,
+      "value": 115.03,
+      "timestamp": 1782710400
+    },
+    {
+      "datetime": "2026-06-29T05:25:00Z",
+      "blockheight": 856376,
+      "funding_rate": 115.06,
+      "value": 115.06,
+      "timestamp": 1782710700
+    },
+    {
+      "datetime": "2026-06-29T05:30:00Z",
+      "blockheight": 856377,
+      "funding_rate": 115.09,
+      "value": 115.09,
+      "timestamp": 1782711000
+    },
+    {
+      "datetime": "2026-06-29T05:35:00Z",
+      "blockheight": 856378,
+      "funding_rate": 115.12,
+      "value": 115.12,
+      "timestamp": 1782711300
+    },
+    {
+      "datetime": "2026-06-29T05:40:00Z",
+      "blockheight": 856379,
+      "funding_rate": 115.15,
+      "value": 115.15,
+      "timestamp": 1782711600
+    },
+    {
+      "datetime": "2026-06-29T05:45:00Z",
+      "blockheight": 856380,
+      "funding_rate": 115.18,
+      "value": 115.18,
+      "timestamp": 1782711900
+    },
+    {
+      "datetime": "2026-06-29T05:50:00Z",
+      "blockheight": 856381,
+      "funding_rate": 115.21,
+      "value": 115.21,
+      "timestamp": 1782712200
+    },
+    {
+      "datetime": "2026-06-29T05:55:00Z",
+      "blockheight": 856382,
+      "funding_rate": 115.24,
+      "value": 115.24,
+      "timestamp": 1782712500
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856383,
+      "funding_rate": 115.27,
+      "value": 115.27,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T06:05:00Z",
+      "blockheight": 856384,
+      "funding_rate": 115.3,
+      "value": 115.3,
+      "timestamp": 1782713100
+    },
+    {
+      "datetime": "2026-06-29T06:10:00Z",
+      "blockheight": 856385,
+      "funding_rate": 115.33,
+      "value": 115.33,
+      "timestamp": 1782713400
+    },
+    {
+      "datetime": "2026-06-29T06:15:00Z",
+      "blockheight": 856386,
+      "funding_rate": 115.36,
+      "value": 115.36,
+      "timestamp": 1782713700
+    },
+    {
+      "datetime": "2026-06-29T06:20:00Z",
+      "blockheight": 856387,
+      "funding_rate": 115.39,
+      "value": 115.39,
+      "timestamp": 1782714000
+    },
+    {
+      "datetime": "2026-06-29T06:25:00Z",
+      "blockheight": 856388,
+      "funding_rate": 115.42,
+      "value": 115.42,
+      "timestamp": 1782714300
+    },
+    {
+      "datetime": "2026-06-29T06:30:00Z",
+      "blockheight": 856389,
+      "funding_rate": 115.45,
+      "value": 115.45,
+      "timestamp": 1782714600
+    },
+    {
+      "datetime": "2026-06-29T06:35:00Z",
+      "blockheight": 856390,
+      "funding_rate": 115.48,
+      "value": 115.48,
+      "timestamp": 1782714900
+    },
+    {
+      "datetime": "2026-06-29T06:40:00Z",
+      "blockheight": 856391,
+      "funding_rate": 115.51,
+      "value": 115.51,
+      "timestamp": 1782715200
+    },
+    {
+      "datetime": "2026-06-29T06:45:00Z",
+      "blockheight": 856392,
+      "funding_rate": 115.54,
+      "value": 115.54,
+      "timestamp": 1782715500
+    },
+    {
+      "datetime": "2026-06-29T06:50:00Z",
+      "blockheight": 856393,
+      "funding_rate": 115.57,
+      "value": 115.57,
+      "timestamp": 1782715800
+    },
+    {
+      "datetime": "2026-06-29T06:55:00Z",
+      "blockheight": 856394,
+      "funding_rate": 115.6,
+      "value": 115.6,
+      "timestamp": 1782716100
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856395,
+      "funding_rate": 115.63,
+      "value": 115.63,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T07:05:00Z",
+      "blockheight": 856396,
+      "funding_rate": 115.66,
+      "value": 115.66,
+      "timestamp": 1782716700
+    },
+    {
+      "datetime": "2026-06-29T07:10:00Z",
+      "blockheight": 856397,
+      "funding_rate": 115.69,
+      "value": 115.69,
+      "timestamp": 1782717000
+    },
+    {
+      "datetime": "2026-06-29T07:15:00Z",
+      "blockheight": 856398,
+      "funding_rate": 115.72,
+      "value": 115.72,
+      "timestamp": 1782717300
+    },
+    {
+      "datetime": "2026-06-29T07:20:00Z",
+      "blockheight": 856399,
+      "funding_rate": 115.75,
+      "value": 115.75,
+      "timestamp": 1782717600
+    },
+    {
+      "datetime": "2026-06-29T07:25:00Z",
+      "blockheight": 856400,
+      "funding_rate": 115.78,
+      "value": 115.78,
+      "timestamp": 1782717900
+    },
+    {
+      "datetime": "2026-06-29T07:30:00Z",
+      "blockheight": 856401,
+      "funding_rate": 115.81,
+      "value": 115.81,
+      "timestamp": 1782718200
+    },
+    {
+      "datetime": "2026-06-29T07:35:00Z",
+      "blockheight": 856402,
+      "funding_rate": 115.84,
+      "value": 115.84,
+      "timestamp": 1782718500
+    },
+    {
+      "datetime": "2026-06-29T07:40:00Z",
+      "blockheight": 856403,
+      "funding_rate": 115.87,
+      "value": 115.87,
+      "timestamp": 1782718800
+    },
+    {
+      "datetime": "2026-06-29T07:45:00Z",
+      "blockheight": 856404,
+      "funding_rate": 115.9,
+      "value": 115.9,
+      "timestamp": 1782719100
+    },
+    {
+      "datetime": "2026-06-29T07:50:00Z",
+      "blockheight": 856405,
+      "funding_rate": 115.93,
+      "value": 115.93,
+      "timestamp": 1782719400
+    },
+    {
+      "datetime": "2026-06-29T07:55:00Z",
+      "blockheight": 856406,
+      "funding_rate": 115.96,
+      "value": 115.96,
+      "timestamp": 1782719700
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856407,
+      "funding_rate": 115.99,
+      "value": 115.99,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T08:05:00Z",
+      "blockheight": 856408,
+      "funding_rate": 116.02,
+      "value": 116.02,
+      "timestamp": 1782720300
+    },
+    {
+      "datetime": "2026-06-29T08:10:00Z",
+      "blockheight": 856409,
+      "funding_rate": 116.05,
+      "value": 116.05,
+      "timestamp": 1782720600
+    },
+    {
+      "datetime": "2026-06-29T08:15:00Z",
+      "blockheight": 856410,
+      "funding_rate": 116.08,
+      "value": 116.08,
+      "timestamp": 1782720900
+    },
+    {
+      "datetime": "2026-06-29T08:20:00Z",
+      "blockheight": 856411,
+      "funding_rate": 116.11,
+      "value": 116.11,
+      "timestamp": 1782721200
+    },
+    {
+      "datetime": "2026-06-29T08:25:00Z",
+      "blockheight": 856412,
+      "funding_rate": 116.14,
+      "value": 116.14,
+      "timestamp": 1782721500
+    },
+    {
+      "datetime": "2026-06-29T08:30:00Z",
+      "blockheight": 856413,
+      "funding_rate": 116.17,
+      "value": 116.17,
+      "timestamp": 1782721800
+    },
+    {
+      "datetime": "2026-06-29T08:35:00Z",
+      "blockheight": 856414,
+      "funding_rate": 116.2,
+      "value": 116.2,
+      "timestamp": 1782722100
+    },
+    {
+      "datetime": "2026-06-29T08:40:00Z",
+      "blockheight": 856415,
+      "funding_rate": 116.23,
+      "value": 116.23,
+      "timestamp": 1782722400
+    },
+    {
+      "datetime": "2026-06-29T08:45:00Z",
+      "blockheight": 856416,
+      "funding_rate": 116.26,
+      "value": 116.26,
+      "timestamp": 1782722700
+    },
+    {
+      "datetime": "2026-06-29T08:50:00Z",
+      "blockheight": 856417,
+      "funding_rate": 116.29,
+      "value": 116.29,
+      "timestamp": 1782723000
+    },
+    {
+      "datetime": "2026-06-29T08:55:00Z",
+      "blockheight": 856418,
+      "funding_rate": 116.32,
+      "value": 116.32,
+      "timestamp": 1782723300
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856419,
+      "funding_rate": 116.35,
+      "value": 116.35,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T09:05:00Z",
+      "blockheight": 856420,
+      "funding_rate": 116.38,
+      "value": 116.38,
+      "timestamp": 1782723900
+    },
+    {
+      "datetime": "2026-06-29T09:10:00Z",
+      "blockheight": 856421,
+      "funding_rate": 116.41,
+      "value": 116.41,
+      "timestamp": 1782724200
+    },
+    {
+      "datetime": "2026-06-29T09:15:00Z",
+      "blockheight": 856422,
+      "funding_rate": 116.44,
+      "value": 116.44,
+      "timestamp": 1782724500
+    },
+    {
+      "datetime": "2026-06-29T09:20:00Z",
+      "blockheight": 856423,
+      "funding_rate": 116.47,
+      "value": 116.47,
+      "timestamp": 1782724800
+    },
+    {
+      "datetime": "2026-06-29T09:25:00Z",
+      "blockheight": 856424,
+      "funding_rate": 116.5,
+      "value": 116.5,
+      "timestamp": 1782725100
+    },
+    {
+      "datetime": "2026-06-29T09:30:00Z",
+      "blockheight": 856425,
+      "funding_rate": 116.53,
+      "value": 116.53,
+      "timestamp": 1782725400
+    },
+    {
+      "datetime": "2026-06-29T09:35:00Z",
+      "blockheight": 856426,
+      "funding_rate": 116.56,
+      "value": 116.56,
+      "timestamp": 1782725700
+    },
+    {
+      "datetime": "2026-06-29T09:40:00Z",
+      "blockheight": 856427,
+      "funding_rate": 116.59,
+      "value": 116.59,
+      "timestamp": 1782726000
+    },
+    {
+      "datetime": "2026-06-29T09:45:00Z",
+      "blockheight": 856428,
+      "funding_rate": 116.62,
+      "value": 116.62,
+      "timestamp": 1782726300
+    },
+    {
+      "datetime": "2026-06-29T09:50:00Z",
+      "blockheight": 856429,
+      "funding_rate": 116.65,
+      "value": 116.65,
+      "timestamp": 1782726600
+    },
+    {
+      "datetime": "2026-06-29T09:55:00Z",
+      "blockheight": 856430,
+      "funding_rate": 116.68,
+      "value": 116.68,
+      "timestamp": 1782726900
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856431,
+      "funding_rate": 116.71,
+      "value": 116.71,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T10:05:00Z",
+      "blockheight": 856432,
+      "funding_rate": 116.74,
+      "value": 116.74,
+      "timestamp": 1782727500
+    },
+    {
+      "datetime": "2026-06-29T10:10:00Z",
+      "blockheight": 856433,
+      "funding_rate": 116.77,
+      "value": 116.77,
+      "timestamp": 1782727800
+    },
+    {
+      "datetime": "2026-06-29T10:15:00Z",
+      "blockheight": 856434,
+      "funding_rate": 116.8,
+      "value": 116.8,
+      "timestamp": 1782728100
+    },
+    {
+      "datetime": "2026-06-29T10:20:00Z",
+      "blockheight": 856435,
+      "funding_rate": 116.83,
+      "value": 116.83,
+      "timestamp": 1782728400
+    },
+    {
+      "datetime": "2026-06-29T10:25:00Z",
+      "blockheight": 856436,
+      "funding_rate": 116.86,
+      "value": 116.86,
+      "timestamp": 1782728700
+    },
+    {
+      "datetime": "2026-06-29T10:30:00Z",
+      "blockheight": 856437,
+      "funding_rate": 116.89,
+      "value": 116.89,
+      "timestamp": 1782729000
+    },
+    {
+      "datetime": "2026-06-29T10:35:00Z",
+      "blockheight": 856438,
+      "funding_rate": 116.92,
+      "value": 116.92,
+      "timestamp": 1782729300
+    },
+    {
+      "datetime": "2026-06-29T10:40:00Z",
+      "blockheight": 856439,
+      "funding_rate": 116.95,
+      "value": 116.95,
+      "timestamp": 1782729600
+    },
+    {
+      "datetime": "2026-06-29T10:45:00Z",
+      "blockheight": 856440,
+      "funding_rate": 116.98,
+      "value": 116.98,
+      "timestamp": 1782729900
+    },
+    {
+      "datetime": "2026-06-29T10:50:00Z",
+      "blockheight": 856441,
+      "funding_rate": 117.01,
+      "value": 117.01,
+      "timestamp": 1782730200
+    },
+    {
+      "datetime": "2026-06-29T10:55:00Z",
+      "blockheight": 856442,
+      "funding_rate": 117.04,
+      "value": 117.04,
+      "timestamp": 1782730500
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856443,
+      "funding_rate": 117.07,
+      "value": 117.07,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T11:05:00Z",
+      "blockheight": 856444,
+      "funding_rate": 117.1,
+      "value": 117.1,
+      "timestamp": 1782731100
+    },
+    {
+      "datetime": "2026-06-29T11:10:00Z",
+      "blockheight": 856445,
+      "funding_rate": 117.13,
+      "value": 117.13,
+      "timestamp": 1782731400
+    },
+    {
+      "datetime": "2026-06-29T11:15:00Z",
+      "blockheight": 856446,
+      "funding_rate": 117.16,
+      "value": 117.16,
+      "timestamp": 1782731700
+    },
+    {
+      "datetime": "2026-06-29T11:20:00Z",
+      "blockheight": 856447,
+      "funding_rate": 117.19,
+      "value": 117.19,
+      "timestamp": 1782732000
+    },
+    {
+      "datetime": "2026-06-29T11:25:00Z",
+      "blockheight": 856448,
+      "funding_rate": 117.22,
+      "value": 117.22,
+      "timestamp": 1782732300
+    },
+    {
+      "datetime": "2026-06-29T11:30:00Z",
+      "blockheight": 856449,
+      "funding_rate": 117.25,
+      "value": 117.25,
+      "timestamp": 1782732600
+    },
+    {
+      "datetime": "2026-06-29T11:35:00Z",
+      "blockheight": 856450,
+      "funding_rate": 117.28,
+      "value": 117.28,
+      "timestamp": 1782732900
+    },
+    {
+      "datetime": "2026-06-29T11:40:00Z",
+      "blockheight": 856451,
+      "funding_rate": 117.31,
+      "value": 117.31,
+      "timestamp": 1782733200
+    },
+    {
+      "datetime": "2026-06-29T11:45:00Z",
+      "blockheight": 856452,
+      "funding_rate": 117.34,
+      "value": 117.34,
+      "timestamp": 1782733500
+    },
+    {
+      "datetime": "2026-06-29T11:50:00Z",
+      "blockheight": 856453,
+      "funding_rate": 117.37,
+      "value": 117.37,
+      "timestamp": 1782733800
+    },
+    {
+      "datetime": "2026-06-29T11:55:00Z",
+      "blockheight": 856454,
+      "funding_rate": 117.4,
+      "value": 117.4,
+      "timestamp": 1782734100
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856455,
+      "funding_rate": 117.43,
+      "value": 117.43,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T12:05:00Z",
+      "blockheight": 856456,
+      "funding_rate": 117.46,
+      "value": 117.46,
+      "timestamp": 1782734700
+    },
+    {
+      "datetime": "2026-06-29T12:10:00Z",
+      "blockheight": 856457,
+      "funding_rate": 117.49,
+      "value": 117.49,
+      "timestamp": 1782735000
+    },
+    {
+      "datetime": "2026-06-29T12:15:00Z",
+      "blockheight": 856458,
+      "funding_rate": 117.52,
+      "value": 117.52,
+      "timestamp": 1782735300
+    },
+    {
+      "datetime": "2026-06-29T12:20:00Z",
+      "blockheight": 856459,
+      "funding_rate": 117.55,
+      "value": 117.55,
+      "timestamp": 1782735600
+    },
+    {
+      "datetime": "2026-06-29T12:25:00Z",
+      "blockheight": 856460,
+      "funding_rate": 117.58,
+      "value": 117.58,
+      "timestamp": 1782735900
+    },
+    {
+      "datetime": "2026-06-29T12:30:00Z",
+      "blockheight": 856461,
+      "funding_rate": 117.61,
+      "value": 117.61,
+      "timestamp": 1782736200
+    },
+    {
+      "datetime": "2026-06-29T12:35:00Z",
+      "blockheight": 856462,
+      "funding_rate": 117.64,
+      "value": 117.64,
+      "timestamp": 1782736500
+    },
+    {
+      "datetime": "2026-06-29T12:40:00Z",
+      "blockheight": 856463,
+      "funding_rate": 117.67,
+      "value": 117.67,
+      "timestamp": 1782736800
+    },
+    {
+      "datetime": "2026-06-29T12:45:00Z",
+      "blockheight": 856464,
+      "funding_rate": 117.7,
+      "value": 117.7,
+      "timestamp": 1782737100
+    },
+    {
+      "datetime": "2026-06-29T12:50:00Z",
+      "blockheight": 856465,
+      "funding_rate": 117.73,
+      "value": 117.73,
+      "timestamp": 1782737400
+    },
+    {
+      "datetime": "2026-06-29T12:55:00Z",
+      "blockheight": 856466,
+      "funding_rate": 117.76,
+      "value": 117.76,
+      "timestamp": 1782737700
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856467,
+      "funding_rate": 117.79,
+      "value": 117.79,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T13:05:00Z",
+      "blockheight": 856468,
+      "funding_rate": 117.82,
+      "value": 117.82,
+      "timestamp": 1782738300
+    },
+    {
+      "datetime": "2026-06-29T13:10:00Z",
+      "blockheight": 856469,
+      "funding_rate": 117.85,
+      "value": 117.85,
+      "timestamp": 1782738600
+    },
+    {
+      "datetime": "2026-06-29T13:15:00Z",
+      "blockheight": 856470,
+      "funding_rate": 117.88,
+      "value": 117.88,
+      "timestamp": 1782738900
+    },
+    {
+      "datetime": "2026-06-29T13:20:00Z",
+      "blockheight": 856471,
+      "funding_rate": 117.91,
+      "value": 117.91,
+      "timestamp": 1782739200
+    },
+    {
+      "datetime": "2026-06-29T13:25:00Z",
+      "blockheight": 856472,
+      "funding_rate": 117.94,
+      "value": 117.94,
+      "timestamp": 1782739500
+    },
+    {
+      "datetime": "2026-06-29T13:30:00Z",
+      "blockheight": 856473,
+      "funding_rate": 117.97,
+      "value": 117.97,
+      "timestamp": 1782739800
+    },
+    {
+      "datetime": "2026-06-29T13:35:00Z",
+      "blockheight": 856474,
+      "funding_rate": 118.0,
+      "value": 118.0,
+      "timestamp": 1782740100
+    },
+    {
+      "datetime": "2026-06-29T13:40:00Z",
+      "blockheight": 856475,
+      "funding_rate": 118.03,
+      "value": 118.03,
+      "timestamp": 1782740400
+    },
+    {
+      "datetime": "2026-06-29T13:45:00Z",
+      "blockheight": 856476,
+      "funding_rate": 118.06,
+      "value": 118.06,
+      "timestamp": 1782740700
+    },
+    {
+      "datetime": "2026-06-29T13:50:00Z",
+      "blockheight": 856477,
+      "funding_rate": 118.09,
+      "value": 118.09,
+      "timestamp": 1782741000
+    },
+    {
+      "datetime": "2026-06-29T13:55:00Z",
+      "blockheight": 856478,
+      "funding_rate": 118.12,
+      "value": 118.12,
+      "timestamp": 1782741300
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856479,
+      "funding_rate": 118.15,
+      "value": 118.15,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T14:05:00Z",
+      "blockheight": 856480,
+      "funding_rate": 118.18,
+      "value": 118.18,
+      "timestamp": 1782741900
+    },
+    {
+      "datetime": "2026-06-29T14:10:00Z",
+      "blockheight": 856481,
+      "funding_rate": 118.21,
+      "value": 118.21,
+      "timestamp": 1782742200
+    },
+    {
+      "datetime": "2026-06-29T14:15:00Z",
+      "blockheight": 856482,
+      "funding_rate": 118.24,
+      "value": 118.24,
+      "timestamp": 1782742500
+    },
+    {
+      "datetime": "2026-06-29T14:20:00Z",
+      "blockheight": 856483,
+      "funding_rate": 118.27,
+      "value": 118.27,
+      "timestamp": 1782742800
+    },
+    {
+      "datetime": "2026-06-29T14:25:00Z",
+      "blockheight": 856484,
+      "funding_rate": 118.3,
+      "value": 118.3,
+      "timestamp": 1782743100
+    },
+    {
+      "datetime": "2026-06-29T14:30:00Z",
+      "blockheight": 856485,
+      "funding_rate": 118.33,
+      "value": 118.33,
+      "timestamp": 1782743400
+    },
+    {
+      "datetime": "2026-06-29T14:35:00Z",
+      "blockheight": 856486,
+      "funding_rate": 118.36,
+      "value": 118.36,
+      "timestamp": 1782743700
+    },
+    {
+      "datetime": "2026-06-29T14:40:00Z",
+      "blockheight": 856487,
+      "funding_rate": 118.39,
+      "value": 118.39,
+      "timestamp": 1782744000
+    },
+    {
+      "datetime": "2026-06-29T14:45:00Z",
+      "blockheight": 856488,
+      "funding_rate": 118.42,
+      "value": 118.42,
+      "timestamp": 1782744300
+    },
+    {
+      "datetime": "2026-06-29T14:50:00Z",
+      "blockheight": 856489,
+      "funding_rate": 118.45,
+      "value": 118.45,
+      "timestamp": 1782744600
+    },
+    {
+      "datetime": "2026-06-29T14:55:00Z",
+      "blockheight": 856490,
+      "funding_rate": 118.48,
+      "value": 118.48,
+      "timestamp": 1782744900
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856491,
+      "funding_rate": 118.51,
+      "value": 118.51,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T15:05:00Z",
+      "blockheight": 856492,
+      "funding_rate": 118.54,
+      "value": 118.54,
+      "timestamp": 1782745500
+    },
+    {
+      "datetime": "2026-06-29T15:10:00Z",
+      "blockheight": 856493,
+      "funding_rate": 118.57,
+      "value": 118.57,
+      "timestamp": 1782745800
+    },
+    {
+      "datetime": "2026-06-29T15:15:00Z",
+      "blockheight": 856494,
+      "funding_rate": 118.6,
+      "value": 118.6,
+      "timestamp": 1782746100
+    },
+    {
+      "datetime": "2026-06-29T15:20:00Z",
+      "blockheight": 856495,
+      "funding_rate": 118.63,
+      "value": 118.63,
+      "timestamp": 1782746400
+    },
+    {
+      "datetime": "2026-06-29T15:25:00Z",
+      "blockheight": 856496,
+      "funding_rate": 118.66,
+      "value": 118.66,
+      "timestamp": 1782746700
+    },
+    {
+      "datetime": "2026-06-29T15:30:00Z",
+      "blockheight": 856497,
+      "funding_rate": 118.69,
+      "value": 118.69,
+      "timestamp": 1782747000
+    },
+    {
+      "datetime": "2026-06-29T15:35:00Z",
+      "blockheight": 856498,
+      "funding_rate": 118.72,
+      "value": 118.72,
+      "timestamp": 1782747300
+    },
+    {
+      "datetime": "2026-06-29T15:40:00Z",
+      "blockheight": 856499,
+      "funding_rate": 118.75,
+      "value": 118.75,
+      "timestamp": 1782747600
+    },
+    {
+      "datetime": "2026-06-29T15:45:00Z",
+      "blockheight": 856500,
+      "funding_rate": 118.78,
+      "value": 118.78,
+      "timestamp": 1782747900
+    },
+    {
+      "datetime": "2026-06-29T15:50:00Z",
+      "blockheight": 856501,
+      "funding_rate": 118.81,
+      "value": 118.81,
+      "timestamp": 1782748200
+    },
+    {
+      "datetime": "2026-06-29T15:55:00Z",
+      "blockheight": 856502,
+      "funding_rate": 118.84,
+      "value": 118.84,
+      "timestamp": 1782748500
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856503,
+      "funding_rate": 118.87,
+      "value": 118.87,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T16:05:00Z",
+      "blockheight": 856504,
+      "funding_rate": 118.9,
+      "value": 118.9,
+      "timestamp": 1782749100
+    },
+    {
+      "datetime": "2026-06-29T16:10:00Z",
+      "blockheight": 856505,
+      "funding_rate": 118.93,
+      "value": 118.93,
+      "timestamp": 1782749400
+    },
+    {
+      "datetime": "2026-06-29T16:15:00Z",
+      "blockheight": 856506,
+      "funding_rate": 118.96,
+      "value": 118.96,
+      "timestamp": 1782749700
+    },
+    {
+      "datetime": "2026-06-29T16:20:00Z",
+      "blockheight": 856507,
+      "funding_rate": 118.99,
+      "value": 118.99,
+      "timestamp": 1782750000
+    },
+    {
+      "datetime": "2026-06-29T16:25:00Z",
+      "blockheight": 856508,
+      "funding_rate": 119.02,
+      "value": 119.02,
+      "timestamp": 1782750300
+    },
+    {
+      "datetime": "2026-06-29T16:30:00Z",
+      "blockheight": 856509,
+      "funding_rate": 119.05,
+      "value": 119.05,
+      "timestamp": 1782750600
+    },
+    {
+      "datetime": "2026-06-29T16:35:00Z",
+      "blockheight": 856510,
+      "funding_rate": 119.08,
+      "value": 119.08,
+      "timestamp": 1782750900
+    },
+    {
+      "datetime": "2026-06-29T16:40:00Z",
+      "blockheight": 856511,
+      "funding_rate": 119.11,
+      "value": 119.11,
+      "timestamp": 1782751200
+    },
+    {
+      "datetime": "2026-06-29T16:45:00Z",
+      "blockheight": 856512,
+      "funding_rate": 119.14,
+      "value": 119.14,
+      "timestamp": 1782751500
+    },
+    {
+      "datetime": "2026-06-29T16:50:00Z",
+      "blockheight": 856513,
+      "funding_rate": 119.17,
+      "value": 119.17,
+      "timestamp": 1782751800
+    },
+    {
+      "datetime": "2026-06-29T16:55:00Z",
+      "blockheight": 856514,
+      "funding_rate": 119.2,
+      "value": 119.2,
+      "timestamp": 1782752100
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856515,
+      "funding_rate": 119.23,
+      "value": 119.23,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T17:05:00Z",
+      "blockheight": 856516,
+      "funding_rate": 119.26,
+      "value": 119.26,
+      "timestamp": 1782752700
+    },
+    {
+      "datetime": "2026-06-29T17:10:00Z",
+      "blockheight": 856517,
+      "funding_rate": 119.29,
+      "value": 119.29,
+      "timestamp": 1782753000
+    },
+    {
+      "datetime": "2026-06-29T17:15:00Z",
+      "blockheight": 856518,
+      "funding_rate": 119.32,
+      "value": 119.32,
+      "timestamp": 1782753300
+    },
+    {
+      "datetime": "2026-06-29T17:20:00Z",
+      "blockheight": 856519,
+      "funding_rate": 119.35,
+      "value": 119.35,
+      "timestamp": 1782753600
+    },
+    {
+      "datetime": "2026-06-29T17:25:00Z",
+      "blockheight": 856520,
+      "funding_rate": 119.38,
+      "value": 119.38,
+      "timestamp": 1782753900
+    },
+    {
+      "datetime": "2026-06-29T17:30:00Z",
+      "blockheight": 856521,
+      "funding_rate": 119.41,
+      "value": 119.41,
+      "timestamp": 1782754200
+    },
+    {
+      "datetime": "2026-06-29T17:35:00Z",
+      "blockheight": 856522,
+      "funding_rate": 119.44,
+      "value": 119.44,
+      "timestamp": 1782754500
+    },
+    {
+      "datetime": "2026-06-29T17:40:00Z",
+      "blockheight": 856523,
+      "funding_rate": 119.47,
+      "value": 119.47,
+      "timestamp": 1782754800
+    },
+    {
+      "datetime": "2026-06-29T17:45:00Z",
+      "blockheight": 856524,
+      "funding_rate": 119.5,
+      "value": 119.5,
+      "timestamp": 1782755100
+    },
+    {
+      "datetime": "2026-06-29T17:50:00Z",
+      "blockheight": 856525,
+      "funding_rate": 119.53,
+      "value": 119.53,
+      "timestamp": 1782755400
+    },
+    {
+      "datetime": "2026-06-29T17:55:00Z",
+      "blockheight": 856526,
+      "funding_rate": 119.56,
+      "value": 119.56,
+      "timestamp": 1782755700
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856527,
+      "funding_rate": 119.59,
+      "value": 119.59,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T18:05:00Z",
+      "blockheight": 856528,
+      "funding_rate": 119.62,
+      "value": 119.62,
+      "timestamp": 1782756300
+    },
+    {
+      "datetime": "2026-06-29T18:10:00Z",
+      "blockheight": 856529,
+      "funding_rate": 119.65,
+      "value": 119.65,
+      "timestamp": 1782756600
+    },
+    {
+      "datetime": "2026-06-29T18:15:00Z",
+      "blockheight": 856530,
+      "funding_rate": 119.68,
+      "value": 119.68,
+      "timestamp": 1782756900
+    },
+    {
+      "datetime": "2026-06-29T18:20:00Z",
+      "blockheight": 856531,
+      "funding_rate": 119.71,
+      "value": 119.71,
+      "timestamp": 1782757200
+    },
+    {
+      "datetime": "2026-06-29T18:25:00Z",
+      "blockheight": 856532,
+      "funding_rate": 119.74,
+      "value": 119.74,
+      "timestamp": 1782757500
+    },
+    {
+      "datetime": "2026-06-29T18:30:00Z",
+      "blockheight": 856533,
+      "funding_rate": 119.77,
+      "value": 119.77,
+      "timestamp": 1782757800
+    },
+    {
+      "datetime": "2026-06-29T18:35:00Z",
+      "blockheight": 856534,
+      "funding_rate": 119.8,
+      "value": 119.8,
+      "timestamp": 1782758100
+    },
+    {
+      "datetime": "2026-06-29T18:40:00Z",
+      "blockheight": 856535,
+      "funding_rate": 119.83,
+      "value": 119.83,
+      "timestamp": 1782758400
+    },
+    {
+      "datetime": "2026-06-29T18:45:00Z",
+      "blockheight": 856536,
+      "funding_rate": 119.86,
+      "value": 119.86,
+      "timestamp": 1782758700
+    },
+    {
+      "datetime": "2026-06-29T18:50:00Z",
+      "blockheight": 856537,
+      "funding_rate": 119.89,
+      "value": 119.89,
+      "timestamp": 1782759000
+    },
+    {
+      "datetime": "2026-06-29T18:55:00Z",
+      "blockheight": 856538,
+      "funding_rate": 119.92,
+      "value": 119.92,
+      "timestamp": 1782759300
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856539,
+      "funding_rate": 119.95,
+      "value": 119.95,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T19:05:00Z",
+      "blockheight": 856540,
+      "funding_rate": 119.98,
+      "value": 119.98,
+      "timestamp": 1782759900
+    },
+    {
+      "datetime": "2026-06-29T19:10:00Z",
+      "blockheight": 856541,
+      "funding_rate": 120.01,
+      "value": 120.01,
+      "timestamp": 1782760200
+    },
+    {
+      "datetime": "2026-06-29T19:15:00Z",
+      "blockheight": 856542,
+      "funding_rate": 120.04,
+      "value": 120.04,
+      "timestamp": 1782760500
+    },
+    {
+      "datetime": "2026-06-29T19:20:00Z",
+      "blockheight": 856543,
+      "funding_rate": 120.07,
+      "value": 120.07,
+      "timestamp": 1782760800
+    },
+    {
+      "datetime": "2026-06-29T19:25:00Z",
+      "blockheight": 856544,
+      "funding_rate": 120.1,
+      "value": 120.1,
+      "timestamp": 1782761100
+    },
+    {
+      "datetime": "2026-06-29T19:30:00Z",
+      "blockheight": 856545,
+      "funding_rate": 120.13,
+      "value": 120.13,
+      "timestamp": 1782761400
+    },
+    {
+      "datetime": "2026-06-29T19:35:00Z",
+      "blockheight": 856546,
+      "funding_rate": 120.16,
+      "value": 120.16,
+      "timestamp": 1782761700
+    },
+    {
+      "datetime": "2026-06-29T19:40:00Z",
+      "blockheight": 856547,
+      "funding_rate": 120.19,
+      "value": 120.19,
+      "timestamp": 1782762000
+    },
+    {
+      "datetime": "2026-06-29T19:45:00Z",
+      "blockheight": 856548,
+      "funding_rate": 120.22,
+      "value": 120.22,
+      "timestamp": 1782762300
+    },
+    {
+      "datetime": "2026-06-29T19:50:00Z",
+      "blockheight": 856549,
+      "funding_rate": 120.25,
+      "value": 120.25,
+      "timestamp": 1782762600
+    },
+    {
+      "datetime": "2026-06-29T19:55:00Z",
+      "blockheight": 856550,
+      "funding_rate": 120.28,
+      "value": 120.28,
+      "timestamp": 1782762900
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856551,
+      "funding_rate": 120.31,
+      "value": 120.31,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T20:05:00Z",
+      "blockheight": 856552,
+      "funding_rate": 120.34,
+      "value": 120.34,
+      "timestamp": 1782763500
+    },
+    {
+      "datetime": "2026-06-29T20:10:00Z",
+      "blockheight": 856553,
+      "funding_rate": 120.37,
+      "value": 120.37,
+      "timestamp": 1782763800
+    },
+    {
+      "datetime": "2026-06-29T20:15:00Z",
+      "blockheight": 856554,
+      "funding_rate": 120.4,
+      "value": 120.4,
+      "timestamp": 1782764100
+    },
+    {
+      "datetime": "2026-06-29T20:20:00Z",
+      "blockheight": 856555,
+      "funding_rate": 120.43,
+      "value": 120.43,
+      "timestamp": 1782764400
+    },
+    {
+      "datetime": "2026-06-29T20:25:00Z",
+      "blockheight": 856556,
+      "funding_rate": 120.46,
+      "value": 120.46,
+      "timestamp": 1782764700
+    },
+    {
+      "datetime": "2026-06-29T20:30:00Z",
+      "blockheight": 856557,
+      "funding_rate": 120.49,
+      "value": 120.49,
+      "timestamp": 1782765000
+    },
+    {
+      "datetime": "2026-06-29T20:35:00Z",
+      "blockheight": 856558,
+      "funding_rate": 120.52,
+      "value": 120.52,
+      "timestamp": 1782765300
+    },
+    {
+      "datetime": "2026-06-29T20:40:00Z",
+      "blockheight": 856559,
+      "funding_rate": 120.55,
+      "value": 120.55,
+      "timestamp": 1782765600
+    },
+    {
+      "datetime": "2026-06-29T20:45:00Z",
+      "blockheight": 856560,
+      "funding_rate": 120.58,
+      "value": 120.58,
+      "timestamp": 1782765900
+    },
+    {
+      "datetime": "2026-06-29T20:50:00Z",
+      "blockheight": 856561,
+      "funding_rate": 120.61,
+      "value": 120.61,
+      "timestamp": 1782766200
+    },
+    {
+      "datetime": "2026-06-29T20:55:00Z",
+      "blockheight": 856562,
+      "funding_rate": 120.64,
+      "value": 120.64,
+      "timestamp": 1782766500
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856563,
+      "funding_rate": 120.67,
+      "value": 120.67,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T21:05:00Z",
+      "blockheight": 856564,
+      "funding_rate": 120.7,
+      "value": 120.7,
+      "timestamp": 1782767100
+    },
+    {
+      "datetime": "2026-06-29T21:10:00Z",
+      "blockheight": 856565,
+      "funding_rate": 120.73,
+      "value": 120.73,
+      "timestamp": 1782767400
+    },
+    {
+      "datetime": "2026-06-29T21:15:00Z",
+      "blockheight": 856566,
+      "funding_rate": 120.76,
+      "value": 120.76,
+      "timestamp": 1782767700
+    },
+    {
+      "datetime": "2026-06-29T21:20:00Z",
+      "blockheight": 856567,
+      "funding_rate": 120.79,
+      "value": 120.79,
+      "timestamp": 1782768000
+    },
+    {
+      "datetime": "2026-06-29T21:25:00Z",
+      "blockheight": 856568,
+      "funding_rate": 120.82,
+      "value": 120.82,
+      "timestamp": 1782768300
+    },
+    {
+      "datetime": "2026-06-29T21:30:00Z",
+      "blockheight": 856569,
+      "funding_rate": 120.85,
+      "value": 120.85,
+      "timestamp": 1782768600
+    },
+    {
+      "datetime": "2026-06-29T21:35:00Z",
+      "blockheight": 856570,
+      "funding_rate": 120.88,
+      "value": 120.88,
+      "timestamp": 1782768900
+    },
+    {
+      "datetime": "2026-06-29T21:40:00Z",
+      "blockheight": 856571,
+      "funding_rate": 120.91,
+      "value": 120.91,
+      "timestamp": 1782769200
+    },
+    {
+      "datetime": "2026-06-29T21:45:00Z",
+      "blockheight": 856572,
+      "funding_rate": 120.94,
+      "value": 120.94,
+      "timestamp": 1782769500
+    },
+    {
+      "datetime": "2026-06-29T21:50:00Z",
+      "blockheight": 856573,
+      "funding_rate": 120.97,
+      "value": 120.97,
+      "timestamp": 1782769800
+    },
+    {
+      "datetime": "2026-06-29T21:55:00Z",
+      "blockheight": 856574,
+      "funding_rate": 121.0,
+      "value": 121.0,
+      "timestamp": 1782770100
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856575,
+      "funding_rate": 121.03,
+      "value": 121.03,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T22:05:00Z",
+      "blockheight": 856576,
+      "funding_rate": 121.06,
+      "value": 121.06,
+      "timestamp": 1782770700
+    },
+    {
+      "datetime": "2026-06-29T22:10:00Z",
+      "blockheight": 856577,
+      "funding_rate": 121.09,
+      "value": 121.09,
+      "timestamp": 1782771000
+    },
+    {
+      "datetime": "2026-06-29T22:15:00Z",
+      "blockheight": 856578,
+      "funding_rate": 121.12,
+      "value": 121.12,
+      "timestamp": 1782771300
+    },
+    {
+      "datetime": "2026-06-29T22:20:00Z",
+      "blockheight": 856579,
+      "funding_rate": 121.15,
+      "value": 121.15,
+      "timestamp": 1782771600
+    },
+    {
+      "datetime": "2026-06-29T22:25:00Z",
+      "blockheight": 856580,
+      "funding_rate": 121.18,
+      "value": 121.18,
+      "timestamp": 1782771900
+    },
+    {
+      "datetime": "2026-06-29T22:30:00Z",
+      "blockheight": 856581,
+      "funding_rate": 121.21,
+      "value": 121.21,
+      "timestamp": 1782772200
+    },
+    {
+      "datetime": "2026-06-29T22:35:00Z",
+      "blockheight": 856582,
+      "funding_rate": 121.24,
+      "value": 121.24,
+      "timestamp": 1782772500
+    },
+    {
+      "datetime": "2026-06-29T22:40:00Z",
+      "blockheight": 856583,
+      "funding_rate": 121.27,
+      "value": 121.27,
+      "timestamp": 1782772800
+    },
+    {
+      "datetime": "2026-06-29T22:45:00Z",
+      "blockheight": 856584,
+      "funding_rate": 121.3,
+      "value": 121.3,
+      "timestamp": 1782773100
+    },
+    {
+      "datetime": "2026-06-29T22:50:00Z",
+      "blockheight": 856585,
+      "funding_rate": 121.33,
+      "value": 121.33,
+      "timestamp": 1782773400
+    },
+    {
+      "datetime": "2026-06-29T22:55:00Z",
+      "blockheight": 856586,
+      "funding_rate": 121.36,
+      "value": 121.36,
+      "timestamp": 1782773700
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856587,
+      "funding_rate": 121.39,
+      "value": 121.39,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-29T23:05:00Z",
+      "blockheight": 856588,
+      "funding_rate": 121.42,
+      "value": 121.42,
+      "timestamp": 1782774300
+    },
+    {
+      "datetime": "2026-06-29T23:10:00Z",
+      "blockheight": 856589,
+      "funding_rate": 121.45,
+      "value": 121.45,
+      "timestamp": 1782774600
+    },
+    {
+      "datetime": "2026-06-29T23:15:00Z",
+      "blockheight": 856590,
+      "funding_rate": 121.48,
+      "value": 121.48,
+      "timestamp": 1782774900
+    },
+    {
+      "datetime": "2026-06-29T23:20:00Z",
+      "blockheight": 856591,
+      "funding_rate": 121.51,
+      "value": 121.51,
+      "timestamp": 1782775200
+    },
+    {
+      "datetime": "2026-06-29T23:25:00Z",
+      "blockheight": 856592,
+      "funding_rate": 121.54,
+      "value": 121.54,
+      "timestamp": 1782775500
+    },
+    {
+      "datetime": "2026-06-29T23:30:00Z",
+      "blockheight": 856593,
+      "funding_rate": 121.57,
+      "value": 121.57,
+      "timestamp": 1782775800
+    },
+    {
+      "datetime": "2026-06-29T23:35:00Z",
+      "blockheight": 856594,
+      "funding_rate": 121.6,
+      "value": 121.6,
+      "timestamp": 1782776100
+    },
+    {
+      "datetime": "2026-06-29T23:40:00Z",
+      "blockheight": 856595,
+      "funding_rate": 121.63,
+      "value": 121.63,
+      "timestamp": 1782776400
+    },
+    {
+      "datetime": "2026-06-29T23:45:00Z",
+      "blockheight": 856596,
+      "funding_rate": 121.66,
+      "value": 121.66,
+      "timestamp": 1782776700
+    },
+    {
+      "datetime": "2026-06-29T23:50:00Z",
+      "blockheight": 856597,
+      "funding_rate": 121.69,
+      "value": 121.69,
+      "timestamp": 1782777000
+    },
+    {
+      "datetime": "2026-06-29T23:55:00Z",
+      "blockheight": 856598,
+      "funding_rate": 121.72,
+      "value": 121.72,
+      "timestamp": 1782777300
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856599,
+      "funding_rate": 121.75,
+      "value": 121.75,
+      "timestamp": 1782777600
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_derivatives_open_interest_funding_rate",
+    "path": null,
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260703T023307Z/derivatives_open_interest/funding_rate/5m_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 600,
+    "duplicates_removed": 0
+  }
+}

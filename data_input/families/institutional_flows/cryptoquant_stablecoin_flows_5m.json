@@ -1,0 +1,6027 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "cryptoquant",
+  "family": "institutional_flows",
+  "subtype": "stablecoin_flows",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "5m",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-27T22:05:00Z",
+      "blockheight": 856000,
+      "inflow_total": 1020.7,
+      "outflow_total": 1122.77,
+      "netflow_total": -102.07,
+      "reserve": 2450000.0,
+      "reserve_usd": 150000000000.0,
+      "timestamp": 1782597900
+    },
+    {
+      "datetime": "2026-06-27T22:10:00Z",
+      "blockheight": 856001,
+      "inflow_total": 1021.0,
+      "outflow_total": 1123.1,
+      "netflow_total": -102.1,
+      "reserve": 2450002.0,
+      "reserve_usd": 150000100000.0,
+      "timestamp": 1782598200
+    },
+    {
+      "datetime": "2026-06-27T22:15:00Z",
+      "blockheight": 856002,
+      "inflow_total": 1021.3,
+      "outflow_total": 1123.43,
+      "netflow_total": -102.13,
+      "reserve": 2450004.0,
+      "reserve_usd": 150000200000.0,
+      "timestamp": 1782598500
+    },
+    {
+      "datetime": "2026-06-27T22:20:00Z",
+      "blockheight": 856003,
+      "inflow_total": 1021.6,
+      "outflow_total": 1123.76,
+      "netflow_total": -102.16,
+      "reserve": 2450006.0,
+      "reserve_usd": 150000300000.0,
+      "timestamp": 1782598800
+    },
+    {
+      "datetime": "2026-06-27T22:25:00Z",
+      "blockheight": 856004,
+      "inflow_total": 1021.9,
+      "outflow_total": 1124.09,
+      "netflow_total": -102.19,
+      "reserve": 2450008.0,
+      "reserve_usd": 150000400000.0,
+      "timestamp": 1782599100
+    },
+    {
+      "datetime": "2026-06-27T22:30:00Z",
+      "blockheight": 856005,
+      "inflow_total": 1022.2,
+      "outflow_total": 1124.42,
+      "netflow_total": -102.22,
+      "reserve": 2450010.0,
+      "reserve_usd": 150000500000.0,
+      "timestamp": 1782599400
+    },
+    {
+      "datetime": "2026-06-27T22:35:00Z",
+      "blockheight": 856006,
+      "inflow_total": 1022.5,
+      "outflow_total": 1124.75,
+      "netflow_total": -102.25,
+      "reserve": 2450012.0,
+      "reserve_usd": 150000600000.0,
+      "timestamp": 1782599700
+    },
+    {
+      "datetime": "2026-06-27T22:40:00Z",
+      "blockheight": 856007,
+      "inflow_total": 1022.8,
+      "outflow_total": 1125.08,
+      "netflow_total": -102.28,
+      "reserve": 2450014.0,
+      "reserve_usd": 150000700000.0,
+      "timestamp": 1782600000
+    },
+    {
+      "datetime": "2026-06-27T22:45:00Z",
+      "blockheight": 856008,
+      "inflow_total": 1023.1,
+      "outflow_total": 1125.41,
+      "netflow_total": -102.31,
+      "reserve": 2450016.0,
+      "reserve_usd": 150000800000.0,
+      "timestamp": 1782600300
+    },
+    {
+      "datetime": "2026-06-27T22:50:00Z",
+      "blockheight": 856009,
+      "inflow_total": 1023.4,
+      "outflow_total": 1125.74,
+      "netflow_total": -102.34,
+      "reserve": 2450018.0,
+      "reserve_usd": 150000900000.0,
+      "timestamp": 1782600600
+    },
+    {
+      "datetime": "2026-06-27T22:55:00Z",
+      "blockheight": 856010,
+      "inflow_total": 1023.7,
+      "outflow_total": 1126.07,
+      "netflow_total": -102.37,
+      "reserve": 2450020.0,
+      "reserve_usd": 150001000000.0,
+      "timestamp": 1782600900
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856011,
+      "inflow_total": 1024.0,
+      "outflow_total": 1126.4,
+      "netflow_total": -102.4,
+      "reserve": 2450022.0,
+      "reserve_usd": 150001100000.0,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-27T23:05:00Z",
+      "blockheight": 856012,
+      "inflow_total": 1024.3,
+      "outflow_total": 1126.73,
+      "netflow_total": -102.43,
+      "reserve": 2450024.0,
+      "reserve_usd": 150001200000.0,
+      "timestamp": 1782601500
+    },
+    {
+      "datetime": "2026-06-27T23:10:00Z",
+      "blockheight": 856013,
+      "inflow_total": 1024.6,
+      "outflow_total": 1127.06,
+      "netflow_total": -102.46,
+      "reserve": 2450026.0,
+      "reserve_usd": 150001300000.0,
+      "timestamp": 1782601800
+    },
+    {
+      "datetime": "2026-06-27T23:15:00Z",
+      "blockheight": 856014,
+      "inflow_total": 1024.9,
+      "outflow_total": 1127.39,
+      "netflow_total": -102.49,
+      "reserve": 2450028.0,
+      "reserve_usd": 150001400000.0,
+      "timestamp": 1782602100
+    },
+    {
+      "datetime": "2026-06-27T23:20:00Z",
+      "blockheight": 856015,
+      "inflow_total": 1025.2,
+      "outflow_total": 1127.72,
+      "netflow_total": -102.52,
+      "reserve": 2450030.0,
+      "reserve_usd": 150001500000.0,
+      "timestamp": 1782602400
+    },
+    {
+      "datetime": "2026-06-27T23:25:00Z",
+      "blockheight": 856016,
+      "inflow_total": 1025.5,
+      "outflow_total": 1128.05,
+      "netflow_total": -102.55,
+      "reserve": 2450032.0,
+      "reserve_usd": 150001600000.0,
+      "timestamp": 1782602700
+    },
+    {
+      "datetime": "2026-06-27T23:30:00Z",
+      "blockheight": 856017,
+      "inflow_total": 1025.8,
+      "outflow_total": 1128.38,
+      "netflow_total": -102.58,
+      "reserve": 2450034.0,
+      "reserve_usd": 150001700000.0,
+      "timestamp": 1782603000
+    },
+    {
+      "datetime": "2026-06-27T23:35:00Z",
+      "blockheight": 856018,
+      "inflow_total": 1026.1,
+      "outflow_total": 1128.71,
+      "netflow_total": -102.61,
+      "reserve": 2450036.0,
+      "reserve_usd": 150001800000.0,
+      "timestamp": 1782603300
+    },
+    {
+      "datetime": "2026-06-27T23:40:00Z",
+      "blockheight": 856019,
+      "inflow_total": 1026.4,
+      "outflow_total": 1129.04,
+      "netflow_total": -102.64,
+      "reserve": 2450038.0,
+      "reserve_usd": 150001900000.0,
+      "timestamp": 1782603600
+    },
+    {
+      "datetime": "2026-06-27T23:45:00Z",
+      "blockheight": 856020,
+      "inflow_total": 1026.7,
+      "outflow_total": 1129.37,
+      "netflow_total": -102.67,
+      "reserve": 2450040.0,
+      "reserve_usd": 150002000000.0,
+      "timestamp": 1782603900
+    },
+    {
+      "datetime": "2026-06-27T23:50:00Z",
+      "blockheight": 856021,
+      "inflow_total": 1027.0,
+      "outflow_total": 1129.7,
+      "netflow_total": -102.7,
+      "reserve": 2450042.0,
+      "reserve_usd": 150002100000.0,
+      "timestamp": 1782604200
+    },
+    {
+      "datetime": "2026-06-27T23:55:00Z",
+      "blockheight": 856022,
+      "inflow_total": 1027.3,
+      "outflow_total": 1130.03,
+      "netflow_total": -102.73,
+      "reserve": 2450044.0,
+      "reserve_usd": 150002200000.0,
+      "timestamp": 1782604500
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856023,
+      "inflow_total": 1027.6,
+      "outflow_total": 1130.36,
+      "netflow_total": -102.76,
+      "reserve": 2450046.0,
+      "reserve_usd": 150002300000.0,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T00:05:00Z",
+      "blockheight": 856024,
+      "inflow_total": 1027.9,
+      "outflow_total": 1130.69,
+      "netflow_total": -102.79,
+      "reserve": 2450048.0,
+      "reserve_usd": 150002400000.0,
+      "timestamp": 1782605100
+    },
+    {
+      "datetime": "2026-06-28T00:10:00Z",
+      "blockheight": 856025,
+      "inflow_total": 1028.2,
+      "outflow_total": 1131.02,
+      "netflow_total": -102.82,
+      "reserve": 2450050.0,
+      "reserve_usd": 150002500000.0,
+      "timestamp": 1782605400
+    },
+    {
+      "datetime": "2026-06-28T00:15:00Z",
+      "blockheight": 856026,
+      "inflow_total": 1028.5,
+      "outflow_total": 1131.35,
+      "netflow_total": -102.85,
+      "reserve": 2450052.0,
+      "reserve_usd": 150002600000.0,
+      "timestamp": 1782605700
+    },
+    {
+      "datetime": "2026-06-28T00:20:00Z",
+      "blockheight": 856027,
+      "inflow_total": 1028.8,
+      "outflow_total": 1131.68,
+      "netflow_total": -102.88,
+      "reserve": 2450054.0,
+      "reserve_usd": 150002700000.0,
+      "timestamp": 1782606000
+    },
+    {
+      "datetime": "2026-06-28T00:25:00Z",
+      "blockheight": 856028,
+      "inflow_total": 1029.1,
+      "outflow_total": 1132.01,
+      "netflow_total": -102.91,
+      "reserve": 2450056.0,
+      "reserve_usd": 150002800000.0,
+      "timestamp": 1782606300
+    },
+    {
+      "datetime": "2026-06-28T00:30:00Z",
+      "blockheight": 856029,
+      "inflow_total": 1029.4,
+      "outflow_total": 1132.34,
+      "netflow_total": -102.94,
+      "reserve": 2450058.0,
+      "reserve_usd": 150002900000.0,
+      "timestamp": 1782606600
+    },
+    {
+      "datetime": "2026-06-28T00:35:00Z",
+      "blockheight": 856030,
+      "inflow_total": 1029.7,
+      "outflow_total": 1132.67,
+      "netflow_total": -102.97,
+      "reserve": 2450060.0,
+      "reserve_usd": 150003000000.0,
+      "timestamp": 1782606900
+    },
+    {
+      "datetime": "2026-06-28T00:40:00Z",
+      "blockheight": 856031,
+      "inflow_total": 1030.0,
+      "outflow_total": 1133.0,
+      "netflow_total": -103.0,
+      "reserve": 2450062.0,
+      "reserve_usd": 150003100000.0,
+      "timestamp": 1782607200
+    },
+    {
+      "datetime": "2026-06-28T00:45:00Z",
+      "blockheight": 856032,
+      "inflow_total": 1030.3,
+      "outflow_total": 1133.33,
+      "netflow_total": -103.03,
+      "reserve": 2450064.0,
+      "reserve_usd": 150003200000.0,
+      "timestamp": 1782607500
+    },
+    {
+      "datetime": "2026-06-28T00:50:00Z",
+      "blockheight": 856033,
+      "inflow_total": 1030.6,
+      "outflow_total": 1133.66,
+      "netflow_total": -103.06,
+      "reserve": 2450066.0,
+      "reserve_usd": 150003300000.0,
+      "timestamp": 1782607800
+    },
+    {
+      "datetime": "2026-06-28T00:55:00Z",
+      "blockheight": 856034,
+      "inflow_total": 1030.9,
+      "outflow_total": 1133.99,
+      "netflow_total": -103.09,
+      "reserve": 2450068.0,
+      "reserve_usd": 150003400000.0,
+      "timestamp": 1782608100
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856035,
+      "inflow_total": 1031.2,
+      "outflow_total": 1134.32,
+      "netflow_total": -103.12,
+      "reserve": 2450070.0,
+      "reserve_usd": 150003500000.0,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T01:05:00Z",
+      "blockheight": 856036,
+      "inflow_total": 1031.5,
+      "outflow_total": 1134.65,
+      "netflow_total": -103.15,
+      "reserve": 2450072.0,
+      "reserve_usd": 150003600000.0,
+      "timestamp": 1782608700
+    },
+    {
+      "datetime": "2026-06-28T01:10:00Z",
+      "blockheight": 856037,
+      "inflow_total": 1031.8,
+      "outflow_total": 1134.98,
+      "netflow_total": -103.18,
+      "reserve": 2450074.0,
+      "reserve_usd": 150003700000.0,
+      "timestamp": 1782609000
+    },
+    {
+      "datetime": "2026-06-28T01:15:00Z",
+      "blockheight": 856038,
+      "inflow_total": 1032.1,
+      "outflow_total": 1135.31,
+      "netflow_total": -103.21,
+      "reserve": 2450076.0,
+      "reserve_usd": 150003800000.0,
+      "timestamp": 1782609300
+    },
+    {
+      "datetime": "2026-06-28T01:20:00Z",
+      "blockheight": 856039,
+      "inflow_total": 1032.4,
+      "outflow_total": 1135.64,
+      "netflow_total": -103.24,
+      "reserve": 2450078.0,
+      "reserve_usd": 150003900000.0,
+      "timestamp": 1782609600
+    },
+    {
+      "datetime": "2026-06-28T01:25:00Z",
+      "blockheight": 856040,
+      "inflow_total": 1032.7,
+      "outflow_total": 1135.97,
+      "netflow_total": -103.27,
+      "reserve": 2450080.0,
+      "reserve_usd": 150004000000.0,
+      "timestamp": 1782609900
+    },
+    {
+      "datetime": "2026-06-28T01:30:00Z",
+      "blockheight": 856041,
+      "inflow_total": 1033.0,
+      "outflow_total": 1136.3,
+      "netflow_total": -103.3,
+      "reserve": 2450082.0,
+      "reserve_usd": 150004100000.0,
+      "timestamp": 1782610200
+    },
+    {
+      "datetime": "2026-06-28T01:35:00Z",
+      "blockheight": 856042,
+      "inflow_total": 1033.3,
+      "outflow_total": 1136.63,
+      "netflow_total": -103.33,
+      "reserve": 2450084.0,
+      "reserve_usd": 150004200000.0,
+      "timestamp": 1782610500
+    },
+    {
+      "datetime": "2026-06-28T01:40:00Z",
+      "blockheight": 856043,
+      "inflow_total": 1033.6,
+      "outflow_total": 1136.96,
+      "netflow_total": -103.36,
+      "reserve": 2450086.0,
+      "reserve_usd": 150004300000.0,
+      "timestamp": 1782610800
+    },
+    {
+      "datetime": "2026-06-28T01:45:00Z",
+      "blockheight": 856044,
+      "inflow_total": 1033.9,
+      "outflow_total": 1137.29,
+      "netflow_total": -103.39,
+      "reserve": 2450088.0,
+      "reserve_usd": 150004400000.0,
+      "timestamp": 1782611100
+    },
+    {
+      "datetime": "2026-06-28T01:50:00Z",
+      "blockheight": 856045,
+      "inflow_total": 1034.2,
+      "outflow_total": 1137.62,
+      "netflow_total": -103.42,
+      "reserve": 2450090.0,
+      "reserve_usd": 150004500000.0,
+      "timestamp": 1782611400
+    },
+    {
+      "datetime": "2026-06-28T01:55:00Z",
+      "blockheight": 856046,
+      "inflow_total": 1034.5,
+      "outflow_total": 1137.95,
+      "netflow_total": -103.45,
+      "reserve": 2450092.0,
+      "reserve_usd": 150004600000.0,
+      "timestamp": 1782611700
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856047,
+      "inflow_total": 1034.8,
+      "outflow_total": 1138.28,
+      "netflow_total": -103.48,
+      "reserve": 2450094.0,
+      "reserve_usd": 150004700000.0,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T02:05:00Z",
+      "blockheight": 856048,
+      "inflow_total": 1035.1,
+      "outflow_total": 1138.61,
+      "netflow_total": -103.51,
+      "reserve": 2450096.0,
+      "reserve_usd": 150004800000.0,
+      "timestamp": 1782612300
+    },
+    {
+      "datetime": "2026-06-28T02:10:00Z",
+      "blockheight": 856049,
+      "inflow_total": 1035.4,
+      "outflow_total": 1138.94,
+      "netflow_total": -103.54,
+      "reserve": 2450098.0,
+      "reserve_usd": 150004900000.0,
+      "timestamp": 1782612600
+    },
+    {
+      "datetime": "2026-06-28T02:15:00Z",
+      "blockheight": 856050,
+      "inflow_total": 1035.7,
+      "outflow_total": 1139.27,
+      "netflow_total": -103.57,
+      "reserve": 2450100.0,
+      "reserve_usd": 150005000000.0,
+      "timestamp": 1782612900
+    },
+    {
+      "datetime": "2026-06-28T02:20:00Z",
+      "blockheight": 856051,
+      "inflow_total": 1036.0,
+      "outflow_total": 1139.6,
+      "netflow_total": -103.6,
+      "reserve": 2450102.0,
+      "reserve_usd": 150005100000.0,
+      "timestamp": 1782613200
+    },
+    {
+      "datetime": "2026-06-28T02:25:00Z",
+      "blockheight": 856052,
+      "inflow_total": 1036.3,
+      "outflow_total": 1139.93,
+      "netflow_total": -103.63,
+      "reserve": 2450104.0,
+      "reserve_usd": 150005200000.0,
+      "timestamp": 1782613500
+    },
+    {
+      "datetime": "2026-06-28T02:30:00Z",
+      "blockheight": 856053,
+      "inflow_total": 1036.6,
+      "outflow_total": 1140.26,
+      "netflow_total": -103.66,
+      "reserve": 2450106.0,
+      "reserve_usd": 150005300000.0,
+      "timestamp": 1782613800
+    },
+    {
+      "datetime": "2026-06-28T02:35:00Z",
+      "blockheight": 856054,
+      "inflow_total": 1036.9,
+      "outflow_total": 1140.59,
+      "netflow_total": -103.69,
+      "reserve": 2450108.0,
+      "reserve_usd": 150005400000.0,
+      "timestamp": 1782614100
+    },
+    {
+      "datetime": "2026-06-28T02:40:00Z",
+      "blockheight": 856055,
+      "inflow_total": 1037.2,
+      "outflow_total": 1140.92,
+      "netflow_total": -103.72,
+      "reserve": 2450110.0,
+      "reserve_usd": 150005500000.0,
+      "timestamp": 1782614400
+    },
+    {
+      "datetime": "2026-06-28T02:45:00Z",
+      "blockheight": 856056,
+      "inflow_total": 1037.5,
+      "outflow_total": 1141.25,
+      "netflow_total": -103.75,
+      "reserve": 2450112.0,
+      "reserve_usd": 150005600000.0,
+      "timestamp": 1782614700
+    },
+    {
+      "datetime": "2026-06-28T02:50:00Z",
+      "blockheight": 856057,
+      "inflow_total": 1037.8,
+      "outflow_total": 1141.58,
+      "netflow_total": -103.78,
+      "reserve": 2450114.0,
+      "reserve_usd": 150005700000.0,
+      "timestamp": 1782615000
+    },
+    {
+      "datetime": "2026-06-28T02:55:00Z",
+      "blockheight": 856058,
+      "inflow_total": 1038.1,
+      "outflow_total": 1141.91,
+      "netflow_total": -103.81,
+      "reserve": 2450116.0,
+      "reserve_usd": 150005800000.0,
+      "timestamp": 1782615300
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856059,
+      "inflow_total": 1038.4,
+      "outflow_total": 1142.24,
+      "netflow_total": -103.84,
+      "reserve": 2450118.0,
+      "reserve_usd": 150005900000.0,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T03:05:00Z",
+      "blockheight": 856060,
+      "inflow_total": 1038.7,
+      "outflow_total": 1142.57,
+      "netflow_total": -103.87,
+      "reserve": 2450120.0,
+      "reserve_usd": 150006000000.0,
+      "timestamp": 1782615900
+    },
+    {
+      "datetime": "2026-06-28T03:10:00Z",
+      "blockheight": 856061,
+      "inflow_total": 1039.0,
+      "outflow_total": 1142.9,
+      "netflow_total": -103.9,
+      "reserve": 2450122.0,
+      "reserve_usd": 150006100000.0,
+      "timestamp": 1782616200
+    },
+    {
+      "datetime": "2026-06-28T03:15:00Z",
+      "blockheight": 856062,
+      "inflow_total": 1039.3,
+      "outflow_total": 1143.23,
+      "netflow_total": -103.93,
+      "reserve": 2450124.0,
+      "reserve_usd": 150006200000.0,
+      "timestamp": 1782616500
+    },
+    {
+      "datetime": "2026-06-28T03:20:00Z",
+      "blockheight": 856063,
+      "inflow_total": 1039.6,
+      "outflow_total": 1143.56,
+      "netflow_total": -103.96,
+      "reserve": 2450126.0,
+      "reserve_usd": 150006300000.0,
+      "timestamp": 1782616800
+    },
+    {
+      "datetime": "2026-06-28T03:25:00Z",
+      "blockheight": 856064,
+      "inflow_total": 1039.9,
+      "outflow_total": 1143.89,
+      "netflow_total": -103.99,
+      "reserve": 2450128.0,
+      "reserve_usd": 150006400000.0,
+      "timestamp": 1782617100
+    },
+    {
+      "datetime": "2026-06-28T03:30:00Z",
+      "blockheight": 856065,
+      "inflow_total": 1040.2,
+      "outflow_total": 1144.22,
+      "netflow_total": -104.02,
+      "reserve": 2450130.0,
+      "reserve_usd": 150006500000.0,
+      "timestamp": 1782617400
+    },
+    {
+      "datetime": "2026-06-28T03:35:00Z",
+      "blockheight": 856066,
+      "inflow_total": 1040.5,
+      "outflow_total": 1144.55,
+      "netflow_total": -104.05,
+      "reserve": 2450132.0,
+      "reserve_usd": 150006600000.0,
+      "timestamp": 1782617700
+    },
+    {
+      "datetime": "2026-06-28T03:40:00Z",
+      "blockheight": 856067,
+      "inflow_total": 1040.8,
+      "outflow_total": 1144.88,
+      "netflow_total": -104.08,
+      "reserve": 2450134.0,
+      "reserve_usd": 150006700000.0,
+      "timestamp": 1782618000
+    },
+    {
+      "datetime": "2026-06-28T03:45:00Z",
+      "blockheight": 856068,
+      "inflow_total": 1041.1,
+      "outflow_total": 1145.21,
+      "netflow_total": -104.11,
+      "reserve": 2450136.0,
+      "reserve_usd": 150006800000.0,
+      "timestamp": 1782618300
+    },
+    {
+      "datetime": "2026-06-28T03:50:00Z",
+      "blockheight": 856069,
+      "inflow_total": 1041.4,
+      "outflow_total": 1145.54,
+      "netflow_total": -104.14,
+      "reserve": 2450138.0,
+      "reserve_usd": 150006900000.0,
+      "timestamp": 1782618600
+    },
+    {
+      "datetime": "2026-06-28T03:55:00Z",
+      "blockheight": 856070,
+      "inflow_total": 1041.7,
+      "outflow_total": 1145.87,
+      "netflow_total": -104.17,
+      "reserve": 2450140.0,
+      "reserve_usd": 150007000000.0,
+      "timestamp": 1782618900
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856071,
+      "inflow_total": 1042.0,
+      "outflow_total": 1146.2,
+      "netflow_total": -104.2,
+      "reserve": 2450142.0,
+      "reserve_usd": 150007100000.0,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T04:05:00Z",
+      "blockheight": 856072,
+      "inflow_total": 1042.3,
+      "outflow_total": 1146.53,
+      "netflow_total": -104.23,
+      "reserve": 2450144.0,
+      "reserve_usd": 150007200000.0,
+      "timestamp": 1782619500
+    },
+    {
+      "datetime": "2026-06-28T04:10:00Z",
+      "blockheight": 856073,
+      "inflow_total": 1042.6,
+      "outflow_total": 1146.86,
+      "netflow_total": -104.26,
+      "reserve": 2450146.0,
+      "reserve_usd": 150007300000.0,
+      "timestamp": 1782619800
+    },
+    {
+      "datetime": "2026-06-28T04:15:00Z",
+      "blockheight": 856074,
+      "inflow_total": 1042.9,
+      "outflow_total": 1147.19,
+      "netflow_total": -104.29,
+      "reserve": 2450148.0,
+      "reserve_usd": 150007400000.0,
+      "timestamp": 1782620100
+    },
+    {
+      "datetime": "2026-06-28T04:20:00Z",
+      "blockheight": 856075,
+      "inflow_total": 1043.2,
+      "outflow_total": 1147.52,
+      "netflow_total": -104.32,
+      "reserve": 2450150.0,
+      "reserve_usd": 150007500000.0,
+      "timestamp": 1782620400
+    },
+    {
+      "datetime": "2026-06-28T04:25:00Z",
+      "blockheight": 856076,
+      "inflow_total": 1043.5,
+      "outflow_total": 1147.85,
+      "netflow_total": -104.35,
+      "reserve": 2450152.0,
+      "reserve_usd": 150007600000.0,
+      "timestamp": 1782620700
+    },
+    {
+      "datetime": "2026-06-28T04:30:00Z",
+      "blockheight": 856077,
+      "inflow_total": 1043.8,
+      "outflow_total": 1148.18,
+      "netflow_total": -104.38,
+      "reserve": 2450154.0,
+      "reserve_usd": 150007700000.0,
+      "timestamp": 1782621000
+    },
+    {
+      "datetime": "2026-06-28T04:35:00Z",
+      "blockheight": 856078,
+      "inflow_total": 1044.1,
+      "outflow_total": 1148.51,
+      "netflow_total": -104.41,
+      "reserve": 2450156.0,
+      "reserve_usd": 150007800000.0,
+      "timestamp": 1782621300
+    },
+    {
+      "datetime": "2026-06-28T04:40:00Z",
+      "blockheight": 856079,
+      "inflow_total": 1044.4,
+      "outflow_total": 1148.84,
+      "netflow_total": -104.44,
+      "reserve": 2450158.0,
+      "reserve_usd": 150007900000.0,
+      "timestamp": 1782621600
+    },
+    {
+      "datetime": "2026-06-28T04:45:00Z",
+      "blockheight": 856080,
+      "inflow_total": 1044.7,
+      "outflow_total": 1149.17,
+      "netflow_total": -104.47,
+      "reserve": 2450160.0,
+      "reserve_usd": 150008000000.0,
+      "timestamp": 1782621900
+    },
+    {
+      "datetime": "2026-06-28T04:50:00Z",
+      "blockheight": 856081,
+      "inflow_total": 1045.0,
+      "outflow_total": 1149.5,
+      "netflow_total": -104.5,
+      "reserve": 2450162.0,
+      "reserve_usd": 150008100000.0,
+      "timestamp": 1782622200
+    },
+    {
+      "datetime": "2026-06-28T04:55:00Z",
+      "blockheight": 856082,
+      "inflow_total": 1045.3,
+      "outflow_total": 1149.83,
+      "netflow_total": -104.53,
+      "reserve": 2450164.0,
+      "reserve_usd": 150008200000.0,
+      "timestamp": 1782622500
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856083,
+      "inflow_total": 1045.6,
+      "outflow_total": 1150.16,
+      "netflow_total": -104.56,
+      "reserve": 2450166.0,
+      "reserve_usd": 150008300000.0,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T05:05:00Z",
+      "blockheight": 856084,
+      "inflow_total": 1045.9,
+      "outflow_total": 1150.49,
+      "netflow_total": -104.59,
+      "reserve": 2450168.0,
+      "reserve_usd": 150008400000.0,
+      "timestamp": 1782623100
+    },
+    {
+      "datetime": "2026-06-28T05:10:00Z",
+      "blockheight": 856085,
+      "inflow_total": 1046.2,
+      "outflow_total": 1150.82,
+      "netflow_total": -104.62,
+      "reserve": 2450170.0,
+      "reserve_usd": 150008500000.0,
+      "timestamp": 1782623400
+    },
+    {
+      "datetime": "2026-06-28T05:15:00Z",
+      "blockheight": 856086,
+      "inflow_total": 1046.5,
+      "outflow_total": 1151.15,
+      "netflow_total": -104.65,
+      "reserve": 2450172.0,
+      "reserve_usd": 150008600000.0,
+      "timestamp": 1782623700
+    },
+    {
+      "datetime": "2026-06-28T05:20:00Z",
+      "blockheight": 856087,
+      "inflow_total": 1046.8,
+      "outflow_total": 1151.48,
+      "netflow_total": -104.68,
+      "reserve": 2450174.0,
+      "reserve_usd": 150008700000.0,
+      "timestamp": 1782624000
+    },
+    {
+      "datetime": "2026-06-28T05:25:00Z",
+      "blockheight": 856088,
+      "inflow_total": 1047.1,
+      "outflow_total": 1151.81,
+      "netflow_total": -104.71,
+      "reserve": 2450176.0,
+      "reserve_usd": 150008800000.0,
+      "timestamp": 1782624300
+    },
+    {
+      "datetime": "2026-06-28T05:30:00Z",
+      "blockheight": 856089,
+      "inflow_total": 1047.4,
+      "outflow_total": 1152.14,
+      "netflow_total": -104.74,
+      "reserve": 2450178.0,
+      "reserve_usd": 150008900000.0,
+      "timestamp": 1782624600
+    },
+    {
+      "datetime": "2026-06-28T05:35:00Z",
+      "blockheight": 856090,
+      "inflow_total": 1047.7,
+      "outflow_total": 1152.47,
+      "netflow_total": -104.77,
+      "reserve": 2450180.0,
+      "reserve_usd": 150009000000.0,
+      "timestamp": 1782624900
+    },
+    {
+      "datetime": "2026-06-28T05:40:00Z",
+      "blockheight": 856091,
+      "inflow_total": 1048.0,
+      "outflow_total": 1152.8,
+      "netflow_total": -104.8,
+      "reserve": 2450182.0,
+      "reserve_usd": 150009100000.0,
+      "timestamp": 1782625200
+    },
+    {
+      "datetime": "2026-06-28T05:45:00Z",
+      "blockheight": 856092,
+      "inflow_total": 1048.3,
+      "outflow_total": 1153.13,
+      "netflow_total": -104.83,
+      "reserve": 2450184.0,
+      "reserve_usd": 150009200000.0,
+      "timestamp": 1782625500
+    },
+    {
+      "datetime": "2026-06-28T05:50:00Z",
+      "blockheight": 856093,
+      "inflow_total": 1048.6,
+      "outflow_total": 1153.46,
+      "netflow_total": -104.86,
+      "reserve": 2450186.0,
+      "reserve_usd": 150009300000.0,
+      "timestamp": 1782625800
+    },
+    {
+      "datetime": "2026-06-28T05:55:00Z",
+      "blockheight": 856094,
+      "inflow_total": 1048.9,
+      "outflow_total": 1153.79,
+      "netflow_total": -104.89,
+      "reserve": 2450188.0,
+      "reserve_usd": 150009400000.0,
+      "timestamp": 1782626100
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856095,
+      "inflow_total": 1049.2,
+      "outflow_total": 1154.12,
+      "netflow_total": -104.92,
+      "reserve": 2450190.0,
+      "reserve_usd": 150009500000.0,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T06:05:00Z",
+      "blockheight": 856096,
+      "inflow_total": 1049.5,
+      "outflow_total": 1154.45,
+      "netflow_total": -104.95,
+      "reserve": 2450192.0,
+      "reserve_usd": 150009600000.0,
+      "timestamp": 1782626700
+    },
+    {
+      "datetime": "2026-06-28T06:10:00Z",
+      "blockheight": 856097,
+      "inflow_total": 1049.8,
+      "outflow_total": 1154.78,
+      "netflow_total": -104.98,
+      "reserve": 2450194.0,
+      "reserve_usd": 150009700000.0,
+      "timestamp": 1782627000
+    },
+    {
+      "datetime": "2026-06-28T06:15:00Z",
+      "blockheight": 856098,
+      "inflow_total": 1050.1,
+      "outflow_total": 1155.11,
+      "netflow_total": -105.01,
+      "reserve": 2450196.0,
+      "reserve_usd": 150009800000.0,
+      "timestamp": 1782627300
+    },
+    {
+      "datetime": "2026-06-28T06:20:00Z",
+      "blockheight": 856099,
+      "inflow_total": 1050.4,
+      "outflow_total": 1155.44,
+      "netflow_total": -105.04,
+      "reserve": 2450198.0,
+      "reserve_usd": 150009900000.0,
+      "timestamp": 1782627600
+    },
+    {
+      "datetime": "2026-06-28T06:25:00Z",
+      "blockheight": 856100,
+      "inflow_total": 1050.7,
+      "outflow_total": 1155.77,
+      "netflow_total": -105.07,
+      "reserve": 2450200.0,
+      "reserve_usd": 150010000000.0,
+      "timestamp": 1782627900
+    },
+    {
+      "datetime": "2026-06-28T06:30:00Z",
+      "blockheight": 856101,
+      "inflow_total": 1051.0,
+      "outflow_total": 1156.1,
+      "netflow_total": -105.1,
+      "reserve": 2450202.0,
+      "reserve_usd": 150010100000.0,
+      "timestamp": 1782628200
+    },
+    {
+      "datetime": "2026-06-28T06:35:00Z",
+      "blockheight": 856102,
+      "inflow_total": 1051.3,
+      "outflow_total": 1156.43,
+      "netflow_total": -105.13,
+      "reserve": 2450204.0,
+      "reserve_usd": 150010200000.0,
+      "timestamp": 1782628500
+    },
+    {
+      "datetime": "2026-06-28T06:40:00Z",
+      "blockheight": 856103,
+      "inflow_total": 1051.6,
+      "outflow_total": 1156.76,
+      "netflow_total": -105.16,
+      "reserve": 2450206.0,
+      "reserve_usd": 150010300000.0,
+      "timestamp": 1782628800
+    },
+    {
+      "datetime": "2026-06-28T06:45:00Z",
+      "blockheight": 856104,
+      "inflow_total": 1051.9,
+      "outflow_total": 1157.09,
+      "netflow_total": -105.19,
+      "reserve": 2450208.0,
+      "reserve_usd": 150010400000.0,
+      "timestamp": 1782629100
+    },
+    {
+      "datetime": "2026-06-28T06:50:00Z",
+      "blockheight": 856105,
+      "inflow_total": 1052.2,
+      "outflow_total": 1157.42,
+      "netflow_total": -105.22,
+      "reserve": 2450210.0,
+      "reserve_usd": 150010500000.0,
+      "timestamp": 1782629400
+    },
+    {
+      "datetime": "2026-06-28T06:55:00Z",
+      "blockheight": 856106,
+      "inflow_total": 1052.5,
+      "outflow_total": 1157.75,
+      "netflow_total": -105.25,
+      "reserve": 2450212.0,
+      "reserve_usd": 150010600000.0,
+      "timestamp": 1782629700
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856107,
+      "inflow_total": 1052.8,
+      "outflow_total": 1158.08,
+      "netflow_total": -105.28,
+      "reserve": 2450214.0,
+      "reserve_usd": 150010700000.0,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T07:05:00Z",
+      "blockheight": 856108,
+      "inflow_total": 1053.1,
+      "outflow_total": 1158.41,
+      "netflow_total": -105.31,
+      "reserve": 2450216.0,
+      "reserve_usd": 150010800000.0,
+      "timestamp": 1782630300
+    },
+    {
+      "datetime": "2026-06-28T07:10:00Z",
+      "blockheight": 856109,
+      "inflow_total": 1053.4,
+      "outflow_total": 1158.74,
+      "netflow_total": -105.34,
+      "reserve": 2450218.0,
+      "reserve_usd": 150010900000.0,
+      "timestamp": 1782630600
+    },
+    {
+      "datetime": "2026-06-28T07:15:00Z",
+      "blockheight": 856110,
+      "inflow_total": 1053.7,
+      "outflow_total": 1159.07,
+      "netflow_total": -105.37,
+      "reserve": 2450220.0,
+      "reserve_usd": 150011000000.0,
+      "timestamp": 1782630900
+    },
+    {
+      "datetime": "2026-06-28T07:20:00Z",
+      "blockheight": 856111,
+      "inflow_total": 1054.0,
+      "outflow_total": 1159.4,
+      "netflow_total": -105.4,
+      "reserve": 2450222.0,
+      "reserve_usd": 150011100000.0,
+      "timestamp": 1782631200
+    },
+    {
+      "datetime": "2026-06-28T07:25:00Z",
+      "blockheight": 856112,
+      "inflow_total": 1054.3,
+      "outflow_total": 1159.73,
+      "netflow_total": -105.43,
+      "reserve": 2450224.0,
+      "reserve_usd": 150011200000.0,
+      "timestamp": 1782631500
+    },
+    {
+      "datetime": "2026-06-28T07:30:00Z",
+      "blockheight": 856113,
+      "inflow_total": 1054.6,
+      "outflow_total": 1160.06,
+      "netflow_total": -105.46,
+      "reserve": 2450226.0,
+      "reserve_usd": 150011300000.0,
+      "timestamp": 1782631800
+    },
+    {
+      "datetime": "2026-06-28T07:35:00Z",
+      "blockheight": 856114,
+      "inflow_total": 1054.9,
+      "outflow_total": 1160.39,
+      "netflow_total": -105.49,
+      "reserve": 2450228.0,
+      "reserve_usd": 150011400000.0,
+      "timestamp": 1782632100
+    },
+    {
+      "datetime": "2026-06-28T07:40:00Z",
+      "blockheight": 856115,
+      "inflow_total": 1055.2,
+      "outflow_total": 1160.72,
+      "netflow_total": -105.52,
+      "reserve": 2450230.0,
+      "reserve_usd": 150011500000.0,
+      "timestamp": 1782632400
+    },
+    {
+      "datetime": "2026-06-28T07:45:00Z",
+      "blockheight": 856116,
+      "inflow_total": 1055.5,
+      "outflow_total": 1161.05,
+      "netflow_total": -105.55,
+      "reserve": 2450232.0,
+      "reserve_usd": 150011600000.0,
+      "timestamp": 1782632700
+    },
+    {
+      "datetime": "2026-06-28T07:50:00Z",
+      "blockheight": 856117,
+      "inflow_total": 1055.8,
+      "outflow_total": 1161.38,
+      "netflow_total": -105.58,
+      "reserve": 2450234.0,
+      "reserve_usd": 150011700000.0,
+      "timestamp": 1782633000
+    },
+    {
+      "datetime": "2026-06-28T07:55:00Z",
+      "blockheight": 856118,
+      "inflow_total": 1056.1,
+      "outflow_total": 1161.71,
+      "netflow_total": -105.61,
+      "reserve": 2450236.0,
+      "reserve_usd": 150011800000.0,
+      "timestamp": 1782633300
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856119,
+      "inflow_total": 1056.4,
+      "outflow_total": 1162.04,
+      "netflow_total": -105.64,
+      "reserve": 2450238.0,
+      "reserve_usd": 150011900000.0,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T08:05:00Z",
+      "blockheight": 856120,
+      "inflow_total": 1056.7,
+      "outflow_total": 1162.37,
+      "netflow_total": -105.67,
+      "reserve": 2450240.0,
+      "reserve_usd": 150012000000.0,
+      "timestamp": 1782633900
+    },
+    {
+      "datetime": "2026-06-28T08:10:00Z",
+      "blockheight": 856121,
+      "inflow_total": 1057.0,
+      "outflow_total": 1162.7,
+      "netflow_total": -105.7,
+      "reserve": 2450242.0,
+      "reserve_usd": 150012100000.0,
+      "timestamp": 1782634200
+    },
+    {
+      "datetime": "2026-06-28T08:15:00Z",
+      "blockheight": 856122,
+      "inflow_total": 1057.3,
+      "outflow_total": 1163.03,
+      "netflow_total": -105.73,
+      "reserve": 2450244.0,
+      "reserve_usd": 150012200000.0,
+      "timestamp": 1782634500
+    },
+    {
+      "datetime": "2026-06-28T08:20:00Z",
+      "blockheight": 856123,
+      "inflow_total": 1057.6,
+      "outflow_total": 1163.36,
+      "netflow_total": -105.76,
+      "reserve": 2450246.0,
+      "reserve_usd": 150012300000.0,
+      "timestamp": 1782634800
+    },
+    {
+      "datetime": "2026-06-28T08:25:00Z",
+      "blockheight": 856124,
+      "inflow_total": 1057.9,
+      "outflow_total": 1163.69,
+      "netflow_total": -105.79,
+      "reserve": 2450248.0,
+      "reserve_usd": 150012400000.0,
+      "timestamp": 1782635100
+    },
+    {
+      "datetime": "2026-06-28T08:30:00Z",
+      "blockheight": 856125,
+      "inflow_total": 1058.2,
+      "outflow_total": 1164.02,
+      "netflow_total": -105.82,
+      "reserve": 2450250.0,
+      "reserve_usd": 150012500000.0,
+      "timestamp": 1782635400
+    },
+    {
+      "datetime": "2026-06-28T08:35:00Z",
+      "blockheight": 856126,
+      "inflow_total": 1058.5,
+      "outflow_total": 1164.35,
+      "netflow_total": -105.85,
+      "reserve": 2450252.0,
+      "reserve_usd": 150012600000.0,
+      "timestamp": 1782635700
+    },
+    {
+      "datetime": "2026-06-28T08:40:00Z",
+      "blockheight": 856127,
+      "inflow_total": 1058.8,
+      "outflow_total": 1164.68,
+      "netflow_total": -105.88,
+      "reserve": 2450254.0,
+      "reserve_usd": 150012700000.0,
+      "timestamp": 1782636000
+    },
+    {
+      "datetime": "2026-06-28T08:45:00Z",
+      "blockheight": 856128,
+      "inflow_total": 1059.1,
+      "outflow_total": 1165.01,
+      "netflow_total": -105.91,
+      "reserve": 2450256.0,
+      "reserve_usd": 150012800000.0,
+      "timestamp": 1782636300
+    },
+    {
+      "datetime": "2026-06-28T08:50:00Z",
+      "blockheight": 856129,
+      "inflow_total": 1059.4,
+      "outflow_total": 1165.34,
+      "netflow_total": -105.94,
+      "reserve": 2450258.0,
+      "reserve_usd": 150012900000.0,
+      "timestamp": 1782636600
+    },
+    {
+      "datetime": "2026-06-28T08:55:00Z",
+      "blockheight": 856130,
+      "inflow_total": 1059.7,
+      "outflow_total": 1165.67,
+      "netflow_total": -105.97,
+      "reserve": 2450260.0,
+      "reserve_usd": 150013000000.0,
+      "timestamp": 1782636900
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856131,
+      "inflow_total": 1060.0,
+      "outflow_total": 1166.0,
+      "netflow_total": -106.0,
+      "reserve": 2450262.0,
+      "reserve_usd": 150013100000.0,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T09:05:00Z",
+      "blockheight": 856132,
+      "inflow_total": 1060.3,
+      "outflow_total": 1166.33,
+      "netflow_total": -106.03,
+      "reserve": 2450264.0,
+      "reserve_usd": 150013200000.0,
+      "timestamp": 1782637500
+    },
+    {
+      "datetime": "2026-06-28T09:10:00Z",
+      "blockheight": 856133,
+      "inflow_total": 1060.6,
+      "outflow_total": 1166.66,
+      "netflow_total": -106.06,
+      "reserve": 2450266.0,
+      "reserve_usd": 150013300000.0,
+      "timestamp": 1782637800
+    },
+    {
+      "datetime": "2026-06-28T09:15:00Z",
+      "blockheight": 856134,
+      "inflow_total": 1060.9,
+      "outflow_total": 1166.99,
+      "netflow_total": -106.09,
+      "reserve": 2450268.0,
+      "reserve_usd": 150013400000.0,
+      "timestamp": 1782638100
+    },
+    {
+      "datetime": "2026-06-28T09:20:00Z",
+      "blockheight": 856135,
+      "inflow_total": 1061.2,
+      "outflow_total": 1167.32,
+      "netflow_total": -106.12,
+      "reserve": 2450270.0,
+      "reserve_usd": 150013500000.0,
+      "timestamp": 1782638400
+    },
+    {
+      "datetime": "2026-06-28T09:25:00Z",
+      "blockheight": 856136,
+      "inflow_total": 1061.5,
+      "outflow_total": 1167.65,
+      "netflow_total": -106.15,
+      "reserve": 2450272.0,
+      "reserve_usd": 150013600000.0,
+      "timestamp": 1782638700
+    },
+    {
+      "datetime": "2026-06-28T09:30:00Z",
+      "blockheight": 856137,
+      "inflow_total": 1061.8,
+      "outflow_total": 1167.98,
+      "netflow_total": -106.18,
+      "reserve": 2450274.0,
+      "reserve_usd": 150013700000.0,
+      "timestamp": 1782639000
+    },
+    {
+      "datetime": "2026-06-28T09:35:00Z",
+      "blockheight": 856138,
+      "inflow_total": 1062.1,
+      "outflow_total": 1168.31,
+      "netflow_total": -106.21,
+      "reserve": 2450276.0,
+      "reserve_usd": 150013800000.0,
+      "timestamp": 1782639300
+    },
+    {
+      "datetime": "2026-06-28T09:40:00Z",
+      "blockheight": 856139,
+      "inflow_total": 1062.4,
+      "outflow_total": 1168.64,
+      "netflow_total": -106.24,
+      "reserve": 2450278.0,
+      "reserve_usd": 150013900000.0,
+      "timestamp": 1782639600
+    },
+    {
+      "datetime": "2026-06-28T09:45:00Z",
+      "blockheight": 856140,
+      "inflow_total": 1062.7,
+      "outflow_total": 1168.97,
+      "netflow_total": -106.27,
+      "reserve": 2450280.0,
+      "reserve_usd": 150014000000.0,
+      "timestamp": 1782639900
+    },
+    {
+      "datetime": "2026-06-28T09:50:00Z",
+      "blockheight": 856141,
+      "inflow_total": 1063.0,
+      "outflow_total": 1169.3,
+      "netflow_total": -106.3,
+      "reserve": 2450282.0,
+      "reserve_usd": 150014100000.0,
+      "timestamp": 1782640200
+    },
+    {
+      "datetime": "2026-06-28T09:55:00Z",
+      "blockheight": 856142,
+      "inflow_total": 1063.3,
+      "outflow_total": 1169.63,
+      "netflow_total": -106.33,
+      "reserve": 2450284.0,
+      "reserve_usd": 150014200000.0,
+      "timestamp": 1782640500
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856143,
+      "inflow_total": 1063.6,
+      "outflow_total": 1169.96,
+      "netflow_total": -106.36,
+      "reserve": 2450286.0,
+      "reserve_usd": 150014300000.0,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T10:05:00Z",
+      "blockheight": 856144,
+      "inflow_total": 1063.9,
+      "outflow_total": 1170.29,
+      "netflow_total": -106.39,
+      "reserve": 2450288.0,
+      "reserve_usd": 150014400000.0,
+      "timestamp": 1782641100
+    },
+    {
+      "datetime": "2026-06-28T10:10:00Z",
+      "blockheight": 856145,
+      "inflow_total": 1064.2,
+      "outflow_total": 1170.62,
+      "netflow_total": -106.42,
+      "reserve": 2450290.0,
+      "reserve_usd": 150014500000.0,
+      "timestamp": 1782641400
+    },
+    {
+      "datetime": "2026-06-28T10:15:00Z",
+      "blockheight": 856146,
+      "inflow_total": 1064.5,
+      "outflow_total": 1170.95,
+      "netflow_total": -106.45,
+      "reserve": 2450292.0,
+      "reserve_usd": 150014600000.0,
+      "timestamp": 1782641700
+    },
+    {
+      "datetime": "2026-06-28T10:20:00Z",
+      "blockheight": 856147,
+      "inflow_total": 1064.8,
+      "outflow_total": 1171.28,
+      "netflow_total": -106.48,
+      "reserve": 2450294.0,
+      "reserve_usd": 150014700000.0,
+      "timestamp": 1782642000
+    },
+    {
+      "datetime": "2026-06-28T10:25:00Z",
+      "blockheight": 856148,
+      "inflow_total": 1065.1,
+      "outflow_total": 1171.61,
+      "netflow_total": -106.51,
+      "reserve": 2450296.0,
+      "reserve_usd": 150014800000.0,
+      "timestamp": 1782642300
+    },
+    {
+      "datetime": "2026-06-28T10:30:00Z",
+      "blockheight": 856149,
+      "inflow_total": 1065.4,
+      "outflow_total": 1171.94,
+      "netflow_total": -106.54,
+      "reserve": 2450298.0,
+      "reserve_usd": 150014900000.0,
+      "timestamp": 1782642600
+    },
+    {
+      "datetime": "2026-06-28T10:35:00Z",
+      "blockheight": 856150,
+      "inflow_total": 1065.7,
+      "outflow_total": 1172.27,
+      "netflow_total": -106.57,
+      "reserve": 2450300.0,
+      "reserve_usd": 150015000000.0,
+      "timestamp": 1782642900
+    },
+    {
+      "datetime": "2026-06-28T10:40:00Z",
+      "blockheight": 856151,
+      "inflow_total": 1066.0,
+      "outflow_total": 1172.6,
+      "netflow_total": -106.6,
+      "reserve": 2450302.0,
+      "reserve_usd": 150015100000.0,
+      "timestamp": 1782643200
+    },
+    {
+      "datetime": "2026-06-28T10:45:00Z",
+      "blockheight": 856152,
+      "inflow_total": 1066.3,
+      "outflow_total": 1172.93,
+      "netflow_total": -106.63,
+      "reserve": 2450304.0,
+      "reserve_usd": 150015200000.0,
+      "timestamp": 1782643500
+    },
+    {
+      "datetime": "2026-06-28T10:50:00Z",
+      "blockheight": 856153,
+      "inflow_total": 1066.6,
+      "outflow_total": 1173.26,
+      "netflow_total": -106.66,
+      "reserve": 2450306.0,
+      "reserve_usd": 150015300000.0,
+      "timestamp": 1782643800
+    },
+    {
+      "datetime": "2026-06-28T10:55:00Z",
+      "blockheight": 856154,
+      "inflow_total": 1066.9,
+      "outflow_total": 1173.59,
+      "netflow_total": -106.69,
+      "reserve": 2450308.0,
+      "reserve_usd": 150015400000.0,
+      "timestamp": 1782644100
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856155,
+      "inflow_total": 1067.2,
+      "outflow_total": 1173.92,
+      "netflow_total": -106.72,
+      "reserve": 2450310.0,
+      "reserve_usd": 150015500000.0,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T11:05:00Z",
+      "blockheight": 856156,
+      "inflow_total": 1067.5,
+      "outflow_total": 1174.25,
+      "netflow_total": -106.75,
+      "reserve": 2450312.0,
+      "reserve_usd": 150015600000.0,
+      "timestamp": 1782644700
+    },
+    {
+      "datetime": "2026-06-28T11:10:00Z",
+      "blockheight": 856157,
+      "inflow_total": 1067.8,
+      "outflow_total": 1174.58,
+      "netflow_total": -106.78,
+      "reserve": 2450314.0,
+      "reserve_usd": 150015700000.0,
+      "timestamp": 1782645000
+    },
+    {
+      "datetime": "2026-06-28T11:15:00Z",
+      "blockheight": 856158,
+      "inflow_total": 1068.1,
+      "outflow_total": 1174.91,
+      "netflow_total": -106.81,
+      "reserve": 2450316.0,
+      "reserve_usd": 150015800000.0,
+      "timestamp": 1782645300
+    },
+    {
+      "datetime": "2026-06-28T11:20:00Z",
+      "blockheight": 856159,
+      "inflow_total": 1068.4,
+      "outflow_total": 1175.24,
+      "netflow_total": -106.84,
+      "reserve": 2450318.0,
+      "reserve_usd": 150015900000.0,
+      "timestamp": 1782645600
+    },
+    {
+      "datetime": "2026-06-28T11:25:00Z",
+      "blockheight": 856160,
+      "inflow_total": 1068.7,
+      "outflow_total": 1175.57,
+      "netflow_total": -106.87,
+      "reserve": 2450320.0,
+      "reserve_usd": 150016000000.0,
+      "timestamp": 1782645900
+    },
+    {
+      "datetime": "2026-06-28T11:30:00Z",
+      "blockheight": 856161,
+      "inflow_total": 1069.0,
+      "outflow_total": 1175.9,
+      "netflow_total": -106.9,
+      "reserve": 2450322.0,
+      "reserve_usd": 150016100000.0,
+      "timestamp": 1782646200
+    },
+    {
+      "datetime": "2026-06-28T11:35:00Z",
+      "blockheight": 856162,
+      "inflow_total": 1069.3,
+      "outflow_total": 1176.23,
+      "netflow_total": -106.93,
+      "reserve": 2450324.0,
+      "reserve_usd": 150016200000.0,
+      "timestamp": 1782646500
+    },
+    {
+      "datetime": "2026-06-28T11:40:00Z",
+      "blockheight": 856163,
+      "inflow_total": 1069.6,
+      "outflow_total": 1176.56,
+      "netflow_total": -106.96,
+      "reserve": 2450326.0,
+      "reserve_usd": 150016300000.0,
+      "timestamp": 1782646800
+    },
+    {
+      "datetime": "2026-06-28T11:45:00Z",
+      "blockheight": 856164,
+      "inflow_total": 1069.9,
+      "outflow_total": 1176.89,
+      "netflow_total": -106.99,
+      "reserve": 2450328.0,
+      "reserve_usd": 150016400000.0,
+      "timestamp": 1782647100
+    },
+    {
+      "datetime": "2026-06-28T11:50:00Z",
+      "blockheight": 856165,
+      "inflow_total": 1070.2,
+      "outflow_total": 1177.22,
+      "netflow_total": -107.02,
+      "reserve": 2450330.0,
+      "reserve_usd": 150016500000.0,
+      "timestamp": 1782647400
+    },
+    {
+      "datetime": "2026-06-28T11:55:00Z",
+      "blockheight": 856166,
+      "inflow_total": 1070.5,
+      "outflow_total": 1177.55,
+      "netflow_total": -107.05,
+      "reserve": 2450332.0,
+      "reserve_usd": 150016600000.0,
+      "timestamp": 1782647700
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856167,
+      "inflow_total": 1070.8,
+      "outflow_total": 1177.88,
+      "netflow_total": -107.08,
+      "reserve": 2450334.0,
+      "reserve_usd": 150016700000.0,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T12:05:00Z",
+      "blockheight": 856168,
+      "inflow_total": 1071.1,
+      "outflow_total": 1178.21,
+      "netflow_total": -107.11,
+      "reserve": 2450336.0,
+      "reserve_usd": 150016800000.0,
+      "timestamp": 1782648300
+    },
+    {
+      "datetime": "2026-06-28T12:10:00Z",
+      "blockheight": 856169,
+      "inflow_total": 1071.4,
+      "outflow_total": 1178.54,
+      "netflow_total": -107.14,
+      "reserve": 2450338.0,
+      "reserve_usd": 150016900000.0,
+      "timestamp": 1782648600
+    },
+    {
+      "datetime": "2026-06-28T12:15:00Z",
+      "blockheight": 856170,
+      "inflow_total": 1071.7,
+      "outflow_total": 1178.87,
+      "netflow_total": -107.17,
+      "reserve": 2450340.0,
+      "reserve_usd": 150017000000.0,
+      "timestamp": 1782648900
+    },
+    {
+      "datetime": "2026-06-28T12:20:00Z",
+      "blockheight": 856171,
+      "inflow_total": 1072.0,
+      "outflow_total": 1179.2,
+      "netflow_total": -107.2,
+      "reserve": 2450342.0,
+      "reserve_usd": 150017100000.0,
+      "timestamp": 1782649200
+    },
+    {
+      "datetime": "2026-06-28T12:25:00Z",
+      "blockheight": 856172,
+      "inflow_total": 1072.3,
+      "outflow_total": 1179.53,
+      "netflow_total": -107.23,
+      "reserve": 2450344.0,
+      "reserve_usd": 150017200000.0,
+      "timestamp": 1782649500
+    },
+    {
+      "datetime": "2026-06-28T12:30:00Z",
+      "blockheight": 856173,
+      "inflow_total": 1072.6,
+      "outflow_total": 1179.86,
+      "netflow_total": -107.26,
+      "reserve": 2450346.0,
+      "reserve_usd": 150017300000.0,
+      "timestamp": 1782649800
+    },
+    {
+      "datetime": "2026-06-28T12:35:00Z",
+      "blockheight": 856174,
+      "inflow_total": 1072.9,
+      "outflow_total": 1180.19,
+      "netflow_total": -107.29,
+      "reserve": 2450348.0,
+      "reserve_usd": 150017400000.0,
+      "timestamp": 1782650100
+    },
+    {
+      "datetime": "2026-06-28T12:40:00Z",
+      "blockheight": 856175,
+      "inflow_total": 1073.2,
+      "outflow_total": 1180.52,
+      "netflow_total": -107.32,
+      "reserve": 2450350.0,
+      "reserve_usd": 150017500000.0,
+      "timestamp": 1782650400
+    },
+    {
+      "datetime": "2026-06-28T12:45:00Z",
+      "blockheight": 856176,
+      "inflow_total": 1073.5,
+      "outflow_total": 1180.85,
+      "netflow_total": -107.35,
+      "reserve": 2450352.0,
+      "reserve_usd": 150017600000.0,
+      "timestamp": 1782650700
+    },
+    {
+      "datetime": "2026-06-28T12:50:00Z",
+      "blockheight": 856177,
+      "inflow_total": 1073.8,
+      "outflow_total": 1181.18,
+      "netflow_total": -107.38,
+      "reserve": 2450354.0,
+      "reserve_usd": 150017700000.0,
+      "timestamp": 1782651000
+    },
+    {
+      "datetime": "2026-06-28T12:55:00Z",
+      "blockheight": 856178,
+      "inflow_total": 1074.1,
+      "outflow_total": 1181.51,
+      "netflow_total": -107.41,
+      "reserve": 2450356.0,
+      "reserve_usd": 150017800000.0,
+      "timestamp": 1782651300
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856179,
+      "inflow_total": 1074.4,
+      "outflow_total": 1181.84,
+      "netflow_total": -107.44,
+      "reserve": 2450358.0,
+      "reserve_usd": 150017900000.0,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T13:05:00Z",
+      "blockheight": 856180,
+      "inflow_total": 1074.7,
+      "outflow_total": 1182.17,
+      "netflow_total": -107.47,
+      "reserve": 2450360.0,
+      "reserve_usd": 150018000000.0,
+      "timestamp": 1782651900
+    },
+    {
+      "datetime": "2026-06-28T13:10:00Z",
+      "blockheight": 856181,
+      "inflow_total": 1075.0,
+      "outflow_total": 1182.5,
+      "netflow_total": -107.5,
+      "reserve": 2450362.0,
+      "reserve_usd": 150018100000.0,
+      "timestamp": 1782652200
+    },
+    {
+      "datetime": "2026-06-28T13:15:00Z",
+      "blockheight": 856182,
+      "inflow_total": 1075.3,
+      "outflow_total": 1182.83,
+      "netflow_total": -107.53,
+      "reserve": 2450364.0,
+      "reserve_usd": 150018200000.0,
+      "timestamp": 1782652500
+    },
+    {
+      "datetime": "2026-06-28T13:20:00Z",
+      "blockheight": 856183,
+      "inflow_total": 1075.6,
+      "outflow_total": 1183.16,
+      "netflow_total": -107.56,
+      "reserve": 2450366.0,
+      "reserve_usd": 150018300000.0,
+      "timestamp": 1782652800
+    },
+    {
+      "datetime": "2026-06-28T13:25:00Z",
+      "blockheight": 856184,
+      "inflow_total": 1075.9,
+      "outflow_total": 1183.49,
+      "netflow_total": -107.59,
+      "reserve": 2450368.0,
+      "reserve_usd": 150018400000.0,
+      "timestamp": 1782653100
+    },
+    {
+      "datetime": "2026-06-28T13:30:00Z",
+      "blockheight": 856185,
+      "inflow_total": 1076.2,
+      "outflow_total": 1183.82,
+      "netflow_total": -107.62,
+      "reserve": 2450370.0,
+      "reserve_usd": 150018500000.0,
+      "timestamp": 1782653400
+    },
+    {
+      "datetime": "2026-06-28T13:35:00Z",
+      "blockheight": 856186,
+      "inflow_total": 1076.5,
+      "outflow_total": 1184.15,
+      "netflow_total": -107.65,
+      "reserve": 2450372.0,
+      "reserve_usd": 150018600000.0,
+      "timestamp": 1782653700
+    },
+    {
+      "datetime": "2026-06-28T13:40:00Z",
+      "blockheight": 856187,
+      "inflow_total": 1076.8,
+      "outflow_total": 1184.48,
+      "netflow_total": -107.68,
+      "reserve": 2450374.0,
+      "reserve_usd": 150018700000.0,
+      "timestamp": 1782654000
+    },
+    {
+      "datetime": "2026-06-28T13:45:00Z",
+      "blockheight": 856188,
+      "inflow_total": 1077.1,
+      "outflow_total": 1184.81,
+      "netflow_total": -107.71,
+      "reserve": 2450376.0,
+      "reserve_usd": 150018800000.0,
+      "timestamp": 1782654300
+    },
+    {
+      "datetime": "2026-06-28T13:50:00Z",
+      "blockheight": 856189,
+      "inflow_total": 1077.4,
+      "outflow_total": 1185.14,
+      "netflow_total": -107.74,
+      "reserve": 2450378.0,
+      "reserve_usd": 150018900000.0,
+      "timestamp": 1782654600
+    },
+    {
+      "datetime": "2026-06-28T13:55:00Z",
+      "blockheight": 856190,
+      "inflow_total": 1077.7,
+      "outflow_total": 1185.47,
+      "netflow_total": -107.77,
+      "reserve": 2450380.0,
+      "reserve_usd": 150019000000.0,
+      "timestamp": 1782654900
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856191,
+      "inflow_total": 1078.0,
+      "outflow_total": 1185.8,
+      "netflow_total": -107.8,
+      "reserve": 2450382.0,
+      "reserve_usd": 150019100000.0,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T14:05:00Z",
+      "blockheight": 856192,
+      "inflow_total": 1078.3,
+      "outflow_total": 1186.13,
+      "netflow_total": -107.83,
+      "reserve": 2450384.0,
+      "reserve_usd": 150019200000.0,
+      "timestamp": 1782655500
+    },
+    {
+      "datetime": "2026-06-28T14:10:00Z",
+      "blockheight": 856193,
+      "inflow_total": 1078.6,
+      "outflow_total": 1186.46,
+      "netflow_total": -107.86,
+      "reserve": 2450386.0,
+      "reserve_usd": 150019300000.0,
+      "timestamp": 1782655800
+    },
+    {
+      "datetime": "2026-06-28T14:15:00Z",
+      "blockheight": 856194,
+      "inflow_total": 1078.9,
+      "outflow_total": 1186.79,
+      "netflow_total": -107.89,
+      "reserve": 2450388.0,
+      "reserve_usd": 150019400000.0,
+      "timestamp": 1782656100
+    },
+    {
+      "datetime": "2026-06-28T14:20:00Z",
+      "blockheight": 856195,
+      "inflow_total": 1079.2,
+      "outflow_total": 1187.12,
+      "netflow_total": -107.92,
+      "reserve": 2450390.0,
+      "reserve_usd": 150019500000.0,
+      "timestamp": 1782656400
+    },
+    {
+      "datetime": "2026-06-28T14:25:00Z",
+      "blockheight": 856196,
+      "inflow_total": 1079.5,
+      "outflow_total": 1187.45,
+      "netflow_total": -107.95,
+      "reserve": 2450392.0,
+      "reserve_usd": 150019600000.0,
+      "timestamp": 1782656700
+    },
+    {
+      "datetime": "2026-06-28T14:30:00Z",
+      "blockheight": 856197,
+      "inflow_total": 1079.8,
+      "outflow_total": 1187.78,
+      "netflow_total": -107.98,
+      "reserve": 2450394.0,
+      "reserve_usd": 150019700000.0,
+      "timestamp": 1782657000
+    },
+    {
+      "datetime": "2026-06-28T14:35:00Z",
+      "blockheight": 856198,
+      "inflow_total": 1080.1,
+      "outflow_total": 1188.11,
+      "netflow_total": -108.01,
+      "reserve": 2450396.0,
+      "reserve_usd": 150019800000.0,
+      "timestamp": 1782657300
+    },
+    {
+      "datetime": "2026-06-28T14:40:00Z",
+      "blockheight": 856199,
+      "inflow_total": 1080.4,
+      "outflow_total": 1188.44,
+      "netflow_total": -108.04,
+      "reserve": 2450398.0,
+      "reserve_usd": 150019900000.0,
+      "timestamp": 1782657600
+    },
+    {
+      "datetime": "2026-06-28T14:45:00Z",
+      "blockheight": 856200,
+      "inflow_total": 1080.7,
+      "outflow_total": 1188.77,
+      "netflow_total": -108.07,
+      "reserve": 2450400.0,
+      "reserve_usd": 150020000000.0,
+      "timestamp": 1782657900
+    },
+    {
+      "datetime": "2026-06-28T14:50:00Z",
+      "blockheight": 856201,
+      "inflow_total": 1081.0,
+      "outflow_total": 1189.1,
+      "netflow_total": -108.1,
+      "reserve": 2450402.0,
+      "reserve_usd": 150020100000.0,
+      "timestamp": 1782658200
+    },
+    {
+      "datetime": "2026-06-28T14:55:00Z",
+      "blockheight": 856202,
+      "inflow_total": 1081.3,
+      "outflow_total": 1189.43,
+      "netflow_total": -108.13,
+      "reserve": 2450404.0,
+      "reserve_usd": 150020200000.0,
+      "timestamp": 1782658500
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856203,
+      "inflow_total": 1081.6,
+      "outflow_total": 1189.76,
+      "netflow_total": -108.16,
+      "reserve": 2450406.0,
+      "reserve_usd": 150020300000.0,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T15:05:00Z",
+      "blockheight": 856204,
+      "inflow_total": 1081.9,
+      "outflow_total": 1190.09,
+      "netflow_total": -108.19,
+      "reserve": 2450408.0,
+      "reserve_usd": 150020400000.0,
+      "timestamp": 1782659100
+    },
+    {
+      "datetime": "2026-06-28T15:10:00Z",
+      "blockheight": 856205,
+      "inflow_total": 1082.2,
+      "outflow_total": 1190.42,
+      "netflow_total": -108.22,
+      "reserve": 2450410.0,
+      "reserve_usd": 150020500000.0,
+      "timestamp": 1782659400
+    },
+    {
+      "datetime": "2026-06-28T15:15:00Z",
+      "blockheight": 856206,
+      "inflow_total": 1082.5,
+      "outflow_total": 1190.75,
+      "netflow_total": -108.25,
+      "reserve": 2450412.0,
+      "reserve_usd": 150020600000.0,
+      "timestamp": 1782659700
+    },
+    {
+      "datetime": "2026-06-28T15:20:00Z",
+      "blockheight": 856207,
+      "inflow_total": 1082.8,
+      "outflow_total": 1191.08,
+      "netflow_total": -108.28,
+      "reserve": 2450414.0,
+      "reserve_usd": 150020700000.0,
+      "timestamp": 1782660000
+    },
+    {
+      "datetime": "2026-06-28T15:25:00Z",
+      "blockheight": 856208,
+      "inflow_total": 1083.1,
+      "outflow_total": 1191.41,
+      "netflow_total": -108.31,
+      "reserve": 2450416.0,
+      "reserve_usd": 150020800000.0,
+      "timestamp": 1782660300
+    },
+    {
+      "datetime": "2026-06-28T15:30:00Z",
+      "blockheight": 856209,
+      "inflow_total": 1083.4,
+      "outflow_total": 1191.74,
+      "netflow_total": -108.34,
+      "reserve": 2450418.0,
+      "reserve_usd": 150020900000.0,
+      "timestamp": 1782660600
+    },
+    {
+      "datetime": "2026-06-28T15:35:00Z",
+      "blockheight": 856210,
+      "inflow_total": 1083.7,
+      "outflow_total": 1192.07,
+      "netflow_total": -108.37,
+      "reserve": 2450420.0,
+      "reserve_usd": 150021000000.0,
+      "timestamp": 1782660900
+    },
+    {
+      "datetime": "2026-06-28T15:40:00Z",
+      "blockheight": 856211,
+      "inflow_total": 1084.0,
+      "outflow_total": 1192.4,
+      "netflow_total": -108.4,
+      "reserve": 2450422.0,
+      "reserve_usd": 150021100000.0,
+      "timestamp": 1782661200
+    },
+    {
+      "datetime": "2026-06-28T15:45:00Z",
+      "blockheight": 856212,
+      "inflow_total": 1084.3,
+      "outflow_total": 1192.73,
+      "netflow_total": -108.43,
+      "reserve": 2450424.0,
+      "reserve_usd": 150021200000.0,
+      "timestamp": 1782661500
+    },
+    {
+      "datetime": "2026-06-28T15:50:00Z",
+      "blockheight": 856213,
+      "inflow_total": 1084.6,
+      "outflow_total": 1193.06,
+      "netflow_total": -108.46,
+      "reserve": 2450426.0,
+      "reserve_usd": 150021300000.0,
+      "timestamp": 1782661800
+    },
+    {
+      "datetime": "2026-06-28T15:55:00Z",
+      "blockheight": 856214,
+      "inflow_total": 1084.9,
+      "outflow_total": 1193.39,
+      "netflow_total": -108.49,
+      "reserve": 2450428.0,
+      "reserve_usd": 150021400000.0,
+      "timestamp": 1782662100
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856215,
+      "inflow_total": 1085.2,
+      "outflow_total": 1193.72,
+      "netflow_total": -108.52,
+      "reserve": 2450430.0,
+      "reserve_usd": 150021500000.0,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T16:05:00Z",
+      "blockheight": 856216,
+      "inflow_total": 1085.5,
+      "outflow_total": 1194.05,
+      "netflow_total": -108.55,
+      "reserve": 2450432.0,
+      "reserve_usd": 150021600000.0,
+      "timestamp": 1782662700
+    },
+    {
+      "datetime": "2026-06-28T16:10:00Z",
+      "blockheight": 856217,
+      "inflow_total": 1085.8,
+      "outflow_total": 1194.38,
+      "netflow_total": -108.58,
+      "reserve": 2450434.0,
+      "reserve_usd": 150021700000.0,
+      "timestamp": 1782663000
+    },
+    {
+      "datetime": "2026-06-28T16:15:00Z",
+      "blockheight": 856218,
+      "inflow_total": 1086.1,
+      "outflow_total": 1194.71,
+      "netflow_total": -108.61,
+      "reserve": 2450436.0,
+      "reserve_usd": 150021800000.0,
+      "timestamp": 1782663300
+    },
+    {
+      "datetime": "2026-06-28T16:20:00Z",
+      "blockheight": 856219,
+      "inflow_total": 1086.4,
+      "outflow_total": 1195.04,
+      "netflow_total": -108.64,
+      "reserve": 2450438.0,
+      "reserve_usd": 150021900000.0,
+      "timestamp": 1782663600
+    },
+    {
+      "datetime": "2026-06-28T16:25:00Z",
+      "blockheight": 856220,
+      "inflow_total": 1086.7,
+      "outflow_total": 1195.37,
+      "netflow_total": -108.67,
+      "reserve": 2450440.0,
+      "reserve_usd": 150022000000.0,
+      "timestamp": 1782663900
+    },
+    {
+      "datetime": "2026-06-28T16:30:00Z",
+      "blockheight": 856221,
+      "inflow_total": 1087.0,
+      "outflow_total": 1195.7,
+      "netflow_total": -108.7,
+      "reserve": 2450442.0,
+      "reserve_usd": 150022100000.0,
+      "timestamp": 1782664200
+    },
+    {
+      "datetime": "2026-06-28T16:35:00Z",
+      "blockheight": 856222,
+      "inflow_total": 1087.3,
+      "outflow_total": 1196.03,
+      "netflow_total": -108.73,
+      "reserve": 2450444.0,
+      "reserve_usd": 150022200000.0,
+      "timestamp": 1782664500
+    },
+    {
+      "datetime": "2026-06-28T16:40:00Z",
+      "blockheight": 856223,
+      "inflow_total": 1087.6,
+      "outflow_total": 1196.36,
+      "netflow_total": -108.76,
+      "reserve": 2450446.0,
+      "reserve_usd": 150022300000.0,
+      "timestamp": 1782664800
+    },
+    {
+      "datetime": "2026-06-28T16:45:00Z",
+      "blockheight": 856224,
+      "inflow_total": 1087.9,
+      "outflow_total": 1196.69,
+      "netflow_total": -108.79,
+      "reserve": 2450448.0,
+      "reserve_usd": 150022400000.0,
+      "timestamp": 1782665100
+    },
+    {
+      "datetime": "2026-06-28T16:50:00Z",
+      "blockheight": 856225,
+      "inflow_total": 1088.2,
+      "outflow_total": 1197.02,
+      "netflow_total": -108.82,
+      "reserve": 2450450.0,
+      "reserve_usd": 150022500000.0,
+      "timestamp": 1782665400
+    },
+    {
+      "datetime": "2026-06-28T16:55:00Z",
+      "blockheight": 856226,
+      "inflow_total": 1088.5,
+      "outflow_total": 1197.35,
+      "netflow_total": -108.85,
+      "reserve": 2450452.0,
+      "reserve_usd": 150022600000.0,
+      "timestamp": 1782665700
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856227,
+      "inflow_total": 1088.8,
+      "outflow_total": 1197.68,
+      "netflow_total": -108.88,
+      "reserve": 2450454.0,
+      "reserve_usd": 150022700000.0,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T17:05:00Z",
+      "blockheight": 856228,
+      "inflow_total": 1089.1,
+      "outflow_total": 1198.01,
+      "netflow_total": -108.91,
+      "reserve": 2450456.0,
+      "reserve_usd": 150022800000.0,
+      "timestamp": 1782666300
+    },
+    {
+      "datetime": "2026-06-28T17:10:00Z",
+      "blockheight": 856229,
+      "inflow_total": 1089.4,
+      "outflow_total": 1198.34,
+      "netflow_total": -108.94,
+      "reserve": 2450458.0,
+      "reserve_usd": 150022900000.0,
+      "timestamp": 1782666600
+    },
+    {
+      "datetime": "2026-06-28T17:15:00Z",
+      "blockheight": 856230,
+      "inflow_total": 1089.7,
+      "outflow_total": 1198.67,
+      "netflow_total": -108.97,
+      "reserve": 2450460.0,
+      "reserve_usd": 150023000000.0,
+      "timestamp": 1782666900
+    },
+    {
+      "datetime": "2026-06-28T17:20:00Z",
+      "blockheight": 856231,
+      "inflow_total": 1090.0,
+      "outflow_total": 1199.0,
+      "netflow_total": -109.0,
+      "reserve": 2450462.0,
+      "reserve_usd": 150023100000.0,
+      "timestamp": 1782667200
+    },
+    {
+      "datetime": "2026-06-28T17:25:00Z",
+      "blockheight": 856232,
+      "inflow_total": 1090.3,
+      "outflow_total": 1199.33,
+      "netflow_total": -109.03,
+      "reserve": 2450464.0,
+      "reserve_usd": 150023200000.0,
+      "timestamp": 1782667500
+    },
+    {
+      "datetime": "2026-06-28T17:30:00Z",
+      "blockheight": 856233,
+      "inflow_total": 1090.6,
+      "outflow_total": 1199.66,
+      "netflow_total": -109.06,
+      "reserve": 2450466.0,
+      "reserve_usd": 150023300000.0,
+      "timestamp": 1782667800
+    },
+    {
+      "datetime": "2026-06-28T17:35:00Z",
+      "blockheight": 856234,
+      "inflow_total": 1090.9,
+      "outflow_total": 1199.99,
+      "netflow_total": -109.09,
+      "reserve": 2450468.0,
+      "reserve_usd": 150023400000.0,
+      "timestamp": 1782668100
+    },
+    {
+      "datetime": "2026-06-28T17:40:00Z",
+      "blockheight": 856235,
+      "inflow_total": 1091.2,
+      "outflow_total": 1200.32,
+      "netflow_total": -109.12,
+      "reserve": 2450470.0,
+      "reserve_usd": 150023500000.0,
+      "timestamp": 1782668400
+    },
+    {
+      "datetime": "2026-06-28T17:45:00Z",
+      "blockheight": 856236,
+      "inflow_total": 1091.5,
+      "outflow_total": 1200.65,
+      "netflow_total": -109.15,
+      "reserve": 2450472.0,
+      "reserve_usd": 150023600000.0,
+      "timestamp": 1782668700
+    },
+    {
+      "datetime": "2026-06-28T17:50:00Z",
+      "blockheight": 856237,
+      "inflow_total": 1091.8,
+      "outflow_total": 1200.98,
+      "netflow_total": -109.18,
+      "reserve": 2450474.0,
+      "reserve_usd": 150023700000.0,
+      "timestamp": 1782669000
+    },
+    {
+      "datetime": "2026-06-28T17:55:00Z",
+      "blockheight": 856238,
+      "inflow_total": 1092.1,
+      "outflow_total": 1201.31,
+      "netflow_total": -109.21,
+      "reserve": 2450476.0,
+      "reserve_usd": 150023800000.0,
+      "timestamp": 1782669300
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856239,
+      "inflow_total": 1092.4,
+      "outflow_total": 1201.64,
+      "netflow_total": -109.24,
+      "reserve": 2450478.0,
+      "reserve_usd": 150023900000.0,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T18:05:00Z",
+      "blockheight": 856240,
+      "inflow_total": 1092.7,
+      "outflow_total": 1201.97,
+      "netflow_total": -109.27,
+      "reserve": 2450480.0,
+      "reserve_usd": 150024000000.0,
+      "timestamp": 1782669900
+    },
+    {
+      "datetime": "2026-06-28T18:10:00Z",
+      "blockheight": 856241,
+      "inflow_total": 1093.0,
+      "outflow_total": 1202.3,
+      "netflow_total": -109.3,
+      "reserve": 2450482.0,
+      "reserve_usd": 150024100000.0,
+      "timestamp": 1782670200
+    },
+    {
+      "datetime": "2026-06-28T18:15:00Z",
+      "blockheight": 856242,
+      "inflow_total": 1093.3,
+      "outflow_total": 1202.63,
+      "netflow_total": -109.33,
+      "reserve": 2450484.0,
+      "reserve_usd": 150024200000.0,
+      "timestamp": 1782670500
+    },
+    {
+      "datetime": "2026-06-28T18:20:00Z",
+      "blockheight": 856243,
+      "inflow_total": 1093.6,
+      "outflow_total": 1202.96,
+      "netflow_total": -109.36,
+      "reserve": 2450486.0,
+      "reserve_usd": 150024300000.0,
+      "timestamp": 1782670800
+    },
+    {
+      "datetime": "2026-06-28T18:25:00Z",
+      "blockheight": 856244,
+      "inflow_total": 1093.9,
+      "outflow_total": 1203.29,
+      "netflow_total": -109.39,
+      "reserve": 2450488.0,
+      "reserve_usd": 150024400000.0,
+      "timestamp": 1782671100
+    },
+    {
+      "datetime": "2026-06-28T18:30:00Z",
+      "blockheight": 856245,
+      "inflow_total": 1094.2,
+      "outflow_total": 1203.62,
+      "netflow_total": -109.42,
+      "reserve": 2450490.0,
+      "reserve_usd": 150024500000.0,
+      "timestamp": 1782671400
+    },
+    {
+      "datetime": "2026-06-28T18:35:00Z",
+      "blockheight": 856246,
+      "inflow_total": 1094.5,
+      "outflow_total": 1203.95,
+      "netflow_total": -109.45,
+      "reserve": 2450492.0,
+      "reserve_usd": 150024600000.0,
+      "timestamp": 1782671700
+    },
+    {
+      "datetime": "2026-06-28T18:40:00Z",
+      "blockheight": 856247,
+      "inflow_total": 1094.8,
+      "outflow_total": 1204.28,
+      "netflow_total": -109.48,
+      "reserve": 2450494.0,
+      "reserve_usd": 150024700000.0,
+      "timestamp": 1782672000
+    },
+    {
+      "datetime": "2026-06-28T18:45:00Z",
+      "blockheight": 856248,
+      "inflow_total": 1095.1,
+      "outflow_total": 1204.61,
+      "netflow_total": -109.51,
+      "reserve": 2450496.0,
+      "reserve_usd": 150024800000.0,
+      "timestamp": 1782672300
+    },
+    {
+      "datetime": "2026-06-28T18:50:00Z",
+      "blockheight": 856249,
+      "inflow_total": 1095.4,
+      "outflow_total": 1204.94,
+      "netflow_total": -109.54,
+      "reserve": 2450498.0,
+      "reserve_usd": 150024900000.0,
+      "timestamp": 1782672600
+    },
+    {
+      "datetime": "2026-06-28T18:55:00Z",
+      "blockheight": 856250,
+      "inflow_total": 1095.7,
+      "outflow_total": 1205.27,
+      "netflow_total": -109.57,
+      "reserve": 2450500.0,
+      "reserve_usd": 150025000000.0,
+      "timestamp": 1782672900
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856251,
+      "inflow_total": 1096.0,
+      "outflow_total": 1205.6,
+      "netflow_total": -109.6,
+      "reserve": 2450502.0,
+      "reserve_usd": 150025100000.0,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T19:05:00Z",
+      "blockheight": 856252,
+      "inflow_total": 1096.3,
+      "outflow_total": 1205.93,
+      "netflow_total": -109.63,
+      "reserve": 2450504.0,
+      "reserve_usd": 150025200000.0,
+      "timestamp": 1782673500
+    },
+    {
+      "datetime": "2026-06-28T19:10:00Z",
+      "blockheight": 856253,
+      "inflow_total": 1096.6,
+      "outflow_total": 1206.26,
+      "netflow_total": -109.66,
+      "reserve": 2450506.0,
+      "reserve_usd": 150025300000.0,
+      "timestamp": 1782673800
+    },
+    {
+      "datetime": "2026-06-28T19:15:00Z",
+      "blockheight": 856254,
+      "inflow_total": 1096.9,
+      "outflow_total": 1206.59,
+      "netflow_total": -109.69,
+      "reserve": 2450508.0,
+      "reserve_usd": 150025400000.0,
+      "timestamp": 1782674100
+    },
+    {
+      "datetime": "2026-06-28T19:20:00Z",
+      "blockheight": 856255,
+      "inflow_total": 1097.2,
+      "outflow_total": 1206.92,
+      "netflow_total": -109.72,
+      "reserve": 2450510.0,
+      "reserve_usd": 150025500000.0,
+      "timestamp": 1782674400
+    },
+    {
+      "datetime": "2026-06-28T19:25:00Z",
+      "blockheight": 856256,
+      "inflow_total": 1097.5,
+      "outflow_total": 1207.25,
+      "netflow_total": -109.75,
+      "reserve": 2450512.0,
+      "reserve_usd": 150025600000.0,
+      "timestamp": 1782674700
+    },
+    {
+      "datetime": "2026-06-28T19:30:00Z",
+      "blockheight": 856257,
+      "inflow_total": 1097.8,
+      "outflow_total": 1207.58,
+      "netflow_total": -109.78,
+      "reserve": 2450514.0,
+      "reserve_usd": 150025700000.0,
+      "timestamp": 1782675000
+    },
+    {
+      "datetime": "2026-06-28T19:35:00Z",
+      "blockheight": 856258,
+      "inflow_total": 1098.1,
+      "outflow_total": 1207.91,
+      "netflow_total": -109.81,
+      "reserve": 2450516.0,
+      "reserve_usd": 150025800000.0,
+      "timestamp": 1782675300
+    },
+    {
+      "datetime": "2026-06-28T19:40:00Z",
+      "blockheight": 856259,
+      "inflow_total": 1098.4,
+      "outflow_total": 1208.24,
+      "netflow_total": -109.84,
+      "reserve": 2450518.0,
+      "reserve_usd": 150025900000.0,
+      "timestamp": 1782675600
+    },
+    {
+      "datetime": "2026-06-28T19:45:00Z",
+      "blockheight": 856260,
+      "inflow_total": 1098.7,
+      "outflow_total": 1208.57,
+      "netflow_total": -109.87,
+      "reserve": 2450520.0,
+      "reserve_usd": 150026000000.0,
+      "timestamp": 1782675900
+    },
+    {
+      "datetime": "2026-06-28T19:50:00Z",
+      "blockheight": 856261,
+      "inflow_total": 1099.0,
+      "outflow_total": 1208.9,
+      "netflow_total": -109.9,
+      "reserve": 2450522.0,
+      "reserve_usd": 150026100000.0,
+      "timestamp": 1782676200
+    },
+    {
+      "datetime": "2026-06-28T19:55:00Z",
+      "blockheight": 856262,
+      "inflow_total": 1099.3,
+      "outflow_total": 1209.23,
+      "netflow_total": -109.93,
+      "reserve": 2450524.0,
+      "reserve_usd": 150026200000.0,
+      "timestamp": 1782676500
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856263,
+      "inflow_total": 1099.6,
+      "outflow_total": 1209.56,
+      "netflow_total": -109.96,
+      "reserve": 2450526.0,
+      "reserve_usd": 150026300000.0,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T20:05:00Z",
+      "blockheight": 856264,
+      "inflow_total": 1099.9,
+      "outflow_total": 1209.89,
+      "netflow_total": -109.99,
+      "reserve": 2450528.0,
+      "reserve_usd": 150026400000.0,
+      "timestamp": 1782677100
+    },
+    {
+      "datetime": "2026-06-28T20:10:00Z",
+      "blockheight": 856265,
+      "inflow_total": 1100.2,
+      "outflow_total": 1210.22,
+      "netflow_total": -110.02,
+      "reserve": 2450530.0,
+      "reserve_usd": 150026500000.0,
+      "timestamp": 1782677400
+    },
+    {
+      "datetime": "2026-06-28T20:15:00Z",
+      "blockheight": 856266,
+      "inflow_total": 1100.5,
+      "outflow_total": 1210.55,
+      "netflow_total": -110.05,
+      "reserve": 2450532.0,
+      "reserve_usd": 150026600000.0,
+      "timestamp": 1782677700
+    },
+    {
+      "datetime": "2026-06-28T20:20:00Z",
+      "blockheight": 856267,
+      "inflow_total": 1100.8,
+      "outflow_total": 1210.88,
+      "netflow_total": -110.08,
+      "reserve": 2450534.0,
+      "reserve_usd": 150026700000.0,
+      "timestamp": 1782678000
+    },
+    {
+      "datetime": "2026-06-28T20:25:00Z",
+      "blockheight": 856268,
+      "inflow_total": 1101.1,
+      "outflow_total": 1211.21,
+      "netflow_total": -110.11,
+      "reserve": 2450536.0,
+      "reserve_usd": 150026800000.0,
+      "timestamp": 1782678300
+    },
+    {
+      "datetime": "2026-06-28T20:30:00Z",
+      "blockheight": 856269,
+      "inflow_total": 1101.4,
+      "outflow_total": 1211.54,
+      "netflow_total": -110.14,
+      "reserve": 2450538.0,
+      "reserve_usd": 150026900000.0,
+      "timestamp": 1782678600
+    },
+    {
+      "datetime": "2026-06-28T20:35:00Z",
+      "blockheight": 856270,
+      "inflow_total": 1101.7,
+      "outflow_total": 1211.87,
+      "netflow_total": -110.17,
+      "reserve": 2450540.0,
+      "reserve_usd": 150027000000.0,
+      "timestamp": 1782678900
+    },
+    {
+      "datetime": "2026-06-28T20:40:00Z",
+      "blockheight": 856271,
+      "inflow_total": 1102.0,
+      "outflow_total": 1212.2,
+      "netflow_total": -110.2,
+      "reserve": 2450542.0,
+      "reserve_usd": 150027100000.0,
+      "timestamp": 1782679200
+    },
+    {
+      "datetime": "2026-06-28T20:45:00Z",
+      "blockheight": 856272,
+      "inflow_total": 1102.3,
+      "outflow_total": 1212.53,
+      "netflow_total": -110.23,
+      "reserve": 2450544.0,
+      "reserve_usd": 150027200000.0,
+      "timestamp": 1782679500
+    },
+    {
+      "datetime": "2026-06-28T20:50:00Z",
+      "blockheight": 856273,
+      "inflow_total": 1102.6,
+      "outflow_total": 1212.86,
+      "netflow_total": -110.26,
+      "reserve": 2450546.0,
+      "reserve_usd": 150027300000.0,
+      "timestamp": 1782679800
+    },
+    {
+      "datetime": "2026-06-28T20:55:00Z",
+      "blockheight": 856274,
+      "inflow_total": 1102.9,
+      "outflow_total": 1213.19,
+      "netflow_total": -110.29,
+      "reserve": 2450548.0,
+      "reserve_usd": 150027400000.0,
+      "timestamp": 1782680100
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856275,
+      "inflow_total": 1103.2,
+      "outflow_total": 1213.52,
+      "netflow_total": -110.32,
+      "reserve": 2450550.0,
+      "reserve_usd": 150027500000.0,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T21:05:00Z",
+      "blockheight": 856276,
+      "inflow_total": 1103.5,
+      "outflow_total": 1213.85,
+      "netflow_total": -110.35,
+      "reserve": 2450552.0,
+      "reserve_usd": 150027600000.0,
+      "timestamp": 1782680700
+    },
+    {
+      "datetime": "2026-06-28T21:10:00Z",
+      "blockheight": 856277,
+      "inflow_total": 1103.8,
+      "outflow_total": 1214.18,
+      "netflow_total": -110.38,
+      "reserve": 2450554.0,
+      "reserve_usd": 150027700000.0,
+      "timestamp": 1782681000
+    },
+    {
+      "datetime": "2026-06-28T21:15:00Z",
+      "blockheight": 856278,
+      "inflow_total": 1104.1,
+      "outflow_total": 1214.51,
+      "netflow_total": -110.41,
+      "reserve": 2450556.0,
+      "reserve_usd": 150027800000.0,
+      "timestamp": 1782681300
+    },
+    {
+      "datetime": "2026-06-28T21:20:00Z",
+      "blockheight": 856279,
+      "inflow_total": 1104.4,
+      "outflow_total": 1214.84,
+      "netflow_total": -110.44,
+      "reserve": 2450558.0,
+      "reserve_usd": 150027900000.0,
+      "timestamp": 1782681600
+    },
+    {
+      "datetime": "2026-06-28T21:25:00Z",
+      "blockheight": 856280,
+      "inflow_total": 1104.7,
+      "outflow_total": 1215.17,
+      "netflow_total": -110.47,
+      "reserve": 2450560.0,
+      "reserve_usd": 150028000000.0,
+      "timestamp": 1782681900
+    },
+    {
+      "datetime": "2026-06-28T21:30:00Z",
+      "blockheight": 856281,
+      "inflow_total": 1105.0,
+      "outflow_total": 1215.5,
+      "netflow_total": -110.5,
+      "reserve": 2450562.0,
+      "reserve_usd": 150028100000.0,
+      "timestamp": 1782682200
+    },
+    {
+      "datetime": "2026-06-28T21:35:00Z",
+      "blockheight": 856282,
+      "inflow_total": 1105.3,
+      "outflow_total": 1215.83,
+      "netflow_total": -110.53,
+      "reserve": 2450564.0,
+      "reserve_usd": 150028200000.0,
+      "timestamp": 1782682500
+    },
+    {
+      "datetime": "2026-06-28T21:40:00Z",
+      "blockheight": 856283,
+      "inflow_total": 1105.6,
+      "outflow_total": 1216.16,
+      "netflow_total": -110.56,
+      "reserve": 2450566.0,
+      "reserve_usd": 150028300000.0,
+      "timestamp": 1782682800
+    },
+    {
+      "datetime": "2026-06-28T21:45:00Z",
+      "blockheight": 856284,
+      "inflow_total": 1105.9,
+      "outflow_total": 1216.49,
+      "netflow_total": -110.59,
+      "reserve": 2450568.0,
+      "reserve_usd": 150028400000.0,
+      "timestamp": 1782683100
+    },
+    {
+      "datetime": "2026-06-28T21:50:00Z",
+      "blockheight": 856285,
+      "inflow_total": 1106.2,
+      "outflow_total": 1216.82,
+      "netflow_total": -110.62,
+      "reserve": 2450570.0,
+      "reserve_usd": 150028500000.0,
+      "timestamp": 1782683400
+    },
+    {
+      "datetime": "2026-06-28T21:55:00Z",
+      "blockheight": 856286,
+      "inflow_total": 1106.5,
+      "outflow_total": 1217.15,
+      "netflow_total": -110.65,
+      "reserve": 2450572.0,
+      "reserve_usd": 150028600000.0,
+      "timestamp": 1782683700
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856287,
+      "inflow_total": 1106.8,
+      "outflow_total": 1217.48,
+      "netflow_total": -110.68,
+      "reserve": 2450574.0,
+      "reserve_usd": 150028700000.0,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T22:05:00Z",
+      "blockheight": 856288,
+      "inflow_total": 1107.1,
+      "outflow_total": 1217.81,
+      "netflow_total": -110.71,
+      "reserve": 2450576.0,
+      "reserve_usd": 150028800000.0,
+      "timestamp": 1782684300
+    },
+    {
+      "datetime": "2026-06-28T22:10:00Z",
+      "blockheight": 856289,
+      "inflow_total": 1107.4,
+      "outflow_total": 1218.14,
+      "netflow_total": -110.74,
+      "reserve": 2450578.0,
+      "reserve_usd": 150028900000.0,
+      "timestamp": 1782684600
+    },
+    {
+      "datetime": "2026-06-28T22:15:00Z",
+      "blockheight": 856290,
+      "inflow_total": 1107.7,
+      "outflow_total": 1218.47,
+      "netflow_total": -110.77,
+      "reserve": 2450580.0,
+      "reserve_usd": 150029000000.0,
+      "timestamp": 1782684900
+    },
+    {
+      "datetime": "2026-06-28T22:20:00Z",
+      "blockheight": 856291,
+      "inflow_total": 1108.0,
+      "outflow_total": 1218.8,
+      "netflow_total": -110.8,
+      "reserve": 2450582.0,
+      "reserve_usd": 150029100000.0,
+      "timestamp": 1782685200
+    },
+    {
+      "datetime": "2026-06-28T22:25:00Z",
+      "blockheight": 856292,
+      "inflow_total": 1108.3,
+      "outflow_total": 1219.13,
+      "netflow_total": -110.83,
+      "reserve": 2450584.0,
+      "reserve_usd": 150029200000.0,
+      "timestamp": 1782685500
+    },
+    {
+      "datetime": "2026-06-28T22:30:00Z",
+      "blockheight": 856293,
+      "inflow_total": 1108.6,
+      "outflow_total": 1219.46,
+      "netflow_total": -110.86,
+      "reserve": 2450586.0,
+      "reserve_usd": 150029300000.0,
+      "timestamp": 1782685800
+    },
+    {
+      "datetime": "2026-06-28T22:35:00Z",
+      "blockheight": 856294,
+      "inflow_total": 1108.9,
+      "outflow_total": 1219.79,
+      "netflow_total": -110.89,
+      "reserve": 2450588.0,
+      "reserve_usd": 150029400000.0,
+      "timestamp": 1782686100
+    },
+    {
+      "datetime": "2026-06-28T22:40:00Z",
+      "blockheight": 856295,
+      "inflow_total": 1109.2,
+      "outflow_total": 1220.12,
+      "netflow_total": -110.92,
+      "reserve": 2450590.0,
+      "reserve_usd": 150029500000.0,
+      "timestamp": 1782686400
+    },
+    {
+      "datetime": "2026-06-28T22:45:00Z",
+      "blockheight": 856296,
+      "inflow_total": 1109.5,
+      "outflow_total": 1220.45,
+      "netflow_total": -110.95,
+      "reserve": 2450592.0,
+      "reserve_usd": 150029600000.0,
+      "timestamp": 1782686700
+    },
+    {
+      "datetime": "2026-06-28T22:50:00Z",
+      "blockheight": 856297,
+      "inflow_total": 1109.8,
+      "outflow_total": 1220.78,
+      "netflow_total": -110.98,
+      "reserve": 2450594.0,
+      "reserve_usd": 150029700000.0,
+      "timestamp": 1782687000
+    },
+    {
+      "datetime": "2026-06-28T22:55:00Z",
+      "blockheight": 856298,
+      "inflow_total": 1110.1,
+      "outflow_total": 1221.11,
+      "netflow_total": -111.01,
+      "reserve": 2450596.0,
+      "reserve_usd": 150029800000.0,
+      "timestamp": 1782687300
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856299,
+      "inflow_total": 1110.4,
+      "outflow_total": 1221.44,
+      "netflow_total": -111.04,
+      "reserve": 2450598.0,
+      "reserve_usd": 150029900000.0,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-28T23:05:00Z",
+      "blockheight": 856300,
+      "inflow_total": 1110.7,
+      "outflow_total": 1221.77,
+      "netflow_total": -111.07,
+      "reserve": 2450600.0,
+      "reserve_usd": 150030000000.0,
+      "timestamp": 1782687900
+    },
+    {
+      "datetime": "2026-06-28T23:10:00Z",
+      "blockheight": 856301,
+      "inflow_total": 1111.0,
+      "outflow_total": 1222.1,
+      "netflow_total": -111.1,
+      "reserve": 2450602.0,
+      "reserve_usd": 150030100000.0,
+      "timestamp": 1782688200
+    },
+    {
+      "datetime": "2026-06-28T23:15:00Z",
+      "blockheight": 856302,
+      "inflow_total": 1111.3,
+      "outflow_total": 1222.43,
+      "netflow_total": -111.13,
+      "reserve": 2450604.0,
+      "reserve_usd": 150030200000.0,
+      "timestamp": 1782688500
+    },
+    {
+      "datetime": "2026-06-28T23:20:00Z",
+      "blockheight": 856303,
+      "inflow_total": 1111.6,
+      "outflow_total": 1222.76,
+      "netflow_total": -111.16,
+      "reserve": 2450606.0,
+      "reserve_usd": 150030300000.0,
+      "timestamp": 1782688800
+    },
+    {
+      "datetime": "2026-06-28T23:25:00Z",
+      "blockheight": 856304,
+      "inflow_total": 1111.9,
+      "outflow_total": 1223.09,
+      "netflow_total": -111.19,
+      "reserve": 2450608.0,
+      "reserve_usd": 150030400000.0,
+      "timestamp": 1782689100
+    },
+    {
+      "datetime": "2026-06-28T23:30:00Z",
+      "blockheight": 856305,
+      "inflow_total": 1112.2,
+      "outflow_total": 1223.42,
+      "netflow_total": -111.22,
+      "reserve": 2450610.0,
+      "reserve_usd": 150030500000.0,
+      "timestamp": 1782689400
+    },
+    {
+      "datetime": "2026-06-28T23:35:00Z",
+      "blockheight": 856306,
+      "inflow_total": 1112.5,
+      "outflow_total": 1223.75,
+      "netflow_total": -111.25,
+      "reserve": 2450612.0,
+      "reserve_usd": 150030600000.0,
+      "timestamp": 1782689700
+    },
+    {
+      "datetime": "2026-06-28T23:40:00Z",
+      "blockheight": 856307,
+      "inflow_total": 1112.8,
+      "outflow_total": 1224.08,
+      "netflow_total": -111.28,
+      "reserve": 2450614.0,
+      "reserve_usd": 150030700000.0,
+      "timestamp": 1782690000
+    },
+    {
+      "datetime": "2026-06-28T23:45:00Z",
+      "blockheight": 856308,
+      "inflow_total": 1113.1,
+      "outflow_total": 1224.41,
+      "netflow_total": -111.31,
+      "reserve": 2450616.0,
+      "reserve_usd": 150030800000.0,
+      "timestamp": 1782690300
+    },
+    {
+      "datetime": "2026-06-28T23:50:00Z",
+      "blockheight": 856309,
+      "inflow_total": 1113.4,
+      "outflow_total": 1224.74,
+      "netflow_total": -111.34,
+      "reserve": 2450618.0,
+      "reserve_usd": 150030900000.0,
+      "timestamp": 1782690600
+    },
+    {
+      "datetime": "2026-06-28T23:55:00Z",
+      "blockheight": 856310,
+      "inflow_total": 1113.7,
+      "outflow_total": 1225.07,
+      "netflow_total": -111.37,
+      "reserve": 2450620.0,
+      "reserve_usd": 150031000000.0,
+      "timestamp": 1782690900
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856311,
+      "inflow_total": 1114.0,
+      "outflow_total": 1225.4,
+      "netflow_total": -111.4,
+      "reserve": 2450622.0,
+      "reserve_usd": 150031100000.0,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T00:05:00Z",
+      "blockheight": 856312,
+      "inflow_total": 1114.3,
+      "outflow_total": 1225.73,
+      "netflow_total": -111.43,
+      "reserve": 2450624.0,
+      "reserve_usd": 150031200000.0,
+      "timestamp": 1782691500
+    },
+    {
+      "datetime": "2026-06-29T00:10:00Z",
+      "blockheight": 856313,
+      "inflow_total": 1114.6,
+      "outflow_total": 1226.06,
+      "netflow_total": -111.46,
+      "reserve": 2450626.0,
+      "reserve_usd": 150031300000.0,
+      "timestamp": 1782691800
+    },
+    {
+      "datetime": "2026-06-29T00:15:00Z",
+      "blockheight": 856314,
+      "inflow_total": 1114.9,
+      "outflow_total": 1226.39,
+      "netflow_total": -111.49,
+      "reserve": 2450628.0,
+      "reserve_usd": 150031400000.0,
+      "timestamp": 1782692100
+    },
+    {
+      "datetime": "2026-06-29T00:20:00Z",
+      "blockheight": 856315,
+      "inflow_total": 1115.2,
+      "outflow_total": 1226.72,
+      "netflow_total": -111.52,
+      "reserve": 2450630.0,
+      "reserve_usd": 150031500000.0,
+      "timestamp": 1782692400
+    },
+    {
+      "datetime": "2026-06-29T00:25:00Z",
+      "blockheight": 856316,
+      "inflow_total": 1115.5,
+      "outflow_total": 1227.05,
+      "netflow_total": -111.55,
+      "reserve": 2450632.0,
+      "reserve_usd": 150031600000.0,
+      "timestamp": 1782692700
+    },
+    {
+      "datetime": "2026-06-29T00:30:00Z",
+      "blockheight": 856317,
+      "inflow_total": 1115.8,
+      "outflow_total": 1227.38,
+      "netflow_total": -111.58,
+      "reserve": 2450634.0,
+      "reserve_usd": 150031700000.0,
+      "timestamp": 1782693000
+    },
+    {
+      "datetime": "2026-06-29T00:35:00Z",
+      "blockheight": 856318,
+      "inflow_total": 1116.1,
+      "outflow_total": 1227.71,
+      "netflow_total": -111.61,
+      "reserve": 2450636.0,
+      "reserve_usd": 150031800000.0,
+      "timestamp": 1782693300
+    },
+    {
+      "datetime": "2026-06-29T00:40:00Z",
+      "blockheight": 856319,
+      "inflow_total": 1116.4,
+      "outflow_total": 1228.04,
+      "netflow_total": -111.64,
+      "reserve": 2450638.0,
+      "reserve_usd": 150031900000.0,
+      "timestamp": 1782693600
+    },
+    {
+      "datetime": "2026-06-29T00:45:00Z",
+      "blockheight": 856320,
+      "inflow_total": 1116.7,
+      "outflow_total": 1228.37,
+      "netflow_total": -111.67,
+      "reserve": 2450640.0,
+      "reserve_usd": 150032000000.0,
+      "timestamp": 1782693900
+    },
+    {
+      "datetime": "2026-06-29T00:50:00Z",
+      "blockheight": 856321,
+      "inflow_total": 1117.0,
+      "outflow_total": 1228.7,
+      "netflow_total": -111.7,
+      "reserve": 2450642.0,
+      "reserve_usd": 150032100000.0,
+      "timestamp": 1782694200
+    },
+    {
+      "datetime": "2026-06-29T00:55:00Z",
+      "blockheight": 856322,
+      "inflow_total": 1117.3,
+      "outflow_total": 1229.03,
+      "netflow_total": -111.73,
+      "reserve": 2450644.0,
+      "reserve_usd": 150032200000.0,
+      "timestamp": 1782694500
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856323,
+      "inflow_total": 1117.6,
+      "outflow_total": 1229.36,
+      "netflow_total": -111.76,
+      "reserve": 2450646.0,
+      "reserve_usd": 150032300000.0,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T01:05:00Z",
+      "blockheight": 856324,
+      "inflow_total": 1117.9,
+      "outflow_total": 1229.69,
+      "netflow_total": -111.79,
+      "reserve": 2450648.0,
+      "reserve_usd": 150032400000.0,
+      "timestamp": 1782695100
+    },
+    {
+      "datetime": "2026-06-29T01:10:00Z",
+      "blockheight": 856325,
+      "inflow_total": 1118.2,
+      "outflow_total": 1230.02,
+      "netflow_total": -111.82,
+      "reserve": 2450650.0,
+      "reserve_usd": 150032500000.0,
+      "timestamp": 1782695400
+    },
+    {
+      "datetime": "2026-06-29T01:15:00Z",
+      "blockheight": 856326,
+      "inflow_total": 1118.5,
+      "outflow_total": 1230.35,
+      "netflow_total": -111.85,
+      "reserve": 2450652.0,
+      "reserve_usd": 150032600000.0,
+      "timestamp": 1782695700
+    },
+    {
+      "datetime": "2026-06-29T01:20:00Z",
+      "blockheight": 856327,
+      "inflow_total": 1118.8,
+      "outflow_total": 1230.68,
+      "netflow_total": -111.88,
+      "reserve": 2450654.0,
+      "reserve_usd": 150032700000.0,
+      "timestamp": 1782696000
+    },
+    {
+      "datetime": "2026-06-29T01:25:00Z",
+      "blockheight": 856328,
+      "inflow_total": 1119.1,
+      "outflow_total": 1231.01,
+      "netflow_total": -111.91,
+      "reserve": 2450656.0,
+      "reserve_usd": 150032800000.0,
+      "timestamp": 1782696300
+    },
+    {
+      "datetime": "2026-06-29T01:30:00Z",
+      "blockheight": 856329,
+      "inflow_total": 1119.4,
+      "outflow_total": 1231.34,
+      "netflow_total": -111.94,
+      "reserve": 2450658.0,
+      "reserve_usd": 150032900000.0,
+      "timestamp": 1782696600
+    },
+    {
+      "datetime": "2026-06-29T01:35:00Z",
+      "blockheight": 856330,
+      "inflow_total": 1119.7,
+      "outflow_total": 1231.67,
+      "netflow_total": -111.97,
+      "reserve": 2450660.0,
+      "reserve_usd": 150033000000.0,
+      "timestamp": 1782696900
+    },
+    {
+      "datetime": "2026-06-29T01:40:00Z",
+      "blockheight": 856331,
+      "inflow_total": 1120.0,
+      "outflow_total": 1232.0,
+      "netflow_total": -112.0,
+      "reserve": 2450662.0,
+      "reserve_usd": 150033100000.0,
+      "timestamp": 1782697200
+    },
+    {
+      "datetime": "2026-06-29T01:45:00Z",
+      "blockheight": 856332,
+      "inflow_total": 1120.3,
+      "outflow_total": 1232.33,
+      "netflow_total": -112.03,
+      "reserve": 2450664.0,
+      "reserve_usd": 150033200000.0,
+      "timestamp": 1782697500
+    },
+    {
+      "datetime": "2026-06-29T01:50:00Z",
+      "blockheight": 856333,
+      "inflow_total": 1120.6,
+      "outflow_total": 1232.66,
+      "netflow_total": -112.06,
+      "reserve": 2450666.0,
+      "reserve_usd": 150033300000.0,
+      "timestamp": 1782697800
+    },
+    {
+      "datetime": "2026-06-29T01:55:00Z",
+      "blockheight": 856334,
+      "inflow_total": 1120.9,
+      "outflow_total": 1232.99,
+      "netflow_total": -112.09,
+      "reserve": 2450668.0,
+      "reserve_usd": 150033400000.0,
+      "timestamp": 1782698100
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856335,
+      "inflow_total": 1121.2,
+      "outflow_total": 1233.32,
+      "netflow_total": -112.12,
+      "reserve": 2450670.0,
+      "reserve_usd": 150033500000.0,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T02:05:00Z",
+      "blockheight": 856336,
+      "inflow_total": 1121.5,
+      "outflow_total": 1233.65,
+      "netflow_total": -112.15,
+      "reserve": 2450672.0,
+      "reserve_usd": 150033600000.0,
+      "timestamp": 1782698700
+    },
+    {
+      "datetime": "2026-06-29T02:10:00Z",
+      "blockheight": 856337,
+      "inflow_total": 1121.8,
+      "outflow_total": 1233.98,
+      "netflow_total": -112.18,
+      "reserve": 2450674.0,
+      "reserve_usd": 150033700000.0,
+      "timestamp": 1782699000
+    },
+    {
+      "datetime": "2026-06-29T02:15:00Z",
+      "blockheight": 856338,
+      "inflow_total": 1122.1,
+      "outflow_total": 1234.31,
+      "netflow_total": -112.21,
+      "reserve": 2450676.0,
+      "reserve_usd": 150033800000.0,
+      "timestamp": 1782699300
+    },
+    {
+      "datetime": "2026-06-29T02:20:00Z",
+      "blockheight": 856339,
+      "inflow_total": 1122.4,
+      "outflow_total": 1234.64,
+      "netflow_total": -112.24,
+      "reserve": 2450678.0,
+      "reserve_usd": 150033900000.0,
+      "timestamp": 1782699600
+    },
+    {
+      "datetime": "2026-06-29T02:25:00Z",
+      "blockheight": 856340,
+      "inflow_total": 1122.7,
+      "outflow_total": 1234.97,
+      "netflow_total": -112.27,
+      "reserve": 2450680.0,
+      "reserve_usd": 150034000000.0,
+      "timestamp": 1782699900
+    },
+    {
+      "datetime": "2026-06-29T02:30:00Z",
+      "blockheight": 856341,
+      "inflow_total": 1123.0,
+      "outflow_total": 1235.3,
+      "netflow_total": -112.3,
+      "reserve": 2450682.0,
+      "reserve_usd": 150034100000.0,
+      "timestamp": 1782700200
+    },
+    {
+      "datetime": "2026-06-29T02:35:00Z",
+      "blockheight": 856342,
+      "inflow_total": 1123.3,
+      "outflow_total": 1235.63,
+      "netflow_total": -112.33,
+      "reserve": 2450684.0,
+      "reserve_usd": 150034200000.0,
+      "timestamp": 1782700500
+    },
+    {
+      "datetime": "2026-06-29T02:40:00Z",
+      "blockheight": 856343,
+      "inflow_total": 1123.6,
+      "outflow_total": 1235.96,
+      "netflow_total": -112.36,
+      "reserve": 2450686.0,
+      "reserve_usd": 150034300000.0,
+      "timestamp": 1782700800
+    },
+    {
+      "datetime": "2026-06-29T02:45:00Z",
+      "blockheight": 856344,
+      "inflow_total": 1123.9,
+      "outflow_total": 1236.29,
+      "netflow_total": -112.39,
+      "reserve": 2450688.0,
+      "reserve_usd": 150034400000.0,
+      "timestamp": 1782701100
+    },
+    {
+      "datetime": "2026-06-29T02:50:00Z",
+      "blockheight": 856345,
+      "inflow_total": 1124.2,
+      "outflow_total": 1236.62,
+      "netflow_total": -112.42,
+      "reserve": 2450690.0,
+      "reserve_usd": 150034500000.0,
+      "timestamp": 1782701400
+    },
+    {
+      "datetime": "2026-06-29T02:55:00Z",
+      "blockheight": 856346,
+      "inflow_total": 1124.5,
+      "outflow_total": 1236.95,
+      "netflow_total": -112.45,
+      "reserve": 2450692.0,
+      "reserve_usd": 150034600000.0,
+      "timestamp": 1782701700
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856347,
+      "inflow_total": 1124.8,
+      "outflow_total": 1237.28,
+      "netflow_total": -112.48,
+      "reserve": 2450694.0,
+      "reserve_usd": 150034700000.0,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T03:05:00Z",
+      "blockheight": 856348,
+      "inflow_total": 1125.1,
+      "outflow_total": 1237.61,
+      "netflow_total": -112.51,
+      "reserve": 2450696.0,
+      "reserve_usd": 150034800000.0,
+      "timestamp": 1782702300
+    },
+    {
+      "datetime": "2026-06-29T03:10:00Z",
+      "blockheight": 856349,
+      "inflow_total": 1125.4,
+      "outflow_total": 1237.94,
+      "netflow_total": -112.54,
+      "reserve": 2450698.0,
+      "reserve_usd": 150034900000.0,
+      "timestamp": 1782702600
+    },
+    {
+      "datetime": "2026-06-29T03:15:00Z",
+      "blockheight": 856350,
+      "inflow_total": 1125.7,
+      "outflow_total": 1238.27,
+      "netflow_total": -112.57,
+      "reserve": 2450700.0,
+      "reserve_usd": 150035000000.0,
+      "timestamp": 1782702900
+    },
+    {
+      "datetime": "2026-06-29T03:20:00Z",
+      "blockheight": 856351,
+      "inflow_total": 1126.0,
+      "outflow_total": 1238.6,
+      "netflow_total": -112.6,
+      "reserve": 2450702.0,
+      "reserve_usd": 150035100000.0,
+      "timestamp": 1782703200
+    },
+    {
+      "datetime": "2026-06-29T03:25:00Z",
+      "blockheight": 856352,
+      "inflow_total": 1126.3,
+      "outflow_total": 1238.93,
+      "netflow_total": -112.63,
+      "reserve": 2450704.0,
+      "reserve_usd": 150035200000.0,
+      "timestamp": 1782703500
+    },
+    {
+      "datetime": "2026-06-29T03:30:00Z",
+      "blockheight": 856353,
+      "inflow_total": 1126.6,
+      "outflow_total": 1239.26,
+      "netflow_total": -112.66,
+      "reserve": 2450706.0,
+      "reserve_usd": 150035300000.0,
+      "timestamp": 1782703800
+    },
+    {
+      "datetime": "2026-06-29T03:35:00Z",
+      "blockheight": 856354,
+      "inflow_total": 1126.9,
+      "outflow_total": 1239.59,
+      "netflow_total": -112.69,
+      "reserve": 2450708.0,
+      "reserve_usd": 150035400000.0,
+      "timestamp": 1782704100
+    },
+    {
+      "datetime": "2026-06-29T03:40:00Z",
+      "blockheight": 856355,
+      "inflow_total": 1127.2,
+      "outflow_total": 1239.92,
+      "netflow_total": -112.72,
+      "reserve": 2450710.0,
+      "reserve_usd": 150035500000.0,
+      "timestamp": 1782704400
+    },
+    {
+      "datetime": "2026-06-29T03:45:00Z",
+      "blockheight": 856356,
+      "inflow_total": 1127.5,
+      "outflow_total": 1240.25,
+      "netflow_total": -112.75,
+      "reserve": 2450712.0,
+      "reserve_usd": 150035600000.0,
+      "timestamp": 1782704700
+    },
+    {
+      "datetime": "2026-06-29T03:50:00Z",
+      "blockheight": 856357,
+      "inflow_total": 1127.8,
+      "outflow_total": 1240.58,
+      "netflow_total": -112.78,
+      "reserve": 2450714.0,
+      "reserve_usd": 150035700000.0,
+      "timestamp": 1782705000
+    },
+    {
+      "datetime": "2026-06-29T03:55:00Z",
+      "blockheight": 856358,
+      "inflow_total": 1128.1,
+      "outflow_total": 1240.91,
+      "netflow_total": -112.81,
+      "reserve": 2450716.0,
+      "reserve_usd": 150035800000.0,
+      "timestamp": 1782705300
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856359,
+      "inflow_total": 1128.4,
+      "outflow_total": 1241.24,
+      "netflow_total": -112.84,
+      "reserve": 2450718.0,
+      "reserve_usd": 150035900000.0,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T04:05:00Z",
+      "blockheight": 856360,
+      "inflow_total": 1128.7,
+      "outflow_total": 1241.57,
+      "netflow_total": -112.87,
+      "reserve": 2450720.0,
+      "reserve_usd": 150036000000.0,
+      "timestamp": 1782705900
+    },
+    {
+      "datetime": "2026-06-29T04:10:00Z",
+      "blockheight": 856361,
+      "inflow_total": 1129.0,
+      "outflow_total": 1241.9,
+      "netflow_total": -112.9,
+      "reserve": 2450722.0,
+      "reserve_usd": 150036100000.0,
+      "timestamp": 1782706200
+    },
+    {
+      "datetime": "2026-06-29T04:15:00Z",
+      "blockheight": 856362,
+      "inflow_total": 1129.3,
+      "outflow_total": 1242.23,
+      "netflow_total": -112.93,
+      "reserve": 2450724.0,
+      "reserve_usd": 150036200000.0,
+      "timestamp": 1782706500
+    },
+    {
+      "datetime": "2026-06-29T04:20:00Z",
+      "blockheight": 856363,
+      "inflow_total": 1129.6,
+      "outflow_total": 1242.56,
+      "netflow_total": -112.96,
+      "reserve": 2450726.0,
+      "reserve_usd": 150036300000.0,
+      "timestamp": 1782706800
+    },
+    {
+      "datetime": "2026-06-29T04:25:00Z",
+      "blockheight": 856364,
+      "inflow_total": 1129.9,
+      "outflow_total": 1242.89,
+      "netflow_total": -112.99,
+      "reserve": 2450728.0,
+      "reserve_usd": 150036400000.0,
+      "timestamp": 1782707100
+    },
+    {
+      "datetime": "2026-06-29T04:30:00Z",
+      "blockheight": 856365,
+      "inflow_total": 1130.2,
+      "outflow_total": 1243.22,
+      "netflow_total": -113.02,
+      "reserve": 2450730.0,
+      "reserve_usd": 150036500000.0,
+      "timestamp": 1782707400
+    },
+    {
+      "datetime": "2026-06-29T04:35:00Z",
+      "blockheight": 856366,
+      "inflow_total": 1130.5,
+      "outflow_total": 1243.55,
+      "netflow_total": -113.05,
+      "reserve": 2450732.0,
+      "reserve_usd": 150036600000.0,
+      "timestamp": 1782707700
+    },
+    {
+      "datetime": "2026-06-29T04:40:00Z",
+      "blockheight": 856367,
+      "inflow_total": 1130.8,
+      "outflow_total": 1243.88,
+      "netflow_total": -113.08,
+      "reserve": 2450734.0,
+      "reserve_usd": 150036700000.0,
+      "timestamp": 1782708000
+    },
+    {
+      "datetime": "2026-06-29T04:45:00Z",
+      "blockheight": 856368,
+      "inflow_total": 1131.1,
+      "outflow_total": 1244.21,
+      "netflow_total": -113.11,
+      "reserve": 2450736.0,
+      "reserve_usd": 150036800000.0,
+      "timestamp": 1782708300
+    },
+    {
+      "datetime": "2026-06-29T04:50:00Z",
+      "blockheight": 856369,
+      "inflow_total": 1131.4,
+      "outflow_total": 1244.54,
+      "netflow_total": -113.14,
+      "reserve": 2450738.0,
+      "reserve_usd": 150036900000.0,
+      "timestamp": 1782708600
+    },
+    {
+      "datetime": "2026-06-29T04:55:00Z",
+      "blockheight": 856370,
+      "inflow_total": 1131.7,
+      "outflow_total": 1244.87,
+      "netflow_total": -113.17,
+      "reserve": 2450740.0,
+      "reserve_usd": 150037000000.0,
+      "timestamp": 1782708900
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856371,
+      "inflow_total": 1132.0,
+      "outflow_total": 1245.2,
+      "netflow_total": -113.2,
+      "reserve": 2450742.0,
+      "reserve_usd": 150037100000.0,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T05:05:00Z",
+      "blockheight": 856372,
+      "inflow_total": 1132.3,
+      "outflow_total": 1245.53,
+      "netflow_total": -113.23,
+      "reserve": 2450744.0,
+      "reserve_usd": 150037200000.0,
+      "timestamp": 1782709500
+    },
+    {
+      "datetime": "2026-06-29T05:10:00Z",
+      "blockheight": 856373,
+      "inflow_total": 1132.6,
+      "outflow_total": 1245.86,
+      "netflow_total": -113.26,
+      "reserve": 2450746.0,
+      "reserve_usd": 150037300000.0,
+      "timestamp": 1782709800
+    },
+    {
+      "datetime": "2026-06-29T05:15:00Z",
+      "blockheight": 856374,
+      "inflow_total": 1132.9,
+      "outflow_total": 1246.19,
+      "netflow_total": -113.29,
+      "reserve": 2450748.0,
+      "reserve_usd": 150037400000.0,
+      "timestamp": 1782710100
+    },
+    {
+      "datetime": "2026-06-29T05:20:00Z",
+      "blockheight": 856375,
+      "inflow_total": 1133.2,
+      "outflow_total": 1246.52,
+      "netflow_total": -113.32,
+      "reserve": 2450750.0,
+      "reserve_usd": 150037500000.0,
+      "timestamp": 1782710400
+    },
+    {
+      "datetime": "2026-06-29T05:25:00Z",
+      "blockheight": 856376,
+      "inflow_total": 1133.5,
+      "outflow_total": 1246.85,
+      "netflow_total": -113.35,
+      "reserve": 2450752.0,
+      "reserve_usd": 150037600000.0,
+      "timestamp": 1782710700
+    },
+    {
+      "datetime": "2026-06-29T05:30:00Z",
+      "blockheight": 856377,
+      "inflow_total": 1133.8,
+      "outflow_total": 1247.18,
+      "netflow_total": -113.38,
+      "reserve": 2450754.0,
+      "reserve_usd": 150037700000.0,
+      "timestamp": 1782711000
+    },
+    {
+      "datetime": "2026-06-29T05:35:00Z",
+      "blockheight": 856378,
+      "inflow_total": 1134.1,
+      "outflow_total": 1247.51,
+      "netflow_total": -113.41,
+      "reserve": 2450756.0,
+      "reserve_usd": 150037800000.0,
+      "timestamp": 1782711300
+    },
+    {
+      "datetime": "2026-06-29T05:40:00Z",
+      "blockheight": 856379,
+      "inflow_total": 1134.4,
+      "outflow_total": 1247.84,
+      "netflow_total": -113.44,
+      "reserve": 2450758.0,
+      "reserve_usd": 150037900000.0,
+      "timestamp": 1782711600
+    },
+    {
+      "datetime": "2026-06-29T05:45:00Z",
+      "blockheight": 856380,
+      "inflow_total": 1134.7,
+      "outflow_total": 1248.17,
+      "netflow_total": -113.47,
+      "reserve": 2450760.0,
+      "reserve_usd": 150038000000.0,
+      "timestamp": 1782711900
+    },
+    {
+      "datetime": "2026-06-29T05:50:00Z",
+      "blockheight": 856381,
+      "inflow_total": 1135.0,
+      "outflow_total": 1248.5,
+      "netflow_total": -113.5,
+      "reserve": 2450762.0,
+      "reserve_usd": 150038100000.0,
+      "timestamp": 1782712200
+    },
+    {
+      "datetime": "2026-06-29T05:55:00Z",
+      "blockheight": 856382,
+      "inflow_total": 1135.3,
+      "outflow_total": 1248.83,
+      "netflow_total": -113.53,
+      "reserve": 2450764.0,
+      "reserve_usd": 150038200000.0,
+      "timestamp": 1782712500
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856383,
+      "inflow_total": 1135.6,
+      "outflow_total": 1249.16,
+      "netflow_total": -113.56,
+      "reserve": 2450766.0,
+      "reserve_usd": 150038300000.0,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T06:05:00Z",
+      "blockheight": 856384,
+      "inflow_total": 1135.9,
+      "outflow_total": 1249.49,
+      "netflow_total": -113.59,
+      "reserve": 2450768.0,
+      "reserve_usd": 150038400000.0,
+      "timestamp": 1782713100
+    },
+    {
+      "datetime": "2026-06-29T06:10:00Z",
+      "blockheight": 856385,
+      "inflow_total": 1136.2,
+      "outflow_total": 1249.82,
+      "netflow_total": -113.62,
+      "reserve": 2450770.0,
+      "reserve_usd": 150038500000.0,
+      "timestamp": 1782713400
+    },
+    {
+      "datetime": "2026-06-29T06:15:00Z",
+      "blockheight": 856386,
+      "inflow_total": 1136.5,
+      "outflow_total": 1250.15,
+      "netflow_total": -113.65,
+      "reserve": 2450772.0,
+      "reserve_usd": 150038600000.0,
+      "timestamp": 1782713700
+    },
+    {
+      "datetime": "2026-06-29T06:20:00Z",
+      "blockheight": 856387,
+      "inflow_total": 1136.8,
+      "outflow_total": 1250.48,
+      "netflow_total": -113.68,
+      "reserve": 2450774.0,
+      "reserve_usd": 150038700000.0,
+      "timestamp": 1782714000
+    },
+    {
+      "datetime": "2026-06-29T06:25:00Z",
+      "blockheight": 856388,
+      "inflow_total": 1137.1,
+      "outflow_total": 1250.81,
+      "netflow_total": -113.71,
+      "reserve": 2450776.0,
+      "reserve_usd": 150038800000.0,
+      "timestamp": 1782714300
+    },
+    {
+      "datetime": "2026-06-29T06:30:00Z",
+      "blockheight": 856389,
+      "inflow_total": 1137.4,
+      "outflow_total": 1251.14,
+      "netflow_total": -113.74,
+      "reserve": 2450778.0,
+      "reserve_usd": 150038900000.0,
+      "timestamp": 1782714600
+    },
+    {
+      "datetime": "2026-06-29T06:35:00Z",
+      "blockheight": 856390,
+      "inflow_total": 1137.7,
+      "outflow_total": 1251.47,
+      "netflow_total": -113.77,
+      "reserve": 2450780.0,
+      "reserve_usd": 150039000000.0,
+      "timestamp": 1782714900
+    },
+    {
+      "datetime": "2026-06-29T06:40:00Z",
+      "blockheight": 856391,
+      "inflow_total": 1138.0,
+      "outflow_total": 1251.8,
+      "netflow_total": -113.8,
+      "reserve": 2450782.0,
+      "reserve_usd": 150039100000.0,
+      "timestamp": 1782715200
+    },
+    {
+      "datetime": "2026-06-29T06:45:00Z",
+      "blockheight": 856392,
+      "inflow_total": 1138.3,
+      "outflow_total": 1252.13,
+      "netflow_total": -113.83,
+      "reserve": 2450784.0,
+      "reserve_usd": 150039200000.0,
+      "timestamp": 1782715500
+    },
+    {
+      "datetime": "2026-06-29T06:50:00Z",
+      "blockheight": 856393,
+      "inflow_total": 1138.6,
+      "outflow_total": 1252.46,
+      "netflow_total": -113.86,
+      "reserve": 2450786.0,
+      "reserve_usd": 150039300000.0,
+      "timestamp": 1782715800
+    },
+    {
+      "datetime": "2026-06-29T06:55:00Z",
+      "blockheight": 856394,
+      "inflow_total": 1138.9,
+      "outflow_total": 1252.79,
+      "netflow_total": -113.89,
+      "reserve": 2450788.0,
+      "reserve_usd": 150039400000.0,
+      "timestamp": 1782716100
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856395,
+      "inflow_total": 1139.2,
+      "outflow_total": 1253.12,
+      "netflow_total": -113.92,
+      "reserve": 2450790.0,
+      "reserve_usd": 150039500000.0,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T07:05:00Z",
+      "blockheight": 856396,
+      "inflow_total": 1139.5,
+      "outflow_total": 1253.45,
+      "netflow_total": -113.95,
+      "reserve": 2450792.0,
+      "reserve_usd": 150039600000.0,
+      "timestamp": 1782716700
+    },
+    {
+      "datetime": "2026-06-29T07:10:00Z",
+      "blockheight": 856397,
+      "inflow_total": 1139.8,
+      "outflow_total": 1253.78,
+      "netflow_total": -113.98,
+      "reserve": 2450794.0,
+      "reserve_usd": 150039700000.0,
+      "timestamp": 1782717000
+    },
+    {
+      "datetime": "2026-06-29T07:15:00Z",
+      "blockheight": 856398,
+      "inflow_total": 1140.1,
+      "outflow_total": 1254.11,
+      "netflow_total": -114.01,
+      "reserve": 2450796.0,
+      "reserve_usd": 150039800000.0,
+      "timestamp": 1782717300
+    },
+    {
+      "datetime": "2026-06-29T07:20:00Z",
+      "blockheight": 856399,
+      "inflow_total": 1140.4,
+      "outflow_total": 1254.44,
+      "netflow_total": -114.04,
+      "reserve": 2450798.0,
+      "reserve_usd": 150039900000.0,
+      "timestamp": 1782717600
+    },
+    {
+      "datetime": "2026-06-29T07:25:00Z",
+      "blockheight": 856400,
+      "inflow_total": 1140.7,
+      "outflow_total": 1254.77,
+      "netflow_total": -114.07,
+      "reserve": 2450800.0,
+      "reserve_usd": 150040000000.0,
+      "timestamp": 1782717900
+    },
+    {
+      "datetime": "2026-06-29T07:30:00Z",
+      "blockheight": 856401,
+      "inflow_total": 1141.0,
+      "outflow_total": 1255.1,
+      "netflow_total": -114.1,
+      "reserve": 2450802.0,
+      "reserve_usd": 150040100000.0,
+      "timestamp": 1782718200
+    },
+    {
+      "datetime": "2026-06-29T07:35:00Z",
+      "blockheight": 856402,
+      "inflow_total": 1141.3,
+      "outflow_total": 1255.43,
+      "netflow_total": -114.13,
+      "reserve": 2450804.0,
+      "reserve_usd": 150040200000.0,
+      "timestamp": 1782718500
+    },
+    {
+      "datetime": "2026-06-29T07:40:00Z",
+      "blockheight": 856403,
+      "inflow_total": 1141.6,
+      "outflow_total": 1255.76,
+      "netflow_total": -114.16,
+      "reserve": 2450806.0,
+      "reserve_usd": 150040300000.0,
+      "timestamp": 1782718800
+    },
+    {
+      "datetime": "2026-06-29T07:45:00Z",
+      "blockheight": 856404,
+      "inflow_total": 1141.9,
+      "outflow_total": 1256.09,
+      "netflow_total": -114.19,
+      "reserve": 2450808.0,
+      "reserve_usd": 150040400000.0,
+      "timestamp": 1782719100
+    },
+    {
+      "datetime": "2026-06-29T07:50:00Z",
+      "blockheight": 856405,
+      "inflow_total": 1142.2,
+      "outflow_total": 1256.42,
+      "netflow_total": -114.22,
+      "reserve": 2450810.0,
+      "reserve_usd": 150040500000.0,
+      "timestamp": 1782719400
+    },
+    {
+      "datetime": "2026-06-29T07:55:00Z",
+      "blockheight": 856406,
+      "inflow_total": 1142.5,
+      "outflow_total": 1256.75,
+      "netflow_total": -114.25,
+      "reserve": 2450812.0,
+      "reserve_usd": 150040600000.0,
+      "timestamp": 1782719700
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856407,
+      "inflow_total": 1142.8,
+      "outflow_total": 1257.08,
+      "netflow_total": -114.28,
+      "reserve": 2450814.0,
+      "reserve_usd": 150040700000.0,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T08:05:00Z",
+      "blockheight": 856408,
+      "inflow_total": 1143.1,
+      "outflow_total": 1257.41,
+      "netflow_total": -114.31,
+      "reserve": 2450816.0,
+      "reserve_usd": 150040800000.0,
+      "timestamp": 1782720300
+    },
+    {
+      "datetime": "2026-06-29T08:10:00Z",
+      "blockheight": 856409,
+      "inflow_total": 1143.4,
+      "outflow_total": 1257.74,
+      "netflow_total": -114.34,
+      "reserve": 2450818.0,
+      "reserve_usd": 150040900000.0,
+      "timestamp": 1782720600
+    },
+    {
+      "datetime": "2026-06-29T08:15:00Z",
+      "blockheight": 856410,
+      "inflow_total": 1143.7,
+      "outflow_total": 1258.07,
+      "netflow_total": -114.37,
+      "reserve": 2450820.0,
+      "reserve_usd": 150041000000.0,
+      "timestamp": 1782720900
+    },
+    {
+      "datetime": "2026-06-29T08:20:00Z",
+      "blockheight": 856411,
+      "inflow_total": 1144.0,
+      "outflow_total": 1258.4,
+      "netflow_total": -114.4,
+      "reserve": 2450822.0,
+      "reserve_usd": 150041100000.0,
+      "timestamp": 1782721200
+    },
+    {
+      "datetime": "2026-06-29T08:25:00Z",
+      "blockheight": 856412,
+      "inflow_total": 1144.3,
+      "outflow_total": 1258.73,
+      "netflow_total": -114.43,
+      "reserve": 2450824.0,
+      "reserve_usd": 150041200000.0,
+      "timestamp": 1782721500
+    },
+    {
+      "datetime": "2026-06-29T08:30:00Z",
+      "blockheight": 856413,
+      "inflow_total": 1144.6,
+      "outflow_total": 1259.06,
+      "netflow_total": -114.46,
+      "reserve": 2450826.0,
+      "reserve_usd": 150041300000.0,
+      "timestamp": 1782721800
+    },
+    {
+      "datetime": "2026-06-29T08:35:00Z",
+      "blockheight": 856414,
+      "inflow_total": 1144.9,
+      "outflow_total": 1259.39,
+      "netflow_total": -114.49,
+      "reserve": 2450828.0,
+      "reserve_usd": 150041400000.0,
+      "timestamp": 1782722100
+    },
+    {
+      "datetime": "2026-06-29T08:40:00Z",
+      "blockheight": 856415,
+      "inflow_total": 1145.2,
+      "outflow_total": 1259.72,
+      "netflow_total": -114.52,
+      "reserve": 2450830.0,
+      "reserve_usd": 150041500000.0,
+      "timestamp": 1782722400
+    },
+    {
+      "datetime": "2026-06-29T08:45:00Z",
+      "blockheight": 856416,
+      "inflow_total": 1145.5,
+      "outflow_total": 1260.05,
+      "netflow_total": -114.55,
+      "reserve": 2450832.0,
+      "reserve_usd": 150041600000.0,
+      "timestamp": 1782722700
+    },
+    {
+      "datetime": "2026-06-29T08:50:00Z",
+      "blockheight": 856417,
+      "inflow_total": 1145.8,
+      "outflow_total": 1260.38,
+      "netflow_total": -114.58,
+      "reserve": 2450834.0,
+      "reserve_usd": 150041700000.0,
+      "timestamp": 1782723000
+    },
+    {
+      "datetime": "2026-06-29T08:55:00Z",
+      "blockheight": 856418,
+      "inflow_total": 1146.1,
+      "outflow_total": 1260.71,
+      "netflow_total": -114.61,
+      "reserve": 2450836.0,
+      "reserve_usd": 150041800000.0,
+      "timestamp": 1782723300
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856419,
+      "inflow_total": 1146.4,
+      "outflow_total": 1261.04,
+      "netflow_total": -114.64,
+      "reserve": 2450838.0,
+      "reserve_usd": 150041900000.0,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T09:05:00Z",
+      "blockheight": 856420,
+      "inflow_total": 1146.7,
+      "outflow_total": 1261.37,
+      "netflow_total": -114.67,
+      "reserve": 2450840.0,
+      "reserve_usd": 150042000000.0,
+      "timestamp": 1782723900
+    },
+    {
+      "datetime": "2026-06-29T09:10:00Z",
+      "blockheight": 856421,
+      "inflow_total": 1147.0,
+      "outflow_total": 1261.7,
+      "netflow_total": -114.7,
+      "reserve": 2450842.0,
+      "reserve_usd": 150042100000.0,
+      "timestamp": 1782724200
+    },
+    {
+      "datetime": "2026-06-29T09:15:00Z",
+      "blockheight": 856422,
+      "inflow_total": 1147.3,
+      "outflow_total": 1262.03,
+      "netflow_total": -114.73,
+      "reserve": 2450844.0,
+      "reserve_usd": 150042200000.0,
+      "timestamp": 1782724500
+    },
+    {
+      "datetime": "2026-06-29T09:20:00Z",
+      "blockheight": 856423,
+      "inflow_total": 1147.6,
+      "outflow_total": 1262.36,
+      "netflow_total": -114.76,
+      "reserve": 2450846.0,
+      "reserve_usd": 150042300000.0,
+      "timestamp": 1782724800
+    },
+    {
+      "datetime": "2026-06-29T09:25:00Z",
+      "blockheight": 856424,
+      "inflow_total": 1147.9,
+      "outflow_total": 1262.69,
+      "netflow_total": -114.79,
+      "reserve": 2450848.0,
+      "reserve_usd": 150042400000.0,
+      "timestamp": 1782725100
+    },
+    {
+      "datetime": "2026-06-29T09:30:00Z",
+      "blockheight": 856425,
+      "inflow_total": 1148.2,
+      "outflow_total": 1263.02,
+      "netflow_total": -114.82,
+      "reserve": 2450850.0,
+      "reserve_usd": 150042500000.0,
+      "timestamp": 1782725400
+    },
+    {
+      "datetime": "2026-06-29T09:35:00Z",
+      "blockheight": 856426,
+      "inflow_total": 1148.5,
+      "outflow_total": 1263.35,
+      "netflow_total": -114.85,
+      "reserve": 2450852.0,
+      "reserve_usd": 150042600000.0,
+      "timestamp": 1782725700
+    },
+    {
+      "datetime": "2026-06-29T09:40:00Z",
+      "blockheight": 856427,
+      "inflow_total": 1148.8,
+      "outflow_total": 1263.68,
+      "netflow_total": -114.88,
+      "reserve": 2450854.0,
+      "reserve_usd": 150042700000.0,
+      "timestamp": 1782726000
+    },
+    {
+      "datetime": "2026-06-29T09:45:00Z",
+      "blockheight": 856428,
+      "inflow_total": 1149.1,
+      "outflow_total": 1264.01,
+      "netflow_total": -114.91,
+      "reserve": 2450856.0,
+      "reserve_usd": 150042800000.0,
+      "timestamp": 1782726300
+    },
+    {
+      "datetime": "2026-06-29T09:50:00Z",
+      "blockheight": 856429,
+      "inflow_total": 1149.4,
+      "outflow_total": 1264.34,
+      "netflow_total": -114.94,
+      "reserve": 2450858.0,
+      "reserve_usd": 150042900000.0,
+      "timestamp": 1782726600
+    },
+    {
+      "datetime": "2026-06-29T09:55:00Z",
+      "blockheight": 856430,
+      "inflow_total": 1149.7,
+      "outflow_total": 1264.67,
+      "netflow_total": -114.97,
+      "reserve": 2450860.0,
+      "reserve_usd": 150043000000.0,
+      "timestamp": 1782726900
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856431,
+      "inflow_total": 1150.0,
+      "outflow_total": 1265.0,
+      "netflow_total": -115.0,
+      "reserve": 2450862.0,
+      "reserve_usd": 150043100000.0,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T10:05:00Z",
+      "blockheight": 856432,
+      "inflow_total": 1150.3,
+      "outflow_total": 1265.33,
+      "netflow_total": -115.03,
+      "reserve": 2450864.0,
+      "reserve_usd": 150043200000.0,
+      "timestamp": 1782727500
+    },
+    {
+      "datetime": "2026-06-29T10:10:00Z",
+      "blockheight": 856433,
+      "inflow_total": 1150.6,
+      "outflow_total": 1265.66,
+      "netflow_total": -115.06,
+      "reserve": 2450866.0,
+      "reserve_usd": 150043300000.0,
+      "timestamp": 1782727800
+    },
+    {
+      "datetime": "2026-06-29T10:15:00Z",
+      "blockheight": 856434,
+      "inflow_total": 1150.9,
+      "outflow_total": 1265.99,
+      "netflow_total": -115.09,
+      "reserve": 2450868.0,
+      "reserve_usd": 150043400000.0,
+      "timestamp": 1782728100
+    },
+    {
+      "datetime": "2026-06-29T10:20:00Z",
+      "blockheight": 856435,
+      "inflow_total": 1151.2,
+      "outflow_total": 1266.32,
+      "netflow_total": -115.12,
+      "reserve": 2450870.0,
+      "reserve_usd": 150043500000.0,
+      "timestamp": 1782728400
+    },
+    {
+      "datetime": "2026-06-29T10:25:00Z",
+      "blockheight": 856436,
+      "inflow_total": 1151.5,
+      "outflow_total": 1266.65,
+      "netflow_total": -115.15,
+      "reserve": 2450872.0,
+      "reserve_usd": 150043600000.0,
+      "timestamp": 1782728700
+    },
+    {
+      "datetime": "2026-06-29T10:30:00Z",
+      "blockheight": 856437,
+      "inflow_total": 1151.8,
+      "outflow_total": 1266.98,
+      "netflow_total": -115.18,
+      "reserve": 2450874.0,
+      "reserve_usd": 150043700000.0,
+      "timestamp": 1782729000
+    },
+    {
+      "datetime": "2026-06-29T10:35:00Z",
+      "blockheight": 856438,
+      "inflow_total": 1152.1,
+      "outflow_total": 1267.31,
+      "netflow_total": -115.21,
+      "reserve": 2450876.0,
+      "reserve_usd": 150043800000.0,
+      "timestamp": 1782729300
+    },
+    {
+      "datetime": "2026-06-29T10:40:00Z",
+      "blockheight": 856439,
+      "inflow_total": 1152.4,
+      "outflow_total": 1267.64,
+      "netflow_total": -115.24,
+      "reserve": 2450878.0,
+      "reserve_usd": 150043900000.0,
+      "timestamp": 1782729600
+    },
+    {
+      "datetime": "2026-06-29T10:45:00Z",
+      "blockheight": 856440,
+      "inflow_total": 1152.7,
+      "outflow_total": 1267.97,
+      "netflow_total": -115.27,
+      "reserve": 2450880.0,
+      "reserve_usd": 150044000000.0,
+      "timestamp": 1782729900
+    },
+    {
+      "datetime": "2026-06-29T10:50:00Z",
+      "blockheight": 856441,
+      "inflow_total": 1153.0,
+      "outflow_total": 1268.3,
+      "netflow_total": -115.3,
+      "reserve": 2450882.0,
+      "reserve_usd": 150044100000.0,
+      "timestamp": 1782730200
+    },
+    {
+      "datetime": "2026-06-29T10:55:00Z",
+      "blockheight": 856442,
+      "inflow_total": 1153.3,
+      "outflow_total": 1268.63,
+      "netflow_total": -115.33,
+      "reserve": 2450884.0,
+      "reserve_usd": 150044200000.0,
+      "timestamp": 1782730500
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856443,
+      "inflow_total": 1153.6,
+      "outflow_total": 1268.96,
+      "netflow_total": -115.36,
+      "reserve": 2450886.0,
+      "reserve_usd": 150044300000.0,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T11:05:00Z",
+      "blockheight": 856444,
+      "inflow_total": 1153.9,
+      "outflow_total": 1269.29,
+      "netflow_total": -115.39,
+      "reserve": 2450888.0,
+      "reserve_usd": 150044400000.0,
+      "timestamp": 1782731100
+    },
+    {
+      "datetime": "2026-06-29T11:10:00Z",
+      "blockheight": 856445,
+      "inflow_total": 1154.2,
+      "outflow_total": 1269.62,
+      "netflow_total": -115.42,
+      "reserve": 2450890.0,
+      "reserve_usd": 150044500000.0,
+      "timestamp": 1782731400
+    },
+    {
+      "datetime": "2026-06-29T11:15:00Z",
+      "blockheight": 856446,
+      "inflow_total": 1154.5,
+      "outflow_total": 1269.95,
+      "netflow_total": -115.45,
+      "reserve": 2450892.0,
+      "reserve_usd": 150044600000.0,
+      "timestamp": 1782731700
+    },
+    {
+      "datetime": "2026-06-29T11:20:00Z",
+      "blockheight": 856447,
+      "inflow_total": 1154.8,
+      "outflow_total": 1270.28,
+      "netflow_total": -115.48,
+      "reserve": 2450894.0,
+      "reserve_usd": 150044700000.0,
+      "timestamp": 1782732000
+    },
+    {
+      "datetime": "2026-06-29T11:25:00Z",
+      "blockheight": 856448,
+      "inflow_total": 1155.1,
+      "outflow_total": 1270.61,
+      "netflow_total": -115.51,
+      "reserve": 2450896.0,
+      "reserve_usd": 150044800000.0,
+      "timestamp": 1782732300
+    },
+    {
+      "datetime": "2026-06-29T11:30:00Z",
+      "blockheight": 856449,
+      "inflow_total": 1155.4,
+      "outflow_total": 1270.94,
+      "netflow_total": -115.54,
+      "reserve": 2450898.0,
+      "reserve_usd": 150044900000.0,
+      "timestamp": 1782732600
+    },
+    {
+      "datetime": "2026-06-29T11:35:00Z",
+      "blockheight": 856450,
+      "inflow_total": 1155.7,
+      "outflow_total": 1271.27,
+      "netflow_total": -115.57,
+      "reserve": 2450900.0,
+      "reserve_usd": 150045000000.0,
+      "timestamp": 1782732900
+    },
+    {
+      "datetime": "2026-06-29T11:40:00Z",
+      "blockheight": 856451,
+      "inflow_total": 1156.0,
+      "outflow_total": 1271.6,
+      "netflow_total": -115.6,
+      "reserve": 2450902.0,
+      "reserve_usd": 150045100000.0,
+      "timestamp": 1782733200
+    },
+    {
+      "datetime": "2026-06-29T11:45:00Z",
+      "blockheight": 856452,
+      "inflow_total": 1156.3,
+      "outflow_total": 1271.93,
+      "netflow_total": -115.63,
+      "reserve": 2450904.0,
+      "reserve_usd": 150045200000.0,
+      "timestamp": 1782733500
+    },
+    {
+      "datetime": "2026-06-29T11:50:00Z",
+      "blockheight": 856453,
+      "inflow_total": 1156.6,
+      "outflow_total": 1272.26,
+      "netflow_total": -115.66,
+      "reserve": 2450906.0,
+      "reserve_usd": 150045300000.0,
+      "timestamp": 1782733800
+    },
+    {
+      "datetime": "2026-06-29T11:55:00Z",
+      "blockheight": 856454,
+      "inflow_total": 1156.9,
+      "outflow_total": 1272.59,
+      "netflow_total": -115.69,
+      "reserve": 2450908.0,
+      "reserve_usd": 150045400000.0,
+      "timestamp": 1782734100
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856455,
+      "inflow_total": 1157.2,
+      "outflow_total": 1272.92,
+      "netflow_total": -115.72,
+      "reserve": 2450910.0,
+      "reserve_usd": 150045500000.0,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T12:05:00Z",
+      "blockheight": 856456,
+      "inflow_total": 1157.5,
+      "outflow_total": 1273.25,
+      "netflow_total": -115.75,
+      "reserve": 2450912.0,
+      "reserve_usd": 150045600000.0,
+      "timestamp": 1782734700
+    },
+    {
+      "datetime": "2026-06-29T12:10:00Z",
+      "blockheight": 856457,
+      "inflow_total": 1157.8,
+      "outflow_total": 1273.58,
+      "netflow_total": -115.78,
+      "reserve": 2450914.0,
+      "reserve_usd": 150045700000.0,
+      "timestamp": 1782735000
+    },
+    {
+      "datetime": "2026-06-29T12:15:00Z",
+      "blockheight": 856458,
+      "inflow_total": 1158.1,
+      "outflow_total": 1273.91,
+      "netflow_total": -115.81,
+      "reserve": 2450916.0,
+      "reserve_usd": 150045800000.0,
+      "timestamp": 1782735300
+    },
+    {
+      "datetime": "2026-06-29T12:20:00Z",
+      "blockheight": 856459,
+      "inflow_total": 1158.4,
+      "outflow_total": 1274.24,
+      "netflow_total": -115.84,
+      "reserve": 2450918.0,
+      "reserve_usd": 150045900000.0,
+      "timestamp": 1782735600
+    },
+    {
+      "datetime": "2026-06-29T12:25:00Z",
+      "blockheight": 856460,
+      "inflow_total": 1158.7,
+      "outflow_total": 1274.57,
+      "netflow_total": -115.87,
+      "reserve": 2450920.0,
+      "reserve_usd": 150046000000.0,
+      "timestamp": 1782735900
+    },
+    {
+      "datetime": "2026-06-29T12:30:00Z",
+      "blockheight": 856461,
+      "inflow_total": 1159.0,
+      "outflow_total": 1274.9,
+      "netflow_total": -115.9,
+      "reserve": 2450922.0,
+      "reserve_usd": 150046100000.0,
+      "timestamp": 1782736200
+    },
+    {
+      "datetime": "2026-06-29T12:35:00Z",
+      "blockheight": 856462,
+      "inflow_total": 1159.3,
+      "outflow_total": 1275.23,
+      "netflow_total": -115.93,
+      "reserve": 2450924.0,
+      "reserve_usd": 150046200000.0,
+      "timestamp": 1782736500
+    },
+    {
+      "datetime": "2026-06-29T12:40:00Z",
+      "blockheight": 856463,
+      "inflow_total": 1159.6,
+      "outflow_total": 1275.56,
+      "netflow_total": -115.96,
+      "reserve": 2450926.0,
+      "reserve_usd": 150046300000.0,
+      "timestamp": 1782736800
+    },
+    {
+      "datetime": "2026-06-29T12:45:00Z",
+      "blockheight": 856464,
+      "inflow_total": 1159.9,
+      "outflow_total": 1275.89,
+      "netflow_total": -115.99,
+      "reserve": 2450928.0,
+      "reserve_usd": 150046400000.0,
+      "timestamp": 1782737100
+    },
+    {
+      "datetime": "2026-06-29T12:50:00Z",
+      "blockheight": 856465,
+      "inflow_total": 1160.2,
+      "outflow_total": 1276.22,
+      "netflow_total": -116.02,
+      "reserve": 2450930.0,
+      "reserve_usd": 150046500000.0,
+      "timestamp": 1782737400
+    },
+    {
+      "datetime": "2026-06-29T12:55:00Z",
+      "blockheight": 856466,
+      "inflow_total": 1160.5,
+      "outflow_total": 1276.55,
+      "netflow_total": -116.05,
+      "reserve": 2450932.0,
+      "reserve_usd": 150046600000.0,
+      "timestamp": 1782737700
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856467,
+      "inflow_total": 1160.8,
+      "outflow_total": 1276.88,
+      "netflow_total": -116.08,
+      "reserve": 2450934.0,
+      "reserve_usd": 150046700000.0,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T13:05:00Z",
+      "blockheight": 856468,
+      "inflow_total": 1161.1,
+      "outflow_total": 1277.21,
+      "netflow_total": -116.11,
+      "reserve": 2450936.0,
+      "reserve_usd": 150046800000.0,
+      "timestamp": 1782738300
+    },
+    {
+      "datetime": "2026-06-29T13:10:00Z",
+      "blockheight": 856469,
+      "inflow_total": 1161.4,
+      "outflow_total": 1277.54,
+      "netflow_total": -116.14,
+      "reserve": 2450938.0,
+      "reserve_usd": 150046900000.0,
+      "timestamp": 1782738600
+    },
+    {
+      "datetime": "2026-06-29T13:15:00Z",
+      "blockheight": 856470,
+      "inflow_total": 1161.7,
+      "outflow_total": 1277.87,
+      "netflow_total": -116.17,
+      "reserve": 2450940.0,
+      "reserve_usd": 150047000000.0,
+      "timestamp": 1782738900
+    },
+    {
+      "datetime": "2026-06-29T13:20:00Z",
+      "blockheight": 856471,
+      "inflow_total": 1162.0,
+      "outflow_total": 1278.2,
+      "netflow_total": -116.2,
+      "reserve": 2450942.0,
+      "reserve_usd": 150047100000.0,
+      "timestamp": 1782739200
+    },
+    {
+      "datetime": "2026-06-29T13:25:00Z",
+      "blockheight": 856472,
+      "inflow_total": 1162.3,
+      "outflow_total": 1278.53,
+      "netflow_total": -116.23,
+      "reserve": 2450944.0,
+      "reserve_usd": 150047200000.0,
+      "timestamp": 1782739500
+    },
+    {
+      "datetime": "2026-06-29T13:30:00Z",
+      "blockheight": 856473,
+      "inflow_total": 1162.6,
+      "outflow_total": 1278.86,
+      "netflow_total": -116.26,
+      "reserve": 2450946.0,
+      "reserve_usd": 150047300000.0,
+      "timestamp": 1782739800
+    },
+    {
+      "datetime": "2026-06-29T13:35:00Z",
+      "blockheight": 856474,
+      "inflow_total": 1162.9,
+      "outflow_total": 1279.19,
+      "netflow_total": -116.29,
+      "reserve": 2450948.0,
+      "reserve_usd": 150047400000.0,
+      "timestamp": 1782740100
+    },
+    {
+      "datetime": "2026-06-29T13:40:00Z",
+      "blockheight": 856475,
+      "inflow_total": 1163.2,
+      "outflow_total": 1279.52,
+      "netflow_total": -116.32,
+      "reserve": 2450950.0,
+      "reserve_usd": 150047500000.0,
+      "timestamp": 1782740400
+    },
+    {
+      "datetime": "2026-06-29T13:45:00Z",
+      "blockheight": 856476,
+      "inflow_total": 1163.5,
+      "outflow_total": 1279.85,
+      "netflow_total": -116.35,
+      "reserve": 2450952.0,
+      "reserve_usd": 150047600000.0,
+      "timestamp": 1782740700
+    },
+    {
+      "datetime": "2026-06-29T13:50:00Z",
+      "blockheight": 856477,
+      "inflow_total": 1163.8,
+      "outflow_total": 1280.18,
+      "netflow_total": -116.38,
+      "reserve": 2450954.0,
+      "reserve_usd": 150047700000.0,
+      "timestamp": 1782741000
+    },
+    {
+      "datetime": "2026-06-29T13:55:00Z",
+      "blockheight": 856478,
+      "inflow_total": 1164.1,
+      "outflow_total": 1280.51,
+      "netflow_total": -116.41,
+      "reserve": 2450956.0,
+      "reserve_usd": 150047800000.0,
+      "timestamp": 1782741300
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856479,
+      "inflow_total": 1164.4,
+      "outflow_total": 1280.84,
+      "netflow_total": -116.44,
+      "reserve": 2450958.0,
+      "reserve_usd": 150047900000.0,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T14:05:00Z",
+      "blockheight": 856480,
+      "inflow_total": 1164.7,
+      "outflow_total": 1281.17,
+      "netflow_total": -116.47,
+      "reserve": 2450960.0,
+      "reserve_usd": 150048000000.0,
+      "timestamp": 1782741900
+    },
+    {
+      "datetime": "2026-06-29T14:10:00Z",
+      "blockheight": 856481,
+      "inflow_total": 1165.0,
+      "outflow_total": 1281.5,
+      "netflow_total": -116.5,
+      "reserve": 2450962.0,
+      "reserve_usd": 150048100000.0,
+      "timestamp": 1782742200
+    },
+    {
+      "datetime": "2026-06-29T14:15:00Z",
+      "blockheight": 856482,
+      "inflow_total": 1165.3,
+      "outflow_total": 1281.83,
+      "netflow_total": -116.53,
+      "reserve": 2450964.0,
+      "reserve_usd": 150048200000.0,
+      "timestamp": 1782742500
+    },
+    {
+      "datetime": "2026-06-29T14:20:00Z",
+      "blockheight": 856483,
+      "inflow_total": 1165.6,
+      "outflow_total": 1282.16,
+      "netflow_total": -116.56,
+      "reserve": 2450966.0,
+      "reserve_usd": 150048300000.0,
+      "timestamp": 1782742800
+    },
+    {
+      "datetime": "2026-06-29T14:25:00Z",
+      "blockheight": 856484,
+      "inflow_total": 1165.9,
+      "outflow_total": 1282.49,
+      "netflow_total": -116.59,
+      "reserve": 2450968.0,
+      "reserve_usd": 150048400000.0,
+      "timestamp": 1782743100
+    },
+    {
+      "datetime": "2026-06-29T14:30:00Z",
+      "blockheight": 856485,
+      "inflow_total": 1166.2,
+      "outflow_total": 1282.82,
+      "netflow_total": -116.62,
+      "reserve": 2450970.0,
+      "reserve_usd": 150048500000.0,
+      "timestamp": 1782743400
+    },
+    {
+      "datetime": "2026-06-29T14:35:00Z",
+      "blockheight": 856486,
+      "inflow_total": 1166.5,
+      "outflow_total": 1283.15,
+      "netflow_total": -116.65,
+      "reserve": 2450972.0,
+      "reserve_usd": 150048600000.0,
+      "timestamp": 1782743700
+    },
+    {
+      "datetime": "2026-06-29T14:40:00Z",
+      "blockheight": 856487,
+      "inflow_total": 1166.8,
+      "outflow_total": 1283.48,
+      "netflow_total": -116.68,
+      "reserve": 2450974.0,
+      "reserve_usd": 150048700000.0,
+      "timestamp": 1782744000
+    },
+    {
+      "datetime": "2026-06-29T14:45:00Z",
+      "blockheight": 856488,
+      "inflow_total": 1167.1,
+      "outflow_total": 1283.81,
+      "netflow_total": -116.71,
+      "reserve": 2450976.0,
+      "reserve_usd": 150048800000.0,
+      "timestamp": 1782744300
+    },
+    {
+      "datetime": "2026-06-29T14:50:00Z",
+      "blockheight": 856489,
+      "inflow_total": 1167.4,
+      "outflow_total": 1284.14,
+      "netflow_total": -116.74,
+      "reserve": 2450978.0,
+      "reserve_usd": 150048900000.0,
+      "timestamp": 1782744600
+    },
+    {
+      "datetime": "2026-06-29T14:55:00Z",
+      "blockheight": 856490,
+      "inflow_total": 1167.7,
+      "outflow_total": 1284.47,
+      "netflow_total": -116.77,
+      "reserve": 2450980.0,
+      "reserve_usd": 150049000000.0,
+      "timestamp": 1782744900
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856491,
+      "inflow_total": 1168.0,
+      "outflow_total": 1284.8,
+      "netflow_total": -116.8,
+      "reserve": 2450982.0,
+      "reserve_usd": 150049100000.0,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T15:05:00Z",
+      "blockheight": 856492,
+      "inflow_total": 1168.3,
+      "outflow_total": 1285.13,
+      "netflow_total": -116.83,
+      "reserve": 2450984.0,
+      "reserve_usd": 150049200000.0,
+      "timestamp": 1782745500
+    },
+    {
+      "datetime": "2026-06-29T15:10:00Z",
+      "blockheight": 856493,
+      "inflow_total": 1168.6,
+      "outflow_total": 1285.46,
+      "netflow_total": -116.86,
+      "reserve": 2450986.0,
+      "reserve_usd": 150049300000.0,
+      "timestamp": 1782745800
+    },
+    {
+      "datetime": "2026-06-29T15:15:00Z",
+      "blockheight": 856494,
+      "inflow_total": 1168.9,
+      "outflow_total": 1285.79,
+      "netflow_total": -116.89,
+      "reserve": 2450988.0,
+      "reserve_usd": 150049400000.0,
+      "timestamp": 1782746100
+    },
+    {
+      "datetime": "2026-06-29T15:20:00Z",
+      "blockheight": 856495,
+      "inflow_total": 1169.2,
+      "outflow_total": 1286.12,
+      "netflow_total": -116.92,
+      "reserve": 2450990.0,
+      "reserve_usd": 150049500000.0,
+      "timestamp": 1782746400
+    },
+    {
+      "datetime": "2026-06-29T15:25:00Z",
+      "blockheight": 856496,
+      "inflow_total": 1169.5,
+      "outflow_total": 1286.45,
+      "netflow_total": -116.95,
+      "reserve": 2450992.0,
+      "reserve_usd": 150049600000.0,
+      "timestamp": 1782746700
+    },
+    {
+      "datetime": "2026-06-29T15:30:00Z",
+      "blockheight": 856497,
+      "inflow_total": 1169.8,
+      "outflow_total": 1286.78,
+      "netflow_total": -116.98,
+      "reserve": 2450994.0,
+      "reserve_usd": 150049700000.0,
+      "timestamp": 1782747000
+    },
+    {
+      "datetime": "2026-06-29T15:35:00Z",
+      "blockheight": 856498,
+      "inflow_total": 1170.1,
+      "outflow_total": 1287.11,
+      "netflow_total": -117.01,
+      "reserve": 2450996.0,
+      "reserve_usd": 150049800000.0,
+      "timestamp": 1782747300
+    },
+    {
+      "datetime": "2026-06-29T15:40:00Z",
+      "blockheight": 856499,
+      "inflow_total": 1170.4,
+      "outflow_total": 1287.44,
+      "netflow_total": -117.04,
+      "reserve": 2450998.0,
+      "reserve_usd": 150049900000.0,
+      "timestamp": 1782747600
+    },
+    {
+      "datetime": "2026-06-29T15:45:00Z",
+      "blockheight": 856500,
+      "inflow_total": 1170.7,
+      "outflow_total": 1287.77,
+      "netflow_total": -117.07,
+      "reserve": 2451000.0,
+      "reserve_usd": 150050000000.0,
+      "timestamp": 1782747900
+    },
+    {
+      "datetime": "2026-06-29T15:50:00Z",
+      "blockheight": 856501,
+      "inflow_total": 1171.0,
+      "outflow_total": 1288.1,
+      "netflow_total": -117.1,
+      "reserve": 2451002.0,
+      "reserve_usd": 150050100000.0,
+      "timestamp": 1782748200
+    },
+    {
+      "datetime": "2026-06-29T15:55:00Z",
+      "blockheight": 856502,
+      "inflow_total": 1171.3,
+      "outflow_total": 1288.43,
+      "netflow_total": -117.13,
+      "reserve": 2451004.0,
+      "reserve_usd": 150050200000.0,
+      "timestamp": 1782748500
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856503,
+      "inflow_total": 1171.6,
+      "outflow_total": 1288.76,
+      "netflow_total": -117.16,
+      "reserve": 2451006.0,
+      "reserve_usd": 150050300000.0,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T16:05:00Z",
+      "blockheight": 856504,
+      "inflow_total": 1171.9,
+      "outflow_total": 1289.09,
+      "netflow_total": -117.19,
+      "reserve": 2451008.0,
+      "reserve_usd": 150050400000.0,
+      "timestamp": 1782749100
+    },
+    {
+      "datetime": "2026-06-29T16:10:00Z",
+      "blockheight": 856505,
+      "inflow_total": 1172.2,
+      "outflow_total": 1289.42,
+      "netflow_total": -117.22,
+      "reserve": 2451010.0,
+      "reserve_usd": 150050500000.0,
+      "timestamp": 1782749400
+    },
+    {
+      "datetime": "2026-06-29T16:15:00Z",
+      "blockheight": 856506,
+      "inflow_total": 1172.5,
+      "outflow_total": 1289.75,
+      "netflow_total": -117.25,
+      "reserve": 2451012.0,
+      "reserve_usd": 150050600000.0,
+      "timestamp": 1782749700
+    },
+    {
+      "datetime": "2026-06-29T16:20:00Z",
+      "blockheight": 856507,
+      "inflow_total": 1172.8,
+      "outflow_total": 1290.08,
+      "netflow_total": -117.28,
+      "reserve": 2451014.0,
+      "reserve_usd": 150050700000.0,
+      "timestamp": 1782750000
+    },
+    {
+      "datetime": "2026-06-29T16:25:00Z",
+      "blockheight": 856508,
+      "inflow_total": 1173.1,
+      "outflow_total": 1290.41,
+      "netflow_total": -117.31,
+      "reserve": 2451016.0,
+      "reserve_usd": 150050800000.0,
+      "timestamp": 1782750300
+    },
+    {
+      "datetime": "2026-06-29T16:30:00Z",
+      "blockheight": 856509,
+      "inflow_total": 1173.4,
+      "outflow_total": 1290.74,
+      "netflow_total": -117.34,
+      "reserve": 2451018.0,
+      "reserve_usd": 150050900000.0,
+      "timestamp": 1782750600
+    },
+    {
+      "datetime": "2026-06-29T16:35:00Z",
+      "blockheight": 856510,
+      "inflow_total": 1173.7,
+      "outflow_total": 1291.07,
+      "netflow_total": -117.37,
+      "reserve": 2451020.0,
+      "reserve_usd": 150051000000.0,
+      "timestamp": 1782750900
+    },
+    {
+      "datetime": "2026-06-29T16:40:00Z",
+      "blockheight": 856511,
+      "inflow_total": 1174.0,
+      "outflow_total": 1291.4,
+      "netflow_total": -117.4,
+      "reserve": 2451022.0,
+      "reserve_usd": 150051100000.0,
+      "timestamp": 1782751200
+    },
+    {
+      "datetime": "2026-06-29T16:45:00Z",
+      "blockheight": 856512,
+      "inflow_total": 1174.3,
+      "outflow_total": 1291.73,
+      "netflow_total": -117.43,
+      "reserve": 2451024.0,
+      "reserve_usd": 150051200000.0,
+      "timestamp": 1782751500
+    },
+    {
+      "datetime": "2026-06-29T16:50:00Z",
+      "blockheight": 856513,
+      "inflow_total": 1174.6,
+      "outflow_total": 1292.06,
+      "netflow_total": -117.46,
+      "reserve": 2451026.0,
+      "reserve_usd": 150051300000.0,
+      "timestamp": 1782751800
+    },
+    {
+      "datetime": "2026-06-29T16:55:00Z",
+      "blockheight": 856514,
+      "inflow_total": 1174.9,
+      "outflow_total": 1292.39,
+      "netflow_total": -117.49,
+      "reserve": 2451028.0,
+      "reserve_usd": 150051400000.0,
+      "timestamp": 1782752100
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856515,
+      "inflow_total": 1175.2,
+      "outflow_total": 1292.72,
+      "netflow_total": -117.52,
+      "reserve": 2451030.0,
+      "reserve_usd": 150051500000.0,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T17:05:00Z",
+      "blockheight": 856516,
+      "inflow_total": 1175.5,
+      "outflow_total": 1293.05,
+      "netflow_total": -117.55,
+      "reserve": 2451032.0,
+      "reserve_usd": 150051600000.0,
+      "timestamp": 1782752700
+    },
+    {
+      "datetime": "2026-06-29T17:10:00Z",
+      "blockheight": 856517,
+      "inflow_total": 1175.8,
+      "outflow_total": 1293.38,
+      "netflow_total": -117.58,
+      "reserve": 2451034.0,
+      "reserve_usd": 150051700000.0,
+      "timestamp": 1782753000
+    },
+    {
+      "datetime": "2026-06-29T17:15:00Z",
+      "blockheight": 856518,
+      "inflow_total": 1176.1,
+      "outflow_total": 1293.71,
+      "netflow_total": -117.61,
+      "reserve": 2451036.0,
+      "reserve_usd": 150051800000.0,
+      "timestamp": 1782753300
+    },
+    {
+      "datetime": "2026-06-29T17:20:00Z",
+      "blockheight": 856519,
+      "inflow_total": 1176.4,
+      "outflow_total": 1294.04,
+      "netflow_total": -117.64,
+      "reserve": 2451038.0,
+      "reserve_usd": 150051900000.0,
+      "timestamp": 1782753600
+    },
+    {
+      "datetime": "2026-06-29T17:25:00Z",
+      "blockheight": 856520,
+      "inflow_total": 1176.7,
+      "outflow_total": 1294.37,
+      "netflow_total": -117.67,
+      "reserve": 2451040.0,
+      "reserve_usd": 150052000000.0,
+      "timestamp": 1782753900
+    },
+    {
+      "datetime": "2026-06-29T17:30:00Z",
+      "blockheight": 856521,
+      "inflow_total": 1177.0,
+      "outflow_total": 1294.7,
+      "netflow_total": -117.7,
+      "reserve": 2451042.0,
+      "reserve_usd": 150052100000.0,
+      "timestamp": 1782754200
+    },
+    {
+      "datetime": "2026-06-29T17:35:00Z",
+      "blockheight": 856522,
+      "inflow_total": 1177.3,
+      "outflow_total": 1295.03,
+      "netflow_total": -117.73,
+      "reserve": 2451044.0,
+      "reserve_usd": 150052200000.0,
+      "timestamp": 1782754500
+    },
+    {
+      "datetime": "2026-06-29T17:40:00Z",
+      "blockheight": 856523,
+      "inflow_total": 1177.6,
+      "outflow_total": 1295.36,
+      "netflow_total": -117.76,
+      "reserve": 2451046.0,
+      "reserve_usd": 150052300000.0,
+      "timestamp": 1782754800
+    },
+    {
+      "datetime": "2026-06-29T17:45:00Z",
+      "blockheight": 856524,
+      "inflow_total": 1177.9,
+      "outflow_total": 1295.69,
+      "netflow_total": -117.79,
+      "reserve": 2451048.0,
+      "reserve_usd": 150052400000.0,
+      "timestamp": 1782755100
+    },
+    {
+      "datetime": "2026-06-29T17:50:00Z",
+      "blockheight": 856525,
+      "inflow_total": 1178.2,
+      "outflow_total": 1296.02,
+      "netflow_total": -117.82,
+      "reserve": 2451050.0,
+      "reserve_usd": 150052500000.0,
+      "timestamp": 1782755400
+    },
+    {
+      "datetime": "2026-06-29T17:55:00Z",
+      "blockheight": 856526,
+      "inflow_total": 1178.5,
+      "outflow_total": 1296.35,
+      "netflow_total": -117.85,
+      "reserve": 2451052.0,
+      "reserve_usd": 150052600000.0,
+      "timestamp": 1782755700
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856527,
+      "inflow_total": 1178.8,
+      "outflow_total": 1296.68,
+      "netflow_total": -117.88,
+      "reserve": 2451054.0,
+      "reserve_usd": 150052700000.0,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T18:05:00Z",
+      "blockheight": 856528,
+      "inflow_total": 1179.1,
+      "outflow_total": 1297.01,
+      "netflow_total": -117.91,
+      "reserve": 2451056.0,
+      "reserve_usd": 150052800000.0,
+      "timestamp": 1782756300
+    },
+    {
+      "datetime": "2026-06-29T18:10:00Z",
+      "blockheight": 856529,
+      "inflow_total": 1179.4,
+      "outflow_total": 1297.34,
+      "netflow_total": -117.94,
+      "reserve": 2451058.0,
+      "reserve_usd": 150052900000.0,
+      "timestamp": 1782756600
+    },
+    {
+      "datetime": "2026-06-29T18:15:00Z",
+      "blockheight": 856530,
+      "inflow_total": 1179.7,
+      "outflow_total": 1297.67,
+      "netflow_total": -117.97,
+      "reserve": 2451060.0,
+      "reserve_usd": 150053000000.0,
+      "timestamp": 1782756900
+    },
+    {
+      "datetime": "2026-06-29T18:20:00Z",
+      "blockheight": 856531,
+      "inflow_total": 1180.0,
+      "outflow_total": 1298.0,
+      "netflow_total": -118.0,
+      "reserve": 2451062.0,
+      "reserve_usd": 150053100000.0,
+      "timestamp": 1782757200
+    },
+    {
+      "datetime": "2026-06-29T18:25:00Z",
+      "blockheight": 856532,
+      "inflow_total": 1180.3,
+      "outflow_total": 1298.33,
+      "netflow_total": -118.03,
+      "reserve": 2451064.0,
+      "reserve_usd": 150053200000.0,
+      "timestamp": 1782757500
+    },
+    {
+      "datetime": "2026-06-29T18:30:00Z",
+      "blockheight": 856533,
+      "inflow_total": 1180.6,
+      "outflow_total": 1298.66,
+      "netflow_total": -118.06,
+      "reserve": 2451066.0,
+      "reserve_usd": 150053300000.0,
+      "timestamp": 1782757800
+    },
+    {
+      "datetime": "2026-06-29T18:35:00Z",
+      "blockheight": 856534,
+      "inflow_total": 1180.9,
+      "outflow_total": 1298.99,
+      "netflow_total": -118.09,
+      "reserve": 2451068.0,
+      "reserve_usd": 150053400000.0,
+      "timestamp": 1782758100
+    },
+    {
+      "datetime": "2026-06-29T18:40:00Z",
+      "blockheight": 856535,
+      "inflow_total": 1181.2,
+      "outflow_total": 1299.32,
+      "netflow_total": -118.12,
+      "reserve": 2451070.0,
+      "reserve_usd": 150053500000.0,
+      "timestamp": 1782758400
+    },
+    {
+      "datetime": "2026-06-29T18:45:00Z",
+      "blockheight": 856536,
+      "inflow_total": 1181.5,
+      "outflow_total": 1299.65,
+      "netflow_total": -118.15,
+      "reserve": 2451072.0,
+      "reserve_usd": 150053600000.0,
+      "timestamp": 1782758700
+    },
+    {
+      "datetime": "2026-06-29T18:50:00Z",
+      "blockheight": 856537,
+      "inflow_total": 1181.8,
+      "outflow_total": 1299.98,
+      "netflow_total": -118.18,
+      "reserve": 2451074.0,
+      "reserve_usd": 150053700000.0,
+      "timestamp": 1782759000
+    },
+    {
+      "datetime": "2026-06-29T18:55:00Z",
+      "blockheight": 856538,
+      "inflow_total": 1182.1,
+      "outflow_total": 1300.31,
+      "netflow_total": -118.21,
+      "reserve": 2451076.0,
+      "reserve_usd": 150053800000.0,
+      "timestamp": 1782759300
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856539,
+      "inflow_total": 1182.4,
+      "outflow_total": 1300.64,
+      "netflow_total": -118.24,
+      "reserve": 2451078.0,
+      "reserve_usd": 150053900000.0,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T19:05:00Z",
+      "blockheight": 856540,
+      "inflow_total": 1182.7,
+      "outflow_total": 1300.97,
+      "netflow_total": -118.27,
+      "reserve": 2451080.0,
+      "reserve_usd": 150054000000.0,
+      "timestamp": 1782759900
+    },
+    {
+      "datetime": "2026-06-29T19:10:00Z",
+      "blockheight": 856541,
+      "inflow_total": 1183.0,
+      "outflow_total": 1301.3,
+      "netflow_total": -118.3,
+      "reserve": 2451082.0,
+      "reserve_usd": 150054100000.0,
+      "timestamp": 1782760200
+    },
+    {
+      "datetime": "2026-06-29T19:15:00Z",
+      "blockheight": 856542,
+      "inflow_total": 1183.3,
+      "outflow_total": 1301.63,
+      "netflow_total": -118.33,
+      "reserve": 2451084.0,
+      "reserve_usd": 150054200000.0,
+      "timestamp": 1782760500
+    },
+    {
+      "datetime": "2026-06-29T19:20:00Z",
+      "blockheight": 856543,
+      "inflow_total": 1183.6,
+      "outflow_total": 1301.96,
+      "netflow_total": -118.36,
+      "reserve": 2451086.0,
+      "reserve_usd": 150054300000.0,
+      "timestamp": 1782760800
+    },
+    {
+      "datetime": "2026-06-29T19:25:00Z",
+      "blockheight": 856544,
+      "inflow_total": 1183.9,
+      "outflow_total": 1302.29,
+      "netflow_total": -118.39,
+      "reserve": 2451088.0,
+      "reserve_usd": 150054400000.0,
+      "timestamp": 1782761100
+    },
+    {
+      "datetime": "2026-06-29T19:30:00Z",
+      "blockheight": 856545,
+      "inflow_total": 1184.2,
+      "outflow_total": 1302.62,
+      "netflow_total": -118.42,
+      "reserve": 2451090.0,
+      "reserve_usd": 150054500000.0,
+      "timestamp": 1782761400
+    },
+    {
+      "datetime": "2026-06-29T19:35:00Z",
+      "blockheight": 856546,
+      "inflow_total": 1184.5,
+      "outflow_total": 1302.95,
+      "netflow_total": -118.45,
+      "reserve": 2451092.0,
+      "reserve_usd": 150054600000.0,
+      "timestamp": 1782761700
+    },
+    {
+      "datetime": "2026-06-29T19:40:00Z",
+      "blockheight": 856547,
+      "inflow_total": 1184.8,
+      "outflow_total": 1303.28,
+      "netflow_total": -118.48,
+      "reserve": 2451094.0,
+      "reserve_usd": 150054700000.0,
+      "timestamp": 1782762000
+    },
+    {
+      "datetime": "2026-06-29T19:45:00Z",
+      "blockheight": 856548,
+      "inflow_total": 1185.1,
+      "outflow_total": 1303.61,
+      "netflow_total": -118.51,
+      "reserve": 2451096.0,
+      "reserve_usd": 150054800000.0,
+      "timestamp": 1782762300
+    },
+    {
+      "datetime": "2026-06-29T19:50:00Z",
+      "blockheight": 856549,
+      "inflow_total": 1185.4,
+      "outflow_total": 1303.94,
+      "netflow_total": -118.54,
+      "reserve": 2451098.0,
+      "reserve_usd": 150054900000.0,
+      "timestamp": 1782762600
+    },
+    {
+      "datetime": "2026-06-29T19:55:00Z",
+      "blockheight": 856550,
+      "inflow_total": 1185.7,
+      "outflow_total": 1304.27,
+      "netflow_total": -118.57,
+      "reserve": 2451100.0,
+      "reserve_usd": 150055000000.0,
+      "timestamp": 1782762900
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856551,
+      "inflow_total": 1186.0,
+      "outflow_total": 1304.6,
+      "netflow_total": -118.6,
+      "reserve": 2451102.0,
+      "reserve_usd": 150055100000.0,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T20:05:00Z",
+      "blockheight": 856552,
+      "inflow_total": 1186.3,
+      "outflow_total": 1304.93,
+      "netflow_total": -118.63,
+      "reserve": 2451104.0,
+      "reserve_usd": 150055200000.0,
+      "timestamp": 1782763500
+    },
+    {
+      "datetime": "2026-06-29T20:10:00Z",
+      "blockheight": 856553,
+      "inflow_total": 1186.6,
+      "outflow_total": 1305.26,
+      "netflow_total": -118.66,
+      "reserve": 2451106.0,
+      "reserve_usd": 150055300000.0,
+      "timestamp": 1782763800
+    },
+    {
+      "datetime": "2026-06-29T20:15:00Z",
+      "blockheight": 856554,
+      "inflow_total": 1186.9,
+      "outflow_total": 1305.59,
+      "netflow_total": -118.69,
+      "reserve": 2451108.0,
+      "reserve_usd": 150055400000.0,
+      "timestamp": 1782764100
+    },
+    {
+      "datetime": "2026-06-29T20:20:00Z",
+      "blockheight": 856555,
+      "inflow_total": 1187.2,
+      "outflow_total": 1305.92,
+      "netflow_total": -118.72,
+      "reserve": 2451110.0,
+      "reserve_usd": 150055500000.0,
+      "timestamp": 1782764400
+    },
+    {
+      "datetime": "2026-06-29T20:25:00Z",
+      "blockheight": 856556,
+      "inflow_total": 1187.5,
+      "outflow_total": 1306.25,
+      "netflow_total": -118.75,
+      "reserve": 2451112.0,
+      "reserve_usd": 150055600000.0,
+      "timestamp": 1782764700
+    },
+    {
+      "datetime": "2026-06-29T20:30:00Z",
+      "blockheight": 856557,
+      "inflow_total": 1187.8,
+      "outflow_total": 1306.58,
+      "netflow_total": -118.78,
+      "reserve": 2451114.0,
+      "reserve_usd": 150055700000.0,
+      "timestamp": 1782765000
+    },
+    {
+      "datetime": "2026-06-29T20:35:00Z",
+      "blockheight": 856558,
+      "inflow_total": 1188.1,
+      "outflow_total": 1306.91,
+      "netflow_total": -118.81,
+      "reserve": 2451116.0,
+      "reserve_usd": 150055800000.0,
+      "timestamp": 1782765300
+    },
+    {
+      "datetime": "2026-06-29T20:40:00Z",
+      "blockheight": 856559,
+      "inflow_total": 1188.4,
+      "outflow_total": 1307.24,
+      "netflow_total": -118.84,
+      "reserve": 2451118.0,
+      "reserve_usd": 150055900000.0,
+      "timestamp": 1782765600
+    },
+    {
+      "datetime": "2026-06-29T20:45:00Z",
+      "blockheight": 856560,
+      "inflow_total": 1188.7,
+      "outflow_total": 1307.57,
+      "netflow_total": -118.87,
+      "reserve": 2451120.0,
+      "reserve_usd": 150056000000.0,
+      "timestamp": 1782765900
+    },
+    {
+      "datetime": "2026-06-29T20:50:00Z",
+      "blockheight": 856561,
+      "inflow_total": 1189.0,
+      "outflow_total": 1307.9,
+      "netflow_total": -118.9,
+      "reserve": 2451122.0,
+      "reserve_usd": 150056100000.0,
+      "timestamp": 1782766200
+    },
+    {
+      "datetime": "2026-06-29T20:55:00Z",
+      "blockheight": 856562,
+      "inflow_total": 1189.3,
+      "outflow_total": 1308.23,
+      "netflow_total": -118.93,
+      "reserve": 2451124.0,
+      "reserve_usd": 150056200000.0,
+      "timestamp": 1782766500
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856563,
+      "inflow_total": 1189.6,
+      "outflow_total": 1308.56,
+      "netflow_total": -118.96,
+      "reserve": 2451126.0,
+      "reserve_usd": 150056300000.0,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T21:05:00Z",
+      "blockheight": 856564,
+      "inflow_total": 1189.9,
+      "outflow_total": 1308.89,
+      "netflow_total": -118.99,
+      "reserve": 2451128.0,
+      "reserve_usd": 150056400000.0,
+      "timestamp": 1782767100
+    },
+    {
+      "datetime": "2026-06-29T21:10:00Z",
+      "blockheight": 856565,
+      "inflow_total": 1190.2,
+      "outflow_total": 1309.22,
+      "netflow_total": -119.02,
+      "reserve": 2451130.0,
+      "reserve_usd": 150056500000.0,
+      "timestamp": 1782767400
+    },
+    {
+      "datetime": "2026-06-29T21:15:00Z",
+      "blockheight": 856566,
+      "inflow_total": 1190.5,
+      "outflow_total": 1309.55,
+      "netflow_total": -119.05,
+      "reserve": 2451132.0,
+      "reserve_usd": 150056600000.0,
+      "timestamp": 1782767700
+    },
+    {
+      "datetime": "2026-06-29T21:20:00Z",
+      "blockheight": 856567,
+      "inflow_total": 1190.8,
+      "outflow_total": 1309.88,
+      "netflow_total": -119.08,
+      "reserve": 2451134.0,
+      "reserve_usd": 150056700000.0,
+      "timestamp": 1782768000
+    },
+    {
+      "datetime": "2026-06-29T21:25:00Z",
+      "blockheight": 856568,
+      "inflow_total": 1191.1,
+      "outflow_total": 1310.21,
+      "netflow_total": -119.11,
+      "reserve": 2451136.0,
+      "reserve_usd": 150056800000.0,
+      "timestamp": 1782768300
+    },
+    {
+      "datetime": "2026-06-29T21:30:00Z",
+      "blockheight": 856569,
+      "inflow_total": 1191.4,
+      "outflow_total": 1310.54,
+      "netflow_total": -119.14,
+      "reserve": 2451138.0,
+      "reserve_usd": 150056900000.0,
+      "timestamp": 1782768600
+    },
+    {
+      "datetime": "2026-06-29T21:35:00Z",
+      "blockheight": 856570,
+      "inflow_total": 1191.7,
+      "outflow_total": 1310.87,
+      "netflow_total": -119.17,
+      "reserve": 2451140.0,
+      "reserve_usd": 150057000000.0,
+      "timestamp": 1782768900
+    },
+    {
+      "datetime": "2026-06-29T21:40:00Z",
+      "blockheight": 856571,
+      "inflow_total": 1192.0,
+      "outflow_total": 1311.2,
+      "netflow_total": -119.2,
+      "reserve": 2451142.0,
+      "reserve_usd": 150057100000.0,
+      "timestamp": 1782769200
+    },
+    {
+      "datetime": "2026-06-29T21:45:00Z",
+      "blockheight": 856572,
+      "inflow_total": 1192.3,
+      "outflow_total": 1311.53,
+      "netflow_total": -119.23,
+      "reserve": 2451144.0,
+      "reserve_usd": 150057200000.0,
+      "timestamp": 1782769500
+    },
+    {
+      "datetime": "2026-06-29T21:50:00Z",
+      "blockheight": 856573,
+      "inflow_total": 1192.6,
+      "outflow_total": 1311.86,
+      "netflow_total": -119.26,
+      "reserve": 2451146.0,
+      "reserve_usd": 150057300000.0,
+      "timestamp": 1782769800
+    },
+    {
+      "datetime": "2026-06-29T21:55:00Z",
+      "blockheight": 856574,
+      "inflow_total": 1192.9,
+      "outflow_total": 1312.19,
+      "netflow_total": -119.29,
+      "reserve": 2451148.0,
+      "reserve_usd": 150057400000.0,
+      "timestamp": 1782770100
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856575,
+      "inflow_total": 1193.2,
+      "outflow_total": 1312.52,
+      "netflow_total": -119.32,
+      "reserve": 2451150.0,
+      "reserve_usd": 150057500000.0,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T22:05:00Z",
+      "blockheight": 856576,
+      "inflow_total": 1193.5,
+      "outflow_total": 1312.85,
+      "netflow_total": -119.35,
+      "reserve": 2451152.0,
+      "reserve_usd": 150057600000.0,
+      "timestamp": 1782770700
+    },
+    {
+      "datetime": "2026-06-29T22:10:00Z",
+      "blockheight": 856577,
+      "inflow_total": 1193.8,
+      "outflow_total": 1313.18,
+      "netflow_total": -119.38,
+      "reserve": 2451154.0,
+      "reserve_usd": 150057700000.0,
+      "timestamp": 1782771000
+    },
+    {
+      "datetime": "2026-06-29T22:15:00Z",
+      "blockheight": 856578,
+      "inflow_total": 1194.1,
+      "outflow_total": 1313.51,
+      "netflow_total": -119.41,
+      "reserve": 2451156.0,
+      "reserve_usd": 150057800000.0,
+      "timestamp": 1782771300
+    },
+    {
+      "datetime": "2026-06-29T22:20:00Z",
+      "blockheight": 856579,
+      "inflow_total": 1194.4,
+      "outflow_total": 1313.84,
+      "netflow_total": -119.44,
+      "reserve": 2451158.0,
+      "reserve_usd": 150057900000.0,
+      "timestamp": 1782771600
+    },
+    {
+      "datetime": "2026-06-29T22:25:00Z",
+      "blockheight": 856580,
+      "inflow_total": 1194.7,
+      "outflow_total": 1314.17,
+      "netflow_total": -119.47,
+      "reserve": 2451160.0,
+      "reserve_usd": 150058000000.0,
+      "timestamp": 1782771900
+    },
+    {
+      "datetime": "2026-06-29T22:30:00Z",
+      "blockheight": 856581,
+      "inflow_total": 1195.0,
+      "outflow_total": 1314.5,
+      "netflow_total": -119.5,
+      "reserve": 2451162.0,
+      "reserve_usd": 150058100000.0,
+      "timestamp": 1782772200
+    },
+    {
+      "datetime": "2026-06-29T22:35:00Z",
+      "blockheight": 856582,
+      "inflow_total": 1195.3,
+      "outflow_total": 1314.83,
+      "netflow_total": -119.53,
+      "reserve": 2451164.0,
+      "reserve_usd": 150058200000.0,
+      "timestamp": 1782772500
+    },
+    {
+      "datetime": "2026-06-29T22:40:00Z",
+      "blockheight": 856583,
+      "inflow_total": 1195.6,
+      "outflow_total": 1315.16,
+      "netflow_total": -119.56,
+      "reserve": 2451166.0,
+      "reserve_usd": 150058300000.0,
+      "timestamp": 1782772800
+    },
+    {
+      "datetime": "2026-06-29T22:45:00Z",
+      "blockheight": 856584,
+      "inflow_total": 1195.9,
+      "outflow_total": 1315.49,
+      "netflow_total": -119.59,
+      "reserve": 2451168.0,
+      "reserve_usd": 150058400000.0,
+      "timestamp": 1782773100
+    },
+    {
+      "datetime": "2026-06-29T22:50:00Z",
+      "blockheight": 856585,
+      "inflow_total": 1196.2,
+      "outflow_total": 1315.82,
+      "netflow_total": -119.62,
+      "reserve": 2451170.0,
+      "reserve_usd": 150058500000.0,
+      "timestamp": 1782773400
+    },
+    {
+      "datetime": "2026-06-29T22:55:00Z",
+      "blockheight": 856586,
+      "inflow_total": 1196.5,
+      "outflow_total": 1316.15,
+      "netflow_total": -119.65,
+      "reserve": 2451172.0,
+      "reserve_usd": 150058600000.0,
+      "timestamp": 1782773700
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856587,
+      "inflow_total": 1196.8,
+      "outflow_total": 1316.48,
+      "netflow_total": -119.68,
+      "reserve": 2451174.0,
+      "reserve_usd": 150058700000.0,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-29T23:05:00Z",
+      "blockheight": 856588,
+      "inflow_total": 1197.1,
+      "outflow_total": 1316.81,
+      "netflow_total": -119.71,
+      "reserve": 2451176.0,
+      "reserve_usd": 150058800000.0,
+      "timestamp": 1782774300
+    },
+    {
+      "datetime": "2026-06-29T23:10:00Z",
+      "blockheight": 856589,
+      "inflow_total": 1197.4,
+      "outflow_total": 1317.14,
+      "netflow_total": -119.74,
+      "reserve": 2451178.0,
+      "reserve_usd": 150058900000.0,
+      "timestamp": 1782774600
+    },
+    {
+      "datetime": "2026-06-29T23:15:00Z",
+      "blockheight": 856590,
+      "inflow_total": 1197.7,
+      "outflow_total": 1317.47,
+      "netflow_total": -119.77,
+      "reserve": 2451180.0,
+      "reserve_usd": 150059000000.0,
+      "timestamp": 1782774900
+    },
+    {
+      "datetime": "2026-06-29T23:20:00Z",
+      "blockheight": 856591,
+      "inflow_total": 1198.0,
+      "outflow_total": 1317.8,
+      "netflow_total": -119.8,
+      "reserve": 2451182.0,
+      "reserve_usd": 150059100000.0,
+      "timestamp": 1782775200
+    },
+    {
+      "datetime": "2026-06-29T23:25:00Z",
+      "blockheight": 856592,
+      "inflow_total": 1198.3,
+      "outflow_total": 1318.13,
+      "netflow_total": -119.83,
+      "reserve": 2451184.0,
+      "reserve_usd": 150059200000.0,
+      "timestamp": 1782775500
+    },
+    {
+      "datetime": "2026-06-29T23:30:00Z",
+      "blockheight": 856593,
+      "inflow_total": 1198.6,
+      "outflow_total": 1318.46,
+      "netflow_total": -119.86,
+      "reserve": 2451186.0,
+      "reserve_usd": 150059300000.0,
+      "timestamp": 1782775800
+    },
+    {
+      "datetime": "2026-06-29T23:35:00Z",
+      "blockheight": 856594,
+      "inflow_total": 1198.9,
+      "outflow_total": 1318.79,
+      "netflow_total": -119.89,
+      "reserve": 2451188.0,
+      "reserve_usd": 150059400000.0,
+      "timestamp": 1782776100
+    },
+    {
+      "datetime": "2026-06-29T23:40:00Z",
+      "blockheight": 856595,
+      "inflow_total": 1199.2,
+      "outflow_total": 1319.12,
+      "netflow_total": -119.92,
+      "reserve": 2451190.0,
+      "reserve_usd": 150059500000.0,
+      "timestamp": 1782776400
+    },
+    {
+      "datetime": "2026-06-29T23:45:00Z",
+      "blockheight": 856596,
+      "inflow_total": 1199.5,
+      "outflow_total": 1319.45,
+      "netflow_total": -119.95,
+      "reserve": 2451192.0,
+      "reserve_usd": 150059600000.0,
+      "timestamp": 1782776700
+    },
+    {
+      "datetime": "2026-06-29T23:50:00Z",
+      "blockheight": 856597,
+      "inflow_total": 1199.8,
+      "outflow_total": 1319.78,
+      "netflow_total": -119.98,
+      "reserve": 2451194.0,
+      "reserve_usd": 150059700000.0,
+      "timestamp": 1782777000
+    },
+    {
+      "datetime": "2026-06-29T23:55:00Z",
+      "blockheight": 856598,
+      "inflow_total": 1200.1,
+      "outflow_total": 1320.11,
+      "netflow_total": -120.01,
+      "reserve": 2451196.0,
+      "reserve_usd": 150059800000.0,
+      "timestamp": 1782777300
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856599,
+      "inflow_total": 1200.4,
+      "outflow_total": 1320.44,
+      "netflow_total": -120.04,
+      "reserve": 2451198.0,
+      "reserve_usd": 150059900000.0,
+      "timestamp": 1782777600
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_institutional_flows_stablecoin_flows",
+    "path": null,
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260703T023307Z/institutional_flows/stablecoin_flows/5m_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 600,
+    "duplicates_removed": 0
+  }
+}

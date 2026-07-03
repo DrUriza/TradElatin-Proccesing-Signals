@@ -18,8 +18,8 @@ class FamilyOutputBuilder:
         "liquidations",
         "derivatives_open_interest",
         "sentiment_positioning",
-        "mining_network_health",
-        "onchain_holder_behavior",
+        "on_chain_miners",
+        "options_volatility",
     ]
 
     def __init__(self, output_dir: Path, pipeline_name: str, version: str):
@@ -46,14 +46,14 @@ class FamilyOutputBuilder:
 
             if family_key == "liquidity_microstructure":
                 block["family_output_paths"] = []
-                for variant_shape, variant_filename in self._liquidity_variants(block):
+                for variant_shape, variant_filename in self._liquidity_variants(block) or self._single_shape_variant(block):
                     output_path = self.output_dir / family_key / variant_filename
                     block["family_output_paths"].append(str(output_path))
                     grouped[(family_key, variant_shape)].append(block)
                 block["family_output_path"] = block["family_output_paths"][0] if block["family_output_paths"] else ""
             elif family_key == "prices_ohlcv":
                 block["family_output_paths"] = []
-                for variant_shape, variant_filename in self._prices_variants(block):
+                for variant_shape, variant_filename in self._prices_variants(block) or self._single_shape_variant(block):
                     output_path = self.output_dir / family_key / variant_filename
                     block["family_output_paths"].append(str(output_path))
                     grouped[(family_key, variant_shape)].append(block)
@@ -64,7 +64,7 @@ class FamilyOutputBuilder:
                 block["family_output_path"] = block["family_output_paths"][0] if block["family_output_paths"] else ""
             elif family_key == "volume_orderflow":
                 block["family_output_paths"] = []
-                for variant_shape, variant_filename in self._volume_orderflow_variants(block):
+                for variant_shape, variant_filename in self._volume_orderflow_variants(block) or self._single_shape_variant(block):
                     output_path = self.output_dir / family_key / variant_filename
                     block["family_output_paths"].append(str(output_path))
                     grouped[(family_key, variant_shape)].append(block)
@@ -90,9 +90,16 @@ class FamilyOutputBuilder:
                     block["family_output_paths"].append(str(output_path))
                     grouped[(family_key, variant_shape)].append(block)
                 block["family_output_path"] = block["family_output_paths"][0] if block["family_output_paths"] else ""
-            elif family_key in {"mining_network_health", "onchain_holder_behavior"}:
+            elif family_key == "on_chain_miners":
                 block["family_output_paths"] = []
                 for variant_shape, variant_filename in self._network_onchain_variants():
+                    output_path = self.output_dir / family_key / variant_filename
+                    block["family_output_paths"].append(str(output_path))
+                    grouped[(family_key, variant_shape)].append(block)
+                block["family_output_path"] = block["family_output_paths"][0] if block["family_output_paths"] else ""
+            elif family_key == "options_volatility":
+                block["family_output_paths"] = []
+                for variant_shape, variant_filename in self._single_shape_variant(block):
                     output_path = self.output_dir / family_key / variant_filename
                     block["family_output_paths"].append(str(output_path))
                     grouped[(family_key, variant_shape)].append(block)
@@ -799,10 +806,10 @@ class FamilyOutputBuilder:
             return "liquidation_spike"
         if family_key == "institutional_flows" and "netflow" in metric:
             return "exchange_netflow_spike"
-        if family_key == "mining_network_health":
+        if family_key == "on_chain_miners":
             return "miner_pressure_event"
-        if family_key == "onchain_holder_behavior":
-            return "accumulation_distribution_event"
+        if family_key == "options_volatility":
+            return "volatility_event"
         if direction == "positive":
             return "outlier_positive"
         return "outlier_negative"
@@ -931,6 +938,12 @@ class FamilyOutputBuilder:
             ("event_list", "event_list.json"),
             ("regimes", "regimes.json"),
         ]
+
+    @staticmethod
+    def _single_shape_variant(block: dict[str, Any]) -> list[tuple[str, str]]:
+        output_shape = str(block.get("output_shape") or "time_series")
+        output_filename = str(block.get("output_filename") or f"{output_shape}.json")
+        return [(output_shape, output_filename)]
 
     @classmethod
     def _validate_family_output_limits(cls, grouped: dict[tuple[str, str], list[dict[str, Any]]]) -> None:

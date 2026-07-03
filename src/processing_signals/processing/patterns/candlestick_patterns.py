@@ -63,7 +63,9 @@ class CandlestickPatternDetector:
             high = self._float(row["high"])
             low = self._float(row["low"])
             close = self._float(row["close"])
-            if None in {open_, high, low, close}:
+            if open_ is None or high is None or low is None or close is None:
+                continue
+            if high < max(open_, close) or low > min(open_, close):
                 continue
 
             candle_range = high - low
@@ -403,10 +405,31 @@ class CandlestickPatternDetector:
 
     @staticmethod
     def _float(value: Any) -> float | None:
+        """Convert scalar-like values to float.
+
+        Returns None for missing, invalid, or non-scalar values.
+        This prevents pandas/numpy arrays from reaching pd.isna as arrays.
+        """
+        if value is None:
+            return None
+
+        if hasattr(value, "tolist") and not isinstance(value, (str, bytes)):
+            value = value.tolist()
+
+        if isinstance(value, (list, tuple)):
+            if len(value) != 1:
+                return None
+            value = value[0]
+
         try:
-            parsed = pd.to_numeric(value, errors="coerce")
+            parsed = float(value)
         except (TypeError, ValueError):
             return None
-        if pd.isna(parsed):
+
+        try:
+            if pd.isna(parsed):
+                return None
+        except (TypeError, ValueError):
             return None
+
         return float(parsed)

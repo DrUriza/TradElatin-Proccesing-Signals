@@ -1,0 +1,6027 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260703T023307Z",
+  "provider": "cryptoquant",
+  "family": "on_chain_miners",
+  "subtype": "miner_outflow_multiple",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "1m",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-29T14:01:00Z",
+      "blockheight": 856000,
+      "miner_reserve": 1800000.0,
+      "miner_inflow": 42.1,
+      "miner_outflow": 75.4,
+      "mpi": 1.27,
+      "value": 103.85,
+      "timestamp": 1782741660
+    },
+    {
+      "datetime": "2026-06-29T14:02:00Z",
+      "blockheight": 856001,
+      "miner_reserve": 1800000.2,
+      "miner_inflow": 42.11,
+      "miner_outflow": 75.41,
+      "mpi": 1.271,
+      "value": 103.88,
+      "timestamp": 1782741720
+    },
+    {
+      "datetime": "2026-06-29T14:03:00Z",
+      "blockheight": 856002,
+      "miner_reserve": 1800000.4,
+      "miner_inflow": 42.12,
+      "miner_outflow": 75.42,
+      "mpi": 1.272,
+      "value": 103.91,
+      "timestamp": 1782741780
+    },
+    {
+      "datetime": "2026-06-29T14:04:00Z",
+      "blockheight": 856003,
+      "miner_reserve": 1800000.6,
+      "miner_inflow": 42.13,
+      "miner_outflow": 75.43,
+      "mpi": 1.273,
+      "value": 103.94,
+      "timestamp": 1782741840
+    },
+    {
+      "datetime": "2026-06-29T14:05:00Z",
+      "blockheight": 856004,
+      "miner_reserve": 1800000.8,
+      "miner_inflow": 42.14,
+      "miner_outflow": 75.44,
+      "mpi": 1.274,
+      "value": 103.97,
+      "timestamp": 1782741900
+    },
+    {
+      "datetime": "2026-06-29T14:06:00Z",
+      "blockheight": 856005,
+      "miner_reserve": 1800001.0,
+      "miner_inflow": 42.15,
+      "miner_outflow": 75.45,
+      "mpi": 1.275,
+      "value": 104.0,
+      "timestamp": 1782741960
+    },
+    {
+      "datetime": "2026-06-29T14:07:00Z",
+      "blockheight": 856006,
+      "miner_reserve": 1800001.2,
+      "miner_inflow": 42.16,
+      "miner_outflow": 75.46,
+      "mpi": 1.276,
+      "value": 104.03,
+      "timestamp": 1782742020
+    },
+    {
+      "datetime": "2026-06-29T14:08:00Z",
+      "blockheight": 856007,
+      "miner_reserve": 1800001.4,
+      "miner_inflow": 42.17,
+      "miner_outflow": 75.47,
+      "mpi": 1.277,
+      "value": 104.06,
+      "timestamp": 1782742080
+    },
+    {
+      "datetime": "2026-06-29T14:09:00Z",
+      "blockheight": 856008,
+      "miner_reserve": 1800001.6,
+      "miner_inflow": 42.18,
+      "miner_outflow": 75.48,
+      "mpi": 1.278,
+      "value": 104.09,
+      "timestamp": 1782742140
+    },
+    {
+      "datetime": "2026-06-29T14:10:00Z",
+      "blockheight": 856009,
+      "miner_reserve": 1800001.8,
+      "miner_inflow": 42.19,
+      "miner_outflow": 75.49,
+      "mpi": 1.279,
+      "value": 104.12,
+      "timestamp": 1782742200
+    },
+    {
+      "datetime": "2026-06-29T14:11:00Z",
+      "blockheight": 856010,
+      "miner_reserve": 1800002.0,
+      "miner_inflow": 42.2,
+      "miner_outflow": 75.5,
+      "mpi": 1.28,
+      "value": 104.15,
+      "timestamp": 1782742260
+    },
+    {
+      "datetime": "2026-06-29T14:12:00Z",
+      "blockheight": 856011,
+      "miner_reserve": 1800002.2,
+      "miner_inflow": 42.21,
+      "miner_outflow": 75.51,
+      "mpi": 1.281,
+      "value": 104.18,
+      "timestamp": 1782742320
+    },
+    {
+      "datetime": "2026-06-29T14:13:00Z",
+      "blockheight": 856012,
+      "miner_reserve": 1800002.4,
+      "miner_inflow": 42.22,
+      "miner_outflow": 75.52,
+      "mpi": 1.282,
+      "value": 104.21,
+      "timestamp": 1782742380
+    },
+    {
+      "datetime": "2026-06-29T14:14:00Z",
+      "blockheight": 856013,
+      "miner_reserve": 1800002.6,
+      "miner_inflow": 42.23,
+      "miner_outflow": 75.53,
+      "mpi": 1.283,
+      "value": 104.24,
+      "timestamp": 1782742440
+    },
+    {
+      "datetime": "2026-06-29T14:15:00Z",
+      "blockheight": 856014,
+      "miner_reserve": 1800002.8,
+      "miner_inflow": 42.24,
+      "miner_outflow": 75.54,
+      "mpi": 1.284,
+      "value": 104.27,
+      "timestamp": 1782742500
+    },
+    {
+      "datetime": "2026-06-29T14:16:00Z",
+      "blockheight": 856015,
+      "miner_reserve": 1800003.0,
+      "miner_inflow": 42.25,
+      "miner_outflow": 75.55,
+      "mpi": 1.285,
+      "value": 104.3,
+      "timestamp": 1782742560
+    },
+    {
+      "datetime": "2026-06-29T14:17:00Z",
+      "blockheight": 856016,
+      "miner_reserve": 1800003.2,
+      "miner_inflow": 42.26,
+      "miner_outflow": 75.56,
+      "mpi": 1.286,
+      "value": 104.33,
+      "timestamp": 1782742620
+    },
+    {
+      "datetime": "2026-06-29T14:18:00Z",
+      "blockheight": 856017,
+      "miner_reserve": 1800003.4,
+      "miner_inflow": 42.27,
+      "miner_outflow": 75.57,
+      "mpi": 1.287,
+      "value": 104.36,
+      "timestamp": 1782742680
+    },
+    {
+      "datetime": "2026-06-29T14:19:00Z",
+      "blockheight": 856018,
+      "miner_reserve": 1800003.6,
+      "miner_inflow": 42.28,
+      "miner_outflow": 75.58,
+      "mpi": 1.288,
+      "value": 104.39,
+      "timestamp": 1782742740
+    },
+    {
+      "datetime": "2026-06-29T14:20:00Z",
+      "blockheight": 856019,
+      "miner_reserve": 1800003.8,
+      "miner_inflow": 42.29,
+      "miner_outflow": 75.59,
+      "mpi": 1.289,
+      "value": 104.42,
+      "timestamp": 1782742800
+    },
+    {
+      "datetime": "2026-06-29T14:21:00Z",
+      "blockheight": 856020,
+      "miner_reserve": 1800004.0,
+      "miner_inflow": 42.3,
+      "miner_outflow": 75.6,
+      "mpi": 1.29,
+      "value": 104.45,
+      "timestamp": 1782742860
+    },
+    {
+      "datetime": "2026-06-29T14:22:00Z",
+      "blockheight": 856021,
+      "miner_reserve": 1800004.2,
+      "miner_inflow": 42.31,
+      "miner_outflow": 75.61,
+      "mpi": 1.291,
+      "value": 104.48,
+      "timestamp": 1782742920
+    },
+    {
+      "datetime": "2026-06-29T14:23:00Z",
+      "blockheight": 856022,
+      "miner_reserve": 1800004.4,
+      "miner_inflow": 42.32,
+      "miner_outflow": 75.62,
+      "mpi": 1.292,
+      "value": 104.51,
+      "timestamp": 1782742980
+    },
+    {
+      "datetime": "2026-06-29T14:24:00Z",
+      "blockheight": 856023,
+      "miner_reserve": 1800004.6,
+      "miner_inflow": 42.33,
+      "miner_outflow": 75.63,
+      "mpi": 1.293,
+      "value": 104.54,
+      "timestamp": 1782743040
+    },
+    {
+      "datetime": "2026-06-29T14:25:00Z",
+      "blockheight": 856024,
+      "miner_reserve": 1800004.8,
+      "miner_inflow": 42.34,
+      "miner_outflow": 75.64,
+      "mpi": 1.294,
+      "value": 104.57,
+      "timestamp": 1782743100
+    },
+    {
+      "datetime": "2026-06-29T14:26:00Z",
+      "blockheight": 856025,
+      "miner_reserve": 1800005.0,
+      "miner_inflow": 42.35,
+      "miner_outflow": 75.65,
+      "mpi": 1.295,
+      "value": 104.6,
+      "timestamp": 1782743160
+    },
+    {
+      "datetime": "2026-06-29T14:27:00Z",
+      "blockheight": 856026,
+      "miner_reserve": 1800005.2,
+      "miner_inflow": 42.36,
+      "miner_outflow": 75.66,
+      "mpi": 1.296,
+      "value": 104.63,
+      "timestamp": 1782743220
+    },
+    {
+      "datetime": "2026-06-29T14:28:00Z",
+      "blockheight": 856027,
+      "miner_reserve": 1800005.4,
+      "miner_inflow": 42.37,
+      "miner_outflow": 75.67,
+      "mpi": 1.297,
+      "value": 104.66,
+      "timestamp": 1782743280
+    },
+    {
+      "datetime": "2026-06-29T14:29:00Z",
+      "blockheight": 856028,
+      "miner_reserve": 1800005.6,
+      "miner_inflow": 42.38,
+      "miner_outflow": 75.68,
+      "mpi": 1.298,
+      "value": 104.69,
+      "timestamp": 1782743340
+    },
+    {
+      "datetime": "2026-06-29T14:30:00Z",
+      "blockheight": 856029,
+      "miner_reserve": 1800005.8,
+      "miner_inflow": 42.39,
+      "miner_outflow": 75.69,
+      "mpi": 1.299,
+      "value": 104.72,
+      "timestamp": 1782743400
+    },
+    {
+      "datetime": "2026-06-29T14:31:00Z",
+      "blockheight": 856030,
+      "miner_reserve": 1800006.0,
+      "miner_inflow": 42.4,
+      "miner_outflow": 75.7,
+      "mpi": 1.3,
+      "value": 104.75,
+      "timestamp": 1782743460
+    },
+    {
+      "datetime": "2026-06-29T14:32:00Z",
+      "blockheight": 856031,
+      "miner_reserve": 1800006.2,
+      "miner_inflow": 42.41,
+      "miner_outflow": 75.71,
+      "mpi": 1.301,
+      "value": 104.78,
+      "timestamp": 1782743520
+    },
+    {
+      "datetime": "2026-06-29T14:33:00Z",
+      "blockheight": 856032,
+      "miner_reserve": 1800006.4,
+      "miner_inflow": 42.42,
+      "miner_outflow": 75.72,
+      "mpi": 1.302,
+      "value": 104.81,
+      "timestamp": 1782743580
+    },
+    {
+      "datetime": "2026-06-29T14:34:00Z",
+      "blockheight": 856033,
+      "miner_reserve": 1800006.6,
+      "miner_inflow": 42.43,
+      "miner_outflow": 75.73,
+      "mpi": 1.303,
+      "value": 104.84,
+      "timestamp": 1782743640
+    },
+    {
+      "datetime": "2026-06-29T14:35:00Z",
+      "blockheight": 856034,
+      "miner_reserve": 1800006.8,
+      "miner_inflow": 42.44,
+      "miner_outflow": 75.74,
+      "mpi": 1.304,
+      "value": 104.87,
+      "timestamp": 1782743700
+    },
+    {
+      "datetime": "2026-06-29T14:36:00Z",
+      "blockheight": 856035,
+      "miner_reserve": 1800007.0,
+      "miner_inflow": 42.45,
+      "miner_outflow": 75.75,
+      "mpi": 1.305,
+      "value": 104.9,
+      "timestamp": 1782743760
+    },
+    {
+      "datetime": "2026-06-29T14:37:00Z",
+      "blockheight": 856036,
+      "miner_reserve": 1800007.2,
+      "miner_inflow": 42.46,
+      "miner_outflow": 75.76,
+      "mpi": 1.306,
+      "value": 104.93,
+      "timestamp": 1782743820
+    },
+    {
+      "datetime": "2026-06-29T14:38:00Z",
+      "blockheight": 856037,
+      "miner_reserve": 1800007.4,
+      "miner_inflow": 42.47,
+      "miner_outflow": 75.77,
+      "mpi": 1.307,
+      "value": 104.96,
+      "timestamp": 1782743880
+    },
+    {
+      "datetime": "2026-06-29T14:39:00Z",
+      "blockheight": 856038,
+      "miner_reserve": 1800007.6,
+      "miner_inflow": 42.48,
+      "miner_outflow": 75.78,
+      "mpi": 1.308,
+      "value": 104.99,
+      "timestamp": 1782743940
+    },
+    {
+      "datetime": "2026-06-29T14:40:00Z",
+      "blockheight": 856039,
+      "miner_reserve": 1800007.8,
+      "miner_inflow": 42.49,
+      "miner_outflow": 75.79,
+      "mpi": 1.309,
+      "value": 105.02,
+      "timestamp": 1782744000
+    },
+    {
+      "datetime": "2026-06-29T14:41:00Z",
+      "blockheight": 856040,
+      "miner_reserve": 1800008.0,
+      "miner_inflow": 42.5,
+      "miner_outflow": 75.8,
+      "mpi": 1.31,
+      "value": 105.05,
+      "timestamp": 1782744060
+    },
+    {
+      "datetime": "2026-06-29T14:42:00Z",
+      "blockheight": 856041,
+      "miner_reserve": 1800008.2,
+      "miner_inflow": 42.51,
+      "miner_outflow": 75.81,
+      "mpi": 1.311,
+      "value": 105.08,
+      "timestamp": 1782744120
+    },
+    {
+      "datetime": "2026-06-29T14:43:00Z",
+      "blockheight": 856042,
+      "miner_reserve": 1800008.4,
+      "miner_inflow": 42.52,
+      "miner_outflow": 75.82,
+      "mpi": 1.312,
+      "value": 105.11,
+      "timestamp": 1782744180
+    },
+    {
+      "datetime": "2026-06-29T14:44:00Z",
+      "blockheight": 856043,
+      "miner_reserve": 1800008.6,
+      "miner_inflow": 42.53,
+      "miner_outflow": 75.83,
+      "mpi": 1.313,
+      "value": 105.14,
+      "timestamp": 1782744240
+    },
+    {
+      "datetime": "2026-06-29T14:45:00Z",
+      "blockheight": 856044,
+      "miner_reserve": 1800008.8,
+      "miner_inflow": 42.54,
+      "miner_outflow": 75.84,
+      "mpi": 1.314,
+      "value": 105.17,
+      "timestamp": 1782744300
+    },
+    {
+      "datetime": "2026-06-29T14:46:00Z",
+      "blockheight": 856045,
+      "miner_reserve": 1800009.0,
+      "miner_inflow": 42.55,
+      "miner_outflow": 75.85,
+      "mpi": 1.315,
+      "value": 105.2,
+      "timestamp": 1782744360
+    },
+    {
+      "datetime": "2026-06-29T14:47:00Z",
+      "blockheight": 856046,
+      "miner_reserve": 1800009.2,
+      "miner_inflow": 42.56,
+      "miner_outflow": 75.86,
+      "mpi": 1.316,
+      "value": 105.23,
+      "timestamp": 1782744420
+    },
+    {
+      "datetime": "2026-06-29T14:48:00Z",
+      "blockheight": 856047,
+      "miner_reserve": 1800009.4,
+      "miner_inflow": 42.57,
+      "miner_outflow": 75.87,
+      "mpi": 1.317,
+      "value": 105.26,
+      "timestamp": 1782744480
+    },
+    {
+      "datetime": "2026-06-29T14:49:00Z",
+      "blockheight": 856048,
+      "miner_reserve": 1800009.6,
+      "miner_inflow": 42.58,
+      "miner_outflow": 75.88,
+      "mpi": 1.318,
+      "value": 105.29,
+      "timestamp": 1782744540
+    },
+    {
+      "datetime": "2026-06-29T14:50:00Z",
+      "blockheight": 856049,
+      "miner_reserve": 1800009.8,
+      "miner_inflow": 42.59,
+      "miner_outflow": 75.89,
+      "mpi": 1.319,
+      "value": 105.32,
+      "timestamp": 1782744600
+    },
+    {
+      "datetime": "2026-06-29T14:51:00Z",
+      "blockheight": 856050,
+      "miner_reserve": 1800010.0,
+      "miner_inflow": 42.6,
+      "miner_outflow": 75.9,
+      "mpi": 1.32,
+      "value": 105.35,
+      "timestamp": 1782744660
+    },
+    {
+      "datetime": "2026-06-29T14:52:00Z",
+      "blockheight": 856051,
+      "miner_reserve": 1800010.2,
+      "miner_inflow": 42.61,
+      "miner_outflow": 75.91,
+      "mpi": 1.321,
+      "value": 105.38,
+      "timestamp": 1782744720
+    },
+    {
+      "datetime": "2026-06-29T14:53:00Z",
+      "blockheight": 856052,
+      "miner_reserve": 1800010.4,
+      "miner_inflow": 42.62,
+      "miner_outflow": 75.92,
+      "mpi": 1.322,
+      "value": 105.41,
+      "timestamp": 1782744780
+    },
+    {
+      "datetime": "2026-06-29T14:54:00Z",
+      "blockheight": 856053,
+      "miner_reserve": 1800010.6,
+      "miner_inflow": 42.63,
+      "miner_outflow": 75.93,
+      "mpi": 1.323,
+      "value": 105.44,
+      "timestamp": 1782744840
+    },
+    {
+      "datetime": "2026-06-29T14:55:00Z",
+      "blockheight": 856054,
+      "miner_reserve": 1800010.8,
+      "miner_inflow": 42.64,
+      "miner_outflow": 75.94,
+      "mpi": 1.324,
+      "value": 105.47,
+      "timestamp": 1782744900
+    },
+    {
+      "datetime": "2026-06-29T14:56:00Z",
+      "blockheight": 856055,
+      "miner_reserve": 1800011.0,
+      "miner_inflow": 42.65,
+      "miner_outflow": 75.95,
+      "mpi": 1.325,
+      "value": 105.5,
+      "timestamp": 1782744960
+    },
+    {
+      "datetime": "2026-06-29T14:57:00Z",
+      "blockheight": 856056,
+      "miner_reserve": 1800011.2,
+      "miner_inflow": 42.66,
+      "miner_outflow": 75.96,
+      "mpi": 1.326,
+      "value": 105.53,
+      "timestamp": 1782745020
+    },
+    {
+      "datetime": "2026-06-29T14:58:00Z",
+      "blockheight": 856057,
+      "miner_reserve": 1800011.4,
+      "miner_inflow": 42.67,
+      "miner_outflow": 75.97,
+      "mpi": 1.327,
+      "value": 105.56,
+      "timestamp": 1782745080
+    },
+    {
+      "datetime": "2026-06-29T14:59:00Z",
+      "blockheight": 856058,
+      "miner_reserve": 1800011.6,
+      "miner_inflow": 42.68,
+      "miner_outflow": 75.98,
+      "mpi": 1.328,
+      "value": 105.59,
+      "timestamp": 1782745140
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856059,
+      "miner_reserve": 1800011.8,
+      "miner_inflow": 42.69,
+      "miner_outflow": 75.99,
+      "mpi": 1.329,
+      "value": 105.62,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T15:01:00Z",
+      "blockheight": 856060,
+      "miner_reserve": 1800012.0,
+      "miner_inflow": 42.7,
+      "miner_outflow": 76.0,
+      "mpi": 1.33,
+      "value": 105.65,
+      "timestamp": 1782745260
+    },
+    {
+      "datetime": "2026-06-29T15:02:00Z",
+      "blockheight": 856061,
+      "miner_reserve": 1800012.2,
+      "miner_inflow": 42.71,
+      "miner_outflow": 76.01,
+      "mpi": 1.331,
+      "value": 105.68,
+      "timestamp": 1782745320
+    },
+    {
+      "datetime": "2026-06-29T15:03:00Z",
+      "blockheight": 856062,
+      "miner_reserve": 1800012.4,
+      "miner_inflow": 42.72,
+      "miner_outflow": 76.02,
+      "mpi": 1.332,
+      "value": 105.71,
+      "timestamp": 1782745380
+    },
+    {
+      "datetime": "2026-06-29T15:04:00Z",
+      "blockheight": 856063,
+      "miner_reserve": 1800012.6,
+      "miner_inflow": 42.73,
+      "miner_outflow": 76.03,
+      "mpi": 1.333,
+      "value": 105.74,
+      "timestamp": 1782745440
+    },
+    {
+      "datetime": "2026-06-29T15:05:00Z",
+      "blockheight": 856064,
+      "miner_reserve": 1800012.8,
+      "miner_inflow": 42.74,
+      "miner_outflow": 76.04,
+      "mpi": 1.334,
+      "value": 105.77,
+      "timestamp": 1782745500
+    },
+    {
+      "datetime": "2026-06-29T15:06:00Z",
+      "blockheight": 856065,
+      "miner_reserve": 1800013.0,
+      "miner_inflow": 42.75,
+      "miner_outflow": 76.05,
+      "mpi": 1.335,
+      "value": 105.8,
+      "timestamp": 1782745560
+    },
+    {
+      "datetime": "2026-06-29T15:07:00Z",
+      "blockheight": 856066,
+      "miner_reserve": 1800013.2,
+      "miner_inflow": 42.76,
+      "miner_outflow": 76.06,
+      "mpi": 1.336,
+      "value": 105.83,
+      "timestamp": 1782745620
+    },
+    {
+      "datetime": "2026-06-29T15:08:00Z",
+      "blockheight": 856067,
+      "miner_reserve": 1800013.4,
+      "miner_inflow": 42.77,
+      "miner_outflow": 76.07,
+      "mpi": 1.337,
+      "value": 105.86,
+      "timestamp": 1782745680
+    },
+    {
+      "datetime": "2026-06-29T15:09:00Z",
+      "blockheight": 856068,
+      "miner_reserve": 1800013.6,
+      "miner_inflow": 42.78,
+      "miner_outflow": 76.08,
+      "mpi": 1.338,
+      "value": 105.89,
+      "timestamp": 1782745740
+    },
+    {
+      "datetime": "2026-06-29T15:10:00Z",
+      "blockheight": 856069,
+      "miner_reserve": 1800013.8,
+      "miner_inflow": 42.79,
+      "miner_outflow": 76.09,
+      "mpi": 1.339,
+      "value": 105.92,
+      "timestamp": 1782745800
+    },
+    {
+      "datetime": "2026-06-29T15:11:00Z",
+      "blockheight": 856070,
+      "miner_reserve": 1800014.0,
+      "miner_inflow": 42.8,
+      "miner_outflow": 76.1,
+      "mpi": 1.34,
+      "value": 105.95,
+      "timestamp": 1782745860
+    },
+    {
+      "datetime": "2026-06-29T15:12:00Z",
+      "blockheight": 856071,
+      "miner_reserve": 1800014.2,
+      "miner_inflow": 42.81,
+      "miner_outflow": 76.11,
+      "mpi": 1.341,
+      "value": 105.98,
+      "timestamp": 1782745920
+    },
+    {
+      "datetime": "2026-06-29T15:13:00Z",
+      "blockheight": 856072,
+      "miner_reserve": 1800014.4,
+      "miner_inflow": 42.82,
+      "miner_outflow": 76.12,
+      "mpi": 1.342,
+      "value": 106.01,
+      "timestamp": 1782745980
+    },
+    {
+      "datetime": "2026-06-29T15:14:00Z",
+      "blockheight": 856073,
+      "miner_reserve": 1800014.6,
+      "miner_inflow": 42.83,
+      "miner_outflow": 76.13,
+      "mpi": 1.343,
+      "value": 106.04,
+      "timestamp": 1782746040
+    },
+    {
+      "datetime": "2026-06-29T15:15:00Z",
+      "blockheight": 856074,
+      "miner_reserve": 1800014.8,
+      "miner_inflow": 42.84,
+      "miner_outflow": 76.14,
+      "mpi": 1.344,
+      "value": 106.07,
+      "timestamp": 1782746100
+    },
+    {
+      "datetime": "2026-06-29T15:16:00Z",
+      "blockheight": 856075,
+      "miner_reserve": 1800015.0,
+      "miner_inflow": 42.85,
+      "miner_outflow": 76.15,
+      "mpi": 1.345,
+      "value": 106.1,
+      "timestamp": 1782746160
+    },
+    {
+      "datetime": "2026-06-29T15:17:00Z",
+      "blockheight": 856076,
+      "miner_reserve": 1800015.2,
+      "miner_inflow": 42.86,
+      "miner_outflow": 76.16,
+      "mpi": 1.346,
+      "value": 106.13,
+      "timestamp": 1782746220
+    },
+    {
+      "datetime": "2026-06-29T15:18:00Z",
+      "blockheight": 856077,
+      "miner_reserve": 1800015.4,
+      "miner_inflow": 42.87,
+      "miner_outflow": 76.17,
+      "mpi": 1.347,
+      "value": 106.16,
+      "timestamp": 1782746280
+    },
+    {
+      "datetime": "2026-06-29T15:19:00Z",
+      "blockheight": 856078,
+      "miner_reserve": 1800015.6,
+      "miner_inflow": 42.88,
+      "miner_outflow": 76.18,
+      "mpi": 1.348,
+      "value": 106.19,
+      "timestamp": 1782746340
+    },
+    {
+      "datetime": "2026-06-29T15:20:00Z",
+      "blockheight": 856079,
+      "miner_reserve": 1800015.8,
+      "miner_inflow": 42.89,
+      "miner_outflow": 76.19,
+      "mpi": 1.349,
+      "value": 106.22,
+      "timestamp": 1782746400
+    },
+    {
+      "datetime": "2026-06-29T15:21:00Z",
+      "blockheight": 856080,
+      "miner_reserve": 1800016.0,
+      "miner_inflow": 42.9,
+      "miner_outflow": 76.2,
+      "mpi": 1.35,
+      "value": 106.25,
+      "timestamp": 1782746460
+    },
+    {
+      "datetime": "2026-06-29T15:22:00Z",
+      "blockheight": 856081,
+      "miner_reserve": 1800016.2,
+      "miner_inflow": 42.91,
+      "miner_outflow": 76.21,
+      "mpi": 1.351,
+      "value": 106.28,
+      "timestamp": 1782746520
+    },
+    {
+      "datetime": "2026-06-29T15:23:00Z",
+      "blockheight": 856082,
+      "miner_reserve": 1800016.4,
+      "miner_inflow": 42.92,
+      "miner_outflow": 76.22,
+      "mpi": 1.352,
+      "value": 106.31,
+      "timestamp": 1782746580
+    },
+    {
+      "datetime": "2026-06-29T15:24:00Z",
+      "blockheight": 856083,
+      "miner_reserve": 1800016.6,
+      "miner_inflow": 42.93,
+      "miner_outflow": 76.23,
+      "mpi": 1.353,
+      "value": 106.34,
+      "timestamp": 1782746640
+    },
+    {
+      "datetime": "2026-06-29T15:25:00Z",
+      "blockheight": 856084,
+      "miner_reserve": 1800016.8,
+      "miner_inflow": 42.94,
+      "miner_outflow": 76.24,
+      "mpi": 1.354,
+      "value": 106.37,
+      "timestamp": 1782746700
+    },
+    {
+      "datetime": "2026-06-29T15:26:00Z",
+      "blockheight": 856085,
+      "miner_reserve": 1800017.0,
+      "miner_inflow": 42.95,
+      "miner_outflow": 76.25,
+      "mpi": 1.355,
+      "value": 106.4,
+      "timestamp": 1782746760
+    },
+    {
+      "datetime": "2026-06-29T15:27:00Z",
+      "blockheight": 856086,
+      "miner_reserve": 1800017.2,
+      "miner_inflow": 42.96,
+      "miner_outflow": 76.26,
+      "mpi": 1.356,
+      "value": 106.43,
+      "timestamp": 1782746820
+    },
+    {
+      "datetime": "2026-06-29T15:28:00Z",
+      "blockheight": 856087,
+      "miner_reserve": 1800017.4,
+      "miner_inflow": 42.97,
+      "miner_outflow": 76.27,
+      "mpi": 1.357,
+      "value": 106.46,
+      "timestamp": 1782746880
+    },
+    {
+      "datetime": "2026-06-29T15:29:00Z",
+      "blockheight": 856088,
+      "miner_reserve": 1800017.6,
+      "miner_inflow": 42.98,
+      "miner_outflow": 76.28,
+      "mpi": 1.358,
+      "value": 106.49,
+      "timestamp": 1782746940
+    },
+    {
+      "datetime": "2026-06-29T15:30:00Z",
+      "blockheight": 856089,
+      "miner_reserve": 1800017.8,
+      "miner_inflow": 42.99,
+      "miner_outflow": 76.29,
+      "mpi": 1.359,
+      "value": 106.52,
+      "timestamp": 1782747000
+    },
+    {
+      "datetime": "2026-06-29T15:31:00Z",
+      "blockheight": 856090,
+      "miner_reserve": 1800018.0,
+      "miner_inflow": 43.0,
+      "miner_outflow": 76.3,
+      "mpi": 1.36,
+      "value": 106.55,
+      "timestamp": 1782747060
+    },
+    {
+      "datetime": "2026-06-29T15:32:00Z",
+      "blockheight": 856091,
+      "miner_reserve": 1800018.2,
+      "miner_inflow": 43.01,
+      "miner_outflow": 76.31,
+      "mpi": 1.361,
+      "value": 106.58,
+      "timestamp": 1782747120
+    },
+    {
+      "datetime": "2026-06-29T15:33:00Z",
+      "blockheight": 856092,
+      "miner_reserve": 1800018.4,
+      "miner_inflow": 43.02,
+      "miner_outflow": 76.32,
+      "mpi": 1.362,
+      "value": 106.61,
+      "timestamp": 1782747180
+    },
+    {
+      "datetime": "2026-06-29T15:34:00Z",
+      "blockheight": 856093,
+      "miner_reserve": 1800018.6,
+      "miner_inflow": 43.03,
+      "miner_outflow": 76.33,
+      "mpi": 1.363,
+      "value": 106.64,
+      "timestamp": 1782747240
+    },
+    {
+      "datetime": "2026-06-29T15:35:00Z",
+      "blockheight": 856094,
+      "miner_reserve": 1800018.8,
+      "miner_inflow": 43.04,
+      "miner_outflow": 76.34,
+      "mpi": 1.364,
+      "value": 106.67,
+      "timestamp": 1782747300
+    },
+    {
+      "datetime": "2026-06-29T15:36:00Z",
+      "blockheight": 856095,
+      "miner_reserve": 1800019.0,
+      "miner_inflow": 43.05,
+      "miner_outflow": 76.35,
+      "mpi": 1.365,
+      "value": 106.7,
+      "timestamp": 1782747360
+    },
+    {
+      "datetime": "2026-06-29T15:37:00Z",
+      "blockheight": 856096,
+      "miner_reserve": 1800019.2,
+      "miner_inflow": 43.06,
+      "miner_outflow": 76.36,
+      "mpi": 1.366,
+      "value": 106.73,
+      "timestamp": 1782747420
+    },
+    {
+      "datetime": "2026-06-29T15:38:00Z",
+      "blockheight": 856097,
+      "miner_reserve": 1800019.4,
+      "miner_inflow": 43.07,
+      "miner_outflow": 76.37,
+      "mpi": 1.367,
+      "value": 106.76,
+      "timestamp": 1782747480
+    },
+    {
+      "datetime": "2026-06-29T15:39:00Z",
+      "blockheight": 856098,
+      "miner_reserve": 1800019.6,
+      "miner_inflow": 43.08,
+      "miner_outflow": 76.38,
+      "mpi": 1.368,
+      "value": 106.79,
+      "timestamp": 1782747540
+    },
+    {
+      "datetime": "2026-06-29T15:40:00Z",
+      "blockheight": 856099,
+      "miner_reserve": 1800019.8,
+      "miner_inflow": 43.09,
+      "miner_outflow": 76.39,
+      "mpi": 1.369,
+      "value": 106.82,
+      "timestamp": 1782747600
+    },
+    {
+      "datetime": "2026-06-29T15:41:00Z",
+      "blockheight": 856100,
+      "miner_reserve": 1800020.0,
+      "miner_inflow": 43.1,
+      "miner_outflow": 76.4,
+      "mpi": 1.37,
+      "value": 106.85,
+      "timestamp": 1782747660
+    },
+    {
+      "datetime": "2026-06-29T15:42:00Z",
+      "blockheight": 856101,
+      "miner_reserve": 1800020.2,
+      "miner_inflow": 43.11,
+      "miner_outflow": 76.41,
+      "mpi": 1.371,
+      "value": 106.88,
+      "timestamp": 1782747720
+    },
+    {
+      "datetime": "2026-06-29T15:43:00Z",
+      "blockheight": 856102,
+      "miner_reserve": 1800020.4,
+      "miner_inflow": 43.12,
+      "miner_outflow": 76.42,
+      "mpi": 1.372,
+      "value": 106.91,
+      "timestamp": 1782747780
+    },
+    {
+      "datetime": "2026-06-29T15:44:00Z",
+      "blockheight": 856103,
+      "miner_reserve": 1800020.6,
+      "miner_inflow": 43.13,
+      "miner_outflow": 76.43,
+      "mpi": 1.373,
+      "value": 106.94,
+      "timestamp": 1782747840
+    },
+    {
+      "datetime": "2026-06-29T15:45:00Z",
+      "blockheight": 856104,
+      "miner_reserve": 1800020.8,
+      "miner_inflow": 43.14,
+      "miner_outflow": 76.44,
+      "mpi": 1.374,
+      "value": 106.97,
+      "timestamp": 1782747900
+    },
+    {
+      "datetime": "2026-06-29T15:46:00Z",
+      "blockheight": 856105,
+      "miner_reserve": 1800021.0,
+      "miner_inflow": 43.15,
+      "miner_outflow": 76.45,
+      "mpi": 1.375,
+      "value": 107.0,
+      "timestamp": 1782747960
+    },
+    {
+      "datetime": "2026-06-29T15:47:00Z",
+      "blockheight": 856106,
+      "miner_reserve": 1800021.2,
+      "miner_inflow": 43.16,
+      "miner_outflow": 76.46,
+      "mpi": 1.376,
+      "value": 107.03,
+      "timestamp": 1782748020
+    },
+    {
+      "datetime": "2026-06-29T15:48:00Z",
+      "blockheight": 856107,
+      "miner_reserve": 1800021.4,
+      "miner_inflow": 43.17,
+      "miner_outflow": 76.47,
+      "mpi": 1.377,
+      "value": 107.06,
+      "timestamp": 1782748080
+    },
+    {
+      "datetime": "2026-06-29T15:49:00Z",
+      "blockheight": 856108,
+      "miner_reserve": 1800021.6,
+      "miner_inflow": 43.18,
+      "miner_outflow": 76.48,
+      "mpi": 1.378,
+      "value": 107.09,
+      "timestamp": 1782748140
+    },
+    {
+      "datetime": "2026-06-29T15:50:00Z",
+      "blockheight": 856109,
+      "miner_reserve": 1800021.8,
+      "miner_inflow": 43.19,
+      "miner_outflow": 76.49,
+      "mpi": 1.379,
+      "value": 107.12,
+      "timestamp": 1782748200
+    },
+    {
+      "datetime": "2026-06-29T15:51:00Z",
+      "blockheight": 856110,
+      "miner_reserve": 1800022.0,
+      "miner_inflow": 43.2,
+      "miner_outflow": 76.5,
+      "mpi": 1.38,
+      "value": 107.15,
+      "timestamp": 1782748260
+    },
+    {
+      "datetime": "2026-06-29T15:52:00Z",
+      "blockheight": 856111,
+      "miner_reserve": 1800022.2,
+      "miner_inflow": 43.21,
+      "miner_outflow": 76.51,
+      "mpi": 1.381,
+      "value": 107.18,
+      "timestamp": 1782748320
+    },
+    {
+      "datetime": "2026-06-29T15:53:00Z",
+      "blockheight": 856112,
+      "miner_reserve": 1800022.4,
+      "miner_inflow": 43.22,
+      "miner_outflow": 76.52,
+      "mpi": 1.382,
+      "value": 107.21,
+      "timestamp": 1782748380
+    },
+    {
+      "datetime": "2026-06-29T15:54:00Z",
+      "blockheight": 856113,
+      "miner_reserve": 1800022.6,
+      "miner_inflow": 43.23,
+      "miner_outflow": 76.53,
+      "mpi": 1.383,
+      "value": 107.24,
+      "timestamp": 1782748440
+    },
+    {
+      "datetime": "2026-06-29T15:55:00Z",
+      "blockheight": 856114,
+      "miner_reserve": 1800022.8,
+      "miner_inflow": 43.24,
+      "miner_outflow": 76.54,
+      "mpi": 1.384,
+      "value": 107.27,
+      "timestamp": 1782748500
+    },
+    {
+      "datetime": "2026-06-29T15:56:00Z",
+      "blockheight": 856115,
+      "miner_reserve": 1800023.0,
+      "miner_inflow": 43.25,
+      "miner_outflow": 76.55,
+      "mpi": 1.385,
+      "value": 107.3,
+      "timestamp": 1782748560
+    },
+    {
+      "datetime": "2026-06-29T15:57:00Z",
+      "blockheight": 856116,
+      "miner_reserve": 1800023.2,
+      "miner_inflow": 43.26,
+      "miner_outflow": 76.56,
+      "mpi": 1.386,
+      "value": 107.33,
+      "timestamp": 1782748620
+    },
+    {
+      "datetime": "2026-06-29T15:58:00Z",
+      "blockheight": 856117,
+      "miner_reserve": 1800023.4,
+      "miner_inflow": 43.27,
+      "miner_outflow": 76.57,
+      "mpi": 1.387,
+      "value": 107.36,
+      "timestamp": 1782748680
+    },
+    {
+      "datetime": "2026-06-29T15:59:00Z",
+      "blockheight": 856118,
+      "miner_reserve": 1800023.6,
+      "miner_inflow": 43.28,
+      "miner_outflow": 76.58,
+      "mpi": 1.388,
+      "value": 107.39,
+      "timestamp": 1782748740
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856119,
+      "miner_reserve": 1800023.8,
+      "miner_inflow": 43.29,
+      "miner_outflow": 76.59,
+      "mpi": 1.389,
+      "value": 107.42,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T16:01:00Z",
+      "blockheight": 856120,
+      "miner_reserve": 1800024.0,
+      "miner_inflow": 43.3,
+      "miner_outflow": 76.6,
+      "mpi": 1.39,
+      "value": 107.45,
+      "timestamp": 1782748860
+    },
+    {
+      "datetime": "2026-06-29T16:02:00Z",
+      "blockheight": 856121,
+      "miner_reserve": 1800024.2,
+      "miner_inflow": 43.31,
+      "miner_outflow": 76.61,
+      "mpi": 1.391,
+      "value": 107.48,
+      "timestamp": 1782748920
+    },
+    {
+      "datetime": "2026-06-29T16:03:00Z",
+      "blockheight": 856122,
+      "miner_reserve": 1800024.4,
+      "miner_inflow": 43.32,
+      "miner_outflow": 76.62,
+      "mpi": 1.392,
+      "value": 107.51,
+      "timestamp": 1782748980
+    },
+    {
+      "datetime": "2026-06-29T16:04:00Z",
+      "blockheight": 856123,
+      "miner_reserve": 1800024.6,
+      "miner_inflow": 43.33,
+      "miner_outflow": 76.63,
+      "mpi": 1.393,
+      "value": 107.54,
+      "timestamp": 1782749040
+    },
+    {
+      "datetime": "2026-06-29T16:05:00Z",
+      "blockheight": 856124,
+      "miner_reserve": 1800024.8,
+      "miner_inflow": 43.34,
+      "miner_outflow": 76.64,
+      "mpi": 1.394,
+      "value": 107.57,
+      "timestamp": 1782749100
+    },
+    {
+      "datetime": "2026-06-29T16:06:00Z",
+      "blockheight": 856125,
+      "miner_reserve": 1800025.0,
+      "miner_inflow": 43.35,
+      "miner_outflow": 76.65,
+      "mpi": 1.395,
+      "value": 107.6,
+      "timestamp": 1782749160
+    },
+    {
+      "datetime": "2026-06-29T16:07:00Z",
+      "blockheight": 856126,
+      "miner_reserve": 1800025.2,
+      "miner_inflow": 43.36,
+      "miner_outflow": 76.66,
+      "mpi": 1.396,
+      "value": 107.63,
+      "timestamp": 1782749220
+    },
+    {
+      "datetime": "2026-06-29T16:08:00Z",
+      "blockheight": 856127,
+      "miner_reserve": 1800025.4,
+      "miner_inflow": 43.37,
+      "miner_outflow": 76.67,
+      "mpi": 1.397,
+      "value": 107.66,
+      "timestamp": 1782749280
+    },
+    {
+      "datetime": "2026-06-29T16:09:00Z",
+      "blockheight": 856128,
+      "miner_reserve": 1800025.6,
+      "miner_inflow": 43.38,
+      "miner_outflow": 76.68,
+      "mpi": 1.398,
+      "value": 107.69,
+      "timestamp": 1782749340
+    },
+    {
+      "datetime": "2026-06-29T16:10:00Z",
+      "blockheight": 856129,
+      "miner_reserve": 1800025.8,
+      "miner_inflow": 43.39,
+      "miner_outflow": 76.69,
+      "mpi": 1.399,
+      "value": 107.72,
+      "timestamp": 1782749400
+    },
+    {
+      "datetime": "2026-06-29T16:11:00Z",
+      "blockheight": 856130,
+      "miner_reserve": 1800026.0,
+      "miner_inflow": 43.4,
+      "miner_outflow": 76.7,
+      "mpi": 1.4,
+      "value": 107.75,
+      "timestamp": 1782749460
+    },
+    {
+      "datetime": "2026-06-29T16:12:00Z",
+      "blockheight": 856131,
+      "miner_reserve": 1800026.2,
+      "miner_inflow": 43.41,
+      "miner_outflow": 76.71,
+      "mpi": 1.401,
+      "value": 107.78,
+      "timestamp": 1782749520
+    },
+    {
+      "datetime": "2026-06-29T16:13:00Z",
+      "blockheight": 856132,
+      "miner_reserve": 1800026.4,
+      "miner_inflow": 43.42,
+      "miner_outflow": 76.72,
+      "mpi": 1.402,
+      "value": 107.81,
+      "timestamp": 1782749580
+    },
+    {
+      "datetime": "2026-06-29T16:14:00Z",
+      "blockheight": 856133,
+      "miner_reserve": 1800026.6,
+      "miner_inflow": 43.43,
+      "miner_outflow": 76.73,
+      "mpi": 1.403,
+      "value": 107.84,
+      "timestamp": 1782749640
+    },
+    {
+      "datetime": "2026-06-29T16:15:00Z",
+      "blockheight": 856134,
+      "miner_reserve": 1800026.8,
+      "miner_inflow": 43.44,
+      "miner_outflow": 76.74,
+      "mpi": 1.404,
+      "value": 107.87,
+      "timestamp": 1782749700
+    },
+    {
+      "datetime": "2026-06-29T16:16:00Z",
+      "blockheight": 856135,
+      "miner_reserve": 1800027.0,
+      "miner_inflow": 43.45,
+      "miner_outflow": 76.75,
+      "mpi": 1.405,
+      "value": 107.9,
+      "timestamp": 1782749760
+    },
+    {
+      "datetime": "2026-06-29T16:17:00Z",
+      "blockheight": 856136,
+      "miner_reserve": 1800027.2,
+      "miner_inflow": 43.46,
+      "miner_outflow": 76.76,
+      "mpi": 1.406,
+      "value": 107.93,
+      "timestamp": 1782749820
+    },
+    {
+      "datetime": "2026-06-29T16:18:00Z",
+      "blockheight": 856137,
+      "miner_reserve": 1800027.4,
+      "miner_inflow": 43.47,
+      "miner_outflow": 76.77,
+      "mpi": 1.407,
+      "value": 107.96,
+      "timestamp": 1782749880
+    },
+    {
+      "datetime": "2026-06-29T16:19:00Z",
+      "blockheight": 856138,
+      "miner_reserve": 1800027.6,
+      "miner_inflow": 43.48,
+      "miner_outflow": 76.78,
+      "mpi": 1.408,
+      "value": 107.99,
+      "timestamp": 1782749940
+    },
+    {
+      "datetime": "2026-06-29T16:20:00Z",
+      "blockheight": 856139,
+      "miner_reserve": 1800027.8,
+      "miner_inflow": 43.49,
+      "miner_outflow": 76.79,
+      "mpi": 1.409,
+      "value": 108.02,
+      "timestamp": 1782750000
+    },
+    {
+      "datetime": "2026-06-29T16:21:00Z",
+      "blockheight": 856140,
+      "miner_reserve": 1800028.0,
+      "miner_inflow": 43.5,
+      "miner_outflow": 76.8,
+      "mpi": 1.41,
+      "value": 108.05,
+      "timestamp": 1782750060
+    },
+    {
+      "datetime": "2026-06-29T16:22:00Z",
+      "blockheight": 856141,
+      "miner_reserve": 1800028.2,
+      "miner_inflow": 43.51,
+      "miner_outflow": 76.81,
+      "mpi": 1.411,
+      "value": 108.08,
+      "timestamp": 1782750120
+    },
+    {
+      "datetime": "2026-06-29T16:23:00Z",
+      "blockheight": 856142,
+      "miner_reserve": 1800028.4,
+      "miner_inflow": 43.52,
+      "miner_outflow": 76.82,
+      "mpi": 1.412,
+      "value": 108.11,
+      "timestamp": 1782750180
+    },
+    {
+      "datetime": "2026-06-29T16:24:00Z",
+      "blockheight": 856143,
+      "miner_reserve": 1800028.6,
+      "miner_inflow": 43.53,
+      "miner_outflow": 76.83,
+      "mpi": 1.413,
+      "value": 108.14,
+      "timestamp": 1782750240
+    },
+    {
+      "datetime": "2026-06-29T16:25:00Z",
+      "blockheight": 856144,
+      "miner_reserve": 1800028.8,
+      "miner_inflow": 43.54,
+      "miner_outflow": 76.84,
+      "mpi": 1.414,
+      "value": 108.17,
+      "timestamp": 1782750300
+    },
+    {
+      "datetime": "2026-06-29T16:26:00Z",
+      "blockheight": 856145,
+      "miner_reserve": 1800029.0,
+      "miner_inflow": 43.55,
+      "miner_outflow": 76.85,
+      "mpi": 1.415,
+      "value": 108.2,
+      "timestamp": 1782750360
+    },
+    {
+      "datetime": "2026-06-29T16:27:00Z",
+      "blockheight": 856146,
+      "miner_reserve": 1800029.2,
+      "miner_inflow": 43.56,
+      "miner_outflow": 76.86,
+      "mpi": 1.416,
+      "value": 108.23,
+      "timestamp": 1782750420
+    },
+    {
+      "datetime": "2026-06-29T16:28:00Z",
+      "blockheight": 856147,
+      "miner_reserve": 1800029.4,
+      "miner_inflow": 43.57,
+      "miner_outflow": 76.87,
+      "mpi": 1.417,
+      "value": 108.26,
+      "timestamp": 1782750480
+    },
+    {
+      "datetime": "2026-06-29T16:29:00Z",
+      "blockheight": 856148,
+      "miner_reserve": 1800029.6,
+      "miner_inflow": 43.58,
+      "miner_outflow": 76.88,
+      "mpi": 1.418,
+      "value": 108.29,
+      "timestamp": 1782750540
+    },
+    {
+      "datetime": "2026-06-29T16:30:00Z",
+      "blockheight": 856149,
+      "miner_reserve": 1800029.8,
+      "miner_inflow": 43.59,
+      "miner_outflow": 76.89,
+      "mpi": 1.419,
+      "value": 108.32,
+      "timestamp": 1782750600
+    },
+    {
+      "datetime": "2026-06-29T16:31:00Z",
+      "blockheight": 856150,
+      "miner_reserve": 1800030.0,
+      "miner_inflow": 43.6,
+      "miner_outflow": 76.9,
+      "mpi": 1.42,
+      "value": 108.35,
+      "timestamp": 1782750660
+    },
+    {
+      "datetime": "2026-06-29T16:32:00Z",
+      "blockheight": 856151,
+      "miner_reserve": 1800030.2,
+      "miner_inflow": 43.61,
+      "miner_outflow": 76.91,
+      "mpi": 1.421,
+      "value": 108.38,
+      "timestamp": 1782750720
+    },
+    {
+      "datetime": "2026-06-29T16:33:00Z",
+      "blockheight": 856152,
+      "miner_reserve": 1800030.4,
+      "miner_inflow": 43.62,
+      "miner_outflow": 76.92,
+      "mpi": 1.422,
+      "value": 108.41,
+      "timestamp": 1782750780
+    },
+    {
+      "datetime": "2026-06-29T16:34:00Z",
+      "blockheight": 856153,
+      "miner_reserve": 1800030.6,
+      "miner_inflow": 43.63,
+      "miner_outflow": 76.93,
+      "mpi": 1.423,
+      "value": 108.44,
+      "timestamp": 1782750840
+    },
+    {
+      "datetime": "2026-06-29T16:35:00Z",
+      "blockheight": 856154,
+      "miner_reserve": 1800030.8,
+      "miner_inflow": 43.64,
+      "miner_outflow": 76.94,
+      "mpi": 1.424,
+      "value": 108.47,
+      "timestamp": 1782750900
+    },
+    {
+      "datetime": "2026-06-29T16:36:00Z",
+      "blockheight": 856155,
+      "miner_reserve": 1800031.0,
+      "miner_inflow": 43.65,
+      "miner_outflow": 76.95,
+      "mpi": 1.425,
+      "value": 108.5,
+      "timestamp": 1782750960
+    },
+    {
+      "datetime": "2026-06-29T16:37:00Z",
+      "blockheight": 856156,
+      "miner_reserve": 1800031.2,
+      "miner_inflow": 43.66,
+      "miner_outflow": 76.96,
+      "mpi": 1.426,
+      "value": 108.53,
+      "timestamp": 1782751020
+    },
+    {
+      "datetime": "2026-06-29T16:38:00Z",
+      "blockheight": 856157,
+      "miner_reserve": 1800031.4,
+      "miner_inflow": 43.67,
+      "miner_outflow": 76.97,
+      "mpi": 1.427,
+      "value": 108.56,
+      "timestamp": 1782751080
+    },
+    {
+      "datetime": "2026-06-29T16:39:00Z",
+      "blockheight": 856158,
+      "miner_reserve": 1800031.6,
+      "miner_inflow": 43.68,
+      "miner_outflow": 76.98,
+      "mpi": 1.428,
+      "value": 108.59,
+      "timestamp": 1782751140
+    },
+    {
+      "datetime": "2026-06-29T16:40:00Z",
+      "blockheight": 856159,
+      "miner_reserve": 1800031.8,
+      "miner_inflow": 43.69,
+      "miner_outflow": 76.99,
+      "mpi": 1.429,
+      "value": 108.62,
+      "timestamp": 1782751200
+    },
+    {
+      "datetime": "2026-06-29T16:41:00Z",
+      "blockheight": 856160,
+      "miner_reserve": 1800032.0,
+      "miner_inflow": 43.7,
+      "miner_outflow": 77.0,
+      "mpi": 1.43,
+      "value": 108.65,
+      "timestamp": 1782751260
+    },
+    {
+      "datetime": "2026-06-29T16:42:00Z",
+      "blockheight": 856161,
+      "miner_reserve": 1800032.2,
+      "miner_inflow": 43.71,
+      "miner_outflow": 77.01,
+      "mpi": 1.431,
+      "value": 108.68,
+      "timestamp": 1782751320
+    },
+    {
+      "datetime": "2026-06-29T16:43:00Z",
+      "blockheight": 856162,
+      "miner_reserve": 1800032.4,
+      "miner_inflow": 43.72,
+      "miner_outflow": 77.02,
+      "mpi": 1.432,
+      "value": 108.71,
+      "timestamp": 1782751380
+    },
+    {
+      "datetime": "2026-06-29T16:44:00Z",
+      "blockheight": 856163,
+      "miner_reserve": 1800032.6,
+      "miner_inflow": 43.73,
+      "miner_outflow": 77.03,
+      "mpi": 1.433,
+      "value": 108.74,
+      "timestamp": 1782751440
+    },
+    {
+      "datetime": "2026-06-29T16:45:00Z",
+      "blockheight": 856164,
+      "miner_reserve": 1800032.8,
+      "miner_inflow": 43.74,
+      "miner_outflow": 77.04,
+      "mpi": 1.434,
+      "value": 108.77,
+      "timestamp": 1782751500
+    },
+    {
+      "datetime": "2026-06-29T16:46:00Z",
+      "blockheight": 856165,
+      "miner_reserve": 1800033.0,
+      "miner_inflow": 43.75,
+      "miner_outflow": 77.05,
+      "mpi": 1.435,
+      "value": 108.8,
+      "timestamp": 1782751560
+    },
+    {
+      "datetime": "2026-06-29T16:47:00Z",
+      "blockheight": 856166,
+      "miner_reserve": 1800033.2,
+      "miner_inflow": 43.76,
+      "miner_outflow": 77.06,
+      "mpi": 1.436,
+      "value": 108.83,
+      "timestamp": 1782751620
+    },
+    {
+      "datetime": "2026-06-29T16:48:00Z",
+      "blockheight": 856167,
+      "miner_reserve": 1800033.4,
+      "miner_inflow": 43.77,
+      "miner_outflow": 77.07,
+      "mpi": 1.437,
+      "value": 108.86,
+      "timestamp": 1782751680
+    },
+    {
+      "datetime": "2026-06-29T16:49:00Z",
+      "blockheight": 856168,
+      "miner_reserve": 1800033.6,
+      "miner_inflow": 43.78,
+      "miner_outflow": 77.08,
+      "mpi": 1.438,
+      "value": 108.89,
+      "timestamp": 1782751740
+    },
+    {
+      "datetime": "2026-06-29T16:50:00Z",
+      "blockheight": 856169,
+      "miner_reserve": 1800033.8,
+      "miner_inflow": 43.79,
+      "miner_outflow": 77.09,
+      "mpi": 1.439,
+      "value": 108.92,
+      "timestamp": 1782751800
+    },
+    {
+      "datetime": "2026-06-29T16:51:00Z",
+      "blockheight": 856170,
+      "miner_reserve": 1800034.0,
+      "miner_inflow": 43.8,
+      "miner_outflow": 77.1,
+      "mpi": 1.44,
+      "value": 108.95,
+      "timestamp": 1782751860
+    },
+    {
+      "datetime": "2026-06-29T16:52:00Z",
+      "blockheight": 856171,
+      "miner_reserve": 1800034.2,
+      "miner_inflow": 43.81,
+      "miner_outflow": 77.11,
+      "mpi": 1.441,
+      "value": 108.98,
+      "timestamp": 1782751920
+    },
+    {
+      "datetime": "2026-06-29T16:53:00Z",
+      "blockheight": 856172,
+      "miner_reserve": 1800034.4,
+      "miner_inflow": 43.82,
+      "miner_outflow": 77.12,
+      "mpi": 1.442,
+      "value": 109.01,
+      "timestamp": 1782751980
+    },
+    {
+      "datetime": "2026-06-29T16:54:00Z",
+      "blockheight": 856173,
+      "miner_reserve": 1800034.6,
+      "miner_inflow": 43.83,
+      "miner_outflow": 77.13,
+      "mpi": 1.443,
+      "value": 109.04,
+      "timestamp": 1782752040
+    },
+    {
+      "datetime": "2026-06-29T16:55:00Z",
+      "blockheight": 856174,
+      "miner_reserve": 1800034.8,
+      "miner_inflow": 43.84,
+      "miner_outflow": 77.14,
+      "mpi": 1.444,
+      "value": 109.07,
+      "timestamp": 1782752100
+    },
+    {
+      "datetime": "2026-06-29T16:56:00Z",
+      "blockheight": 856175,
+      "miner_reserve": 1800035.0,
+      "miner_inflow": 43.85,
+      "miner_outflow": 77.15,
+      "mpi": 1.445,
+      "value": 109.1,
+      "timestamp": 1782752160
+    },
+    {
+      "datetime": "2026-06-29T16:57:00Z",
+      "blockheight": 856176,
+      "miner_reserve": 1800035.2,
+      "miner_inflow": 43.86,
+      "miner_outflow": 77.16,
+      "mpi": 1.446,
+      "value": 109.13,
+      "timestamp": 1782752220
+    },
+    {
+      "datetime": "2026-06-29T16:58:00Z",
+      "blockheight": 856177,
+      "miner_reserve": 1800035.4,
+      "miner_inflow": 43.87,
+      "miner_outflow": 77.17,
+      "mpi": 1.447,
+      "value": 109.16,
+      "timestamp": 1782752280
+    },
+    {
+      "datetime": "2026-06-29T16:59:00Z",
+      "blockheight": 856178,
+      "miner_reserve": 1800035.6,
+      "miner_inflow": 43.88,
+      "miner_outflow": 77.18,
+      "mpi": 1.448,
+      "value": 109.19,
+      "timestamp": 1782752340
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856179,
+      "miner_reserve": 1800035.8,
+      "miner_inflow": 43.89,
+      "miner_outflow": 77.19,
+      "mpi": 1.449,
+      "value": 109.22,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T17:01:00Z",
+      "blockheight": 856180,
+      "miner_reserve": 1800036.0,
+      "miner_inflow": 43.9,
+      "miner_outflow": 77.2,
+      "mpi": 1.45,
+      "value": 109.25,
+      "timestamp": 1782752460
+    },
+    {
+      "datetime": "2026-06-29T17:02:00Z",
+      "blockheight": 856181,
+      "miner_reserve": 1800036.2,
+      "miner_inflow": 43.91,
+      "miner_outflow": 77.21,
+      "mpi": 1.451,
+      "value": 109.28,
+      "timestamp": 1782752520
+    },
+    {
+      "datetime": "2026-06-29T17:03:00Z",
+      "blockheight": 856182,
+      "miner_reserve": 1800036.4,
+      "miner_inflow": 43.92,
+      "miner_outflow": 77.22,
+      "mpi": 1.452,
+      "value": 109.31,
+      "timestamp": 1782752580
+    },
+    {
+      "datetime": "2026-06-29T17:04:00Z",
+      "blockheight": 856183,
+      "miner_reserve": 1800036.6,
+      "miner_inflow": 43.93,
+      "miner_outflow": 77.23,
+      "mpi": 1.453,
+      "value": 109.34,
+      "timestamp": 1782752640
+    },
+    {
+      "datetime": "2026-06-29T17:05:00Z",
+      "blockheight": 856184,
+      "miner_reserve": 1800036.8,
+      "miner_inflow": 43.94,
+      "miner_outflow": 77.24,
+      "mpi": 1.454,
+      "value": 109.37,
+      "timestamp": 1782752700
+    },
+    {
+      "datetime": "2026-06-29T17:06:00Z",
+      "blockheight": 856185,
+      "miner_reserve": 1800037.0,
+      "miner_inflow": 43.95,
+      "miner_outflow": 77.25,
+      "mpi": 1.455,
+      "value": 109.4,
+      "timestamp": 1782752760
+    },
+    {
+      "datetime": "2026-06-29T17:07:00Z",
+      "blockheight": 856186,
+      "miner_reserve": 1800037.2,
+      "miner_inflow": 43.96,
+      "miner_outflow": 77.26,
+      "mpi": 1.456,
+      "value": 109.43,
+      "timestamp": 1782752820
+    },
+    {
+      "datetime": "2026-06-29T17:08:00Z",
+      "blockheight": 856187,
+      "miner_reserve": 1800037.4,
+      "miner_inflow": 43.97,
+      "miner_outflow": 77.27,
+      "mpi": 1.457,
+      "value": 109.46,
+      "timestamp": 1782752880
+    },
+    {
+      "datetime": "2026-06-29T17:09:00Z",
+      "blockheight": 856188,
+      "miner_reserve": 1800037.6,
+      "miner_inflow": 43.98,
+      "miner_outflow": 77.28,
+      "mpi": 1.458,
+      "value": 109.49,
+      "timestamp": 1782752940
+    },
+    {
+      "datetime": "2026-06-29T17:10:00Z",
+      "blockheight": 856189,
+      "miner_reserve": 1800037.8,
+      "miner_inflow": 43.99,
+      "miner_outflow": 77.29,
+      "mpi": 1.459,
+      "value": 109.52,
+      "timestamp": 1782753000
+    },
+    {
+      "datetime": "2026-06-29T17:11:00Z",
+      "blockheight": 856190,
+      "miner_reserve": 1800038.0,
+      "miner_inflow": 44.0,
+      "miner_outflow": 77.3,
+      "mpi": 1.46,
+      "value": 109.55,
+      "timestamp": 1782753060
+    },
+    {
+      "datetime": "2026-06-29T17:12:00Z",
+      "blockheight": 856191,
+      "miner_reserve": 1800038.2,
+      "miner_inflow": 44.01,
+      "miner_outflow": 77.31,
+      "mpi": 1.461,
+      "value": 109.58,
+      "timestamp": 1782753120
+    },
+    {
+      "datetime": "2026-06-29T17:13:00Z",
+      "blockheight": 856192,
+      "miner_reserve": 1800038.4,
+      "miner_inflow": 44.02,
+      "miner_outflow": 77.32,
+      "mpi": 1.462,
+      "value": 109.61,
+      "timestamp": 1782753180
+    },
+    {
+      "datetime": "2026-06-29T17:14:00Z",
+      "blockheight": 856193,
+      "miner_reserve": 1800038.6,
+      "miner_inflow": 44.03,
+      "miner_outflow": 77.33,
+      "mpi": 1.463,
+      "value": 109.64,
+      "timestamp": 1782753240
+    },
+    {
+      "datetime": "2026-06-29T17:15:00Z",
+      "blockheight": 856194,
+      "miner_reserve": 1800038.8,
+      "miner_inflow": 44.04,
+      "miner_outflow": 77.34,
+      "mpi": 1.464,
+      "value": 109.67,
+      "timestamp": 1782753300
+    },
+    {
+      "datetime": "2026-06-29T17:16:00Z",
+      "blockheight": 856195,
+      "miner_reserve": 1800039.0,
+      "miner_inflow": 44.05,
+      "miner_outflow": 77.35,
+      "mpi": 1.465,
+      "value": 109.7,
+      "timestamp": 1782753360
+    },
+    {
+      "datetime": "2026-06-29T17:17:00Z",
+      "blockheight": 856196,
+      "miner_reserve": 1800039.2,
+      "miner_inflow": 44.06,
+      "miner_outflow": 77.36,
+      "mpi": 1.466,
+      "value": 109.73,
+      "timestamp": 1782753420
+    },
+    {
+      "datetime": "2026-06-29T17:18:00Z",
+      "blockheight": 856197,
+      "miner_reserve": 1800039.4,
+      "miner_inflow": 44.07,
+      "miner_outflow": 77.37,
+      "mpi": 1.467,
+      "value": 109.76,
+      "timestamp": 1782753480
+    },
+    {
+      "datetime": "2026-06-29T17:19:00Z",
+      "blockheight": 856198,
+      "miner_reserve": 1800039.6,
+      "miner_inflow": 44.08,
+      "miner_outflow": 77.38,
+      "mpi": 1.468,
+      "value": 109.79,
+      "timestamp": 1782753540
+    },
+    {
+      "datetime": "2026-06-29T17:20:00Z",
+      "blockheight": 856199,
+      "miner_reserve": 1800039.8,
+      "miner_inflow": 44.09,
+      "miner_outflow": 77.39,
+      "mpi": 1.469,
+      "value": 109.82,
+      "timestamp": 1782753600
+    },
+    {
+      "datetime": "2026-06-29T17:21:00Z",
+      "blockheight": 856200,
+      "miner_reserve": 1800040.0,
+      "miner_inflow": 44.1,
+      "miner_outflow": 77.4,
+      "mpi": 1.47,
+      "value": 109.85,
+      "timestamp": 1782753660
+    },
+    {
+      "datetime": "2026-06-29T17:22:00Z",
+      "blockheight": 856201,
+      "miner_reserve": 1800040.2,
+      "miner_inflow": 44.11,
+      "miner_outflow": 77.41,
+      "mpi": 1.471,
+      "value": 109.88,
+      "timestamp": 1782753720
+    },
+    {
+      "datetime": "2026-06-29T17:23:00Z",
+      "blockheight": 856202,
+      "miner_reserve": 1800040.4,
+      "miner_inflow": 44.12,
+      "miner_outflow": 77.42,
+      "mpi": 1.472,
+      "value": 109.91,
+      "timestamp": 1782753780
+    },
+    {
+      "datetime": "2026-06-29T17:24:00Z",
+      "blockheight": 856203,
+      "miner_reserve": 1800040.6,
+      "miner_inflow": 44.13,
+      "miner_outflow": 77.43,
+      "mpi": 1.473,
+      "value": 109.94,
+      "timestamp": 1782753840
+    },
+    {
+      "datetime": "2026-06-29T17:25:00Z",
+      "blockheight": 856204,
+      "miner_reserve": 1800040.8,
+      "miner_inflow": 44.14,
+      "miner_outflow": 77.44,
+      "mpi": 1.474,
+      "value": 109.97,
+      "timestamp": 1782753900
+    },
+    {
+      "datetime": "2026-06-29T17:26:00Z",
+      "blockheight": 856205,
+      "miner_reserve": 1800041.0,
+      "miner_inflow": 44.15,
+      "miner_outflow": 77.45,
+      "mpi": 1.475,
+      "value": 110.0,
+      "timestamp": 1782753960
+    },
+    {
+      "datetime": "2026-06-29T17:27:00Z",
+      "blockheight": 856206,
+      "miner_reserve": 1800041.2,
+      "miner_inflow": 44.16,
+      "miner_outflow": 77.46,
+      "mpi": 1.476,
+      "value": 110.03,
+      "timestamp": 1782754020
+    },
+    {
+      "datetime": "2026-06-29T17:28:00Z",
+      "blockheight": 856207,
+      "miner_reserve": 1800041.4,
+      "miner_inflow": 44.17,
+      "miner_outflow": 77.47,
+      "mpi": 1.477,
+      "value": 110.06,
+      "timestamp": 1782754080
+    },
+    {
+      "datetime": "2026-06-29T17:29:00Z",
+      "blockheight": 856208,
+      "miner_reserve": 1800041.6,
+      "miner_inflow": 44.18,
+      "miner_outflow": 77.48,
+      "mpi": 1.478,
+      "value": 110.09,
+      "timestamp": 1782754140
+    },
+    {
+      "datetime": "2026-06-29T17:30:00Z",
+      "blockheight": 856209,
+      "miner_reserve": 1800041.8,
+      "miner_inflow": 44.19,
+      "miner_outflow": 77.49,
+      "mpi": 1.479,
+      "value": 110.12,
+      "timestamp": 1782754200
+    },
+    {
+      "datetime": "2026-06-29T17:31:00Z",
+      "blockheight": 856210,
+      "miner_reserve": 1800042.0,
+      "miner_inflow": 44.2,
+      "miner_outflow": 77.5,
+      "mpi": 1.48,
+      "value": 110.15,
+      "timestamp": 1782754260
+    },
+    {
+      "datetime": "2026-06-29T17:32:00Z",
+      "blockheight": 856211,
+      "miner_reserve": 1800042.2,
+      "miner_inflow": 44.21,
+      "miner_outflow": 77.51,
+      "mpi": 1.481,
+      "value": 110.18,
+      "timestamp": 1782754320
+    },
+    {
+      "datetime": "2026-06-29T17:33:00Z",
+      "blockheight": 856212,
+      "miner_reserve": 1800042.4,
+      "miner_inflow": 44.22,
+      "miner_outflow": 77.52,
+      "mpi": 1.482,
+      "value": 110.21,
+      "timestamp": 1782754380
+    },
+    {
+      "datetime": "2026-06-29T17:34:00Z",
+      "blockheight": 856213,
+      "miner_reserve": 1800042.6,
+      "miner_inflow": 44.23,
+      "miner_outflow": 77.53,
+      "mpi": 1.483,
+      "value": 110.24,
+      "timestamp": 1782754440
+    },
+    {
+      "datetime": "2026-06-29T17:35:00Z",
+      "blockheight": 856214,
+      "miner_reserve": 1800042.8,
+      "miner_inflow": 44.24,
+      "miner_outflow": 77.54,
+      "mpi": 1.484,
+      "value": 110.27,
+      "timestamp": 1782754500
+    },
+    {
+      "datetime": "2026-06-29T17:36:00Z",
+      "blockheight": 856215,
+      "miner_reserve": 1800043.0,
+      "miner_inflow": 44.25,
+      "miner_outflow": 77.55,
+      "mpi": 1.485,
+      "value": 110.3,
+      "timestamp": 1782754560
+    },
+    {
+      "datetime": "2026-06-29T17:37:00Z",
+      "blockheight": 856216,
+      "miner_reserve": 1800043.2,
+      "miner_inflow": 44.26,
+      "miner_outflow": 77.56,
+      "mpi": 1.486,
+      "value": 110.33,
+      "timestamp": 1782754620
+    },
+    {
+      "datetime": "2026-06-29T17:38:00Z",
+      "blockheight": 856217,
+      "miner_reserve": 1800043.4,
+      "miner_inflow": 44.27,
+      "miner_outflow": 77.57,
+      "mpi": 1.487,
+      "value": 110.36,
+      "timestamp": 1782754680
+    },
+    {
+      "datetime": "2026-06-29T17:39:00Z",
+      "blockheight": 856218,
+      "miner_reserve": 1800043.6,
+      "miner_inflow": 44.28,
+      "miner_outflow": 77.58,
+      "mpi": 1.488,
+      "value": 110.39,
+      "timestamp": 1782754740
+    },
+    {
+      "datetime": "2026-06-29T17:40:00Z",
+      "blockheight": 856219,
+      "miner_reserve": 1800043.8,
+      "miner_inflow": 44.29,
+      "miner_outflow": 77.59,
+      "mpi": 1.489,
+      "value": 110.42,
+      "timestamp": 1782754800
+    },
+    {
+      "datetime": "2026-06-29T17:41:00Z",
+      "blockheight": 856220,
+      "miner_reserve": 1800044.0,
+      "miner_inflow": 44.3,
+      "miner_outflow": 77.6,
+      "mpi": 1.49,
+      "value": 110.45,
+      "timestamp": 1782754860
+    },
+    {
+      "datetime": "2026-06-29T17:42:00Z",
+      "blockheight": 856221,
+      "miner_reserve": 1800044.2,
+      "miner_inflow": 44.31,
+      "miner_outflow": 77.61,
+      "mpi": 1.491,
+      "value": 110.48,
+      "timestamp": 1782754920
+    },
+    {
+      "datetime": "2026-06-29T17:43:00Z",
+      "blockheight": 856222,
+      "miner_reserve": 1800044.4,
+      "miner_inflow": 44.32,
+      "miner_outflow": 77.62,
+      "mpi": 1.492,
+      "value": 110.51,
+      "timestamp": 1782754980
+    },
+    {
+      "datetime": "2026-06-29T17:44:00Z",
+      "blockheight": 856223,
+      "miner_reserve": 1800044.6,
+      "miner_inflow": 44.33,
+      "miner_outflow": 77.63,
+      "mpi": 1.493,
+      "value": 110.54,
+      "timestamp": 1782755040
+    },
+    {
+      "datetime": "2026-06-29T17:45:00Z",
+      "blockheight": 856224,
+      "miner_reserve": 1800044.8,
+      "miner_inflow": 44.34,
+      "miner_outflow": 77.64,
+      "mpi": 1.494,
+      "value": 110.57,
+      "timestamp": 1782755100
+    },
+    {
+      "datetime": "2026-06-29T17:46:00Z",
+      "blockheight": 856225,
+      "miner_reserve": 1800045.0,
+      "miner_inflow": 44.35,
+      "miner_outflow": 77.65,
+      "mpi": 1.495,
+      "value": 110.6,
+      "timestamp": 1782755160
+    },
+    {
+      "datetime": "2026-06-29T17:47:00Z",
+      "blockheight": 856226,
+      "miner_reserve": 1800045.2,
+      "miner_inflow": 44.36,
+      "miner_outflow": 77.66,
+      "mpi": 1.496,
+      "value": 110.63,
+      "timestamp": 1782755220
+    },
+    {
+      "datetime": "2026-06-29T17:48:00Z",
+      "blockheight": 856227,
+      "miner_reserve": 1800045.4,
+      "miner_inflow": 44.37,
+      "miner_outflow": 77.67,
+      "mpi": 1.497,
+      "value": 110.66,
+      "timestamp": 1782755280
+    },
+    {
+      "datetime": "2026-06-29T17:49:00Z",
+      "blockheight": 856228,
+      "miner_reserve": 1800045.6,
+      "miner_inflow": 44.38,
+      "miner_outflow": 77.68,
+      "mpi": 1.498,
+      "value": 110.69,
+      "timestamp": 1782755340
+    },
+    {
+      "datetime": "2026-06-29T17:50:00Z",
+      "blockheight": 856229,
+      "miner_reserve": 1800045.8,
+      "miner_inflow": 44.39,
+      "miner_outflow": 77.69,
+      "mpi": 1.499,
+      "value": 110.72,
+      "timestamp": 1782755400
+    },
+    {
+      "datetime": "2026-06-29T17:51:00Z",
+      "blockheight": 856230,
+      "miner_reserve": 1800046.0,
+      "miner_inflow": 44.4,
+      "miner_outflow": 77.7,
+      "mpi": 1.5,
+      "value": 110.75,
+      "timestamp": 1782755460
+    },
+    {
+      "datetime": "2026-06-29T17:52:00Z",
+      "blockheight": 856231,
+      "miner_reserve": 1800046.2,
+      "miner_inflow": 44.41,
+      "miner_outflow": 77.71,
+      "mpi": 1.501,
+      "value": 110.78,
+      "timestamp": 1782755520
+    },
+    {
+      "datetime": "2026-06-29T17:53:00Z",
+      "blockheight": 856232,
+      "miner_reserve": 1800046.4,
+      "miner_inflow": 44.42,
+      "miner_outflow": 77.72,
+      "mpi": 1.502,
+      "value": 110.81,
+      "timestamp": 1782755580
+    },
+    {
+      "datetime": "2026-06-29T17:54:00Z",
+      "blockheight": 856233,
+      "miner_reserve": 1800046.6,
+      "miner_inflow": 44.43,
+      "miner_outflow": 77.73,
+      "mpi": 1.503,
+      "value": 110.84,
+      "timestamp": 1782755640
+    },
+    {
+      "datetime": "2026-06-29T17:55:00Z",
+      "blockheight": 856234,
+      "miner_reserve": 1800046.8,
+      "miner_inflow": 44.44,
+      "miner_outflow": 77.74,
+      "mpi": 1.504,
+      "value": 110.87,
+      "timestamp": 1782755700
+    },
+    {
+      "datetime": "2026-06-29T17:56:00Z",
+      "blockheight": 856235,
+      "miner_reserve": 1800047.0,
+      "miner_inflow": 44.45,
+      "miner_outflow": 77.75,
+      "mpi": 1.505,
+      "value": 110.9,
+      "timestamp": 1782755760
+    },
+    {
+      "datetime": "2026-06-29T17:57:00Z",
+      "blockheight": 856236,
+      "miner_reserve": 1800047.2,
+      "miner_inflow": 44.46,
+      "miner_outflow": 77.76,
+      "mpi": 1.506,
+      "value": 110.93,
+      "timestamp": 1782755820
+    },
+    {
+      "datetime": "2026-06-29T17:58:00Z",
+      "blockheight": 856237,
+      "miner_reserve": 1800047.4,
+      "miner_inflow": 44.47,
+      "miner_outflow": 77.77,
+      "mpi": 1.507,
+      "value": 110.96,
+      "timestamp": 1782755880
+    },
+    {
+      "datetime": "2026-06-29T17:59:00Z",
+      "blockheight": 856238,
+      "miner_reserve": 1800047.6,
+      "miner_inflow": 44.48,
+      "miner_outflow": 77.78,
+      "mpi": 1.508,
+      "value": 110.99,
+      "timestamp": 1782755940
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856239,
+      "miner_reserve": 1800047.8,
+      "miner_inflow": 44.49,
+      "miner_outflow": 77.79,
+      "mpi": 1.509,
+      "value": 111.02,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T18:01:00Z",
+      "blockheight": 856240,
+      "miner_reserve": 1800048.0,
+      "miner_inflow": 44.5,
+      "miner_outflow": 77.8,
+      "mpi": 1.51,
+      "value": 111.05,
+      "timestamp": 1782756060
+    },
+    {
+      "datetime": "2026-06-29T18:02:00Z",
+      "blockheight": 856241,
+      "miner_reserve": 1800048.2,
+      "miner_inflow": 44.51,
+      "miner_outflow": 77.81,
+      "mpi": 1.511,
+      "value": 111.08,
+      "timestamp": 1782756120
+    },
+    {
+      "datetime": "2026-06-29T18:03:00Z",
+      "blockheight": 856242,
+      "miner_reserve": 1800048.4,
+      "miner_inflow": 44.52,
+      "miner_outflow": 77.82,
+      "mpi": 1.512,
+      "value": 111.11,
+      "timestamp": 1782756180
+    },
+    {
+      "datetime": "2026-06-29T18:04:00Z",
+      "blockheight": 856243,
+      "miner_reserve": 1800048.6,
+      "miner_inflow": 44.53,
+      "miner_outflow": 77.83,
+      "mpi": 1.513,
+      "value": 111.14,
+      "timestamp": 1782756240
+    },
+    {
+      "datetime": "2026-06-29T18:05:00Z",
+      "blockheight": 856244,
+      "miner_reserve": 1800048.8,
+      "miner_inflow": 44.54,
+      "miner_outflow": 77.84,
+      "mpi": 1.514,
+      "value": 111.17,
+      "timestamp": 1782756300
+    },
+    {
+      "datetime": "2026-06-29T18:06:00Z",
+      "blockheight": 856245,
+      "miner_reserve": 1800049.0,
+      "miner_inflow": 44.55,
+      "miner_outflow": 77.85,
+      "mpi": 1.515,
+      "value": 111.2,
+      "timestamp": 1782756360
+    },
+    {
+      "datetime": "2026-06-29T18:07:00Z",
+      "blockheight": 856246,
+      "miner_reserve": 1800049.2,
+      "miner_inflow": 44.56,
+      "miner_outflow": 77.86,
+      "mpi": 1.516,
+      "value": 111.23,
+      "timestamp": 1782756420
+    },
+    {
+      "datetime": "2026-06-29T18:08:00Z",
+      "blockheight": 856247,
+      "miner_reserve": 1800049.4,
+      "miner_inflow": 44.57,
+      "miner_outflow": 77.87,
+      "mpi": 1.517,
+      "value": 111.26,
+      "timestamp": 1782756480
+    },
+    {
+      "datetime": "2026-06-29T18:09:00Z",
+      "blockheight": 856248,
+      "miner_reserve": 1800049.6,
+      "miner_inflow": 44.58,
+      "miner_outflow": 77.88,
+      "mpi": 1.518,
+      "value": 111.29,
+      "timestamp": 1782756540
+    },
+    {
+      "datetime": "2026-06-29T18:10:00Z",
+      "blockheight": 856249,
+      "miner_reserve": 1800049.8,
+      "miner_inflow": 44.59,
+      "miner_outflow": 77.89,
+      "mpi": 1.519,
+      "value": 111.32,
+      "timestamp": 1782756600
+    },
+    {
+      "datetime": "2026-06-29T18:11:00Z",
+      "blockheight": 856250,
+      "miner_reserve": 1800050.0,
+      "miner_inflow": 44.6,
+      "miner_outflow": 77.9,
+      "mpi": 1.52,
+      "value": 111.35,
+      "timestamp": 1782756660
+    },
+    {
+      "datetime": "2026-06-29T18:12:00Z",
+      "blockheight": 856251,
+      "miner_reserve": 1800050.2,
+      "miner_inflow": 44.61,
+      "miner_outflow": 77.91,
+      "mpi": 1.521,
+      "value": 111.38,
+      "timestamp": 1782756720
+    },
+    {
+      "datetime": "2026-06-29T18:13:00Z",
+      "blockheight": 856252,
+      "miner_reserve": 1800050.4,
+      "miner_inflow": 44.62,
+      "miner_outflow": 77.92,
+      "mpi": 1.522,
+      "value": 111.41,
+      "timestamp": 1782756780
+    },
+    {
+      "datetime": "2026-06-29T18:14:00Z",
+      "blockheight": 856253,
+      "miner_reserve": 1800050.6,
+      "miner_inflow": 44.63,
+      "miner_outflow": 77.93,
+      "mpi": 1.523,
+      "value": 111.44,
+      "timestamp": 1782756840
+    },
+    {
+      "datetime": "2026-06-29T18:15:00Z",
+      "blockheight": 856254,
+      "miner_reserve": 1800050.8,
+      "miner_inflow": 44.64,
+      "miner_outflow": 77.94,
+      "mpi": 1.524,
+      "value": 111.47,
+      "timestamp": 1782756900
+    },
+    {
+      "datetime": "2026-06-29T18:16:00Z",
+      "blockheight": 856255,
+      "miner_reserve": 1800051.0,
+      "miner_inflow": 44.65,
+      "miner_outflow": 77.95,
+      "mpi": 1.525,
+      "value": 111.5,
+      "timestamp": 1782756960
+    },
+    {
+      "datetime": "2026-06-29T18:17:00Z",
+      "blockheight": 856256,
+      "miner_reserve": 1800051.2,
+      "miner_inflow": 44.66,
+      "miner_outflow": 77.96,
+      "mpi": 1.526,
+      "value": 111.53,
+      "timestamp": 1782757020
+    },
+    {
+      "datetime": "2026-06-29T18:18:00Z",
+      "blockheight": 856257,
+      "miner_reserve": 1800051.4,
+      "miner_inflow": 44.67,
+      "miner_outflow": 77.97,
+      "mpi": 1.527,
+      "value": 111.56,
+      "timestamp": 1782757080
+    },
+    {
+      "datetime": "2026-06-29T18:19:00Z",
+      "blockheight": 856258,
+      "miner_reserve": 1800051.6,
+      "miner_inflow": 44.68,
+      "miner_outflow": 77.98,
+      "mpi": 1.528,
+      "value": 111.59,
+      "timestamp": 1782757140
+    },
+    {
+      "datetime": "2026-06-29T18:20:00Z",
+      "blockheight": 856259,
+      "miner_reserve": 1800051.8,
+      "miner_inflow": 44.69,
+      "miner_outflow": 77.99,
+      "mpi": 1.529,
+      "value": 111.62,
+      "timestamp": 1782757200
+    },
+    {
+      "datetime": "2026-06-29T18:21:00Z",
+      "blockheight": 856260,
+      "miner_reserve": 1800052.0,
+      "miner_inflow": 44.7,
+      "miner_outflow": 78.0,
+      "mpi": 1.53,
+      "value": 111.65,
+      "timestamp": 1782757260
+    },
+    {
+      "datetime": "2026-06-29T18:22:00Z",
+      "blockheight": 856261,
+      "miner_reserve": 1800052.2,
+      "miner_inflow": 44.71,
+      "miner_outflow": 78.01,
+      "mpi": 1.531,
+      "value": 111.68,
+      "timestamp": 1782757320
+    },
+    {
+      "datetime": "2026-06-29T18:23:00Z",
+      "blockheight": 856262,
+      "miner_reserve": 1800052.4,
+      "miner_inflow": 44.72,
+      "miner_outflow": 78.02,
+      "mpi": 1.532,
+      "value": 111.71,
+      "timestamp": 1782757380
+    },
+    {
+      "datetime": "2026-06-29T18:24:00Z",
+      "blockheight": 856263,
+      "miner_reserve": 1800052.6,
+      "miner_inflow": 44.73,
+      "miner_outflow": 78.03,
+      "mpi": 1.533,
+      "value": 111.74,
+      "timestamp": 1782757440
+    },
+    {
+      "datetime": "2026-06-29T18:25:00Z",
+      "blockheight": 856264,
+      "miner_reserve": 1800052.8,
+      "miner_inflow": 44.74,
+      "miner_outflow": 78.04,
+      "mpi": 1.534,
+      "value": 111.77,
+      "timestamp": 1782757500
+    },
+    {
+      "datetime": "2026-06-29T18:26:00Z",
+      "blockheight": 856265,
+      "miner_reserve": 1800053.0,
+      "miner_inflow": 44.75,
+      "miner_outflow": 78.05,
+      "mpi": 1.535,
+      "value": 111.8,
+      "timestamp": 1782757560
+    },
+    {
+      "datetime": "2026-06-29T18:27:00Z",
+      "blockheight": 856266,
+      "miner_reserve": 1800053.2,
+      "miner_inflow": 44.76,
+      "miner_outflow": 78.06,
+      "mpi": 1.536,
+      "value": 111.83,
+      "timestamp": 1782757620
+    },
+    {
+      "datetime": "2026-06-29T18:28:00Z",
+      "blockheight": 856267,
+      "miner_reserve": 1800053.4,
+      "miner_inflow": 44.77,
+      "miner_outflow": 78.07,
+      "mpi": 1.537,
+      "value": 111.86,
+      "timestamp": 1782757680
+    },
+    {
+      "datetime": "2026-06-29T18:29:00Z",
+      "blockheight": 856268,
+      "miner_reserve": 1800053.6,
+      "miner_inflow": 44.78,
+      "miner_outflow": 78.08,
+      "mpi": 1.538,
+      "value": 111.89,
+      "timestamp": 1782757740
+    },
+    {
+      "datetime": "2026-06-29T18:30:00Z",
+      "blockheight": 856269,
+      "miner_reserve": 1800053.8,
+      "miner_inflow": 44.79,
+      "miner_outflow": 78.09,
+      "mpi": 1.539,
+      "value": 111.92,
+      "timestamp": 1782757800
+    },
+    {
+      "datetime": "2026-06-29T18:31:00Z",
+      "blockheight": 856270,
+      "miner_reserve": 1800054.0,
+      "miner_inflow": 44.8,
+      "miner_outflow": 78.1,
+      "mpi": 1.54,
+      "value": 111.95,
+      "timestamp": 1782757860
+    },
+    {
+      "datetime": "2026-06-29T18:32:00Z",
+      "blockheight": 856271,
+      "miner_reserve": 1800054.2,
+      "miner_inflow": 44.81,
+      "miner_outflow": 78.11,
+      "mpi": 1.541,
+      "value": 111.98,
+      "timestamp": 1782757920
+    },
+    {
+      "datetime": "2026-06-29T18:33:00Z",
+      "blockheight": 856272,
+      "miner_reserve": 1800054.4,
+      "miner_inflow": 44.82,
+      "miner_outflow": 78.12,
+      "mpi": 1.542,
+      "value": 112.01,
+      "timestamp": 1782757980
+    },
+    {
+      "datetime": "2026-06-29T18:34:00Z",
+      "blockheight": 856273,
+      "miner_reserve": 1800054.6,
+      "miner_inflow": 44.83,
+      "miner_outflow": 78.13,
+      "mpi": 1.543,
+      "value": 112.04,
+      "timestamp": 1782758040
+    },
+    {
+      "datetime": "2026-06-29T18:35:00Z",
+      "blockheight": 856274,
+      "miner_reserve": 1800054.8,
+      "miner_inflow": 44.84,
+      "miner_outflow": 78.14,
+      "mpi": 1.544,
+      "value": 112.07,
+      "timestamp": 1782758100
+    },
+    {
+      "datetime": "2026-06-29T18:36:00Z",
+      "blockheight": 856275,
+      "miner_reserve": 1800055.0,
+      "miner_inflow": 44.85,
+      "miner_outflow": 78.15,
+      "mpi": 1.545,
+      "value": 112.1,
+      "timestamp": 1782758160
+    },
+    {
+      "datetime": "2026-06-29T18:37:00Z",
+      "blockheight": 856276,
+      "miner_reserve": 1800055.2,
+      "miner_inflow": 44.86,
+      "miner_outflow": 78.16,
+      "mpi": 1.546,
+      "value": 112.13,
+      "timestamp": 1782758220
+    },
+    {
+      "datetime": "2026-06-29T18:38:00Z",
+      "blockheight": 856277,
+      "miner_reserve": 1800055.4,
+      "miner_inflow": 44.87,
+      "miner_outflow": 78.17,
+      "mpi": 1.547,
+      "value": 112.16,
+      "timestamp": 1782758280
+    },
+    {
+      "datetime": "2026-06-29T18:39:00Z",
+      "blockheight": 856278,
+      "miner_reserve": 1800055.6,
+      "miner_inflow": 44.88,
+      "miner_outflow": 78.18,
+      "mpi": 1.548,
+      "value": 112.19,
+      "timestamp": 1782758340
+    },
+    {
+      "datetime": "2026-06-29T18:40:00Z",
+      "blockheight": 856279,
+      "miner_reserve": 1800055.8,
+      "miner_inflow": 44.89,
+      "miner_outflow": 78.19,
+      "mpi": 1.549,
+      "value": 112.22,
+      "timestamp": 1782758400
+    },
+    {
+      "datetime": "2026-06-29T18:41:00Z",
+      "blockheight": 856280,
+      "miner_reserve": 1800056.0,
+      "miner_inflow": 44.9,
+      "miner_outflow": 78.2,
+      "mpi": 1.55,
+      "value": 112.25,
+      "timestamp": 1782758460
+    },
+    {
+      "datetime": "2026-06-29T18:42:00Z",
+      "blockheight": 856281,
+      "miner_reserve": 1800056.2,
+      "miner_inflow": 44.91,
+      "miner_outflow": 78.21,
+      "mpi": 1.551,
+      "value": 112.28,
+      "timestamp": 1782758520
+    },
+    {
+      "datetime": "2026-06-29T18:43:00Z",
+      "blockheight": 856282,
+      "miner_reserve": 1800056.4,
+      "miner_inflow": 44.92,
+      "miner_outflow": 78.22,
+      "mpi": 1.552,
+      "value": 112.31,
+      "timestamp": 1782758580
+    },
+    {
+      "datetime": "2026-06-29T18:44:00Z",
+      "blockheight": 856283,
+      "miner_reserve": 1800056.6,
+      "miner_inflow": 44.93,
+      "miner_outflow": 78.23,
+      "mpi": 1.553,
+      "value": 112.34,
+      "timestamp": 1782758640
+    },
+    {
+      "datetime": "2026-06-29T18:45:00Z",
+      "blockheight": 856284,
+      "miner_reserve": 1800056.8,
+      "miner_inflow": 44.94,
+      "miner_outflow": 78.24,
+      "mpi": 1.554,
+      "value": 112.37,
+      "timestamp": 1782758700
+    },
+    {
+      "datetime": "2026-06-29T18:46:00Z",
+      "blockheight": 856285,
+      "miner_reserve": 1800057.0,
+      "miner_inflow": 44.95,
+      "miner_outflow": 78.25,
+      "mpi": 1.555,
+      "value": 112.4,
+      "timestamp": 1782758760
+    },
+    {
+      "datetime": "2026-06-29T18:47:00Z",
+      "blockheight": 856286,
+      "miner_reserve": 1800057.2,
+      "miner_inflow": 44.96,
+      "miner_outflow": 78.26,
+      "mpi": 1.556,
+      "value": 112.43,
+      "timestamp": 1782758820
+    },
+    {
+      "datetime": "2026-06-29T18:48:00Z",
+      "blockheight": 856287,
+      "miner_reserve": 1800057.4,
+      "miner_inflow": 44.97,
+      "miner_outflow": 78.27,
+      "mpi": 1.557,
+      "value": 112.46,
+      "timestamp": 1782758880
+    },
+    {
+      "datetime": "2026-06-29T18:49:00Z",
+      "blockheight": 856288,
+      "miner_reserve": 1800057.6,
+      "miner_inflow": 44.98,
+      "miner_outflow": 78.28,
+      "mpi": 1.558,
+      "value": 112.49,
+      "timestamp": 1782758940
+    },
+    {
+      "datetime": "2026-06-29T18:50:00Z",
+      "blockheight": 856289,
+      "miner_reserve": 1800057.8,
+      "miner_inflow": 44.99,
+      "miner_outflow": 78.29,
+      "mpi": 1.559,
+      "value": 112.52,
+      "timestamp": 1782759000
+    },
+    {
+      "datetime": "2026-06-29T18:51:00Z",
+      "blockheight": 856290,
+      "miner_reserve": 1800058.0,
+      "miner_inflow": 45.0,
+      "miner_outflow": 78.3,
+      "mpi": 1.56,
+      "value": 112.55,
+      "timestamp": 1782759060
+    },
+    {
+      "datetime": "2026-06-29T18:52:00Z",
+      "blockheight": 856291,
+      "miner_reserve": 1800058.2,
+      "miner_inflow": 45.01,
+      "miner_outflow": 78.31,
+      "mpi": 1.561,
+      "value": 112.58,
+      "timestamp": 1782759120
+    },
+    {
+      "datetime": "2026-06-29T18:53:00Z",
+      "blockheight": 856292,
+      "miner_reserve": 1800058.4,
+      "miner_inflow": 45.02,
+      "miner_outflow": 78.32,
+      "mpi": 1.562,
+      "value": 112.61,
+      "timestamp": 1782759180
+    },
+    {
+      "datetime": "2026-06-29T18:54:00Z",
+      "blockheight": 856293,
+      "miner_reserve": 1800058.6,
+      "miner_inflow": 45.03,
+      "miner_outflow": 78.33,
+      "mpi": 1.563,
+      "value": 112.64,
+      "timestamp": 1782759240
+    },
+    {
+      "datetime": "2026-06-29T18:55:00Z",
+      "blockheight": 856294,
+      "miner_reserve": 1800058.8,
+      "miner_inflow": 45.04,
+      "miner_outflow": 78.34,
+      "mpi": 1.564,
+      "value": 112.67,
+      "timestamp": 1782759300
+    },
+    {
+      "datetime": "2026-06-29T18:56:00Z",
+      "blockheight": 856295,
+      "miner_reserve": 1800059.0,
+      "miner_inflow": 45.05,
+      "miner_outflow": 78.35,
+      "mpi": 1.565,
+      "value": 112.7,
+      "timestamp": 1782759360
+    },
+    {
+      "datetime": "2026-06-29T18:57:00Z",
+      "blockheight": 856296,
+      "miner_reserve": 1800059.2,
+      "miner_inflow": 45.06,
+      "miner_outflow": 78.36,
+      "mpi": 1.566,
+      "value": 112.73,
+      "timestamp": 1782759420
+    },
+    {
+      "datetime": "2026-06-29T18:58:00Z",
+      "blockheight": 856297,
+      "miner_reserve": 1800059.4,
+      "miner_inflow": 45.07,
+      "miner_outflow": 78.37,
+      "mpi": 1.567,
+      "value": 112.76,
+      "timestamp": 1782759480
+    },
+    {
+      "datetime": "2026-06-29T18:59:00Z",
+      "blockheight": 856298,
+      "miner_reserve": 1800059.6,
+      "miner_inflow": 45.08,
+      "miner_outflow": 78.38,
+      "mpi": 1.568,
+      "value": 112.79,
+      "timestamp": 1782759540
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856299,
+      "miner_reserve": 1800059.8,
+      "miner_inflow": 45.09,
+      "miner_outflow": 78.39,
+      "mpi": 1.569,
+      "value": 112.82,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T19:01:00Z",
+      "blockheight": 856300,
+      "miner_reserve": 1800060.0,
+      "miner_inflow": 45.1,
+      "miner_outflow": 78.4,
+      "mpi": 1.57,
+      "value": 112.85,
+      "timestamp": 1782759660
+    },
+    {
+      "datetime": "2026-06-29T19:02:00Z",
+      "blockheight": 856301,
+      "miner_reserve": 1800060.2,
+      "miner_inflow": 45.11,
+      "miner_outflow": 78.41,
+      "mpi": 1.571,
+      "value": 112.88,
+      "timestamp": 1782759720
+    },
+    {
+      "datetime": "2026-06-29T19:03:00Z",
+      "blockheight": 856302,
+      "miner_reserve": 1800060.4,
+      "miner_inflow": 45.12,
+      "miner_outflow": 78.42,
+      "mpi": 1.572,
+      "value": 112.91,
+      "timestamp": 1782759780
+    },
+    {
+      "datetime": "2026-06-29T19:04:00Z",
+      "blockheight": 856303,
+      "miner_reserve": 1800060.6,
+      "miner_inflow": 45.13,
+      "miner_outflow": 78.43,
+      "mpi": 1.573,
+      "value": 112.94,
+      "timestamp": 1782759840
+    },
+    {
+      "datetime": "2026-06-29T19:05:00Z",
+      "blockheight": 856304,
+      "miner_reserve": 1800060.8,
+      "miner_inflow": 45.14,
+      "miner_outflow": 78.44,
+      "mpi": 1.574,
+      "value": 112.97,
+      "timestamp": 1782759900
+    },
+    {
+      "datetime": "2026-06-29T19:06:00Z",
+      "blockheight": 856305,
+      "miner_reserve": 1800061.0,
+      "miner_inflow": 45.15,
+      "miner_outflow": 78.45,
+      "mpi": 1.575,
+      "value": 113.0,
+      "timestamp": 1782759960
+    },
+    {
+      "datetime": "2026-06-29T19:07:00Z",
+      "blockheight": 856306,
+      "miner_reserve": 1800061.2,
+      "miner_inflow": 45.16,
+      "miner_outflow": 78.46,
+      "mpi": 1.576,
+      "value": 113.03,
+      "timestamp": 1782760020
+    },
+    {
+      "datetime": "2026-06-29T19:08:00Z",
+      "blockheight": 856307,
+      "miner_reserve": 1800061.4,
+      "miner_inflow": 45.17,
+      "miner_outflow": 78.47,
+      "mpi": 1.577,
+      "value": 113.06,
+      "timestamp": 1782760080
+    },
+    {
+      "datetime": "2026-06-29T19:09:00Z",
+      "blockheight": 856308,
+      "miner_reserve": 1800061.6,
+      "miner_inflow": 45.18,
+      "miner_outflow": 78.48,
+      "mpi": 1.578,
+      "value": 113.09,
+      "timestamp": 1782760140
+    },
+    {
+      "datetime": "2026-06-29T19:10:00Z",
+      "blockheight": 856309,
+      "miner_reserve": 1800061.8,
+      "miner_inflow": 45.19,
+      "miner_outflow": 78.49,
+      "mpi": 1.579,
+      "value": 113.12,
+      "timestamp": 1782760200
+    },
+    {
+      "datetime": "2026-06-29T19:11:00Z",
+      "blockheight": 856310,
+      "miner_reserve": 1800062.0,
+      "miner_inflow": 45.2,
+      "miner_outflow": 78.5,
+      "mpi": 1.58,
+      "value": 113.15,
+      "timestamp": 1782760260
+    },
+    {
+      "datetime": "2026-06-29T19:12:00Z",
+      "blockheight": 856311,
+      "miner_reserve": 1800062.2,
+      "miner_inflow": 45.21,
+      "miner_outflow": 78.51,
+      "mpi": 1.581,
+      "value": 113.18,
+      "timestamp": 1782760320
+    },
+    {
+      "datetime": "2026-06-29T19:13:00Z",
+      "blockheight": 856312,
+      "miner_reserve": 1800062.4,
+      "miner_inflow": 45.22,
+      "miner_outflow": 78.52,
+      "mpi": 1.582,
+      "value": 113.21,
+      "timestamp": 1782760380
+    },
+    {
+      "datetime": "2026-06-29T19:14:00Z",
+      "blockheight": 856313,
+      "miner_reserve": 1800062.6,
+      "miner_inflow": 45.23,
+      "miner_outflow": 78.53,
+      "mpi": 1.583,
+      "value": 113.24,
+      "timestamp": 1782760440
+    },
+    {
+      "datetime": "2026-06-29T19:15:00Z",
+      "blockheight": 856314,
+      "miner_reserve": 1800062.8,
+      "miner_inflow": 45.24,
+      "miner_outflow": 78.54,
+      "mpi": 1.584,
+      "value": 113.27,
+      "timestamp": 1782760500
+    },
+    {
+      "datetime": "2026-06-29T19:16:00Z",
+      "blockheight": 856315,
+      "miner_reserve": 1800063.0,
+      "miner_inflow": 45.25,
+      "miner_outflow": 78.55,
+      "mpi": 1.585,
+      "value": 113.3,
+      "timestamp": 1782760560
+    },
+    {
+      "datetime": "2026-06-29T19:17:00Z",
+      "blockheight": 856316,
+      "miner_reserve": 1800063.2,
+      "miner_inflow": 45.26,
+      "miner_outflow": 78.56,
+      "mpi": 1.586,
+      "value": 113.33,
+      "timestamp": 1782760620
+    },
+    {
+      "datetime": "2026-06-29T19:18:00Z",
+      "blockheight": 856317,
+      "miner_reserve": 1800063.4,
+      "miner_inflow": 45.27,
+      "miner_outflow": 78.57,
+      "mpi": 1.587,
+      "value": 113.36,
+      "timestamp": 1782760680
+    },
+    {
+      "datetime": "2026-06-29T19:19:00Z",
+      "blockheight": 856318,
+      "miner_reserve": 1800063.6,
+      "miner_inflow": 45.28,
+      "miner_outflow": 78.58,
+      "mpi": 1.588,
+      "value": 113.39,
+      "timestamp": 1782760740
+    },
+    {
+      "datetime": "2026-06-29T19:20:00Z",
+      "blockheight": 856319,
+      "miner_reserve": 1800063.8,
+      "miner_inflow": 45.29,
+      "miner_outflow": 78.59,
+      "mpi": 1.589,
+      "value": 113.42,
+      "timestamp": 1782760800
+    },
+    {
+      "datetime": "2026-06-29T19:21:00Z",
+      "blockheight": 856320,
+      "miner_reserve": 1800064.0,
+      "miner_inflow": 45.3,
+      "miner_outflow": 78.6,
+      "mpi": 1.59,
+      "value": 113.45,
+      "timestamp": 1782760860
+    },
+    {
+      "datetime": "2026-06-29T19:22:00Z",
+      "blockheight": 856321,
+      "miner_reserve": 1800064.2,
+      "miner_inflow": 45.31,
+      "miner_outflow": 78.61,
+      "mpi": 1.591,
+      "value": 113.48,
+      "timestamp": 1782760920
+    },
+    {
+      "datetime": "2026-06-29T19:23:00Z",
+      "blockheight": 856322,
+      "miner_reserve": 1800064.4,
+      "miner_inflow": 45.32,
+      "miner_outflow": 78.62,
+      "mpi": 1.592,
+      "value": 113.51,
+      "timestamp": 1782760980
+    },
+    {
+      "datetime": "2026-06-29T19:24:00Z",
+      "blockheight": 856323,
+      "miner_reserve": 1800064.6,
+      "miner_inflow": 45.33,
+      "miner_outflow": 78.63,
+      "mpi": 1.593,
+      "value": 113.54,
+      "timestamp": 1782761040
+    },
+    {
+      "datetime": "2026-06-29T19:25:00Z",
+      "blockheight": 856324,
+      "miner_reserve": 1800064.8,
+      "miner_inflow": 45.34,
+      "miner_outflow": 78.64,
+      "mpi": 1.594,
+      "value": 113.57,
+      "timestamp": 1782761100
+    },
+    {
+      "datetime": "2026-06-29T19:26:00Z",
+      "blockheight": 856325,
+      "miner_reserve": 1800065.0,
+      "miner_inflow": 45.35,
+      "miner_outflow": 78.65,
+      "mpi": 1.595,
+      "value": 113.6,
+      "timestamp": 1782761160
+    },
+    {
+      "datetime": "2026-06-29T19:27:00Z",
+      "blockheight": 856326,
+      "miner_reserve": 1800065.2,
+      "miner_inflow": 45.36,
+      "miner_outflow": 78.66,
+      "mpi": 1.596,
+      "value": 113.63,
+      "timestamp": 1782761220
+    },
+    {
+      "datetime": "2026-06-29T19:28:00Z",
+      "blockheight": 856327,
+      "miner_reserve": 1800065.4,
+      "miner_inflow": 45.37,
+      "miner_outflow": 78.67,
+      "mpi": 1.597,
+      "value": 113.66,
+      "timestamp": 1782761280
+    },
+    {
+      "datetime": "2026-06-29T19:29:00Z",
+      "blockheight": 856328,
+      "miner_reserve": 1800065.6,
+      "miner_inflow": 45.38,
+      "miner_outflow": 78.68,
+      "mpi": 1.598,
+      "value": 113.69,
+      "timestamp": 1782761340
+    },
+    {
+      "datetime": "2026-06-29T19:30:00Z",
+      "blockheight": 856329,
+      "miner_reserve": 1800065.8,
+      "miner_inflow": 45.39,
+      "miner_outflow": 78.69,
+      "mpi": 1.599,
+      "value": 113.72,
+      "timestamp": 1782761400
+    },
+    {
+      "datetime": "2026-06-29T19:31:00Z",
+      "blockheight": 856330,
+      "miner_reserve": 1800066.0,
+      "miner_inflow": 45.4,
+      "miner_outflow": 78.7,
+      "mpi": 1.6,
+      "value": 113.75,
+      "timestamp": 1782761460
+    },
+    {
+      "datetime": "2026-06-29T19:32:00Z",
+      "blockheight": 856331,
+      "miner_reserve": 1800066.2,
+      "miner_inflow": 45.41,
+      "miner_outflow": 78.71,
+      "mpi": 1.601,
+      "value": 113.78,
+      "timestamp": 1782761520
+    },
+    {
+      "datetime": "2026-06-29T19:33:00Z",
+      "blockheight": 856332,
+      "miner_reserve": 1800066.4,
+      "miner_inflow": 45.42,
+      "miner_outflow": 78.72,
+      "mpi": 1.602,
+      "value": 113.81,
+      "timestamp": 1782761580
+    },
+    {
+      "datetime": "2026-06-29T19:34:00Z",
+      "blockheight": 856333,
+      "miner_reserve": 1800066.6,
+      "miner_inflow": 45.43,
+      "miner_outflow": 78.73,
+      "mpi": 1.603,
+      "value": 113.84,
+      "timestamp": 1782761640
+    },
+    {
+      "datetime": "2026-06-29T19:35:00Z",
+      "blockheight": 856334,
+      "miner_reserve": 1800066.8,
+      "miner_inflow": 45.44,
+      "miner_outflow": 78.74,
+      "mpi": 1.604,
+      "value": 113.87,
+      "timestamp": 1782761700
+    },
+    {
+      "datetime": "2026-06-29T19:36:00Z",
+      "blockheight": 856335,
+      "miner_reserve": 1800067.0,
+      "miner_inflow": 45.45,
+      "miner_outflow": 78.75,
+      "mpi": 1.605,
+      "value": 113.9,
+      "timestamp": 1782761760
+    },
+    {
+      "datetime": "2026-06-29T19:37:00Z",
+      "blockheight": 856336,
+      "miner_reserve": 1800067.2,
+      "miner_inflow": 45.46,
+      "miner_outflow": 78.76,
+      "mpi": 1.606,
+      "value": 113.93,
+      "timestamp": 1782761820
+    },
+    {
+      "datetime": "2026-06-29T19:38:00Z",
+      "blockheight": 856337,
+      "miner_reserve": 1800067.4,
+      "miner_inflow": 45.47,
+      "miner_outflow": 78.77,
+      "mpi": 1.607,
+      "value": 113.96,
+      "timestamp": 1782761880
+    },
+    {
+      "datetime": "2026-06-29T19:39:00Z",
+      "blockheight": 856338,
+      "miner_reserve": 1800067.6,
+      "miner_inflow": 45.48,
+      "miner_outflow": 78.78,
+      "mpi": 1.608,
+      "value": 113.99,
+      "timestamp": 1782761940
+    },
+    {
+      "datetime": "2026-06-29T19:40:00Z",
+      "blockheight": 856339,
+      "miner_reserve": 1800067.8,
+      "miner_inflow": 45.49,
+      "miner_outflow": 78.79,
+      "mpi": 1.609,
+      "value": 114.02,
+      "timestamp": 1782762000
+    },
+    {
+      "datetime": "2026-06-29T19:41:00Z",
+      "blockheight": 856340,
+      "miner_reserve": 1800068.0,
+      "miner_inflow": 45.5,
+      "miner_outflow": 78.8,
+      "mpi": 1.61,
+      "value": 114.05,
+      "timestamp": 1782762060
+    },
+    {
+      "datetime": "2026-06-29T19:42:00Z",
+      "blockheight": 856341,
+      "miner_reserve": 1800068.2,
+      "miner_inflow": 45.51,
+      "miner_outflow": 78.81,
+      "mpi": 1.611,
+      "value": 114.08,
+      "timestamp": 1782762120
+    },
+    {
+      "datetime": "2026-06-29T19:43:00Z",
+      "blockheight": 856342,
+      "miner_reserve": 1800068.4,
+      "miner_inflow": 45.52,
+      "miner_outflow": 78.82,
+      "mpi": 1.612,
+      "value": 114.11,
+      "timestamp": 1782762180
+    },
+    {
+      "datetime": "2026-06-29T19:44:00Z",
+      "blockheight": 856343,
+      "miner_reserve": 1800068.6,
+      "miner_inflow": 45.53,
+      "miner_outflow": 78.83,
+      "mpi": 1.613,
+      "value": 114.14,
+      "timestamp": 1782762240
+    },
+    {
+      "datetime": "2026-06-29T19:45:00Z",
+      "blockheight": 856344,
+      "miner_reserve": 1800068.8,
+      "miner_inflow": 45.54,
+      "miner_outflow": 78.84,
+      "mpi": 1.614,
+      "value": 114.17,
+      "timestamp": 1782762300
+    },
+    {
+      "datetime": "2026-06-29T19:46:00Z",
+      "blockheight": 856345,
+      "miner_reserve": 1800069.0,
+      "miner_inflow": 45.55,
+      "miner_outflow": 78.85,
+      "mpi": 1.615,
+      "value": 114.2,
+      "timestamp": 1782762360
+    },
+    {
+      "datetime": "2026-06-29T19:47:00Z",
+      "blockheight": 856346,
+      "miner_reserve": 1800069.2,
+      "miner_inflow": 45.56,
+      "miner_outflow": 78.86,
+      "mpi": 1.616,
+      "value": 114.23,
+      "timestamp": 1782762420
+    },
+    {
+      "datetime": "2026-06-29T19:48:00Z",
+      "blockheight": 856347,
+      "miner_reserve": 1800069.4,
+      "miner_inflow": 45.57,
+      "miner_outflow": 78.87,
+      "mpi": 1.617,
+      "value": 114.26,
+      "timestamp": 1782762480
+    },
+    {
+      "datetime": "2026-06-29T19:49:00Z",
+      "blockheight": 856348,
+      "miner_reserve": 1800069.6,
+      "miner_inflow": 45.58,
+      "miner_outflow": 78.88,
+      "mpi": 1.618,
+      "value": 114.29,
+      "timestamp": 1782762540
+    },
+    {
+      "datetime": "2026-06-29T19:50:00Z",
+      "blockheight": 856349,
+      "miner_reserve": 1800069.8,
+      "miner_inflow": 45.59,
+      "miner_outflow": 78.89,
+      "mpi": 1.619,
+      "value": 114.32,
+      "timestamp": 1782762600
+    },
+    {
+      "datetime": "2026-06-29T19:51:00Z",
+      "blockheight": 856350,
+      "miner_reserve": 1800070.0,
+      "miner_inflow": 45.6,
+      "miner_outflow": 78.9,
+      "mpi": 1.62,
+      "value": 114.35,
+      "timestamp": 1782762660
+    },
+    {
+      "datetime": "2026-06-29T19:52:00Z",
+      "blockheight": 856351,
+      "miner_reserve": 1800070.2,
+      "miner_inflow": 45.61,
+      "miner_outflow": 78.91,
+      "mpi": 1.621,
+      "value": 114.38,
+      "timestamp": 1782762720
+    },
+    {
+      "datetime": "2026-06-29T19:53:00Z",
+      "blockheight": 856352,
+      "miner_reserve": 1800070.4,
+      "miner_inflow": 45.62,
+      "miner_outflow": 78.92,
+      "mpi": 1.622,
+      "value": 114.41,
+      "timestamp": 1782762780
+    },
+    {
+      "datetime": "2026-06-29T19:54:00Z",
+      "blockheight": 856353,
+      "miner_reserve": 1800070.6,
+      "miner_inflow": 45.63,
+      "miner_outflow": 78.93,
+      "mpi": 1.623,
+      "value": 114.44,
+      "timestamp": 1782762840
+    },
+    {
+      "datetime": "2026-06-29T19:55:00Z",
+      "blockheight": 856354,
+      "miner_reserve": 1800070.8,
+      "miner_inflow": 45.64,
+      "miner_outflow": 78.94,
+      "mpi": 1.624,
+      "value": 114.47,
+      "timestamp": 1782762900
+    },
+    {
+      "datetime": "2026-06-29T19:56:00Z",
+      "blockheight": 856355,
+      "miner_reserve": 1800071.0,
+      "miner_inflow": 45.65,
+      "miner_outflow": 78.95,
+      "mpi": 1.625,
+      "value": 114.5,
+      "timestamp": 1782762960
+    },
+    {
+      "datetime": "2026-06-29T19:57:00Z",
+      "blockheight": 856356,
+      "miner_reserve": 1800071.2,
+      "miner_inflow": 45.66,
+      "miner_outflow": 78.96,
+      "mpi": 1.626,
+      "value": 114.53,
+      "timestamp": 1782763020
+    },
+    {
+      "datetime": "2026-06-29T19:58:00Z",
+      "blockheight": 856357,
+      "miner_reserve": 1800071.4,
+      "miner_inflow": 45.67,
+      "miner_outflow": 78.97,
+      "mpi": 1.627,
+      "value": 114.56,
+      "timestamp": 1782763080
+    },
+    {
+      "datetime": "2026-06-29T19:59:00Z",
+      "blockheight": 856358,
+      "miner_reserve": 1800071.6,
+      "miner_inflow": 45.68,
+      "miner_outflow": 78.98,
+      "mpi": 1.628,
+      "value": 114.59,
+      "timestamp": 1782763140
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856359,
+      "miner_reserve": 1800071.8,
+      "miner_inflow": 45.69,
+      "miner_outflow": 78.99,
+      "mpi": 1.629,
+      "value": 114.62,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T20:01:00Z",
+      "blockheight": 856360,
+      "miner_reserve": 1800072.0,
+      "miner_inflow": 45.7,
+      "miner_outflow": 79.0,
+      "mpi": 1.63,
+      "value": 114.65,
+      "timestamp": 1782763260
+    },
+    {
+      "datetime": "2026-06-29T20:02:00Z",
+      "blockheight": 856361,
+      "miner_reserve": 1800072.2,
+      "miner_inflow": 45.71,
+      "miner_outflow": 79.01,
+      "mpi": 1.631,
+      "value": 114.68,
+      "timestamp": 1782763320
+    },
+    {
+      "datetime": "2026-06-29T20:03:00Z",
+      "blockheight": 856362,
+      "miner_reserve": 1800072.4,
+      "miner_inflow": 45.72,
+      "miner_outflow": 79.02,
+      "mpi": 1.632,
+      "value": 114.71,
+      "timestamp": 1782763380
+    },
+    {
+      "datetime": "2026-06-29T20:04:00Z",
+      "blockheight": 856363,
+      "miner_reserve": 1800072.6,
+      "miner_inflow": 45.73,
+      "miner_outflow": 79.03,
+      "mpi": 1.633,
+      "value": 114.74,
+      "timestamp": 1782763440
+    },
+    {
+      "datetime": "2026-06-29T20:05:00Z",
+      "blockheight": 856364,
+      "miner_reserve": 1800072.8,
+      "miner_inflow": 45.74,
+      "miner_outflow": 79.04,
+      "mpi": 1.634,
+      "value": 114.77,
+      "timestamp": 1782763500
+    },
+    {
+      "datetime": "2026-06-29T20:06:00Z",
+      "blockheight": 856365,
+      "miner_reserve": 1800073.0,
+      "miner_inflow": 45.75,
+      "miner_outflow": 79.05,
+      "mpi": 1.635,
+      "value": 114.8,
+      "timestamp": 1782763560
+    },
+    {
+      "datetime": "2026-06-29T20:07:00Z",
+      "blockheight": 856366,
+      "miner_reserve": 1800073.2,
+      "miner_inflow": 45.76,
+      "miner_outflow": 79.06,
+      "mpi": 1.636,
+      "value": 114.83,
+      "timestamp": 1782763620
+    },
+    {
+      "datetime": "2026-06-29T20:08:00Z",
+      "blockheight": 856367,
+      "miner_reserve": 1800073.4,
+      "miner_inflow": 45.77,
+      "miner_outflow": 79.07,
+      "mpi": 1.637,
+      "value": 114.86,
+      "timestamp": 1782763680
+    },
+    {
+      "datetime": "2026-06-29T20:09:00Z",
+      "blockheight": 856368,
+      "miner_reserve": 1800073.6,
+      "miner_inflow": 45.78,
+      "miner_outflow": 79.08,
+      "mpi": 1.638,
+      "value": 114.89,
+      "timestamp": 1782763740
+    },
+    {
+      "datetime": "2026-06-29T20:10:00Z",
+      "blockheight": 856369,
+      "miner_reserve": 1800073.8,
+      "miner_inflow": 45.79,
+      "miner_outflow": 79.09,
+      "mpi": 1.639,
+      "value": 114.92,
+      "timestamp": 1782763800
+    },
+    {
+      "datetime": "2026-06-29T20:11:00Z",
+      "blockheight": 856370,
+      "miner_reserve": 1800074.0,
+      "miner_inflow": 45.8,
+      "miner_outflow": 79.1,
+      "mpi": 1.64,
+      "value": 114.95,
+      "timestamp": 1782763860
+    },
+    {
+      "datetime": "2026-06-29T20:12:00Z",
+      "blockheight": 856371,
+      "miner_reserve": 1800074.2,
+      "miner_inflow": 45.81,
+      "miner_outflow": 79.11,
+      "mpi": 1.641,
+      "value": 114.98,
+      "timestamp": 1782763920
+    },
+    {
+      "datetime": "2026-06-29T20:13:00Z",
+      "blockheight": 856372,
+      "miner_reserve": 1800074.4,
+      "miner_inflow": 45.82,
+      "miner_outflow": 79.12,
+      "mpi": 1.642,
+      "value": 115.01,
+      "timestamp": 1782763980
+    },
+    {
+      "datetime": "2026-06-29T20:14:00Z",
+      "blockheight": 856373,
+      "miner_reserve": 1800074.6,
+      "miner_inflow": 45.83,
+      "miner_outflow": 79.13,
+      "mpi": 1.643,
+      "value": 115.04,
+      "timestamp": 1782764040
+    },
+    {
+      "datetime": "2026-06-29T20:15:00Z",
+      "blockheight": 856374,
+      "miner_reserve": 1800074.8,
+      "miner_inflow": 45.84,
+      "miner_outflow": 79.14,
+      "mpi": 1.644,
+      "value": 115.07,
+      "timestamp": 1782764100
+    },
+    {
+      "datetime": "2026-06-29T20:16:00Z",
+      "blockheight": 856375,
+      "miner_reserve": 1800075.0,
+      "miner_inflow": 45.85,
+      "miner_outflow": 79.15,
+      "mpi": 1.645,
+      "value": 115.1,
+      "timestamp": 1782764160
+    },
+    {
+      "datetime": "2026-06-29T20:17:00Z",
+      "blockheight": 856376,
+      "miner_reserve": 1800075.2,
+      "miner_inflow": 45.86,
+      "miner_outflow": 79.16,
+      "mpi": 1.646,
+      "value": 115.13,
+      "timestamp": 1782764220
+    },
+    {
+      "datetime": "2026-06-29T20:18:00Z",
+      "blockheight": 856377,
+      "miner_reserve": 1800075.4,
+      "miner_inflow": 45.87,
+      "miner_outflow": 79.17,
+      "mpi": 1.647,
+      "value": 115.16,
+      "timestamp": 1782764280
+    },
+    {
+      "datetime": "2026-06-29T20:19:00Z",
+      "blockheight": 856378,
+      "miner_reserve": 1800075.6,
+      "miner_inflow": 45.88,
+      "miner_outflow": 79.18,
+      "mpi": 1.648,
+      "value": 115.19,
+      "timestamp": 1782764340
+    },
+    {
+      "datetime": "2026-06-29T20:20:00Z",
+      "blockheight": 856379,
+      "miner_reserve": 1800075.8,
+      "miner_inflow": 45.89,
+      "miner_outflow": 79.19,
+      "mpi": 1.649,
+      "value": 115.22,
+      "timestamp": 1782764400
+    },
+    {
+      "datetime": "2026-06-29T20:21:00Z",
+      "blockheight": 856380,
+      "miner_reserve": 1800076.0,
+      "miner_inflow": 45.9,
+      "miner_outflow": 79.2,
+      "mpi": 1.65,
+      "value": 115.25,
+      "timestamp": 1782764460
+    },
+    {
+      "datetime": "2026-06-29T20:22:00Z",
+      "blockheight": 856381,
+      "miner_reserve": 1800076.2,
+      "miner_inflow": 45.91,
+      "miner_outflow": 79.21,
+      "mpi": 1.651,
+      "value": 115.28,
+      "timestamp": 1782764520
+    },
+    {
+      "datetime": "2026-06-29T20:23:00Z",
+      "blockheight": 856382,
+      "miner_reserve": 1800076.4,
+      "miner_inflow": 45.92,
+      "miner_outflow": 79.22,
+      "mpi": 1.652,
+      "value": 115.31,
+      "timestamp": 1782764580
+    },
+    {
+      "datetime": "2026-06-29T20:24:00Z",
+      "blockheight": 856383,
+      "miner_reserve": 1800076.6,
+      "miner_inflow": 45.93,
+      "miner_outflow": 79.23,
+      "mpi": 1.653,
+      "value": 115.34,
+      "timestamp": 1782764640
+    },
+    {
+      "datetime": "2026-06-29T20:25:00Z",
+      "blockheight": 856384,
+      "miner_reserve": 1800076.8,
+      "miner_inflow": 45.94,
+      "miner_outflow": 79.24,
+      "mpi": 1.654,
+      "value": 115.37,
+      "timestamp": 1782764700
+    },
+    {
+      "datetime": "2026-06-29T20:26:00Z",
+      "blockheight": 856385,
+      "miner_reserve": 1800077.0,
+      "miner_inflow": 45.95,
+      "miner_outflow": 79.25,
+      "mpi": 1.655,
+      "value": 115.4,
+      "timestamp": 1782764760
+    },
+    {
+      "datetime": "2026-06-29T20:27:00Z",
+      "blockheight": 856386,
+      "miner_reserve": 1800077.2,
+      "miner_inflow": 45.96,
+      "miner_outflow": 79.26,
+      "mpi": 1.656,
+      "value": 115.43,
+      "timestamp": 1782764820
+    },
+    {
+      "datetime": "2026-06-29T20:28:00Z",
+      "blockheight": 856387,
+      "miner_reserve": 1800077.4,
+      "miner_inflow": 45.97,
+      "miner_outflow": 79.27,
+      "mpi": 1.657,
+      "value": 115.46,
+      "timestamp": 1782764880
+    },
+    {
+      "datetime": "2026-06-29T20:29:00Z",
+      "blockheight": 856388,
+      "miner_reserve": 1800077.6,
+      "miner_inflow": 45.98,
+      "miner_outflow": 79.28,
+      "mpi": 1.658,
+      "value": 115.49,
+      "timestamp": 1782764940
+    },
+    {
+      "datetime": "2026-06-29T20:30:00Z",
+      "blockheight": 856389,
+      "miner_reserve": 1800077.8,
+      "miner_inflow": 45.99,
+      "miner_outflow": 79.29,
+      "mpi": 1.659,
+      "value": 115.52,
+      "timestamp": 1782765000
+    },
+    {
+      "datetime": "2026-06-29T20:31:00Z",
+      "blockheight": 856390,
+      "miner_reserve": 1800078.0,
+      "miner_inflow": 46.0,
+      "miner_outflow": 79.3,
+      "mpi": 1.66,
+      "value": 115.55,
+      "timestamp": 1782765060
+    },
+    {
+      "datetime": "2026-06-29T20:32:00Z",
+      "blockheight": 856391,
+      "miner_reserve": 1800078.2,
+      "miner_inflow": 46.01,
+      "miner_outflow": 79.31,
+      "mpi": 1.661,
+      "value": 115.58,
+      "timestamp": 1782765120
+    },
+    {
+      "datetime": "2026-06-29T20:33:00Z",
+      "blockheight": 856392,
+      "miner_reserve": 1800078.4,
+      "miner_inflow": 46.02,
+      "miner_outflow": 79.32,
+      "mpi": 1.662,
+      "value": 115.61,
+      "timestamp": 1782765180
+    },
+    {
+      "datetime": "2026-06-29T20:34:00Z",
+      "blockheight": 856393,
+      "miner_reserve": 1800078.6,
+      "miner_inflow": 46.03,
+      "miner_outflow": 79.33,
+      "mpi": 1.663,
+      "value": 115.64,
+      "timestamp": 1782765240
+    },
+    {
+      "datetime": "2026-06-29T20:35:00Z",
+      "blockheight": 856394,
+      "miner_reserve": 1800078.8,
+      "miner_inflow": 46.04,
+      "miner_outflow": 79.34,
+      "mpi": 1.664,
+      "value": 115.67,
+      "timestamp": 1782765300
+    },
+    {
+      "datetime": "2026-06-29T20:36:00Z",
+      "blockheight": 856395,
+      "miner_reserve": 1800079.0,
+      "miner_inflow": 46.05,
+      "miner_outflow": 79.35,
+      "mpi": 1.665,
+      "value": 115.7,
+      "timestamp": 1782765360
+    },
+    {
+      "datetime": "2026-06-29T20:37:00Z",
+      "blockheight": 856396,
+      "miner_reserve": 1800079.2,
+      "miner_inflow": 46.06,
+      "miner_outflow": 79.36,
+      "mpi": 1.666,
+      "value": 115.73,
+      "timestamp": 1782765420
+    },
+    {
+      "datetime": "2026-06-29T20:38:00Z",
+      "blockheight": 856397,
+      "miner_reserve": 1800079.4,
+      "miner_inflow": 46.07,
+      "miner_outflow": 79.37,
+      "mpi": 1.667,
+      "value": 115.76,
+      "timestamp": 1782765480
+    },
+    {
+      "datetime": "2026-06-29T20:39:00Z",
+      "blockheight": 856398,
+      "miner_reserve": 1800079.6,
+      "miner_inflow": 46.08,
+      "miner_outflow": 79.38,
+      "mpi": 1.668,
+      "value": 115.79,
+      "timestamp": 1782765540
+    },
+    {
+      "datetime": "2026-06-29T20:40:00Z",
+      "blockheight": 856399,
+      "miner_reserve": 1800079.8,
+      "miner_inflow": 46.09,
+      "miner_outflow": 79.39,
+      "mpi": 1.669,
+      "value": 115.82,
+      "timestamp": 1782765600
+    },
+    {
+      "datetime": "2026-06-29T20:41:00Z",
+      "blockheight": 856400,
+      "miner_reserve": 1800080.0,
+      "miner_inflow": 46.1,
+      "miner_outflow": 79.4,
+      "mpi": 1.67,
+      "value": 115.85,
+      "timestamp": 1782765660
+    },
+    {
+      "datetime": "2026-06-29T20:42:00Z",
+      "blockheight": 856401,
+      "miner_reserve": 1800080.2,
+      "miner_inflow": 46.11,
+      "miner_outflow": 79.41,
+      "mpi": 1.671,
+      "value": 115.88,
+      "timestamp": 1782765720
+    },
+    {
+      "datetime": "2026-06-29T20:43:00Z",
+      "blockheight": 856402,
+      "miner_reserve": 1800080.4,
+      "miner_inflow": 46.12,
+      "miner_outflow": 79.42,
+      "mpi": 1.672,
+      "value": 115.91,
+      "timestamp": 1782765780
+    },
+    {
+      "datetime": "2026-06-29T20:44:00Z",
+      "blockheight": 856403,
+      "miner_reserve": 1800080.6,
+      "miner_inflow": 46.13,
+      "miner_outflow": 79.43,
+      "mpi": 1.673,
+      "value": 115.94,
+      "timestamp": 1782765840
+    },
+    {
+      "datetime": "2026-06-29T20:45:00Z",
+      "blockheight": 856404,
+      "miner_reserve": 1800080.8,
+      "miner_inflow": 46.14,
+      "miner_outflow": 79.44,
+      "mpi": 1.674,
+      "value": 115.97,
+      "timestamp": 1782765900
+    },
+    {
+      "datetime": "2026-06-29T20:46:00Z",
+      "blockheight": 856405,
+      "miner_reserve": 1800081.0,
+      "miner_inflow": 46.15,
+      "miner_outflow": 79.45,
+      "mpi": 1.675,
+      "value": 116.0,
+      "timestamp": 1782765960
+    },
+    {
+      "datetime": "2026-06-29T20:47:00Z",
+      "blockheight": 856406,
+      "miner_reserve": 1800081.2,
+      "miner_inflow": 46.16,
+      "miner_outflow": 79.46,
+      "mpi": 1.676,
+      "value": 116.03,
+      "timestamp": 1782766020
+    },
+    {
+      "datetime": "2026-06-29T20:48:00Z",
+      "blockheight": 856407,
+      "miner_reserve": 1800081.4,
+      "miner_inflow": 46.17,
+      "miner_outflow": 79.47,
+      "mpi": 1.677,
+      "value": 116.06,
+      "timestamp": 1782766080
+    },
+    {
+      "datetime": "2026-06-29T20:49:00Z",
+      "blockheight": 856408,
+      "miner_reserve": 1800081.6,
+      "miner_inflow": 46.18,
+      "miner_outflow": 79.48,
+      "mpi": 1.678,
+      "value": 116.09,
+      "timestamp": 1782766140
+    },
+    {
+      "datetime": "2026-06-29T20:50:00Z",
+      "blockheight": 856409,
+      "miner_reserve": 1800081.8,
+      "miner_inflow": 46.19,
+      "miner_outflow": 79.49,
+      "mpi": 1.679,
+      "value": 116.12,
+      "timestamp": 1782766200
+    },
+    {
+      "datetime": "2026-06-29T20:51:00Z",
+      "blockheight": 856410,
+      "miner_reserve": 1800082.0,
+      "miner_inflow": 46.2,
+      "miner_outflow": 79.5,
+      "mpi": 1.68,
+      "value": 116.15,
+      "timestamp": 1782766260
+    },
+    {
+      "datetime": "2026-06-29T20:52:00Z",
+      "blockheight": 856411,
+      "miner_reserve": 1800082.2,
+      "miner_inflow": 46.21,
+      "miner_outflow": 79.51,
+      "mpi": 1.681,
+      "value": 116.18,
+      "timestamp": 1782766320
+    },
+    {
+      "datetime": "2026-06-29T20:53:00Z",
+      "blockheight": 856412,
+      "miner_reserve": 1800082.4,
+      "miner_inflow": 46.22,
+      "miner_outflow": 79.52,
+      "mpi": 1.682,
+      "value": 116.21,
+      "timestamp": 1782766380
+    },
+    {
+      "datetime": "2026-06-29T20:54:00Z",
+      "blockheight": 856413,
+      "miner_reserve": 1800082.6,
+      "miner_inflow": 46.23,
+      "miner_outflow": 79.53,
+      "mpi": 1.683,
+      "value": 116.24,
+      "timestamp": 1782766440
+    },
+    {
+      "datetime": "2026-06-29T20:55:00Z",
+      "blockheight": 856414,
+      "miner_reserve": 1800082.8,
+      "miner_inflow": 46.24,
+      "miner_outflow": 79.54,
+      "mpi": 1.684,
+      "value": 116.27,
+      "timestamp": 1782766500
+    },
+    {
+      "datetime": "2026-06-29T20:56:00Z",
+      "blockheight": 856415,
+      "miner_reserve": 1800083.0,
+      "miner_inflow": 46.25,
+      "miner_outflow": 79.55,
+      "mpi": 1.685,
+      "value": 116.3,
+      "timestamp": 1782766560
+    },
+    {
+      "datetime": "2026-06-29T20:57:00Z",
+      "blockheight": 856416,
+      "miner_reserve": 1800083.2,
+      "miner_inflow": 46.26,
+      "miner_outflow": 79.56,
+      "mpi": 1.686,
+      "value": 116.33,
+      "timestamp": 1782766620
+    },
+    {
+      "datetime": "2026-06-29T20:58:00Z",
+      "blockheight": 856417,
+      "miner_reserve": 1800083.4,
+      "miner_inflow": 46.27,
+      "miner_outflow": 79.57,
+      "mpi": 1.687,
+      "value": 116.36,
+      "timestamp": 1782766680
+    },
+    {
+      "datetime": "2026-06-29T20:59:00Z",
+      "blockheight": 856418,
+      "miner_reserve": 1800083.6,
+      "miner_inflow": 46.28,
+      "miner_outflow": 79.58,
+      "mpi": 1.688,
+      "value": 116.39,
+      "timestamp": 1782766740
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856419,
+      "miner_reserve": 1800083.8,
+      "miner_inflow": 46.29,
+      "miner_outflow": 79.59,
+      "mpi": 1.689,
+      "value": 116.42,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T21:01:00Z",
+      "blockheight": 856420,
+      "miner_reserve": 1800084.0,
+      "miner_inflow": 46.3,
+      "miner_outflow": 79.6,
+      "mpi": 1.69,
+      "value": 116.45,
+      "timestamp": 1782766860
+    },
+    {
+      "datetime": "2026-06-29T21:02:00Z",
+      "blockheight": 856421,
+      "miner_reserve": 1800084.2,
+      "miner_inflow": 46.31,
+      "miner_outflow": 79.61,
+      "mpi": 1.691,
+      "value": 116.48,
+      "timestamp": 1782766920
+    },
+    {
+      "datetime": "2026-06-29T21:03:00Z",
+      "blockheight": 856422,
+      "miner_reserve": 1800084.4,
+      "miner_inflow": 46.32,
+      "miner_outflow": 79.62,
+      "mpi": 1.692,
+      "value": 116.51,
+      "timestamp": 1782766980
+    },
+    {
+      "datetime": "2026-06-29T21:04:00Z",
+      "blockheight": 856423,
+      "miner_reserve": 1800084.6,
+      "miner_inflow": 46.33,
+      "miner_outflow": 79.63,
+      "mpi": 1.693,
+      "value": 116.54,
+      "timestamp": 1782767040
+    },
+    {
+      "datetime": "2026-06-29T21:05:00Z",
+      "blockheight": 856424,
+      "miner_reserve": 1800084.8,
+      "miner_inflow": 46.34,
+      "miner_outflow": 79.64,
+      "mpi": 1.694,
+      "value": 116.57,
+      "timestamp": 1782767100
+    },
+    {
+      "datetime": "2026-06-29T21:06:00Z",
+      "blockheight": 856425,
+      "miner_reserve": 1800085.0,
+      "miner_inflow": 46.35,
+      "miner_outflow": 79.65,
+      "mpi": 1.695,
+      "value": 116.6,
+      "timestamp": 1782767160
+    },
+    {
+      "datetime": "2026-06-29T21:07:00Z",
+      "blockheight": 856426,
+      "miner_reserve": 1800085.2,
+      "miner_inflow": 46.36,
+      "miner_outflow": 79.66,
+      "mpi": 1.696,
+      "value": 116.63,
+      "timestamp": 1782767220
+    },
+    {
+      "datetime": "2026-06-29T21:08:00Z",
+      "blockheight": 856427,
+      "miner_reserve": 1800085.4,
+      "miner_inflow": 46.37,
+      "miner_outflow": 79.67,
+      "mpi": 1.697,
+      "value": 116.66,
+      "timestamp": 1782767280
+    },
+    {
+      "datetime": "2026-06-29T21:09:00Z",
+      "blockheight": 856428,
+      "miner_reserve": 1800085.6,
+      "miner_inflow": 46.38,
+      "miner_outflow": 79.68,
+      "mpi": 1.698,
+      "value": 116.69,
+      "timestamp": 1782767340
+    },
+    {
+      "datetime": "2026-06-29T21:10:00Z",
+      "blockheight": 856429,
+      "miner_reserve": 1800085.8,
+      "miner_inflow": 46.39,
+      "miner_outflow": 79.69,
+      "mpi": 1.699,
+      "value": 116.72,
+      "timestamp": 1782767400
+    },
+    {
+      "datetime": "2026-06-29T21:11:00Z",
+      "blockheight": 856430,
+      "miner_reserve": 1800086.0,
+      "miner_inflow": 46.4,
+      "miner_outflow": 79.7,
+      "mpi": 1.7,
+      "value": 116.75,
+      "timestamp": 1782767460
+    },
+    {
+      "datetime": "2026-06-29T21:12:00Z",
+      "blockheight": 856431,
+      "miner_reserve": 1800086.2,
+      "miner_inflow": 46.41,
+      "miner_outflow": 79.71,
+      "mpi": 1.701,
+      "value": 116.78,
+      "timestamp": 1782767520
+    },
+    {
+      "datetime": "2026-06-29T21:13:00Z",
+      "blockheight": 856432,
+      "miner_reserve": 1800086.4,
+      "miner_inflow": 46.42,
+      "miner_outflow": 79.72,
+      "mpi": 1.702,
+      "value": 116.81,
+      "timestamp": 1782767580
+    },
+    {
+      "datetime": "2026-06-29T21:14:00Z",
+      "blockheight": 856433,
+      "miner_reserve": 1800086.6,
+      "miner_inflow": 46.43,
+      "miner_outflow": 79.73,
+      "mpi": 1.703,
+      "value": 116.84,
+      "timestamp": 1782767640
+    },
+    {
+      "datetime": "2026-06-29T21:15:00Z",
+      "blockheight": 856434,
+      "miner_reserve": 1800086.8,
+      "miner_inflow": 46.44,
+      "miner_outflow": 79.74,
+      "mpi": 1.704,
+      "value": 116.87,
+      "timestamp": 1782767700
+    },
+    {
+      "datetime": "2026-06-29T21:16:00Z",
+      "blockheight": 856435,
+      "miner_reserve": 1800087.0,
+      "miner_inflow": 46.45,
+      "miner_outflow": 79.75,
+      "mpi": 1.705,
+      "value": 116.9,
+      "timestamp": 1782767760
+    },
+    {
+      "datetime": "2026-06-29T21:17:00Z",
+      "blockheight": 856436,
+      "miner_reserve": 1800087.2,
+      "miner_inflow": 46.46,
+      "miner_outflow": 79.76,
+      "mpi": 1.706,
+      "value": 116.93,
+      "timestamp": 1782767820
+    },
+    {
+      "datetime": "2026-06-29T21:18:00Z",
+      "blockheight": 856437,
+      "miner_reserve": 1800087.4,
+      "miner_inflow": 46.47,
+      "miner_outflow": 79.77,
+      "mpi": 1.707,
+      "value": 116.96,
+      "timestamp": 1782767880
+    },
+    {
+      "datetime": "2026-06-29T21:19:00Z",
+      "blockheight": 856438,
+      "miner_reserve": 1800087.6,
+      "miner_inflow": 46.48,
+      "miner_outflow": 79.78,
+      "mpi": 1.708,
+      "value": 116.99,
+      "timestamp": 1782767940
+    },
+    {
+      "datetime": "2026-06-29T21:20:00Z",
+      "blockheight": 856439,
+      "miner_reserve": 1800087.8,
+      "miner_inflow": 46.49,
+      "miner_outflow": 79.79,
+      "mpi": 1.709,
+      "value": 117.02,
+      "timestamp": 1782768000
+    },
+    {
+      "datetime": "2026-06-29T21:21:00Z",
+      "blockheight": 856440,
+      "miner_reserve": 1800088.0,
+      "miner_inflow": 46.5,
+      "miner_outflow": 79.8,
+      "mpi": 1.71,
+      "value": 117.05,
+      "timestamp": 1782768060
+    },
+    {
+      "datetime": "2026-06-29T21:22:00Z",
+      "blockheight": 856441,
+      "miner_reserve": 1800088.2,
+      "miner_inflow": 46.51,
+      "miner_outflow": 79.81,
+      "mpi": 1.711,
+      "value": 117.08,
+      "timestamp": 1782768120
+    },
+    {
+      "datetime": "2026-06-29T21:23:00Z",
+      "blockheight": 856442,
+      "miner_reserve": 1800088.4,
+      "miner_inflow": 46.52,
+      "miner_outflow": 79.82,
+      "mpi": 1.712,
+      "value": 117.11,
+      "timestamp": 1782768180
+    },
+    {
+      "datetime": "2026-06-29T21:24:00Z",
+      "blockheight": 856443,
+      "miner_reserve": 1800088.6,
+      "miner_inflow": 46.53,
+      "miner_outflow": 79.83,
+      "mpi": 1.713,
+      "value": 117.14,
+      "timestamp": 1782768240
+    },
+    {
+      "datetime": "2026-06-29T21:25:00Z",
+      "blockheight": 856444,
+      "miner_reserve": 1800088.8,
+      "miner_inflow": 46.54,
+      "miner_outflow": 79.84,
+      "mpi": 1.714,
+      "value": 117.17,
+      "timestamp": 1782768300
+    },
+    {
+      "datetime": "2026-06-29T21:26:00Z",
+      "blockheight": 856445,
+      "miner_reserve": 1800089.0,
+      "miner_inflow": 46.55,
+      "miner_outflow": 79.85,
+      "mpi": 1.715,
+      "value": 117.2,
+      "timestamp": 1782768360
+    },
+    {
+      "datetime": "2026-06-29T21:27:00Z",
+      "blockheight": 856446,
+      "miner_reserve": 1800089.2,
+      "miner_inflow": 46.56,
+      "miner_outflow": 79.86,
+      "mpi": 1.716,
+      "value": 117.23,
+      "timestamp": 1782768420
+    },
+    {
+      "datetime": "2026-06-29T21:28:00Z",
+      "blockheight": 856447,
+      "miner_reserve": 1800089.4,
+      "miner_inflow": 46.57,
+      "miner_outflow": 79.87,
+      "mpi": 1.717,
+      "value": 117.26,
+      "timestamp": 1782768480
+    },
+    {
+      "datetime": "2026-06-29T21:29:00Z",
+      "blockheight": 856448,
+      "miner_reserve": 1800089.6,
+      "miner_inflow": 46.58,
+      "miner_outflow": 79.88,
+      "mpi": 1.718,
+      "value": 117.29,
+      "timestamp": 1782768540
+    },
+    {
+      "datetime": "2026-06-29T21:30:00Z",
+      "blockheight": 856449,
+      "miner_reserve": 1800089.8,
+      "miner_inflow": 46.59,
+      "miner_outflow": 79.89,
+      "mpi": 1.719,
+      "value": 117.32,
+      "timestamp": 1782768600
+    },
+    {
+      "datetime": "2026-06-29T21:31:00Z",
+      "blockheight": 856450,
+      "miner_reserve": 1800090.0,
+      "miner_inflow": 46.6,
+      "miner_outflow": 79.9,
+      "mpi": 1.72,
+      "value": 117.35,
+      "timestamp": 1782768660
+    },
+    {
+      "datetime": "2026-06-29T21:32:00Z",
+      "blockheight": 856451,
+      "miner_reserve": 1800090.2,
+      "miner_inflow": 46.61,
+      "miner_outflow": 79.91,
+      "mpi": 1.721,
+      "value": 117.38,
+      "timestamp": 1782768720
+    },
+    {
+      "datetime": "2026-06-29T21:33:00Z",
+      "blockheight": 856452,
+      "miner_reserve": 1800090.4,
+      "miner_inflow": 46.62,
+      "miner_outflow": 79.92,
+      "mpi": 1.722,
+      "value": 117.41,
+      "timestamp": 1782768780
+    },
+    {
+      "datetime": "2026-06-29T21:34:00Z",
+      "blockheight": 856453,
+      "miner_reserve": 1800090.6,
+      "miner_inflow": 46.63,
+      "miner_outflow": 79.93,
+      "mpi": 1.723,
+      "value": 117.44,
+      "timestamp": 1782768840
+    },
+    {
+      "datetime": "2026-06-29T21:35:00Z",
+      "blockheight": 856454,
+      "miner_reserve": 1800090.8,
+      "miner_inflow": 46.64,
+      "miner_outflow": 79.94,
+      "mpi": 1.724,
+      "value": 117.47,
+      "timestamp": 1782768900
+    },
+    {
+      "datetime": "2026-06-29T21:36:00Z",
+      "blockheight": 856455,
+      "miner_reserve": 1800091.0,
+      "miner_inflow": 46.65,
+      "miner_outflow": 79.95,
+      "mpi": 1.725,
+      "value": 117.5,
+      "timestamp": 1782768960
+    },
+    {
+      "datetime": "2026-06-29T21:37:00Z",
+      "blockheight": 856456,
+      "miner_reserve": 1800091.2,
+      "miner_inflow": 46.66,
+      "miner_outflow": 79.96,
+      "mpi": 1.726,
+      "value": 117.53,
+      "timestamp": 1782769020
+    },
+    {
+      "datetime": "2026-06-29T21:38:00Z",
+      "blockheight": 856457,
+      "miner_reserve": 1800091.4,
+      "miner_inflow": 46.67,
+      "miner_outflow": 79.97,
+      "mpi": 1.727,
+      "value": 117.56,
+      "timestamp": 1782769080
+    },
+    {
+      "datetime": "2026-06-29T21:39:00Z",
+      "blockheight": 856458,
+      "miner_reserve": 1800091.6,
+      "miner_inflow": 46.68,
+      "miner_outflow": 79.98,
+      "mpi": 1.728,
+      "value": 117.59,
+      "timestamp": 1782769140
+    },
+    {
+      "datetime": "2026-06-29T21:40:00Z",
+      "blockheight": 856459,
+      "miner_reserve": 1800091.8,
+      "miner_inflow": 46.69,
+      "miner_outflow": 79.99,
+      "mpi": 1.729,
+      "value": 117.62,
+      "timestamp": 1782769200
+    },
+    {
+      "datetime": "2026-06-29T21:41:00Z",
+      "blockheight": 856460,
+      "miner_reserve": 1800092.0,
+      "miner_inflow": 46.7,
+      "miner_outflow": 80.0,
+      "mpi": 1.73,
+      "value": 117.65,
+      "timestamp": 1782769260
+    },
+    {
+      "datetime": "2026-06-29T21:42:00Z",
+      "blockheight": 856461,
+      "miner_reserve": 1800092.2,
+      "miner_inflow": 46.71,
+      "miner_outflow": 80.01,
+      "mpi": 1.731,
+      "value": 117.68,
+      "timestamp": 1782769320
+    },
+    {
+      "datetime": "2026-06-29T21:43:00Z",
+      "blockheight": 856462,
+      "miner_reserve": 1800092.4,
+      "miner_inflow": 46.72,
+      "miner_outflow": 80.02,
+      "mpi": 1.732,
+      "value": 117.71,
+      "timestamp": 1782769380
+    },
+    {
+      "datetime": "2026-06-29T21:44:00Z",
+      "blockheight": 856463,
+      "miner_reserve": 1800092.6,
+      "miner_inflow": 46.73,
+      "miner_outflow": 80.03,
+      "mpi": 1.733,
+      "value": 117.74,
+      "timestamp": 1782769440
+    },
+    {
+      "datetime": "2026-06-29T21:45:00Z",
+      "blockheight": 856464,
+      "miner_reserve": 1800092.8,
+      "miner_inflow": 46.74,
+      "miner_outflow": 80.04,
+      "mpi": 1.734,
+      "value": 117.77,
+      "timestamp": 1782769500
+    },
+    {
+      "datetime": "2026-06-29T21:46:00Z",
+      "blockheight": 856465,
+      "miner_reserve": 1800093.0,
+      "miner_inflow": 46.75,
+      "miner_outflow": 80.05,
+      "mpi": 1.735,
+      "value": 117.8,
+      "timestamp": 1782769560
+    },
+    {
+      "datetime": "2026-06-29T21:47:00Z",
+      "blockheight": 856466,
+      "miner_reserve": 1800093.2,
+      "miner_inflow": 46.76,
+      "miner_outflow": 80.06,
+      "mpi": 1.736,
+      "value": 117.83,
+      "timestamp": 1782769620
+    },
+    {
+      "datetime": "2026-06-29T21:48:00Z",
+      "blockheight": 856467,
+      "miner_reserve": 1800093.4,
+      "miner_inflow": 46.77,
+      "miner_outflow": 80.07,
+      "mpi": 1.737,
+      "value": 117.86,
+      "timestamp": 1782769680
+    },
+    {
+      "datetime": "2026-06-29T21:49:00Z",
+      "blockheight": 856468,
+      "miner_reserve": 1800093.6,
+      "miner_inflow": 46.78,
+      "miner_outflow": 80.08,
+      "mpi": 1.738,
+      "value": 117.89,
+      "timestamp": 1782769740
+    },
+    {
+      "datetime": "2026-06-29T21:50:00Z",
+      "blockheight": 856469,
+      "miner_reserve": 1800093.8,
+      "miner_inflow": 46.79,
+      "miner_outflow": 80.09,
+      "mpi": 1.739,
+      "value": 117.92,
+      "timestamp": 1782769800
+    },
+    {
+      "datetime": "2026-06-29T21:51:00Z",
+      "blockheight": 856470,
+      "miner_reserve": 1800094.0,
+      "miner_inflow": 46.8,
+      "miner_outflow": 80.1,
+      "mpi": 1.74,
+      "value": 117.95,
+      "timestamp": 1782769860
+    },
+    {
+      "datetime": "2026-06-29T21:52:00Z",
+      "blockheight": 856471,
+      "miner_reserve": 1800094.2,
+      "miner_inflow": 46.81,
+      "miner_outflow": 80.11,
+      "mpi": 1.741,
+      "value": 117.98,
+      "timestamp": 1782769920
+    },
+    {
+      "datetime": "2026-06-29T21:53:00Z",
+      "blockheight": 856472,
+      "miner_reserve": 1800094.4,
+      "miner_inflow": 46.82,
+      "miner_outflow": 80.12,
+      "mpi": 1.742,
+      "value": 118.01,
+      "timestamp": 1782769980
+    },
+    {
+      "datetime": "2026-06-29T21:54:00Z",
+      "blockheight": 856473,
+      "miner_reserve": 1800094.6,
+      "miner_inflow": 46.83,
+      "miner_outflow": 80.13,
+      "mpi": 1.743,
+      "value": 118.04,
+      "timestamp": 1782770040
+    },
+    {
+      "datetime": "2026-06-29T21:55:00Z",
+      "blockheight": 856474,
+      "miner_reserve": 1800094.8,
+      "miner_inflow": 46.84,
+      "miner_outflow": 80.14,
+      "mpi": 1.744,
+      "value": 118.07,
+      "timestamp": 1782770100
+    },
+    {
+      "datetime": "2026-06-29T21:56:00Z",
+      "blockheight": 856475,
+      "miner_reserve": 1800095.0,
+      "miner_inflow": 46.85,
+      "miner_outflow": 80.15,
+      "mpi": 1.745,
+      "value": 118.1,
+      "timestamp": 1782770160
+    },
+    {
+      "datetime": "2026-06-29T21:57:00Z",
+      "blockheight": 856476,
+      "miner_reserve": 1800095.2,
+      "miner_inflow": 46.86,
+      "miner_outflow": 80.16,
+      "mpi": 1.746,
+      "value": 118.13,
+      "timestamp": 1782770220
+    },
+    {
+      "datetime": "2026-06-29T21:58:00Z",
+      "blockheight": 856477,
+      "miner_reserve": 1800095.4,
+      "miner_inflow": 46.87,
+      "miner_outflow": 80.17,
+      "mpi": 1.747,
+      "value": 118.16,
+      "timestamp": 1782770280
+    },
+    {
+      "datetime": "2026-06-29T21:59:00Z",
+      "blockheight": 856478,
+      "miner_reserve": 1800095.6,
+      "miner_inflow": 46.88,
+      "miner_outflow": 80.18,
+      "mpi": 1.748,
+      "value": 118.19,
+      "timestamp": 1782770340
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856479,
+      "miner_reserve": 1800095.8,
+      "miner_inflow": 46.89,
+      "miner_outflow": 80.19,
+      "mpi": 1.749,
+      "value": 118.22,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T22:01:00Z",
+      "blockheight": 856480,
+      "miner_reserve": 1800096.0,
+      "miner_inflow": 46.9,
+      "miner_outflow": 80.2,
+      "mpi": 1.75,
+      "value": 118.25,
+      "timestamp": 1782770460
+    },
+    {
+      "datetime": "2026-06-29T22:02:00Z",
+      "blockheight": 856481,
+      "miner_reserve": 1800096.2,
+      "miner_inflow": 46.91,
+      "miner_outflow": 80.21,
+      "mpi": 1.751,
+      "value": 118.28,
+      "timestamp": 1782770520
+    },
+    {
+      "datetime": "2026-06-29T22:03:00Z",
+      "blockheight": 856482,
+      "miner_reserve": 1800096.4,
+      "miner_inflow": 46.92,
+      "miner_outflow": 80.22,
+      "mpi": 1.752,
+      "value": 118.31,
+      "timestamp": 1782770580
+    },
+    {
+      "datetime": "2026-06-29T22:04:00Z",
+      "blockheight": 856483,
+      "miner_reserve": 1800096.6,
+      "miner_inflow": 46.93,
+      "miner_outflow": 80.23,
+      "mpi": 1.753,
+      "value": 118.34,
+      "timestamp": 1782770640
+    },
+    {
+      "datetime": "2026-06-29T22:05:00Z",
+      "blockheight": 856484,
+      "miner_reserve": 1800096.8,
+      "miner_inflow": 46.94,
+      "miner_outflow": 80.24,
+      "mpi": 1.754,
+      "value": 118.37,
+      "timestamp": 1782770700
+    },
+    {
+      "datetime": "2026-06-29T22:06:00Z",
+      "blockheight": 856485,
+      "miner_reserve": 1800097.0,
+      "miner_inflow": 46.95,
+      "miner_outflow": 80.25,
+      "mpi": 1.755,
+      "value": 118.4,
+      "timestamp": 1782770760
+    },
+    {
+      "datetime": "2026-06-29T22:07:00Z",
+      "blockheight": 856486,
+      "miner_reserve": 1800097.2,
+      "miner_inflow": 46.96,
+      "miner_outflow": 80.26,
+      "mpi": 1.756,
+      "value": 118.43,
+      "timestamp": 1782770820
+    },
+    {
+      "datetime": "2026-06-29T22:08:00Z",
+      "blockheight": 856487,
+      "miner_reserve": 1800097.4,
+      "miner_inflow": 46.97,
+      "miner_outflow": 80.27,
+      "mpi": 1.757,
+      "value": 118.46,
+      "timestamp": 1782770880
+    },
+    {
+      "datetime": "2026-06-29T22:09:00Z",
+      "blockheight": 856488,
+      "miner_reserve": 1800097.6,
+      "miner_inflow": 46.98,
+      "miner_outflow": 80.28,
+      "mpi": 1.758,
+      "value": 118.49,
+      "timestamp": 1782770940
+    },
+    {
+      "datetime": "2026-06-29T22:10:00Z",
+      "blockheight": 856489,
+      "miner_reserve": 1800097.8,
+      "miner_inflow": 46.99,
+      "miner_outflow": 80.29,
+      "mpi": 1.759,
+      "value": 118.52,
+      "timestamp": 1782771000
+    },
+    {
+      "datetime": "2026-06-29T22:11:00Z",
+      "blockheight": 856490,
+      "miner_reserve": 1800098.0,
+      "miner_inflow": 47.0,
+      "miner_outflow": 80.3,
+      "mpi": 1.76,
+      "value": 118.55,
+      "timestamp": 1782771060
+    },
+    {
+      "datetime": "2026-06-29T22:12:00Z",
+      "blockheight": 856491,
+      "miner_reserve": 1800098.2,
+      "miner_inflow": 47.01,
+      "miner_outflow": 80.31,
+      "mpi": 1.761,
+      "value": 118.58,
+      "timestamp": 1782771120
+    },
+    {
+      "datetime": "2026-06-29T22:13:00Z",
+      "blockheight": 856492,
+      "miner_reserve": 1800098.4,
+      "miner_inflow": 47.02,
+      "miner_outflow": 80.32,
+      "mpi": 1.762,
+      "value": 118.61,
+      "timestamp": 1782771180
+    },
+    {
+      "datetime": "2026-06-29T22:14:00Z",
+      "blockheight": 856493,
+      "miner_reserve": 1800098.6,
+      "miner_inflow": 47.03,
+      "miner_outflow": 80.33,
+      "mpi": 1.763,
+      "value": 118.64,
+      "timestamp": 1782771240
+    },
+    {
+      "datetime": "2026-06-29T22:15:00Z",
+      "blockheight": 856494,
+      "miner_reserve": 1800098.8,
+      "miner_inflow": 47.04,
+      "miner_outflow": 80.34,
+      "mpi": 1.764,
+      "value": 118.67,
+      "timestamp": 1782771300
+    },
+    {
+      "datetime": "2026-06-29T22:16:00Z",
+      "blockheight": 856495,
+      "miner_reserve": 1800099.0,
+      "miner_inflow": 47.05,
+      "miner_outflow": 80.35,
+      "mpi": 1.765,
+      "value": 118.7,
+      "timestamp": 1782771360
+    },
+    {
+      "datetime": "2026-06-29T22:17:00Z",
+      "blockheight": 856496,
+      "miner_reserve": 1800099.2,
+      "miner_inflow": 47.06,
+      "miner_outflow": 80.36,
+      "mpi": 1.766,
+      "value": 118.73,
+      "timestamp": 1782771420
+    },
+    {
+      "datetime": "2026-06-29T22:18:00Z",
+      "blockheight": 856497,
+      "miner_reserve": 1800099.4,
+      "miner_inflow": 47.07,
+      "miner_outflow": 80.37,
+      "mpi": 1.767,
+      "value": 118.76,
+      "timestamp": 1782771480
+    },
+    {
+      "datetime": "2026-06-29T22:19:00Z",
+      "blockheight": 856498,
+      "miner_reserve": 1800099.6,
+      "miner_inflow": 47.08,
+      "miner_outflow": 80.38,
+      "mpi": 1.768,
+      "value": 118.79,
+      "timestamp": 1782771540
+    },
+    {
+      "datetime": "2026-06-29T22:20:00Z",
+      "blockheight": 856499,
+      "miner_reserve": 1800099.8,
+      "miner_inflow": 47.09,
+      "miner_outflow": 80.39,
+      "mpi": 1.769,
+      "value": 118.82,
+      "timestamp": 1782771600
+    },
+    {
+      "datetime": "2026-06-29T22:21:00Z",
+      "blockheight": 856500,
+      "miner_reserve": 1800100.0,
+      "miner_inflow": 47.1,
+      "miner_outflow": 80.4,
+      "mpi": 1.77,
+      "value": 118.85,
+      "timestamp": 1782771660
+    },
+    {
+      "datetime": "2026-06-29T22:22:00Z",
+      "blockheight": 856501,
+      "miner_reserve": 1800100.2,
+      "miner_inflow": 47.11,
+      "miner_outflow": 80.41,
+      "mpi": 1.771,
+      "value": 118.88,
+      "timestamp": 1782771720
+    },
+    {
+      "datetime": "2026-06-29T22:23:00Z",
+      "blockheight": 856502,
+      "miner_reserve": 1800100.4,
+      "miner_inflow": 47.12,
+      "miner_outflow": 80.42,
+      "mpi": 1.772,
+      "value": 118.91,
+      "timestamp": 1782771780
+    },
+    {
+      "datetime": "2026-06-29T22:24:00Z",
+      "blockheight": 856503,
+      "miner_reserve": 1800100.6,
+      "miner_inflow": 47.13,
+      "miner_outflow": 80.43,
+      "mpi": 1.773,
+      "value": 118.94,
+      "timestamp": 1782771840
+    },
+    {
+      "datetime": "2026-06-29T22:25:00Z",
+      "blockheight": 856504,
+      "miner_reserve": 1800100.8,
+      "miner_inflow": 47.14,
+      "miner_outflow": 80.44,
+      "mpi": 1.774,
+      "value": 118.97,
+      "timestamp": 1782771900
+    },
+    {
+      "datetime": "2026-06-29T22:26:00Z",
+      "blockheight": 856505,
+      "miner_reserve": 1800101.0,
+      "miner_inflow": 47.15,
+      "miner_outflow": 80.45,
+      "mpi": 1.775,
+      "value": 119.0,
+      "timestamp": 1782771960
+    },
+    {
+      "datetime": "2026-06-29T22:27:00Z",
+      "blockheight": 856506,
+      "miner_reserve": 1800101.2,
+      "miner_inflow": 47.16,
+      "miner_outflow": 80.46,
+      "mpi": 1.776,
+      "value": 119.03,
+      "timestamp": 1782772020
+    },
+    {
+      "datetime": "2026-06-29T22:28:00Z",
+      "blockheight": 856507,
+      "miner_reserve": 1800101.4,
+      "miner_inflow": 47.17,
+      "miner_outflow": 80.47,
+      "mpi": 1.777,
+      "value": 119.06,
+      "timestamp": 1782772080
+    },
+    {
+      "datetime": "2026-06-29T22:29:00Z",
+      "blockheight": 856508,
+      "miner_reserve": 1800101.6,
+      "miner_inflow": 47.18,
+      "miner_outflow": 80.48,
+      "mpi": 1.778,
+      "value": 119.09,
+      "timestamp": 1782772140
+    },
+    {
+      "datetime": "2026-06-29T22:30:00Z",
+      "blockheight": 856509,
+      "miner_reserve": 1800101.8,
+      "miner_inflow": 47.19,
+      "miner_outflow": 80.49,
+      "mpi": 1.779,
+      "value": 119.12,
+      "timestamp": 1782772200
+    },
+    {
+      "datetime": "2026-06-29T22:31:00Z",
+      "blockheight": 856510,
+      "miner_reserve": 1800102.0,
+      "miner_inflow": 47.2,
+      "miner_outflow": 80.5,
+      "mpi": 1.78,
+      "value": 119.15,
+      "timestamp": 1782772260
+    },
+    {
+      "datetime": "2026-06-29T22:32:00Z",
+      "blockheight": 856511,
+      "miner_reserve": 1800102.2,
+      "miner_inflow": 47.21,
+      "miner_outflow": 80.51,
+      "mpi": 1.781,
+      "value": 119.18,
+      "timestamp": 1782772320
+    },
+    {
+      "datetime": "2026-06-29T22:33:00Z",
+      "blockheight": 856512,
+      "miner_reserve": 1800102.4,
+      "miner_inflow": 47.22,
+      "miner_outflow": 80.52,
+      "mpi": 1.782,
+      "value": 119.21,
+      "timestamp": 1782772380
+    },
+    {
+      "datetime": "2026-06-29T22:34:00Z",
+      "blockheight": 856513,
+      "miner_reserve": 1800102.6,
+      "miner_inflow": 47.23,
+      "miner_outflow": 80.53,
+      "mpi": 1.783,
+      "value": 119.24,
+      "timestamp": 1782772440
+    },
+    {
+      "datetime": "2026-06-29T22:35:00Z",
+      "blockheight": 856514,
+      "miner_reserve": 1800102.8,
+      "miner_inflow": 47.24,
+      "miner_outflow": 80.54,
+      "mpi": 1.784,
+      "value": 119.27,
+      "timestamp": 1782772500
+    },
+    {
+      "datetime": "2026-06-29T22:36:00Z",
+      "blockheight": 856515,
+      "miner_reserve": 1800103.0,
+      "miner_inflow": 47.25,
+      "miner_outflow": 80.55,
+      "mpi": 1.785,
+      "value": 119.3,
+      "timestamp": 1782772560
+    },
+    {
+      "datetime": "2026-06-29T22:37:00Z",
+      "blockheight": 856516,
+      "miner_reserve": 1800103.2,
+      "miner_inflow": 47.26,
+      "miner_outflow": 80.56,
+      "mpi": 1.786,
+      "value": 119.33,
+      "timestamp": 1782772620
+    },
+    {
+      "datetime": "2026-06-29T22:38:00Z",
+      "blockheight": 856517,
+      "miner_reserve": 1800103.4,
+      "miner_inflow": 47.27,
+      "miner_outflow": 80.57,
+      "mpi": 1.787,
+      "value": 119.36,
+      "timestamp": 1782772680
+    },
+    {
+      "datetime": "2026-06-29T22:39:00Z",
+      "blockheight": 856518,
+      "miner_reserve": 1800103.6,
+      "miner_inflow": 47.28,
+      "miner_outflow": 80.58,
+      "mpi": 1.788,
+      "value": 119.39,
+      "timestamp": 1782772740
+    },
+    {
+      "datetime": "2026-06-29T22:40:00Z",
+      "blockheight": 856519,
+      "miner_reserve": 1800103.8,
+      "miner_inflow": 47.29,
+      "miner_outflow": 80.59,
+      "mpi": 1.789,
+      "value": 119.42,
+      "timestamp": 1782772800
+    },
+    {
+      "datetime": "2026-06-29T22:41:00Z",
+      "blockheight": 856520,
+      "miner_reserve": 1800104.0,
+      "miner_inflow": 47.3,
+      "miner_outflow": 80.6,
+      "mpi": 1.79,
+      "value": 119.45,
+      "timestamp": 1782772860
+    },
+    {
+      "datetime": "2026-06-29T22:42:00Z",
+      "blockheight": 856521,
+      "miner_reserve": 1800104.2,
+      "miner_inflow": 47.31,
+      "miner_outflow": 80.61,
+      "mpi": 1.791,
+      "value": 119.48,
+      "timestamp": 1782772920
+    },
+    {
+      "datetime": "2026-06-29T22:43:00Z",
+      "blockheight": 856522,
+      "miner_reserve": 1800104.4,
+      "miner_inflow": 47.32,
+      "miner_outflow": 80.62,
+      "mpi": 1.792,
+      "value": 119.51,
+      "timestamp": 1782772980
+    },
+    {
+      "datetime": "2026-06-29T22:44:00Z",
+      "blockheight": 856523,
+      "miner_reserve": 1800104.6,
+      "miner_inflow": 47.33,
+      "miner_outflow": 80.63,
+      "mpi": 1.793,
+      "value": 119.54,
+      "timestamp": 1782773040
+    },
+    {
+      "datetime": "2026-06-29T22:45:00Z",
+      "blockheight": 856524,
+      "miner_reserve": 1800104.8,
+      "miner_inflow": 47.34,
+      "miner_outflow": 80.64,
+      "mpi": 1.794,
+      "value": 119.57,
+      "timestamp": 1782773100
+    },
+    {
+      "datetime": "2026-06-29T22:46:00Z",
+      "blockheight": 856525,
+      "miner_reserve": 1800105.0,
+      "miner_inflow": 47.35,
+      "miner_outflow": 80.65,
+      "mpi": 1.795,
+      "value": 119.6,
+      "timestamp": 1782773160
+    },
+    {
+      "datetime": "2026-06-29T22:47:00Z",
+      "blockheight": 856526,
+      "miner_reserve": 1800105.2,
+      "miner_inflow": 47.36,
+      "miner_outflow": 80.66,
+      "mpi": 1.796,
+      "value": 119.63,
+      "timestamp": 1782773220
+    },
+    {
+      "datetime": "2026-06-29T22:48:00Z",
+      "blockheight": 856527,
+      "miner_reserve": 1800105.4,
+      "miner_inflow": 47.37,
+      "miner_outflow": 80.67,
+      "mpi": 1.797,
+      "value": 119.66,
+      "timestamp": 1782773280
+    },
+    {
+      "datetime": "2026-06-29T22:49:00Z",
+      "blockheight": 856528,
+      "miner_reserve": 1800105.6,
+      "miner_inflow": 47.38,
+      "miner_outflow": 80.68,
+      "mpi": 1.798,
+      "value": 119.69,
+      "timestamp": 1782773340
+    },
+    {
+      "datetime": "2026-06-29T22:50:00Z",
+      "blockheight": 856529,
+      "miner_reserve": 1800105.8,
+      "miner_inflow": 47.39,
+      "miner_outflow": 80.69,
+      "mpi": 1.799,
+      "value": 119.72,
+      "timestamp": 1782773400
+    },
+    {
+      "datetime": "2026-06-29T22:51:00Z",
+      "blockheight": 856530,
+      "miner_reserve": 1800106.0,
+      "miner_inflow": 47.4,
+      "miner_outflow": 80.7,
+      "mpi": 1.8,
+      "value": 119.75,
+      "timestamp": 1782773460
+    },
+    {
+      "datetime": "2026-06-29T22:52:00Z",
+      "blockheight": 856531,
+      "miner_reserve": 1800106.2,
+      "miner_inflow": 47.41,
+      "miner_outflow": 80.71,
+      "mpi": 1.801,
+      "value": 119.78,
+      "timestamp": 1782773520
+    },
+    {
+      "datetime": "2026-06-29T22:53:00Z",
+      "blockheight": 856532,
+      "miner_reserve": 1800106.4,
+      "miner_inflow": 47.42,
+      "miner_outflow": 80.72,
+      "mpi": 1.802,
+      "value": 119.81,
+      "timestamp": 1782773580
+    },
+    {
+      "datetime": "2026-06-29T22:54:00Z",
+      "blockheight": 856533,
+      "miner_reserve": 1800106.6,
+      "miner_inflow": 47.43,
+      "miner_outflow": 80.73,
+      "mpi": 1.803,
+      "value": 119.84,
+      "timestamp": 1782773640
+    },
+    {
+      "datetime": "2026-06-29T22:55:00Z",
+      "blockheight": 856534,
+      "miner_reserve": 1800106.8,
+      "miner_inflow": 47.44,
+      "miner_outflow": 80.74,
+      "mpi": 1.804,
+      "value": 119.87,
+      "timestamp": 1782773700
+    },
+    {
+      "datetime": "2026-06-29T22:56:00Z",
+      "blockheight": 856535,
+      "miner_reserve": 1800107.0,
+      "miner_inflow": 47.45,
+      "miner_outflow": 80.75,
+      "mpi": 1.805,
+      "value": 119.9,
+      "timestamp": 1782773760
+    },
+    {
+      "datetime": "2026-06-29T22:57:00Z",
+      "blockheight": 856536,
+      "miner_reserve": 1800107.2,
+      "miner_inflow": 47.46,
+      "miner_outflow": 80.76,
+      "mpi": 1.806,
+      "value": 119.93,
+      "timestamp": 1782773820
+    },
+    {
+      "datetime": "2026-06-29T22:58:00Z",
+      "blockheight": 856537,
+      "miner_reserve": 1800107.4,
+      "miner_inflow": 47.47,
+      "miner_outflow": 80.77,
+      "mpi": 1.807,
+      "value": 119.96,
+      "timestamp": 1782773880
+    },
+    {
+      "datetime": "2026-06-29T22:59:00Z",
+      "blockheight": 856538,
+      "miner_reserve": 1800107.6,
+      "miner_inflow": 47.48,
+      "miner_outflow": 80.78,
+      "mpi": 1.808,
+      "value": 119.99,
+      "timestamp": 1782773940
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856539,
+      "miner_reserve": 1800107.8,
+      "miner_inflow": 47.49,
+      "miner_outflow": 80.79,
+      "mpi": 1.809,
+      "value": 120.02,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-29T23:01:00Z",
+      "blockheight": 856540,
+      "miner_reserve": 1800108.0,
+      "miner_inflow": 47.5,
+      "miner_outflow": 80.8,
+      "mpi": 1.81,
+      "value": 120.05,
+      "timestamp": 1782774060
+    },
+    {
+      "datetime": "2026-06-29T23:02:00Z",
+      "blockheight": 856541,
+      "miner_reserve": 1800108.2,
+      "miner_inflow": 47.51,
+      "miner_outflow": 80.81,
+      "mpi": 1.811,
+      "value": 120.08,
+      "timestamp": 1782774120
+    },
+    {
+      "datetime": "2026-06-29T23:03:00Z",
+      "blockheight": 856542,
+      "miner_reserve": 1800108.4,
+      "miner_inflow": 47.52,
+      "miner_outflow": 80.82,
+      "mpi": 1.812,
+      "value": 120.11,
+      "timestamp": 1782774180
+    },
+    {
+      "datetime": "2026-06-29T23:04:00Z",
+      "blockheight": 856543,
+      "miner_reserve": 1800108.6,
+      "miner_inflow": 47.53,
+      "miner_outflow": 80.83,
+      "mpi": 1.813,
+      "value": 120.14,
+      "timestamp": 1782774240
+    },
+    {
+      "datetime": "2026-06-29T23:05:00Z",
+      "blockheight": 856544,
+      "miner_reserve": 1800108.8,
+      "miner_inflow": 47.54,
+      "miner_outflow": 80.84,
+      "mpi": 1.814,
+      "value": 120.17,
+      "timestamp": 1782774300
+    },
+    {
+      "datetime": "2026-06-29T23:06:00Z",
+      "blockheight": 856545,
+      "miner_reserve": 1800109.0,
+      "miner_inflow": 47.55,
+      "miner_outflow": 80.85,
+      "mpi": 1.815,
+      "value": 120.2,
+      "timestamp": 1782774360
+    },
+    {
+      "datetime": "2026-06-29T23:07:00Z",
+      "blockheight": 856546,
+      "miner_reserve": 1800109.2,
+      "miner_inflow": 47.56,
+      "miner_outflow": 80.86,
+      "mpi": 1.816,
+      "value": 120.23,
+      "timestamp": 1782774420
+    },
+    {
+      "datetime": "2026-06-29T23:08:00Z",
+      "blockheight": 856547,
+      "miner_reserve": 1800109.4,
+      "miner_inflow": 47.57,
+      "miner_outflow": 80.87,
+      "mpi": 1.817,
+      "value": 120.26,
+      "timestamp": 1782774480
+    },
+    {
+      "datetime": "2026-06-29T23:09:00Z",
+      "blockheight": 856548,
+      "miner_reserve": 1800109.6,
+      "miner_inflow": 47.58,
+      "miner_outflow": 80.88,
+      "mpi": 1.818,
+      "value": 120.29,
+      "timestamp": 1782774540
+    },
+    {
+      "datetime": "2026-06-29T23:10:00Z",
+      "blockheight": 856549,
+      "miner_reserve": 1800109.8,
+      "miner_inflow": 47.59,
+      "miner_outflow": 80.89,
+      "mpi": 1.819,
+      "value": 120.32,
+      "timestamp": 1782774600
+    },
+    {
+      "datetime": "2026-06-29T23:11:00Z",
+      "blockheight": 856550,
+      "miner_reserve": 1800110.0,
+      "miner_inflow": 47.6,
+      "miner_outflow": 80.9,
+      "mpi": 1.82,
+      "value": 120.35,
+      "timestamp": 1782774660
+    },
+    {
+      "datetime": "2026-06-29T23:12:00Z",
+      "blockheight": 856551,
+      "miner_reserve": 1800110.2,
+      "miner_inflow": 47.61,
+      "miner_outflow": 80.91,
+      "mpi": 1.821,
+      "value": 120.38,
+      "timestamp": 1782774720
+    },
+    {
+      "datetime": "2026-06-29T23:13:00Z",
+      "blockheight": 856552,
+      "miner_reserve": 1800110.4,
+      "miner_inflow": 47.62,
+      "miner_outflow": 80.92,
+      "mpi": 1.822,
+      "value": 120.41,
+      "timestamp": 1782774780
+    },
+    {
+      "datetime": "2026-06-29T23:14:00Z",
+      "blockheight": 856553,
+      "miner_reserve": 1800110.6,
+      "miner_inflow": 47.63,
+      "miner_outflow": 80.93,
+      "mpi": 1.823,
+      "value": 120.44,
+      "timestamp": 1782774840
+    },
+    {
+      "datetime": "2026-06-29T23:15:00Z",
+      "blockheight": 856554,
+      "miner_reserve": 1800110.8,
+      "miner_inflow": 47.64,
+      "miner_outflow": 80.94,
+      "mpi": 1.824,
+      "value": 120.47,
+      "timestamp": 1782774900
+    },
+    {
+      "datetime": "2026-06-29T23:16:00Z",
+      "blockheight": 856555,
+      "miner_reserve": 1800111.0,
+      "miner_inflow": 47.65,
+      "miner_outflow": 80.95,
+      "mpi": 1.825,
+      "value": 120.5,
+      "timestamp": 1782774960
+    },
+    {
+      "datetime": "2026-06-29T23:17:00Z",
+      "blockheight": 856556,
+      "miner_reserve": 1800111.2,
+      "miner_inflow": 47.66,
+      "miner_outflow": 80.96,
+      "mpi": 1.826,
+      "value": 120.53,
+      "timestamp": 1782775020
+    },
+    {
+      "datetime": "2026-06-29T23:18:00Z",
+      "blockheight": 856557,
+      "miner_reserve": 1800111.4,
+      "miner_inflow": 47.67,
+      "miner_outflow": 80.97,
+      "mpi": 1.827,
+      "value": 120.56,
+      "timestamp": 1782775080
+    },
+    {
+      "datetime": "2026-06-29T23:19:00Z",
+      "blockheight": 856558,
+      "miner_reserve": 1800111.6,
+      "miner_inflow": 47.68,
+      "miner_outflow": 80.98,
+      "mpi": 1.828,
+      "value": 120.59,
+      "timestamp": 1782775140
+    },
+    {
+      "datetime": "2026-06-29T23:20:00Z",
+      "blockheight": 856559,
+      "miner_reserve": 1800111.8,
+      "miner_inflow": 47.69,
+      "miner_outflow": 80.99,
+      "mpi": 1.829,
+      "value": 120.62,
+      "timestamp": 1782775200
+    },
+    {
+      "datetime": "2026-06-29T23:21:00Z",
+      "blockheight": 856560,
+      "miner_reserve": 1800112.0,
+      "miner_inflow": 47.7,
+      "miner_outflow": 81.0,
+      "mpi": 1.83,
+      "value": 120.65,
+      "timestamp": 1782775260
+    },
+    {
+      "datetime": "2026-06-29T23:22:00Z",
+      "blockheight": 856561,
+      "miner_reserve": 1800112.2,
+      "miner_inflow": 47.71,
+      "miner_outflow": 81.01,
+      "mpi": 1.831,
+      "value": 120.68,
+      "timestamp": 1782775320
+    },
+    {
+      "datetime": "2026-06-29T23:23:00Z",
+      "blockheight": 856562,
+      "miner_reserve": 1800112.4,
+      "miner_inflow": 47.72,
+      "miner_outflow": 81.02,
+      "mpi": 1.832,
+      "value": 120.71,
+      "timestamp": 1782775380
+    },
+    {
+      "datetime": "2026-06-29T23:24:00Z",
+      "blockheight": 856563,
+      "miner_reserve": 1800112.6,
+      "miner_inflow": 47.73,
+      "miner_outflow": 81.03,
+      "mpi": 1.833,
+      "value": 120.74,
+      "timestamp": 1782775440
+    },
+    {
+      "datetime": "2026-06-29T23:25:00Z",
+      "blockheight": 856564,
+      "miner_reserve": 1800112.8,
+      "miner_inflow": 47.74,
+      "miner_outflow": 81.04,
+      "mpi": 1.834,
+      "value": 120.77,
+      "timestamp": 1782775500
+    },
+    {
+      "datetime": "2026-06-29T23:26:00Z",
+      "blockheight": 856565,
+      "miner_reserve": 1800113.0,
+      "miner_inflow": 47.75,
+      "miner_outflow": 81.05,
+      "mpi": 1.835,
+      "value": 120.8,
+      "timestamp": 1782775560
+    },
+    {
+      "datetime": "2026-06-29T23:27:00Z",
+      "blockheight": 856566,
+      "miner_reserve": 1800113.2,
+      "miner_inflow": 47.76,
+      "miner_outflow": 81.06,
+      "mpi": 1.836,
+      "value": 120.83,
+      "timestamp": 1782775620
+    },
+    {
+      "datetime": "2026-06-29T23:28:00Z",
+      "blockheight": 856567,
+      "miner_reserve": 1800113.4,
+      "miner_inflow": 47.77,
+      "miner_outflow": 81.07,
+      "mpi": 1.837,
+      "value": 120.86,
+      "timestamp": 1782775680
+    },
+    {
+      "datetime": "2026-06-29T23:29:00Z",
+      "blockheight": 856568,
+      "miner_reserve": 1800113.6,
+      "miner_inflow": 47.78,
+      "miner_outflow": 81.08,
+      "mpi": 1.838,
+      "value": 120.89,
+      "timestamp": 1782775740
+    },
+    {
+      "datetime": "2026-06-29T23:30:00Z",
+      "blockheight": 856569,
+      "miner_reserve": 1800113.8,
+      "miner_inflow": 47.79,
+      "miner_outflow": 81.09,
+      "mpi": 1.839,
+      "value": 120.92,
+      "timestamp": 1782775800
+    },
+    {
+      "datetime": "2026-06-29T23:31:00Z",
+      "blockheight": 856570,
+      "miner_reserve": 1800114.0,
+      "miner_inflow": 47.8,
+      "miner_outflow": 81.1,
+      "mpi": 1.84,
+      "value": 120.95,
+      "timestamp": 1782775860
+    },
+    {
+      "datetime": "2026-06-29T23:32:00Z",
+      "blockheight": 856571,
+      "miner_reserve": 1800114.2,
+      "miner_inflow": 47.81,
+      "miner_outflow": 81.11,
+      "mpi": 1.841,
+      "value": 120.98,
+      "timestamp": 1782775920
+    },
+    {
+      "datetime": "2026-06-29T23:33:00Z",
+      "blockheight": 856572,
+      "miner_reserve": 1800114.4,
+      "miner_inflow": 47.82,
+      "miner_outflow": 81.12,
+      "mpi": 1.842,
+      "value": 121.01,
+      "timestamp": 1782775980
+    },
+    {
+      "datetime": "2026-06-29T23:34:00Z",
+      "blockheight": 856573,
+      "miner_reserve": 1800114.6,
+      "miner_inflow": 47.83,
+      "miner_outflow": 81.13,
+      "mpi": 1.843,
+      "value": 121.04,
+      "timestamp": 1782776040
+    },
+    {
+      "datetime": "2026-06-29T23:35:00Z",
+      "blockheight": 856574,
+      "miner_reserve": 1800114.8,
+      "miner_inflow": 47.84,
+      "miner_outflow": 81.14,
+      "mpi": 1.844,
+      "value": 121.07,
+      "timestamp": 1782776100
+    },
+    {
+      "datetime": "2026-06-29T23:36:00Z",
+      "blockheight": 856575,
+      "miner_reserve": 1800115.0,
+      "miner_inflow": 47.85,
+      "miner_outflow": 81.15,
+      "mpi": 1.845,
+      "value": 121.1,
+      "timestamp": 1782776160
+    },
+    {
+      "datetime": "2026-06-29T23:37:00Z",
+      "blockheight": 856576,
+      "miner_reserve": 1800115.2,
+      "miner_inflow": 47.86,
+      "miner_outflow": 81.16,
+      "mpi": 1.846,
+      "value": 121.13,
+      "timestamp": 1782776220
+    },
+    {
+      "datetime": "2026-06-29T23:38:00Z",
+      "blockheight": 856577,
+      "miner_reserve": 1800115.4,
+      "miner_inflow": 47.87,
+      "miner_outflow": 81.17,
+      "mpi": 1.847,
+      "value": 121.16,
+      "timestamp": 1782776280
+    },
+    {
+      "datetime": "2026-06-29T23:39:00Z",
+      "blockheight": 856578,
+      "miner_reserve": 1800115.6,
+      "miner_inflow": 47.88,
+      "miner_outflow": 81.18,
+      "mpi": 1.848,
+      "value": 121.19,
+      "timestamp": 1782776340
+    },
+    {
+      "datetime": "2026-06-29T23:40:00Z",
+      "blockheight": 856579,
+      "miner_reserve": 1800115.8,
+      "miner_inflow": 47.89,
+      "miner_outflow": 81.19,
+      "mpi": 1.849,
+      "value": 121.22,
+      "timestamp": 1782776400
+    },
+    {
+      "datetime": "2026-06-29T23:41:00Z",
+      "blockheight": 856580,
+      "miner_reserve": 1800116.0,
+      "miner_inflow": 47.9,
+      "miner_outflow": 81.2,
+      "mpi": 1.85,
+      "value": 121.25,
+      "timestamp": 1782776460
+    },
+    {
+      "datetime": "2026-06-29T23:42:00Z",
+      "blockheight": 856581,
+      "miner_reserve": 1800116.2,
+      "miner_inflow": 47.91,
+      "miner_outflow": 81.21,
+      "mpi": 1.851,
+      "value": 121.28,
+      "timestamp": 1782776520
+    },
+    {
+      "datetime": "2026-06-29T23:43:00Z",
+      "blockheight": 856582,
+      "miner_reserve": 1800116.4,
+      "miner_inflow": 47.92,
+      "miner_outflow": 81.22,
+      "mpi": 1.852,
+      "value": 121.31,
+      "timestamp": 1782776580
+    },
+    {
+      "datetime": "2026-06-29T23:44:00Z",
+      "blockheight": 856583,
+      "miner_reserve": 1800116.6,
+      "miner_inflow": 47.93,
+      "miner_outflow": 81.23,
+      "mpi": 1.853,
+      "value": 121.34,
+      "timestamp": 1782776640
+    },
+    {
+      "datetime": "2026-06-29T23:45:00Z",
+      "blockheight": 856584,
+      "miner_reserve": 1800116.8,
+      "miner_inflow": 47.94,
+      "miner_outflow": 81.24,
+      "mpi": 1.854,
+      "value": 121.37,
+      "timestamp": 1782776700
+    },
+    {
+      "datetime": "2026-06-29T23:46:00Z",
+      "blockheight": 856585,
+      "miner_reserve": 1800117.0,
+      "miner_inflow": 47.95,
+      "miner_outflow": 81.25,
+      "mpi": 1.855,
+      "value": 121.4,
+      "timestamp": 1782776760
+    },
+    {
+      "datetime": "2026-06-29T23:47:00Z",
+      "blockheight": 856586,
+      "miner_reserve": 1800117.2,
+      "miner_inflow": 47.96,
+      "miner_outflow": 81.26,
+      "mpi": 1.856,
+      "value": 121.43,
+      "timestamp": 1782776820
+    },
+    {
+      "datetime": "2026-06-29T23:48:00Z",
+      "blockheight": 856587,
+      "miner_reserve": 1800117.4,
+      "miner_inflow": 47.97,
+      "miner_outflow": 81.27,
+      "mpi": 1.857,
+      "value": 121.46,
+      "timestamp": 1782776880
+    },
+    {
+      "datetime": "2026-06-29T23:49:00Z",
+      "blockheight": 856588,
+      "miner_reserve": 1800117.6,
+      "miner_inflow": 47.98,
+      "miner_outflow": 81.28,
+      "mpi": 1.858,
+      "value": 121.49,
+      "timestamp": 1782776940
+    },
+    {
+      "datetime": "2026-06-29T23:50:00Z",
+      "blockheight": 856589,
+      "miner_reserve": 1800117.8,
+      "miner_inflow": 47.99,
+      "miner_outflow": 81.29,
+      "mpi": 1.859,
+      "value": 121.52,
+      "timestamp": 1782777000
+    },
+    {
+      "datetime": "2026-06-29T23:51:00Z",
+      "blockheight": 856590,
+      "miner_reserve": 1800118.0,
+      "miner_inflow": 48.0,
+      "miner_outflow": 81.3,
+      "mpi": 1.86,
+      "value": 121.55,
+      "timestamp": 1782777060
+    },
+    {
+      "datetime": "2026-06-29T23:52:00Z",
+      "blockheight": 856591,
+      "miner_reserve": 1800118.2,
+      "miner_inflow": 48.01,
+      "miner_outflow": 81.31,
+      "mpi": 1.861,
+      "value": 121.58,
+      "timestamp": 1782777120
+    },
+    {
+      "datetime": "2026-06-29T23:53:00Z",
+      "blockheight": 856592,
+      "miner_reserve": 1800118.4,
+      "miner_inflow": 48.02,
+      "miner_outflow": 81.32,
+      "mpi": 1.862,
+      "value": 121.61,
+      "timestamp": 1782777180
+    },
+    {
+      "datetime": "2026-06-29T23:54:00Z",
+      "blockheight": 856593,
+      "miner_reserve": 1800118.6,
+      "miner_inflow": 48.03,
+      "miner_outflow": 81.33,
+      "mpi": 1.863,
+      "value": 121.64,
+      "timestamp": 1782777240
+    },
+    {
+      "datetime": "2026-06-29T23:55:00Z",
+      "blockheight": 856594,
+      "miner_reserve": 1800118.8,
+      "miner_inflow": 48.04,
+      "miner_outflow": 81.34,
+      "mpi": 1.864,
+      "value": 121.67,
+      "timestamp": 1782777300
+    },
+    {
+      "datetime": "2026-06-29T23:56:00Z",
+      "blockheight": 856595,
+      "miner_reserve": 1800119.0,
+      "miner_inflow": 48.05,
+      "miner_outflow": 81.35,
+      "mpi": 1.865,
+      "value": 121.7,
+      "timestamp": 1782777360
+    },
+    {
+      "datetime": "2026-06-29T23:57:00Z",
+      "blockheight": 856596,
+      "miner_reserve": 1800119.2,
+      "miner_inflow": 48.06,
+      "miner_outflow": 81.36,
+      "mpi": 1.866,
+      "value": 121.73,
+      "timestamp": 1782777420
+    },
+    {
+      "datetime": "2026-06-29T23:58:00Z",
+      "blockheight": 856597,
+      "miner_reserve": 1800119.4,
+      "miner_inflow": 48.07,
+      "miner_outflow": 81.37,
+      "mpi": 1.867,
+      "value": 121.76,
+      "timestamp": 1782777480
+    },
+    {
+      "datetime": "2026-06-29T23:59:00Z",
+      "blockheight": 856598,
+      "miner_reserve": 1800119.6,
+      "miner_inflow": 48.08,
+      "miner_outflow": 81.38,
+      "mpi": 1.868,
+      "value": 121.79,
+      "timestamp": 1782777540
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856599,
+      "miner_reserve": 1800119.8,
+      "miner_inflow": 48.09,
+      "miner_outflow": 81.39,
+      "mpi": 1.869,
+      "value": 121.82,
+      "timestamp": 1782777600
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_on_chain_miners_miner_outflow_multiple",
+    "path": null,
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260703T023307Z/on_chain_miners/miner_outflow_multiple/1m_raw.json"
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 600,
+    "duplicates_removed": 0
+  }
+}
