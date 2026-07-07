@@ -1,0 +1,5430 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "liquidations",
+  "subtype": "liquidations",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "hour",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-23T00:00:00Z",
+      "blockheight": 856000,
+      "long_liquidations": 350.0036,
+      "short_liquidations": 9.2013,
+      "long_liquidations_usd": 55739897.84,
+      "short_liquidations_usd": 52615789.73,
+      "timestamp": 1782172800
+    },
+    {
+      "datetime": "2026-06-23T01:00:00Z",
+      "blockheight": 856001,
+      "long_liquidations": 300.7015,
+      "short_liquidations": 709.4708,
+      "long_liquidations_usd": 29208266.47,
+      "short_liquidations_usd": 64031300.85,
+      "timestamp": 1782176400
+    },
+    {
+      "datetime": "2026-06-23T02:00:00Z",
+      "blockheight": 856002,
+      "long_liquidations": 328.2208,
+      "short_liquidations": 512.7226,
+      "long_liquidations_usd": 68387593.77,
+      "short_liquidations_usd": 39979276.65,
+      "timestamp": 1782180000
+    },
+    {
+      "datetime": "2026-06-23T03:00:00Z",
+      "blockheight": 856003,
+      "long_liquidations": 565.688,
+      "short_liquidations": 622.6736,
+      "long_liquidations_usd": 29764984.06,
+      "short_liquidations_usd": 45618019.83,
+      "timestamp": 1782183600
+    },
+    {
+      "datetime": "2026-06-23T04:00:00Z",
+      "blockheight": 856004,
+      "long_liquidations": 481.3791,
+      "short_liquidations": 355.3006,
+      "long_liquidations_usd": 57479676.61,
+      "short_liquidations_usd": 38927721.19,
+      "timestamp": 1782187200
+    },
+    {
+      "datetime": "2026-06-23T05:00:00Z",
+      "blockheight": 856005,
+      "long_liquidations": 244.9517,
+      "short_liquidations": 604.3626,
+      "long_liquidations_usd": 79244149.89,
+      "short_liquidations_usd": 68833669.75,
+      "timestamp": 1782190800
+    },
+    {
+      "datetime": "2026-06-23T06:00:00Z",
+      "blockheight": 856006,
+      "long_liquidations": 686.844,
+      "short_liquidations": 594.8401,
+      "long_liquidations_usd": 60661313.18,
+      "short_liquidations_usd": 61847084.1,
+      "timestamp": 1782194400
+    },
+    {
+      "datetime": "2026-06-23T07:00:00Z",
+      "blockheight": 856007,
+      "long_liquidations": 264.3698,
+      "short_liquidations": 375.6221,
+      "long_liquidations_usd": 56005660.09,
+      "short_liquidations_usd": 20058367.77,
+      "timestamp": 1782198000
+    },
+    {
+      "datetime": "2026-06-23T08:00:00Z",
+      "blockheight": 856008,
+      "long_liquidations": 565.3589,
+      "short_liquidations": 585.1418,
+      "long_liquidations_usd": 58385668.64,
+      "short_liquidations_usd": 24152326.99,
+      "timestamp": 1782201600
+    },
+    {
+      "datetime": "2026-06-23T09:00:00Z",
+      "blockheight": 856009,
+      "long_liquidations": 425.6544,
+      "short_liquidations": 656.0896,
+      "long_liquidations_usd": 41775704.23,
+      "short_liquidations_usd": 41314114.76,
+      "timestamp": 1782205200
+    },
+    {
+      "datetime": "2026-06-23T10:00:00Z",
+      "blockheight": 856010,
+      "long_liquidations": 154.3471,
+      "short_liquidations": 117.8937,
+      "long_liquidations_usd": 56004425.23,
+      "short_liquidations_usd": 36714803.49,
+      "timestamp": 1782208800
+    },
+    {
+      "datetime": "2026-06-23T11:00:00Z",
+      "blockheight": 856011,
+      "long_liquidations": 523.7847,
+      "short_liquidations": 318.4048,
+      "long_liquidations_usd": 59561588.29,
+      "short_liquidations_usd": 39124338.23,
+      "timestamp": 1782212400
+    },
+    {
+      "datetime": "2026-06-23T12:00:00Z",
+      "blockheight": 856012,
+      "long_liquidations": 369.8145,
+      "short_liquidations": 268.4172,
+      "long_liquidations_usd": 30467351.44,
+      "short_liquidations_usd": 46065700.97,
+      "timestamp": 1782216000
+    },
+    {
+      "datetime": "2026-06-23T13:00:00Z",
+      "blockheight": 856013,
+      "long_liquidations": 597.9917,
+      "short_liquidations": 701.752,
+      "long_liquidations_usd": 32703377.17,
+      "short_liquidations_usd": 55217704.59,
+      "timestamp": 1782219600
+    },
+    {
+      "datetime": "2026-06-23T14:00:00Z",
+      "blockheight": 856014,
+      "long_liquidations": 203.4122,
+      "short_liquidations": 323.4618,
+      "long_liquidations_usd": 44915478.94,
+      "short_liquidations_usd": 49416602.33,
+      "timestamp": 1782223200
+    },
+    {
+      "datetime": "2026-06-23T15:00:00Z",
+      "blockheight": 856015,
+      "long_liquidations": 772.4317,
+      "short_liquidations": 348.4504,
+      "long_liquidations_usd": 14594924.72,
+      "short_liquidations_usd": 37697747.02,
+      "timestamp": 1782226800
+    },
+    {
+      "datetime": "2026-06-23T16:00:00Z",
+      "blockheight": 856016,
+      "long_liquidations": 711.5919,
+      "short_liquidations": 708.8584,
+      "long_liquidations_usd": 51087085.74,
+      "short_liquidations_usd": 70457698.61,
+      "timestamp": 1782230400
+    },
+    {
+      "datetime": "2026-06-23T17:00:00Z",
+      "blockheight": 856017,
+      "long_liquidations": 369.0545,
+      "short_liquidations": 505.669,
+      "long_liquidations_usd": 64522469.63,
+      "short_liquidations_usd": 4043165.61,
+      "timestamp": 1782234000
+    },
+    {
+      "datetime": "2026-06-23T18:00:00Z",
+      "blockheight": 856018,
+      "long_liquidations": 390.9636,
+      "short_liquidations": 689.7911,
+      "long_liquidations_usd": 56651047.88,
+      "short_liquidations_usd": 55722997.51,
+      "timestamp": 1782237600
+    },
+    {
+      "datetime": "2026-06-23T19:00:00Z",
+      "blockheight": 856019,
+      "long_liquidations": 187.4469,
+      "short_liquidations": 340.9889,
+      "long_liquidations_usd": 74814961.57,
+      "short_liquidations_usd": 74312806.21,
+      "timestamp": 1782241200
+    },
+    {
+      "datetime": "2026-06-23T20:00:00Z",
+      "blockheight": 856020,
+      "long_liquidations": 588.6899,
+      "short_liquidations": 638.0889,
+      "long_liquidations_usd": 69427390.29,
+      "short_liquidations_usd": 84519225.18,
+      "timestamp": 1782244800
+    },
+    {
+      "datetime": "2026-06-23T21:00:00Z",
+      "blockheight": 856021,
+      "long_liquidations": 231.6886,
+      "short_liquidations": 364.3226,
+      "long_liquidations_usd": 49967117.81,
+      "short_liquidations_usd": 47531686.49,
+      "timestamp": 1782248400
+    },
+    {
+      "datetime": "2026-06-23T22:00:00Z",
+      "blockheight": 856022,
+      "long_liquidations": 628.5756,
+      "short_liquidations": 431.9169,
+      "long_liquidations_usd": 57048415.21,
+      "short_liquidations_usd": 43954680.59,
+      "timestamp": 1782252000
+    },
+    {
+      "datetime": "2026-06-23T23:00:00Z",
+      "blockheight": 856023,
+      "long_liquidations": 508.3496,
+      "short_liquidations": 273.9077,
+      "long_liquidations_usd": 63068235.01,
+      "short_liquidations_usd": 49445085.74,
+      "timestamp": 1782255600
+    },
+    {
+      "datetime": "2026-06-24T00:00:00Z",
+      "blockheight": 856024,
+      "long_liquidations": 309.7753,
+      "short_liquidations": 427.9447,
+      "long_liquidations_usd": 38245337.06,
+      "short_liquidations_usd": 54155136.72,
+      "timestamp": 1782259200
+    },
+    {
+      "datetime": "2026-06-24T01:00:00Z",
+      "blockheight": 856025,
+      "long_liquidations": 182.3802,
+      "short_liquidations": 397.7913,
+      "long_liquidations_usd": 24921209.24,
+      "short_liquidations_usd": 69779054.72,
+      "timestamp": 1782262800
+    },
+    {
+      "datetime": "2026-06-24T02:00:00Z",
+      "blockheight": 856026,
+      "long_liquidations": 483.2012,
+      "short_liquidations": 515.4887,
+      "long_liquidations_usd": 20113084.98,
+      "short_liquidations_usd": 41765819.68,
+      "timestamp": 1782266400
+    },
+    {
+      "datetime": "2026-06-24T03:00:00Z",
+      "blockheight": 856027,
+      "long_liquidations": 482.6772,
+      "short_liquidations": 638.695,
+      "long_liquidations_usd": 49660794.85,
+      "short_liquidations_usd": 49247237.36,
+      "timestamp": 1782270000
+    },
+    {
+      "datetime": "2026-06-24T04:00:00Z",
+      "blockheight": 856028,
+      "long_liquidations": 298.0196,
+      "short_liquidations": 413.3498,
+      "long_liquidations_usd": 67138559.81,
+      "short_liquidations_usd": 58230331.62,
+      "timestamp": 1782273600
+    },
+    {
+      "datetime": "2026-06-24T05:00:00Z",
+      "blockheight": 856029,
+      "long_liquidations": 314.2326,
+      "short_liquidations": 306.6278,
+      "long_liquidations_usd": 20350983.24,
+      "short_liquidations_usd": 10636323.62,
+      "timestamp": 1782277200
+    },
+    {
+      "datetime": "2026-06-24T06:00:00Z",
+      "blockheight": 856030,
+      "long_liquidations": 321.6946,
+      "short_liquidations": 621.5667,
+      "long_liquidations_usd": 20647550.1,
+      "short_liquidations_usd": 27671429.4,
+      "timestamp": 1782280800
+    },
+    {
+      "datetime": "2026-06-24T07:00:00Z",
+      "blockheight": 856031,
+      "long_liquidations": 540.9506,
+      "short_liquidations": 543.9474,
+      "long_liquidations_usd": 47668978.95,
+      "short_liquidations_usd": 29304049.44,
+      "timestamp": 1782284400
+    },
+    {
+      "datetime": "2026-06-24T08:00:00Z",
+      "blockheight": 856032,
+      "long_liquidations": 529.8965,
+      "short_liquidations": 416.4892,
+      "long_liquidations_usd": 50507999.29,
+      "short_liquidations_usd": 33180987.26,
+      "timestamp": 1782288000
+    },
+    {
+      "datetime": "2026-06-24T09:00:00Z",
+      "blockheight": 856033,
+      "long_liquidations": 514.8373,
+      "short_liquidations": 648.5247,
+      "long_liquidations_usd": 13844023.93,
+      "short_liquidations_usd": 59025094.37,
+      "timestamp": 1782291600
+    },
+    {
+      "datetime": "2026-06-24T10:00:00Z",
+      "blockheight": 856034,
+      "long_liquidations": 666.8963,
+      "short_liquidations": 448.925,
+      "long_liquidations_usd": 61736409.47,
+      "short_liquidations_usd": 58984673.13,
+      "timestamp": 1782295200
+    },
+    {
+      "datetime": "2026-06-24T11:00:00Z",
+      "blockheight": 856035,
+      "long_liquidations": 344.2978,
+      "short_liquidations": 593.5244,
+      "long_liquidations_usd": 78719886.43,
+      "short_liquidations_usd": 54798606.88,
+      "timestamp": 1782298800
+    },
+    {
+      "datetime": "2026-06-24T12:00:00Z",
+      "blockheight": 856036,
+      "long_liquidations": 633.1329,
+      "short_liquidations": 86.3806,
+      "long_liquidations_usd": 57420945.38,
+      "short_liquidations_usd": 23117841.55,
+      "timestamp": 1782302400
+    },
+    {
+      "datetime": "2026-06-24T13:00:00Z",
+      "blockheight": 856037,
+      "long_liquidations": 444.4227,
+      "short_liquidations": 679.4583,
+      "long_liquidations_usd": 45293914.75,
+      "short_liquidations_usd": 29343480.67,
+      "timestamp": 1782306000
+    },
+    {
+      "datetime": "2026-06-24T14:00:00Z",
+      "blockheight": 856038,
+      "long_liquidations": 404.9305,
+      "short_liquidations": 623.9314,
+      "long_liquidations_usd": 41635281.78,
+      "short_liquidations_usd": 75013600.34,
+      "timestamp": 1782309600
+    },
+    {
+      "datetime": "2026-06-24T15:00:00Z",
+      "blockheight": 856039,
+      "long_liquidations": 584.0114,
+      "short_liquidations": 672.0115,
+      "long_liquidations_usd": 46177462.66,
+      "short_liquidations_usd": 27179590.32,
+      "timestamp": 1782313200
+    },
+    {
+      "datetime": "2026-06-24T16:00:00Z",
+      "blockheight": 856040,
+      "long_liquidations": 545.7395,
+      "short_liquidations": 47.6191,
+      "long_liquidations_usd": 25301033.62,
+      "short_liquidations_usd": 41972579.8,
+      "timestamp": 1782316800
+    },
+    {
+      "datetime": "2026-06-24T17:00:00Z",
+      "blockheight": 856041,
+      "long_liquidations": 508.1526,
+      "short_liquidations": 504.4274,
+      "long_liquidations_usd": 63303785.14,
+      "short_liquidations_usd": 51895724.35,
+      "timestamp": 1782320400
+    },
+    {
+      "datetime": "2026-06-24T18:00:00Z",
+      "blockheight": 856042,
+      "long_liquidations": 469.687,
+      "short_liquidations": 572.7194,
+      "long_liquidations_usd": 79705245.71,
+      "short_liquidations_usd": 54812846.31,
+      "timestamp": 1782324000
+    },
+    {
+      "datetime": "2026-06-24T19:00:00Z",
+      "blockheight": 856043,
+      "long_liquidations": 420.8975,
+      "short_liquidations": 637.1491,
+      "long_liquidations_usd": 62663173.62,
+      "short_liquidations_usd": 59005322.09,
+      "timestamp": 1782327600
+    },
+    {
+      "datetime": "2026-06-24T20:00:00Z",
+      "blockheight": 856044,
+      "long_liquidations": 564.6479,
+      "short_liquidations": 237.526,
+      "long_liquidations_usd": 43066399.56,
+      "short_liquidations_usd": 5606166.31,
+      "timestamp": 1782331200
+    },
+    {
+      "datetime": "2026-06-24T21:00:00Z",
+      "blockheight": 856045,
+      "long_liquidations": 291.4105,
+      "short_liquidations": 319.8344,
+      "long_liquidations_usd": 31585963.49,
+      "short_liquidations_usd": 60328414.18,
+      "timestamp": 1782334800
+    },
+    {
+      "datetime": "2026-06-24T22:00:00Z",
+      "blockheight": 856046,
+      "long_liquidations": 332.7635,
+      "short_liquidations": 603.31,
+      "long_liquidations_usd": 99473368.16,
+      "short_liquidations_usd": 39893210.07,
+      "timestamp": 1782338400
+    },
+    {
+      "datetime": "2026-06-24T23:00:00Z",
+      "blockheight": 856047,
+      "long_liquidations": 875.1589,
+      "short_liquidations": 571.5912,
+      "long_liquidations_usd": 31664750.37,
+      "short_liquidations_usd": 52402693.01,
+      "timestamp": 1782342000
+    },
+    {
+      "datetime": "2026-06-25T00:00:00Z",
+      "blockheight": 856048,
+      "long_liquidations": 785.4921,
+      "short_liquidations": 380.6673,
+      "long_liquidations_usd": 27043404.93,
+      "short_liquidations_usd": 36453585.81,
+      "timestamp": 1782345600
+    },
+    {
+      "datetime": "2026-06-25T01:00:00Z",
+      "blockheight": 856049,
+      "long_liquidations": 525.4588,
+      "short_liquidations": 30.5487,
+      "long_liquidations_usd": 55251157.03,
+      "short_liquidations_usd": 82371508.62,
+      "timestamp": 1782349200
+    },
+    {
+      "datetime": "2026-06-25T02:00:00Z",
+      "blockheight": 856050,
+      "long_liquidations": 428.0765,
+      "short_liquidations": 201.7485,
+      "long_liquidations_usd": 72970556.58,
+      "short_liquidations_usd": 59921598.15,
+      "timestamp": 1782352800
+    },
+    {
+      "datetime": "2026-06-25T03:00:00Z",
+      "blockheight": 856051,
+      "long_liquidations": 477.1393,
+      "short_liquidations": 349.8214,
+      "long_liquidations_usd": 41320826.92,
+      "short_liquidations_usd": 34351341.8,
+      "timestamp": 1782356400
+    },
+    {
+      "datetime": "2026-06-25T04:00:00Z",
+      "blockheight": 856052,
+      "long_liquidations": 694.3409,
+      "short_liquidations": 697.9785,
+      "long_liquidations_usd": 21016012.27,
+      "short_liquidations_usd": 53327870.75,
+      "timestamp": 1782360000
+    },
+    {
+      "datetime": "2026-06-25T05:00:00Z",
+      "blockheight": 856053,
+      "long_liquidations": 590.1147,
+      "short_liquidations": 428.7473,
+      "long_liquidations_usd": 74777104.56,
+      "short_liquidations_usd": 71433275.78,
+      "timestamp": 1782363600
+    },
+    {
+      "datetime": "2026-06-25T06:00:00Z",
+      "blockheight": 856054,
+      "long_liquidations": 708.9121,
+      "short_liquidations": 530.8236,
+      "long_liquidations_usd": 53405391.46,
+      "short_liquidations_usd": 54175079.31,
+      "timestamp": 1782367200
+    },
+    {
+      "datetime": "2026-06-25T07:00:00Z",
+      "blockheight": 856055,
+      "long_liquidations": 827.8174,
+      "short_liquidations": 410.9423,
+      "long_liquidations_usd": 66535905.17,
+      "short_liquidations_usd": 57580021.61,
+      "timestamp": 1782370800
+    },
+    {
+      "datetime": "2026-06-25T08:00:00Z",
+      "blockheight": 856056,
+      "long_liquidations": 736.5071,
+      "short_liquidations": 779.4917,
+      "long_liquidations_usd": 82032530.31,
+      "short_liquidations_usd": 61847964.98,
+      "timestamp": 1782374400
+    },
+    {
+      "datetime": "2026-06-25T09:00:00Z",
+      "blockheight": 856057,
+      "long_liquidations": 116.653,
+      "short_liquidations": 384.0476,
+      "long_liquidations_usd": 41750530.48,
+      "short_liquidations_usd": 50083798.22,
+      "timestamp": 1782378000
+    },
+    {
+      "datetime": "2026-06-25T10:00:00Z",
+      "blockheight": 856058,
+      "long_liquidations": 852.0827,
+      "short_liquidations": 518.8428,
+      "long_liquidations_usd": 58531870.19,
+      "short_liquidations_usd": 35891998.34,
+      "timestamp": 1782381600
+    },
+    {
+      "datetime": "2026-06-25T11:00:00Z",
+      "blockheight": 856059,
+      "long_liquidations": 55.6681,
+      "short_liquidations": 300.0264,
+      "long_liquidations_usd": 57765000.23,
+      "short_liquidations_usd": 28571434.29,
+      "timestamp": 1782385200
+    },
+    {
+      "datetime": "2026-06-25T12:00:00Z",
+      "blockheight": 856060,
+      "long_liquidations": 230.6924,
+      "short_liquidations": 228.072,
+      "long_liquidations_usd": 51219372.63,
+      "short_liquidations_usd": 53394220.66,
+      "timestamp": 1782388800
+    },
+    {
+      "datetime": "2026-06-25T13:00:00Z",
+      "blockheight": 856061,
+      "long_liquidations": 731.1785,
+      "short_liquidations": 422.2831,
+      "long_liquidations_usd": 81559148.38,
+      "short_liquidations_usd": 19631899.08,
+      "timestamp": 1782392400
+    },
+    {
+      "datetime": "2026-06-25T14:00:00Z",
+      "blockheight": 856062,
+      "long_liquidations": 441.7853,
+      "short_liquidations": 441.4053,
+      "long_liquidations_usd": 49727438.76,
+      "short_liquidations_usd": 14485217.74,
+      "timestamp": 1782396000
+    },
+    {
+      "datetime": "2026-06-25T15:00:00Z",
+      "blockheight": 856063,
+      "long_liquidations": 312.8651,
+      "short_liquidations": 361.9102,
+      "long_liquidations_usd": 21252222.45,
+      "short_liquidations_usd": 45880263.9,
+      "timestamp": 1782399600
+    },
+    {
+      "datetime": "2026-06-25T16:00:00Z",
+      "blockheight": 856064,
+      "long_liquidations": 274.8488,
+      "short_liquidations": 647.7475,
+      "long_liquidations_usd": 58801905.05,
+      "short_liquidations_usd": 4673470.42,
+      "timestamp": 1782403200
+    },
+    {
+      "datetime": "2026-06-25T17:00:00Z",
+      "blockheight": 856065,
+      "long_liquidations": 369.6655,
+      "short_liquidations": 689.4603,
+      "long_liquidations_usd": 50523416.93,
+      "short_liquidations_usd": 38142625.32,
+      "timestamp": 1782406800
+    },
+    {
+      "datetime": "2026-06-25T18:00:00Z",
+      "blockheight": 856066,
+      "long_liquidations": 431.7224,
+      "short_liquidations": 52.4675,
+      "long_liquidations_usd": 44650573.88,
+      "short_liquidations_usd": 58301153.91,
+      "timestamp": 1782410400
+    },
+    {
+      "datetime": "2026-06-25T19:00:00Z",
+      "blockheight": 856067,
+      "long_liquidations": 255.7817,
+      "short_liquidations": 40.4126,
+      "long_liquidations_usd": 55232396.02,
+      "short_liquidations_usd": 23854579.21,
+      "timestamp": 1782414000
+    },
+    {
+      "datetime": "2026-06-25T20:00:00Z",
+      "blockheight": 856068,
+      "long_liquidations": 652.1167,
+      "short_liquidations": 181.8982,
+      "long_liquidations_usd": 76079633.65,
+      "short_liquidations_usd": 64250800.24,
+      "timestamp": 1782417600
+    },
+    {
+      "datetime": "2026-06-25T21:00:00Z",
+      "blockheight": 856069,
+      "long_liquidations": 831.9406,
+      "short_liquidations": 725.185,
+      "long_liquidations_usd": 17220326.71,
+      "short_liquidations_usd": 81404604.99,
+      "timestamp": 1782421200
+    },
+    {
+      "datetime": "2026-06-25T22:00:00Z",
+      "blockheight": 856070,
+      "long_liquidations": 730.2317,
+      "short_liquidations": 606.0792,
+      "long_liquidations_usd": 49842093.37,
+      "short_liquidations_usd": 64328071.64,
+      "timestamp": 1782424800
+    },
+    {
+      "datetime": "2026-06-25T23:00:00Z",
+      "blockheight": 856071,
+      "long_liquidations": 590.0311,
+      "short_liquidations": 556.1251,
+      "long_liquidations_usd": 62806835.32,
+      "short_liquidations_usd": 62166093.86,
+      "timestamp": 1782428400
+    },
+    {
+      "datetime": "2026-06-26T00:00:00Z",
+      "blockheight": 856072,
+      "long_liquidations": 343.6939,
+      "short_liquidations": 570.2147,
+      "long_liquidations_usd": 55224971.79,
+      "short_liquidations_usd": 30276149.68,
+      "timestamp": 1782432000
+    },
+    {
+      "datetime": "2026-06-26T01:00:00Z",
+      "blockheight": 856073,
+      "long_liquidations": 685.2701,
+      "short_liquidations": 529.3104,
+      "long_liquidations_usd": 20034057.04,
+      "short_liquidations_usd": 58746571.9,
+      "timestamp": 1782435600
+    },
+    {
+      "datetime": "2026-06-26T02:00:00Z",
+      "blockheight": 856074,
+      "long_liquidations": 486.4566,
+      "short_liquidations": 211.6151,
+      "long_liquidations_usd": 30994043.49,
+      "short_liquidations_usd": 55707922.71,
+      "timestamp": 1782439200
+    },
+    {
+      "datetime": "2026-06-26T03:00:00Z",
+      "blockheight": 856075,
+      "long_liquidations": 681.2598,
+      "short_liquidations": 311.3059,
+      "long_liquidations_usd": 60403793.29,
+      "short_liquidations_usd": 56579243.61,
+      "timestamp": 1782442800
+    },
+    {
+      "datetime": "2026-06-26T04:00:00Z",
+      "blockheight": 856076,
+      "long_liquidations": 687.8945,
+      "short_liquidations": 469.8641,
+      "long_liquidations_usd": 81103011.23,
+      "short_liquidations_usd": 56554371.88,
+      "timestamp": 1782446400
+    },
+    {
+      "datetime": "2026-06-26T05:00:00Z",
+      "blockheight": 856077,
+      "long_liquidations": 662.8589,
+      "short_liquidations": 417.7806,
+      "long_liquidations_usd": 33515337.25,
+      "short_liquidations_usd": 61235444.3,
+      "timestamp": 1782450000
+    },
+    {
+      "datetime": "2026-06-26T06:00:00Z",
+      "blockheight": 856078,
+      "long_liquidations": 283.5131,
+      "short_liquidations": 482.486,
+      "long_liquidations_usd": 66623998.09,
+      "short_liquidations_usd": 51666251.73,
+      "timestamp": 1782453600
+    },
+    {
+      "datetime": "2026-06-26T07:00:00Z",
+      "blockheight": 856079,
+      "long_liquidations": 431.2564,
+      "short_liquidations": 527.0094,
+      "long_liquidations_usd": 43078548.42,
+      "short_liquidations_usd": 39049104.84,
+      "timestamp": 1782457200
+    },
+    {
+      "datetime": "2026-06-26T08:00:00Z",
+      "blockheight": 856080,
+      "long_liquidations": 796.1473,
+      "short_liquidations": 114.4305,
+      "long_liquidations_usd": 7848171.54,
+      "short_liquidations_usd": 16812122.37,
+      "timestamp": 1782460800
+    },
+    {
+      "datetime": "2026-06-26T09:00:00Z",
+      "blockheight": 856081,
+      "long_liquidations": 439.5262,
+      "short_liquidations": 490.6793,
+      "long_liquidations_usd": 88219118.72,
+      "short_liquidations_usd": 24478635.21,
+      "timestamp": 1782464400
+    },
+    {
+      "datetime": "2026-06-26T10:00:00Z",
+      "blockheight": 856082,
+      "long_liquidations": 611.881,
+      "short_liquidations": 405.6977,
+      "long_liquidations_usd": 35184963.98,
+      "short_liquidations_usd": 41207191.2,
+      "timestamp": 1782468000
+    },
+    {
+      "datetime": "2026-06-26T11:00:00Z",
+      "blockheight": 856083,
+      "long_liquidations": 122.8347,
+      "short_liquidations": 348.8033,
+      "long_liquidations_usd": 40158823.85,
+      "short_liquidations_usd": 40445786.2,
+      "timestamp": 1782471600
+    },
+    {
+      "datetime": "2026-06-26T12:00:00Z",
+      "blockheight": 856084,
+      "long_liquidations": 311.23,
+      "short_liquidations": 549.9765,
+      "long_liquidations_usd": 46610330.17,
+      "short_liquidations_usd": 12943513.45,
+      "timestamp": 1782475200
+    },
+    {
+      "datetime": "2026-06-26T13:00:00Z",
+      "blockheight": 856085,
+      "long_liquidations": 337.2715,
+      "short_liquidations": 180.8927,
+      "long_liquidations_usd": 26186306.47,
+      "short_liquidations_usd": 38119456.37,
+      "timestamp": 1782478800
+    },
+    {
+      "datetime": "2026-06-26T14:00:00Z",
+      "blockheight": 856086,
+      "long_liquidations": 437.8771,
+      "short_liquidations": 561.4274,
+      "long_liquidations_usd": 19827162.94,
+      "short_liquidations_usd": 47938427.49,
+      "timestamp": 1782482400
+    },
+    {
+      "datetime": "2026-06-26T15:00:00Z",
+      "blockheight": 856087,
+      "long_liquidations": 275.7671,
+      "short_liquidations": 514.0139,
+      "long_liquidations_usd": 93944167.46,
+      "short_liquidations_usd": 34295527.54,
+      "timestamp": 1782486000
+    },
+    {
+      "datetime": "2026-06-26T16:00:00Z",
+      "blockheight": 856088,
+      "long_liquidations": 542.1711,
+      "short_liquidations": 92.7366,
+      "long_liquidations_usd": 72521870.29,
+      "short_liquidations_usd": 54031703.74,
+      "timestamp": 1782489600
+    },
+    {
+      "datetime": "2026-06-26T17:00:00Z",
+      "blockheight": 856089,
+      "long_liquidations": 553.4406,
+      "short_liquidations": 468.7158,
+      "long_liquidations_usd": 72772359.27,
+      "short_liquidations_usd": 37430780.65,
+      "timestamp": 1782493200
+    },
+    {
+      "datetime": "2026-06-26T18:00:00Z",
+      "blockheight": 856090,
+      "long_liquidations": 526.5773,
+      "short_liquidations": 594.7589,
+      "long_liquidations_usd": 65439286.03,
+      "short_liquidations_usd": 29264586.82,
+      "timestamp": 1782496800
+    },
+    {
+      "datetime": "2026-06-26T19:00:00Z",
+      "blockheight": 856091,
+      "long_liquidations": 421.3724,
+      "short_liquidations": 500.6714,
+      "long_liquidations_usd": 48323838.74,
+      "short_liquidations_usd": 55947950.88,
+      "timestamp": 1782500400
+    },
+    {
+      "datetime": "2026-06-26T20:00:00Z",
+      "blockheight": 856092,
+      "long_liquidations": 240.3961,
+      "short_liquidations": 927.8879,
+      "long_liquidations_usd": 31953054.59,
+      "short_liquidations_usd": 50820597.43,
+      "timestamp": 1782504000
+    },
+    {
+      "datetime": "2026-06-26T21:00:00Z",
+      "blockheight": 856093,
+      "long_liquidations": 26.3979,
+      "short_liquidations": 521.8779,
+      "long_liquidations_usd": 40517120.89,
+      "short_liquidations_usd": 70401887.66,
+      "timestamp": 1782507600
+    },
+    {
+      "datetime": "2026-06-26T22:00:00Z",
+      "blockheight": 856094,
+      "long_liquidations": 614.4757,
+      "short_liquidations": 408.4129,
+      "long_liquidations_usd": 67051084.63,
+      "short_liquidations_usd": 68671566.87,
+      "timestamp": 1782511200
+    },
+    {
+      "datetime": "2026-06-26T23:00:00Z",
+      "blockheight": 856095,
+      "long_liquidations": 402.1685,
+      "short_liquidations": 184.0217,
+      "long_liquidations_usd": 56046312.04,
+      "short_liquidations_usd": 61248644.16,
+      "timestamp": 1782514800
+    },
+    {
+      "datetime": "2026-06-27T00:00:00Z",
+      "blockheight": 856096,
+      "long_liquidations": 430.7379,
+      "short_liquidations": 26.4571,
+      "long_liquidations_usd": 34719207.34,
+      "short_liquidations_usd": 51229285.09,
+      "timestamp": 1782518400
+    },
+    {
+      "datetime": "2026-06-27T01:00:00Z",
+      "blockheight": 856097,
+      "long_liquidations": 763.5147,
+      "short_liquidations": 420.5939,
+      "long_liquidations_usd": 47877398.35,
+      "short_liquidations_usd": 57796683.25,
+      "timestamp": 1782522000
+    },
+    {
+      "datetime": "2026-06-27T02:00:00Z",
+      "blockheight": 856098,
+      "long_liquidations": 614.6672,
+      "short_liquidations": 638.1932,
+      "long_liquidations_usd": 51817682.12,
+      "short_liquidations_usd": 47858070.28,
+      "timestamp": 1782525600
+    },
+    {
+      "datetime": "2026-06-27T03:00:00Z",
+      "blockheight": 856099,
+      "long_liquidations": 457.6333,
+      "short_liquidations": 491.9549,
+      "long_liquidations_usd": 66539347.42,
+      "short_liquidations_usd": 30196586.62,
+      "timestamp": 1782529200
+    },
+    {
+      "datetime": "2026-06-27T04:00:00Z",
+      "blockheight": 856100,
+      "long_liquidations": 717.2035,
+      "short_liquidations": 253.543,
+      "long_liquidations_usd": 10461643.28,
+      "short_liquidations_usd": 21070179.15,
+      "timestamp": 1782532800
+    },
+    {
+      "datetime": "2026-06-27T05:00:00Z",
+      "blockheight": 856101,
+      "long_liquidations": 425.6594,
+      "short_liquidations": 397.6551,
+      "long_liquidations_usd": 57774488.51,
+      "short_liquidations_usd": 30062146.53,
+      "timestamp": 1782536400
+    },
+    {
+      "datetime": "2026-06-27T06:00:00Z",
+      "blockheight": 856102,
+      "long_liquidations": 613.096,
+      "short_liquidations": 604.1759,
+      "long_liquidations_usd": 61817391.13,
+      "short_liquidations_usd": 36314567.94,
+      "timestamp": 1782540000
+    },
+    {
+      "datetime": "2026-06-27T07:00:00Z",
+      "blockheight": 856103,
+      "long_liquidations": 218.4547,
+      "short_liquidations": 229.383,
+      "long_liquidations_usd": 42528467.01,
+      "short_liquidations_usd": 58901427.29,
+      "timestamp": 1782543600
+    },
+    {
+      "datetime": "2026-06-27T08:00:00Z",
+      "blockheight": 856104,
+      "long_liquidations": 693.1583,
+      "short_liquidations": 39.6024,
+      "long_liquidations_usd": 37679642.14,
+      "short_liquidations_usd": 59096009.31,
+      "timestamp": 1782547200
+    },
+    {
+      "datetime": "2026-06-27T09:00:00Z",
+      "blockheight": 856105,
+      "long_liquidations": 568.1343,
+      "short_liquidations": 444.2562,
+      "long_liquidations_usd": 80029623.51,
+      "short_liquidations_usd": 67453505.68,
+      "timestamp": 1782550800
+    },
+    {
+      "datetime": "2026-06-27T10:00:00Z",
+      "blockheight": 856106,
+      "long_liquidations": 707.8668,
+      "short_liquidations": 593.836,
+      "long_liquidations_usd": 54161606.17,
+      "short_liquidations_usd": 36906739.61,
+      "timestamp": 1782554400
+    },
+    {
+      "datetime": "2026-06-27T11:00:00Z",
+      "blockheight": 856107,
+      "long_liquidations": 750.5356,
+      "short_liquidations": 720.291,
+      "long_liquidations_usd": 14403540.36,
+      "short_liquidations_usd": 39348267.01,
+      "timestamp": 1782558000
+    },
+    {
+      "datetime": "2026-06-27T12:00:00Z",
+      "blockheight": 856108,
+      "long_liquidations": 323.3388,
+      "short_liquidations": 502.6783,
+      "long_liquidations_usd": 845982.69,
+      "short_liquidations_usd": 29626385.75,
+      "timestamp": 1782561600
+    },
+    {
+      "datetime": "2026-06-27T13:00:00Z",
+      "blockheight": 856109,
+      "long_liquidations": 468.0471,
+      "short_liquidations": 10.0298,
+      "long_liquidations_usd": 58994521.94,
+      "short_liquidations_usd": 31226235.49,
+      "timestamp": 1782565200
+    },
+    {
+      "datetime": "2026-06-27T14:00:00Z",
+      "blockheight": 856110,
+      "long_liquidations": 597.4918,
+      "short_liquidations": 414.8829,
+      "long_liquidations_usd": 53196849.45,
+      "short_liquidations_usd": 44945872.14,
+      "timestamp": 1782568800
+    },
+    {
+      "datetime": "2026-06-27T15:00:00Z",
+      "blockheight": 856111,
+      "long_liquidations": 909.4611,
+      "short_liquidations": 466.1409,
+      "long_liquidations_usd": 45309452.17,
+      "short_liquidations_usd": 49573643.06,
+      "timestamp": 1782572400
+    },
+    {
+      "datetime": "2026-06-27T16:00:00Z",
+      "blockheight": 856112,
+      "long_liquidations": 924.4626,
+      "short_liquidations": 373.0198,
+      "long_liquidations_usd": 61293156.55,
+      "short_liquidations_usd": 63389718.9,
+      "timestamp": 1782576000
+    },
+    {
+      "datetime": "2026-06-27T17:00:00Z",
+      "blockheight": 856113,
+      "long_liquidations": 226.3587,
+      "short_liquidations": 190.2423,
+      "long_liquidations_usd": 46685597.08,
+      "short_liquidations_usd": 58764215.2,
+      "timestamp": 1782579600
+    },
+    {
+      "datetime": "2026-06-27T18:00:00Z",
+      "blockheight": 856114,
+      "long_liquidations": 730.6308,
+      "short_liquidations": 420.7689,
+      "long_liquidations_usd": 53774584.84,
+      "short_liquidations_usd": 58756582.68,
+      "timestamp": 1782583200
+    },
+    {
+      "datetime": "2026-06-27T19:00:00Z",
+      "blockheight": 856115,
+      "long_liquidations": 1.4263,
+      "short_liquidations": 430.6089,
+      "long_liquidations_usd": 104225736.68,
+      "short_liquidations_usd": 14349529.04,
+      "timestamp": 1782586800
+    },
+    {
+      "datetime": "2026-06-27T20:00:00Z",
+      "blockheight": 856116,
+      "long_liquidations": 477.907,
+      "short_liquidations": 468.3181,
+      "long_liquidations_usd": 60576316.86,
+      "short_liquidations_usd": 19377005.01,
+      "timestamp": 1782590400
+    },
+    {
+      "datetime": "2026-06-27T21:00:00Z",
+      "blockheight": 856117,
+      "long_liquidations": 165.6246,
+      "short_liquidations": 268.3162,
+      "long_liquidations_usd": 20058233.06,
+      "short_liquidations_usd": 40851825.76,
+      "timestamp": 1782594000
+    },
+    {
+      "datetime": "2026-06-27T22:00:00Z",
+      "blockheight": 856118,
+      "long_liquidations": 147.8333,
+      "short_liquidations": 751.7936,
+      "long_liquidations_usd": 54856115.91,
+      "short_liquidations_usd": 48263167.61,
+      "timestamp": 1782597600
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856119,
+      "long_liquidations": 618.1604,
+      "short_liquidations": 386.2481,
+      "long_liquidations_usd": 55537257.71,
+      "short_liquidations_usd": 19864448.72,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856120,
+      "long_liquidations": 546.2804,
+      "short_liquidations": 663.9707,
+      "long_liquidations_usd": 15814251.51,
+      "short_liquidations_usd": 62195199.51,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856121,
+      "long_liquidations": 328.6911,
+      "short_liquidations": 338.2056,
+      "long_liquidations_usd": 87756987.03,
+      "short_liquidations_usd": 34420877.73,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856122,
+      "long_liquidations": 114.1487,
+      "short_liquidations": 447.8816,
+      "long_liquidations_usd": 50446981.67,
+      "short_liquidations_usd": 20509508.54,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856123,
+      "long_liquidations": 475.1973,
+      "short_liquidations": 652.379,
+      "long_liquidations_usd": 26672369.0,
+      "short_liquidations_usd": 30158063.36,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856124,
+      "long_liquidations": 569.2756,
+      "short_liquidations": 582.2536,
+      "long_liquidations_usd": 40222593.09,
+      "short_liquidations_usd": 7848098.72,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856125,
+      "long_liquidations": 469.7422,
+      "short_liquidations": 428.2414,
+      "long_liquidations_usd": 36804760.02,
+      "short_liquidations_usd": 61811645.64,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856126,
+      "long_liquidations": 480.5465,
+      "short_liquidations": 539.8171,
+      "long_liquidations_usd": 39268324.1,
+      "short_liquidations_usd": 7682065.53,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856127,
+      "long_liquidations": 873.3578,
+      "short_liquidations": 167.2903,
+      "long_liquidations_usd": 31389092.96,
+      "short_liquidations_usd": 23009755.64,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856128,
+      "long_liquidations": 341.6402,
+      "short_liquidations": 494.6637,
+      "long_liquidations_usd": 37564559.7,
+      "short_liquidations_usd": 76942797.35,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856129,
+      "long_liquidations": 561.8516,
+      "short_liquidations": 478.1188,
+      "long_liquidations_usd": 61575271.38,
+      "short_liquidations_usd": 70388154.9,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856130,
+      "long_liquidations": 1022.793,
+      "short_liquidations": 595.6957,
+      "long_liquidations_usd": 27479118.34,
+      "short_liquidations_usd": 37254422.72,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856131,
+      "long_liquidations": 964.3419,
+      "short_liquidations": 142.181,
+      "long_liquidations_usd": 82418220.07,
+      "short_liquidations_usd": 8638139.93,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856132,
+      "long_liquidations": 976.1857,
+      "short_liquidations": 702.9328,
+      "long_liquidations_usd": 34088202.14,
+      "short_liquidations_usd": 80241379.44,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856133,
+      "long_liquidations": 467.747,
+      "short_liquidations": 399.0964,
+      "long_liquidations_usd": 42530591.47,
+      "short_liquidations_usd": 48825811.74,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856134,
+      "long_liquidations": 321.3811,
+      "short_liquidations": 926.4746,
+      "long_liquidations_usd": 19569364.08,
+      "short_liquidations_usd": 90475744.8,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856135,
+      "long_liquidations": 308.2759,
+      "short_liquidations": 194.0199,
+      "long_liquidations_usd": 46936514.76,
+      "short_liquidations_usd": 21286169.16,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856136,
+      "long_liquidations": 348.4952,
+      "short_liquidations": 257.6385,
+      "long_liquidations_usd": 84942015.09,
+      "short_liquidations_usd": 85217850.66,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856137,
+      "long_liquidations": 164.9833,
+      "short_liquidations": 391.1656,
+      "long_liquidations_usd": 65392147.82,
+      "short_liquidations_usd": 66164889.31,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856138,
+      "long_liquidations": 190.2055,
+      "short_liquidations": 315.136,
+      "long_liquidations_usd": 71882731.55,
+      "short_liquidations_usd": 59749763.38,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856139,
+      "long_liquidations": 664.0988,
+      "short_liquidations": 681.8475,
+      "long_liquidations_usd": 19298563.13,
+      "short_liquidations_usd": 49378842.37,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856140,
+      "long_liquidations": 442.7345,
+      "short_liquidations": 458.3359,
+      "long_liquidations_usd": 40884390.4,
+      "short_liquidations_usd": 17190317.27,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856141,
+      "long_liquidations": 1002.5665,
+      "short_liquidations": 632.4909,
+      "long_liquidations_usd": 51439720.81,
+      "short_liquidations_usd": 69872363.8,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856142,
+      "long_liquidations": 557.1008,
+      "short_liquidations": 329.442,
+      "long_liquidations_usd": 41167458.33,
+      "short_liquidations_usd": 38935776.51,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856143,
+      "long_liquidations": 469.4317,
+      "short_liquidations": 760.2071,
+      "long_liquidations_usd": 63961841.38,
+      "short_liquidations_usd": 19649584.42,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856144,
+      "long_liquidations": 90.9221,
+      "short_liquidations": 240.2526,
+      "long_liquidations_usd": 64313134.38,
+      "short_liquidations_usd": 30618008.97,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856145,
+      "long_liquidations": 709.4449,
+      "short_liquidations": 252.0254,
+      "long_liquidations_usd": 27731510.72,
+      "short_liquidations_usd": 41414816.64,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856146,
+      "long_liquidations": 950.6374,
+      "short_liquidations": 578.1745,
+      "long_liquidations_usd": 74119790.67,
+      "short_liquidations_usd": 67154810.04,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856147,
+      "long_liquidations": 682.2278,
+      "short_liquidations": 414.2134,
+      "long_liquidations_usd": 40905164.63,
+      "short_liquidations_usd": 42944918.17,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856148,
+      "long_liquidations": 370.1963,
+      "short_liquidations": 1009.4102,
+      "long_liquidations_usd": 35843038.4,
+      "short_liquidations_usd": 39305730.15,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856149,
+      "long_liquidations": 384.7814,
+      "short_liquidations": 218.9771,
+      "long_liquidations_usd": 55376380.49,
+      "short_liquidations_usd": 51943153.67,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856150,
+      "long_liquidations": 223.76,
+      "short_liquidations": 466.9393,
+      "long_liquidations_usd": 50161497.43,
+      "short_liquidations_usd": 35036312.37,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856151,
+      "long_liquidations": 184.6869,
+      "short_liquidations": 302.3441,
+      "long_liquidations_usd": 34342060.29,
+      "short_liquidations_usd": 32764468.28,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856152,
+      "long_liquidations": 333.4168,
+      "short_liquidations": 458.9421,
+      "long_liquidations_usd": 46494907.6,
+      "short_liquidations_usd": 53437664.51,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856153,
+      "long_liquidations": 584.8552,
+      "short_liquidations": 314.7009,
+      "long_liquidations_usd": 62786492.97,
+      "short_liquidations_usd": 51135739.19,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856154,
+      "long_liquidations": 735.0437,
+      "short_liquidations": 441.6069,
+      "long_liquidations_usd": 29664142.38,
+      "short_liquidations_usd": 35790491.3,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856155,
+      "long_liquidations": 917.5577,
+      "short_liquidations": 547.499,
+      "long_liquidations_usd": 64133288.99,
+      "short_liquidations_usd": 59595925.47,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856156,
+      "long_liquidations": 634.262,
+      "short_liquidations": 490.7875,
+      "long_liquidations_usd": 84218116.32,
+      "short_liquidations_usd": 33465778.64,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856157,
+      "long_liquidations": 403.3095,
+      "short_liquidations": 597.371,
+      "long_liquidations_usd": 24167641.9,
+      "short_liquidations_usd": 47515635.38,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856158,
+      "long_liquidations": 489.6771,
+      "short_liquidations": 419.8091,
+      "long_liquidations_usd": 42604035.39,
+      "short_liquidations_usd": 77480315.31,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856159,
+      "long_liquidations": 551.7648,
+      "short_liquidations": 49.9258,
+      "long_liquidations_usd": 25951769.07,
+      "short_liquidations_usd": 48617066.56,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856160,
+      "long_liquidations": 365.9773,
+      "short_liquidations": 594.0053,
+      "long_liquidations_usd": 17511895.96,
+      "short_liquidations_usd": 42215467.86,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856161,
+      "long_liquidations": 402.7295,
+      "short_liquidations": 657.215,
+      "long_liquidations_usd": 41148795.84,
+      "short_liquidations_usd": 52124058.84,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856162,
+      "long_liquidations": 520.9771,
+      "short_liquidations": 541.9882,
+      "long_liquidations_usd": 55121586.87,
+      "short_liquidations_usd": 50096525.41,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856163,
+      "long_liquidations": 534.899,
+      "short_liquidations": 100.6845,
+      "long_liquidations_usd": 70089981.65,
+      "short_liquidations_usd": 50296503.41,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856164,
+      "long_liquidations": 518.1154,
+      "short_liquidations": 179.0322,
+      "long_liquidations_usd": 54554530.86,
+      "short_liquidations_usd": 76467467.98,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856165,
+      "long_liquidations": 542.2375,
+      "short_liquidations": 129.2149,
+      "long_liquidations_usd": 33805490.05,
+      "short_liquidations_usd": 44460176.61,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856166,
+      "long_liquidations": 498.2846,
+      "short_liquidations": 261.7835,
+      "long_liquidations_usd": 40174735.39,
+      "short_liquidations_usd": 57933914.29,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856167,
+      "long_liquidations": 203.4158,
+      "short_liquidations": 495.4684,
+      "long_liquidations_usd": 69314123.64,
+      "short_liquidations_usd": 68720759.75,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856168,
+      "long_liquidations": 549.2697,
+      "short_liquidations": 331.2831,
+      "long_liquidations_usd": 53422440.96,
+      "short_liquidations_usd": 63144740.17,
+      "timestamp": 1782777600
+    },
+    {
+      "datetime": "2026-06-30T01:00:00Z",
+      "blockheight": 856169,
+      "long_liquidations": 490.927,
+      "short_liquidations": 345.809,
+      "long_liquidations_usd": 36858957.2,
+      "short_liquidations_usd": 27701673.23,
+      "timestamp": 1782781200
+    },
+    {
+      "datetime": "2026-06-30T02:00:00Z",
+      "blockheight": 856170,
+      "long_liquidations": 323.0742,
+      "short_liquidations": 230.8727,
+      "long_liquidations_usd": 30674124.98,
+      "short_liquidations_usd": 76547335.59,
+      "timestamp": 1782784800
+    },
+    {
+      "datetime": "2026-06-30T03:00:00Z",
+      "blockheight": 856171,
+      "long_liquidations": 493.5037,
+      "short_liquidations": 403.2981,
+      "long_liquidations_usd": 34854519.65,
+      "short_liquidations_usd": 44050454.65,
+      "timestamp": 1782788400
+    },
+    {
+      "datetime": "2026-06-30T04:00:00Z",
+      "blockheight": 856172,
+      "long_liquidations": 795.7031,
+      "short_liquidations": 278.9159,
+      "long_liquidations_usd": 23714185.07,
+      "short_liquidations_usd": 48336207.98,
+      "timestamp": 1782792000
+    },
+    {
+      "datetime": "2026-06-30T05:00:00Z",
+      "blockheight": 856173,
+      "long_liquidations": 451.3767,
+      "short_liquidations": 149.0513,
+      "long_liquidations_usd": 27660022.39,
+      "short_liquidations_usd": 53126392.68,
+      "timestamp": 1782795600
+    },
+    {
+      "datetime": "2026-06-30T06:00:00Z",
+      "blockheight": 856174,
+      "long_liquidations": 333.6234,
+      "short_liquidations": 629.6226,
+      "long_liquidations_usd": 63339255.88,
+      "short_liquidations_usd": 40528685.75,
+      "timestamp": 1782799200
+    },
+    {
+      "datetime": "2026-06-30T07:00:00Z",
+      "blockheight": 856175,
+      "long_liquidations": 403.0191,
+      "short_liquidations": 473.903,
+      "long_liquidations_usd": 67915943.14,
+      "short_liquidations_usd": 29190114.36,
+      "timestamp": 1782802800
+    },
+    {
+      "datetime": "2026-06-30T08:00:00Z",
+      "blockheight": 856176,
+      "long_liquidations": 382.6488,
+      "short_liquidations": 714.8263,
+      "long_liquidations_usd": 41223988.52,
+      "short_liquidations_usd": 41118296.27,
+      "timestamp": 1782806400
+    },
+    {
+      "datetime": "2026-06-30T09:00:00Z",
+      "blockheight": 856177,
+      "long_liquidations": 166.8557,
+      "short_liquidations": 89.2914,
+      "long_liquidations_usd": 46331244.27,
+      "short_liquidations_usd": 68390953.51,
+      "timestamp": 1782810000
+    },
+    {
+      "datetime": "2026-06-30T10:00:00Z",
+      "blockheight": 856178,
+      "long_liquidations": 651.6273,
+      "short_liquidations": 569.7536,
+      "long_liquidations_usd": 52530371.19,
+      "short_liquidations_usd": 43067734.85,
+      "timestamp": 1782813600
+    },
+    {
+      "datetime": "2026-06-30T11:00:00Z",
+      "blockheight": 856179,
+      "long_liquidations": 552.1748,
+      "short_liquidations": 301.2177,
+      "long_liquidations_usd": 28434950.96,
+      "short_liquidations_usd": 60297969.92,
+      "timestamp": 1782817200
+    },
+    {
+      "datetime": "2026-06-30T12:00:00Z",
+      "blockheight": 856180,
+      "long_liquidations": 202.6105,
+      "short_liquidations": 283.9792,
+      "long_liquidations_usd": 61846529.63,
+      "short_liquidations_usd": 48121486.09,
+      "timestamp": 1782820800
+    },
+    {
+      "datetime": "2026-06-30T13:00:00Z",
+      "blockheight": 856181,
+      "long_liquidations": 789.3719,
+      "short_liquidations": 374.4821,
+      "long_liquidations_usd": 46079756.91,
+      "short_liquidations_usd": 60070364.84,
+      "timestamp": 1782824400
+    },
+    {
+      "datetime": "2026-06-30T14:00:00Z",
+      "blockheight": 856182,
+      "long_liquidations": 470.9508,
+      "short_liquidations": 101.2801,
+      "long_liquidations_usd": 39046622.66,
+      "short_liquidations_usd": 75458268.36,
+      "timestamp": 1782828000
+    },
+    {
+      "datetime": "2026-06-30T15:00:00Z",
+      "blockheight": 856183,
+      "long_liquidations": 179.5433,
+      "short_liquidations": 215.5093,
+      "long_liquidations_usd": 49575145.46,
+      "short_liquidations_usd": 21648197.02,
+      "timestamp": 1782831600
+    },
+    {
+      "datetime": "2026-06-30T16:00:00Z",
+      "blockheight": 856184,
+      "long_liquidations": 461.5955,
+      "short_liquidations": 432.9485,
+      "long_liquidations_usd": 60724463.49,
+      "short_liquidations_usd": 55915843.49,
+      "timestamp": 1782835200
+    },
+    {
+      "datetime": "2026-06-30T17:00:00Z",
+      "blockheight": 856185,
+      "long_liquidations": 595.224,
+      "short_liquidations": 177.5222,
+      "long_liquidations_usd": 57322281.88,
+      "short_liquidations_usd": 40002063.38,
+      "timestamp": 1782838800
+    },
+    {
+      "datetime": "2026-06-30T18:00:00Z",
+      "blockheight": 856186,
+      "long_liquidations": 680.6538,
+      "short_liquidations": 780.6671,
+      "long_liquidations_usd": 29982145.89,
+      "short_liquidations_usd": 52083814.19,
+      "timestamp": 1782842400
+    },
+    {
+      "datetime": "2026-06-30T19:00:00Z",
+      "blockheight": 856187,
+      "long_liquidations": 742.3445,
+      "short_liquidations": 525.2239,
+      "long_liquidations_usd": 68110282.14,
+      "short_liquidations_usd": 72692943.67,
+      "timestamp": 1782846000
+    },
+    {
+      "datetime": "2026-06-30T20:00:00Z",
+      "blockheight": 856188,
+      "long_liquidations": 211.2853,
+      "short_liquidations": 312.7347,
+      "long_liquidations_usd": 45704795.35,
+      "short_liquidations_usd": 43780083.19,
+      "timestamp": 1782849600
+    },
+    {
+      "datetime": "2026-06-30T21:00:00Z",
+      "blockheight": 856189,
+      "long_liquidations": 431.2687,
+      "short_liquidations": 812.2188,
+      "long_liquidations_usd": 57341101.69,
+      "short_liquidations_usd": 37567809.63,
+      "timestamp": 1782853200
+    },
+    {
+      "datetime": "2026-06-30T22:00:00Z",
+      "blockheight": 856190,
+      "long_liquidations": 652.4486,
+      "short_liquidations": 536.0615,
+      "long_liquidations_usd": 69092736.97,
+      "short_liquidations_usd": 27439725.59,
+      "timestamp": 1782856800
+    },
+    {
+      "datetime": "2026-06-30T23:00:00Z",
+      "blockheight": 856191,
+      "long_liquidations": 152.723,
+      "short_liquidations": 898.004,
+      "long_liquidations_usd": 70645375.02,
+      "short_liquidations_usd": 47806358.65,
+      "timestamp": 1782860400
+    },
+    {
+      "datetime": "2026-07-01T00:00:00Z",
+      "blockheight": 856192,
+      "long_liquidations": 250.889,
+      "short_liquidations": 719.2779,
+      "long_liquidations_usd": 65450279.18,
+      "short_liquidations_usd": 23609144.5,
+      "timestamp": 1782864000
+    },
+    {
+      "datetime": "2026-07-01T01:00:00Z",
+      "blockheight": 856193,
+      "long_liquidations": 329.7689,
+      "short_liquidations": 445.5139,
+      "long_liquidations_usd": 27721066.97,
+      "short_liquidations_usd": 41896200.53,
+      "timestamp": 1782867600
+    },
+    {
+      "datetime": "2026-07-01T02:00:00Z",
+      "blockheight": 856194,
+      "long_liquidations": 606.7798,
+      "short_liquidations": 474.6702,
+      "long_liquidations_usd": 84030715.95,
+      "short_liquidations_usd": 55113852.27,
+      "timestamp": 1782871200
+    },
+    {
+      "datetime": "2026-07-01T03:00:00Z",
+      "blockheight": 856195,
+      "long_liquidations": 365.2688,
+      "short_liquidations": 159.3416,
+      "long_liquidations_usd": 10307525.36,
+      "short_liquidations_usd": 35297117.68,
+      "timestamp": 1782874800
+    },
+    {
+      "datetime": "2026-07-01T04:00:00Z",
+      "blockheight": 856196,
+      "long_liquidations": 377.5628,
+      "short_liquidations": 284.5108,
+      "long_liquidations_usd": 17239385.78,
+      "short_liquidations_usd": 31325811.67,
+      "timestamp": 1782878400
+    },
+    {
+      "datetime": "2026-07-01T05:00:00Z",
+      "blockheight": 856197,
+      "long_liquidations": 299.4264,
+      "short_liquidations": 685.8115,
+      "long_liquidations_usd": 45626882.77,
+      "short_liquidations_usd": 26641286.19,
+      "timestamp": 1782882000
+    },
+    {
+      "datetime": "2026-07-01T06:00:00Z",
+      "blockheight": 856198,
+      "long_liquidations": 368.8568,
+      "short_liquidations": 609.3254,
+      "long_liquidations_usd": 34229551.59,
+      "short_liquidations_usd": 28556426.77,
+      "timestamp": 1782885600
+    },
+    {
+      "datetime": "2026-07-01T07:00:00Z",
+      "blockheight": 856199,
+      "long_liquidations": 608.2219,
+      "short_liquidations": 58.5998,
+      "long_liquidations_usd": 33888988.07,
+      "short_liquidations_usd": 25133023.87,
+      "timestamp": 1782889200
+    },
+    {
+      "datetime": "2026-07-01T08:00:00Z",
+      "blockheight": 856200,
+      "long_liquidations": 346.5254,
+      "short_liquidations": 376.0871,
+      "long_liquidations_usd": 36207638.86,
+      "short_liquidations_usd": 38875361.26,
+      "timestamp": 1782892800
+    },
+    {
+      "datetime": "2026-07-01T09:00:00Z",
+      "blockheight": 856201,
+      "long_liquidations": 678.9474,
+      "short_liquidations": 429.7042,
+      "long_liquidations_usd": 19278064.08,
+      "short_liquidations_usd": 39494235.84,
+      "timestamp": 1782896400
+    },
+    {
+      "datetime": "2026-07-01T10:00:00Z",
+      "blockheight": 856202,
+      "long_liquidations": 528.5664,
+      "short_liquidations": 492.4688,
+      "long_liquidations_usd": 64789362.63,
+      "short_liquidations_usd": 41643727.02,
+      "timestamp": 1782900000
+    },
+    {
+      "datetime": "2026-07-01T11:00:00Z",
+      "blockheight": 856203,
+      "long_liquidations": 809.1468,
+      "short_liquidations": 21.3896,
+      "long_liquidations_usd": 54362049.57,
+      "short_liquidations_usd": 50127409.7,
+      "timestamp": 1782903600
+    },
+    {
+      "datetime": "2026-07-01T12:00:00Z",
+      "blockheight": 856204,
+      "long_liquidations": 360.9828,
+      "short_liquidations": 379.1723,
+      "long_liquidations_usd": 60209293.62,
+      "short_liquidations_usd": 19591421.72,
+      "timestamp": 1782907200
+    },
+    {
+      "datetime": "2026-07-01T13:00:00Z",
+      "blockheight": 856205,
+      "long_liquidations": 380.3402,
+      "short_liquidations": 487.8962,
+      "long_liquidations_usd": 62723986.19,
+      "short_liquidations_usd": 37236104.51,
+      "timestamp": 1782910800
+    },
+    {
+      "datetime": "2026-07-01T14:00:00Z",
+      "blockheight": 856206,
+      "long_liquidations": 372.2823,
+      "short_liquidations": 217.8297,
+      "long_liquidations_usd": 38475490.32,
+      "short_liquidations_usd": 44805683.45,
+      "timestamp": 1782914400
+    },
+    {
+      "datetime": "2026-07-01T15:00:00Z",
+      "blockheight": 856207,
+      "long_liquidations": 589.3452,
+      "short_liquidations": 337.4348,
+      "long_liquidations_usd": 69930420.48,
+      "short_liquidations_usd": 44020061.68,
+      "timestamp": 1782918000
+    },
+    {
+      "datetime": "2026-07-01T16:00:00Z",
+      "blockheight": 856208,
+      "long_liquidations": 179.1422,
+      "short_liquidations": 360.3616,
+      "long_liquidations_usd": 60658750.19,
+      "short_liquidations_usd": 61138077.86,
+      "timestamp": 1782921600
+    },
+    {
+      "datetime": "2026-07-01T17:00:00Z",
+      "blockheight": 856209,
+      "long_liquidations": 517.563,
+      "short_liquidations": 426.0548,
+      "long_liquidations_usd": 53610929.74,
+      "short_liquidations_usd": 12734162.06,
+      "timestamp": 1782925200
+    },
+    {
+      "datetime": "2026-07-01T18:00:00Z",
+      "blockheight": 856210,
+      "long_liquidations": 785.2075,
+      "short_liquidations": 364.7398,
+      "long_liquidations_usd": 30541119.89,
+      "short_liquidations_usd": 59468033.79,
+      "timestamp": 1782928800
+    },
+    {
+      "datetime": "2026-07-01T19:00:00Z",
+      "blockheight": 856211,
+      "long_liquidations": 586.4588,
+      "short_liquidations": 231.0549,
+      "long_liquidations_usd": 60732708.48,
+      "short_liquidations_usd": 63881148.08,
+      "timestamp": 1782932400
+    },
+    {
+      "datetime": "2026-07-01T20:00:00Z",
+      "blockheight": 856212,
+      "long_liquidations": 226.7533,
+      "short_liquidations": 200.0835,
+      "long_liquidations_usd": 48562004.26,
+      "short_liquidations_usd": 55124984.59,
+      "timestamp": 1782936000
+    },
+    {
+      "datetime": "2026-07-01T21:00:00Z",
+      "blockheight": 856213,
+      "long_liquidations": 673.6231,
+      "short_liquidations": 724.6859,
+      "long_liquidations_usd": 46979609.17,
+      "short_liquidations_usd": 42439155.25,
+      "timestamp": 1782939600
+    },
+    {
+      "datetime": "2026-07-01T22:00:00Z",
+      "blockheight": 856214,
+      "long_liquidations": 219.9632,
+      "short_liquidations": 573.5575,
+      "long_liquidations_usd": 8341059.84,
+      "short_liquidations_usd": 39826080.8,
+      "timestamp": 1782943200
+    },
+    {
+      "datetime": "2026-07-01T23:00:00Z",
+      "blockheight": 856215,
+      "long_liquidations": 630.5808,
+      "short_liquidations": 137.3652,
+      "long_liquidations_usd": 70542509.89,
+      "short_liquidations_usd": 25532503.05,
+      "timestamp": 1782946800
+    },
+    {
+      "datetime": "2026-07-02T00:00:00Z",
+      "blockheight": 856216,
+      "long_liquidations": 661.6069,
+      "short_liquidations": 365.89,
+      "long_liquidations_usd": 43800686.33,
+      "short_liquidations_usd": 43467828.28,
+      "timestamp": 1782950400
+    },
+    {
+      "datetime": "2026-07-02T01:00:00Z",
+      "blockheight": 856217,
+      "long_liquidations": 643.8522,
+      "short_liquidations": 149.8302,
+      "long_liquidations_usd": 66032991.82,
+      "short_liquidations_usd": 46944766.48,
+      "timestamp": 1782954000
+    },
+    {
+      "datetime": "2026-07-02T02:00:00Z",
+      "blockheight": 856218,
+      "long_liquidations": 649.4697,
+      "short_liquidations": 834.1135,
+      "long_liquidations_usd": 66674583.39,
+      "short_liquidations_usd": 26744309.69,
+      "timestamp": 1782957600
+    },
+    {
+      "datetime": "2026-07-02T03:00:00Z",
+      "blockheight": 856219,
+      "long_liquidations": 25.0942,
+      "short_liquidations": 376.0367,
+      "long_liquidations_usd": 54280832.54,
+      "short_liquidations_usd": 25963229.57,
+      "timestamp": 1782961200
+    },
+    {
+      "datetime": "2026-07-02T04:00:00Z",
+      "blockheight": 856220,
+      "long_liquidations": 168.6518,
+      "short_liquidations": 707.1313,
+      "long_liquidations_usd": 49124182.51,
+      "short_liquidations_usd": 73303192.17,
+      "timestamp": 1782964800
+    },
+    {
+      "datetime": "2026-07-02T05:00:00Z",
+      "blockheight": 856221,
+      "long_liquidations": 320.4,
+      "short_liquidations": 123.0799,
+      "long_liquidations_usd": 76222315.94,
+      "short_liquidations_usd": 34687440.45,
+      "timestamp": 1782968400
+    },
+    {
+      "datetime": "2026-07-02T06:00:00Z",
+      "blockheight": 856222,
+      "long_liquidations": 300.4365,
+      "short_liquidations": 416.0116,
+      "long_liquidations_usd": 53466197.15,
+      "short_liquidations_usd": 58533947.23,
+      "timestamp": 1782972000
+    },
+    {
+      "datetime": "2026-07-02T07:00:00Z",
+      "blockheight": 856223,
+      "long_liquidations": 212.9259,
+      "short_liquidations": 578.1138,
+      "long_liquidations_usd": 42615199.03,
+      "short_liquidations_usd": 55438410.95,
+      "timestamp": 1782975600
+    },
+    {
+      "datetime": "2026-07-02T08:00:00Z",
+      "blockheight": 856224,
+      "long_liquidations": 555.5899,
+      "short_liquidations": 589.7459,
+      "long_liquidations_usd": 33025938.79,
+      "short_liquidations_usd": 25109805.21,
+      "timestamp": 1782979200
+    },
+    {
+      "datetime": "2026-07-02T09:00:00Z",
+      "blockheight": 856225,
+      "long_liquidations": 794.9578,
+      "short_liquidations": 685.956,
+      "long_liquidations_usd": 45352808.57,
+      "short_liquidations_usd": 12262085.94,
+      "timestamp": 1782982800
+    },
+    {
+      "datetime": "2026-07-02T10:00:00Z",
+      "blockheight": 856226,
+      "long_liquidations": 426.6899,
+      "short_liquidations": 339.1304,
+      "long_liquidations_usd": 44921490.1,
+      "short_liquidations_usd": 30614229.99,
+      "timestamp": 1782986400
+    },
+    {
+      "datetime": "2026-07-02T11:00:00Z",
+      "blockheight": 856227,
+      "long_liquidations": 582.6537,
+      "short_liquidations": 311.44,
+      "long_liquidations_usd": 61935700.25,
+      "short_liquidations_usd": 48253662.36,
+      "timestamp": 1782990000
+    },
+    {
+      "datetime": "2026-07-02T12:00:00Z",
+      "blockheight": 856228,
+      "long_liquidations": 487.463,
+      "short_liquidations": 649.7543,
+      "long_liquidations_usd": 40930156.56,
+      "short_liquidations_usd": 73561192.41,
+      "timestamp": 1782993600
+    },
+    {
+      "datetime": "2026-07-02T13:00:00Z",
+      "blockheight": 856229,
+      "long_liquidations": 563.7944,
+      "short_liquidations": 677.2594,
+      "long_liquidations_usd": 67969398.22,
+      "short_liquidations_usd": 27658650.82,
+      "timestamp": 1782997200
+    },
+    {
+      "datetime": "2026-07-02T14:00:00Z",
+      "blockheight": 856230,
+      "long_liquidations": 483.2465,
+      "short_liquidations": 492.581,
+      "long_liquidations_usd": 51154627.98,
+      "short_liquidations_usd": 70854301.29,
+      "timestamp": 1783000800
+    },
+    {
+      "datetime": "2026-07-02T15:00:00Z",
+      "blockheight": 856231,
+      "long_liquidations": 181.0434,
+      "short_liquidations": 444.4234,
+      "long_liquidations_usd": 16935976.77,
+      "short_liquidations_usd": 39155936.08,
+      "timestamp": 1783004400
+    },
+    {
+      "datetime": "2026-07-02T16:00:00Z",
+      "blockheight": 856232,
+      "long_liquidations": 65.2828,
+      "short_liquidations": 422.3971,
+      "long_liquidations_usd": 68103498.83,
+      "short_liquidations_usd": 39751178.78,
+      "timestamp": 1783008000
+    },
+    {
+      "datetime": "2026-07-02T17:00:00Z",
+      "blockheight": 856233,
+      "long_liquidations": 631.9136,
+      "short_liquidations": 448.1867,
+      "long_liquidations_usd": 50730536.81,
+      "short_liquidations_usd": 21731287.47,
+      "timestamp": 1783011600
+    },
+    {
+      "datetime": "2026-07-02T18:00:00Z",
+      "blockheight": 856234,
+      "long_liquidations": 606.8579,
+      "short_liquidations": 478.0246,
+      "long_liquidations_usd": 74541530.19,
+      "short_liquidations_usd": 62860101.33,
+      "timestamp": 1783015200
+    },
+    {
+      "datetime": "2026-07-02T19:00:00Z",
+      "blockheight": 856235,
+      "long_liquidations": 271.6844,
+      "short_liquidations": 474.2322,
+      "long_liquidations_usd": 35080903.1,
+      "short_liquidations_usd": 35860256.95,
+      "timestamp": 1783018800
+    },
+    {
+      "datetime": "2026-07-02T20:00:00Z",
+      "blockheight": 856236,
+      "long_liquidations": 667.4983,
+      "short_liquidations": 483.473,
+      "long_liquidations_usd": 41929427.76,
+      "short_liquidations_usd": 29411905.45,
+      "timestamp": 1783022400
+    },
+    {
+      "datetime": "2026-07-02T21:00:00Z",
+      "blockheight": 856237,
+      "long_liquidations": 371.5761,
+      "short_liquidations": 592.5821,
+      "long_liquidations_usd": 43912866.63,
+      "short_liquidations_usd": 57521428.02,
+      "timestamp": 1783026000
+    },
+    {
+      "datetime": "2026-07-02T22:00:00Z",
+      "blockheight": 856238,
+      "long_liquidations": 649.0422,
+      "short_liquidations": 77.1866,
+      "long_liquidations_usd": 59637983.61,
+      "short_liquidations_usd": 51181713.74,
+      "timestamp": 1783029600
+    },
+    {
+      "datetime": "2026-07-02T23:00:00Z",
+      "blockheight": 856239,
+      "long_liquidations": 521.8829,
+      "short_liquidations": 81.2646,
+      "long_liquidations_usd": 26525659.5,
+      "short_liquidations_usd": 39226793.82,
+      "timestamp": 1783033200
+    },
+    {
+      "datetime": "2026-07-03T00:00:00Z",
+      "blockheight": 856240,
+      "long_liquidations": 506.8487,
+      "short_liquidations": 375.5038,
+      "long_liquidations_usd": 42343010.27,
+      "short_liquidations_usd": 66089616.48,
+      "timestamp": 1783036800
+    },
+    {
+      "datetime": "2026-07-03T01:00:00Z",
+      "blockheight": 856241,
+      "long_liquidations": 609.4116,
+      "short_liquidations": 320.194,
+      "long_liquidations_usd": 29864524.4,
+      "short_liquidations_usd": 36694306.61,
+      "timestamp": 1783040400
+    },
+    {
+      "datetime": "2026-07-03T02:00:00Z",
+      "blockheight": 856242,
+      "long_liquidations": 76.4353,
+      "short_liquidations": 485.87,
+      "long_liquidations_usd": 65769739.09,
+      "short_liquidations_usd": 45074965.86,
+      "timestamp": 1783044000
+    },
+    {
+      "datetime": "2026-07-03T03:00:00Z",
+      "blockheight": 856243,
+      "long_liquidations": 392.8342,
+      "short_liquidations": 291.092,
+      "long_liquidations_usd": 24565076.67,
+      "short_liquidations_usd": 75056510.3,
+      "timestamp": 1783047600
+    },
+    {
+      "datetime": "2026-07-03T04:00:00Z",
+      "blockheight": 856244,
+      "long_liquidations": 448.4838,
+      "short_liquidations": 474.9669,
+      "long_liquidations_usd": 55892766.96,
+      "short_liquidations_usd": 23269988.83,
+      "timestamp": 1783051200
+    },
+    {
+      "datetime": "2026-07-03T05:00:00Z",
+      "blockheight": 856245,
+      "long_liquidations": 849.0397,
+      "short_liquidations": 208.2123,
+      "long_liquidations_usd": 68917215.39,
+      "short_liquidations_usd": 25836027.98,
+      "timestamp": 1783054800
+    },
+    {
+      "datetime": "2026-07-03T06:00:00Z",
+      "blockheight": 856246,
+      "long_liquidations": 639.9691,
+      "short_liquidations": 418.6855,
+      "long_liquidations_usd": 65791645.41,
+      "short_liquidations_usd": 67626674.84,
+      "timestamp": 1783058400
+    },
+    {
+      "datetime": "2026-07-03T07:00:00Z",
+      "blockheight": 856247,
+      "long_liquidations": 319.4122,
+      "short_liquidations": 641.1234,
+      "long_liquidations_usd": 61451423.68,
+      "short_liquidations_usd": 43119043.23,
+      "timestamp": 1783062000
+    },
+    {
+      "datetime": "2026-07-03T08:00:00Z",
+      "blockheight": 856248,
+      "long_liquidations": 414.1791,
+      "short_liquidations": 442.7068,
+      "long_liquidations_usd": 57315982.67,
+      "short_liquidations_usd": 41512176.02,
+      "timestamp": 1783065600
+    },
+    {
+      "datetime": "2026-07-03T09:00:00Z",
+      "blockheight": 856249,
+      "long_liquidations": 454.2621,
+      "short_liquidations": 897.2076,
+      "long_liquidations_usd": 58903007.02,
+      "short_liquidations_usd": 60310845.6,
+      "timestamp": 1783069200
+    },
+    {
+      "datetime": "2026-07-03T10:00:00Z",
+      "blockheight": 856250,
+      "long_liquidations": 249.5273,
+      "short_liquidations": 183.6851,
+      "long_liquidations_usd": 66910044.93,
+      "short_liquidations_usd": 56272174.73,
+      "timestamp": 1783072800
+    },
+    {
+      "datetime": "2026-07-03T11:00:00Z",
+      "blockheight": 856251,
+      "long_liquidations": 529.4538,
+      "short_liquidations": 403.6679,
+      "long_liquidations_usd": 45668308.7,
+      "short_liquidations_usd": 37129244.45,
+      "timestamp": 1783076400
+    },
+    {
+      "datetime": "2026-07-03T12:00:00Z",
+      "blockheight": 856252,
+      "long_liquidations": 542.3224,
+      "short_liquidations": 296.2177,
+      "long_liquidations_usd": 50061299.24,
+      "short_liquidations_usd": 45717465.28,
+      "timestamp": 1783080000
+    },
+    {
+      "datetime": "2026-07-03T13:00:00Z",
+      "blockheight": 856253,
+      "long_liquidations": 609.2146,
+      "short_liquidations": 247.284,
+      "long_liquidations_usd": 21043394.63,
+      "short_liquidations_usd": 29214574.52,
+      "timestamp": 1783083600
+    },
+    {
+      "datetime": "2026-07-03T14:00:00Z",
+      "blockheight": 856254,
+      "long_liquidations": 856.5281,
+      "short_liquidations": 609.8429,
+      "long_liquidations_usd": 51736628.49,
+      "short_liquidations_usd": 35670906.63,
+      "timestamp": 1783087200
+    },
+    {
+      "datetime": "2026-07-03T15:00:00Z",
+      "blockheight": 856255,
+      "long_liquidations": 421.0657,
+      "short_liquidations": 482.9676,
+      "long_liquidations_usd": 60309140.69,
+      "short_liquidations_usd": 54182589.26,
+      "timestamp": 1783090800
+    },
+    {
+      "datetime": "2026-07-03T16:00:00Z",
+      "blockheight": 856256,
+      "long_liquidations": 647.5296,
+      "short_liquidations": 665.3277,
+      "long_liquidations_usd": 56004198.31,
+      "short_liquidations_usd": 48960259.52,
+      "timestamp": 1783094400
+    },
+    {
+      "datetime": "2026-07-03T17:00:00Z",
+      "blockheight": 856257,
+      "long_liquidations": 531.8454,
+      "short_liquidations": 284.1124,
+      "long_liquidations_usd": 33941667.66,
+      "short_liquidations_usd": 38948104.64,
+      "timestamp": 1783098000
+    },
+    {
+      "datetime": "2026-07-03T18:00:00Z",
+      "blockheight": 856258,
+      "long_liquidations": 709.1165,
+      "short_liquidations": 764.4001,
+      "long_liquidations_usd": 34923601.68,
+      "short_liquidations_usd": 73183458.28,
+      "timestamp": 1783101600
+    },
+    {
+      "datetime": "2026-07-03T19:00:00Z",
+      "blockheight": 856259,
+      "long_liquidations": 718.1686,
+      "short_liquidations": 348.2108,
+      "long_liquidations_usd": 91091242.89,
+      "short_liquidations_usd": 24795185.63,
+      "timestamp": 1783105200
+    },
+    {
+      "datetime": "2026-07-03T20:00:00Z",
+      "blockheight": 856260,
+      "long_liquidations": 459.2665,
+      "short_liquidations": 385.8541,
+      "long_liquidations_usd": 96343546.18,
+      "short_liquidations_usd": 53632521.9,
+      "timestamp": 1783108800
+    },
+    {
+      "datetime": "2026-07-03T21:00:00Z",
+      "blockheight": 856261,
+      "long_liquidations": 644.2323,
+      "short_liquidations": 403.2887,
+      "long_liquidations_usd": 36332117.66,
+      "short_liquidations_usd": 43764340.58,
+      "timestamp": 1783112400
+    },
+    {
+      "datetime": "2026-07-03T22:00:00Z",
+      "blockheight": 856262,
+      "long_liquidations": 636.0014,
+      "short_liquidations": 591.6357,
+      "long_liquidations_usd": 55597586.02,
+      "short_liquidations_usd": 43154166.33,
+      "timestamp": 1783116000
+    },
+    {
+      "datetime": "2026-07-03T23:00:00Z",
+      "blockheight": 856263,
+      "long_liquidations": 603.438,
+      "short_liquidations": 268.6434,
+      "long_liquidations_usd": 54046413.01,
+      "short_liquidations_usd": 35200788.38,
+      "timestamp": 1783119600
+    },
+    {
+      "datetime": "2026-07-04T00:00:00Z",
+      "blockheight": 856264,
+      "long_liquidations": 522.5985,
+      "short_liquidations": 30.6202,
+      "long_liquidations_usd": 49727117.56,
+      "short_liquidations_usd": 20736635.67,
+      "timestamp": 1783123200
+    },
+    {
+      "datetime": "2026-07-04T01:00:00Z",
+      "blockheight": 856265,
+      "long_liquidations": 442.7664,
+      "short_liquidations": 564.0172,
+      "long_liquidations_usd": 40242135.64,
+      "short_liquidations_usd": 39416631.13,
+      "timestamp": 1783126800
+    },
+    {
+      "datetime": "2026-07-04T02:00:00Z",
+      "blockheight": 856266,
+      "long_liquidations": 426.0001,
+      "short_liquidations": 918.9385,
+      "long_liquidations_usd": 14981589.51,
+      "short_liquidations_usd": 62425061.12,
+      "timestamp": 1783130400
+    },
+    {
+      "datetime": "2026-07-04T03:00:00Z",
+      "blockheight": 856267,
+      "long_liquidations": 375.2578,
+      "short_liquidations": 296.9638,
+      "long_liquidations_usd": 71066918.77,
+      "short_liquidations_usd": 31383785.48,
+      "timestamp": 1783134000
+    },
+    {
+      "datetime": "2026-07-04T04:00:00Z",
+      "blockheight": 856268,
+      "long_liquidations": 565.2251,
+      "short_liquidations": 353.3163,
+      "long_liquidations_usd": 37175128.9,
+      "short_liquidations_usd": 34543204.0,
+      "timestamp": 1783137600
+    },
+    {
+      "datetime": "2026-07-04T05:00:00Z",
+      "blockheight": 856269,
+      "long_liquidations": 250.0392,
+      "short_liquidations": 373.4249,
+      "long_liquidations_usd": 40932228.59,
+      "short_liquidations_usd": 41153349.27,
+      "timestamp": 1783141200
+    },
+    {
+      "datetime": "2026-07-04T06:00:00Z",
+      "blockheight": 856270,
+      "long_liquidations": 609.0456,
+      "short_liquidations": 571.2672,
+      "long_liquidations_usd": 95923633.28,
+      "short_liquidations_usd": 53544815.42,
+      "timestamp": 1783144800
+    },
+    {
+      "datetime": "2026-07-04T07:00:00Z",
+      "blockheight": 856271,
+      "long_liquidations": 610.1796,
+      "short_liquidations": 638.5914,
+      "long_liquidations_usd": 74953115.94,
+      "short_liquidations_usd": 45494887.97,
+      "timestamp": 1783148400
+    },
+    {
+      "datetime": "2026-07-04T08:00:00Z",
+      "blockheight": 856272,
+      "long_liquidations": 449.1604,
+      "short_liquidations": 462.7603,
+      "long_liquidations_usd": 70855328.69,
+      "short_liquidations_usd": 62000943.57,
+      "timestamp": 1783152000
+    },
+    {
+      "datetime": "2026-07-04T09:00:00Z",
+      "blockheight": 856273,
+      "long_liquidations": 305.163,
+      "short_liquidations": 333.6284,
+      "long_liquidations_usd": 77405267.87,
+      "short_liquidations_usd": 74754806.4,
+      "timestamp": 1783155600
+    },
+    {
+      "datetime": "2026-07-04T10:00:00Z",
+      "blockheight": 856274,
+      "long_liquidations": 386.7609,
+      "short_liquidations": 322.0723,
+      "long_liquidations_usd": 53409767.32,
+      "short_liquidations_usd": 32936957.34,
+      "timestamp": 1783159200
+    },
+    {
+      "datetime": "2026-07-04T11:00:00Z",
+      "blockheight": 856275,
+      "long_liquidations": 633.1804,
+      "short_liquidations": 337.966,
+      "long_liquidations_usd": 60182489.26,
+      "short_liquidations_usd": 25572789.76,
+      "timestamp": 1783162800
+    },
+    {
+      "datetime": "2026-07-04T12:00:00Z",
+      "blockheight": 856276,
+      "long_liquidations": 446.13,
+      "short_liquidations": 15.8623,
+      "long_liquidations_usd": 58659869.42,
+      "short_liquidations_usd": 51731615.67,
+      "timestamp": 1783166400
+    },
+    {
+      "datetime": "2026-07-04T13:00:00Z",
+      "blockheight": 856277,
+      "long_liquidations": 578.2964,
+      "short_liquidations": 260.1686,
+      "long_liquidations_usd": 51196924.55,
+      "short_liquidations_usd": 45054022.44,
+      "timestamp": 1783170000
+    },
+    {
+      "datetime": "2026-07-04T14:00:00Z",
+      "blockheight": 856278,
+      "long_liquidations": 183.9631,
+      "short_liquidations": 653.0671,
+      "long_liquidations_usd": 45716013.35,
+      "short_liquidations_usd": 19734459.84,
+      "timestamp": 1783173600
+    },
+    {
+      "datetime": "2026-07-04T15:00:00Z",
+      "blockheight": 856279,
+      "long_liquidations": 648.1837,
+      "short_liquidations": 380.7283,
+      "long_liquidations_usd": 46108177.82,
+      "short_liquidations_usd": 38887908.3,
+      "timestamp": 1783177200
+    },
+    {
+      "datetime": "2026-07-04T16:00:00Z",
+      "blockheight": 856280,
+      "long_liquidations": 576.1256,
+      "short_liquidations": 578.6587,
+      "long_liquidations_usd": 37534590.28,
+      "short_liquidations_usd": 51039574.69,
+      "timestamp": 1783180800
+    },
+    {
+      "datetime": "2026-07-04T17:00:00Z",
+      "blockheight": 856281,
+      "long_liquidations": 286.1394,
+      "short_liquidations": 426.8111,
+      "long_liquidations_usd": 77867414.59,
+      "short_liquidations_usd": 65198313.13,
+      "timestamp": 1783184400
+    },
+    {
+      "datetime": "2026-07-04T18:00:00Z",
+      "blockheight": 856282,
+      "long_liquidations": 263.0294,
+      "short_liquidations": 444.2267,
+      "long_liquidations_usd": 46395173.43,
+      "short_liquidations_usd": 53872718.32,
+      "timestamp": 1783188000
+    },
+    {
+      "datetime": "2026-07-04T19:00:00Z",
+      "blockheight": 856283,
+      "long_liquidations": 272.152,
+      "short_liquidations": 387.6865,
+      "long_liquidations_usd": 12903055.31,
+      "short_liquidations_usd": 29461827.81,
+      "timestamp": 1783191600
+    },
+    {
+      "datetime": "2026-07-04T20:00:00Z",
+      "blockheight": 856284,
+      "long_liquidations": 207.1386,
+      "short_liquidations": 794.6205,
+      "long_liquidations_usd": 51139919.13,
+      "short_liquidations_usd": 46974676.68,
+      "timestamp": 1783195200
+    },
+    {
+      "datetime": "2026-07-04T21:00:00Z",
+      "blockheight": 856285,
+      "long_liquidations": 607.4278,
+      "short_liquidations": 418.4544,
+      "long_liquidations_usd": 17711924.48,
+      "short_liquidations_usd": 51333746.84,
+      "timestamp": 1783198800
+    },
+    {
+      "datetime": "2026-07-04T22:00:00Z",
+      "blockheight": 856286,
+      "long_liquidations": 326.7945,
+      "short_liquidations": 479.4255,
+      "long_liquidations_usd": 11740106.38,
+      "short_liquidations_usd": 61064911.52,
+      "timestamp": 1783202400
+    },
+    {
+      "datetime": "2026-07-04T23:00:00Z",
+      "blockheight": 856287,
+      "long_liquidations": 389.5367,
+      "short_liquidations": 716.6479,
+      "long_liquidations_usd": 48213301.93,
+      "short_liquidations_usd": 59263212.59,
+      "timestamp": 1783206000
+    },
+    {
+      "datetime": "2026-07-05T00:00:00Z",
+      "blockheight": 856288,
+      "long_liquidations": 570.933,
+      "short_liquidations": 241.1751,
+      "long_liquidations_usd": 41014578.98,
+      "short_liquidations_usd": 61250595.64,
+      "timestamp": 1783209600
+    },
+    {
+      "datetime": "2026-07-05T01:00:00Z",
+      "blockheight": 856289,
+      "long_liquidations": 443.1726,
+      "short_liquidations": 567.0252,
+      "long_liquidations_usd": 2279388.56,
+      "short_liquidations_usd": 50717055.24,
+      "timestamp": 1783213200
+    },
+    {
+      "datetime": "2026-07-05T02:00:00Z",
+      "blockheight": 856290,
+      "long_liquidations": 427.1894,
+      "short_liquidations": 228.1561,
+      "long_liquidations_usd": 68243776.29,
+      "short_liquidations_usd": 33875459.17,
+      "timestamp": 1783216800
+    },
+    {
+      "datetime": "2026-07-05T03:00:00Z",
+      "blockheight": 856291,
+      "long_liquidations": 787.8138,
+      "short_liquidations": 816.6174,
+      "long_liquidations_usd": 47213620.42,
+      "short_liquidations_usd": 53755452.63,
+      "timestamp": 1783220400
+    },
+    {
+      "datetime": "2026-07-05T04:00:00Z",
+      "blockheight": 856292,
+      "long_liquidations": 341.2436,
+      "short_liquidations": 663.917,
+      "long_liquidations_usd": 83564268.96,
+      "short_liquidations_usd": 54255900.35,
+      "timestamp": 1783224000
+    },
+    {
+      "datetime": "2026-07-05T05:00:00Z",
+      "blockheight": 856293,
+      "long_liquidations": 636.6126,
+      "short_liquidations": 235.1977,
+      "long_liquidations_usd": 59857701.96,
+      "short_liquidations_usd": 48280161.4,
+      "timestamp": 1783227600
+    },
+    {
+      "datetime": "2026-07-05T06:00:00Z",
+      "blockheight": 856294,
+      "long_liquidations": 570.9443,
+      "short_liquidations": 89.795,
+      "long_liquidations_usd": 60670553.69,
+      "short_liquidations_usd": 72219809.55,
+      "timestamp": 1783231200
+    },
+    {
+      "datetime": "2026-07-05T07:00:00Z",
+      "blockheight": 856295,
+      "long_liquidations": 190.6254,
+      "short_liquidations": 344.0049,
+      "long_liquidations_usd": 27950251.03,
+      "short_liquidations_usd": 16459866.83,
+      "timestamp": 1783234800
+    },
+    {
+      "datetime": "2026-07-05T08:00:00Z",
+      "blockheight": 856296,
+      "long_liquidations": 660.3575,
+      "short_liquidations": 473.2443,
+      "long_liquidations_usd": 51190168.59,
+      "short_liquidations_usd": 53098274.1,
+      "timestamp": 1783238400
+    },
+    {
+      "datetime": "2026-07-05T09:00:00Z",
+      "blockheight": 856297,
+      "long_liquidations": 772.815,
+      "short_liquidations": 359.329,
+      "long_liquidations_usd": 69074405.06,
+      "short_liquidations_usd": 7207561.68,
+      "timestamp": 1783242000
+    },
+    {
+      "datetime": "2026-07-05T10:00:00Z",
+      "blockheight": 856298,
+      "long_liquidations": 519.6907,
+      "short_liquidations": 656.2033,
+      "long_liquidations_usd": 20493325.76,
+      "short_liquidations_usd": 20945001.1,
+      "timestamp": 1783245600
+    },
+    {
+      "datetime": "2026-07-05T11:00:00Z",
+      "blockheight": 856299,
+      "long_liquidations": 346.9526,
+      "short_liquidations": 473.2406,
+      "long_liquidations_usd": 33270166.59,
+      "short_liquidations_usd": 5112466.62,
+      "timestamp": 1783249200
+    },
+    {
+      "datetime": "2026-07-05T12:00:00Z",
+      "blockheight": 856300,
+      "long_liquidations": 667.6148,
+      "short_liquidations": 719.0945,
+      "long_liquidations_usd": 23052596.49,
+      "short_liquidations_usd": 29034671.27,
+      "timestamp": 1783252800
+    },
+    {
+      "datetime": "2026-07-05T13:00:00Z",
+      "blockheight": 856301,
+      "long_liquidations": 293.9615,
+      "short_liquidations": 411.8565,
+      "long_liquidations_usd": 36518436.05,
+      "short_liquidations_usd": 37669545.1,
+      "timestamp": 1783256400
+    },
+    {
+      "datetime": "2026-07-05T14:00:00Z",
+      "blockheight": 856302,
+      "long_liquidations": 795.3923,
+      "short_liquidations": 305.0401,
+      "long_liquidations_usd": 16549958.81,
+      "short_liquidations_usd": 21302713.56,
+      "timestamp": 1783260000
+    },
+    {
+      "datetime": "2026-07-05T15:00:00Z",
+      "blockheight": 856303,
+      "long_liquidations": 637.3995,
+      "short_liquidations": 113.2177,
+      "long_liquidations_usd": 53838712.21,
+      "short_liquidations_usd": 50741598.04,
+      "timestamp": 1783263600
+    },
+    {
+      "datetime": "2026-07-05T16:00:00Z",
+      "blockheight": 856304,
+      "long_liquidations": 830.7273,
+      "short_liquidations": 725.2799,
+      "long_liquidations_usd": 31251642.14,
+      "short_liquidations_usd": 39396311.81,
+      "timestamp": 1783267200
+    },
+    {
+      "datetime": "2026-07-05T17:00:00Z",
+      "blockheight": 856305,
+      "long_liquidations": 289.7176,
+      "short_liquidations": 742.9764,
+      "long_liquidations_usd": 47667202.13,
+      "short_liquidations_usd": 38374371.98,
+      "timestamp": 1783270800
+    },
+    {
+      "datetime": "2026-07-05T18:00:00Z",
+      "blockheight": 856306,
+      "long_liquidations": 367.2789,
+      "short_liquidations": 190.5972,
+      "long_liquidations_usd": 24107694.59,
+      "short_liquidations_usd": 33677120.75,
+      "timestamp": 1783274400
+    },
+    {
+      "datetime": "2026-07-05T19:00:00Z",
+      "blockheight": 856307,
+      "long_liquidations": 256.5374,
+      "short_liquidations": 371.3075,
+      "long_liquidations_usd": 74656799.79,
+      "short_liquidations_usd": 62686211.0,
+      "timestamp": 1783278000
+    },
+    {
+      "datetime": "2026-07-05T20:00:00Z",
+      "blockheight": 856308,
+      "long_liquidations": 625.1606,
+      "short_liquidations": 167.5258,
+      "long_liquidations_usd": 43092021.62,
+      "short_liquidations_usd": 36386117.98,
+      "timestamp": 1783281600
+    },
+    {
+      "datetime": "2026-07-05T21:00:00Z",
+      "blockheight": 856309,
+      "long_liquidations": 271.3077,
+      "short_liquidations": 41.2807,
+      "long_liquidations_usd": 49944020.06,
+      "short_liquidations_usd": 26272447.26,
+      "timestamp": 1783285200
+    },
+    {
+      "datetime": "2026-07-05T22:00:00Z",
+      "blockheight": 856310,
+      "long_liquidations": 375.7781,
+      "short_liquidations": 480.4664,
+      "long_liquidations_usd": 39969887.13,
+      "short_liquidations_usd": 48560948.0,
+      "timestamp": 1783288800
+    },
+    {
+      "datetime": "2026-07-05T23:00:00Z",
+      "blockheight": 856311,
+      "long_liquidations": 482.1428,
+      "short_liquidations": 542.3921,
+      "long_liquidations_usd": 62257517.95,
+      "short_liquidations_usd": 30971666.75,
+      "timestamp": 1783292400
+    },
+    {
+      "datetime": "2026-07-06T00:00:00Z",
+      "blockheight": 856312,
+      "long_liquidations": 473.0721,
+      "short_liquidations": 115.6647,
+      "long_liquidations_usd": 72324124.39,
+      "short_liquidations_usd": 49597520.27,
+      "timestamp": 1783296000
+    },
+    {
+      "datetime": "2026-07-06T01:00:00Z",
+      "blockheight": 856313,
+      "long_liquidations": 331.9031,
+      "short_liquidations": 329.9586,
+      "long_liquidations_usd": 74977558.42,
+      "short_liquidations_usd": 29358779.72,
+      "timestamp": 1783299600
+    },
+    {
+      "datetime": "2026-07-06T02:00:00Z",
+      "blockheight": 856314,
+      "long_liquidations": 294.3561,
+      "short_liquidations": 251.8524,
+      "long_liquidations_usd": 58251254.48,
+      "short_liquidations_usd": 57675713.21,
+      "timestamp": 1783303200
+    },
+    {
+      "datetime": "2026-07-06T03:00:00Z",
+      "blockheight": 856315,
+      "long_liquidations": 296.8014,
+      "short_liquidations": 237.3195,
+      "long_liquidations_usd": 14454015.17,
+      "short_liquidations_usd": 39809646.24,
+      "timestamp": 1783306800
+    },
+    {
+      "datetime": "2026-07-06T04:00:00Z",
+      "blockheight": 856316,
+      "long_liquidations": 520.2945,
+      "short_liquidations": 445.0765,
+      "long_liquidations_usd": 31290476.39,
+      "short_liquidations_usd": 69459666.53,
+      "timestamp": 1783310400
+    },
+    {
+      "datetime": "2026-07-06T05:00:00Z",
+      "blockheight": 856317,
+      "long_liquidations": 660.4497,
+      "short_liquidations": 748.1761,
+      "long_liquidations_usd": 40670978.89,
+      "short_liquidations_usd": 9131582.49,
+      "timestamp": 1783314000
+    },
+    {
+      "datetime": "2026-07-06T06:00:00Z",
+      "blockheight": 856318,
+      "long_liquidations": 765.4284,
+      "short_liquidations": 348.604,
+      "long_liquidations_usd": 34190081.03,
+      "short_liquidations_usd": 53454443.65,
+      "timestamp": 1783317600
+    },
+    {
+      "datetime": "2026-07-06T07:00:00Z",
+      "blockheight": 856319,
+      "long_liquidations": 593.7941,
+      "short_liquidations": 405.8587,
+      "long_liquidations_usd": 45556500.27,
+      "short_liquidations_usd": 38531074.6,
+      "timestamp": 1783321200
+    },
+    {
+      "datetime": "2026-07-06T08:00:00Z",
+      "blockheight": 856320,
+      "long_liquidations": 530.0454,
+      "short_liquidations": 175.1628,
+      "long_liquidations_usd": 71103513.69,
+      "short_liquidations_usd": 59056595.18,
+      "timestamp": 1783324800
+    },
+    {
+      "datetime": "2026-07-06T09:00:00Z",
+      "blockheight": 856321,
+      "long_liquidations": 107.9864,
+      "short_liquidations": 485.2796,
+      "long_liquidations_usd": 56841314.51,
+      "short_liquidations_usd": 35426011.89,
+      "timestamp": 1783328400
+    },
+    {
+      "datetime": "2026-07-06T10:00:00Z",
+      "blockheight": 856322,
+      "long_liquidations": 481.6809,
+      "short_liquidations": 307.7943,
+      "long_liquidations_usd": 77033447.77,
+      "short_liquidations_usd": 54902667.1,
+      "timestamp": 1783332000
+    },
+    {
+      "datetime": "2026-07-06T11:00:00Z",
+      "blockheight": 856323,
+      "long_liquidations": 245.1865,
+      "short_liquidations": 67.3194,
+      "long_liquidations_usd": 48818735.54,
+      "short_liquidations_usd": 65429520.5,
+      "timestamp": 1783335600
+    },
+    {
+      "datetime": "2026-07-06T12:00:00Z",
+      "blockheight": 856324,
+      "long_liquidations": 207.6083,
+      "short_liquidations": 275.547,
+      "long_liquidations_usd": 54747349.39,
+      "short_liquidations_usd": 60496473.85,
+      "timestamp": 1783339200
+    },
+    {
+      "datetime": "2026-07-06T13:00:00Z",
+      "blockheight": 856325,
+      "long_liquidations": 527.1164,
+      "short_liquidations": 658.2299,
+      "long_liquidations_usd": 39012797.24,
+      "short_liquidations_usd": 39218168.44,
+      "timestamp": 1783342800
+    },
+    {
+      "datetime": "2026-07-06T14:00:00Z",
+      "blockheight": 856326,
+      "long_liquidations": 343.3654,
+      "short_liquidations": 284.6159,
+      "long_liquidations_usd": 61214408.64,
+      "short_liquidations_usd": 909894.17,
+      "timestamp": 1783346400
+    },
+    {
+      "datetime": "2026-07-06T15:00:00Z",
+      "blockheight": 856327,
+      "long_liquidations": 177.1799,
+      "short_liquidations": 365.5069,
+      "long_liquidations_usd": 44966553.84,
+      "short_liquidations_usd": 65637610.97,
+      "timestamp": 1783350000
+    },
+    {
+      "datetime": "2026-07-06T16:00:00Z",
+      "blockheight": 856328,
+      "long_liquidations": 430.7711,
+      "short_liquidations": 421.3008,
+      "long_liquidations_usd": 45042810.01,
+      "short_liquidations_usd": 25403434.34,
+      "timestamp": 1783353600
+    },
+    {
+      "datetime": "2026-07-06T17:00:00Z",
+      "blockheight": 856329,
+      "long_liquidations": 683.4817,
+      "short_liquidations": 572.3223,
+      "long_liquidations_usd": 37874259.27,
+      "short_liquidations_usd": 51811725.9,
+      "timestamp": 1783357200
+    },
+    {
+      "datetime": "2026-07-06T18:00:00Z",
+      "blockheight": 856330,
+      "long_liquidations": 748.6593,
+      "short_liquidations": 682.6469,
+      "long_liquidations_usd": 30524856.74,
+      "short_liquidations_usd": 56016504.25,
+      "timestamp": 1783360800
+    },
+    {
+      "datetime": "2026-07-06T19:00:00Z",
+      "blockheight": 856331,
+      "long_liquidations": 423.5391,
+      "short_liquidations": 20.6017,
+      "long_liquidations_usd": 89534030.15,
+      "short_liquidations_usd": 80831366.48,
+      "timestamp": 1783364400
+    },
+    {
+      "datetime": "2026-07-06T20:00:00Z",
+      "blockheight": 856332,
+      "long_liquidations": 457.2626,
+      "short_liquidations": 145.2245,
+      "long_liquidations_usd": 62450716.75,
+      "short_liquidations_usd": 66347994.54,
+      "timestamp": 1783368000
+    },
+    {
+      "datetime": "2026-07-06T21:00:00Z",
+      "blockheight": 856333,
+      "long_liquidations": 77.0596,
+      "short_liquidations": 558.914,
+      "long_liquidations_usd": 15724847.87,
+      "short_liquidations_usd": 23529006.36,
+      "timestamp": 1783371600
+    },
+    {
+      "datetime": "2026-07-06T22:00:00Z",
+      "blockheight": 856334,
+      "long_liquidations": 750.684,
+      "short_liquidations": 463.0832,
+      "long_liquidations_usd": 56842477.69,
+      "short_liquidations_usd": 47039796.73,
+      "timestamp": 1783375200
+    },
+    {
+      "datetime": "2026-07-06T23:00:00Z",
+      "blockheight": 856335,
+      "long_liquidations": 554.851,
+      "short_liquidations": 406.5755,
+      "long_liquidations_usd": 48394212.58,
+      "short_liquidations_usd": 56274712.93,
+      "timestamp": 1783378800
+    },
+    {
+      "datetime": "2026-07-07T00:00:00Z",
+      "blockheight": 856336,
+      "long_liquidations": 620.4854,
+      "short_liquidations": 603.0023,
+      "long_liquidations_usd": 58458176.11,
+      "short_liquidations_usd": 47536894.18,
+      "timestamp": 1783382400
+    },
+    {
+      "datetime": "2026-07-07T01:00:00Z",
+      "blockheight": 856337,
+      "long_liquidations": 572.2612,
+      "short_liquidations": 577.525,
+      "long_liquidations_usd": 66067157.6,
+      "short_liquidations_usd": 46542874.15,
+      "timestamp": 1783386000
+    },
+    {
+      "datetime": "2026-07-07T02:00:00Z",
+      "blockheight": 856338,
+      "long_liquidations": 510.7037,
+      "short_liquidations": 374.1046,
+      "long_liquidations_usd": 77582535.37,
+      "short_liquidations_usd": 56331290.27,
+      "timestamp": 1783389600
+    },
+    {
+      "datetime": "2026-07-07T03:00:00Z",
+      "blockheight": 856339,
+      "long_liquidations": 523.8966,
+      "short_liquidations": 189.7561,
+      "long_liquidations_usd": 36914775.59,
+      "short_liquidations_usd": 39329344.36,
+      "timestamp": 1783393200
+    },
+    {
+      "datetime": "2026-07-07T04:00:00Z",
+      "blockheight": 856340,
+      "long_liquidations": 368.4716,
+      "short_liquidations": 406.7427,
+      "long_liquidations_usd": 65856824.03,
+      "short_liquidations_usd": 54223487.59,
+      "timestamp": 1783396800
+    },
+    {
+      "datetime": "2026-07-07T05:00:00Z",
+      "blockheight": 856341,
+      "long_liquidations": 84.7824,
+      "short_liquidations": 571.3461,
+      "long_liquidations_usd": 61076793.48,
+      "short_liquidations_usd": 38871501.74,
+      "timestamp": 1783400400
+    },
+    {
+      "datetime": "2026-07-07T06:00:00Z",
+      "blockheight": 856342,
+      "long_liquidations": 720.1417,
+      "short_liquidations": 520.0269,
+      "long_liquidations_usd": 40233026.56,
+      "short_liquidations_usd": 37032389.14,
+      "timestamp": 1783404000
+    },
+    {
+      "datetime": "2026-07-07T07:00:00Z",
+      "blockheight": 856343,
+      "long_liquidations": 161.9834,
+      "short_liquidations": 929.952,
+      "long_liquidations_usd": 49185092.76,
+      "short_liquidations_usd": 6784283.29,
+      "timestamp": 1783407600
+    },
+    {
+      "datetime": "2026-07-07T08:00:00Z",
+      "blockheight": 856344,
+      "long_liquidations": 517.8171,
+      "short_liquidations": 323.5336,
+      "long_liquidations_usd": 58073369.52,
+      "short_liquidations_usd": 28253602.84,
+      "timestamp": 1783411200
+    },
+    {
+      "datetime": "2026-07-07T09:00:00Z",
+      "blockheight": 856345,
+      "long_liquidations": 500.2806,
+      "short_liquidations": 736.8361,
+      "long_liquidations_usd": 65193102.7,
+      "short_liquidations_usd": 62401726.75,
+      "timestamp": 1783414800
+    },
+    {
+      "datetime": "2026-07-07T10:00:00Z",
+      "blockheight": 856346,
+      "long_liquidations": 775.7937,
+      "short_liquidations": 280.4391,
+      "long_liquidations_usd": 25604542.85,
+      "short_liquidations_usd": 22024220.79,
+      "timestamp": 1783418400
+    },
+    {
+      "datetime": "2026-07-07T11:00:00Z",
+      "blockheight": 856347,
+      "long_liquidations": 510.322,
+      "short_liquidations": 839.8181,
+      "long_liquidations_usd": 85200612.91,
+      "short_liquidations_usd": 53235571.07,
+      "timestamp": 1783422000
+    },
+    {
+      "datetime": "2026-07-07T12:00:00Z",
+      "blockheight": 856348,
+      "long_liquidations": 106.104,
+      "short_liquidations": 179.9668,
+      "long_liquidations_usd": 62580575.23,
+      "short_liquidations_usd": 44399312.64,
+      "timestamp": 1783425600
+    },
+    {
+      "datetime": "2026-07-07T13:00:00Z",
+      "blockheight": 856349,
+      "long_liquidations": 332.216,
+      "short_liquidations": 417.0495,
+      "long_liquidations_usd": 41126681.94,
+      "short_liquidations_usd": 60405628.37,
+      "timestamp": 1783429200
+    },
+    {
+      "datetime": "2026-07-07T14:00:00Z",
+      "blockheight": 856350,
+      "long_liquidations": 523.7829,
+      "short_liquidations": 181.8267,
+      "long_liquidations_usd": 31520941.12,
+      "short_liquidations_usd": 47890129.84,
+      "timestamp": 1783432800
+    },
+    {
+      "datetime": "2026-07-07T15:00:00Z",
+      "blockheight": 856351,
+      "long_liquidations": 535.5891,
+      "short_liquidations": 675.0363,
+      "long_liquidations_usd": 62334679.22,
+      "short_liquidations_usd": 43317051.0,
+      "timestamp": 1783436400
+    },
+    {
+      "datetime": "2026-07-07T16:00:00Z",
+      "blockheight": 856352,
+      "long_liquidations": 526.2841,
+      "short_liquidations": 205.5118,
+      "long_liquidations_usd": 42881126.19,
+      "short_liquidations_usd": 44756894.06,
+      "timestamp": 1783440000
+    },
+    {
+      "datetime": "2026-07-07T17:00:00Z",
+      "blockheight": 856353,
+      "long_liquidations": 517.5161,
+      "short_liquidations": 362.3663,
+      "long_liquidations_usd": 49059524.0,
+      "short_liquidations_usd": 41619683.83,
+      "timestamp": 1783443600
+    },
+    {
+      "datetime": "2026-07-07T18:00:00Z",
+      "blockheight": 856354,
+      "long_liquidations": 739.2204,
+      "short_liquidations": 532.8196,
+      "long_liquidations_usd": 49947031.11,
+      "short_liquidations_usd": 71913345.7,
+      "timestamp": 1783447200
+    },
+    {
+      "datetime": "2026-07-07T19:00:00Z",
+      "blockheight": 856355,
+      "long_liquidations": 314.314,
+      "short_liquidations": 389.3185,
+      "long_liquidations_usd": 17630890.25,
+      "short_liquidations_usd": 410064.57,
+      "timestamp": 1783450800
+    },
+    {
+      "datetime": "2026-07-07T20:00:00Z",
+      "blockheight": 856356,
+      "long_liquidations": 610.8316,
+      "short_liquidations": 509.0829,
+      "long_liquidations_usd": 39771449.73,
+      "short_liquidations_usd": 63858007.74,
+      "timestamp": 1783454400
+    },
+    {
+      "datetime": "2026-07-07T21:00:00Z",
+      "blockheight": 856357,
+      "long_liquidations": 211.0463,
+      "short_liquidations": 527.349,
+      "long_liquidations_usd": 72809970.86,
+      "short_liquidations_usd": 35862407.36,
+      "timestamp": 1783458000
+    },
+    {
+      "datetime": "2026-07-07T22:00:00Z",
+      "blockheight": 856358,
+      "long_liquidations": 369.568,
+      "short_liquidations": 823.5869,
+      "long_liquidations_usd": 40157295.81,
+      "short_liquidations_usd": 41644843.3,
+      "timestamp": 1783461600
+    },
+    {
+      "datetime": "2026-07-07T23:00:00Z",
+      "blockheight": 856359,
+      "long_liquidations": 253.6633,
+      "short_liquidations": 356.2496,
+      "long_liquidations_usd": 37713494.41,
+      "short_liquidations_usd": 53902671.75,
+      "timestamp": 1783465200
+    },
+    {
+      "datetime": "2026-07-08T00:00:00Z",
+      "blockheight": 856360,
+      "long_liquidations": 405.979,
+      "short_liquidations": 111.0123,
+      "long_liquidations_usd": 62476470.72,
+      "short_liquidations_usd": 33315809.49,
+      "timestamp": 1783468800
+    },
+    {
+      "datetime": "2026-07-08T01:00:00Z",
+      "blockheight": 856361,
+      "long_liquidations": 233.228,
+      "short_liquidations": 438.1838,
+      "long_liquidations_usd": 74410876.41,
+      "short_liquidations_usd": 54382162.62,
+      "timestamp": 1783472400
+    },
+    {
+      "datetime": "2026-07-08T02:00:00Z",
+      "blockheight": 856362,
+      "long_liquidations": 724.2575,
+      "short_liquidations": 351.6993,
+      "long_liquidations_usd": 60129093.07,
+      "short_liquidations_usd": 54631343.09,
+      "timestamp": 1783476000
+    },
+    {
+      "datetime": "2026-07-08T03:00:00Z",
+      "blockheight": 856363,
+      "long_liquidations": 654.2262,
+      "short_liquidations": 352.3621,
+      "long_liquidations_usd": 48465793.96,
+      "short_liquidations_usd": 61059124.51,
+      "timestamp": 1783479600
+    },
+    {
+      "datetime": "2026-07-08T04:00:00Z",
+      "blockheight": 856364,
+      "long_liquidations": 625.9349,
+      "short_liquidations": 375.3594,
+      "long_liquidations_usd": 43612110.39,
+      "short_liquidations_usd": 37705059.06,
+      "timestamp": 1783483200
+    },
+    {
+      "datetime": "2026-07-08T05:00:00Z",
+      "blockheight": 856365,
+      "long_liquidations": 208.274,
+      "short_liquidations": 419.6869,
+      "long_liquidations_usd": 20903355.25,
+      "short_liquidations_usd": 3332568.38,
+      "timestamp": 1783486800
+    },
+    {
+      "datetime": "2026-07-08T06:00:00Z",
+      "blockheight": 856366,
+      "long_liquidations": 251.5776,
+      "short_liquidations": 153.371,
+      "long_liquidations_usd": 25752027.13,
+      "short_liquidations_usd": 64639006.17,
+      "timestamp": 1783490400
+    },
+    {
+      "datetime": "2026-07-08T07:00:00Z",
+      "blockheight": 856367,
+      "long_liquidations": 319.5285,
+      "short_liquidations": 528.3092,
+      "long_liquidations_usd": 52941342.85,
+      "short_liquidations_usd": 23726689.28,
+      "timestamp": 1783494000
+    },
+    {
+      "datetime": "2026-07-08T08:00:00Z",
+      "blockheight": 856368,
+      "long_liquidations": 441.5912,
+      "short_liquidations": 472.6764,
+      "long_liquidations_usd": 82561692.69,
+      "short_liquidations_usd": 15162009.88,
+      "timestamp": 1783497600
+    },
+    {
+      "datetime": "2026-07-08T09:00:00Z",
+      "blockheight": 856369,
+      "long_liquidations": 293.029,
+      "short_liquidations": 280.1483,
+      "long_liquidations_usd": 28617127.07,
+      "short_liquidations_usd": 22850305.46,
+      "timestamp": 1783501200
+    },
+    {
+      "datetime": "2026-07-08T10:00:00Z",
+      "blockheight": 856370,
+      "long_liquidations": 419.1579,
+      "short_liquidations": 643.923,
+      "long_liquidations_usd": 30495703.52,
+      "short_liquidations_usd": 72609919.56,
+      "timestamp": 1783504800
+    },
+    {
+      "datetime": "2026-07-08T11:00:00Z",
+      "blockheight": 856371,
+      "long_liquidations": 978.379,
+      "short_liquidations": 545.6572,
+      "long_liquidations_usd": 13474252.78,
+      "short_liquidations_usd": 72201341.41,
+      "timestamp": 1783508400
+    },
+    {
+      "datetime": "2026-07-08T12:00:00Z",
+      "blockheight": 856372,
+      "long_liquidations": 918.209,
+      "short_liquidations": 384.1294,
+      "long_liquidations_usd": 74101279.74,
+      "short_liquidations_usd": 28764299.53,
+      "timestamp": 1783512000
+    },
+    {
+      "datetime": "2026-07-08T13:00:00Z",
+      "blockheight": 856373,
+      "long_liquidations": 706.359,
+      "short_liquidations": 338.4778,
+      "long_liquidations_usd": 40798803.43,
+      "short_liquidations_usd": 40114824.9,
+      "timestamp": 1783515600
+    },
+    {
+      "datetime": "2026-07-08T14:00:00Z",
+      "blockheight": 856374,
+      "long_liquidations": 754.2589,
+      "short_liquidations": 505.4458,
+      "long_liquidations_usd": 31226238.05,
+      "short_liquidations_usd": 59805118.21,
+      "timestamp": 1783519200
+    },
+    {
+      "datetime": "2026-07-08T15:00:00Z",
+      "blockheight": 856375,
+      "long_liquidations": 261.6683,
+      "short_liquidations": 190.8772,
+      "long_liquidations_usd": 29242014.02,
+      "short_liquidations_usd": 41094246.65,
+      "timestamp": 1783522800
+    },
+    {
+      "datetime": "2026-07-08T16:00:00Z",
+      "blockheight": 856376,
+      "long_liquidations": 562.7625,
+      "short_liquidations": 232.821,
+      "long_liquidations_usd": 63979120.45,
+      "short_liquidations_usd": 37377720.15,
+      "timestamp": 1783526400
+    },
+    {
+      "datetime": "2026-07-08T17:00:00Z",
+      "blockheight": 856377,
+      "long_liquidations": 373.1301,
+      "short_liquidations": 471.5545,
+      "long_liquidations_usd": 65596469.46,
+      "short_liquidations_usd": 30887118.73,
+      "timestamp": 1783530000
+    },
+    {
+      "datetime": "2026-07-08T18:00:00Z",
+      "blockheight": 856378,
+      "long_liquidations": 424.9706,
+      "short_liquidations": 61.9861,
+      "long_liquidations_usd": 34373434.92,
+      "short_liquidations_usd": 29521163.55,
+      "timestamp": 1783533600
+    },
+    {
+      "datetime": "2026-07-08T19:00:00Z",
+      "blockheight": 856379,
+      "long_liquidations": 381.718,
+      "short_liquidations": 469.6809,
+      "long_liquidations_usd": 45059423.99,
+      "short_liquidations_usd": 47865645.56,
+      "timestamp": 1783537200
+    },
+    {
+      "datetime": "2026-07-08T20:00:00Z",
+      "blockheight": 856380,
+      "long_liquidations": 624.6755,
+      "short_liquidations": 513.0903,
+      "long_liquidations_usd": 56747080.24,
+      "short_liquidations_usd": 24160781.79,
+      "timestamp": 1783540800
+    },
+    {
+      "datetime": "2026-07-08T21:00:00Z",
+      "blockheight": 856381,
+      "long_liquidations": 544.5477,
+      "short_liquidations": 674.7112,
+      "long_liquidations_usd": 68306949.51,
+      "short_liquidations_usd": 44385674.04,
+      "timestamp": 1783544400
+    },
+    {
+      "datetime": "2026-07-08T22:00:00Z",
+      "blockheight": 856382,
+      "long_liquidations": 188.3201,
+      "short_liquidations": 145.8646,
+      "long_liquidations_usd": 34635514.3,
+      "short_liquidations_usd": 54536597.2,
+      "timestamp": 1783548000
+    },
+    {
+      "datetime": "2026-07-08T23:00:00Z",
+      "blockheight": 856383,
+      "long_liquidations": 649.0164,
+      "short_liquidations": 490.1302,
+      "long_liquidations_usd": 87410790.83,
+      "short_liquidations_usd": 67457098.67,
+      "timestamp": 1783551600
+    },
+    {
+      "datetime": "2026-07-09T00:00:00Z",
+      "blockheight": 856384,
+      "long_liquidations": 309.9545,
+      "short_liquidations": 266.5717,
+      "long_liquidations_usd": 36198006.38,
+      "short_liquidations_usd": 67683446.77,
+      "timestamp": 1783555200
+    },
+    {
+      "datetime": "2026-07-09T01:00:00Z",
+      "blockheight": 856385,
+      "long_liquidations": 603.1874,
+      "short_liquidations": 501.061,
+      "long_liquidations_usd": 57679530.75,
+      "short_liquidations_usd": 61996468.4,
+      "timestamp": 1783558800
+    },
+    {
+      "datetime": "2026-07-09T02:00:00Z",
+      "blockheight": 856386,
+      "long_liquidations": 598.6506,
+      "short_liquidations": 502.7525,
+      "long_liquidations_usd": 43957406.93,
+      "short_liquidations_usd": 61105560.6,
+      "timestamp": 1783562400
+    },
+    {
+      "datetime": "2026-07-09T03:00:00Z",
+      "blockheight": 856387,
+      "long_liquidations": 359.9911,
+      "short_liquidations": 44.4885,
+      "long_liquidations_usd": 61853464.66,
+      "short_liquidations_usd": 21283706.5,
+      "timestamp": 1783566000
+    },
+    {
+      "datetime": "2026-07-09T04:00:00Z",
+      "blockheight": 856388,
+      "long_liquidations": 571.9904,
+      "short_liquidations": 541.1448,
+      "long_liquidations_usd": 41799292.25,
+      "short_liquidations_usd": 57144698.53,
+      "timestamp": 1783569600
+    },
+    {
+      "datetime": "2026-07-09T05:00:00Z",
+      "blockheight": 856389,
+      "long_liquidations": 243.8217,
+      "short_liquidations": 52.9892,
+      "long_liquidations_usd": 71066164.11,
+      "short_liquidations_usd": 50786419.76,
+      "timestamp": 1783573200
+    },
+    {
+      "datetime": "2026-07-09T06:00:00Z",
+      "blockheight": 856390,
+      "long_liquidations": 123.0697,
+      "short_liquidations": 118.1415,
+      "long_liquidations_usd": 69217117.93,
+      "short_liquidations_usd": 75688439.67,
+      "timestamp": 1783576800
+    },
+    {
+      "datetime": "2026-07-09T07:00:00Z",
+      "blockheight": 856391,
+      "long_liquidations": 137.3317,
+      "short_liquidations": 472.2131,
+      "long_liquidations_usd": 58074572.3,
+      "short_liquidations_usd": 37288684.3,
+      "timestamp": 1783580400
+    },
+    {
+      "datetime": "2026-07-09T08:00:00Z",
+      "blockheight": 856392,
+      "long_liquidations": 329.7663,
+      "short_liquidations": 264.1078,
+      "long_liquidations_usd": 50863258.98,
+      "short_liquidations_usd": 61739842.99,
+      "timestamp": 1783584000
+    },
+    {
+      "datetime": "2026-07-09T09:00:00Z",
+      "blockheight": 856393,
+      "long_liquidations": 425.425,
+      "short_liquidations": 576.3615,
+      "long_liquidations_usd": 84038215.73,
+      "short_liquidations_usd": 35097680.75,
+      "timestamp": 1783587600
+    },
+    {
+      "datetime": "2026-07-09T10:00:00Z",
+      "blockheight": 856394,
+      "long_liquidations": 711.8304,
+      "short_liquidations": 530.8579,
+      "long_liquidations_usd": 50689361.27,
+      "short_liquidations_usd": 21148837.17,
+      "timestamp": 1783591200
+    },
+    {
+      "datetime": "2026-07-09T11:00:00Z",
+      "blockheight": 856395,
+      "long_liquidations": 667.8356,
+      "short_liquidations": 309.9181,
+      "long_liquidations_usd": 44361765.65,
+      "short_liquidations_usd": 35391001.48,
+      "timestamp": 1783594800
+    },
+    {
+      "datetime": "2026-07-09T12:00:00Z",
+      "blockheight": 856396,
+      "long_liquidations": 493.2949,
+      "short_liquidations": 550.3371,
+      "long_liquidations_usd": 53176088.16,
+      "short_liquidations_usd": 61050523.88,
+      "timestamp": 1783598400
+    },
+    {
+      "datetime": "2026-07-09T13:00:00Z",
+      "blockheight": 856397,
+      "long_liquidations": 334.2793,
+      "short_liquidations": 497.7882,
+      "long_liquidations_usd": 49546799.07,
+      "short_liquidations_usd": 39344156.25,
+      "timestamp": 1783602000
+    },
+    {
+      "datetime": "2026-07-09T14:00:00Z",
+      "blockheight": 856398,
+      "long_liquidations": 75.8548,
+      "short_liquidations": 565.3083,
+      "long_liquidations_usd": 67372024.62,
+      "short_liquidations_usd": 27006768.51,
+      "timestamp": 1783605600
+    },
+    {
+      "datetime": "2026-07-09T15:00:00Z",
+      "blockheight": 856399,
+      "long_liquidations": 34.2208,
+      "short_liquidations": 264.9077,
+      "long_liquidations_usd": 56304068.97,
+      "short_liquidations_usd": 47830057.07,
+      "timestamp": 1783609200
+    },
+    {
+      "datetime": "2026-07-09T16:00:00Z",
+      "blockheight": 856400,
+      "long_liquidations": 354.5481,
+      "short_liquidations": 568.0748,
+      "long_liquidations_usd": 51431970.62,
+      "short_liquidations_usd": 22248533.84,
+      "timestamp": 1783612800
+    },
+    {
+      "datetime": "2026-07-09T17:00:00Z",
+      "blockheight": 856401,
+      "long_liquidations": 265.5164,
+      "short_liquidations": 144.2878,
+      "long_liquidations_usd": 2636320.27,
+      "short_liquidations_usd": 73080757.84,
+      "timestamp": 1783616400
+    },
+    {
+      "datetime": "2026-07-09T18:00:00Z",
+      "blockheight": 856402,
+      "long_liquidations": 586.9169,
+      "short_liquidations": 23.7546,
+      "long_liquidations_usd": 38344946.0,
+      "short_liquidations_usd": 52979330.14,
+      "timestamp": 1783620000
+    },
+    {
+      "datetime": "2026-07-09T19:00:00Z",
+      "blockheight": 856403,
+      "long_liquidations": 185.3156,
+      "short_liquidations": 640.1544,
+      "long_liquidations_usd": 51666537.7,
+      "short_liquidations_usd": 24136636.37,
+      "timestamp": 1783623600
+    },
+    {
+      "datetime": "2026-07-09T20:00:00Z",
+      "blockheight": 856404,
+      "long_liquidations": 558.2721,
+      "short_liquidations": 312.5534,
+      "long_liquidations_usd": 53732812.92,
+      "short_liquidations_usd": 53019140.89,
+      "timestamp": 1783627200
+    },
+    {
+      "datetime": "2026-07-09T21:00:00Z",
+      "blockheight": 856405,
+      "long_liquidations": 588.6748,
+      "short_liquidations": 653.625,
+      "long_liquidations_usd": 15507517.05,
+      "short_liquidations_usd": 34346118.19,
+      "timestamp": 1783630800
+    },
+    {
+      "datetime": "2026-07-09T22:00:00Z",
+      "blockheight": 856406,
+      "long_liquidations": 478.1916,
+      "short_liquidations": 247.3968,
+      "long_liquidations_usd": 49597616.21,
+      "short_liquidations_usd": 35093503.05,
+      "timestamp": 1783634400
+    },
+    {
+      "datetime": "2026-07-09T23:00:00Z",
+      "blockheight": 856407,
+      "long_liquidations": 518.9435,
+      "short_liquidations": 554.0584,
+      "long_liquidations_usd": 29684485.74,
+      "short_liquidations_usd": 45263435.54,
+      "timestamp": 1783638000
+    },
+    {
+      "datetime": "2026-07-10T00:00:00Z",
+      "blockheight": 856408,
+      "long_liquidations": 166.5906,
+      "short_liquidations": 524.5058,
+      "long_liquidations_usd": 16941975.19,
+      "short_liquidations_usd": 30382577.48,
+      "timestamp": 1783641600
+    },
+    {
+      "datetime": "2026-07-10T01:00:00Z",
+      "blockheight": 856409,
+      "long_liquidations": 528.3166,
+      "short_liquidations": 308.7966,
+      "long_liquidations_usd": 17260937.97,
+      "short_liquidations_usd": 20819314.94,
+      "timestamp": 1783645200
+    },
+    {
+      "datetime": "2026-07-10T02:00:00Z",
+      "blockheight": 856410,
+      "long_liquidations": 330.2707,
+      "short_liquidations": 392.4852,
+      "long_liquidations_usd": 44397420.04,
+      "short_liquidations_usd": 57649033.92,
+      "timestamp": 1783648800
+    },
+    {
+      "datetime": "2026-07-10T03:00:00Z",
+      "blockheight": 856411,
+      "long_liquidations": 916.0274,
+      "short_liquidations": 409.6336,
+      "long_liquidations_usd": 57128474.97,
+      "short_liquidations_usd": 50501687.9,
+      "timestamp": 1783652400
+    },
+    {
+      "datetime": "2026-07-10T04:00:00Z",
+      "blockheight": 856412,
+      "long_liquidations": 140.1203,
+      "short_liquidations": 571.5578,
+      "long_liquidations_usd": 45112656.39,
+      "short_liquidations_usd": 39047173.63,
+      "timestamp": 1783656000
+    },
+    {
+      "datetime": "2026-07-10T05:00:00Z",
+      "blockheight": 856413,
+      "long_liquidations": 630.7269,
+      "short_liquidations": 572.9011,
+      "long_liquidations_usd": 81800509.36,
+      "short_liquidations_usd": 28115222.06,
+      "timestamp": 1783659600
+    },
+    {
+      "datetime": "2026-07-10T06:00:00Z",
+      "blockheight": 856414,
+      "long_liquidations": 487.466,
+      "short_liquidations": 43.7134,
+      "long_liquidations_usd": 14256530.27,
+      "short_liquidations_usd": 35434027.36,
+      "timestamp": 1783663200
+    },
+    {
+      "datetime": "2026-07-10T07:00:00Z",
+      "blockheight": 856415,
+      "long_liquidations": 225.8621,
+      "short_liquidations": 317.5536,
+      "long_liquidations_usd": 45128177.19,
+      "short_liquidations_usd": 33235368.12,
+      "timestamp": 1783666800
+    },
+    {
+      "datetime": "2026-07-10T08:00:00Z",
+      "blockheight": 856416,
+      "long_liquidations": 259.752,
+      "short_liquidations": 436.6134,
+      "long_liquidations_usd": 44463764.54,
+      "short_liquidations_usd": 50151333.79,
+      "timestamp": 1783670400
+    },
+    {
+      "datetime": "2026-07-10T09:00:00Z",
+      "blockheight": 856417,
+      "long_liquidations": 600.9951,
+      "short_liquidations": 458.8043,
+      "long_liquidations_usd": 67733231.28,
+      "short_liquidations_usd": 25252841.96,
+      "timestamp": 1783674000
+    },
+    {
+      "datetime": "2026-07-10T10:00:00Z",
+      "blockheight": 856418,
+      "long_liquidations": 253.3218,
+      "short_liquidations": 301.5739,
+      "long_liquidations_usd": 60897165.98,
+      "short_liquidations_usd": 57846844.0,
+      "timestamp": 1783677600
+    },
+    {
+      "datetime": "2026-07-10T11:00:00Z",
+      "blockheight": 856419,
+      "long_liquidations": 620.6635,
+      "short_liquidations": 209.4583,
+      "long_liquidations_usd": 27523941.08,
+      "short_liquidations_usd": 34535734.4,
+      "timestamp": 1783681200
+    },
+    {
+      "datetime": "2026-07-10T12:00:00Z",
+      "blockheight": 856420,
+      "long_liquidations": 777.0307,
+      "short_liquidations": 569.9426,
+      "long_liquidations_usd": 26104185.71,
+      "short_liquidations_usd": 27170362.17,
+      "timestamp": 1783684800
+    },
+    {
+      "datetime": "2026-07-10T13:00:00Z",
+      "blockheight": 856421,
+      "long_liquidations": 515.3327,
+      "short_liquidations": 336.6446,
+      "long_liquidations_usd": 50106310.41,
+      "short_liquidations_usd": 61976141.98,
+      "timestamp": 1783688400
+    },
+    {
+      "datetime": "2026-07-10T14:00:00Z",
+      "blockheight": 856422,
+      "long_liquidations": 53.9504,
+      "short_liquidations": 305.6723,
+      "long_liquidations_usd": 32024907.44,
+      "short_liquidations_usd": 58718347.2,
+      "timestamp": 1783692000
+    },
+    {
+      "datetime": "2026-07-10T15:00:00Z",
+      "blockheight": 856423,
+      "long_liquidations": 361.2014,
+      "short_liquidations": 716.5234,
+      "long_liquidations_usd": 70791720.74,
+      "short_liquidations_usd": 33630873.76,
+      "timestamp": 1783695600
+    },
+    {
+      "datetime": "2026-07-10T16:00:00Z",
+      "blockheight": 856424,
+      "long_liquidations": 326.1555,
+      "short_liquidations": 483.8546,
+      "long_liquidations_usd": 24418685.51,
+      "short_liquidations_usd": 71845771.36,
+      "timestamp": 1783699200
+    },
+    {
+      "datetime": "2026-07-10T17:00:00Z",
+      "blockheight": 856425,
+      "long_liquidations": 441.9858,
+      "short_liquidations": 145.9158,
+      "long_liquidations_usd": 66489936.49,
+      "short_liquidations_usd": 9035350.64,
+      "timestamp": 1783702800
+    },
+    {
+      "datetime": "2026-07-10T18:00:00Z",
+      "blockheight": 856426,
+      "long_liquidations": 728.1588,
+      "short_liquidations": 663.3652,
+      "long_liquidations_usd": 23667251.37,
+      "short_liquidations_usd": 22001584.83,
+      "timestamp": 1783706400
+    },
+    {
+      "datetime": "2026-07-10T19:00:00Z",
+      "blockheight": 856427,
+      "long_liquidations": 110.3087,
+      "short_liquidations": 127.7068,
+      "long_liquidations_usd": 61080629.69,
+      "short_liquidations_usd": 35367467.69,
+      "timestamp": 1783710000
+    },
+    {
+      "datetime": "2026-07-10T20:00:00Z",
+      "blockheight": 856428,
+      "long_liquidations": 303.5253,
+      "short_liquidations": 272.1058,
+      "long_liquidations_usd": 48648929.36,
+      "short_liquidations_usd": 33768459.41,
+      "timestamp": 1783713600
+    },
+    {
+      "datetime": "2026-07-10T21:00:00Z",
+      "blockheight": 856429,
+      "long_liquidations": 619.022,
+      "short_liquidations": 668.2538,
+      "long_liquidations_usd": 36431835.65,
+      "short_liquidations_usd": 24517846.97,
+      "timestamp": 1783717200
+    },
+    {
+      "datetime": "2026-07-10T22:00:00Z",
+      "blockheight": 856430,
+      "long_liquidations": 711.8532,
+      "short_liquidations": 303.7647,
+      "long_liquidations_usd": 43244289.72,
+      "short_liquidations_usd": 67193330.57,
+      "timestamp": 1783720800
+    },
+    {
+      "datetime": "2026-07-10T23:00:00Z",
+      "blockheight": 856431,
+      "long_liquidations": 487.2722,
+      "short_liquidations": 792.9123,
+      "long_liquidations_usd": 15236613.39,
+      "short_liquidations_usd": 62298137.67,
+      "timestamp": 1783724400
+    },
+    {
+      "datetime": "2026-07-11T00:00:00Z",
+      "blockheight": 856432,
+      "long_liquidations": 796.0685,
+      "short_liquidations": 487.035,
+      "long_liquidations_usd": 42888573.0,
+      "short_liquidations_usd": 48018363.2,
+      "timestamp": 1783728000
+    },
+    {
+      "datetime": "2026-07-11T01:00:00Z",
+      "blockheight": 856433,
+      "long_liquidations": 11.1422,
+      "short_liquidations": 234.0822,
+      "long_liquidations_usd": 66521110.37,
+      "short_liquidations_usd": 38627779.13,
+      "timestamp": 1783731600
+    },
+    {
+      "datetime": "2026-07-11T02:00:00Z",
+      "blockheight": 856434,
+      "long_liquidations": 502.8365,
+      "short_liquidations": 419.9757,
+      "long_liquidations_usd": 27246775.32,
+      "short_liquidations_usd": 21132329.45,
+      "timestamp": 1783735200
+    },
+    {
+      "datetime": "2026-07-11T03:00:00Z",
+      "blockheight": 856435,
+      "long_liquidations": 285.7032,
+      "short_liquidations": 225.0298,
+      "long_liquidations_usd": 58073032.35,
+      "short_liquidations_usd": 41758663.01,
+      "timestamp": 1783738800
+    },
+    {
+      "datetime": "2026-07-11T04:00:00Z",
+      "blockheight": 856436,
+      "long_liquidations": 535.4817,
+      "short_liquidations": 186.6395,
+      "long_liquidations_usd": 48510605.69,
+      "short_liquidations_usd": 72875806.58,
+      "timestamp": 1783742400
+    },
+    {
+      "datetime": "2026-07-11T05:00:00Z",
+      "blockheight": 856437,
+      "long_liquidations": 210.1563,
+      "short_liquidations": 399.1249,
+      "long_liquidations_usd": 78987854.57,
+      "short_liquidations_usd": 20829050.43,
+      "timestamp": 1783746000
+    },
+    {
+      "datetime": "2026-07-11T06:00:00Z",
+      "blockheight": 856438,
+      "long_liquidations": 841.9069,
+      "short_liquidations": 178.8412,
+      "long_liquidations_usd": 28688260.08,
+      "short_liquidations_usd": 42793243.97,
+      "timestamp": 1783749600
+    },
+    {
+      "datetime": "2026-07-11T07:00:00Z",
+      "blockheight": 856439,
+      "long_liquidations": 407.5463,
+      "short_liquidations": 752.9119,
+      "long_liquidations_usd": 6087504.96,
+      "short_liquidations_usd": 16655488.69,
+      "timestamp": 1783753200
+    },
+    {
+      "datetime": "2026-07-11T08:00:00Z",
+      "blockheight": 856440,
+      "long_liquidations": 301.9923,
+      "short_liquidations": 492.5258,
+      "long_liquidations_usd": 30670616.81,
+      "short_liquidations_usd": 57353195.91,
+      "timestamp": 1783756800
+    },
+    {
+      "datetime": "2026-07-11T09:00:00Z",
+      "blockheight": 856441,
+      "long_liquidations": 766.7952,
+      "short_liquidations": 438.655,
+      "long_liquidations_usd": 40897410.97,
+      "short_liquidations_usd": 21342391.56,
+      "timestamp": 1783760400
+    },
+    {
+      "datetime": "2026-07-11T10:00:00Z",
+      "blockheight": 856442,
+      "long_liquidations": 499.3697,
+      "short_liquidations": 524.597,
+      "long_liquidations_usd": 43446039.18,
+      "short_liquidations_usd": 27756657.1,
+      "timestamp": 1783764000
+    },
+    {
+      "datetime": "2026-07-11T11:00:00Z",
+      "blockheight": 856443,
+      "long_liquidations": 309.4747,
+      "short_liquidations": 345.9166,
+      "long_liquidations_usd": 53682982.69,
+      "short_liquidations_usd": 39640801.29,
+      "timestamp": 1783767600
+    },
+    {
+      "datetime": "2026-07-11T12:00:00Z",
+      "blockheight": 856444,
+      "long_liquidations": 369.8486,
+      "short_liquidations": 380.2593,
+      "long_liquidations_usd": 73542286.63,
+      "short_liquidations_usd": 55836509.9,
+      "timestamp": 1783771200
+    },
+    {
+      "datetime": "2026-07-11T13:00:00Z",
+      "blockheight": 856445,
+      "long_liquidations": 732.48,
+      "short_liquidations": 344.0348,
+      "long_liquidations_usd": 21443805.61,
+      "short_liquidations_usd": 77811253.11,
+      "timestamp": 1783774800
+    },
+    {
+      "datetime": "2026-07-11T14:00:00Z",
+      "blockheight": 856446,
+      "long_liquidations": 695.4085,
+      "short_liquidations": 575.7107,
+      "long_liquidations_usd": 25755396.23,
+      "short_liquidations_usd": 35644119.92,
+      "timestamp": 1783778400
+    },
+    {
+      "datetime": "2026-07-11T15:00:00Z",
+      "blockheight": 856447,
+      "long_liquidations": 308.6099,
+      "short_liquidations": 406.4205,
+      "long_liquidations_usd": 37390203.59,
+      "short_liquidations_usd": 23279337.76,
+      "timestamp": 1783782000
+    },
+    {
+      "datetime": "2026-07-11T16:00:00Z",
+      "blockheight": 856448,
+      "long_liquidations": 479.7751,
+      "short_liquidations": 239.0319,
+      "long_liquidations_usd": 30860034.47,
+      "short_liquidations_usd": 36241800.87,
+      "timestamp": 1783785600
+    },
+    {
+      "datetime": "2026-07-11T17:00:00Z",
+      "blockheight": 856449,
+      "long_liquidations": 658.4086,
+      "short_liquidations": 425.6753,
+      "long_liquidations_usd": 65481794.18,
+      "short_liquidations_usd": 68768993.41,
+      "timestamp": 1783789200
+    },
+    {
+      "datetime": "2026-07-11T18:00:00Z",
+      "blockheight": 856450,
+      "long_liquidations": 650.3704,
+      "short_liquidations": 371.3148,
+      "long_liquidations_usd": 63823172.81,
+      "short_liquidations_usd": 46369448.0,
+      "timestamp": 1783792800
+    },
+    {
+      "datetime": "2026-07-11T19:00:00Z",
+      "blockheight": 856451,
+      "long_liquidations": 384.8342,
+      "short_liquidations": 697.9463,
+      "long_liquidations_usd": 17599352.5,
+      "short_liquidations_usd": 52129837.47,
+      "timestamp": 1783796400
+    },
+    {
+      "datetime": "2026-07-11T20:00:00Z",
+      "blockheight": 856452,
+      "long_liquidations": 408.2988,
+      "short_liquidations": 241.8676,
+      "long_liquidations_usd": 43043284.29,
+      "short_liquidations_usd": 42999820.8,
+      "timestamp": 1783800000
+    },
+    {
+      "datetime": "2026-07-11T21:00:00Z",
+      "blockheight": 856453,
+      "long_liquidations": 329.2741,
+      "short_liquidations": 127.3263,
+      "long_liquidations_usd": 46800001.85,
+      "short_liquidations_usd": 16123505.45,
+      "timestamp": 1783803600
+    },
+    {
+      "datetime": "2026-07-11T22:00:00Z",
+      "blockheight": 856454,
+      "long_liquidations": 264.0626,
+      "short_liquidations": 551.4826,
+      "long_liquidations_usd": 31752092.59,
+      "short_liquidations_usd": 53006653.54,
+      "timestamp": 1783807200
+    },
+    {
+      "datetime": "2026-07-11T23:00:00Z",
+      "blockheight": 856455,
+      "long_liquidations": 181.3186,
+      "short_liquidations": 276.4887,
+      "long_liquidations_usd": 67957859.57,
+      "short_liquidations_usd": 56837169.69,
+      "timestamp": 1783810800
+    },
+    {
+      "datetime": "2026-07-12T00:00:00Z",
+      "blockheight": 856456,
+      "long_liquidations": 350.1075,
+      "short_liquidations": 434.7868,
+      "long_liquidations_usd": 34598608.76,
+      "short_liquidations_usd": 39768241.47,
+      "timestamp": 1783814400
+    },
+    {
+      "datetime": "2026-07-12T01:00:00Z",
+      "blockheight": 856457,
+      "long_liquidations": 231.9289,
+      "short_liquidations": 638.3371,
+      "long_liquidations_usd": 28802869.52,
+      "short_liquidations_usd": 51069880.98,
+      "timestamp": 1783818000
+    },
+    {
+      "datetime": "2026-07-12T02:00:00Z",
+      "blockheight": 856458,
+      "long_liquidations": 491.4983,
+      "short_liquidations": 366.4463,
+      "long_liquidations_usd": 56683523.46,
+      "short_liquidations_usd": 20001289.42,
+      "timestamp": 1783821600
+    },
+    {
+      "datetime": "2026-07-12T03:00:00Z",
+      "blockheight": 856459,
+      "long_liquidations": 680.3858,
+      "short_liquidations": 257.0345,
+      "long_liquidations_usd": 61279351.75,
+      "short_liquidations_usd": 40482383.36,
+      "timestamp": 1783825200
+    },
+    {
+      "datetime": "2026-07-12T04:00:00Z",
+      "blockheight": 856460,
+      "long_liquidations": 551.4262,
+      "short_liquidations": 441.7647,
+      "long_liquidations_usd": 33806438.17,
+      "short_liquidations_usd": 16981129.15,
+      "timestamp": 1783828800
+    },
+    {
+      "datetime": "2026-07-12T05:00:00Z",
+      "blockheight": 856461,
+      "long_liquidations": 428.3435,
+      "short_liquidations": 457.7231,
+      "long_liquidations_usd": 38649201.96,
+      "short_liquidations_usd": 39363646.29,
+      "timestamp": 1783832400
+    },
+    {
+      "datetime": "2026-07-12T06:00:00Z",
+      "blockheight": 856462,
+      "long_liquidations": 428.2955,
+      "short_liquidations": 535.2542,
+      "long_liquidations_usd": 32441570.95,
+      "short_liquidations_usd": 60448302.25,
+      "timestamp": 1783836000
+    },
+    {
+      "datetime": "2026-07-12T07:00:00Z",
+      "blockheight": 856463,
+      "long_liquidations": 496.7321,
+      "short_liquidations": 472.1055,
+      "long_liquidations_usd": 58440516.19,
+      "short_liquidations_usd": 28001164.8,
+      "timestamp": 1783839600
+    },
+    {
+      "datetime": "2026-07-12T08:00:00Z",
+      "blockheight": 856464,
+      "long_liquidations": 580.3974,
+      "short_liquidations": 506.6394,
+      "long_liquidations_usd": 39172006.09,
+      "short_liquidations_usd": 19162126.06,
+      "timestamp": 1783843200
+    },
+    {
+      "datetime": "2026-07-12T09:00:00Z",
+      "blockheight": 856465,
+      "long_liquidations": 365.9991,
+      "short_liquidations": 578.2571,
+      "long_liquidations_usd": 84725709.46,
+      "short_liquidations_usd": 71128404.33,
+      "timestamp": 1783846800
+    },
+    {
+      "datetime": "2026-07-12T10:00:00Z",
+      "blockheight": 856466,
+      "long_liquidations": 576.1581,
+      "short_liquidations": 578.9509,
+      "long_liquidations_usd": 35275608.54,
+      "short_liquidations_usd": 46751248.81,
+      "timestamp": 1783850400
+    },
+    {
+      "datetime": "2026-07-12T11:00:00Z",
+      "blockheight": 856467,
+      "long_liquidations": 229.2804,
+      "short_liquidations": 607.02,
+      "long_liquidations_usd": 48770632.35,
+      "short_liquidations_usd": 48004144.23,
+      "timestamp": 1783854000
+    },
+    {
+      "datetime": "2026-07-12T12:00:00Z",
+      "blockheight": 856468,
+      "long_liquidations": 230.3229,
+      "short_liquidations": 360.748,
+      "long_liquidations_usd": 68490759.85,
+      "short_liquidations_usd": 18601462.07,
+      "timestamp": 1783857600
+    },
+    {
+      "datetime": "2026-07-12T13:00:00Z",
+      "blockheight": 856469,
+      "long_liquidations": 275.9337,
+      "short_liquidations": 327.7113,
+      "long_liquidations_usd": 49723002.37,
+      "short_liquidations_usd": 45559260.71,
+      "timestamp": 1783861200
+    },
+    {
+      "datetime": "2026-07-12T14:00:00Z",
+      "blockheight": 856470,
+      "long_liquidations": 667.2651,
+      "short_liquidations": 234.6235,
+      "long_liquidations_usd": 15675056.07,
+      "short_liquidations_usd": 24305361.25,
+      "timestamp": 1783864800
+    },
+    {
+      "datetime": "2026-07-12T15:00:00Z",
+      "blockheight": 856471,
+      "long_liquidations": 555.7825,
+      "short_liquidations": 427.6631,
+      "long_liquidations_usd": 38188392.54,
+      "short_liquidations_usd": 20527717.11,
+      "timestamp": 1783868400
+    },
+    {
+      "datetime": "2026-07-12T16:00:00Z",
+      "blockheight": 856472,
+      "long_liquidations": 920.2884,
+      "short_liquidations": 70.4859,
+      "long_liquidations_usd": 69615669.59,
+      "short_liquidations_usd": 42924658.6,
+      "timestamp": 1783872000
+    },
+    {
+      "datetime": "2026-07-12T17:00:00Z",
+      "blockheight": 856473,
+      "long_liquidations": 399.4631,
+      "short_liquidations": 486.4159,
+      "long_liquidations_usd": 35641819.39,
+      "short_liquidations_usd": 29559164.3,
+      "timestamp": 1783875600
+    },
+    {
+      "datetime": "2026-07-12T18:00:00Z",
+      "blockheight": 856474,
+      "long_liquidations": 280.672,
+      "short_liquidations": 581.5879,
+      "long_liquidations_usd": 31562183.71,
+      "short_liquidations_usd": 35110840.26,
+      "timestamp": 1783879200
+    },
+    {
+      "datetime": "2026-07-12T19:00:00Z",
+      "blockheight": 856475,
+      "long_liquidations": 827.6866,
+      "short_liquidations": 455.9674,
+      "long_liquidations_usd": 87421384.94,
+      "short_liquidations_usd": 56703568.96,
+      "timestamp": 1783882800
+    },
+    {
+      "datetime": "2026-07-12T20:00:00Z",
+      "blockheight": 856476,
+      "long_liquidations": 730.0647,
+      "short_liquidations": 352.2519,
+      "long_liquidations_usd": 30897137.56,
+      "short_liquidations_usd": 50763823.19,
+      "timestamp": 1783886400
+    },
+    {
+      "datetime": "2026-07-12T21:00:00Z",
+      "blockheight": 856477,
+      "long_liquidations": 346.1016,
+      "short_liquidations": 426.8506,
+      "long_liquidations_usd": 96573106.95,
+      "short_liquidations_usd": 22164101.5,
+      "timestamp": 1783890000
+    },
+    {
+      "datetime": "2026-07-12T22:00:00Z",
+      "blockheight": 856478,
+      "long_liquidations": 468.5248,
+      "short_liquidations": 452.5998,
+      "long_liquidations_usd": 88816539.84,
+      "short_liquidations_usd": 50371415.13,
+      "timestamp": 1783893600
+    },
+    {
+      "datetime": "2026-07-12T23:00:00Z",
+      "blockheight": 856479,
+      "long_liquidations": 172.1647,
+      "short_liquidations": 586.4766,
+      "long_liquidations_usd": 55427379.99,
+      "short_liquidations_usd": 30387391.67,
+      "timestamp": 1783897200
+    },
+    {
+      "datetime": "2026-07-13T00:00:00Z",
+      "blockheight": 856480,
+      "long_liquidations": 394.1743,
+      "short_liquidations": 527.7871,
+      "long_liquidations_usd": 37208537.69,
+      "short_liquidations_usd": 43044014.89,
+      "timestamp": 1783900800
+    },
+    {
+      "datetime": "2026-07-13T01:00:00Z",
+      "blockheight": 856481,
+      "long_liquidations": 622.0948,
+      "short_liquidations": 643.0488,
+      "long_liquidations_usd": 24304115.62,
+      "short_liquidations_usd": 43601353.15,
+      "timestamp": 1783904400
+    },
+    {
+      "datetime": "2026-07-13T02:00:00Z",
+      "blockheight": 856482,
+      "long_liquidations": 781.4937,
+      "short_liquidations": 750.5207,
+      "long_liquidations_usd": 122266961.54,
+      "short_liquidations_usd": 42752107.07,
+      "timestamp": 1783908000
+    },
+    {
+      "datetime": "2026-07-13T03:00:00Z",
+      "blockheight": 856483,
+      "long_liquidations": 115.5531,
+      "short_liquidations": 225.8618,
+      "long_liquidations_usd": 87370873.6,
+      "short_liquidations_usd": 63280459.34,
+      "timestamp": 1783911600
+    },
+    {
+      "datetime": "2026-07-13T04:00:00Z",
+      "blockheight": 856484,
+      "long_liquidations": 1027.2442,
+      "short_liquidations": 794.1411,
+      "long_liquidations_usd": 54261832.48,
+      "short_liquidations_usd": 35190235.42,
+      "timestamp": 1783915200
+    },
+    {
+      "datetime": "2026-07-13T05:00:00Z",
+      "blockheight": 856485,
+      "long_liquidations": 331.795,
+      "short_liquidations": 711.0465,
+      "long_liquidations_usd": 62783888.52,
+      "short_liquidations_usd": 52865299.93,
+      "timestamp": 1783918800
+    },
+    {
+      "datetime": "2026-07-13T06:00:00Z",
+      "blockheight": 856486,
+      "long_liquidations": 370.1677,
+      "short_liquidations": 481.7408,
+      "long_liquidations_usd": 11971510.17,
+      "short_liquidations_usd": 32552071.3,
+      "timestamp": 1783922400
+    },
+    {
+      "datetime": "2026-07-13T07:00:00Z",
+      "blockheight": 856487,
+      "long_liquidations": 257.1003,
+      "short_liquidations": 511.5033,
+      "long_liquidations_usd": 61846080.26,
+      "short_liquidations_usd": 26162912.39,
+      "timestamp": 1783926000
+    },
+    {
+      "datetime": "2026-07-13T08:00:00Z",
+      "blockheight": 856488,
+      "long_liquidations": 161.3569,
+      "short_liquidations": 502.1807,
+      "long_liquidations_usd": 70984350.82,
+      "short_liquidations_usd": 47049040.14,
+      "timestamp": 1783929600
+    },
+    {
+      "datetime": "2026-07-13T09:00:00Z",
+      "blockheight": 856489,
+      "long_liquidations": 65.9407,
+      "short_liquidations": 316.115,
+      "long_liquidations_usd": 21383757.9,
+      "short_liquidations_usd": 25351348.95,
+      "timestamp": 1783933200
+    },
+    {
+      "datetime": "2026-07-13T10:00:00Z",
+      "blockheight": 856490,
+      "long_liquidations": 881.3663,
+      "short_liquidations": 263.9819,
+      "long_liquidations_usd": 53354261.28,
+      "short_liquidations_usd": 40939260.06,
+      "timestamp": 1783936800
+    },
+    {
+      "datetime": "2026-07-13T11:00:00Z",
+      "blockheight": 856491,
+      "long_liquidations": 745.8013,
+      "short_liquidations": 508.6425,
+      "long_liquidations_usd": 55648258.0,
+      "short_liquidations_usd": 49449136.8,
+      "timestamp": 1783940400
+    },
+    {
+      "datetime": "2026-07-13T12:00:00Z",
+      "blockheight": 856492,
+      "long_liquidations": 627.2215,
+      "short_liquidations": 417.8256,
+      "long_liquidations_usd": 52791877.94,
+      "short_liquidations_usd": 43035185.2,
+      "timestamp": 1783944000
+    },
+    {
+      "datetime": "2026-07-13T13:00:00Z",
+      "blockheight": 856493,
+      "long_liquidations": 419.0771,
+      "short_liquidations": 595.8566,
+      "long_liquidations_usd": 49431718.46,
+      "short_liquidations_usd": 37709062.01,
+      "timestamp": 1783947600
+    },
+    {
+      "datetime": "2026-07-13T14:00:00Z",
+      "blockheight": 856494,
+      "long_liquidations": 224.4433,
+      "short_liquidations": 298.8752,
+      "long_liquidations_usd": 50255908.72,
+      "short_liquidations_usd": 55951758.07,
+      "timestamp": 1783951200
+    },
+    {
+      "datetime": "2026-07-13T15:00:00Z",
+      "blockheight": 856495,
+      "long_liquidations": 736.6479,
+      "short_liquidations": 473.0517,
+      "long_liquidations_usd": 15904019.07,
+      "short_liquidations_usd": 48330631.45,
+      "timestamp": 1783954800
+    },
+    {
+      "datetime": "2026-07-13T16:00:00Z",
+      "blockheight": 856496,
+      "long_liquidations": 467.3644,
+      "short_liquidations": 174.5002,
+      "long_liquidations_usd": 53694583.0,
+      "short_liquidations_usd": 41943291.99,
+      "timestamp": 1783958400
+    },
+    {
+      "datetime": "2026-07-13T17:00:00Z",
+      "blockheight": 856497,
+      "long_liquidations": 259.398,
+      "short_liquidations": 452.1149,
+      "long_liquidations_usd": 21273703.36,
+      "short_liquidations_usd": 59982470.53,
+      "timestamp": 1783962000
+    },
+    {
+      "datetime": "2026-07-13T18:00:00Z",
+      "blockheight": 856498,
+      "long_liquidations": 541.9943,
+      "short_liquidations": 132.352,
+      "long_liquidations_usd": 102894542.26,
+      "short_liquidations_usd": 50369644.72,
+      "timestamp": 1783965600
+    },
+    {
+      "datetime": "2026-07-13T19:00:00Z",
+      "blockheight": 856499,
+      "long_liquidations": 270.7149,
+      "short_liquidations": 541.1895,
+      "long_liquidations_usd": 57106373.66,
+      "short_liquidations_usd": 67064301.37,
+      "timestamp": 1783969200
+    },
+    {
+      "datetime": "2026-07-13T20:00:00Z",
+      "blockheight": 856500,
+      "long_liquidations": 569.8058,
+      "short_liquidations": 451.3524,
+      "long_liquidations_usd": 59208274.12,
+      "short_liquidations_usd": 57612508.01,
+      "timestamp": 1783972800
+    },
+    {
+      "datetime": "2026-07-13T21:00:00Z",
+      "blockheight": 856501,
+      "long_liquidations": 467.5745,
+      "short_liquidations": 345.2233,
+      "long_liquidations_usd": 70767509.2,
+      "short_liquidations_usd": 62901803.75,
+      "timestamp": 1783976400
+    },
+    {
+      "datetime": "2026-07-13T22:00:00Z",
+      "blockheight": 856502,
+      "long_liquidations": 730.1427,
+      "short_liquidations": 387.9011,
+      "long_liquidations_usd": 46872657.29,
+      "short_liquidations_usd": 37405588.95,
+      "timestamp": 1783980000
+    },
+    {
+      "datetime": "2026-07-13T23:00:00Z",
+      "blockheight": 856503,
+      "long_liquidations": 555.3771,
+      "short_liquidations": 437.6229,
+      "long_liquidations_usd": 65890080.81,
+      "short_liquidations_usd": 42661107.21,
+      "timestamp": 1783983600
+    },
+    {
+      "datetime": "2026-07-14T00:00:00Z",
+      "blockheight": 856504,
+      "long_liquidations": 289.6375,
+      "short_liquidations": 779.9498,
+      "long_liquidations_usd": 47442253.48,
+      "short_liquidations_usd": 43607373.32,
+      "timestamp": 1783987200
+    },
+    {
+      "datetime": "2026-07-14T01:00:00Z",
+      "blockheight": 856505,
+      "long_liquidations": 556.558,
+      "short_liquidations": 401.4506,
+      "long_liquidations_usd": 53774930.95,
+      "short_liquidations_usd": 48679759.16,
+      "timestamp": 1783990800
+    },
+    {
+      "datetime": "2026-07-14T02:00:00Z",
+      "blockheight": 856506,
+      "long_liquidations": 620.4839,
+      "short_liquidations": 237.8791,
+      "long_liquidations_usd": 38776960.98,
+      "short_liquidations_usd": 12835931.0,
+      "timestamp": 1783994400
+    },
+    {
+      "datetime": "2026-07-14T03:00:00Z",
+      "blockheight": 856507,
+      "long_liquidations": 516.4459,
+      "short_liquidations": 340.4906,
+      "long_liquidations_usd": 76704990.78,
+      "short_liquidations_usd": 58205285.88,
+      "timestamp": 1783998000
+    },
+    {
+      "datetime": "2026-07-14T04:00:00Z",
+      "blockheight": 856508,
+      "long_liquidations": 226.5334,
+      "short_liquidations": 476.1927,
+      "long_liquidations_usd": 32195941.42,
+      "short_liquidations_usd": 78276965.14,
+      "timestamp": 1784001600
+    },
+    {
+      "datetime": "2026-07-14T05:00:00Z",
+      "blockheight": 856509,
+      "long_liquidations": 385.511,
+      "short_liquidations": 273.087,
+      "long_liquidations_usd": 67730494.2,
+      "short_liquidations_usd": 64567881.17,
+      "timestamp": 1784005200
+    },
+    {
+      "datetime": "2026-07-14T06:00:00Z",
+      "blockheight": 856510,
+      "long_liquidations": 456.4783,
+      "short_liquidations": 527.6634,
+      "long_liquidations_usd": 85862252.91,
+      "short_liquidations_usd": 10575882.36,
+      "timestamp": 1784008800
+    },
+    {
+      "datetime": "2026-07-14T07:00:00Z",
+      "blockheight": 856511,
+      "long_liquidations": 504.2536,
+      "short_liquidations": 470.4936,
+      "long_liquidations_usd": 50196712.2,
+      "short_liquidations_usd": 31682029.44,
+      "timestamp": 1784012400
+    },
+    {
+      "datetime": "2026-07-14T08:00:00Z",
+      "blockheight": 856512,
+      "long_liquidations": 553.2339,
+      "short_liquidations": 299.1148,
+      "long_liquidations_usd": 80116898.14,
+      "short_liquidations_usd": 37863916.65,
+      "timestamp": 1784016000
+    },
+    {
+      "datetime": "2026-07-14T09:00:00Z",
+      "blockheight": 856513,
+      "long_liquidations": 38.6436,
+      "short_liquidations": 426.9034,
+      "long_liquidations_usd": 58087403.57,
+      "short_liquidations_usd": 27007711.62,
+      "timestamp": 1784019600
+    },
+    {
+      "datetime": "2026-07-14T10:00:00Z",
+      "blockheight": 856514,
+      "long_liquidations": 700.9956,
+      "short_liquidations": 298.6824,
+      "long_liquidations_usd": 60934629.79,
+      "short_liquidations_usd": 54986417.89,
+      "timestamp": 1784023200
+    },
+    {
+      "datetime": "2026-07-14T11:00:00Z",
+      "blockheight": 856515,
+      "long_liquidations": 531.8934,
+      "short_liquidations": 245.0177,
+      "long_liquidations_usd": 14596756.95,
+      "short_liquidations_usd": 27535927.21,
+      "timestamp": 1784026800
+    },
+    {
+      "datetime": "2026-07-14T12:00:00Z",
+      "blockheight": 856516,
+      "long_liquidations": 650.0674,
+      "short_liquidations": 274.7657,
+      "long_liquidations_usd": 61169334.52,
+      "short_liquidations_usd": 51014582.76,
+      "timestamp": 1784030400
+    },
+    {
+      "datetime": "2026-07-14T13:00:00Z",
+      "blockheight": 856517,
+      "long_liquidations": 371.3243,
+      "short_liquidations": 223.1832,
+      "long_liquidations_usd": 63989170.31,
+      "short_liquidations_usd": 60676236.68,
+      "timestamp": 1784034000
+    },
+    {
+      "datetime": "2026-07-14T14:00:00Z",
+      "blockheight": 856518,
+      "long_liquidations": 518.453,
+      "short_liquidations": 267.2058,
+      "long_liquidations_usd": 72398157.5,
+      "short_liquidations_usd": 5439974.93,
+      "timestamp": 1784037600
+    },
+    {
+      "datetime": "2026-07-14T15:00:00Z",
+      "blockheight": 856519,
+      "long_liquidations": 147.8678,
+      "short_liquidations": 439.2257,
+      "long_liquidations_usd": 80739661.65,
+      "short_liquidations_usd": 31824358.64,
+      "timestamp": 1784041200
+    },
+    {
+      "datetime": "2026-07-14T16:00:00Z",
+      "blockheight": 856520,
+      "long_liquidations": 157.4072,
+      "short_liquidations": 399.4164,
+      "long_liquidations_usd": 67216202.08,
+      "short_liquidations_usd": 71541857.25,
+      "timestamp": 1784044800
+    },
+    {
+      "datetime": "2026-07-14T17:00:00Z",
+      "blockheight": 856521,
+      "long_liquidations": 319.3857,
+      "short_liquidations": 173.8509,
+      "long_liquidations_usd": 47551512.08,
+      "short_liquidations_usd": 22344802.34,
+      "timestamp": 1784048400
+    },
+    {
+      "datetime": "2026-07-14T18:00:00Z",
+      "blockheight": 856522,
+      "long_liquidations": 502.9393,
+      "short_liquidations": 47.861,
+      "long_liquidations_usd": 45918042.39,
+      "short_liquidations_usd": 19536313.21,
+      "timestamp": 1784052000
+    },
+    {
+      "datetime": "2026-07-14T19:00:00Z",
+      "blockheight": 856523,
+      "long_liquidations": 458.1593,
+      "short_liquidations": 305.4326,
+      "long_liquidations_usd": 59323415.18,
+      "short_liquidations_usd": 49691126.26,
+      "timestamp": 1784055600
+    },
+    {
+      "datetime": "2026-07-14T20:00:00Z",
+      "blockheight": 856524,
+      "long_liquidations": 233.4704,
+      "short_liquidations": 420.5546,
+      "long_liquidations_usd": 36795115.37,
+      "short_liquidations_usd": 60668489.59,
+      "timestamp": 1784059200
+    },
+    {
+      "datetime": "2026-07-14T21:00:00Z",
+      "blockheight": 856525,
+      "long_liquidations": 711.7963,
+      "short_liquidations": 207.5234,
+      "long_liquidations_usd": 54661929.53,
+      "short_liquidations_usd": 46020896.9,
+      "timestamp": 1784062800
+    },
+    {
+      "datetime": "2026-07-14T22:00:00Z",
+      "blockheight": 856526,
+      "long_liquidations": 481.6942,
+      "short_liquidations": 301.3741,
+      "long_liquidations_usd": 42367306.63,
+      "short_liquidations_usd": 52558377.67,
+      "timestamp": 1784066400
+    },
+    {
+      "datetime": "2026-07-14T23:00:00Z",
+      "blockheight": 856527,
+      "long_liquidations": 837.5895,
+      "short_liquidations": 451.3623,
+      "long_liquidations_usd": 47471667.04,
+      "short_liquidations_usd": 55864180.26,
+      "timestamp": 1784070000
+    },
+    {
+      "datetime": "2026-07-15T00:00:00Z",
+      "blockheight": 856528,
+      "long_liquidations": 207.0738,
+      "short_liquidations": 486.5213,
+      "long_liquidations_usd": 38997138.7,
+      "short_liquidations_usd": 48695401.96,
+      "timestamp": 1784073600
+    },
+    {
+      "datetime": "2026-07-15T01:00:00Z",
+      "blockheight": 856529,
+      "long_liquidations": 349.4341,
+      "short_liquidations": 27.0571,
+      "long_liquidations_usd": 35484055.51,
+      "short_liquidations_usd": 48126715.54,
+      "timestamp": 1784077200
+    },
+    {
+      "datetime": "2026-07-15T02:00:00Z",
+      "blockheight": 856530,
+      "long_liquidations": 433.9728,
+      "short_liquidations": 310.147,
+      "long_liquidations_usd": 41316198.73,
+      "short_liquidations_usd": 37493786.34,
+      "timestamp": 1784080800
+    },
+    {
+      "datetime": "2026-07-15T03:00:00Z",
+      "blockheight": 856531,
+      "long_liquidations": 396.8278,
+      "short_liquidations": 423.3646,
+      "long_liquidations_usd": 49462762.8,
+      "short_liquidations_usd": 55141802.42,
+      "timestamp": 1784084400
+    },
+    {
+      "datetime": "2026-07-15T04:00:00Z",
+      "blockheight": 856532,
+      "long_liquidations": 669.4581,
+      "short_liquidations": 659.5807,
+      "long_liquidations_usd": 71854956.34,
+      "short_liquidations_usd": 70182819.9,
+      "timestamp": 1784088000
+    },
+    {
+      "datetime": "2026-07-15T05:00:00Z",
+      "blockheight": 856533,
+      "long_liquidations": 4.4781,
+      "short_liquidations": 439.317,
+      "long_liquidations_usd": 32741010.91,
+      "short_liquidations_usd": 41239127.72,
+      "timestamp": 1784091600
+    },
+    {
+      "datetime": "2026-07-15T06:00:00Z",
+      "blockheight": 856534,
+      "long_liquidations": 727.4968,
+      "short_liquidations": 23.3002,
+      "long_liquidations_usd": 46042989.22,
+      "short_liquidations_usd": 43421397.6,
+      "timestamp": 1784095200
+    },
+    {
+      "datetime": "2026-07-15T07:00:00Z",
+      "blockheight": 856535,
+      "long_liquidations": 485.9348,
+      "short_liquidations": 357.5908,
+      "long_liquidations_usd": 32246094.82,
+      "short_liquidations_usd": 42934548.78,
+      "timestamp": 1784098800
+    },
+    {
+      "datetime": "2026-07-15T08:00:00Z",
+      "blockheight": 856536,
+      "long_liquidations": 538.6847,
+      "short_liquidations": 802.2985,
+      "long_liquidations_usd": 7946626.83,
+      "short_liquidations_usd": 20322541.65,
+      "timestamp": 1784102400
+    },
+    {
+      "datetime": "2026-07-15T09:00:00Z",
+      "blockheight": 856537,
+      "long_liquidations": 64.6264,
+      "short_liquidations": 521.0273,
+      "long_liquidations_usd": 49323221.32,
+      "short_liquidations_usd": 14575922.08,
+      "timestamp": 1784106000
+    },
+    {
+      "datetime": "2026-07-15T10:00:00Z",
+      "blockheight": 856538,
+      "long_liquidations": 530.7764,
+      "short_liquidations": 167.0408,
+      "long_liquidations_usd": 79021880.71,
+      "short_liquidations_usd": 69102551.97,
+      "timestamp": 1784109600
+    },
+    {
+      "datetime": "2026-07-15T11:00:00Z",
+      "blockheight": 856539,
+      "long_liquidations": 457.5244,
+      "short_liquidations": 718.6325,
+      "long_liquidations_usd": 81244186.57,
+      "short_liquidations_usd": 51903934.68,
+      "timestamp": 1784113200
+    },
+    {
+      "datetime": "2026-07-15T12:00:00Z",
+      "blockheight": 856540,
+      "long_liquidations": 243.6952,
+      "short_liquidations": 420.6769,
+      "long_liquidations_usd": 35137696.0,
+      "short_liquidations_usd": 47288210.88,
+      "timestamp": 1784116800
+    },
+    {
+      "datetime": "2026-07-15T13:00:00Z",
+      "blockheight": 856541,
+      "long_liquidations": 866.9127,
+      "short_liquidations": 519.3902,
+      "long_liquidations_usd": 39457187.13,
+      "short_liquidations_usd": 52672897.23,
+      "timestamp": 1784120400
+    },
+    {
+      "datetime": "2026-07-15T14:00:00Z",
+      "blockheight": 856542,
+      "long_liquidations": 414.4501,
+      "short_liquidations": 518.9911,
+      "long_liquidations_usd": 58187067.94,
+      "short_liquidations_usd": 5230762.77,
+      "timestamp": 1784124000
+    },
+    {
+      "datetime": "2026-07-15T15:00:00Z",
+      "blockheight": 856543,
+      "long_liquidations": 18.4191,
+      "short_liquidations": 405.8561,
+      "long_liquidations_usd": 63020009.7,
+      "short_liquidations_usd": 42999966.22,
+      "timestamp": 1784127600
+    },
+    {
+      "datetime": "2026-07-15T16:00:00Z",
+      "blockheight": 856544,
+      "long_liquidations": 360.0996,
+      "short_liquidations": 630.9035,
+      "long_liquidations_usd": 64572792.43,
+      "short_liquidations_usd": 32721032.05,
+      "timestamp": 1784131200
+    },
+    {
+      "datetime": "2026-07-15T17:00:00Z",
+      "blockheight": 856545,
+      "long_liquidations": 483.2573,
+      "short_liquidations": 349.6626,
+      "long_liquidations_usd": 72736658.64,
+      "short_liquidations_usd": 70971431.98,
+      "timestamp": 1784134800
+    },
+    {
+      "datetime": "2026-07-15T18:00:00Z",
+      "blockheight": 856546,
+      "long_liquidations": 506.0233,
+      "short_liquidations": 249.82,
+      "long_liquidations_usd": 41003434.97,
+      "short_liquidations_usd": 37676733.28,
+      "timestamp": 1784138400
+    },
+    {
+      "datetime": "2026-07-15T19:00:00Z",
+      "blockheight": 856547,
+      "long_liquidations": 220.2576,
+      "short_liquidations": 181.0422,
+      "long_liquidations_usd": 10207911.08,
+      "short_liquidations_usd": 25483987.4,
+      "timestamp": 1784142000
+    },
+    {
+      "datetime": "2026-07-15T20:00:00Z",
+      "blockheight": 856548,
+      "long_liquidations": 396.856,
+      "short_liquidations": 516.6849,
+      "long_liquidations_usd": 56368995.07,
+      "short_liquidations_usd": 21761189.36,
+      "timestamp": 1784145600
+    },
+    {
+      "datetime": "2026-07-15T21:00:00Z",
+      "blockheight": 856549,
+      "long_liquidations": 456.3317,
+      "short_liquidations": 422.0483,
+      "long_liquidations_usd": 35441607.48,
+      "short_liquidations_usd": 44025901.8,
+      "timestamp": 1784149200
+    },
+    {
+      "datetime": "2026-07-15T22:00:00Z",
+      "blockheight": 856550,
+      "long_liquidations": 655.9737,
+      "short_liquidations": 601.0901,
+      "long_liquidations_usd": 39694115.94,
+      "short_liquidations_usd": 33817142.07,
+      "timestamp": 1784152800
+    },
+    {
+      "datetime": "2026-07-15T23:00:00Z",
+      "blockheight": 856551,
+      "long_liquidations": 83.752,
+      "short_liquidations": 434.8357,
+      "long_liquidations_usd": 53864192.09,
+      "short_liquidations_usd": 33885806.69,
+      "timestamp": 1784156400
+    },
+    {
+      "datetime": "2026-07-16T00:00:00Z",
+      "blockheight": 856552,
+      "long_liquidations": 498.2208,
+      "short_liquidations": 112.5848,
+      "long_liquidations_usd": 72125690.03,
+      "short_liquidations_usd": 41787993.24,
+      "timestamp": 1784160000
+    },
+    {
+      "datetime": "2026-07-16T01:00:00Z",
+      "blockheight": 856553,
+      "long_liquidations": 459.2783,
+      "short_liquidations": 486.5704,
+      "long_liquidations_usd": 96469897.86,
+      "short_liquidations_usd": 43632423.03,
+      "timestamp": 1784163600
+    },
+    {
+      "datetime": "2026-07-16T02:00:00Z",
+      "blockheight": 856554,
+      "long_liquidations": 430.1227,
+      "short_liquidations": 611.2883,
+      "long_liquidations_usd": 23850962.47,
+      "short_liquidations_usd": 59661860.32,
+      "timestamp": 1784167200
+    },
+    {
+      "datetime": "2026-07-16T03:00:00Z",
+      "blockheight": 856555,
+      "long_liquidations": 165.7084,
+      "short_liquidations": 467.9952,
+      "long_liquidations_usd": 34052847.8,
+      "short_liquidations_usd": 11047928.4,
+      "timestamp": 1784170800
+    },
+    {
+      "datetime": "2026-07-16T04:00:00Z",
+      "blockheight": 856556,
+      "long_liquidations": 637.627,
+      "short_liquidations": 555.3645,
+      "long_liquidations_usd": 32604534.08,
+      "short_liquidations_usd": 26306622.26,
+      "timestamp": 1784174400
+    },
+    {
+      "datetime": "2026-07-16T05:00:00Z",
+      "blockheight": 856557,
+      "long_liquidations": 533.1625,
+      "short_liquidations": 245.6121,
+      "long_liquidations_usd": 52826782.74,
+      "short_liquidations_usd": 27552234.65,
+      "timestamp": 1784178000
+    },
+    {
+      "datetime": "2026-07-16T06:00:00Z",
+      "blockheight": 856558,
+      "long_liquidations": 669.5005,
+      "short_liquidations": 61.9014,
+      "long_liquidations_usd": 47684050.52,
+      "short_liquidations_usd": 58296836.2,
+      "timestamp": 1784181600
+    },
+    {
+      "datetime": "2026-07-16T07:00:00Z",
+      "blockheight": 856559,
+      "long_liquidations": 583.8366,
+      "short_liquidations": 680.5921,
+      "long_liquidations_usd": 28863833.87,
+      "short_liquidations_usd": 26514987.34,
+      "timestamp": 1784185200
+    },
+    {
+      "datetime": "2026-07-16T08:00:00Z",
+      "blockheight": 856560,
+      "long_liquidations": 455.3318,
+      "short_liquidations": 420.5863,
+      "long_liquidations_usd": 61596826.96,
+      "short_liquidations_usd": 42765569.77,
+      "timestamp": 1784188800
+    },
+    {
+      "datetime": "2026-07-16T09:00:00Z",
+      "blockheight": 856561,
+      "long_liquidations": 663.8002,
+      "short_liquidations": 679.9699,
+      "long_liquidations_usd": 37213399.67,
+      "short_liquidations_usd": 23515620.05,
+      "timestamp": 1784192400
+    },
+    {
+      "datetime": "2026-07-16T10:00:00Z",
+      "blockheight": 856562,
+      "long_liquidations": 173.6694,
+      "short_liquidations": 347.597,
+      "long_liquidations_usd": 48084324.26,
+      "short_liquidations_usd": 28561542.86,
+      "timestamp": 1784196000
+    },
+    {
+      "datetime": "2026-07-16T11:00:00Z",
+      "blockheight": 856563,
+      "long_liquidations": 400.9684,
+      "short_liquidations": 441.3032,
+      "long_liquidations_usd": 20902561.67,
+      "short_liquidations_usd": 42615484.89,
+      "timestamp": 1784199600
+    },
+    {
+      "datetime": "2026-07-16T12:00:00Z",
+      "blockheight": 856564,
+      "long_liquidations": 768.0787,
+      "short_liquidations": 94.8048,
+      "long_liquidations_usd": 43915972.03,
+      "short_liquidations_usd": 478315.52,
+      "timestamp": 1784203200
+    },
+    {
+      "datetime": "2026-07-16T13:00:00Z",
+      "blockheight": 856565,
+      "long_liquidations": 723.8071,
+      "short_liquidations": 643.4611,
+      "long_liquidations_usd": 37289705.41,
+      "short_liquidations_usd": 27748042.08,
+      "timestamp": 1784206800
+    },
+    {
+      "datetime": "2026-07-16T14:00:00Z",
+      "blockheight": 856566,
+      "long_liquidations": 505.269,
+      "short_liquidations": 336.4671,
+      "long_liquidations_usd": 63683052.22,
+      "short_liquidations_usd": 32126120.67,
+      "timestamp": 1784210400
+    },
+    {
+      "datetime": "2026-07-16T15:00:00Z",
+      "blockheight": 856567,
+      "long_liquidations": 658.0207,
+      "short_liquidations": 707.3722,
+      "long_liquidations_usd": 43297487.79,
+      "short_liquidations_usd": 105257708.24,
+      "timestamp": 1784214000
+    },
+    {
+      "datetime": "2026-07-16T16:00:00Z",
+      "blockheight": 856568,
+      "long_liquidations": 594.0599,
+      "short_liquidations": 306.776,
+      "long_liquidations_usd": 42508639.9,
+      "short_liquidations_usd": 32059672.19,
+      "timestamp": 1784217600
+    },
+    {
+      "datetime": "2026-07-16T17:00:00Z",
+      "blockheight": 856569,
+      "long_liquidations": 44.7728,
+      "short_liquidations": 665.0135,
+      "long_liquidations_usd": 48487184.46,
+      "short_liquidations_usd": 10512445.09,
+      "timestamp": 1784221200
+    },
+    {
+      "datetime": "2026-07-16T18:00:00Z",
+      "blockheight": 856570,
+      "long_liquidations": 877.7205,
+      "short_liquidations": 145.2906,
+      "long_liquidations_usd": 62890074.15,
+      "short_liquidations_usd": 19260239.9,
+      "timestamp": 1784224800
+    },
+    {
+      "datetime": "2026-07-16T19:00:00Z",
+      "blockheight": 856571,
+      "long_liquidations": 185.8409,
+      "short_liquidations": 295.5839,
+      "long_liquidations_usd": 44717447.92,
+      "short_liquidations_usd": 59059636.57,
+      "timestamp": 1784228400
+    },
+    {
+      "datetime": "2026-07-16T20:00:00Z",
+      "blockheight": 856572,
+      "long_liquidations": 475.5908,
+      "short_liquidations": 254.0,
+      "long_liquidations_usd": 42384285.58,
+      "short_liquidations_usd": 10537675.63,
+      "timestamp": 1784232000
+    },
+    {
+      "datetime": "2026-07-16T21:00:00Z",
+      "blockheight": 856573,
+      "long_liquidations": 735.9491,
+      "short_liquidations": 597.7173,
+      "long_liquidations_usd": 18954141.19,
+      "short_liquidations_usd": 55301074.69,
+      "timestamp": 1784235600
+    },
+    {
+      "datetime": "2026-07-16T22:00:00Z",
+      "blockheight": 856574,
+      "long_liquidations": 283.7876,
+      "short_liquidations": 607.9506,
+      "long_liquidations_usd": 70939927.12,
+      "short_liquidations_usd": 52820588.06,
+      "timestamp": 1784239200
+    },
+    {
+      "datetime": "2026-07-16T23:00:00Z",
+      "blockheight": 856575,
+      "long_liquidations": 528.6562,
+      "short_liquidations": 464.5115,
+      "long_liquidations_usd": 994355.34,
+      "short_liquidations_usd": 34409909.31,
+      "timestamp": 1784242800
+    },
+    {
+      "datetime": "2026-07-17T00:00:00Z",
+      "blockheight": 856576,
+      "long_liquidations": 484.9149,
+      "short_liquidations": 636.6183,
+      "long_liquidations_usd": 47060890.49,
+      "short_liquidations_usd": 48003318.61,
+      "timestamp": 1784246400
+    },
+    {
+      "datetime": "2026-07-17T01:00:00Z",
+      "blockheight": 856577,
+      "long_liquidations": 396.7469,
+      "short_liquidations": 248.0838,
+      "long_liquidations_usd": 74750482.36,
+      "short_liquidations_usd": 29388346.61,
+      "timestamp": 1784250000
+    },
+    {
+      "datetime": "2026-07-17T02:00:00Z",
+      "blockheight": 856578,
+      "long_liquidations": 670.9299,
+      "short_liquidations": 49.1979,
+      "long_liquidations_usd": 17647930.3,
+      "short_liquidations_usd": 44628669.81,
+      "timestamp": 1784253600
+    },
+    {
+      "datetime": "2026-07-17T03:00:00Z",
+      "blockheight": 856579,
+      "long_liquidations": 656.2078,
+      "short_liquidations": 197.1726,
+      "long_liquidations_usd": 54235393.15,
+      "short_liquidations_usd": 27052979.25,
+      "timestamp": 1784257200
+    },
+    {
+      "datetime": "2026-07-17T04:00:00Z",
+      "blockheight": 856580,
+      "long_liquidations": 306.7426,
+      "short_liquidations": 144.2213,
+      "long_liquidations_usd": 52948423.51,
+      "short_liquidations_usd": 2818203.45,
+      "timestamp": 1784260800
+    },
+    {
+      "datetime": "2026-07-17T05:00:00Z",
+      "blockheight": 856581,
+      "long_liquidations": 306.9432,
+      "short_liquidations": 470.9279,
+      "long_liquidations_usd": 74419502.58,
+      "short_liquidations_usd": 49548028.26,
+      "timestamp": 1784264400
+    },
+    {
+      "datetime": "2026-07-17T06:00:00Z",
+      "blockheight": 856582,
+      "long_liquidations": 676.8771,
+      "short_liquidations": 627.1139,
+      "long_liquidations_usd": 51284221.58,
+      "short_liquidations_usd": 67822954.83,
+      "timestamp": 1784268000
+    },
+    {
+      "datetime": "2026-07-17T07:00:00Z",
+      "blockheight": 856583,
+      "long_liquidations": 501.3955,
+      "short_liquidations": 390.7646,
+      "long_liquidations_usd": 42398182.3,
+      "short_liquidations_usd": 43502538.07,
+      "timestamp": 1784271600
+    },
+    {
+      "datetime": "2026-07-17T08:00:00Z",
+      "blockheight": 856584,
+      "long_liquidations": 998.0758,
+      "short_liquidations": 185.8617,
+      "long_liquidations_usd": 40437504.27,
+      "short_liquidations_usd": 75912028.3,
+      "timestamp": 1784275200
+    },
+    {
+      "datetime": "2026-07-17T09:00:00Z",
+      "blockheight": 856585,
+      "long_liquidations": 704.9112,
+      "short_liquidations": 361.0934,
+      "long_liquidations_usd": 40845228.42,
+      "short_liquidations_usd": 33901998.87,
+      "timestamp": 1784278800
+    },
+    {
+      "datetime": "2026-07-17T10:00:00Z",
+      "blockheight": 856586,
+      "long_liquidations": 296.2898,
+      "short_liquidations": 37.2175,
+      "long_liquidations_usd": 40176836.7,
+      "short_liquidations_usd": 46428101.11,
+      "timestamp": 1784282400
+    },
+    {
+      "datetime": "2026-07-17T11:00:00Z",
+      "blockheight": 856587,
+      "long_liquidations": 375.5476,
+      "short_liquidations": 588.2649,
+      "long_liquidations_usd": 64039899.33,
+      "short_liquidations_usd": 66778289.11,
+      "timestamp": 1784286000
+    },
+    {
+      "datetime": "2026-07-17T12:00:00Z",
+      "blockheight": 856588,
+      "long_liquidations": 325.3985,
+      "short_liquidations": 332.6429,
+      "long_liquidations_usd": 23368452.51,
+      "short_liquidations_usd": 97311461.3,
+      "timestamp": 1784289600
+    },
+    {
+      "datetime": "2026-07-17T13:00:00Z",
+      "blockheight": 856589,
+      "long_liquidations": 711.0599,
+      "short_liquidations": 556.3559,
+      "long_liquidations_usd": 80503783.74,
+      "short_liquidations_usd": 20007863.37,
+      "timestamp": 1784293200
+    },
+    {
+      "datetime": "2026-07-17T14:00:00Z",
+      "blockheight": 856590,
+      "long_liquidations": 723.751,
+      "short_liquidations": 659.3793,
+      "long_liquidations_usd": 51543532.05,
+      "short_liquidations_usd": 37012181.63,
+      "timestamp": 1784296800
+    },
+    {
+      "datetime": "2026-07-17T15:00:00Z",
+      "blockheight": 856591,
+      "long_liquidations": 493.9667,
+      "short_liquidations": 530.0795,
+      "long_liquidations_usd": 16880127.31,
+      "short_liquidations_usd": 89091255.86,
+      "timestamp": 1784300400
+    },
+    {
+      "datetime": "2026-07-17T16:00:00Z",
+      "blockheight": 856592,
+      "long_liquidations": 293.8967,
+      "short_liquidations": 200.3935,
+      "long_liquidations_usd": 61041308.45,
+      "short_liquidations_usd": 24599793.46,
+      "timestamp": 1784304000
+    },
+    {
+      "datetime": "2026-07-17T17:00:00Z",
+      "blockheight": 856593,
+      "long_liquidations": 417.4218,
+      "short_liquidations": 365.0162,
+      "long_liquidations_usd": 93811221.37,
+      "short_liquidations_usd": 76197367.09,
+      "timestamp": 1784307600
+    },
+    {
+      "datetime": "2026-07-17T18:00:00Z",
+      "blockheight": 856594,
+      "long_liquidations": 303.0888,
+      "short_liquidations": 622.491,
+      "long_liquidations_usd": 66680026.1,
+      "short_liquidations_usd": 38809937.98,
+      "timestamp": 1784311200
+    },
+    {
+      "datetime": "2026-07-17T19:00:00Z",
+      "blockheight": 856595,
+      "long_liquidations": 62.7141,
+      "short_liquidations": 326.6586,
+      "long_liquidations_usd": 53584780.52,
+      "short_liquidations_usd": 87305779.18,
+      "timestamp": 1784314800
+    },
+    {
+      "datetime": "2026-07-17T20:00:00Z",
+      "blockheight": 856596,
+      "long_liquidations": 866.7393,
+      "short_liquidations": 681.3122,
+      "long_liquidations_usd": 37651095.0,
+      "short_liquidations_usd": 55885501.13,
+      "timestamp": 1784318400
+    },
+    {
+      "datetime": "2026-07-17T21:00:00Z",
+      "blockheight": 856597,
+      "long_liquidations": 1005.9373,
+      "short_liquidations": 646.9053,
+      "long_liquidations_usd": 30419115.62,
+      "short_liquidations_usd": 20217851.61,
+      "timestamp": 1784322000
+    },
+    {
+      "datetime": "2026-07-17T22:00:00Z",
+      "blockheight": 856598,
+      "long_liquidations": 480.7208,
+      "short_liquidations": 887.9658,
+      "long_liquidations_usd": 49510127.59,
+      "short_liquidations_usd": 58388345.9,
+      "timestamp": 1784325600
+    },
+    {
+      "datetime": "2026-07-17T23:00:00Z",
+      "blockheight": 856599,
+      "long_liquidations": 525.8986,
+      "short_liquidations": 150.3436,
+      "long_liquidations_usd": 47812136.34,
+      "short_liquidations_usd": 55517797.37,
+      "timestamp": 1784329200
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_liquidations_liquidations",
+    "path": "/btc/market-data/liquidations",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/liquidations/liquidations/hour_raw.json",
+    "raw_shape": "status_result_data_liquidations",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

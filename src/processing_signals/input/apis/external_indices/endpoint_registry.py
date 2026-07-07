@@ -3,7 +3,7 @@
 from processing_signals.input.apis.registry_helpers import endpoint
 
 
-SYNTHETIC_TIMEFRAMES = ["1m", "5m", "15m", "1h"]
+SYNTHETIC_TIMEFRAMES = ["1m", "5m", "15m", "4h"]
 
 
 ENDPOINTS = [

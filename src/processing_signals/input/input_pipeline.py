@@ -12,6 +12,7 @@ from processing_signals.input.normalization import normalize_extracted_raw
 from processing_signals.input.union import union_normalized_payloads
 
 
+DEFAULT_PROVIDERS = ["coinglass", "cryptoquant", "glassnode"]
 VALID_PROVIDERS = {"coinglass", "cryptoquant", "glassnode", "external_indices"}
 
 
@@ -22,12 +23,12 @@ class InputPipeline:
         providers: list[str] | None = None,
         asset: str = "BTC",
         symbol: str = "BTCUSDT",
-        output_dir: str | Path = "data_input/normalized",
+        output_dir: str | Path = "data/data_input/normalized",
         run_id: str | None = None,
         **kwargs: Any,
     ) -> None:
         self.mode = mode
-        self.providers = providers or ["coinglass", "cryptoquant", "glassnode", "external_indices"]
+        self.providers = providers or list(DEFAULT_PROVIDERS)
         self.asset = asset
         self.symbol = symbol
         self.output_dir = Path(output_dir)
@@ -52,7 +53,7 @@ def run_input_pipeline(
     providers: list[str] | None = None,
     asset: str = "BTC",
     symbol: str = "BTCUSDT",
-    output_dir: str | Path = "data_input/normalized",
+    output_dir: str | Path = "data/data_input/normalized",
     run_id: str | None = None,
     timeframes: list[str] | None = None,
     extraction_windows: list[str] | None = None,
@@ -61,9 +62,10 @@ def run_input_pipeline(
 ) -> dict[str, Any]:
     """Run the Input pipeline."""
     run_id = run_id or datetime.now(tz=UTC).strftime("%Y%m%dT%H%M%SZ")
-    selected_providers = providers or ["coinglass", "cryptoquant", "glassnode", "external_indices"]
+    selected_providers = providers or list(DEFAULT_PROVIDERS)
     normalized_payloads: list[dict[str, Any]] = []
     provider_status: dict[str, dict[str, Any]] = {}
+    unavailable_timeframes: list[dict[str, Any]] = []
 
     for provider in selected_providers:
         if provider not in VALID_PROVIDERS:
@@ -74,6 +76,7 @@ def run_input_pipeline(
         skipped_live_external = 0
         skipped_live_missing_path = 0
         live_request_failed = 0
+        timeframe_not_available = 0
 
         for endpoint_config in endpoints:
             for timeframe, extraction_window in _endpoint_iterations(
@@ -98,6 +101,18 @@ def run_input_pipeline(
                     skipped_live_missing_path += 1
                 elif raw["status"] == "live_request_failed":
                     live_request_failed += 1
+                elif raw["status"] == "timeframe_not_available":
+                    timeframe_not_available += 1
+                    unavailable_timeframes.append(
+                        {
+                            "provider": provider,
+                            "family": endpoint_config.get("family"),
+                            "subtype": endpoint_config.get("subtype"),
+                            "requested_timeframe": timeframe,
+                            "status": "timeframe_not_available",
+                            "reason": raw.get("metadata", {}).get("error", "synthetic timeframe not available"),
+                        }
+                    )
 
         normalized = normalize_extracted_raw(provider, run_id)
         normalized_payloads.extend(normalized)
@@ -108,21 +123,29 @@ def run_input_pipeline(
             "skipped_live_external_provider_required": skipped_live_external,
             "skipped_live_path_missing": skipped_live_missing_path,
             "live_request_failed": live_request_failed,
+            "timeframe_not_available": timeframe_not_available,
         }
 
-    manifest = union_normalized_payloads(normalized_payloads, run_id, output_dir=output_dir)
+    manifest = union_normalized_payloads(
+        normalized_payloads,
+        run_id,
+        output_dir=output_dir,
+        unavailable_timeframes=unavailable_timeframes,
+    )
     return {
         "status": manifest["status"],
         "run_id": run_id,
         "output_path": str(output_dir),
         "records_total": manifest["records_total"],
         "providers": provider_status,
+        "unavailable_timeframes": unavailable_timeframes,
         "manifest_path": str(Path(output_dir) / "manifest.json"),
     }
 
 
 def _load_provider_endpoints(provider: str) -> list[dict[str, Any]]:
-    module = import_module(f"processing_signals.input.apis.{provider}.endpoint_registry")
+    module_name = "endpoint_registry" if provider == "external_indices" else f"endpoint_registry_{provider}"
+    module = import_module(f"processing_signals.input.apis.{provider}.{module_name}")
     return list(getattr(module, "ENDPOINTS"))
 
 
@@ -143,7 +166,7 @@ def _endpoint_iterations(
     return [(None, window) for window in configured_windows]
 
 
-def validate_input_outputs(normalized_dir: str | Path = "data_input/normalized") -> dict[str, Any]:
+def validate_input_outputs(normalized_dir: str | Path = "data/data_input/normalized") -> dict[str, Any]:
     """Validate normalized Input outputs without requiring archive output."""
     import json
 
@@ -210,7 +233,7 @@ def validate_input_outputs(normalized_dir: str | Path = "data_input/normalized")
             if min_required and len(records) < min_required:
                 errors.append(f"{path}: records below minimum {len(records)} < {min_required}")
 
-        if data_type in {"snapshot", "event_list", "heatmap"}:
+        if data_type in {"snapshot", "event_list", "heatmap", "matrix"}:
             if payload.get("timeframe") is not None:
                 errors.append(f"{path}: non-timeframe data_type has timeframe != None")
             if payload.get("extraction_window") is None:

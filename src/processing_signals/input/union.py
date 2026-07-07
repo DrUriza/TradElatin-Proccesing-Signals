@@ -7,14 +7,24 @@ from pathlib import Path
 from typing import Any
 
 
-OFFICIAL_FAMILIES = ["prices_ohlcv", "liquidity_microstructure", "volume_orderflow",  "institutional_flows", 
-                     "liquidations", "derivatives_open_interest", "sentiment_positioning", "on_chain_miners", "options_volatility"]
+OFFICIAL_FAMILIES = [
+    "prices_ohlcv",
+    "liquidity_microstructure",
+    "cvd_volume_orderflow",
+    "institutional_flows",
+    "liquidations",
+    "open_interest_and_funding",
+    "sentiment_positioning",
+    "onchain_miners",
+    "options_volatility",
+]
 
 def union_normalized_payloads(
     payloads: list[dict[str, Any]],
     run_id: str,
     *,
-    output_dir: str | Path = "data_input/normalized",
+    output_dir: str | Path = "data/data_input/normalized",
+    unavailable_timeframes: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Write normalized payloads by family and create a manifest."""
     root = Path(output_dir)
@@ -42,7 +52,8 @@ def union_normalized_payloads(
         "files": files,
         "families": family_counts,
         "records_total": sum(len(payload.get("records", [])) for payload in payloads),
-        "status": "ok" if payloads else "empty",
+        "status": "warning" if unavailable_timeframes else ("ok" if payloads else "empty"),
+        "unavailable_timeframes": list(unavailable_timeframes or []),
     }
     (root / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=True, indent=2), encoding="utf-8")
     return manifest

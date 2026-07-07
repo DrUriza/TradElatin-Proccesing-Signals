@@ -23,7 +23,7 @@
   "processing": {
     "enabled": true,
     "input_path": "data_input/packages/btc_processing_inputs.zip",
-    "output_path": "src/processing_signals/output/main_pipeline_output.json"
+    "output_path": "data_output/manifest.json"
   }
 }
 

@@ -15,6 +15,7 @@ from processing_signals.processing.math.statistical_regimes import build_regime_
 from processing_signals.processing.math.indicators.indicator_engine import compute_ohlcv_indicators
 from processing_signals.processing.math.indicators.indicator_engine import IndicatorEngine
 from processing_signals.processing.math.microstructure import orderbook_metrics, event_flow_metrics, wall_score_from_orderbook
+from processing_signals.processing.patterns.pattern_engine import PatternEngine
 
 
 class ProcessingMathEngine:
@@ -28,6 +29,37 @@ class ProcessingMathEngine:
     """
 
     DEFAULT_WINDOWS = [20, 50, 100]
+
+    def compute_blocks(
+        self,
+        blocks: list[dict[str, Any]],
+        pattern_engine: PatternEngine | None = None,
+    ) -> list[dict[str, Any]]:
+        pattern_engine = pattern_engine or PatternEngine()
+        return [self.compute_block(block, pattern_engine) for block in blocks]
+
+    def compute_block(self, block: dict[str, Any], pattern_engine: PatternEngine) -> dict[str, Any]:
+        decision = block.get("classification_input", {})
+        if not isinstance(decision, dict):
+            decision = {}
+        block["decision"] = decision
+        if decision.get("structural_data_type") in {"snapshot", "matrix", "heatmap"}:
+            block["math"] = self._base_result()
+            block["view_math"] = {}
+            block["patterns"] = {}
+            return block
+
+        allowed_views = set(decision.get("required_views") or [])
+        block["math"] = self.compute(block["normalized"], decision)
+        block["view_math"] = self.compute_view_math(block.get("transforms", {}), allowed_views=allowed_views)
+        block["patterns"] = pattern_engine.detect(
+            block["normalized"],
+            block["math"],
+            decision,
+            transforms=block.get("transforms", {}),
+            view_math=block.get("view_math", {}),
+        )
+        return block
 
     def compute(self, normalized: dict[str, Any], decision: dict[str, Any]) -> dict[str, Any]:
         kind = normalized.get("kind")
@@ -68,11 +100,13 @@ class ProcessingMathEngine:
 
         return result
 
-    def compute_view_math(self, transforms: dict[str, Any]) -> dict[str, Any]:
+    def compute_view_math(self, transforms: dict[str, Any], allowed_views: set[str] | None = None) -> dict[str, Any]:
         """Compute math payloads for transformed OHLC-compatible views."""
         view_math: dict[str, Any] = {}
         indicator_engine = IndicatorEngine()
         for view_name in ["candlestick_derived", "cvd_candlestick_derived"]:
+            if allowed_views is not None and view_name not in allowed_views:
+                continue
             records = transforms.get(view_name, {}).get("records", [])
             if not records:
                 continue
@@ -119,6 +153,14 @@ class ProcessingMathEngine:
     def _compute_orderbook(self, normalized: dict[str, Any], decision: dict[str, Any]) -> dict[str, Any]:
         bids: pd.DataFrame = normalized["bids"]
         asks: pd.DataFrame = normalized["asks"]
+        if bids.empty or asks.empty or "notional_usdt" not in bids.columns or "notional_usdt" not in asks.columns:
+            return {
+                "technical_indicators": {},
+                "statistics": {},
+                "statistical_regimes": {},
+                "microstructure": {},
+                "feature_snapshot": {},
+            }
 
         micro = orderbook_metrics(bids, asks)
         micro.update(wall_score_from_orderbook(micro))

@@ -1,0 +1,1855 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "open_interest_and_funding",
+  "subtype": "estimated_leverage_ratio",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "day",
+  "extraction_window": null,
+  "records": [
+    {
+      "date": "2026-06-23",
+      "estimated_leverage_ratio": 0.29221185,
+      "timestamp": 1782194400
+    },
+    {
+      "date": "2026-06-24",
+      "estimated_leverage_ratio": 0.27762641,
+      "timestamp": 1782280800
+    },
+    {
+      "date": "2026-06-25",
+      "estimated_leverage_ratio": 0.18019162,
+      "timestamp": 1782367200
+    },
+    {
+      "date": "2026-06-26",
+      "estimated_leverage_ratio": 0.30441643,
+      "timestamp": 1782453600
+    },
+    {
+      "date": "2026-06-27",
+      "estimated_leverage_ratio": 0.24418259,
+      "timestamp": 1782540000
+    },
+    {
+      "date": "2026-06-28",
+      "estimated_leverage_ratio": 0.2337092,
+      "timestamp": 1782626400
+    },
+    {
+      "date": "2026-06-29",
+      "estimated_leverage_ratio": 0.28666395,
+      "timestamp": 1782712800
+    },
+    {
+      "date": "2026-06-30",
+      "estimated_leverage_ratio": 0.30705841,
+      "timestamp": 1782799200
+    },
+    {
+      "date": "2026-07-01",
+      "estimated_leverage_ratio": 0.18929597,
+      "timestamp": 1782885600
+    },
+    {
+      "date": "2026-07-02",
+      "estimated_leverage_ratio": 0.30860738,
+      "timestamp": 1782972000
+    },
+    {
+      "date": "2026-07-03",
+      "estimated_leverage_ratio": 0.24733211,
+      "timestamp": 1783058400
+    },
+    {
+      "date": "2026-07-04",
+      "estimated_leverage_ratio": 0.228424,
+      "timestamp": 1783144800
+    },
+    {
+      "date": "2026-07-05",
+      "estimated_leverage_ratio": 0.2890359,
+      "timestamp": 1783231200
+    },
+    {
+      "date": "2026-07-06",
+      "estimated_leverage_ratio": 0.30559698,
+      "timestamp": 1783317600
+    },
+    {
+      "date": "2026-07-07",
+      "estimated_leverage_ratio": 0.28698603,
+      "timestamp": 1783404000
+    },
+    {
+      "date": "2026-07-08",
+      "estimated_leverage_ratio": 0.28024558,
+      "timestamp": 1783490400
+    },
+    {
+      "date": "2026-07-09",
+      "estimated_leverage_ratio": 0.26663408,
+      "timestamp": 1783576800
+    },
+    {
+      "date": "2026-07-10",
+      "estimated_leverage_ratio": 0.24606517,
+      "timestamp": 1783663200
+    },
+    {
+      "date": "2026-07-11",
+      "estimated_leverage_ratio": 0.28459963,
+      "timestamp": 1783749600
+    },
+    {
+      "date": "2026-07-12",
+      "estimated_leverage_ratio": 0.26904355,
+      "timestamp": 1783836000
+    },
+    {
+      "date": "2026-07-13",
+      "estimated_leverage_ratio": 0.28155528,
+      "timestamp": 1783922400
+    },
+    {
+      "date": "2026-07-14",
+      "estimated_leverage_ratio": 0.2307618,
+      "timestamp": 1784008800
+    },
+    {
+      "date": "2026-07-15",
+      "estimated_leverage_ratio": 0.22106992,
+      "timestamp": 1784095200
+    },
+    {
+      "date": "2026-07-16",
+      "estimated_leverage_ratio": 0.22086696,
+      "timestamp": 1784181600
+    },
+    {
+      "date": "2026-07-17",
+      "estimated_leverage_ratio": 0.2062988,
+      "timestamp": 1784268000
+    },
+    {
+      "date": "2026-07-18",
+      "estimated_leverage_ratio": 0.36457073,
+      "timestamp": 1784354400
+    },
+    {
+      "date": "2026-07-19",
+      "estimated_leverage_ratio": 0.26070486,
+      "timestamp": 1784440800
+    },
+    {
+      "date": "2026-07-20",
+      "estimated_leverage_ratio": 0.22207546,
+      "timestamp": 1784527200
+    },
+    {
+      "date": "2026-07-21",
+      "estimated_leverage_ratio": 0.23302524,
+      "timestamp": 1784613600
+    },
+    {
+      "date": "2026-07-22",
+      "estimated_leverage_ratio": 0.26182323,
+      "timestamp": 1784700000
+    },
+    {
+      "date": "2026-07-23",
+      "estimated_leverage_ratio": 0.32049506,
+      "timestamp": 1784786400
+    },
+    {
+      "date": "2026-07-24",
+      "estimated_leverage_ratio": 0.31522118,
+      "timestamp": 1784872800
+    },
+    {
+      "date": "2026-07-25",
+      "estimated_leverage_ratio": 0.23014068,
+      "timestamp": 1784959200
+    },
+    {
+      "date": "2026-07-26",
+      "estimated_leverage_ratio": 0.23563412,
+      "timestamp": 1785045600
+    },
+    {
+      "date": "2026-07-27",
+      "estimated_leverage_ratio": 0.19433271,
+      "timestamp": 1785132000
+    },
+    {
+      "date": "2026-07-28",
+      "estimated_leverage_ratio": 0.30155728,
+      "timestamp": 1785218400
+    },
+    {
+      "date": "2026-07-29",
+      "estimated_leverage_ratio": 0.26907928,
+      "timestamp": 1785304800
+    },
+    {
+      "date": "2026-07-30",
+      "estimated_leverage_ratio": 0.26596865,
+      "timestamp": 1785391200
+    },
+    {
+      "date": "2026-07-31",
+      "estimated_leverage_ratio": 0.22864997,
+      "timestamp": 1785477600
+    },
+    {
+      "date": "2026-08-01",
+      "estimated_leverage_ratio": 0.25981325,
+      "timestamp": 1785564000
+    },
+    {
+      "date": "2026-08-02",
+      "estimated_leverage_ratio": 0.22943767,
+      "timestamp": 1785650400
+    },
+    {
+      "date": "2026-08-03",
+      "estimated_leverage_ratio": 0.19755987,
+      "timestamp": 1785736800
+    },
+    {
+      "date": "2026-08-04",
+      "estimated_leverage_ratio": 0.31471708,
+      "timestamp": 1785823200
+    },
+    {
+      "date": "2026-08-05",
+      "estimated_leverage_ratio": 0.33020308,
+      "timestamp": 1785909600
+    },
+    {
+      "date": "2026-08-06",
+      "estimated_leverage_ratio": 0.22824317,
+      "timestamp": 1785996000
+    },
+    {
+      "date": "2026-08-07",
+      "estimated_leverage_ratio": 0.253353,
+      "timestamp": 1786082400
+    },
+    {
+      "date": "2026-08-08",
+      "estimated_leverage_ratio": 0.27470867,
+      "timestamp": 1786168800
+    },
+    {
+      "date": "2026-08-09",
+      "estimated_leverage_ratio": 0.22127818,
+      "timestamp": 1786255200
+    },
+    {
+      "date": "2026-08-10",
+      "estimated_leverage_ratio": 0.21618176,
+      "timestamp": 1786341600
+    },
+    {
+      "date": "2026-08-11",
+      "estimated_leverage_ratio": 0.24273477,
+      "timestamp": 1786428000
+    },
+    {
+      "date": "2026-08-12",
+      "estimated_leverage_ratio": 0.29456602,
+      "timestamp": 1786514400
+    },
+    {
+      "date": "2026-08-13",
+      "estimated_leverage_ratio": 0.22762568,
+      "timestamp": 1786600800
+    },
+    {
+      "date": "2026-08-14",
+      "estimated_leverage_ratio": 0.17723736,
+      "timestamp": 1786687200
+    },
+    {
+      "date": "2026-08-15",
+      "estimated_leverage_ratio": 0.20603211,
+      "timestamp": 1786773600
+    },
+    {
+      "date": "2026-08-16",
+      "estimated_leverage_ratio": 0.28097329,
+      "timestamp": 1786860000
+    },
+    {
+      "date": "2026-08-17",
+      "estimated_leverage_ratio": 0.23191818,
+      "timestamp": 1786946400
+    },
+    {
+      "date": "2026-08-18",
+      "estimated_leverage_ratio": 0.23118669,
+      "timestamp": 1787032800
+    },
+    {
+      "date": "2026-08-19",
+      "estimated_leverage_ratio": 0.18403725,
+      "timestamp": 1787119200
+    },
+    {
+      "date": "2026-08-20",
+      "estimated_leverage_ratio": 0.21863896,
+      "timestamp": 1787205600
+    },
+    {
+      "date": "2026-08-21",
+      "estimated_leverage_ratio": 0.2244629,
+      "timestamp": 1787292000
+    },
+    {
+      "date": "2026-08-22",
+      "estimated_leverage_ratio": 0.19044704,
+      "timestamp": 1787378400
+    },
+    {
+      "date": "2026-08-23",
+      "estimated_leverage_ratio": 0.20420818,
+      "timestamp": 1787464800
+    },
+    {
+      "date": "2026-08-24",
+      "estimated_leverage_ratio": 0.26187492,
+      "timestamp": 1787551200
+    },
+    {
+      "date": "2026-08-25",
+      "estimated_leverage_ratio": 0.21728912,
+      "timestamp": 1787637600
+    },
+    {
+      "date": "2026-08-26",
+      "estimated_leverage_ratio": 0.29798948,
+      "timestamp": 1787724000
+    },
+    {
+      "date": "2026-08-27",
+      "estimated_leverage_ratio": 0.27834797,
+      "timestamp": 1787810400
+    },
+    {
+      "date": "2026-08-28",
+      "estimated_leverage_ratio": 0.19800703,
+      "timestamp": 1787896800
+    },
+    {
+      "date": "2026-08-29",
+      "estimated_leverage_ratio": 0.2440088,
+      "timestamp": 1787983200
+    },
+    {
+      "date": "2026-08-30",
+      "estimated_leverage_ratio": 0.26785383,
+      "timestamp": 1788069600
+    },
+    {
+      "date": "2026-08-31",
+      "estimated_leverage_ratio": 0.23867958,
+      "timestamp": 1788156000
+    },
+    {
+      "date": "2026-09-01",
+      "estimated_leverage_ratio": 0.30735377,
+      "timestamp": 1788242400
+    },
+    {
+      "date": "2026-09-02",
+      "estimated_leverage_ratio": 0.23297596,
+      "timestamp": 1788328800
+    },
+    {
+      "date": "2026-09-03",
+      "estimated_leverage_ratio": 0.31281215,
+      "timestamp": 1788415200
+    },
+    {
+      "date": "2026-09-04",
+      "estimated_leverage_ratio": 0.33905164,
+      "timestamp": 1788501600
+    },
+    {
+      "date": "2026-09-05",
+      "estimated_leverage_ratio": 0.24883353,
+      "timestamp": 1788588000
+    },
+    {
+      "date": "2026-09-06",
+      "estimated_leverage_ratio": 0.27176334,
+      "timestamp": 1788674400
+    },
+    {
+      "date": "2026-09-07",
+      "estimated_leverage_ratio": 0.24115582,
+      "timestamp": 1788760800
+    },
+    {
+      "date": "2026-09-08",
+      "estimated_leverage_ratio": 0.22049848,
+      "timestamp": 1788847200
+    },
+    {
+      "date": "2026-09-09",
+      "estimated_leverage_ratio": 0.29203015,
+      "timestamp": 1788933600
+    },
+    {
+      "date": "2026-09-10",
+      "estimated_leverage_ratio": 0.19878765,
+      "timestamp": 1789020000
+    },
+    {
+      "date": "2026-09-11",
+      "estimated_leverage_ratio": 0.29488843,
+      "timestamp": 1789106400
+    },
+    {
+      "date": "2026-09-12",
+      "estimated_leverage_ratio": 0.26934216,
+      "timestamp": 1789192800
+    },
+    {
+      "date": "2026-09-13",
+      "estimated_leverage_ratio": 0.27022598,
+      "timestamp": 1789279200
+    },
+    {
+      "date": "2026-09-14",
+      "estimated_leverage_ratio": 0.24405659,
+      "timestamp": 1789365600
+    },
+    {
+      "date": "2026-09-15",
+      "estimated_leverage_ratio": 0.29273695,
+      "timestamp": 1789452000
+    },
+    {
+      "date": "2026-09-16",
+      "estimated_leverage_ratio": 0.32669976,
+      "timestamp": 1789538400
+    },
+    {
+      "date": "2026-09-17",
+      "estimated_leverage_ratio": 0.24347762,
+      "timestamp": 1789624800
+    },
+    {
+      "date": "2026-09-18",
+      "estimated_leverage_ratio": 0.24720241,
+      "timestamp": 1789711200
+    },
+    {
+      "date": "2026-09-19",
+      "estimated_leverage_ratio": 0.29967606,
+      "timestamp": 1789797600
+    },
+    {
+      "date": "2026-09-20",
+      "estimated_leverage_ratio": 0.32271775,
+      "timestamp": 1789884000
+    },
+    {
+      "date": "2026-09-21",
+      "estimated_leverage_ratio": 0.2238212,
+      "timestamp": 1789970400
+    },
+    {
+      "date": "2026-09-22",
+      "estimated_leverage_ratio": 0.27882812,
+      "timestamp": 1790056800
+    },
+    {
+      "date": "2026-09-23",
+      "estimated_leverage_ratio": 0.29855725,
+      "timestamp": 1790143200
+    },
+    {
+      "date": "2026-09-24",
+      "estimated_leverage_ratio": 0.20264239,
+      "timestamp": 1790229600
+    },
+    {
+      "date": "2026-09-25",
+      "estimated_leverage_ratio": 0.20107174,
+      "timestamp": 1790316000
+    },
+    {
+      "date": "2026-09-26",
+      "estimated_leverage_ratio": 0.27728729,
+      "timestamp": 1790402400
+    },
+    {
+      "date": "2026-09-27",
+      "estimated_leverage_ratio": 0.24623584,
+      "timestamp": 1790488800
+    },
+    {
+      "date": "2026-09-28",
+      "estimated_leverage_ratio": 0.2833332,
+      "timestamp": 1790575200
+    },
+    {
+      "date": "2026-09-29",
+      "estimated_leverage_ratio": 0.27644159,
+      "timestamp": 1790661600
+    },
+    {
+      "date": "2026-09-30",
+      "estimated_leverage_ratio": 0.23816665,
+      "timestamp": 1790748000
+    },
+    {
+      "date": "2026-10-01",
+      "estimated_leverage_ratio": 0.25837403,
+      "timestamp": 1790834400
+    },
+    {
+      "date": "2026-10-02",
+      "estimated_leverage_ratio": 0.26200472,
+      "timestamp": 1790920800
+    },
+    {
+      "date": "2026-10-03",
+      "estimated_leverage_ratio": 0.26493611,
+      "timestamp": 1791007200
+    },
+    {
+      "date": "2026-10-04",
+      "estimated_leverage_ratio": 0.3271551,
+      "timestamp": 1791093600
+    },
+    {
+      "date": "2026-10-05",
+      "estimated_leverage_ratio": 0.22965426,
+      "timestamp": 1791180000
+    },
+    {
+      "date": "2026-10-06",
+      "estimated_leverage_ratio": 0.24695946,
+      "timestamp": 1791266400
+    },
+    {
+      "date": "2026-10-07",
+      "estimated_leverage_ratio": 0.29937284,
+      "timestamp": 1791352800
+    },
+    {
+      "date": "2026-10-08",
+      "estimated_leverage_ratio": 0.2343464,
+      "timestamp": 1791439200
+    },
+    {
+      "date": "2026-10-09",
+      "estimated_leverage_ratio": 0.29568082,
+      "timestamp": 1791525600
+    },
+    {
+      "date": "2026-10-10",
+      "estimated_leverage_ratio": 0.2071024,
+      "timestamp": 1791612000
+    },
+    {
+      "date": "2026-10-11",
+      "estimated_leverage_ratio": 0.2499302,
+      "timestamp": 1791698400
+    },
+    {
+      "date": "2026-10-12",
+      "estimated_leverage_ratio": 0.23140314,
+      "timestamp": 1791784800
+    },
+    {
+      "date": "2026-10-13",
+      "estimated_leverage_ratio": 0.26178106,
+      "timestamp": 1791871200
+    },
+    {
+      "date": "2026-10-14",
+      "estimated_leverage_ratio": 0.33003654,
+      "timestamp": 1791957600
+    },
+    {
+      "date": "2026-10-15",
+      "estimated_leverage_ratio": 0.25195123,
+      "timestamp": 1792044000
+    },
+    {
+      "date": "2026-10-16",
+      "estimated_leverage_ratio": 0.3131645,
+      "timestamp": 1792130400
+    },
+    {
+      "date": "2026-10-17",
+      "estimated_leverage_ratio": 0.30128716,
+      "timestamp": 1792216800
+    },
+    {
+      "date": "2026-10-18",
+      "estimated_leverage_ratio": 0.29419672,
+      "timestamp": 1792303200
+    },
+    {
+      "date": "2026-10-19",
+      "estimated_leverage_ratio": 0.23022042,
+      "timestamp": 1792389600
+    },
+    {
+      "date": "2026-10-20",
+      "estimated_leverage_ratio": 0.27380083,
+      "timestamp": 1792476000
+    },
+    {
+      "date": "2026-10-21",
+      "estimated_leverage_ratio": 0.1398988,
+      "timestamp": 1792562400
+    },
+    {
+      "date": "2026-10-22",
+      "estimated_leverage_ratio": 0.26347091,
+      "timestamp": 1792648800
+    },
+    {
+      "date": "2026-10-23",
+      "estimated_leverage_ratio": 0.22881397,
+      "timestamp": 1792735200
+    },
+    {
+      "date": "2026-10-24",
+      "estimated_leverage_ratio": 0.24065102,
+      "timestamp": 1792821600
+    },
+    {
+      "date": "2026-10-25",
+      "estimated_leverage_ratio": 0.29355104,
+      "timestamp": 1792908000
+    },
+    {
+      "date": "2026-10-26",
+      "estimated_leverage_ratio": 0.30380339,
+      "timestamp": 1792994400
+    },
+    {
+      "date": "2026-10-27",
+      "estimated_leverage_ratio": 0.26836779,
+      "timestamp": 1793080800
+    },
+    {
+      "date": "2026-10-28",
+      "estimated_leverage_ratio": 0.30625074,
+      "timestamp": 1793167200
+    },
+    {
+      "date": "2026-10-29",
+      "estimated_leverage_ratio": 0.22986008,
+      "timestamp": 1793253600
+    },
+    {
+      "date": "2026-10-30",
+      "estimated_leverage_ratio": 0.28604073,
+      "timestamp": 1793340000
+    },
+    {
+      "date": "2026-10-31",
+      "estimated_leverage_ratio": 0.23901793,
+      "timestamp": 1793426400
+    },
+    {
+      "date": "2026-11-01",
+      "estimated_leverage_ratio": 0.32515757,
+      "timestamp": 1793512800
+    },
+    {
+      "date": "2026-11-02",
+      "estimated_leverage_ratio": 0.23240207,
+      "timestamp": 1793599200
+    },
+    {
+      "date": "2026-11-03",
+      "estimated_leverage_ratio": 0.27866514,
+      "timestamp": 1793685600
+    },
+    {
+      "date": "2026-11-04",
+      "estimated_leverage_ratio": 0.24287722,
+      "timestamp": 1793772000
+    },
+    {
+      "date": "2026-11-05",
+      "estimated_leverage_ratio": 0.3015902,
+      "timestamp": 1793858400
+    },
+    {
+      "date": "2026-11-06",
+      "estimated_leverage_ratio": 0.25769244,
+      "timestamp": 1793944800
+    },
+    {
+      "date": "2026-11-07",
+      "estimated_leverage_ratio": 0.28256974,
+      "timestamp": 1794031200
+    },
+    {
+      "date": "2026-11-08",
+      "estimated_leverage_ratio": 0.22985397,
+      "timestamp": 1794117600
+    },
+    {
+      "date": "2026-11-09",
+      "estimated_leverage_ratio": 0.29024689,
+      "timestamp": 1794204000
+    },
+    {
+      "date": "2026-11-10",
+      "estimated_leverage_ratio": 0.20871189,
+      "timestamp": 1794290400
+    },
+    {
+      "date": "2026-11-11",
+      "estimated_leverage_ratio": 0.23146301,
+      "timestamp": 1794376800
+    },
+    {
+      "date": "2026-11-12",
+      "estimated_leverage_ratio": 0.35505642,
+      "timestamp": 1794463200
+    },
+    {
+      "date": "2026-11-13",
+      "estimated_leverage_ratio": 0.2083283,
+      "timestamp": 1794549600
+    },
+    {
+      "date": "2026-11-14",
+      "estimated_leverage_ratio": 0.28258415,
+      "timestamp": 1794636000
+    },
+    {
+      "date": "2026-11-15",
+      "estimated_leverage_ratio": 0.304717,
+      "timestamp": 1794722400
+    },
+    {
+      "date": "2026-11-16",
+      "estimated_leverage_ratio": 0.26374831,
+      "timestamp": 1794808800
+    },
+    {
+      "date": "2026-11-17",
+      "estimated_leverage_ratio": 0.25788937,
+      "timestamp": 1794895200
+    },
+    {
+      "date": "2026-11-18",
+      "estimated_leverage_ratio": 0.3316725,
+      "timestamp": 1794981600
+    },
+    {
+      "date": "2026-11-19",
+      "estimated_leverage_ratio": 0.20250549,
+      "timestamp": 1795068000
+    },
+    {
+      "date": "2026-11-20",
+      "estimated_leverage_ratio": 0.25607548,
+      "timestamp": 1795154400
+    },
+    {
+      "date": "2026-11-21",
+      "estimated_leverage_ratio": 0.28626939,
+      "timestamp": 1795240800
+    },
+    {
+      "date": "2026-11-22",
+      "estimated_leverage_ratio": 0.29624976,
+      "timestamp": 1795327200
+    },
+    {
+      "date": "2026-11-23",
+      "estimated_leverage_ratio": 0.32058402,
+      "timestamp": 1795413600
+    },
+    {
+      "date": "2026-11-24",
+      "estimated_leverage_ratio": 0.27249983,
+      "timestamp": 1795500000
+    },
+    {
+      "date": "2026-11-25",
+      "estimated_leverage_ratio": 0.28770379,
+      "timestamp": 1795586400
+    },
+    {
+      "date": "2026-11-26",
+      "estimated_leverage_ratio": 0.32810716,
+      "timestamp": 1795672800
+    },
+    {
+      "date": "2026-11-27",
+      "estimated_leverage_ratio": 0.24687838,
+      "timestamp": 1795759200
+    },
+    {
+      "date": "2026-11-28",
+      "estimated_leverage_ratio": 0.27814941,
+      "timestamp": 1795845600
+    },
+    {
+      "date": "2026-11-29",
+      "estimated_leverage_ratio": 0.28760111,
+      "timestamp": 1795932000
+    },
+    {
+      "date": "2026-11-30",
+      "estimated_leverage_ratio": 0.21651174,
+      "timestamp": 1796018400
+    },
+    {
+      "date": "2026-12-01",
+      "estimated_leverage_ratio": 0.29374818,
+      "timestamp": 1796104800
+    },
+    {
+      "date": "2026-12-02",
+      "estimated_leverage_ratio": 0.16806268,
+      "timestamp": 1796191200
+    },
+    {
+      "date": "2026-12-03",
+      "estimated_leverage_ratio": 0.23458551,
+      "timestamp": 1796277600
+    },
+    {
+      "date": "2026-12-04",
+      "estimated_leverage_ratio": 0.27749978,
+      "timestamp": 1796364000
+    },
+    {
+      "date": "2026-12-05",
+      "estimated_leverage_ratio": 0.24363104,
+      "timestamp": 1796450400
+    },
+    {
+      "date": "2026-12-06",
+      "estimated_leverage_ratio": 0.27041308,
+      "timestamp": 1796536800
+    },
+    {
+      "date": "2026-12-07",
+      "estimated_leverage_ratio": 0.35525051,
+      "timestamp": 1796623200
+    },
+    {
+      "date": "2026-12-08",
+      "estimated_leverage_ratio": 0.25052135,
+      "timestamp": 1796709600
+    },
+    {
+      "date": "2026-12-09",
+      "estimated_leverage_ratio": 0.30069634,
+      "timestamp": 1796796000
+    },
+    {
+      "date": "2026-12-10",
+      "estimated_leverage_ratio": 0.21004023,
+      "timestamp": 1796882400
+    },
+    {
+      "date": "2026-12-11",
+      "estimated_leverage_ratio": 0.28544165,
+      "timestamp": 1796968800
+    },
+    {
+      "date": "2026-12-12",
+      "estimated_leverage_ratio": 0.32539817,
+      "timestamp": 1797055200
+    },
+    {
+      "date": "2026-12-13",
+      "estimated_leverage_ratio": 0.27088287,
+      "timestamp": 1797141600
+    },
+    {
+      "date": "2026-12-14",
+      "estimated_leverage_ratio": 0.20715731,
+      "timestamp": 1797228000
+    },
+    {
+      "date": "2026-12-15",
+      "estimated_leverage_ratio": 0.22816514,
+      "timestamp": 1797314400
+    },
+    {
+      "date": "2026-12-16",
+      "estimated_leverage_ratio": 0.24877138,
+      "timestamp": 1797400800
+    },
+    {
+      "date": "2026-12-17",
+      "estimated_leverage_ratio": 0.29221409,
+      "timestamp": 1797487200
+    },
+    {
+      "date": "2026-12-18",
+      "estimated_leverage_ratio": 0.26258162,
+      "timestamp": 1797573600
+    },
+    {
+      "date": "2026-12-19",
+      "estimated_leverage_ratio": 0.27598776,
+      "timestamp": 1797660000
+    },
+    {
+      "date": "2026-12-20",
+      "estimated_leverage_ratio": 0.26995597,
+      "timestamp": 1797746400
+    },
+    {
+      "date": "2026-12-21",
+      "estimated_leverage_ratio": 0.1954491,
+      "timestamp": 1797832800
+    },
+    {
+      "date": "2026-12-22",
+      "estimated_leverage_ratio": 0.3025401,
+      "timestamp": 1797919200
+    },
+    {
+      "date": "2026-12-23",
+      "estimated_leverage_ratio": 0.30916748,
+      "timestamp": 1798005600
+    },
+    {
+      "date": "2026-12-24",
+      "estimated_leverage_ratio": 0.32671328,
+      "timestamp": 1798092000
+    },
+    {
+      "date": "2026-12-25",
+      "estimated_leverage_ratio": 0.26516145,
+      "timestamp": 1798178400
+    },
+    {
+      "date": "2026-12-26",
+      "estimated_leverage_ratio": 0.3155776,
+      "timestamp": 1798264800
+    },
+    {
+      "date": "2026-12-27",
+      "estimated_leverage_ratio": 0.22967108,
+      "timestamp": 1798351200
+    },
+    {
+      "date": "2026-12-28",
+      "estimated_leverage_ratio": 0.26857288,
+      "timestamp": 1798437600
+    },
+    {
+      "date": "2026-12-29",
+      "estimated_leverage_ratio": 0.2781224,
+      "timestamp": 1798524000
+    },
+    {
+      "date": "2026-12-30",
+      "estimated_leverage_ratio": 0.32406657,
+      "timestamp": 1798610400
+    },
+    {
+      "date": "2026-12-31",
+      "estimated_leverage_ratio": 0.27731587,
+      "timestamp": 1798696800
+    },
+    {
+      "date": "2027-01-01",
+      "estimated_leverage_ratio": 0.21711241,
+      "timestamp": 1798783200
+    },
+    {
+      "date": "2027-01-02",
+      "estimated_leverage_ratio": 0.2585293,
+      "timestamp": 1798869600
+    },
+    {
+      "date": "2027-01-03",
+      "estimated_leverage_ratio": 0.16353931,
+      "timestamp": 1798956000
+    },
+    {
+      "date": "2027-01-04",
+      "estimated_leverage_ratio": 0.32762316,
+      "timestamp": 1799042400
+    },
+    {
+      "date": "2027-01-05",
+      "estimated_leverage_ratio": 0.22375752,
+      "timestamp": 1799128800
+    },
+    {
+      "date": "2027-01-06",
+      "estimated_leverage_ratio": 0.24467205,
+      "timestamp": 1799215200
+    },
+    {
+      "date": "2027-01-07",
+      "estimated_leverage_ratio": 0.20235258,
+      "timestamp": 1799301600
+    },
+    {
+      "date": "2027-01-08",
+      "estimated_leverage_ratio": 0.31204326,
+      "timestamp": 1799388000
+    },
+    {
+      "date": "2027-01-09",
+      "estimated_leverage_ratio": 0.29558595,
+      "timestamp": 1799474400
+    },
+    {
+      "date": "2027-01-10",
+      "estimated_leverage_ratio": 0.32687477,
+      "timestamp": 1799560800
+    },
+    {
+      "date": "2027-01-11",
+      "estimated_leverage_ratio": 0.21084066,
+      "timestamp": 1799647200
+    },
+    {
+      "date": "2027-01-12",
+      "estimated_leverage_ratio": 0.27045292,
+      "timestamp": 1799733600
+    },
+    {
+      "date": "2027-01-13",
+      "estimated_leverage_ratio": 0.31778496,
+      "timestamp": 1799820000
+    },
+    {
+      "date": "2027-01-14",
+      "estimated_leverage_ratio": 0.21956383,
+      "timestamp": 1799906400
+    },
+    {
+      "date": "2027-01-15",
+      "estimated_leverage_ratio": 0.27436041,
+      "timestamp": 1799992800
+    },
+    {
+      "date": "2027-01-16",
+      "estimated_leverage_ratio": 0.2425205,
+      "timestamp": 1800079200
+    },
+    {
+      "date": "2027-01-17",
+      "estimated_leverage_ratio": 0.31348009,
+      "timestamp": 1800165600
+    },
+    {
+      "date": "2027-01-18",
+      "estimated_leverage_ratio": 0.28913724,
+      "timestamp": 1800252000
+    },
+    {
+      "date": "2027-01-19",
+      "estimated_leverage_ratio": 0.32792041,
+      "timestamp": 1800338400
+    },
+    {
+      "date": "2027-01-20",
+      "estimated_leverage_ratio": 0.27359363,
+      "timestamp": 1800424800
+    },
+    {
+      "date": "2027-01-21",
+      "estimated_leverage_ratio": 0.22176861,
+      "timestamp": 1800511200
+    },
+    {
+      "date": "2027-01-22",
+      "estimated_leverage_ratio": 0.27985296,
+      "timestamp": 1800597600
+    },
+    {
+      "date": "2027-01-23",
+      "estimated_leverage_ratio": 0.23162616,
+      "timestamp": 1800684000
+    },
+    {
+      "date": "2027-01-24",
+      "estimated_leverage_ratio": 0.29943353,
+      "timestamp": 1800770400
+    },
+    {
+      "date": "2027-01-25",
+      "estimated_leverage_ratio": 0.20063803,
+      "timestamp": 1800856800
+    },
+    {
+      "date": "2027-01-26",
+      "estimated_leverage_ratio": 0.31546097,
+      "timestamp": 1800943200
+    },
+    {
+      "date": "2027-01-27",
+      "estimated_leverage_ratio": 0.30299362,
+      "timestamp": 1801029600
+    },
+    {
+      "date": "2027-01-28",
+      "estimated_leverage_ratio": 0.22601524,
+      "timestamp": 1801116000
+    },
+    {
+      "date": "2027-01-29",
+      "estimated_leverage_ratio": 0.30861607,
+      "timestamp": 1801202400
+    },
+    {
+      "date": "2027-01-30",
+      "estimated_leverage_ratio": 0.22905852,
+      "timestamp": 1801288800
+    },
+    {
+      "date": "2027-01-31",
+      "estimated_leverage_ratio": 0.16983319,
+      "timestamp": 1801375200
+    },
+    {
+      "date": "2027-02-01",
+      "estimated_leverage_ratio": 0.19596465,
+      "timestamp": 1801461600
+    },
+    {
+      "date": "2027-02-02",
+      "estimated_leverage_ratio": 0.30724342,
+      "timestamp": 1801548000
+    },
+    {
+      "date": "2027-02-03",
+      "estimated_leverage_ratio": 0.24879097,
+      "timestamp": 1801634400
+    },
+    {
+      "date": "2027-02-04",
+      "estimated_leverage_ratio": 0.28423475,
+      "timestamp": 1801720800
+    },
+    {
+      "date": "2027-02-05",
+      "estimated_leverage_ratio": 0.19911691,
+      "timestamp": 1801807200
+    },
+    {
+      "date": "2027-02-06",
+      "estimated_leverage_ratio": 0.2415169,
+      "timestamp": 1801893600
+    },
+    {
+      "date": "2027-02-07",
+      "estimated_leverage_ratio": 0.23984139,
+      "timestamp": 1801980000
+    },
+    {
+      "date": "2027-02-08",
+      "estimated_leverage_ratio": 0.30866447,
+      "timestamp": 1802066400
+    },
+    {
+      "date": "2027-02-09",
+      "estimated_leverage_ratio": 0.26639736,
+      "timestamp": 1802152800
+    },
+    {
+      "date": "2027-02-10",
+      "estimated_leverage_ratio": 0.30158034,
+      "timestamp": 1802239200
+    },
+    {
+      "date": "2027-02-11",
+      "estimated_leverage_ratio": 0.24257641,
+      "timestamp": 1802325600
+    },
+    {
+      "date": "2027-02-12",
+      "estimated_leverage_ratio": 0.25899933,
+      "timestamp": 1802412000
+    },
+    {
+      "date": "2027-02-13",
+      "estimated_leverage_ratio": 0.218103,
+      "timestamp": 1802498400
+    },
+    {
+      "date": "2027-02-14",
+      "estimated_leverage_ratio": 0.22028278,
+      "timestamp": 1802584800
+    },
+    {
+      "date": "2027-02-15",
+      "estimated_leverage_ratio": 0.25754273,
+      "timestamp": 1802671200
+    },
+    {
+      "date": "2027-02-16",
+      "estimated_leverage_ratio": 0.2971542,
+      "timestamp": 1802757600
+    },
+    {
+      "date": "2027-02-17",
+      "estimated_leverage_ratio": 0.27861555,
+      "timestamp": 1802844000
+    },
+    {
+      "date": "2027-02-18",
+      "estimated_leverage_ratio": 0.20970035,
+      "timestamp": 1802930400
+    },
+    {
+      "date": "2027-02-19",
+      "estimated_leverage_ratio": 0.19747057,
+      "timestamp": 1803016800
+    },
+    {
+      "date": "2027-02-20",
+      "estimated_leverage_ratio": 0.25667749,
+      "timestamp": 1803103200
+    },
+    {
+      "date": "2027-02-21",
+      "estimated_leverage_ratio": 0.29100873,
+      "timestamp": 1803189600
+    },
+    {
+      "date": "2027-02-22",
+      "estimated_leverage_ratio": 0.2843988,
+      "timestamp": 1803276000
+    },
+    {
+      "date": "2027-02-23",
+      "estimated_leverage_ratio": 0.21643068,
+      "timestamp": 1803362400
+    },
+    {
+      "date": "2027-02-24",
+      "estimated_leverage_ratio": 0.22370888,
+      "timestamp": 1803448800
+    },
+    {
+      "date": "2027-02-25",
+      "estimated_leverage_ratio": 0.22488799,
+      "timestamp": 1803535200
+    },
+    {
+      "date": "2027-02-26",
+      "estimated_leverage_ratio": 0.30306521,
+      "timestamp": 1803621600
+    },
+    {
+      "date": "2027-02-27",
+      "estimated_leverage_ratio": 0.27474866,
+      "timestamp": 1803708000
+    },
+    {
+      "date": "2027-02-28",
+      "estimated_leverage_ratio": 0.28380335,
+      "timestamp": 1803794400
+    },
+    {
+      "date": "2027-03-01",
+      "estimated_leverage_ratio": 0.23013673,
+      "timestamp": 1803880800
+    },
+    {
+      "date": "2027-03-02",
+      "estimated_leverage_ratio": 0.27886994,
+      "timestamp": 1803967200
+    },
+    {
+      "date": "2027-03-03",
+      "estimated_leverage_ratio": 0.29118007,
+      "timestamp": 1804053600
+    },
+    {
+      "date": "2027-03-04",
+      "estimated_leverage_ratio": 0.19921837,
+      "timestamp": 1804140000
+    },
+    {
+      "date": "2027-03-05",
+      "estimated_leverage_ratio": 0.2710067,
+      "timestamp": 1804226400
+    },
+    {
+      "date": "2027-03-06",
+      "estimated_leverage_ratio": 0.30238049,
+      "timestamp": 1804312800
+    },
+    {
+      "date": "2027-03-07",
+      "estimated_leverage_ratio": 0.21695251,
+      "timestamp": 1804399200
+    },
+    {
+      "date": "2027-03-08",
+      "estimated_leverage_ratio": 0.19550903,
+      "timestamp": 1804485600
+    },
+    {
+      "date": "2027-03-09",
+      "estimated_leverage_ratio": 0.30740206,
+      "timestamp": 1804572000
+    },
+    {
+      "date": "2027-03-10",
+      "estimated_leverage_ratio": 0.23881298,
+      "timestamp": 1804658400
+    },
+    {
+      "date": "2027-03-11",
+      "estimated_leverage_ratio": 0.34623788,
+      "timestamp": 1804744800
+    },
+    {
+      "date": "2027-03-12",
+      "estimated_leverage_ratio": 0.22381896,
+      "timestamp": 1804831200
+    },
+    {
+      "date": "2027-03-13",
+      "estimated_leverage_ratio": 0.31397048,
+      "timestamp": 1804917600
+    },
+    {
+      "date": "2027-03-14",
+      "estimated_leverage_ratio": 0.22924651,
+      "timestamp": 1805004000
+    },
+    {
+      "date": "2027-03-15",
+      "estimated_leverage_ratio": 0.29326671,
+      "timestamp": 1805090400
+    },
+    {
+      "date": "2027-03-16",
+      "estimated_leverage_ratio": 0.19353415,
+      "timestamp": 1805176800
+    },
+    {
+      "date": "2027-03-17",
+      "estimated_leverage_ratio": 0.33297015,
+      "timestamp": 1805263200
+    },
+    {
+      "date": "2027-03-18",
+      "estimated_leverage_ratio": 0.30003332,
+      "timestamp": 1805349600
+    },
+    {
+      "date": "2027-03-19",
+      "estimated_leverage_ratio": 0.26679591,
+      "timestamp": 1805436000
+    },
+    {
+      "date": "2027-03-20",
+      "estimated_leverage_ratio": 0.28626853,
+      "timestamp": 1805522400
+    },
+    {
+      "date": "2027-03-21",
+      "estimated_leverage_ratio": 0.23740578,
+      "timestamp": 1805608800
+    },
+    {
+      "date": "2027-03-22",
+      "estimated_leverage_ratio": 0.29075474,
+      "timestamp": 1805695200
+    },
+    {
+      "date": "2027-03-23",
+      "estimated_leverage_ratio": 0.24411429,
+      "timestamp": 1805781600
+    },
+    {
+      "date": "2027-03-24",
+      "estimated_leverage_ratio": 0.27451854,
+      "timestamp": 1805868000
+    },
+    {
+      "date": "2027-03-25",
+      "estimated_leverage_ratio": 0.1600384,
+      "timestamp": 1805954400
+    },
+    {
+      "date": "2027-03-26",
+      "estimated_leverage_ratio": 0.25847901,
+      "timestamp": 1806040800
+    },
+    {
+      "date": "2027-03-27",
+      "estimated_leverage_ratio": 0.30782568,
+      "timestamp": 1806127200
+    },
+    {
+      "date": "2027-03-28",
+      "estimated_leverage_ratio": 0.20056429,
+      "timestamp": 1806213600
+    },
+    {
+      "date": "2027-03-29",
+      "estimated_leverage_ratio": 0.3125973,
+      "timestamp": 1806300000
+    },
+    {
+      "date": "2027-03-30",
+      "estimated_leverage_ratio": 0.27203569,
+      "timestamp": 1806386400
+    },
+    {
+      "date": "2027-03-31",
+      "estimated_leverage_ratio": 0.2671228,
+      "timestamp": 1806472800
+    },
+    {
+      "date": "2027-04-01",
+      "estimated_leverage_ratio": 0.20009143,
+      "timestamp": 1806559200
+    },
+    {
+      "date": "2027-04-02",
+      "estimated_leverage_ratio": 0.22772966,
+      "timestamp": 1806645600
+    },
+    {
+      "date": "2027-04-03",
+      "estimated_leverage_ratio": 0.25590683,
+      "timestamp": 1806732000
+    },
+    {
+      "date": "2027-04-04",
+      "estimated_leverage_ratio": 0.2264575,
+      "timestamp": 1806818400
+    },
+    {
+      "date": "2027-04-05",
+      "estimated_leverage_ratio": 0.27232094,
+      "timestamp": 1806904800
+    },
+    {
+      "date": "2027-04-06",
+      "estimated_leverage_ratio": 0.23615129,
+      "timestamp": 1806991200
+    },
+    {
+      "date": "2027-04-07",
+      "estimated_leverage_ratio": 0.275404,
+      "timestamp": 1807077600
+    },
+    {
+      "date": "2027-04-08",
+      "estimated_leverage_ratio": 0.23341577,
+      "timestamp": 1807164000
+    },
+    {
+      "date": "2027-04-09",
+      "estimated_leverage_ratio": 0.18169617,
+      "timestamp": 1807250400
+    },
+    {
+      "date": "2027-04-10",
+      "estimated_leverage_ratio": 0.27876343,
+      "timestamp": 1807336800
+    },
+    {
+      "date": "2027-04-11",
+      "estimated_leverage_ratio": 0.22186736,
+      "timestamp": 1807423200
+    },
+    {
+      "date": "2027-04-12",
+      "estimated_leverage_ratio": 0.34011764,
+      "timestamp": 1807509600
+    },
+    {
+      "date": "2027-04-13",
+      "estimated_leverage_ratio": 0.19540624,
+      "timestamp": 1807596000
+    },
+    {
+      "date": "2027-04-14",
+      "estimated_leverage_ratio": 0.31716374,
+      "timestamp": 1807682400
+    },
+    {
+      "date": "2027-04-15",
+      "estimated_leverage_ratio": 0.25765493,
+      "timestamp": 1807768800
+    },
+    {
+      "date": "2027-04-16",
+      "estimated_leverage_ratio": 0.2738648,
+      "timestamp": 1807855200
+    },
+    {
+      "date": "2027-04-17",
+      "estimated_leverage_ratio": 0.30466563,
+      "timestamp": 1807941600
+    },
+    {
+      "date": "2027-04-18",
+      "estimated_leverage_ratio": 0.23671173,
+      "timestamp": 1808028000
+    },
+    {
+      "date": "2027-04-19",
+      "estimated_leverage_ratio": 0.2060882,
+      "timestamp": 1808114400
+    },
+    {
+      "date": "2027-04-20",
+      "estimated_leverage_ratio": 0.24482571,
+      "timestamp": 1808200800
+    },
+    {
+      "date": "2027-04-21",
+      "estimated_leverage_ratio": 0.30628442,
+      "timestamp": 1808287200
+    },
+    {
+      "date": "2027-04-22",
+      "estimated_leverage_ratio": 0.27544559,
+      "timestamp": 1808373600
+    },
+    {
+      "date": "2027-04-23",
+      "estimated_leverage_ratio": 0.24447319,
+      "timestamp": 1808460000
+    },
+    {
+      "date": "2027-04-24",
+      "estimated_leverage_ratio": 0.27996467,
+      "timestamp": 1808546400
+    },
+    {
+      "date": "2027-04-25",
+      "estimated_leverage_ratio": 0.25929171,
+      "timestamp": 1808632800
+    },
+    {
+      "date": "2027-04-26",
+      "estimated_leverage_ratio": 0.25576519,
+      "timestamp": 1808719200
+    },
+    {
+      "date": "2027-04-27",
+      "estimated_leverage_ratio": 0.25398257,
+      "timestamp": 1808805600
+    },
+    {
+      "date": "2027-04-28",
+      "estimated_leverage_ratio": 0.25069939,
+      "timestamp": 1808892000
+    },
+    {
+      "date": "2027-04-29",
+      "estimated_leverage_ratio": 0.24908924,
+      "timestamp": 1808978400
+    },
+    {
+      "date": "2027-04-30",
+      "estimated_leverage_ratio": 0.2471052,
+      "timestamp": 1809064800
+    },
+    {
+      "date": "2027-05-01",
+      "estimated_leverage_ratio": 0.24396904,
+      "timestamp": 1809151200
+    },
+    {
+      "date": "2027-05-02",
+      "estimated_leverage_ratio": 0.22810261,
+      "timestamp": 1809237600
+    },
+    {
+      "date": "2027-05-03",
+      "estimated_leverage_ratio": 0.22928473,
+      "timestamp": 1809324000
+    },
+    {
+      "date": "2027-05-04",
+      "estimated_leverage_ratio": 0.22763906,
+      "timestamp": 1809410400
+    },
+    {
+      "date": "2027-05-05",
+      "estimated_leverage_ratio": 0.22917578,
+      "timestamp": 1809496800
+    },
+    {
+      "date": "2027-05-06",
+      "estimated_leverage_ratio": 0.34029777,
+      "timestamp": 1809583200
+    },
+    {
+      "date": "2027-05-07",
+      "estimated_leverage_ratio": 0.25378857,
+      "timestamp": 1809669600
+    },
+    {
+      "date": "2027-05-08",
+      "estimated_leverage_ratio": 0.24499198,
+      "timestamp": 1809756000
+    },
+    {
+      "date": "2027-05-09",
+      "estimated_leverage_ratio": 0.26454661,
+      "timestamp": 1809842400
+    },
+    {
+      "date": "2027-05-10",
+      "estimated_leverage_ratio": 0.22522718,
+      "timestamp": 1809928800
+    },
+    {
+      "date": "2027-05-11",
+      "estimated_leverage_ratio": 0.2805222,
+      "timestamp": 1810015200
+    },
+    {
+      "date": "2027-05-12",
+      "estimated_leverage_ratio": 0.19810729,
+      "timestamp": 1810101600
+    },
+    {
+      "date": "2027-05-13",
+      "estimated_leverage_ratio": 0.3124262,
+      "timestamp": 1810188000
+    },
+    {
+      "date": "2027-05-14",
+      "estimated_leverage_ratio": 0.28820522,
+      "timestamp": 1810274400
+    },
+    {
+      "date": "2027-05-15",
+      "estimated_leverage_ratio": 0.22605656,
+      "timestamp": 1810360800
+    },
+    {
+      "date": "2027-05-16",
+      "estimated_leverage_ratio": 0.26214504,
+      "timestamp": 1810447200
+    },
+    {
+      "date": "2027-05-17",
+      "estimated_leverage_ratio": 0.2219536,
+      "timestamp": 1810533600
+    },
+    {
+      "date": "2027-05-18",
+      "estimated_leverage_ratio": 0.24606436,
+      "timestamp": 1810620000
+    },
+    {
+      "date": "2027-05-19",
+      "estimated_leverage_ratio": 0.24082201,
+      "timestamp": 1810706400
+    },
+    {
+      "date": "2027-05-20",
+      "estimated_leverage_ratio": 0.26180354,
+      "timestamp": 1810792800
+    },
+    {
+      "date": "2027-05-21",
+      "estimated_leverage_ratio": 0.26331314,
+      "timestamp": 1810879200
+    },
+    {
+      "date": "2027-05-22",
+      "estimated_leverage_ratio": 0.26901184,
+      "timestamp": 1810965600
+    },
+    {
+      "date": "2027-05-23",
+      "estimated_leverage_ratio": 0.20157424,
+      "timestamp": 1811052000
+    },
+    {
+      "date": "2027-05-24",
+      "estimated_leverage_ratio": 0.25624695,
+      "timestamp": 1811138400
+    },
+    {
+      "date": "2027-05-25",
+      "estimated_leverage_ratio": 0.22282677,
+      "timestamp": 1811224800
+    },
+    {
+      "date": "2027-05-26",
+      "estimated_leverage_ratio": 0.30821764,
+      "timestamp": 1811311200
+    },
+    {
+      "date": "2027-05-27",
+      "estimated_leverage_ratio": 0.25956555,
+      "timestamp": 1811397600
+    },
+    {
+      "date": "2027-05-28",
+      "estimated_leverage_ratio": 0.21372184,
+      "timestamp": 1811484000
+    },
+    {
+      "date": "2027-05-29",
+      "estimated_leverage_ratio": 0.25638844,
+      "timestamp": 1811570400
+    },
+    {
+      "date": "2027-05-30",
+      "estimated_leverage_ratio": 0.29506032,
+      "timestamp": 1811656800
+    },
+    {
+      "date": "2027-05-31",
+      "estimated_leverage_ratio": 0.28360376,
+      "timestamp": 1811743200
+    },
+    {
+      "date": "2027-06-01",
+      "estimated_leverage_ratio": 0.27792297,
+      "timestamp": 1811829600
+    },
+    {
+      "date": "2027-06-02",
+      "estimated_leverage_ratio": 0.23124261,
+      "timestamp": 1811916000
+    },
+    {
+      "date": "2027-06-03",
+      "estimated_leverage_ratio": 0.21446833,
+      "timestamp": 1812002400
+    },
+    {
+      "date": "2027-06-04",
+      "estimated_leverage_ratio": 0.23707942,
+      "timestamp": 1812088800
+    },
+    {
+      "date": "2027-06-05",
+      "estimated_leverage_ratio": 0.25617923,
+      "timestamp": 1812175200
+    },
+    {
+      "date": "2027-06-06",
+      "estimated_leverage_ratio": 0.26218626,
+      "timestamp": 1812261600
+    },
+    {
+      "date": "2027-06-07",
+      "estimated_leverage_ratio": 0.24675547,
+      "timestamp": 1812348000
+    },
+    {
+      "date": "2027-06-08",
+      "estimated_leverage_ratio": 0.24263601,
+      "timestamp": 1812434400
+    },
+    {
+      "date": "2027-06-09",
+      "estimated_leverage_ratio": 0.29324615,
+      "timestamp": 1812520800
+    },
+    {
+      "date": "2027-06-10",
+      "estimated_leverage_ratio": 0.19263189,
+      "timestamp": 1812607200
+    },
+    {
+      "date": "2027-06-11",
+      "estimated_leverage_ratio": 0.26783179,
+      "timestamp": 1812693600
+    },
+    {
+      "date": "2027-06-12",
+      "estimated_leverage_ratio": 0.28412729,
+      "timestamp": 1812780000
+    },
+    {
+      "date": "2027-06-13",
+      "estimated_leverage_ratio": 0.23547057,
+      "timestamp": 1812866400
+    },
+    {
+      "date": "2027-06-14",
+      "estimated_leverage_ratio": 0.22488678,
+      "timestamp": 1812952800
+    },
+    {
+      "date": "2027-06-15",
+      "estimated_leverage_ratio": 0.29424043,
+      "timestamp": 1813039200
+    },
+    {
+      "date": "2027-06-16",
+      "estimated_leverage_ratio": 0.29254706,
+      "timestamp": 1813125600
+    },
+    {
+      "date": "2027-06-17",
+      "estimated_leverage_ratio": 0.29197152,
+      "timestamp": 1813212000
+    },
+    {
+      "date": "2027-06-18",
+      "estimated_leverage_ratio": 0.30662721,
+      "timestamp": 1813298400
+    },
+    {
+      "date": "2027-06-19",
+      "estimated_leverage_ratio": 0.25791019,
+      "timestamp": 1813384800
+    },
+    {
+      "date": "2027-06-20",
+      "estimated_leverage_ratio": 0.2329136,
+      "timestamp": 1813471200
+    },
+    {
+      "date": "2027-06-21",
+      "estimated_leverage_ratio": 0.2324577,
+      "timestamp": 1813557600
+    },
+    {
+      "date": "2027-06-22",
+      "estimated_leverage_ratio": 0.28423722,
+      "timestamp": 1813644000
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_open_interest_and_funding_estimated_leverage_ratio",
+    "path": "/btc/market-data/estimated-leverage-ratio",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/open_interest_and_funding/estimated_leverage_ratio/day_raw.json",
+    "raw_shape": "status_result_data_elr",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 365,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

@@ -1,6 +1,6 @@
-from processing_signals.input.apis.coinglass.endpoint_registry import ENDPOINTS as COINGLASS_ENDPOINTS
-from processing_signals.input.apis.cryptoquant.endpoint_registry import ENDPOINTS as CRYPTOQUANT_ENDPOINTS
-from processing_signals.input.apis.glassnode.endpoint_registry import ENDPOINTS as GLASSNODE_ENDPOINTS
+from processing_signals.input.apis.coinglass.endpoint_registry_coinglass import ENDPOINTS as COINGLASS_ENDPOINTS
+from processing_signals.input.apis.cryptoquant.endpoint_registry_cryptoquant import ENDPOINTS as CRYPTOQUANT_ENDPOINTS
+from processing_signals.input.apis.glassnode.endpoint_registry_glassnode import ENDPOINTS as GLASSNODE_ENDPOINTS
 from processing_signals.input.apis.official_registry import (
     FAMILY_SUBTYPES,
     PRIORITY_ORDER,

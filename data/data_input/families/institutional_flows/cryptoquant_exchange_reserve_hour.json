@@ -1,0 +1,4230 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "institutional_flows",
+  "subtype": "exchange_reserve",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "hour",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-23T00:00:00Z",
+      "blockheight": 856000,
+      "reserve": 2430852.1377,
+      "reserve_usd": 252849613574.64,
+      "timestamp": 1782172800
+    },
+    {
+      "datetime": "2026-06-23T01:00:00Z",
+      "blockheight": 856001,
+      "reserve": 2334022.4052,
+      "reserve_usd": 242879064139.46,
+      "timestamp": 1782176400
+    },
+    {
+      "datetime": "2026-06-23T02:00:00Z",
+      "blockheight": 856002,
+      "reserve": 2398394.4013,
+      "reserve_usd": 249774797869.12,
+      "timestamp": 1782180000
+    },
+    {
+      "datetime": "2026-06-23T03:00:00Z",
+      "blockheight": 856003,
+      "reserve": 2396842.7906,
+      "reserve_usd": 249637048773.89,
+      "timestamp": 1782183600
+    },
+    {
+      "datetime": "2026-06-23T04:00:00Z",
+      "blockheight": 856004,
+      "reserve": 2404213.8851,
+      "reserve_usd": 250336817179.88,
+      "timestamp": 1782187200
+    },
+    {
+      "datetime": "2026-06-23T05:00:00Z",
+      "blockheight": 856005,
+      "reserve": 2372108.3141,
+      "reserve_usd": 247518002538.9,
+      "timestamp": 1782190800
+    },
+    {
+      "datetime": "2026-06-23T06:00:00Z",
+      "blockheight": 856006,
+      "reserve": 2431058.4059,
+      "reserve_usd": 253935837552.22,
+      "timestamp": 1782194400
+    },
+    {
+      "datetime": "2026-06-23T07:00:00Z",
+      "blockheight": 856007,
+      "reserve": 2425035.7734,
+      "reserve_usd": 252911290479.7,
+      "timestamp": 1782198000
+    },
+    {
+      "datetime": "2026-06-23T08:00:00Z",
+      "blockheight": 856008,
+      "reserve": 2491676.4193,
+      "reserve_usd": 260143325420.62,
+      "timestamp": 1782201600
+    },
+    {
+      "datetime": "2026-06-23T09:00:00Z",
+      "blockheight": 856009,
+      "reserve": 2377933.3981,
+      "reserve_usd": 248255404651.04,
+      "timestamp": 1782205200
+    },
+    {
+      "datetime": "2026-06-23T10:00:00Z",
+      "blockheight": 856010,
+      "reserve": 2357327.6515,
+      "reserve_usd": 246347496915.4,
+      "timestamp": 1782208800
+    },
+    {
+      "datetime": "2026-06-23T11:00:00Z",
+      "blockheight": 856011,
+      "reserve": 2348638.6756,
+      "reserve_usd": 245835701128.7,
+      "timestamp": 1782212400
+    },
+    {
+      "datetime": "2026-06-23T12:00:00Z",
+      "blockheight": 856012,
+      "reserve": 2353797.7761,
+      "reserve_usd": 246546105121.67,
+      "timestamp": 1782216000
+    },
+    {
+      "datetime": "2026-06-23T13:00:00Z",
+      "blockheight": 856013,
+      "reserve": 2350914.9742,
+      "reserve_usd": 246110135730.07,
+      "timestamp": 1782219600
+    },
+    {
+      "datetime": "2026-06-23T14:00:00Z",
+      "blockheight": 856014,
+      "reserve": 2393239.8055,
+      "reserve_usd": 250880041834.23,
+      "timestamp": 1782223200
+    },
+    {
+      "datetime": "2026-06-23T15:00:00Z",
+      "blockheight": 856015,
+      "reserve": 2421470.253,
+      "reserve_usd": 254066516834.5,
+      "timestamp": 1782226800
+    },
+    {
+      "datetime": "2026-06-23T16:00:00Z",
+      "blockheight": 856016,
+      "reserve": 2419883.0863,
+      "reserve_usd": 253774771191.52,
+      "timestamp": 1782230400
+    },
+    {
+      "datetime": "2026-06-23T17:00:00Z",
+      "blockheight": 856017,
+      "reserve": 2450667.0288,
+      "reserve_usd": 256912484448.21,
+      "timestamp": 1782234000
+    },
+    {
+      "datetime": "2026-06-23T18:00:00Z",
+      "blockheight": 856018,
+      "reserve": 2333569.4581,
+      "reserve_usd": 244877001116.33,
+      "timestamp": 1782237600
+    },
+    {
+      "datetime": "2026-06-23T19:00:00Z",
+      "blockheight": 856019,
+      "reserve": 2414036.437,
+      "reserve_usd": 253499478460.61,
+      "timestamp": 1782241200
+    },
+    {
+      "datetime": "2026-06-23T20:00:00Z",
+      "blockheight": 856020,
+      "reserve": 2421655.2278,
+      "reserve_usd": 254487210656.27,
+      "timestamp": 1782244800
+    },
+    {
+      "datetime": "2026-06-23T21:00:00Z",
+      "blockheight": 856021,
+      "reserve": 2343009.5002,
+      "reserve_usd": 246058716324.99,
+      "timestamp": 1782248400
+    },
+    {
+      "datetime": "2026-06-23T22:00:00Z",
+      "blockheight": 856022,
+      "reserve": 2432764.8122,
+      "reserve_usd": 255826147999.66,
+      "timestamp": 1782252000
+    },
+    {
+      "datetime": "2026-06-23T23:00:00Z",
+      "blockheight": 856023,
+      "reserve": 2377605.67,
+      "reserve_usd": 249971697657.35,
+      "timestamp": 1782255600
+    },
+    {
+      "datetime": "2026-06-24T00:00:00Z",
+      "blockheight": 856024,
+      "reserve": 2357758.3869,
+      "reserve_usd": 247948350254.99,
+      "timestamp": 1782259200
+    },
+    {
+      "datetime": "2026-06-24T01:00:00Z",
+      "blockheight": 856025,
+      "reserve": 2384939.3964,
+      "reserve_usd": 250531361554.99,
+      "timestamp": 1782262800
+    },
+    {
+      "datetime": "2026-06-24T02:00:00Z",
+      "blockheight": 856026,
+      "reserve": 2394296.8712,
+      "reserve_usd": 252060972764.59,
+      "timestamp": 1782266400
+    },
+    {
+      "datetime": "2026-06-24T03:00:00Z",
+      "blockheight": 856027,
+      "reserve": 2387338.9411,
+      "reserve_usd": 250815887641.89,
+      "timestamp": 1782270000
+    },
+    {
+      "datetime": "2026-06-24T04:00:00Z",
+      "blockheight": 856028,
+      "reserve": 2391769.388,
+      "reserve_usd": 251873925107.11,
+      "timestamp": 1782273600
+    },
+    {
+      "datetime": "2026-06-24T05:00:00Z",
+      "blockheight": 856029,
+      "reserve": 2431704.4236,
+      "reserve_usd": 255646362598.32,
+      "timestamp": 1782277200
+    },
+    {
+      "datetime": "2026-06-24T06:00:00Z",
+      "blockheight": 856030,
+      "reserve": 2353335.5558,
+      "reserve_usd": 247751132050.56,
+      "timestamp": 1782280800
+    },
+    {
+      "datetime": "2026-06-24T07:00:00Z",
+      "blockheight": 856031,
+      "reserve": 2368645.1902,
+      "reserve_usd": 249104230153.23,
+      "timestamp": 1782284400
+    },
+    {
+      "datetime": "2026-06-24T08:00:00Z",
+      "blockheight": 856032,
+      "reserve": 2330889.0595,
+      "reserve_usd": 245007797849.84,
+      "timestamp": 1782288000
+    },
+    {
+      "datetime": "2026-06-24T09:00:00Z",
+      "blockheight": 856033,
+      "reserve": 2477441.3257,
+      "reserve_usd": 260596234422.5,
+      "timestamp": 1782291600
+    },
+    {
+      "datetime": "2026-06-24T10:00:00Z",
+      "blockheight": 856034,
+      "reserve": 2370597.7044,
+      "reserve_usd": 249588805741.18,
+      "timestamp": 1782295200
+    },
+    {
+      "datetime": "2026-06-24T11:00:00Z",
+      "blockheight": 856035,
+      "reserve": 2392874.9253,
+      "reserve_usd": 251624929021.76,
+      "timestamp": 1782298800
+    },
+    {
+      "datetime": "2026-06-24T12:00:00Z",
+      "blockheight": 856036,
+      "reserve": 2404381.7968,
+      "reserve_usd": 252955590566.64,
+      "timestamp": 1782302400
+    },
+    {
+      "datetime": "2026-06-24T13:00:00Z",
+      "blockheight": 856037,
+      "reserve": 2315484.8049,
+      "reserve_usd": 243285606271.8,
+      "timestamp": 1782306000
+    },
+    {
+      "datetime": "2026-06-24T14:00:00Z",
+      "blockheight": 856038,
+      "reserve": 2317114.2498,
+      "reserve_usd": 243509648626.46,
+      "timestamp": 1782309600
+    },
+    {
+      "datetime": "2026-06-24T15:00:00Z",
+      "blockheight": 856039,
+      "reserve": 2389093.7558,
+      "reserve_usd": 251505892529.22,
+      "timestamp": 1782313200
+    },
+    {
+      "datetime": "2026-06-24T16:00:00Z",
+      "blockheight": 856040,
+      "reserve": 2397722.0744,
+      "reserve_usd": 252182566746.92,
+      "timestamp": 1782316800
+    },
+    {
+      "datetime": "2026-06-24T17:00:00Z",
+      "blockheight": 856041,
+      "reserve": 2369207.4526,
+      "reserve_usd": 249193642987.01,
+      "timestamp": 1782320400
+    },
+    {
+      "datetime": "2026-06-24T18:00:00Z",
+      "blockheight": 856042,
+      "reserve": 2451551.7653,
+      "reserve_usd": 257621325733.52,
+      "timestamp": 1782324000
+    },
+    {
+      "datetime": "2026-06-24T19:00:00Z",
+      "blockheight": 856043,
+      "reserve": 2452198.6838,
+      "reserve_usd": 257774872423.19,
+      "timestamp": 1782327600
+    },
+    {
+      "datetime": "2026-06-24T20:00:00Z",
+      "blockheight": 856044,
+      "reserve": 2417803.5195,
+      "reserve_usd": 253889732152.87,
+      "timestamp": 1782331200
+    },
+    {
+      "datetime": "2026-06-24T21:00:00Z",
+      "blockheight": 856045,
+      "reserve": 2306473.9861,
+      "reserve_usd": 241998245761.4,
+      "timestamp": 1782334800
+    },
+    {
+      "datetime": "2026-06-24T22:00:00Z",
+      "blockheight": 856046,
+      "reserve": 2465968.3558,
+      "reserve_usd": 258848106987.98,
+      "timestamp": 1782338400
+    },
+    {
+      "datetime": "2026-06-24T23:00:00Z",
+      "blockheight": 856047,
+      "reserve": 2358124.1304,
+      "reserve_usd": 247603345059.45,
+      "timestamp": 1782342000
+    },
+    {
+      "datetime": "2026-06-25T00:00:00Z",
+      "blockheight": 856048,
+      "reserve": 2301911.0028,
+      "reserve_usd": 241755995680.9,
+      "timestamp": 1782345600
+    },
+    {
+      "datetime": "2026-06-25T01:00:00Z",
+      "blockheight": 856049,
+      "reserve": 2452010.5027,
+      "reserve_usd": 257344489192.29,
+      "timestamp": 1782349200
+    },
+    {
+      "datetime": "2026-06-25T02:00:00Z",
+      "blockheight": 856050,
+      "reserve": 2472428.91,
+      "reserve_usd": 259060928349.4,
+      "timestamp": 1782352800
+    },
+    {
+      "datetime": "2026-06-25T03:00:00Z",
+      "blockheight": 856051,
+      "reserve": 2365608.0555,
+      "reserve_usd": 248162291523.88,
+      "timestamp": 1782356400
+    },
+    {
+      "datetime": "2026-06-25T04:00:00Z",
+      "blockheight": 856052,
+      "reserve": 2327152.5293,
+      "reserve_usd": 243628687202.92,
+      "timestamp": 1782360000
+    },
+    {
+      "datetime": "2026-06-25T05:00:00Z",
+      "blockheight": 856053,
+      "reserve": 2434986.3645,
+      "reserve_usd": 254955615409.16,
+      "timestamp": 1782363600
+    },
+    {
+      "datetime": "2026-06-25T06:00:00Z",
+      "blockheight": 856054,
+      "reserve": 2381374.6623,
+      "reserve_usd": 249224103242.61,
+      "timestamp": 1782367200
+    },
+    {
+      "datetime": "2026-06-25T07:00:00Z",
+      "blockheight": 856055,
+      "reserve": 2432176.4862,
+      "reserve_usd": 254333187232.16,
+      "timestamp": 1782370800
+    },
+    {
+      "datetime": "2026-06-25T08:00:00Z",
+      "blockheight": 856056,
+      "reserve": 2346685.4544,
+      "reserve_usd": 245334064332.21,
+      "timestamp": 1782374400
+    },
+    {
+      "datetime": "2026-06-25T09:00:00Z",
+      "blockheight": 856057,
+      "reserve": 2361127.7978,
+      "reserve_usd": 247058800446.95,
+      "timestamp": 1782378000
+    },
+    {
+      "datetime": "2026-06-25T10:00:00Z",
+      "blockheight": 856058,
+      "reserve": 2369118.5636,
+      "reserve_usd": 247324786540.67,
+      "timestamp": 1782381600
+    },
+    {
+      "datetime": "2026-06-25T11:00:00Z",
+      "blockheight": 856059,
+      "reserve": 2347793.7415,
+      "reserve_usd": 245500218883.53,
+      "timestamp": 1782385200
+    },
+    {
+      "datetime": "2026-06-25T12:00:00Z",
+      "blockheight": 856060,
+      "reserve": 2409678.9672,
+      "reserve_usd": 251574885459.7,
+      "timestamp": 1782388800
+    },
+    {
+      "datetime": "2026-06-25T13:00:00Z",
+      "blockheight": 856061,
+      "reserve": 2346033.4403,
+      "reserve_usd": 244956257851.3,
+      "timestamp": 1782392400
+    },
+    {
+      "datetime": "2026-06-25T14:00:00Z",
+      "blockheight": 856062,
+      "reserve": 2461449.0353,
+      "reserve_usd": 256477612234.19,
+      "timestamp": 1782396000
+    },
+    {
+      "datetime": "2026-06-25T15:00:00Z",
+      "blockheight": 856063,
+      "reserve": 2412278.8358,
+      "reserve_usd": 251665663025.04,
+      "timestamp": 1782399600
+    },
+    {
+      "datetime": "2026-06-25T16:00:00Z",
+      "blockheight": 856064,
+      "reserve": 2456138.0098,
+      "reserve_usd": 256022572579.65,
+      "timestamp": 1782403200
+    },
+    {
+      "datetime": "2026-06-25T17:00:00Z",
+      "blockheight": 856065,
+      "reserve": 2391552.5172,
+      "reserve_usd": 249130878358.12,
+      "timestamp": 1782406800
+    },
+    {
+      "datetime": "2026-06-25T18:00:00Z",
+      "blockheight": 856066,
+      "reserve": 2363550.1115,
+      "reserve_usd": 246158251598.45,
+      "timestamp": 1782410400
+    },
+    {
+      "datetime": "2026-06-25T19:00:00Z",
+      "blockheight": 856067,
+      "reserve": 2311967.6518,
+      "reserve_usd": 240674728212.96,
+      "timestamp": 1782414000
+    },
+    {
+      "datetime": "2026-06-25T20:00:00Z",
+      "blockheight": 856068,
+      "reserve": 2412748.0417,
+      "reserve_usd": 250812345251.22,
+      "timestamp": 1782417600
+    },
+    {
+      "datetime": "2026-06-25T21:00:00Z",
+      "blockheight": 856069,
+      "reserve": 2338165.995,
+      "reserve_usd": 243358898113.45,
+      "timestamp": 1782421200
+    },
+    {
+      "datetime": "2026-06-25T22:00:00Z",
+      "blockheight": 856070,
+      "reserve": 2440352.213,
+      "reserve_usd": 253786961606.21,
+      "timestamp": 1782424800
+    },
+    {
+      "datetime": "2026-06-25T23:00:00Z",
+      "blockheight": 856071,
+      "reserve": 2398699.5252,
+      "reserve_usd": 249317171233.48,
+      "timestamp": 1782428400
+    },
+    {
+      "datetime": "2026-06-26T00:00:00Z",
+      "blockheight": 856072,
+      "reserve": 2456631.9657,
+      "reserve_usd": 255117625683.73,
+      "timestamp": 1782432000
+    },
+    {
+      "datetime": "2026-06-26T01:00:00Z",
+      "blockheight": 856073,
+      "reserve": 2358642.9019,
+      "reserve_usd": 244871474060.72,
+      "timestamp": 1782435600
+    },
+    {
+      "datetime": "2026-06-26T02:00:00Z",
+      "blockheight": 856074,
+      "reserve": 2374031.1654,
+      "reserve_usd": 246607466620.6,
+      "timestamp": 1782439200
+    },
+    {
+      "datetime": "2026-06-26T03:00:00Z",
+      "blockheight": 856075,
+      "reserve": 2404619.8578,
+      "reserve_usd": 249824174838.21,
+      "timestamp": 1782442800
+    },
+    {
+      "datetime": "2026-06-26T04:00:00Z",
+      "blockheight": 856076,
+      "reserve": 2337858.0479,
+      "reserve_usd": 242645490504.21,
+      "timestamp": 1782446400
+    },
+    {
+      "datetime": "2026-06-26T05:00:00Z",
+      "blockheight": 856077,
+      "reserve": 2347617.3667,
+      "reserve_usd": 243571168324.81,
+      "timestamp": 1782450000
+    },
+    {
+      "datetime": "2026-06-26T06:00:00Z",
+      "blockheight": 856078,
+      "reserve": 2435874.0355,
+      "reserve_usd": 252902896133.25,
+      "timestamp": 1782453600
+    },
+    {
+      "datetime": "2026-06-26T07:00:00Z",
+      "blockheight": 856079,
+      "reserve": 2491727.0216,
+      "reserve_usd": 258146561177.18,
+      "timestamp": 1782457200
+    },
+    {
+      "datetime": "2026-06-26T08:00:00Z",
+      "blockheight": 856080,
+      "reserve": 2409421.4958,
+      "reserve_usd": 249978753301.24,
+      "timestamp": 1782460800
+    },
+    {
+      "datetime": "2026-06-26T09:00:00Z",
+      "blockheight": 856081,
+      "reserve": 2431537.8821,
+      "reserve_usd": 252354212008.73,
+      "timestamp": 1782464400
+    },
+    {
+      "datetime": "2026-06-26T10:00:00Z",
+      "blockheight": 856082,
+      "reserve": 2427412.3873,
+      "reserve_usd": 251575807823.9,
+      "timestamp": 1782468000
+    },
+    {
+      "datetime": "2026-06-26T11:00:00Z",
+      "blockheight": 856083,
+      "reserve": 2400326.2195,
+      "reserve_usd": 249050645246.46,
+      "timestamp": 1782471600
+    },
+    {
+      "datetime": "2026-06-26T12:00:00Z",
+      "blockheight": 856084,
+      "reserve": 2440839.9556,
+      "reserve_usd": 253089648605.79,
+      "timestamp": 1782475200
+    },
+    {
+      "datetime": "2026-06-26T13:00:00Z",
+      "blockheight": 856085,
+      "reserve": 2521058.8376,
+      "reserve_usd": 260975173781.06,
+      "timestamp": 1782478800
+    },
+    {
+      "datetime": "2026-06-26T14:00:00Z",
+      "blockheight": 856086,
+      "reserve": 2388198.3437,
+      "reserve_usd": 247214409873.31,
+      "timestamp": 1782482400
+    },
+    {
+      "datetime": "2026-06-26T15:00:00Z",
+      "blockheight": 856087,
+      "reserve": 2399856.5454,
+      "reserve_usd": 248833731348.88,
+      "timestamp": 1782486000
+    },
+    {
+      "datetime": "2026-06-26T16:00:00Z",
+      "blockheight": 856088,
+      "reserve": 2475291.8821,
+      "reserve_usd": 256596261040.5,
+      "timestamp": 1782489600
+    },
+    {
+      "datetime": "2026-06-26T17:00:00Z",
+      "blockheight": 856089,
+      "reserve": 2416624.2452,
+      "reserve_usd": 250506166298.19,
+      "timestamp": 1782493200
+    },
+    {
+      "datetime": "2026-06-26T18:00:00Z",
+      "blockheight": 856090,
+      "reserve": 2360512.6047,
+      "reserve_usd": 244531812709.36,
+      "timestamp": 1782496800
+    },
+    {
+      "datetime": "2026-06-26T19:00:00Z",
+      "blockheight": 856091,
+      "reserve": 2392980.0841,
+      "reserve_usd": 247883582466.13,
+      "timestamp": 1782500400
+    },
+    {
+      "datetime": "2026-06-26T20:00:00Z",
+      "blockheight": 856092,
+      "reserve": 2342146.0738,
+      "reserve_usd": 242536917486.68,
+      "timestamp": 1782504000
+    },
+    {
+      "datetime": "2026-06-26T21:00:00Z",
+      "blockheight": 856093,
+      "reserve": 2328094.7831,
+      "reserve_usd": 241068790119.28,
+      "timestamp": 1782507600
+    },
+    {
+      "datetime": "2026-06-26T22:00:00Z",
+      "blockheight": 856094,
+      "reserve": 2362584.9114,
+      "reserve_usd": 244989305292.54,
+      "timestamp": 1782511200
+    },
+    {
+      "datetime": "2026-06-26T23:00:00Z",
+      "blockheight": 856095,
+      "reserve": 2327251.9886,
+      "reserve_usd": 241528996113.29,
+      "timestamp": 1782514800
+    },
+    {
+      "datetime": "2026-06-27T00:00:00Z",
+      "blockheight": 856096,
+      "reserve": 2368605.8354,
+      "reserve_usd": 245659823204.35,
+      "timestamp": 1782518400
+    },
+    {
+      "datetime": "2026-06-27T01:00:00Z",
+      "blockheight": 856097,
+      "reserve": 2408153.0485,
+      "reserve_usd": 249665109438.66,
+      "timestamp": 1782522000
+    },
+    {
+      "datetime": "2026-06-27T02:00:00Z",
+      "blockheight": 856098,
+      "reserve": 2341895.013,
+      "reserve_usd": 242912633186.63,
+      "timestamp": 1782525600
+    },
+    {
+      "datetime": "2026-06-27T03:00:00Z",
+      "blockheight": 856099,
+      "reserve": 2409460.1021,
+      "reserve_usd": 250054302565.32,
+      "timestamp": 1782529200
+    },
+    {
+      "datetime": "2026-06-27T04:00:00Z",
+      "blockheight": 856100,
+      "reserve": 2358037.3247,
+      "reserve_usd": 244810994964.71,
+      "timestamp": 1782532800
+    },
+    {
+      "datetime": "2026-06-27T05:00:00Z",
+      "blockheight": 856101,
+      "reserve": 2369380.6352,
+      "reserve_usd": 246089647542.04,
+      "timestamp": 1782536400
+    },
+    {
+      "datetime": "2026-06-27T06:00:00Z",
+      "blockheight": 856102,
+      "reserve": 2431657.7405,
+      "reserve_usd": 252496173534.11,
+      "timestamp": 1782540000
+    },
+    {
+      "datetime": "2026-06-27T07:00:00Z",
+      "blockheight": 856103,
+      "reserve": 2393990.9151,
+      "reserve_usd": 248741042557.58,
+      "timestamp": 1782543600
+    },
+    {
+      "datetime": "2026-06-27T08:00:00Z",
+      "blockheight": 856104,
+      "reserve": 2341038.5598,
+      "reserve_usd": 243346063391.83,
+      "timestamp": 1782547200
+    },
+    {
+      "datetime": "2026-06-27T09:00:00Z",
+      "blockheight": 856105,
+      "reserve": 2407165.6748,
+      "reserve_usd": 250733393075.44,
+      "timestamp": 1782550800
+    },
+    {
+      "datetime": "2026-06-27T10:00:00Z",
+      "blockheight": 856106,
+      "reserve": 2487784.3535,
+      "reserve_usd": 258799617521.97,
+      "timestamp": 1782554400
+    },
+    {
+      "datetime": "2026-06-27T11:00:00Z",
+      "blockheight": 856107,
+      "reserve": 2385913.2187,
+      "reserve_usd": 248749662659.86,
+      "timestamp": 1782558000
+    },
+    {
+      "datetime": "2026-06-27T12:00:00Z",
+      "blockheight": 856108,
+      "reserve": 2456403.9437,
+      "reserve_usd": 255961219529.29,
+      "timestamp": 1782561600
+    },
+    {
+      "datetime": "2026-06-27T13:00:00Z",
+      "blockheight": 856109,
+      "reserve": 2357434.1117,
+      "reserve_usd": 245570085150.7,
+      "timestamp": 1782565200
+    },
+    {
+      "datetime": "2026-06-27T14:00:00Z",
+      "blockheight": 856110,
+      "reserve": 2417772.8244,
+      "reserve_usd": 251984292677.28,
+      "timestamp": 1782568800
+    },
+    {
+      "datetime": "2026-06-27T15:00:00Z",
+      "blockheight": 856111,
+      "reserve": 2476024.2136,
+      "reserve_usd": 258583381025.24,
+      "timestamp": 1782572400
+    },
+    {
+      "datetime": "2026-06-27T16:00:00Z",
+      "blockheight": 856112,
+      "reserve": 2365321.8626,
+      "reserve_usd": 247058350222.49,
+      "timestamp": 1782576000
+    },
+    {
+      "datetime": "2026-06-27T17:00:00Z",
+      "blockheight": 856113,
+      "reserve": 2421792.4995,
+      "reserve_usd": 252836173466.21,
+      "timestamp": 1782579600
+    },
+    {
+      "datetime": "2026-06-27T18:00:00Z",
+      "blockheight": 856114,
+      "reserve": 2417613.7106,
+      "reserve_usd": 252948714606.44,
+      "timestamp": 1782583200
+    },
+    {
+      "datetime": "2026-06-27T19:00:00Z",
+      "blockheight": 856115,
+      "reserve": 2418999.4816,
+      "reserve_usd": 253096647173.35,
+      "timestamp": 1782586800
+    },
+    {
+      "datetime": "2026-06-27T20:00:00Z",
+      "blockheight": 856116,
+      "reserve": 2446861.6314,
+      "reserve_usd": 256230359985.61,
+      "timestamp": 1782590400
+    },
+    {
+      "datetime": "2026-06-27T21:00:00Z",
+      "blockheight": 856117,
+      "reserve": 2480022.4156,
+      "reserve_usd": 259551988616.34,
+      "timestamp": 1782594000
+    },
+    {
+      "datetime": "2026-06-27T22:00:00Z",
+      "blockheight": 856118,
+      "reserve": 2374696.467,
+      "reserve_usd": 248895195834.98,
+      "timestamp": 1782597600
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856119,
+      "reserve": 2445501.5464,
+      "reserve_usd": 256537625666.26,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856120,
+      "reserve": 2390515.3187,
+      "reserve_usd": 250481183483.0,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856121,
+      "reserve": 2406499.0376,
+      "reserve_usd": 252772042798.21,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856122,
+      "reserve": 2418650.7657,
+      "reserve_usd": 253787114481.62,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856123,
+      "reserve": 2362726.8429,
+      "reserve_usd": 248183196732.76,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856124,
+      "reserve": 2438196.3984,
+      "reserve_usd": 256344562591.53,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856125,
+      "reserve": 2373171.1806,
+      "reserve_usd": 249562212293.59,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856126,
+      "reserve": 2412378.6614,
+      "reserve_usd": 253756442244.67,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856127,
+      "reserve": 2469602.3898,
+      "reserve_usd": 260113782499.99,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856128,
+      "reserve": 2418204.8991,
+      "reserve_usd": 254971715515.76,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856129,
+      "reserve": 2364315.1512,
+      "reserve_usd": 249300448692.26,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856130,
+      "reserve": 2303503.973,
+      "reserve_usd": 242713469174.71,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856131,
+      "reserve": 2372963.606,
+      "reserve_usd": 250304940089.56,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856132,
+      "reserve": 2385503.8725,
+      "reserve_usd": 251795801655.59,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856133,
+      "reserve": 2376962.706,
+      "reserve_usd": 250987923932.29,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856134,
+      "reserve": 2435960.1056,
+      "reserve_usd": 257121050840.88,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856135,
+      "reserve": 2401457.3057,
+      "reserve_usd": 253879150730.59,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856136,
+      "reserve": 2395980.8385,
+      "reserve_usd": 253478261116.59,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856137,
+      "reserve": 2373504.6251,
+      "reserve_usd": 250745846937.42,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856138,
+      "reserve": 2332578.9944,
+      "reserve_usd": 246792942833.29,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856139,
+      "reserve": 2349038.2406,
+      "reserve_usd": 248475517828.8,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856140,
+      "reserve": 2391516.5127,
+      "reserve_usd": 253426142483.84,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856141,
+      "reserve": 2419413.4907,
+      "reserve_usd": 256106058400.32,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856142,
+      "reserve": 2463346.7756,
+      "reserve_usd": 260705906810.59,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856143,
+      "reserve": 2339092.1188,
+      "reserve_usd": 247797198524.48,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856144,
+      "reserve": 2347530.2596,
+      "reserve_usd": 248791025874.48,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856145,
+      "reserve": 2372073.7907,
+      "reserve_usd": 251141873965.78,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856146,
+      "reserve": 2444223.2156,
+      "reserve_usd": 259162313466.94,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856147,
+      "reserve": 2386591.7043,
+      "reserve_usd": 253076664466.83,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856148,
+      "reserve": 2436223.4095,
+      "reserve_usd": 258549625530.36,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856149,
+      "reserve": 2399752.0969,
+      "reserve_usd": 254264874242.03,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856150,
+      "reserve": 2327423.5508,
+      "reserve_usd": 246575741937.99,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856151,
+      "reserve": 2396555.4218,
+      "reserve_usd": 254270539743.95,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856152,
+      "reserve": 2404759.9035,
+      "reserve_usd": 255256127779.74,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856153,
+      "reserve": 2355905.5625,
+      "reserve_usd": 249703090355.0,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856154,
+      "reserve": 2415936.2863,
+      "reserve_usd": 256070191100.12,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856155,
+      "reserve": 2410861.773,
+      "reserve_usd": 255630190604.43,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856156,
+      "reserve": 2408599.5566,
+      "reserve_usd": 255104887449.88,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856157,
+      "reserve": 2351357.3215,
+      "reserve_usd": 249004667071.02,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856158,
+      "reserve": 2467221.2092,
+      "reserve_usd": 261324527965.46,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856159,
+      "reserve": 2455246.2509,
+      "reserve_usd": 260376474213.67,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856160,
+      "reserve": 2312856.7038,
+      "reserve_usd": 245294486954.91,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856161,
+      "reserve": 2444886.1676,
+      "reserve_usd": 258962048762.97,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856162,
+      "reserve": 2389397.3573,
+      "reserve_usd": 253097943683.15,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856163,
+      "reserve": 2299502.6873,
+      "reserve_usd": 243358084245.71,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856164,
+      "reserve": 2397244.1288,
+      "reserve_usd": 253561622916.98,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856165,
+      "reserve": 2349144.3526,
+      "reserve_usd": 248465087796.22,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856166,
+      "reserve": 2344087.79,
+      "reserve_usd": 247981019098.3,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856167,
+      "reserve": 2385707.4647,
+      "reserve_usd": 252553220394.94,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856168,
+      "reserve": 2421792.1124,
+      "reserve_usd": 255861730022.57,
+      "timestamp": 1782777600
+    },
+    {
+      "datetime": "2026-06-30T01:00:00Z",
+      "blockheight": 856169,
+      "reserve": 2337672.6027,
+      "reserve_usd": 247002418547.01,
+      "timestamp": 1782781200
+    },
+    {
+      "datetime": "2026-06-30T02:00:00Z",
+      "blockheight": 856170,
+      "reserve": 2428038.4238,
+      "reserve_usd": 256731014113.54,
+      "timestamp": 1782784800
+    },
+    {
+      "datetime": "2026-06-30T03:00:00Z",
+      "blockheight": 856171,
+      "reserve": 2419746.9293,
+      "reserve_usd": 255536292741.39,
+      "timestamp": 1782788400
+    },
+    {
+      "datetime": "2026-06-30T04:00:00Z",
+      "blockheight": 856172,
+      "reserve": 2355259.6128,
+      "reserve_usd": 248567304370.17,
+      "timestamp": 1782792000
+    },
+    {
+      "datetime": "2026-06-30T05:00:00Z",
+      "blockheight": 856173,
+      "reserve": 2286784.0712,
+      "reserve_usd": 241363083879.05,
+      "timestamp": 1782795600
+    },
+    {
+      "datetime": "2026-06-30T06:00:00Z",
+      "blockheight": 856174,
+      "reserve": 2392291.1146,
+      "reserve_usd": 252113051072.08,
+      "timestamp": 1782799200
+    },
+    {
+      "datetime": "2026-06-30T07:00:00Z",
+      "blockheight": 856175,
+      "reserve": 2291240.4802,
+      "reserve_usd": 241441864043.88,
+      "timestamp": 1782802800
+    },
+    {
+      "datetime": "2026-06-30T08:00:00Z",
+      "blockheight": 856176,
+      "reserve": 2375270.59,
+      "reserve_usd": 250466925901.84,
+      "timestamp": 1782806400
+    },
+    {
+      "datetime": "2026-06-30T09:00:00Z",
+      "blockheight": 856177,
+      "reserve": 2381134.6692,
+      "reserve_usd": 250864312534.13,
+      "timestamp": 1782810000
+    },
+    {
+      "datetime": "2026-06-30T10:00:00Z",
+      "blockheight": 856178,
+      "reserve": 2360070.9683,
+      "reserve_usd": 248530290988.09,
+      "timestamp": 1782813600
+    },
+    {
+      "datetime": "2026-06-30T11:00:00Z",
+      "blockheight": 856179,
+      "reserve": 2369001.7565,
+      "reserve_usd": 249483798834.11,
+      "timestamp": 1782817200
+    },
+    {
+      "datetime": "2026-06-30T12:00:00Z",
+      "blockheight": 856180,
+      "reserve": 2422084.032,
+      "reserve_usd": 254964639713.39,
+      "timestamp": 1782820800
+    },
+    {
+      "datetime": "2026-06-30T13:00:00Z",
+      "blockheight": 856181,
+      "reserve": 2366932.1381,
+      "reserve_usd": 248944303335.09,
+      "timestamp": 1782824400
+    },
+    {
+      "datetime": "2026-06-30T14:00:00Z",
+      "blockheight": 856182,
+      "reserve": 2344863.4877,
+      "reserve_usd": 246414428486.68,
+      "timestamp": 1782828000
+    },
+    {
+      "datetime": "2026-06-30T15:00:00Z",
+      "blockheight": 856183,
+      "reserve": 2358759.2821,
+      "reserve_usd": 247691520708.83,
+      "timestamp": 1782831600
+    },
+    {
+      "datetime": "2026-06-30T16:00:00Z",
+      "blockheight": 856184,
+      "reserve": 2509274.6773,
+      "reserve_usd": 263583717803.22,
+      "timestamp": 1782835200
+    },
+    {
+      "datetime": "2026-06-30T17:00:00Z",
+      "blockheight": 856185,
+      "reserve": 2456803.093,
+      "reserve_usd": 258224272211.94,
+      "timestamp": 1782838800
+    },
+    {
+      "datetime": "2026-06-30T18:00:00Z",
+      "blockheight": 856186,
+      "reserve": 2458369.6607,
+      "reserve_usd": 258006660748.5,
+      "timestamp": 1782842400
+    },
+    {
+      "datetime": "2026-06-30T19:00:00Z",
+      "blockheight": 856187,
+      "reserve": 2405942.6903,
+      "reserve_usd": 252542898800.16,
+      "timestamp": 1782846000
+    },
+    {
+      "datetime": "2026-06-30T20:00:00Z",
+      "blockheight": 856188,
+      "reserve": 2382355.1251,
+      "reserve_usd": 249538519061.48,
+      "timestamp": 1782849600
+    },
+    {
+      "datetime": "2026-06-30T21:00:00Z",
+      "blockheight": 856189,
+      "reserve": 2438731.945,
+      "reserve_usd": 255886719694.12,
+      "timestamp": 1782853200
+    },
+    {
+      "datetime": "2026-06-30T22:00:00Z",
+      "blockheight": 856190,
+      "reserve": 2382991.251,
+      "reserve_usd": 249857994510.29,
+      "timestamp": 1782856800
+    },
+    {
+      "datetime": "2026-06-30T23:00:00Z",
+      "blockheight": 856191,
+      "reserve": 2493007.9694,
+      "reserve_usd": 261278106596.43,
+      "timestamp": 1782860400
+    },
+    {
+      "datetime": "2026-07-01T00:00:00Z",
+      "blockheight": 856192,
+      "reserve": 2358666.6902,
+      "reserve_usd": 246736705404.06,
+      "timestamp": 1782864000
+    },
+    {
+      "datetime": "2026-07-01T01:00:00Z",
+      "blockheight": 856193,
+      "reserve": 2333068.9144,
+      "reserve_usd": 244072500398.87,
+      "timestamp": 1782867600
+    },
+    {
+      "datetime": "2026-07-01T02:00:00Z",
+      "blockheight": 856194,
+      "reserve": 2428884.9876,
+      "reserve_usd": 253988579379.85,
+      "timestamp": 1782871200
+    },
+    {
+      "datetime": "2026-07-01T03:00:00Z",
+      "blockheight": 856195,
+      "reserve": 2347845.8265,
+      "reserve_usd": 245664302109.43,
+      "timestamp": 1782874800
+    },
+    {
+      "datetime": "2026-07-01T04:00:00Z",
+      "blockheight": 856196,
+      "reserve": 2425980.5353,
+      "reserve_usd": 253462573927.49,
+      "timestamp": 1782878400
+    },
+    {
+      "datetime": "2026-07-01T05:00:00Z",
+      "blockheight": 856197,
+      "reserve": 2429961.9068,
+      "reserve_usd": 254086242337.15,
+      "timestamp": 1782882000
+    },
+    {
+      "datetime": "2026-07-01T06:00:00Z",
+      "blockheight": 856198,
+      "reserve": 2436317.2706,
+      "reserve_usd": 254999869976.97,
+      "timestamp": 1782885600
+    },
+    {
+      "datetime": "2026-07-01T07:00:00Z",
+      "blockheight": 856199,
+      "reserve": 2379056.6352,
+      "reserve_usd": 248835054500.3,
+      "timestamp": 1782889200
+    },
+    {
+      "datetime": "2026-07-01T08:00:00Z",
+      "blockheight": 856200,
+      "reserve": 2339704.0461,
+      "reserve_usd": 244253679332.8,
+      "timestamp": 1782892800
+    },
+    {
+      "datetime": "2026-07-01T09:00:00Z",
+      "blockheight": 856201,
+      "reserve": 2389419.618,
+      "reserve_usd": 249683755232.58,
+      "timestamp": 1782896400
+    },
+    {
+      "datetime": "2026-07-01T10:00:00Z",
+      "blockheight": 856202,
+      "reserve": 2415892.3877,
+      "reserve_usd": 252566754029.27,
+      "timestamp": 1782900000
+    },
+    {
+      "datetime": "2026-07-01T11:00:00Z",
+      "blockheight": 856203,
+      "reserve": 2433970.9791,
+      "reserve_usd": 254172624159.1,
+      "timestamp": 1782903600
+    },
+    {
+      "datetime": "2026-07-01T12:00:00Z",
+      "blockheight": 856204,
+      "reserve": 2369569.7863,
+      "reserve_usd": 247578673097.12,
+      "timestamp": 1782907200
+    },
+    {
+      "datetime": "2026-07-01T13:00:00Z",
+      "blockheight": 856205,
+      "reserve": 2402115.7597,
+      "reserve_usd": 250713909826.28,
+      "timestamp": 1782910800
+    },
+    {
+      "datetime": "2026-07-01T14:00:00Z",
+      "blockheight": 856206,
+      "reserve": 2404816.9519,
+      "reserve_usd": 250904955786.86,
+      "timestamp": 1782914400
+    },
+    {
+      "datetime": "2026-07-01T15:00:00Z",
+      "blockheight": 856207,
+      "reserve": 2338449.4346,
+      "reserve_usd": 244341978026.68,
+      "timestamp": 1782918000
+    },
+    {
+      "datetime": "2026-07-01T16:00:00Z",
+      "blockheight": 856208,
+      "reserve": 2397903.0371,
+      "reserve_usd": 250205589918.46,
+      "timestamp": 1782921600
+    },
+    {
+      "datetime": "2026-07-01T17:00:00Z",
+      "blockheight": 856209,
+      "reserve": 2458845.7743,
+      "reserve_usd": 256709118202.75,
+      "timestamp": 1782925200
+    },
+    {
+      "datetime": "2026-07-01T18:00:00Z",
+      "blockheight": 856210,
+      "reserve": 2372766.5634,
+      "reserve_usd": 248149671387.38,
+      "timestamp": 1782928800
+    },
+    {
+      "datetime": "2026-07-01T19:00:00Z",
+      "blockheight": 856211,
+      "reserve": 2433649.7359,
+      "reserve_usd": 254555541513.84,
+      "timestamp": 1782932400
+    },
+    {
+      "datetime": "2026-07-01T20:00:00Z",
+      "blockheight": 856212,
+      "reserve": 2329350.0124,
+      "reserve_usd": 243576172788.61,
+      "timestamp": 1782936000
+    },
+    {
+      "datetime": "2026-07-01T21:00:00Z",
+      "blockheight": 856213,
+      "reserve": 2396378.4752,
+      "reserve_usd": 250193804436.18,
+      "timestamp": 1782939600
+    },
+    {
+      "datetime": "2026-07-01T22:00:00Z",
+      "blockheight": 856214,
+      "reserve": 2454425.0368,
+      "reserve_usd": 256496960593.15,
+      "timestamp": 1782943200
+    },
+    {
+      "datetime": "2026-07-01T23:00:00Z",
+      "blockheight": 856215,
+      "reserve": 2471932.6811,
+      "reserve_usd": 258163332590.31,
+      "timestamp": 1782946800
+    },
+    {
+      "datetime": "2026-07-02T00:00:00Z",
+      "blockheight": 856216,
+      "reserve": 2379368.8599,
+      "reserve_usd": 248729004343.66,
+      "timestamp": 1782950400
+    },
+    {
+      "datetime": "2026-07-02T01:00:00Z",
+      "blockheight": 856217,
+      "reserve": 2423133.0505,
+      "reserve_usd": 253451074818.09,
+      "timestamp": 1782954000
+    },
+    {
+      "datetime": "2026-07-02T02:00:00Z",
+      "blockheight": 856218,
+      "reserve": 2351442.1234,
+      "reserve_usd": 245995151853.38,
+      "timestamp": 1782957600
+    },
+    {
+      "datetime": "2026-07-02T03:00:00Z",
+      "blockheight": 856219,
+      "reserve": 2397157.7029,
+      "reserve_usd": 250729010857.1,
+      "timestamp": 1782961200
+    },
+    {
+      "datetime": "2026-07-02T04:00:00Z",
+      "blockheight": 856220,
+      "reserve": 2292570.3211,
+      "reserve_usd": 239899015891.57,
+      "timestamp": 1782964800
+    },
+    {
+      "datetime": "2026-07-02T05:00:00Z",
+      "blockheight": 856221,
+      "reserve": 2423952.1738,
+      "reserve_usd": 253931330952.06,
+      "timestamp": 1782968400
+    },
+    {
+      "datetime": "2026-07-02T06:00:00Z",
+      "blockheight": 856222,
+      "reserve": 2470029.2336,
+      "reserve_usd": 258916692650.33,
+      "timestamp": 1782972000
+    },
+    {
+      "datetime": "2026-07-02T07:00:00Z",
+      "blockheight": 856223,
+      "reserve": 2457700.4069,
+      "reserve_usd": 257510361448.92,
+      "timestamp": 1782975600
+    },
+    {
+      "datetime": "2026-07-02T08:00:00Z",
+      "blockheight": 856224,
+      "reserve": 2358701.4378,
+      "reserve_usd": 247456740460.71,
+      "timestamp": 1782979200
+    },
+    {
+      "datetime": "2026-07-02T09:00:00Z",
+      "blockheight": 856225,
+      "reserve": 2404482.3191,
+      "reserve_usd": 252124934354.12,
+      "timestamp": 1782982800
+    },
+    {
+      "datetime": "2026-07-02T10:00:00Z",
+      "blockheight": 856226,
+      "reserve": 2412727.1317,
+      "reserve_usd": 253499841771.67,
+      "timestamp": 1782986400
+    },
+    {
+      "datetime": "2026-07-02T11:00:00Z",
+      "blockheight": 856227,
+      "reserve": 2429982.5587,
+      "reserve_usd": 254889635505.32,
+      "timestamp": 1782990000
+    },
+    {
+      "datetime": "2026-07-02T12:00:00Z",
+      "blockheight": 856228,
+      "reserve": 2457759.4824,
+      "reserve_usd": 258033058132.2,
+      "timestamp": 1782993600
+    },
+    {
+      "datetime": "2026-07-02T13:00:00Z",
+      "blockheight": 856229,
+      "reserve": 2489395.0438,
+      "reserve_usd": 261437073304.14,
+      "timestamp": 1782997200
+    },
+    {
+      "datetime": "2026-07-02T14:00:00Z",
+      "blockheight": 856230,
+      "reserve": 2392015.0042,
+      "reserve_usd": 251393672799.79,
+      "timestamp": 1783000800
+    },
+    {
+      "datetime": "2026-07-02T15:00:00Z",
+      "blockheight": 856231,
+      "reserve": 2506493.8899,
+      "reserve_usd": 263439387129.39,
+      "timestamp": 1783004400
+    },
+    {
+      "datetime": "2026-07-02T16:00:00Z",
+      "blockheight": 856232,
+      "reserve": 2379826.1533,
+      "reserve_usd": 250258522982.49,
+      "timestamp": 1783008000
+    },
+    {
+      "datetime": "2026-07-02T17:00:00Z",
+      "blockheight": 856233,
+      "reserve": 2478905.4291,
+      "reserve_usd": 261262796511.23,
+      "timestamp": 1783011600
+    },
+    {
+      "datetime": "2026-07-02T18:00:00Z",
+      "blockheight": 856234,
+      "reserve": 2434344.1259,
+      "reserve_usd": 256666566967.67,
+      "timestamp": 1783015200
+    },
+    {
+      "datetime": "2026-07-02T19:00:00Z",
+      "blockheight": 856235,
+      "reserve": 2393063.1625,
+      "reserve_usd": 252157821556.17,
+      "timestamp": 1783018800
+    },
+    {
+      "datetime": "2026-07-02T20:00:00Z",
+      "blockheight": 856236,
+      "reserve": 2386868.6115,
+      "reserve_usd": 251561812645.01,
+      "timestamp": 1783022400
+    },
+    {
+      "datetime": "2026-07-02T21:00:00Z",
+      "blockheight": 856237,
+      "reserve": 2536569.96,
+      "reserve_usd": 267858470252.94,
+      "timestamp": 1783026000
+    },
+    {
+      "datetime": "2026-07-02T22:00:00Z",
+      "blockheight": 856238,
+      "reserve": 2392499.1096,
+      "reserve_usd": 252649602309.45,
+      "timestamp": 1783029600
+    },
+    {
+      "datetime": "2026-07-02T23:00:00Z",
+      "blockheight": 856239,
+      "reserve": 2357589.9483,
+      "reserve_usd": 249335816235.98,
+      "timestamp": 1783033200
+    },
+    {
+      "datetime": "2026-07-03T00:00:00Z",
+      "blockheight": 856240,
+      "reserve": 2407171.995,
+      "reserve_usd": 254666056347.26,
+      "timestamp": 1783036800
+    },
+    {
+      "datetime": "2026-07-03T01:00:00Z",
+      "blockheight": 856241,
+      "reserve": 2380843.6623,
+      "reserve_usd": 251943507856.8,
+      "timestamp": 1783040400
+    },
+    {
+      "datetime": "2026-07-03T02:00:00Z",
+      "blockheight": 856242,
+      "reserve": 2462817.0635,
+      "reserve_usd": 260467104123.56,
+      "timestamp": 1783044000
+    },
+    {
+      "datetime": "2026-07-03T03:00:00Z",
+      "blockheight": 856243,
+      "reserve": 2446814.7954,
+      "reserve_usd": 258965546697.07,
+      "timestamp": 1783047600
+    },
+    {
+      "datetime": "2026-07-03T04:00:00Z",
+      "blockheight": 856244,
+      "reserve": 2458695.0577,
+      "reserve_usd": 260611053188.44,
+      "timestamp": 1783051200
+    },
+    {
+      "datetime": "2026-07-03T05:00:00Z",
+      "blockheight": 856245,
+      "reserve": 2419141.9258,
+      "reserve_usd": 256526244968.98,
+      "timestamp": 1783054800
+    },
+    {
+      "datetime": "2026-07-03T06:00:00Z",
+      "blockheight": 856246,
+      "reserve": 2386956.8752,
+      "reserve_usd": 253342173807.15,
+      "timestamp": 1783058400
+    },
+    {
+      "datetime": "2026-07-03T07:00:00Z",
+      "blockheight": 856247,
+      "reserve": 2377069.3172,
+      "reserve_usd": 252547345330.77,
+      "timestamp": 1783062000
+    },
+    {
+      "datetime": "2026-07-03T08:00:00Z",
+      "blockheight": 856248,
+      "reserve": 2461147.0297,
+      "reserve_usd": 261256268965.83,
+      "timestamp": 1783065600
+    },
+    {
+      "datetime": "2026-07-03T09:00:00Z",
+      "blockheight": 856249,
+      "reserve": 2475502.3509,
+      "reserve_usd": 263301533911.23,
+      "timestamp": 1783069200
+    },
+    {
+      "datetime": "2026-07-03T10:00:00Z",
+      "blockheight": 856250,
+      "reserve": 2455949.9599,
+      "reserve_usd": 261231457990.04,
+      "timestamp": 1783072800
+    },
+    {
+      "datetime": "2026-07-03T11:00:00Z",
+      "blockheight": 856251,
+      "reserve": 2417520.0405,
+      "reserve_usd": 257263984114.69,
+      "timestamp": 1783076400
+    },
+    {
+      "datetime": "2026-07-03T12:00:00Z",
+      "blockheight": 856252,
+      "reserve": 2443434.4752,
+      "reserve_usd": 260253350119.47,
+      "timestamp": 1783080000
+    },
+    {
+      "datetime": "2026-07-03T13:00:00Z",
+      "blockheight": 856253,
+      "reserve": 2347530.3286,
+      "reserve_usd": 250099621230.79,
+      "timestamp": 1783083600
+    },
+    {
+      "datetime": "2026-07-03T14:00:00Z",
+      "blockheight": 856254,
+      "reserve": 2382961.9732,
+      "reserve_usd": 253990425557.33,
+      "timestamp": 1783087200
+    },
+    {
+      "datetime": "2026-07-03T15:00:00Z",
+      "blockheight": 856255,
+      "reserve": 2357850.1464,
+      "reserve_usd": 251044650697.35,
+      "timestamp": 1783090800
+    },
+    {
+      "datetime": "2026-07-03T16:00:00Z",
+      "blockheight": 856256,
+      "reserve": 2420671.3115,
+      "reserve_usd": 257725647293.54,
+      "timestamp": 1783094400
+    },
+    {
+      "datetime": "2026-07-03T17:00:00Z",
+      "blockheight": 856257,
+      "reserve": 2369467.265,
+      "reserve_usd": 252461327543.98,
+      "timestamp": 1783098000
+    },
+    {
+      "datetime": "2026-07-03T18:00:00Z",
+      "blockheight": 856258,
+      "reserve": 2345210.3246,
+      "reserve_usd": 250000793839.4,
+      "timestamp": 1783101600
+    },
+    {
+      "datetime": "2026-07-03T19:00:00Z",
+      "blockheight": 856259,
+      "reserve": 2408594.7219,
+      "reserve_usd": 257002827896.65,
+      "timestamp": 1783105200
+    },
+    {
+      "datetime": "2026-07-03T20:00:00Z",
+      "blockheight": 856260,
+      "reserve": 2385758.6932,
+      "reserve_usd": 254632837643.89,
+      "timestamp": 1783108800
+    },
+    {
+      "datetime": "2026-07-03T21:00:00Z",
+      "blockheight": 856261,
+      "reserve": 2367757.5316,
+      "reserve_usd": 252876259237.62,
+      "timestamp": 1783112400
+    },
+    {
+      "datetime": "2026-07-03T22:00:00Z",
+      "blockheight": 856262,
+      "reserve": 2350054.9768,
+      "reserve_usd": 250776838237.0,
+      "timestamp": 1783116000
+    },
+    {
+      "datetime": "2026-07-03T23:00:00Z",
+      "blockheight": 856263,
+      "reserve": 2430094.8796,
+      "reserve_usd": 259656711999.75,
+      "timestamp": 1783119600
+    },
+    {
+      "datetime": "2026-07-04T00:00:00Z",
+      "blockheight": 856264,
+      "reserve": 2339079.0723,
+      "reserve_usd": 249882742622.45,
+      "timestamp": 1783123200
+    },
+    {
+      "datetime": "2026-07-04T01:00:00Z",
+      "blockheight": 856265,
+      "reserve": 2390459.0171,
+      "reserve_usd": 255594936995.07,
+      "timestamp": 1783126800
+    },
+    {
+      "datetime": "2026-07-04T02:00:00Z",
+      "blockheight": 856266,
+      "reserve": 2423204.9906,
+      "reserve_usd": 258893262449.36,
+      "timestamp": 1783130400
+    },
+    {
+      "datetime": "2026-07-04T03:00:00Z",
+      "blockheight": 856267,
+      "reserve": 2431357.641,
+      "reserve_usd": 259810256231.16,
+      "timestamp": 1783134000
+    },
+    {
+      "datetime": "2026-07-04T04:00:00Z",
+      "blockheight": 856268,
+      "reserve": 2300107.9285,
+      "reserve_usd": 245685048556.44,
+      "timestamp": 1783137600
+    },
+    {
+      "datetime": "2026-07-04T05:00:00Z",
+      "blockheight": 856269,
+      "reserve": 2446575.0919,
+      "reserve_usd": 261741193235.31,
+      "timestamp": 1783141200
+    },
+    {
+      "datetime": "2026-07-04T06:00:00Z",
+      "blockheight": 856270,
+      "reserve": 2370322.4851,
+      "reserve_usd": 253393354510.05,
+      "timestamp": 1783144800
+    },
+    {
+      "datetime": "2026-07-04T07:00:00Z",
+      "blockheight": 856271,
+      "reserve": 2396505.2182,
+      "reserve_usd": 256403749369.12,
+      "timestamp": 1783148400
+    },
+    {
+      "datetime": "2026-07-04T08:00:00Z",
+      "blockheight": 856272,
+      "reserve": 2348200.9757,
+      "reserve_usd": 250746550408.82,
+      "timestamp": 1783152000
+    },
+    {
+      "datetime": "2026-07-04T09:00:00Z",
+      "blockheight": 856273,
+      "reserve": 2370466.3683,
+      "reserve_usd": 253469558568.57,
+      "timestamp": 1783155600
+    },
+    {
+      "datetime": "2026-07-04T10:00:00Z",
+      "blockheight": 856274,
+      "reserve": 2329971.4561,
+      "reserve_usd": 248933799852.48,
+      "timestamp": 1783159200
+    },
+    {
+      "datetime": "2026-07-04T11:00:00Z",
+      "blockheight": 856275,
+      "reserve": 2408194.6411,
+      "reserve_usd": 257308433059.54,
+      "timestamp": 1783162800
+    },
+    {
+      "datetime": "2026-07-04T12:00:00Z",
+      "blockheight": 856276,
+      "reserve": 2308037.4904,
+      "reserve_usd": 246370250465.4,
+      "timestamp": 1783166400
+    },
+    {
+      "datetime": "2026-07-04T13:00:00Z",
+      "blockheight": 856277,
+      "reserve": 2397981.9761,
+      "reserve_usd": 256144054891.63,
+      "timestamp": 1783170000
+    },
+    {
+      "datetime": "2026-07-04T14:00:00Z",
+      "blockheight": 856278,
+      "reserve": 2389259.8436,
+      "reserve_usd": 255278722198.51,
+      "timestamp": 1783173600
+    },
+    {
+      "datetime": "2026-07-04T15:00:00Z",
+      "blockheight": 856279,
+      "reserve": 2400693.5679,
+      "reserve_usd": 256124087898.18,
+      "timestamp": 1783177200
+    },
+    {
+      "datetime": "2026-07-04T16:00:00Z",
+      "blockheight": 856280,
+      "reserve": 2390958.3917,
+      "reserve_usd": 255138430217.54,
+      "timestamp": 1783180800
+    },
+    {
+      "datetime": "2026-07-04T17:00:00Z",
+      "blockheight": 856281,
+      "reserve": 2395181.1353,
+      "reserve_usd": 255447102924.08,
+      "timestamp": 1783184400
+    },
+    {
+      "datetime": "2026-07-04T18:00:00Z",
+      "blockheight": 856282,
+      "reserve": 2322156.4704,
+      "reserve_usd": 247762345460.86,
+      "timestamp": 1783188000
+    },
+    {
+      "datetime": "2026-07-04T19:00:00Z",
+      "blockheight": 856283,
+      "reserve": 2381933.5532,
+      "reserve_usd": 254333865634.51,
+      "timestamp": 1783191600
+    },
+    {
+      "datetime": "2026-07-04T20:00:00Z",
+      "blockheight": 856284,
+      "reserve": 2448996.9719,
+      "reserve_usd": 261104846094.89,
+      "timestamp": 1783195200
+    },
+    {
+      "datetime": "2026-07-04T21:00:00Z",
+      "blockheight": 856285,
+      "reserve": 2360379.781,
+      "reserve_usd": 251784248131.61,
+      "timestamp": 1783198800
+    },
+    {
+      "datetime": "2026-07-04T22:00:00Z",
+      "blockheight": 856286,
+      "reserve": 2415888.3557,
+      "reserve_usd": 257518366947.34,
+      "timestamp": 1783202400
+    },
+    {
+      "datetime": "2026-07-04T23:00:00Z",
+      "blockheight": 856287,
+      "reserve": 2365439.8585,
+      "reserve_usd": 252301148031.33,
+      "timestamp": 1783206000
+    },
+    {
+      "datetime": "2026-07-05T00:00:00Z",
+      "blockheight": 856288,
+      "reserve": 2415681.4112,
+      "reserve_usd": 257456208212.58,
+      "timestamp": 1783209600
+    },
+    {
+      "datetime": "2026-07-05T01:00:00Z",
+      "blockheight": 856289,
+      "reserve": 2475002.5584,
+      "reserve_usd": 263401915221.52,
+      "timestamp": 1783213200
+    },
+    {
+      "datetime": "2026-07-05T02:00:00Z",
+      "blockheight": 856290,
+      "reserve": 2384186.8327,
+      "reserve_usd": 253923275394.72,
+      "timestamp": 1783216800
+    },
+    {
+      "datetime": "2026-07-05T03:00:00Z",
+      "blockheight": 856291,
+      "reserve": 2374673.2317,
+      "reserve_usd": 252950127015.88,
+      "timestamp": 1783220400
+    },
+    {
+      "datetime": "2026-07-05T04:00:00Z",
+      "blockheight": 856292,
+      "reserve": 2484735.8043,
+      "reserve_usd": 264423298259.67,
+      "timestamp": 1783224000
+    },
+    {
+      "datetime": "2026-07-05T05:00:00Z",
+      "blockheight": 856293,
+      "reserve": 2388065.8459,
+      "reserve_usd": 253878863233.32,
+      "timestamp": 1783227600
+    },
+    {
+      "datetime": "2026-07-05T06:00:00Z",
+      "blockheight": 856294,
+      "reserve": 2446918.0676,
+      "reserve_usd": 259911089683.22,
+      "timestamp": 1783231200
+    },
+    {
+      "datetime": "2026-07-05T07:00:00Z",
+      "blockheight": 856295,
+      "reserve": 2409089.0074,
+      "reserve_usd": 255684706199.26,
+      "timestamp": 1783234800
+    },
+    {
+      "datetime": "2026-07-05T08:00:00Z",
+      "blockheight": 856296,
+      "reserve": 2415919.4714,
+      "reserve_usd": 256401362937.82,
+      "timestamp": 1783238400
+    },
+    {
+      "datetime": "2026-07-05T09:00:00Z",
+      "blockheight": 856297,
+      "reserve": 2408490.3256,
+      "reserve_usd": 255886839893.9,
+      "timestamp": 1783242000
+    },
+    {
+      "datetime": "2026-07-05T10:00:00Z",
+      "blockheight": 856298,
+      "reserve": 2362286.6055,
+      "reserve_usd": 250718071280.59,
+      "timestamp": 1783245600
+    },
+    {
+      "datetime": "2026-07-05T11:00:00Z",
+      "blockheight": 856299,
+      "reserve": 2398322.2245,
+      "reserve_usd": 254427791703.28,
+      "timestamp": 1783249200
+    },
+    {
+      "datetime": "2026-07-05T12:00:00Z",
+      "blockheight": 856300,
+      "reserve": 2402627.7656,
+      "reserve_usd": 254600757470.52,
+      "timestamp": 1783252800
+    },
+    {
+      "datetime": "2026-07-05T13:00:00Z",
+      "blockheight": 856301,
+      "reserve": 2428004.4812,
+      "reserve_usd": 257214671440.14,
+      "timestamp": 1783256400
+    },
+    {
+      "datetime": "2026-07-05T14:00:00Z",
+      "blockheight": 856302,
+      "reserve": 2452699.2077,
+      "reserve_usd": 259702023720.74,
+      "timestamp": 1783260000
+    },
+    {
+      "datetime": "2026-07-05T15:00:00Z",
+      "blockheight": 856303,
+      "reserve": 2412545.0984,
+      "reserve_usd": 255587547488.9,
+      "timestamp": 1783263600
+    },
+    {
+      "datetime": "2026-07-05T16:00:00Z",
+      "blockheight": 856304,
+      "reserve": 2380651.6744,
+      "reserve_usd": 251810310903.56,
+      "timestamp": 1783267200
+    },
+    {
+      "datetime": "2026-07-05T17:00:00Z",
+      "blockheight": 856305,
+      "reserve": 2458036.2241,
+      "reserve_usd": 260049939383.97,
+      "timestamp": 1783270800
+    },
+    {
+      "datetime": "2026-07-05T18:00:00Z",
+      "blockheight": 856306,
+      "reserve": 2413800.3926,
+      "reserve_usd": 255246105500.94,
+      "timestamp": 1783274400
+    },
+    {
+      "datetime": "2026-07-05T19:00:00Z",
+      "blockheight": 856307,
+      "reserve": 2371747.1427,
+      "reserve_usd": 250486932783.36,
+      "timestamp": 1783278000
+    },
+    {
+      "datetime": "2026-07-05T20:00:00Z",
+      "blockheight": 856308,
+      "reserve": 2437494.0055,
+      "reserve_usd": 257312572569.33,
+      "timestamp": 1783281600
+    },
+    {
+      "datetime": "2026-07-05T21:00:00Z",
+      "blockheight": 856309,
+      "reserve": 2404168.8528,
+      "reserve_usd": 254141701413.15,
+      "timestamp": 1783285200
+    },
+    {
+      "datetime": "2026-07-05T22:00:00Z",
+      "blockheight": 856310,
+      "reserve": 2423296.9439,
+      "reserve_usd": 256175640474.99,
+      "timestamp": 1783288800
+    },
+    {
+      "datetime": "2026-07-05T23:00:00Z",
+      "blockheight": 856311,
+      "reserve": 2386641.8283,
+      "reserve_usd": 251751316363.03,
+      "timestamp": 1783292400
+    },
+    {
+      "datetime": "2026-07-06T00:00:00Z",
+      "blockheight": 856312,
+      "reserve": 2376785.7646,
+      "reserve_usd": 250675955242.78,
+      "timestamp": 1783296000
+    },
+    {
+      "datetime": "2026-07-06T01:00:00Z",
+      "blockheight": 856313,
+      "reserve": 2387068.9451,
+      "reserve_usd": 252027947481.59,
+      "timestamp": 1783299600
+    },
+    {
+      "datetime": "2026-07-06T02:00:00Z",
+      "blockheight": 856314,
+      "reserve": 2510143.2907,
+      "reserve_usd": 264659624237.03,
+      "timestamp": 1783303200
+    },
+    {
+      "datetime": "2026-07-06T03:00:00Z",
+      "blockheight": 856315,
+      "reserve": 2333357.7536,
+      "reserve_usd": 246243046379.09,
+      "timestamp": 1783306800
+    },
+    {
+      "datetime": "2026-07-06T04:00:00Z",
+      "blockheight": 856316,
+      "reserve": 2287423.3426,
+      "reserve_usd": 240990123452.05,
+      "timestamp": 1783310400
+    },
+    {
+      "datetime": "2026-07-06T05:00:00Z",
+      "blockheight": 856317,
+      "reserve": 2399647.6919,
+      "reserve_usd": 252864766207.17,
+      "timestamp": 1783314000
+    },
+    {
+      "datetime": "2026-07-06T06:00:00Z",
+      "blockheight": 856318,
+      "reserve": 2387110.2195,
+      "reserve_usd": 251725971843.17,
+      "timestamp": 1783317600
+    },
+    {
+      "datetime": "2026-07-06T07:00:00Z",
+      "blockheight": 856319,
+      "reserve": 2365293.5198,
+      "reserve_usd": 248992445551.33,
+      "timestamp": 1783321200
+    },
+    {
+      "datetime": "2026-07-06T08:00:00Z",
+      "blockheight": 856320,
+      "reserve": 2466200.1794,
+      "reserve_usd": 259487355720.34,
+      "timestamp": 1783324800
+    },
+    {
+      "datetime": "2026-07-06T09:00:00Z",
+      "blockheight": 856321,
+      "reserve": 2296820.2186,
+      "reserve_usd": 241663909264.3,
+      "timestamp": 1783328400
+    },
+    {
+      "datetime": "2026-07-06T10:00:00Z",
+      "blockheight": 856322,
+      "reserve": 2413096.8373,
+      "reserve_usd": 254172707974.15,
+      "timestamp": 1783332000
+    },
+    {
+      "datetime": "2026-07-06T11:00:00Z",
+      "blockheight": 856323,
+      "reserve": 2460129.6564,
+      "reserve_usd": 259225503899.51,
+      "timestamp": 1783335600
+    },
+    {
+      "datetime": "2026-07-06T12:00:00Z",
+      "blockheight": 856324,
+      "reserve": 2396307.5948,
+      "reserve_usd": 252179735192.33,
+      "timestamp": 1783339200
+    },
+    {
+      "datetime": "2026-07-06T13:00:00Z",
+      "blockheight": 856325,
+      "reserve": 2419358.1928,
+      "reserve_usd": 254547542277.72,
+      "timestamp": 1783342800
+    },
+    {
+      "datetime": "2026-07-06T14:00:00Z",
+      "blockheight": 856326,
+      "reserve": 2294570.3848,
+      "reserve_usd": 241436215293.9,
+      "timestamp": 1783346400
+    },
+    {
+      "datetime": "2026-07-06T15:00:00Z",
+      "blockheight": 856327,
+      "reserve": 2427096.4421,
+      "reserve_usd": 255625895221.23,
+      "timestamp": 1783350000
+    },
+    {
+      "datetime": "2026-07-06T16:00:00Z",
+      "blockheight": 856328,
+      "reserve": 2337025.3507,
+      "reserve_usd": 245804626707.91,
+      "timestamp": 1783353600
+    },
+    {
+      "datetime": "2026-07-06T17:00:00Z",
+      "blockheight": 856329,
+      "reserve": 2467233.0914,
+      "reserve_usd": 259970732597.41,
+      "timestamp": 1783357200
+    },
+    {
+      "datetime": "2026-07-06T18:00:00Z",
+      "blockheight": 856330,
+      "reserve": 2416465.1766,
+      "reserve_usd": 254705151768.31,
+      "timestamp": 1783360800
+    },
+    {
+      "datetime": "2026-07-06T19:00:00Z",
+      "blockheight": 856331,
+      "reserve": 2380553.3514,
+      "reserve_usd": 250498612046.7,
+      "timestamp": 1783364400
+    },
+    {
+      "datetime": "2026-07-06T20:00:00Z",
+      "blockheight": 856332,
+      "reserve": 2436142.5907,
+      "reserve_usd": 256829532491.16,
+      "timestamp": 1783368000
+    },
+    {
+      "datetime": "2026-07-06T21:00:00Z",
+      "blockheight": 856333,
+      "reserve": 2463705.7824,
+      "reserve_usd": 259662511809.7,
+      "timestamp": 1783371600
+    },
+    {
+      "datetime": "2026-07-06T22:00:00Z",
+      "blockheight": 856334,
+      "reserve": 2348009.0498,
+      "reserve_usd": 247465444544.4,
+      "timestamp": 1783375200
+    },
+    {
+      "datetime": "2026-07-06T23:00:00Z",
+      "blockheight": 856335,
+      "reserve": 2361415.6637,
+      "reserve_usd": 249153843869.56,
+      "timestamp": 1783378800
+    },
+    {
+      "datetime": "2026-07-07T00:00:00Z",
+      "blockheight": 856336,
+      "reserve": 2375639.2511,
+      "reserve_usd": 250452905025.51,
+      "timestamp": 1783382400
+    },
+    {
+      "datetime": "2026-07-07T01:00:00Z",
+      "blockheight": 856337,
+      "reserve": 2276542.408,
+      "reserve_usd": 240086069439.43,
+      "timestamp": 1783386000
+    },
+    {
+      "datetime": "2026-07-07T02:00:00Z",
+      "blockheight": 856338,
+      "reserve": 2377368.6039,
+      "reserve_usd": 250697724128.25,
+      "timestamp": 1783389600
+    },
+    {
+      "datetime": "2026-07-07T03:00:00Z",
+      "blockheight": 856339,
+      "reserve": 2433094.2752,
+      "reserve_usd": 256914633981.43,
+      "timestamp": 1783393200
+    },
+    {
+      "datetime": "2026-07-07T04:00:00Z",
+      "blockheight": 856340,
+      "reserve": 2425029.2518,
+      "reserve_usd": 255904659401.55,
+      "timestamp": 1783396800
+    },
+    {
+      "datetime": "2026-07-07T05:00:00Z",
+      "blockheight": 856341,
+      "reserve": 2299531.4847,
+      "reserve_usd": 242637418026.61,
+      "timestamp": 1783400400
+    },
+    {
+      "datetime": "2026-07-07T06:00:00Z",
+      "blockheight": 856342,
+      "reserve": 2309551.1326,
+      "reserve_usd": 244209538277.86,
+      "timestamp": 1783404000
+    },
+    {
+      "datetime": "2026-07-07T07:00:00Z",
+      "blockheight": 856343,
+      "reserve": 2459550.9956,
+      "reserve_usd": 260178257514.01,
+      "timestamp": 1783407600
+    },
+    {
+      "datetime": "2026-07-07T08:00:00Z",
+      "blockheight": 856344,
+      "reserve": 2372742.0689,
+      "reserve_usd": 250608671863.81,
+      "timestamp": 1783411200
+    },
+    {
+      "datetime": "2026-07-07T09:00:00Z",
+      "blockheight": 856345,
+      "reserve": 2354344.9403,
+      "reserve_usd": 249132789579.64,
+      "timestamp": 1783414800
+    },
+    {
+      "datetime": "2026-07-07T10:00:00Z",
+      "blockheight": 856346,
+      "reserve": 2308421.9982,
+      "reserve_usd": 244494540192.31,
+      "timestamp": 1783418400
+    },
+    {
+      "datetime": "2026-07-07T11:00:00Z",
+      "blockheight": 856347,
+      "reserve": 2419449.0762,
+      "reserve_usd": 256002190406.46,
+      "timestamp": 1783422000
+    },
+    {
+      "datetime": "2026-07-07T12:00:00Z",
+      "blockheight": 856348,
+      "reserve": 2385229.8185,
+      "reserve_usd": 252551272298.73,
+      "timestamp": 1783425600
+    },
+    {
+      "datetime": "2026-07-07T13:00:00Z",
+      "blockheight": 856349,
+      "reserve": 2367144.575,
+      "reserve_usd": 250601773754.08,
+      "timestamp": 1783429200
+    },
+    {
+      "datetime": "2026-07-07T14:00:00Z",
+      "blockheight": 856350,
+      "reserve": 2405990.3367,
+      "reserve_usd": 255122410187.97,
+      "timestamp": 1783432800
+    },
+    {
+      "datetime": "2026-07-07T15:00:00Z",
+      "blockheight": 856351,
+      "reserve": 2401121.07,
+      "reserve_usd": 254602715531.31,
+      "timestamp": 1783436400
+    },
+    {
+      "datetime": "2026-07-07T16:00:00Z",
+      "blockheight": 856352,
+      "reserve": 2378039.2502,
+      "reserve_usd": 252696307439.19,
+      "timestamp": 1783440000
+    },
+    {
+      "datetime": "2026-07-07T17:00:00Z",
+      "blockheight": 856353,
+      "reserve": 2494452.8263,
+      "reserve_usd": 265068071053.6,
+      "timestamp": 1783443600
+    },
+    {
+      "datetime": "2026-07-07T18:00:00Z",
+      "blockheight": 856354,
+      "reserve": 2413553.0982,
+      "reserve_usd": 256565463865.35,
+      "timestamp": 1783447200
+    },
+    {
+      "datetime": "2026-07-07T19:00:00Z",
+      "blockheight": 856355,
+      "reserve": 2432459.3961,
+      "reserve_usd": 258666666842.56,
+      "timestamp": 1783450800
+    },
+    {
+      "datetime": "2026-07-07T20:00:00Z",
+      "blockheight": 856356,
+      "reserve": 2424008.8168,
+      "reserve_usd": 257945952131.86,
+      "timestamp": 1783454400
+    },
+    {
+      "datetime": "2026-07-07T21:00:00Z",
+      "blockheight": 856357,
+      "reserve": 2339691.3899,
+      "reserve_usd": 249065058799.92,
+      "timestamp": 1783458000
+    },
+    {
+      "datetime": "2026-07-07T22:00:00Z",
+      "blockheight": 856358,
+      "reserve": 2341778.1439,
+      "reserve_usd": 249619186442.13,
+      "timestamp": 1783461600
+    },
+    {
+      "datetime": "2026-07-07T23:00:00Z",
+      "blockheight": 856359,
+      "reserve": 2409084.3577,
+      "reserve_usd": 256580109257.07,
+      "timestamp": 1783465200
+    },
+    {
+      "datetime": "2026-07-08T00:00:00Z",
+      "blockheight": 856360,
+      "reserve": 2450023.6286,
+      "reserve_usd": 261057179928.93,
+      "timestamp": 1783468800
+    },
+    {
+      "datetime": "2026-07-08T01:00:00Z",
+      "blockheight": 856361,
+      "reserve": 2481211.2288,
+      "reserve_usd": 264974612226.74,
+      "timestamp": 1783472400
+    },
+    {
+      "datetime": "2026-07-08T02:00:00Z",
+      "blockheight": 856362,
+      "reserve": 2376134.083,
+      "reserve_usd": 253756266149.46,
+      "timestamp": 1783476000
+    },
+    {
+      "datetime": "2026-07-08T03:00:00Z",
+      "blockheight": 856363,
+      "reserve": 2282481.6953,
+      "reserve_usd": 243606859689.97,
+      "timestamp": 1783479600
+    },
+    {
+      "datetime": "2026-07-08T04:00:00Z",
+      "blockheight": 856364,
+      "reserve": 2386477.65,
+      "reserve_usd": 255129412415.43,
+      "timestamp": 1783483200
+    },
+    {
+      "datetime": "2026-07-08T05:00:00Z",
+      "blockheight": 856365,
+      "reserve": 2433958.7325,
+      "reserve_usd": 259977757758.11,
+      "timestamp": 1783486800
+    },
+    {
+      "datetime": "2026-07-08T06:00:00Z",
+      "blockheight": 856366,
+      "reserve": 2349610.3538,
+      "reserve_usd": 251410220147.76,
+      "timestamp": 1783490400
+    },
+    {
+      "datetime": "2026-07-08T07:00:00Z",
+      "blockheight": 856367,
+      "reserve": 2396558.9672,
+      "reserve_usd": 256254636087.29,
+      "timestamp": 1783494000
+    },
+    {
+      "datetime": "2026-07-08T08:00:00Z",
+      "blockheight": 856368,
+      "reserve": 2424252.0992,
+      "reserve_usd": 259422606639.53,
+      "timestamp": 1783497600
+    },
+    {
+      "datetime": "2026-07-08T09:00:00Z",
+      "blockheight": 856369,
+      "reserve": 2394821.5478,
+      "reserve_usd": 256707933555.44,
+      "timestamp": 1783501200
+    },
+    {
+      "datetime": "2026-07-08T10:00:00Z",
+      "blockheight": 856370,
+      "reserve": 2482895.988,
+      "reserve_usd": 265987639956.09,
+      "timestamp": 1783504800
+    },
+    {
+      "datetime": "2026-07-08T11:00:00Z",
+      "blockheight": 856371,
+      "reserve": 2458259.888,
+      "reserve_usd": 263490815051.99,
+      "timestamp": 1783508400
+    },
+    {
+      "datetime": "2026-07-08T12:00:00Z",
+      "blockheight": 856372,
+      "reserve": 2361015.9493,
+      "reserve_usd": 253341756707.75,
+      "timestamp": 1783512000
+    },
+    {
+      "datetime": "2026-07-08T13:00:00Z",
+      "blockheight": 856373,
+      "reserve": 2381816.2555,
+      "reserve_usd": 255394904193.11,
+      "timestamp": 1783515600
+    },
+    {
+      "datetime": "2026-07-08T14:00:00Z",
+      "blockheight": 856374,
+      "reserve": 2378369.4707,
+      "reserve_usd": 255456442899.47,
+      "timestamp": 1783519200
+    },
+    {
+      "datetime": "2026-07-08T15:00:00Z",
+      "blockheight": 856375,
+      "reserve": 2358697.6965,
+      "reserve_usd": 253210146944.34,
+      "timestamp": 1783522800
+    },
+    {
+      "datetime": "2026-07-08T16:00:00Z",
+      "blockheight": 856376,
+      "reserve": 2483845.5609,
+      "reserve_usd": 267051904759.27,
+      "timestamp": 1783526400
+    },
+    {
+      "datetime": "2026-07-08T17:00:00Z",
+      "blockheight": 856377,
+      "reserve": 2419810.8108,
+      "reserve_usd": 260267163046.71,
+      "timestamp": 1783530000
+    },
+    {
+      "datetime": "2026-07-08T18:00:00Z",
+      "blockheight": 856378,
+      "reserve": 2384548.8354,
+      "reserve_usd": 256290704645.12,
+      "timestamp": 1783533600
+    },
+    {
+      "datetime": "2026-07-08T19:00:00Z",
+      "blockheight": 856379,
+      "reserve": 2395274.1192,
+      "reserve_usd": 257689416304.16,
+      "timestamp": 1783537200
+    },
+    {
+      "datetime": "2026-07-08T20:00:00Z",
+      "blockheight": 856380,
+      "reserve": 2479542.5883,
+      "reserve_usd": 267010642577.51,
+      "timestamp": 1783540800
+    },
+    {
+      "datetime": "2026-07-08T21:00:00Z",
+      "blockheight": 856381,
+      "reserve": 2446776.4336,
+      "reserve_usd": 263551390732.28,
+      "timestamp": 1783544400
+    },
+    {
+      "datetime": "2026-07-08T22:00:00Z",
+      "blockheight": 856382,
+      "reserve": 2472224.4407,
+      "reserve_usd": 265872826761.68,
+      "timestamp": 1783548000
+    },
+    {
+      "datetime": "2026-07-08T23:00:00Z",
+      "blockheight": 856383,
+      "reserve": 2442698.5762,
+      "reserve_usd": 263199381503.18,
+      "timestamp": 1783551600
+    },
+    {
+      "datetime": "2026-07-09T00:00:00Z",
+      "blockheight": 856384,
+      "reserve": 2394423.7018,
+      "reserve_usd": 257892286036.72,
+      "timestamp": 1783555200
+    },
+    {
+      "datetime": "2026-07-09T01:00:00Z",
+      "blockheight": 856385,
+      "reserve": 2473336.4662,
+      "reserve_usd": 266542041504.77,
+      "timestamp": 1783558800
+    },
+    {
+      "datetime": "2026-07-09T02:00:00Z",
+      "blockheight": 856386,
+      "reserve": 2461527.1274,
+      "reserve_usd": 264932448174.16,
+      "timestamp": 1783562400
+    },
+    {
+      "datetime": "2026-07-09T03:00:00Z",
+      "blockheight": 856387,
+      "reserve": 2342031.9657,
+      "reserve_usd": 252010363953.69,
+      "timestamp": 1783566000
+    },
+    {
+      "datetime": "2026-07-09T04:00:00Z",
+      "blockheight": 856388,
+      "reserve": 2403876.4934,
+      "reserve_usd": 258818255591.09,
+      "timestamp": 1783569600
+    },
+    {
+      "datetime": "2026-07-09T05:00:00Z",
+      "blockheight": 856389,
+      "reserve": 2453534.3703,
+      "reserve_usd": 264566211588.41,
+      "timestamp": 1783573200
+    },
+    {
+      "datetime": "2026-07-09T06:00:00Z",
+      "blockheight": 856390,
+      "reserve": 2298038.0647,
+      "reserve_usd": 247325529711.45,
+      "timestamp": 1783576800
+    },
+    {
+      "datetime": "2026-07-09T07:00:00Z",
+      "blockheight": 856391,
+      "reserve": 2312478.6361,
+      "reserve_usd": 249269617425.95,
+      "timestamp": 1783580400
+    },
+    {
+      "datetime": "2026-07-09T08:00:00Z",
+      "blockheight": 856392,
+      "reserve": 2318670.5749,
+      "reserve_usd": 249581233232.08,
+      "timestamp": 1783584000
+    },
+    {
+      "datetime": "2026-07-09T09:00:00Z",
+      "blockheight": 856393,
+      "reserve": 2504371.9619,
+      "reserve_usd": 269948388575.06,
+      "timestamp": 1783587600
+    },
+    {
+      "datetime": "2026-07-09T10:00:00Z",
+      "blockheight": 856394,
+      "reserve": 2344488.0591,
+      "reserve_usd": 252648428382.53,
+      "timestamp": 1783591200
+    },
+    {
+      "datetime": "2026-07-09T11:00:00Z",
+      "blockheight": 856395,
+      "reserve": 2397566.7581,
+      "reserve_usd": 258175656138.33,
+      "timestamp": 1783594800
+    },
+    {
+      "datetime": "2026-07-09T12:00:00Z",
+      "blockheight": 856396,
+      "reserve": 2371036.6741,
+      "reserve_usd": 255247593032.78,
+      "timestamp": 1783598400
+    },
+    {
+      "datetime": "2026-07-09T13:00:00Z",
+      "blockheight": 856397,
+      "reserve": 2415464.3682,
+      "reserve_usd": 260013098462.47,
+      "timestamp": 1783602000
+    },
+    {
+      "datetime": "2026-07-09T14:00:00Z",
+      "blockheight": 856398,
+      "reserve": 2371605.4386,
+      "reserve_usd": 255347049758.48,
+      "timestamp": 1783605600
+    },
+    {
+      "datetime": "2026-07-09T15:00:00Z",
+      "blockheight": 856399,
+      "reserve": 2475352.4967,
+      "reserve_usd": 266335115034.86,
+      "timestamp": 1783609200
+    },
+    {
+      "datetime": "2026-07-09T16:00:00Z",
+      "blockheight": 856400,
+      "reserve": 2324491.7164,
+      "reserve_usd": 250036855454.26,
+      "timestamp": 1783612800
+    },
+    {
+      "datetime": "2026-07-09T17:00:00Z",
+      "blockheight": 856401,
+      "reserve": 2423043.658,
+      "reserve_usd": 260435229750.53,
+      "timestamp": 1783616400
+    },
+    {
+      "datetime": "2026-07-09T18:00:00Z",
+      "blockheight": 856402,
+      "reserve": 2475058.0128,
+      "reserve_usd": 266023537241.49,
+      "timestamp": 1783620000
+    },
+    {
+      "datetime": "2026-07-09T19:00:00Z",
+      "blockheight": 856403,
+      "reserve": 2445937.3659,
+      "reserve_usd": 263276956890.7,
+      "timestamp": 1783623600
+    },
+    {
+      "datetime": "2026-07-09T20:00:00Z",
+      "blockheight": 856404,
+      "reserve": 2409302.7056,
+      "reserve_usd": 259192658344.57,
+      "timestamp": 1783627200
+    },
+    {
+      "datetime": "2026-07-09T21:00:00Z",
+      "blockheight": 856405,
+      "reserve": 2400999.2025,
+      "reserve_usd": 258044719623.74,
+      "timestamp": 1783630800
+    },
+    {
+      "datetime": "2026-07-09T22:00:00Z",
+      "blockheight": 856406,
+      "reserve": 2450512.1179,
+      "reserve_usd": 263137393168.85,
+      "timestamp": 1783634400
+    },
+    {
+      "datetime": "2026-07-09T23:00:00Z",
+      "blockheight": 856407,
+      "reserve": 2403445.5758,
+      "reserve_usd": 257988048815.89,
+      "timestamp": 1783638000
+    },
+    {
+      "datetime": "2026-07-10T00:00:00Z",
+      "blockheight": 856408,
+      "reserve": 2408754.0155,
+      "reserve_usd": 258476068004.14,
+      "timestamp": 1783641600
+    },
+    {
+      "datetime": "2026-07-10T01:00:00Z",
+      "blockheight": 856409,
+      "reserve": 2394107.6421,
+      "reserve_usd": 256939422004.56,
+      "timestamp": 1783645200
+    },
+    {
+      "datetime": "2026-07-10T02:00:00Z",
+      "blockheight": 856410,
+      "reserve": 2385346.2643,
+      "reserve_usd": 255803955001.86,
+      "timestamp": 1783648800
+    },
+    {
+      "datetime": "2026-07-10T03:00:00Z",
+      "blockheight": 856411,
+      "reserve": 2351917.3434,
+      "reserve_usd": 252422488173.32,
+      "timestamp": 1783652400
+    },
+    {
+      "datetime": "2026-07-10T04:00:00Z",
+      "blockheight": 856412,
+      "reserve": 2401348.2556,
+      "reserve_usd": 257613843968.78,
+      "timestamp": 1783656000
+    },
+    {
+      "datetime": "2026-07-10T05:00:00Z",
+      "blockheight": 856413,
+      "reserve": 2458171.1975,
+      "reserve_usd": 263556882173.24,
+      "timestamp": 1783659600
+    },
+    {
+      "datetime": "2026-07-10T06:00:00Z",
+      "blockheight": 856414,
+      "reserve": 2480268.4252,
+      "reserve_usd": 265415754185.07,
+      "timestamp": 1783663200
+    },
+    {
+      "datetime": "2026-07-10T07:00:00Z",
+      "blockheight": 856415,
+      "reserve": 2346618.4795,
+      "reserve_usd": 251357374774.58,
+      "timestamp": 1783666800
+    },
+    {
+      "datetime": "2026-07-10T08:00:00Z",
+      "blockheight": 856416,
+      "reserve": 2515680.8448,
+      "reserve_usd": 269024060448.01,
+      "timestamp": 1783670400
+    },
+    {
+      "datetime": "2026-07-10T09:00:00Z",
+      "blockheight": 856417,
+      "reserve": 2416876.2061,
+      "reserve_usd": 258231651095.52,
+      "timestamp": 1783674000
+    },
+    {
+      "datetime": "2026-07-10T10:00:00Z",
+      "blockheight": 856418,
+      "reserve": 2370764.1418,
+      "reserve_usd": 253570188891.22,
+      "timestamp": 1783677600
+    },
+    {
+      "datetime": "2026-07-10T11:00:00Z",
+      "blockheight": 856419,
+      "reserve": 2397091.8517,
+      "reserve_usd": 256046093427.48,
+      "timestamp": 1783681200
+    },
+    {
+      "datetime": "2026-07-10T12:00:00Z",
+      "blockheight": 856420,
+      "reserve": 2404237.669,
+      "reserve_usd": 257100045599.6,
+      "timestamp": 1783684800
+    },
+    {
+      "datetime": "2026-07-10T13:00:00Z",
+      "blockheight": 856421,
+      "reserve": 2332386.8172,
+      "reserve_usd": 248784242382.44,
+      "timestamp": 1783688400
+    },
+    {
+      "datetime": "2026-07-10T14:00:00Z",
+      "blockheight": 856422,
+      "reserve": 2390709.7721,
+      "reserve_usd": 255406309440.38,
+      "timestamp": 1783692000
+    },
+    {
+      "datetime": "2026-07-10T15:00:00Z",
+      "blockheight": 856423,
+      "reserve": 2388439.4068,
+      "reserve_usd": 254992437860.32,
+      "timestamp": 1783695600
+    },
+    {
+      "datetime": "2026-07-10T16:00:00Z",
+      "blockheight": 856424,
+      "reserve": 2302071.7597,
+      "reserve_usd": 245260125789.9,
+      "timestamp": 1783699200
+    },
+    {
+      "datetime": "2026-07-10T17:00:00Z",
+      "blockheight": 856425,
+      "reserve": 2459165.0491,
+      "reserve_usd": 262117297883.34,
+      "timestamp": 1783702800
+    },
+    {
+      "datetime": "2026-07-10T18:00:00Z",
+      "blockheight": 856426,
+      "reserve": 2363130.5702,
+      "reserve_usd": 251609712791.54,
+      "timestamp": 1783706400
+    },
+    {
+      "datetime": "2026-07-10T19:00:00Z",
+      "blockheight": 856427,
+      "reserve": 2367830.3316,
+      "reserve_usd": 252235443593.95,
+      "timestamp": 1783710000
+    },
+    {
+      "datetime": "2026-07-10T20:00:00Z",
+      "blockheight": 856428,
+      "reserve": 2448958.9832,
+      "reserve_usd": 260591388584.83,
+      "timestamp": 1783713600
+    },
+    {
+      "datetime": "2026-07-10T21:00:00Z",
+      "blockheight": 856429,
+      "reserve": 2408952.2424,
+      "reserve_usd": 256265846823.54,
+      "timestamp": 1783717200
+    },
+    {
+      "datetime": "2026-07-10T22:00:00Z",
+      "blockheight": 856430,
+      "reserve": 2400991.4776,
+      "reserve_usd": 255357778452.69,
+      "timestamp": 1783720800
+    },
+    {
+      "datetime": "2026-07-10T23:00:00Z",
+      "blockheight": 856431,
+      "reserve": 2372586.651,
+      "reserve_usd": 252200945567.5,
+      "timestamp": 1783724400
+    },
+    {
+      "datetime": "2026-07-11T00:00:00Z",
+      "blockheight": 856432,
+      "reserve": 2383360.0294,
+      "reserve_usd": 253621811843.16,
+      "timestamp": 1783728000
+    },
+    {
+      "datetime": "2026-07-11T01:00:00Z",
+      "blockheight": 856433,
+      "reserve": 2368096.4501,
+      "reserve_usd": 251719949905.35,
+      "timestamp": 1783731600
+    },
+    {
+      "datetime": "2026-07-11T02:00:00Z",
+      "blockheight": 856434,
+      "reserve": 2376363.2067,
+      "reserve_usd": 252645889882.29,
+      "timestamp": 1783735200
+    },
+    {
+      "datetime": "2026-07-11T03:00:00Z",
+      "blockheight": 856435,
+      "reserve": 2393215.3228,
+      "reserve_usd": 254524079392.47,
+      "timestamp": 1783738800
+    },
+    {
+      "datetime": "2026-07-11T04:00:00Z",
+      "blockheight": 856436,
+      "reserve": 2429177.8314,
+      "reserve_usd": 257849398495.01,
+      "timestamp": 1783742400
+    },
+    {
+      "datetime": "2026-07-11T05:00:00Z",
+      "blockheight": 856437,
+      "reserve": 2505219.741,
+      "reserve_usd": 266284998404.51,
+      "timestamp": 1783746000
+    },
+    {
+      "datetime": "2026-07-11T06:00:00Z",
+      "blockheight": 856438,
+      "reserve": 2384195.0872,
+      "reserve_usd": 253391351428.72,
+      "timestamp": 1783749600
+    },
+    {
+      "datetime": "2026-07-11T07:00:00Z",
+      "blockheight": 856439,
+      "reserve": 2420611.3509,
+      "reserve_usd": 256864349246.96,
+      "timestamp": 1783753200
+    },
+    {
+      "datetime": "2026-07-11T08:00:00Z",
+      "blockheight": 856440,
+      "reserve": 2359549.4349,
+      "reserve_usd": 250719616966.76,
+      "timestamp": 1783756800
+    },
+    {
+      "datetime": "2026-07-11T09:00:00Z",
+      "blockheight": 856441,
+      "reserve": 2382775.0589,
+      "reserve_usd": 253062922841.46,
+      "timestamp": 1783760400
+    },
+    {
+      "datetime": "2026-07-11T10:00:00Z",
+      "blockheight": 856442,
+      "reserve": 2359132.5808,
+      "reserve_usd": 250438528844.8,
+      "timestamp": 1783764000
+    },
+    {
+      "datetime": "2026-07-11T11:00:00Z",
+      "blockheight": 856443,
+      "reserve": 2374002.0949,
+      "reserve_usd": 251807240978.44,
+      "timestamp": 1783767600
+    },
+    {
+      "datetime": "2026-07-11T12:00:00Z",
+      "blockheight": 856444,
+      "reserve": 2417408.0834,
+      "reserve_usd": 256644816681.85,
+      "timestamp": 1783771200
+    },
+    {
+      "datetime": "2026-07-11T13:00:00Z",
+      "blockheight": 856445,
+      "reserve": 2394963.7909,
+      "reserve_usd": 253974452500.06,
+      "timestamp": 1783774800
+    },
+    {
+      "datetime": "2026-07-11T14:00:00Z",
+      "blockheight": 856446,
+      "reserve": 2339842.5908,
+      "reserve_usd": 248100368209.52,
+      "timestamp": 1783778400
+    },
+    {
+      "datetime": "2026-07-11T15:00:00Z",
+      "blockheight": 856447,
+      "reserve": 2439547.7577,
+      "reserve_usd": 259143688092.61,
+      "timestamp": 1783782000
+    },
+    {
+      "datetime": "2026-07-11T16:00:00Z",
+      "blockheight": 856448,
+      "reserve": 2394626.4611,
+      "reserve_usd": 254184994786.75,
+      "timestamp": 1783785600
+    },
+    {
+      "datetime": "2026-07-11T17:00:00Z",
+      "blockheight": 856449,
+      "reserve": 2398664.7459,
+      "reserve_usd": 254865818113.15,
+      "timestamp": 1783789200
+    },
+    {
+      "datetime": "2026-07-11T18:00:00Z",
+      "blockheight": 856450,
+      "reserve": 2283414.4399,
+      "reserve_usd": 242641717496.87,
+      "timestamp": 1783792800
+    },
+    {
+      "datetime": "2026-07-11T19:00:00Z",
+      "blockheight": 856451,
+      "reserve": 2247870.0392,
+      "reserve_usd": 238635406446.61,
+      "timestamp": 1783796400
+    },
+    {
+      "datetime": "2026-07-11T20:00:00Z",
+      "blockheight": 856452,
+      "reserve": 2416341.5312,
+      "reserve_usd": 256841400933.41,
+      "timestamp": 1783800000
+    },
+    {
+      "datetime": "2026-07-11T21:00:00Z",
+      "blockheight": 856453,
+      "reserve": 2384193.4843,
+      "reserve_usd": 253162268311.43,
+      "timestamp": 1783803600
+    },
+    {
+      "datetime": "2026-07-11T22:00:00Z",
+      "blockheight": 856454,
+      "reserve": 2528609.8902,
+      "reserve_usd": 268499063754.23,
+      "timestamp": 1783807200
+    },
+    {
+      "datetime": "2026-07-11T23:00:00Z",
+      "blockheight": 856455,
+      "reserve": 2408373.4906,
+      "reserve_usd": 255679088896.57,
+      "timestamp": 1783810800
+    },
+    {
+      "datetime": "2026-07-12T00:00:00Z",
+      "blockheight": 856456,
+      "reserve": 2423913.1605,
+      "reserve_usd": 257526302532.65,
+      "timestamp": 1783814400
+    },
+    {
+      "datetime": "2026-07-12T01:00:00Z",
+      "blockheight": 856457,
+      "reserve": 2438548.5636,
+      "reserve_usd": 258990327327.25,
+      "timestamp": 1783818000
+    },
+    {
+      "datetime": "2026-07-12T02:00:00Z",
+      "blockheight": 856458,
+      "reserve": 2330399.9067,
+      "reserve_usd": 247648762230.93,
+      "timestamp": 1783821600
+    },
+    {
+      "datetime": "2026-07-12T03:00:00Z",
+      "blockheight": 856459,
+      "reserve": 2337105.854,
+      "reserve_usd": 248395168347.33,
+      "timestamp": 1783825200
+    },
+    {
+      "datetime": "2026-07-12T04:00:00Z",
+      "blockheight": 856460,
+      "reserve": 2442527.893,
+      "reserve_usd": 260079343692.13,
+      "timestamp": 1783828800
+    },
+    {
+      "datetime": "2026-07-12T05:00:00Z",
+      "blockheight": 856461,
+      "reserve": 2315257.886,
+      "reserve_usd": 246261660020.14,
+      "timestamp": 1783832400
+    },
+    {
+      "datetime": "2026-07-12T06:00:00Z",
+      "blockheight": 856462,
+      "reserve": 2360921.5238,
+      "reserve_usd": 251179395854.43,
+      "timestamp": 1783836000
+    },
+    {
+      "datetime": "2026-07-12T07:00:00Z",
+      "blockheight": 856463,
+      "reserve": 2433416.9733,
+      "reserve_usd": 259559359347.47,
+      "timestamp": 1783839600
+    },
+    {
+      "datetime": "2026-07-12T08:00:00Z",
+      "blockheight": 856464,
+      "reserve": 2431805.9648,
+      "reserve_usd": 259204967852.04,
+      "timestamp": 1783843200
+    },
+    {
+      "datetime": "2026-07-12T09:00:00Z",
+      "blockheight": 856465,
+      "reserve": 2405553.0336,
+      "reserve_usd": 256558862426.93,
+      "timestamp": 1783846800
+    },
+    {
+      "datetime": "2026-07-12T10:00:00Z",
+      "blockheight": 856466,
+      "reserve": 2342500.8306,
+      "reserve_usd": 249688047226.03,
+      "timestamp": 1783850400
+    },
+    {
+      "datetime": "2026-07-12T11:00:00Z",
+      "blockheight": 856467,
+      "reserve": 2492444.8181,
+      "reserve_usd": 265977910081.26,
+      "timestamp": 1783854000
+    },
+    {
+      "datetime": "2026-07-12T12:00:00Z",
+      "blockheight": 856468,
+      "reserve": 2380833.9416,
+      "reserve_usd": 254431751949.54,
+      "timestamp": 1783857600
+    },
+    {
+      "datetime": "2026-07-12T13:00:00Z",
+      "blockheight": 856469,
+      "reserve": 2420993.4783,
+      "reserve_usd": 258898439727.64,
+      "timestamp": 1783861200
+    },
+    {
+      "datetime": "2026-07-12T14:00:00Z",
+      "blockheight": 856470,
+      "reserve": 2305369.4875,
+      "reserve_usd": 246643039754.79,
+      "timestamp": 1783864800
+    },
+    {
+      "datetime": "2026-07-12T15:00:00Z",
+      "blockheight": 856471,
+      "reserve": 2374841.8622,
+      "reserve_usd": 253791611212.29,
+      "timestamp": 1783868400
+    },
+    {
+      "datetime": "2026-07-12T16:00:00Z",
+      "blockheight": 856472,
+      "reserve": 2424790.7089,
+      "reserve_usd": 259452280610.54,
+      "timestamp": 1783872000
+    },
+    {
+      "datetime": "2026-07-12T17:00:00Z",
+      "blockheight": 856473,
+      "reserve": 2431809.1832,
+      "reserve_usd": 260409891178.01,
+      "timestamp": 1783875600
+    },
+    {
+      "datetime": "2026-07-12T18:00:00Z",
+      "blockheight": 856474,
+      "reserve": 2284946.5966,
+      "reserve_usd": 244526132760.86,
+      "timestamp": 1783879200
+    },
+    {
+      "datetime": "2026-07-12T19:00:00Z",
+      "blockheight": 856475,
+      "reserve": 2399512.5891,
+      "reserve_usd": 256954210943.66,
+      "timestamp": 1783882800
+    },
+    {
+      "datetime": "2026-07-12T20:00:00Z",
+      "blockheight": 856476,
+      "reserve": 2412881.2788,
+      "reserve_usd": 258527828393.51,
+      "timestamp": 1783886400
+    },
+    {
+      "datetime": "2026-07-12T21:00:00Z",
+      "blockheight": 856477,
+      "reserve": 2423511.7987,
+      "reserve_usd": 259815906082.7,
+      "timestamp": 1783890000
+    },
+    {
+      "datetime": "2026-07-12T22:00:00Z",
+      "blockheight": 856478,
+      "reserve": 2346997.6242,
+      "reserve_usd": 252127342006.47,
+      "timestamp": 1783893600
+    },
+    {
+      "datetime": "2026-07-12T23:00:00Z",
+      "blockheight": 856479,
+      "reserve": 2378063.045,
+      "reserve_usd": 255695775658.6,
+      "timestamp": 1783897200
+    },
+    {
+      "datetime": "2026-07-13T00:00:00Z",
+      "blockheight": 856480,
+      "reserve": 2386610.8606,
+      "reserve_usd": 256355829813.6,
+      "timestamp": 1783900800
+    },
+    {
+      "datetime": "2026-07-13T01:00:00Z",
+      "blockheight": 856481,
+      "reserve": 2383153.487,
+      "reserve_usd": 256240212572.69,
+      "timestamp": 1783904400
+    },
+    {
+      "datetime": "2026-07-13T02:00:00Z",
+      "blockheight": 856482,
+      "reserve": 2405251.3156,
+      "reserve_usd": 258811150396.15,
+      "timestamp": 1783908000
+    },
+    {
+      "datetime": "2026-07-13T03:00:00Z",
+      "blockheight": 856483,
+      "reserve": 2326735.0054,
+      "reserve_usd": 250459749648.59,
+      "timestamp": 1783911600
+    },
+    {
+      "datetime": "2026-07-13T04:00:00Z",
+      "blockheight": 856484,
+      "reserve": 2403296.7514,
+      "reserve_usd": 258922419279.75,
+      "timestamp": 1783915200
+    },
+    {
+      "datetime": "2026-07-13T05:00:00Z",
+      "blockheight": 856485,
+      "reserve": 2439204.3188,
+      "reserve_usd": 262808417389.23,
+      "timestamp": 1783918800
+    },
+    {
+      "datetime": "2026-07-13T06:00:00Z",
+      "blockheight": 856486,
+      "reserve": 2357888.5136,
+      "reserve_usd": 254005492879.27,
+      "timestamp": 1783922400
+    },
+    {
+      "datetime": "2026-07-13T07:00:00Z",
+      "blockheight": 856487,
+      "reserve": 2514365.6871,
+      "reserve_usd": 271451642430.56,
+      "timestamp": 1783926000
+    },
+    {
+      "datetime": "2026-07-13T08:00:00Z",
+      "blockheight": 856488,
+      "reserve": 2448071.6667,
+      "reserve_usd": 264426547400.78,
+      "timestamp": 1783929600
+    },
+    {
+      "datetime": "2026-07-13T09:00:00Z",
+      "blockheight": 856489,
+      "reserve": 2376091.8636,
+      "reserve_usd": 256830949758.27,
+      "timestamp": 1783933200
+    },
+    {
+      "datetime": "2026-07-13T10:00:00Z",
+      "blockheight": 856490,
+      "reserve": 2387937.737,
+      "reserve_usd": 257870742758.49,
+      "timestamp": 1783936800
+    },
+    {
+      "datetime": "2026-07-13T11:00:00Z",
+      "blockheight": 856491,
+      "reserve": 2316952.6733,
+      "reserve_usd": 250468928132.45,
+      "timestamp": 1783940400
+    },
+    {
+      "datetime": "2026-07-13T12:00:00Z",
+      "blockheight": 856492,
+      "reserve": 2310923.9396,
+      "reserve_usd": 250071501320.87,
+      "timestamp": 1783944000
+    },
+    {
+      "datetime": "2026-07-13T13:00:00Z",
+      "blockheight": 856493,
+      "reserve": 2454383.7382,
+      "reserve_usd": 265561871605.87,
+      "timestamp": 1783947600
+    },
+    {
+      "datetime": "2026-07-13T14:00:00Z",
+      "blockheight": 856494,
+      "reserve": 2402277.8782,
+      "reserve_usd": 259854686315.06,
+      "timestamp": 1783951200
+    },
+    {
+      "datetime": "2026-07-13T15:00:00Z",
+      "blockheight": 856495,
+      "reserve": 2534490.1288,
+      "reserve_usd": 274123031281.02,
+      "timestamp": 1783954800
+    },
+    {
+      "datetime": "2026-07-13T16:00:00Z",
+      "blockheight": 856496,
+      "reserve": 2497376.7922,
+      "reserve_usd": 270331620525.27,
+      "timestamp": 1783958400
+    },
+    {
+      "datetime": "2026-07-13T17:00:00Z",
+      "blockheight": 856497,
+      "reserve": 2449045.6008,
+      "reserve_usd": 265243657458.92,
+      "timestamp": 1783962000
+    },
+    {
+      "datetime": "2026-07-13T18:00:00Z",
+      "blockheight": 856498,
+      "reserve": 2337491.5343,
+      "reserve_usd": 253135587197.3,
+      "timestamp": 1783965600
+    },
+    {
+      "datetime": "2026-07-13T19:00:00Z",
+      "blockheight": 856499,
+      "reserve": 2492276.6844,
+      "reserve_usd": 270280538317.18,
+      "timestamp": 1783969200
+    },
+    {
+      "datetime": "2026-07-13T20:00:00Z",
+      "blockheight": 856500,
+      "reserve": 2470444.9136,
+      "reserve_usd": 268059676716.49,
+      "timestamp": 1783972800
+    },
+    {
+      "datetime": "2026-07-13T21:00:00Z",
+      "blockheight": 856501,
+      "reserve": 2396321.7644,
+      "reserve_usd": 260111489225.23,
+      "timestamp": 1783976400
+    },
+    {
+      "datetime": "2026-07-13T22:00:00Z",
+      "blockheight": 856502,
+      "reserve": 2280329.082,
+      "reserve_usd": 247312875508.9,
+      "timestamp": 1783980000
+    },
+    {
+      "datetime": "2026-07-13T23:00:00Z",
+      "blockheight": 856503,
+      "reserve": 2391657.8079,
+      "reserve_usd": 259426710258.14,
+      "timestamp": 1783983600
+    },
+    {
+      "datetime": "2026-07-14T00:00:00Z",
+      "blockheight": 856504,
+      "reserve": 2395576.8168,
+      "reserve_usd": 259889640157.97,
+      "timestamp": 1783987200
+    },
+    {
+      "datetime": "2026-07-14T01:00:00Z",
+      "blockheight": 856505,
+      "reserve": 2323406.8565,
+      "reserve_usd": 251967153507.17,
+      "timestamp": 1783990800
+    },
+    {
+      "datetime": "2026-07-14T02:00:00Z",
+      "blockheight": 856506,
+      "reserve": 2297316.5806,
+      "reserve_usd": 249611911382.41,
+      "timestamp": 1783994400
+    },
+    {
+      "datetime": "2026-07-14T03:00:00Z",
+      "blockheight": 856507,
+      "reserve": 2453183.5758,
+      "reserve_usd": 266568793832.1,
+      "timestamp": 1783998000
+    },
+    {
+      "datetime": "2026-07-14T04:00:00Z",
+      "blockheight": 856508,
+      "reserve": 2372670.8914,
+      "reserve_usd": 257776340804.46,
+      "timestamp": 1784001600
+    },
+    {
+      "datetime": "2026-07-14T05:00:00Z",
+      "blockheight": 856509,
+      "reserve": 2450425.1351,
+      "reserve_usd": 266243366102.1,
+      "timestamp": 1784005200
+    },
+    {
+      "datetime": "2026-07-14T06:00:00Z",
+      "blockheight": 856510,
+      "reserve": 2249282.9384,
+      "reserve_usd": 244401445304.58,
+      "timestamp": 1784008800
+    },
+    {
+      "datetime": "2026-07-14T07:00:00Z",
+      "blockheight": 856511,
+      "reserve": 2428626.4073,
+      "reserve_usd": 263699641441.19,
+      "timestamp": 1784012400
+    },
+    {
+      "datetime": "2026-07-14T08:00:00Z",
+      "blockheight": 856512,
+      "reserve": 2402666.763,
+      "reserve_usd": 261094889157.45,
+      "timestamp": 1784016000
+    },
+    {
+      "datetime": "2026-07-14T09:00:00Z",
+      "blockheight": 856513,
+      "reserve": 2397823.1781,
+      "reserve_usd": 260337578983.18,
+      "timestamp": 1784019600
+    },
+    {
+      "datetime": "2026-07-14T10:00:00Z",
+      "blockheight": 856514,
+      "reserve": 2327472.7078,
+      "reserve_usd": 252771757771.35,
+      "timestamp": 1784023200
+    },
+    {
+      "datetime": "2026-07-14T11:00:00Z",
+      "blockheight": 856515,
+      "reserve": 2344411.975,
+      "reserve_usd": 254535503355.32,
+      "timestamp": 1784026800
+    },
+    {
+      "datetime": "2026-07-14T12:00:00Z",
+      "blockheight": 856516,
+      "reserve": 2336967.2896,
+      "reserve_usd": 253421505670.18,
+      "timestamp": 1784030400
+    },
+    {
+      "datetime": "2026-07-14T13:00:00Z",
+      "blockheight": 856517,
+      "reserve": 2492989.0713,
+      "reserve_usd": 270265449657.79,
+      "timestamp": 1784034000
+    },
+    {
+      "datetime": "2026-07-14T14:00:00Z",
+      "blockheight": 856518,
+      "reserve": 2410451.0527,
+      "reserve_usd": 261541225131.62,
+      "timestamp": 1784037600
+    },
+    {
+      "datetime": "2026-07-14T15:00:00Z",
+      "blockheight": 856519,
+      "reserve": 2296640.8482,
+      "reserve_usd": 249156247728.36,
+      "timestamp": 1784041200
+    },
+    {
+      "datetime": "2026-07-14T16:00:00Z",
+      "blockheight": 856520,
+      "reserve": 2423204.2403,
+      "reserve_usd": 262787387610.13,
+      "timestamp": 1784044800
+    },
+    {
+      "datetime": "2026-07-14T17:00:00Z",
+      "blockheight": 856521,
+      "reserve": 2439989.935,
+      "reserve_usd": 264515260499.57,
+      "timestamp": 1784048400
+    },
+    {
+      "datetime": "2026-07-14T18:00:00Z",
+      "blockheight": 856522,
+      "reserve": 2405777.7039,
+      "reserve_usd": 260456871282.89,
+      "timestamp": 1784052000
+    },
+    {
+      "datetime": "2026-07-14T19:00:00Z",
+      "blockheight": 856523,
+      "reserve": 2403045.0532,
+      "reserve_usd": 260071041876.31,
+      "timestamp": 1784055600
+    },
+    {
+      "datetime": "2026-07-14T20:00:00Z",
+      "blockheight": 856524,
+      "reserve": 2345645.962,
+      "reserve_usd": 254029713638.8,
+      "timestamp": 1784059200
+    },
+    {
+      "datetime": "2026-07-14T21:00:00Z",
+      "blockheight": 856525,
+      "reserve": 2329047.3652,
+      "reserve_usd": 252120587602.33,
+      "timestamp": 1784062800
+    },
+    {
+      "datetime": "2026-07-14T22:00:00Z",
+      "blockheight": 856526,
+      "reserve": 2420434.5463,
+      "reserve_usd": 261955654564.44,
+      "timestamp": 1784066400
+    },
+    {
+      "datetime": "2026-07-14T23:00:00Z",
+      "blockheight": 856527,
+      "reserve": 2355992.8345,
+      "reserve_usd": 255029628386.71,
+      "timestamp": 1784070000
+    },
+    {
+      "datetime": "2026-07-15T00:00:00Z",
+      "blockheight": 856528,
+      "reserve": 2335365.5032,
+      "reserve_usd": 252698823510.8,
+      "timestamp": 1784073600
+    },
+    {
+      "datetime": "2026-07-15T01:00:00Z",
+      "blockheight": 856529,
+      "reserve": 2447421.8053,
+      "reserve_usd": 264459215146.76,
+      "timestamp": 1784077200
+    },
+    {
+      "datetime": "2026-07-15T02:00:00Z",
+      "blockheight": 856530,
+      "reserve": 2301445.9198,
+      "reserve_usd": 248590712304.71,
+      "timestamp": 1784080800
+    },
+    {
+      "datetime": "2026-07-15T03:00:00Z",
+      "blockheight": 856531,
+      "reserve": 2318592.4073,
+      "reserve_usd": 250254275993.57,
+      "timestamp": 1784084400
+    },
+    {
+      "datetime": "2026-07-15T04:00:00Z",
+      "blockheight": 856532,
+      "reserve": 2439484.8968,
+      "reserve_usd": 263361647856.91,
+      "timestamp": 1784088000
+    },
+    {
+      "datetime": "2026-07-15T05:00:00Z",
+      "blockheight": 856533,
+      "reserve": 2396502.572,
+      "reserve_usd": 258564017615.6,
+      "timestamp": 1784091600
+    },
+    {
+      "datetime": "2026-07-15T06:00:00Z",
+      "blockheight": 856534,
+      "reserve": 2377452.3158,
+      "reserve_usd": 256767395427.37,
+      "timestamp": 1784095200
+    },
+    {
+      "datetime": "2026-07-15T07:00:00Z",
+      "blockheight": 856535,
+      "reserve": 2379136.4342,
+      "reserve_usd": 256600370452.05,
+      "timestamp": 1784098800
+    },
+    {
+      "datetime": "2026-07-15T08:00:00Z",
+      "blockheight": 856536,
+      "reserve": 2383087.5602,
+      "reserve_usd": 257163971196.07,
+      "timestamp": 1784102400
+    },
+    {
+      "datetime": "2026-07-15T09:00:00Z",
+      "blockheight": 856537,
+      "reserve": 2305352.7134,
+      "reserve_usd": 248436208884.66,
+      "timestamp": 1784106000
+    },
+    {
+      "datetime": "2026-07-15T10:00:00Z",
+      "blockheight": 856538,
+      "reserve": 2448193.3355,
+      "reserve_usd": 263957837513.56,
+      "timestamp": 1784109600
+    },
+    {
+      "datetime": "2026-07-15T11:00:00Z",
+      "blockheight": 856539,
+      "reserve": 2403097.5138,
+      "reserve_usd": 258723090476.83,
+      "timestamp": 1784113200
+    },
+    {
+      "datetime": "2026-07-15T12:00:00Z",
+      "blockheight": 856540,
+      "reserve": 2468414.5478,
+      "reserve_usd": 265847976945.66,
+      "timestamp": 1784116800
+    },
+    {
+      "datetime": "2026-07-15T13:00:00Z",
+      "blockheight": 856541,
+      "reserve": 2386288.8383,
+      "reserve_usd": 256857130375.48,
+      "timestamp": 1784120400
+    },
+    {
+      "datetime": "2026-07-15T14:00:00Z",
+      "blockheight": 856542,
+      "reserve": 2439814.22,
+      "reserve_usd": 262121892893.85,
+      "timestamp": 1784124000
+    },
+    {
+      "datetime": "2026-07-15T15:00:00Z",
+      "blockheight": 856543,
+      "reserve": 2355002.5426,
+      "reserve_usd": 252987083684.9,
+      "timestamp": 1784127600
+    },
+    {
+      "datetime": "2026-07-15T16:00:00Z",
+      "blockheight": 856544,
+      "reserve": 2347326.2032,
+      "reserve_usd": 252091430919.67,
+      "timestamp": 1784131200
+    },
+    {
+      "datetime": "2026-07-15T17:00:00Z",
+      "blockheight": 856545,
+      "reserve": 2485598.0015,
+      "reserve_usd": 267264654961.28,
+      "timestamp": 1784134800
+    },
+    {
+      "datetime": "2026-07-15T18:00:00Z",
+      "blockheight": 856546,
+      "reserve": 2364480.2233,
+      "reserve_usd": 254106670522.41,
+      "timestamp": 1784138400
+    },
+    {
+      "datetime": "2026-07-15T19:00:00Z",
+      "blockheight": 856547,
+      "reserve": 2368081.0729,
+      "reserve_usd": 254335722402.58,
+      "timestamp": 1784142000
+    },
+    {
+      "datetime": "2026-07-15T20:00:00Z",
+      "blockheight": 856548,
+      "reserve": 2422485.8594,
+      "reserve_usd": 259660992507.02,
+      "timestamp": 1784145600
+    },
+    {
+      "datetime": "2026-07-15T21:00:00Z",
+      "blockheight": 856549,
+      "reserve": 2438579.0825,
+      "reserve_usd": 261513308566.94,
+      "timestamp": 1784149200
+    },
+    {
+      "datetime": "2026-07-15T22:00:00Z",
+      "blockheight": 856550,
+      "reserve": 2384348.9585,
+      "reserve_usd": 255710919067.52,
+      "timestamp": 1784152800
+    },
+    {
+      "datetime": "2026-07-15T23:00:00Z",
+      "blockheight": 856551,
+      "reserve": 2352139.8065,
+      "reserve_usd": 252358881142.79,
+      "timestamp": 1784156400
+    },
+    {
+      "datetime": "2026-07-16T00:00:00Z",
+      "blockheight": 856552,
+      "reserve": 2447503.5861,
+      "reserve_usd": 262505641086.59,
+      "timestamp": 1784160000
+    },
+    {
+      "datetime": "2026-07-16T01:00:00Z",
+      "blockheight": 856553,
+      "reserve": 2391293.7971,
+      "reserve_usd": 256346341179.63,
+      "timestamp": 1784163600
+    },
+    {
+      "datetime": "2026-07-16T02:00:00Z",
+      "blockheight": 856554,
+      "reserve": 2322331.9033,
+      "reserve_usd": 248616835622.5,
+      "timestamp": 1784167200
+    },
+    {
+      "datetime": "2026-07-16T03:00:00Z",
+      "blockheight": 856555,
+      "reserve": 2396572.4034,
+      "reserve_usd": 256675575642.01,
+      "timestamp": 1784170800
+    },
+    {
+      "datetime": "2026-07-16T04:00:00Z",
+      "blockheight": 856556,
+      "reserve": 2348956.5714,
+      "reserve_usd": 251289918575.09,
+      "timestamp": 1784174400
+    },
+    {
+      "datetime": "2026-07-16T05:00:00Z",
+      "blockheight": 856557,
+      "reserve": 2520687.0882,
+      "reserve_usd": 269794470085.92,
+      "timestamp": 1784178000
+    },
+    {
+      "datetime": "2026-07-16T06:00:00Z",
+      "blockheight": 856558,
+      "reserve": 2437756.7536,
+      "reserve_usd": 260898789865.26,
+      "timestamp": 1784181600
+    },
+    {
+      "datetime": "2026-07-16T07:00:00Z",
+      "blockheight": 856559,
+      "reserve": 2444483.3832,
+      "reserve_usd": 261418115338.03,
+      "timestamp": 1784185200
+    },
+    {
+      "datetime": "2026-07-16T08:00:00Z",
+      "blockheight": 856560,
+      "reserve": 2335174.7646,
+      "reserve_usd": 249838820408.18,
+      "timestamp": 1784188800
+    },
+    {
+      "datetime": "2026-07-16T09:00:00Z",
+      "blockheight": 856561,
+      "reserve": 2470104.3004,
+      "reserve_usd": 264087340736.14,
+      "timestamp": 1784192400
+    },
+    {
+      "datetime": "2026-07-16T10:00:00Z",
+      "blockheight": 856562,
+      "reserve": 2395821.55,
+      "reserve_usd": 256538057059.63,
+      "timestamp": 1784196000
+    },
+    {
+      "datetime": "2026-07-16T11:00:00Z",
+      "blockheight": 856563,
+      "reserve": 2421199.8112,
+      "reserve_usd": 259081880759.85,
+      "timestamp": 1784199600
+    },
+    {
+      "datetime": "2026-07-16T12:00:00Z",
+      "blockheight": 856564,
+      "reserve": 2335630.0596,
+      "reserve_usd": 249571147922.37,
+      "timestamp": 1784203200
+    },
+    {
+      "datetime": "2026-07-16T13:00:00Z",
+      "blockheight": 856565,
+      "reserve": 2363239.6236,
+      "reserve_usd": 253017058017.49,
+      "timestamp": 1784206800
+    },
+    {
+      "datetime": "2026-07-16T14:00:00Z",
+      "blockheight": 856566,
+      "reserve": 2346972.266,
+      "reserve_usd": 251311848710.25,
+      "timestamp": 1784210400
+    },
+    {
+      "datetime": "2026-07-16T15:00:00Z",
+      "blockheight": 856567,
+      "reserve": 2408490.6203,
+      "reserve_usd": 257610254873.46,
+      "timestamp": 1784214000
+    },
+    {
+      "datetime": "2026-07-16T16:00:00Z",
+      "blockheight": 856568,
+      "reserve": 2325201.9593,
+      "reserve_usd": 248709696887.21,
+      "timestamp": 1784217600
+    },
+    {
+      "datetime": "2026-07-16T17:00:00Z",
+      "blockheight": 856569,
+      "reserve": 2419070.3892,
+      "reserve_usd": 258966879946.79,
+      "timestamp": 1784221200
+    },
+    {
+      "datetime": "2026-07-16T18:00:00Z",
+      "blockheight": 856570,
+      "reserve": 2378202.1381,
+      "reserve_usd": 254677479490.85,
+      "timestamp": 1784224800
+    },
+    {
+      "datetime": "2026-07-16T19:00:00Z",
+      "blockheight": 856571,
+      "reserve": 2413008.8466,
+      "reserve_usd": 258157995711.42,
+      "timestamp": 1784228400
+    },
+    {
+      "datetime": "2026-07-16T20:00:00Z",
+      "blockheight": 856572,
+      "reserve": 2417759.8067,
+      "reserve_usd": 258599553647.82,
+      "timestamp": 1784232000
+    },
+    {
+      "datetime": "2026-07-16T21:00:00Z",
+      "blockheight": 856573,
+      "reserve": 2403906.4974,
+      "reserve_usd": 257158333583.35,
+      "timestamp": 1784235600
+    },
+    {
+      "datetime": "2026-07-16T22:00:00Z",
+      "blockheight": 856574,
+      "reserve": 2351362.1786,
+      "reserve_usd": 251760252787.91,
+      "timestamp": 1784239200
+    },
+    {
+      "datetime": "2026-07-16T23:00:00Z",
+      "blockheight": 856575,
+      "reserve": 2351433.9574,
+      "reserve_usd": 251751658549.31,
+      "timestamp": 1784242800
+    },
+    {
+      "datetime": "2026-07-17T00:00:00Z",
+      "blockheight": 856576,
+      "reserve": 2381104.3814,
+      "reserve_usd": 255349267172.3,
+      "timestamp": 1784246400
+    },
+    {
+      "datetime": "2026-07-17T01:00:00Z",
+      "blockheight": 856577,
+      "reserve": 2412662.1884,
+      "reserve_usd": 258701671693.75,
+      "timestamp": 1784250000
+    },
+    {
+      "datetime": "2026-07-17T02:00:00Z",
+      "blockheight": 856578,
+      "reserve": 2488479.2019,
+      "reserve_usd": 266528379404.55,
+      "timestamp": 1784253600
+    },
+    {
+      "datetime": "2026-07-17T03:00:00Z",
+      "blockheight": 856579,
+      "reserve": 2461442.0579,
+      "reserve_usd": 263753103614.46,
+      "timestamp": 1784257200
+    },
+    {
+      "datetime": "2026-07-17T04:00:00Z",
+      "blockheight": 856580,
+      "reserve": 2444094.308,
+      "reserve_usd": 262374719321.51,
+      "timestamp": 1784260800
+    },
+    {
+      "datetime": "2026-07-17T05:00:00Z",
+      "blockheight": 856581,
+      "reserve": 2436685.5483,
+      "reserve_usd": 261396784357.52,
+      "timestamp": 1784264400
+    },
+    {
+      "datetime": "2026-07-17T06:00:00Z",
+      "blockheight": 856582,
+      "reserve": 2403846.1497,
+      "reserve_usd": 258332339066.91,
+      "timestamp": 1784268000
+    },
+    {
+      "datetime": "2026-07-17T07:00:00Z",
+      "blockheight": 856583,
+      "reserve": 2373514.4527,
+      "reserve_usd": 254961114327.87,
+      "timestamp": 1784271600
+    },
+    {
+      "datetime": "2026-07-17T08:00:00Z",
+      "blockheight": 856584,
+      "reserve": 2334770.0365,
+      "reserve_usd": 251034254204.95,
+      "timestamp": 1784275200
+    },
+    {
+      "datetime": "2026-07-17T09:00:00Z",
+      "blockheight": 856585,
+      "reserve": 2402908.7681,
+      "reserve_usd": 258238136313.6,
+      "timestamp": 1784278800
+    },
+    {
+      "datetime": "2026-07-17T10:00:00Z",
+      "blockheight": 856586,
+      "reserve": 2361720.8855,
+      "reserve_usd": 254168483372.54,
+      "timestamp": 1784282400
+    },
+    {
+      "datetime": "2026-07-17T11:00:00Z",
+      "blockheight": 856587,
+      "reserve": 2469814.9448,
+      "reserve_usd": 265484975794.73,
+      "timestamp": 1784286000
+    },
+    {
+      "datetime": "2026-07-17T12:00:00Z",
+      "blockheight": 856588,
+      "reserve": 2368252.5568,
+      "reserve_usd": 255193140197.27,
+      "timestamp": 1784289600
+    },
+    {
+      "datetime": "2026-07-17T13:00:00Z",
+      "blockheight": 856589,
+      "reserve": 2360292.6592,
+      "reserve_usd": 254474157616.84,
+      "timestamp": 1784293200
+    },
+    {
+      "datetime": "2026-07-17T14:00:00Z",
+      "blockheight": 856590,
+      "reserve": 2402058.8662,
+      "reserve_usd": 259032881836.78,
+      "timestamp": 1784296800
+    },
+    {
+      "datetime": "2026-07-17T15:00:00Z",
+      "blockheight": 856591,
+      "reserve": 2411395.7256,
+      "reserve_usd": 260108574371.37,
+      "timestamp": 1784300400
+    },
+    {
+      "datetime": "2026-07-17T16:00:00Z",
+      "blockheight": 856592,
+      "reserve": 2364333.0874,
+      "reserve_usd": 255266693412.8,
+      "timestamp": 1784304000
+    },
+    {
+      "datetime": "2026-07-17T17:00:00Z",
+      "blockheight": 856593,
+      "reserve": 2387204.3328,
+      "reserve_usd": 257623988958.9,
+      "timestamp": 1784307600
+    },
+    {
+      "datetime": "2026-07-17T18:00:00Z",
+      "blockheight": 856594,
+      "reserve": 2365730.9649,
+      "reserve_usd": 255334893281.57,
+      "timestamp": 1784311200
+    },
+    {
+      "datetime": "2026-07-17T19:00:00Z",
+      "blockheight": 856595,
+      "reserve": 2389239.4267,
+      "reserve_usd": 258271515977.63,
+      "timestamp": 1784314800
+    },
+    {
+      "datetime": "2026-07-17T20:00:00Z",
+      "blockheight": 856596,
+      "reserve": 2382731.0111,
+      "reserve_usd": 257914218997.93,
+      "timestamp": 1784318400
+    },
+    {
+      "datetime": "2026-07-17T21:00:00Z",
+      "blockheight": 856597,
+      "reserve": 2396876.8572,
+      "reserve_usd": 259303456455.38,
+      "timestamp": 1784322000
+    },
+    {
+      "datetime": "2026-07-17T22:00:00Z",
+      "blockheight": 856598,
+      "reserve": 2390313.6581,
+      "reserve_usd": 258731493048.27,
+      "timestamp": 1784325600
+    },
+    {
+      "datetime": "2026-07-17T23:00:00Z",
+      "blockheight": 856599,
+      "reserve": 2382308.6098,
+      "reserve_usd": 258109066161.54,
+      "timestamp": 1784329200
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_institutional_flows_exchange_reserve",
+    "path": "/btc/exchange-flows/reserve",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/institutional_flows/exchange_reserve/hour_raw.json",
+    "raw_shape": "status_result_data_exchange_reserve",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

@@ -1,0 +1,4230 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "coinglass",
+  "family": "cvd_volume_orderflow",
+  "subtype": "cvd",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "15m",
+  "extraction_window": null,
+  "records": [
+    {
+      "time": 1782172800000,
+      "taker_buy_vol": 987.005,
+      "taker_sell_vol": 1362.8391,
+      "cum_vol_delta": -375.8341,
+      "timestamp": 1782172800
+    },
+    {
+      "time": 1782173700000,
+      "taker_buy_vol": 967.6891,
+      "taker_sell_vol": 1250.5759,
+      "cum_vol_delta": -658.7208,
+      "timestamp": 1782173700
+    },
+    {
+      "time": 1782174600000,
+      "taker_buy_vol": 1007.5525,
+      "taker_sell_vol": 1062.8238,
+      "cum_vol_delta": -713.9921,
+      "timestamp": 1782174600
+    },
+    {
+      "time": 1782175500000,
+      "taker_buy_vol": 608.0049,
+      "taker_sell_vol": 1020.0727,
+      "cum_vol_delta": -1126.0599,
+      "timestamp": 1782175500
+    },
+    {
+      "time": 1782176400000,
+      "taker_buy_vol": 828.2495,
+      "taker_sell_vol": 734.898,
+      "cum_vol_delta": -1032.7084,
+      "timestamp": 1782176400
+    },
+    {
+      "time": 1782177300000,
+      "taker_buy_vol": 1067.3296,
+      "taker_sell_vol": 980.1761,
+      "cum_vol_delta": -945.5549,
+      "timestamp": 1782177300
+    },
+    {
+      "time": 1782178200000,
+      "taker_buy_vol": 1111.0642,
+      "taker_sell_vol": 1022.3066,
+      "cum_vol_delta": -856.7973,
+      "timestamp": 1782178200
+    },
+    {
+      "time": 1782179100000,
+      "taker_buy_vol": 684.1781,
+      "taker_sell_vol": 1216.9279,
+      "cum_vol_delta": -1389.547,
+      "timestamp": 1782179100
+    },
+    {
+      "time": 1782180000000,
+      "taker_buy_vol": 632.8255,
+      "taker_sell_vol": 674.5955,
+      "cum_vol_delta": -1431.3171,
+      "timestamp": 1782180000
+    },
+    {
+      "time": 1782180900000,
+      "taker_buy_vol": 1162.237,
+      "taker_sell_vol": 1058.8662,
+      "cum_vol_delta": -1327.9464,
+      "timestamp": 1782180900
+    },
+    {
+      "time": 1782181800000,
+      "taker_buy_vol": 1046.9153,
+      "taker_sell_vol": 850.8789,
+      "cum_vol_delta": -1131.9099,
+      "timestamp": 1782181800
+    },
+    {
+      "time": 1782182700000,
+      "taker_buy_vol": 1135.4259,
+      "taker_sell_vol": 1115.9806,
+      "cum_vol_delta": -1112.4647,
+      "timestamp": 1782182700
+    },
+    {
+      "time": 1782183600000,
+      "taker_buy_vol": 1308.8946,
+      "taker_sell_vol": 938.6058,
+      "cum_vol_delta": -742.1759,
+      "timestamp": 1782183600
+    },
+    {
+      "time": 1782184500000,
+      "taker_buy_vol": 793.2122,
+      "taker_sell_vol": 1146.0815,
+      "cum_vol_delta": -1095.0452,
+      "timestamp": 1782184500
+    },
+    {
+      "time": 1782185400000,
+      "taker_buy_vol": 989.7426,
+      "taker_sell_vol": 1045.8695,
+      "cum_vol_delta": -1151.1721,
+      "timestamp": 1782185400
+    },
+    {
+      "time": 1782186300000,
+      "taker_buy_vol": 1272.5057,
+      "taker_sell_vol": 1030.5488,
+      "cum_vol_delta": -909.2152,
+      "timestamp": 1782186300
+    },
+    {
+      "time": 1782187200000,
+      "taker_buy_vol": 1021.5295,
+      "taker_sell_vol": 1092.3819,
+      "cum_vol_delta": -980.0677,
+      "timestamp": 1782187200
+    },
+    {
+      "time": 1782188100000,
+      "taker_buy_vol": 906.3134,
+      "taker_sell_vol": 1124.2949,
+      "cum_vol_delta": -1198.0491,
+      "timestamp": 1782188100
+    },
+    {
+      "time": 1782189000000,
+      "taker_buy_vol": 1281.4215,
+      "taker_sell_vol": 959.8924,
+      "cum_vol_delta": -876.5201,
+      "timestamp": 1782189000
+    },
+    {
+      "time": 1782189900000,
+      "taker_buy_vol": 917.8204,
+      "taker_sell_vol": 956.8463,
+      "cum_vol_delta": -915.546,
+      "timestamp": 1782189900
+    },
+    {
+      "time": 1782190800000,
+      "taker_buy_vol": 847.5344,
+      "taker_sell_vol": 629.5331,
+      "cum_vol_delta": -697.5447,
+      "timestamp": 1782190800
+    },
+    {
+      "time": 1782191700000,
+      "taker_buy_vol": 1000.1909,
+      "taker_sell_vol": 952.6997,
+      "cum_vol_delta": -650.0536,
+      "timestamp": 1782191700
+    },
+    {
+      "time": 1782192600000,
+      "taker_buy_vol": 1293.829,
+      "taker_sell_vol": 989.5402,
+      "cum_vol_delta": -345.7648,
+      "timestamp": 1782192600
+    },
+    {
+      "time": 1782193500000,
+      "taker_buy_vol": 1316.0711,
+      "taker_sell_vol": 1153.9009,
+      "cum_vol_delta": -183.5946,
+      "timestamp": 1782193500
+    },
+    {
+      "time": 1782194400000,
+      "taker_buy_vol": 1014.1135,
+      "taker_sell_vol": 1057.1582,
+      "cum_vol_delta": -226.6394,
+      "timestamp": 1782194400
+    },
+    {
+      "time": 1782195300000,
+      "taker_buy_vol": 1127.1412,
+      "taker_sell_vol": 1175.7928,
+      "cum_vol_delta": -275.2911,
+      "timestamp": 1782195300
+    },
+    {
+      "time": 1782196200000,
+      "taker_buy_vol": 1329.3498,
+      "taker_sell_vol": 1079.6267,
+      "cum_vol_delta": -25.568,
+      "timestamp": 1782196200
+    },
+    {
+      "time": 1782197100000,
+      "taker_buy_vol": 931.7767,
+      "taker_sell_vol": 983.3067,
+      "cum_vol_delta": -77.098,
+      "timestamp": 1782197100
+    },
+    {
+      "time": 1782198000000,
+      "taker_buy_vol": 973.0773,
+      "taker_sell_vol": 612.9989,
+      "cum_vol_delta": 282.9804,
+      "timestamp": 1782198000
+    },
+    {
+      "time": 1782198900000,
+      "taker_buy_vol": 965.8186,
+      "taker_sell_vol": 842.0537,
+      "cum_vol_delta": 406.7454,
+      "timestamp": 1782198900
+    },
+    {
+      "time": 1782199800000,
+      "taker_buy_vol": 1216.0241,
+      "taker_sell_vol": 908.9095,
+      "cum_vol_delta": 713.8599,
+      "timestamp": 1782199800
+    },
+    {
+      "time": 1782200700000,
+      "taker_buy_vol": 1149.2993,
+      "taker_sell_vol": 1002.8789,
+      "cum_vol_delta": 860.2803,
+      "timestamp": 1782200700
+    },
+    {
+      "time": 1782201600000,
+      "taker_buy_vol": 750.7584,
+      "taker_sell_vol": 888.1043,
+      "cum_vol_delta": 722.9344,
+      "timestamp": 1782201600
+    },
+    {
+      "time": 1782202500000,
+      "taker_buy_vol": 1171.8918,
+      "taker_sell_vol": 1099.0775,
+      "cum_vol_delta": 795.7487,
+      "timestamp": 1782202500
+    },
+    {
+      "time": 1782203400000,
+      "taker_buy_vol": 1082.554,
+      "taker_sell_vol": 1321.5896,
+      "cum_vol_delta": 556.713,
+      "timestamp": 1782203400
+    },
+    {
+      "time": 1782204300000,
+      "taker_buy_vol": 892.6658,
+      "taker_sell_vol": 1305.4811,
+      "cum_vol_delta": 143.8977,
+      "timestamp": 1782204300
+    },
+    {
+      "time": 1782205200000,
+      "taker_buy_vol": 998.041,
+      "taker_sell_vol": 1126.1259,
+      "cum_vol_delta": 15.8127,
+      "timestamp": 1782205200
+    },
+    {
+      "time": 1782206100000,
+      "taker_buy_vol": 1131.6947,
+      "taker_sell_vol": 1097.1101,
+      "cum_vol_delta": 50.3973,
+      "timestamp": 1782206100
+    },
+    {
+      "time": 1782207000000,
+      "taker_buy_vol": 1016.2067,
+      "taker_sell_vol": 918.0563,
+      "cum_vol_delta": 148.5477,
+      "timestamp": 1782207000
+    },
+    {
+      "time": 1782207900000,
+      "taker_buy_vol": 751.9609,
+      "taker_sell_vol": 1053.3801,
+      "cum_vol_delta": -152.8714,
+      "timestamp": 1782207900
+    },
+    {
+      "time": 1782208800000,
+      "taker_buy_vol": 802.5245,
+      "taker_sell_vol": 990.6265,
+      "cum_vol_delta": -340.9733,
+      "timestamp": 1782208800
+    },
+    {
+      "time": 1782209700000,
+      "taker_buy_vol": 755.0121,
+      "taker_sell_vol": 930.6539,
+      "cum_vol_delta": -516.6152,
+      "timestamp": 1782209700
+    },
+    {
+      "time": 1782210600000,
+      "taker_buy_vol": 1082.5727,
+      "taker_sell_vol": 1020.3875,
+      "cum_vol_delta": -454.4299,
+      "timestamp": 1782210600
+    },
+    {
+      "time": 1782211500000,
+      "taker_buy_vol": 1046.7178,
+      "taker_sell_vol": 1022.7133,
+      "cum_vol_delta": -430.4255,
+      "timestamp": 1782211500
+    },
+    {
+      "time": 1782212400000,
+      "taker_buy_vol": 1130.7785,
+      "taker_sell_vol": 1188.7927,
+      "cum_vol_delta": -488.4396,
+      "timestamp": 1782212400
+    },
+    {
+      "time": 1782213300000,
+      "taker_buy_vol": 861.2296,
+      "taker_sell_vol": 976.7012,
+      "cum_vol_delta": -603.9112,
+      "timestamp": 1782213300
+    },
+    {
+      "time": 1782214200000,
+      "taker_buy_vol": 686.1506,
+      "taker_sell_vol": 682.8424,
+      "cum_vol_delta": -600.6029,
+      "timestamp": 1782214200
+    },
+    {
+      "time": 1782215100000,
+      "taker_buy_vol": 945.6546,
+      "taker_sell_vol": 968.5448,
+      "cum_vol_delta": -623.4931,
+      "timestamp": 1782215100
+    },
+    {
+      "time": 1782216000000,
+      "taker_buy_vol": 1063.6427,
+      "taker_sell_vol": 1029.1952,
+      "cum_vol_delta": -589.0456,
+      "timestamp": 1782216000
+    },
+    {
+      "time": 1782216900000,
+      "taker_buy_vol": 1153.5457,
+      "taker_sell_vol": 1041.8594,
+      "cum_vol_delta": -477.3594,
+      "timestamp": 1782216900
+    },
+    {
+      "time": 1782217800000,
+      "taker_buy_vol": 844.3203,
+      "taker_sell_vol": 1107.6303,
+      "cum_vol_delta": -740.6694,
+      "timestamp": 1782217800
+    },
+    {
+      "time": 1782218700000,
+      "taker_buy_vol": 1130.2642,
+      "taker_sell_vol": 841.0999,
+      "cum_vol_delta": -451.5051,
+      "timestamp": 1782218700
+    },
+    {
+      "time": 1782219600000,
+      "taker_buy_vol": 876.2991,
+      "taker_sell_vol": 1201.5618,
+      "cum_vol_delta": -776.7679,
+      "timestamp": 1782219600
+    },
+    {
+      "time": 1782220500000,
+      "taker_buy_vol": 835.5017,
+      "taker_sell_vol": 1028.304,
+      "cum_vol_delta": -969.5702,
+      "timestamp": 1782220500
+    },
+    {
+      "time": 1782221400000,
+      "taker_buy_vol": 686.302,
+      "taker_sell_vol": 773.7524,
+      "cum_vol_delta": -1057.0206,
+      "timestamp": 1782221400
+    },
+    {
+      "time": 1782222300000,
+      "taker_buy_vol": 1043.9473,
+      "taker_sell_vol": 859.257,
+      "cum_vol_delta": -872.3304,
+      "timestamp": 1782222300
+    },
+    {
+      "time": 1782223200000,
+      "taker_buy_vol": 748.1731,
+      "taker_sell_vol": 717.0714,
+      "cum_vol_delta": -841.2286,
+      "timestamp": 1782223200
+    },
+    {
+      "time": 1782224100000,
+      "taker_buy_vol": 897.5145,
+      "taker_sell_vol": 1197.0841,
+      "cum_vol_delta": -1140.7982,
+      "timestamp": 1782224100
+    },
+    {
+      "time": 1782225000000,
+      "taker_buy_vol": 979.84,
+      "taker_sell_vol": 835.6528,
+      "cum_vol_delta": -996.611,
+      "timestamp": 1782225000
+    },
+    {
+      "time": 1782225900000,
+      "taker_buy_vol": 755.8248,
+      "taker_sell_vol": 996.5888,
+      "cum_vol_delta": -1237.3749,
+      "timestamp": 1782225900
+    },
+    {
+      "time": 1782226800000,
+      "taker_buy_vol": 1418.9154,
+      "taker_sell_vol": 1221.1037,
+      "cum_vol_delta": -1039.5632,
+      "timestamp": 1782226800
+    },
+    {
+      "time": 1782227700000,
+      "taker_buy_vol": 1126.7783,
+      "taker_sell_vol": 703.1214,
+      "cum_vol_delta": -615.9063,
+      "timestamp": 1782227700
+    },
+    {
+      "time": 1782228600000,
+      "taker_buy_vol": 949.648,
+      "taker_sell_vol": 746.9871,
+      "cum_vol_delta": -413.2454,
+      "timestamp": 1782228600
+    },
+    {
+      "time": 1782229500000,
+      "taker_buy_vol": 791.4779,
+      "taker_sell_vol": 769.3325,
+      "cum_vol_delta": -391.1,
+      "timestamp": 1782229500
+    },
+    {
+      "time": 1782230400000,
+      "taker_buy_vol": 1206.2353,
+      "taker_sell_vol": 900.6928,
+      "cum_vol_delta": -85.5575,
+      "timestamp": 1782230400
+    },
+    {
+      "time": 1782231300000,
+      "taker_buy_vol": 658.4933,
+      "taker_sell_vol": 892.4669,
+      "cum_vol_delta": -319.531,
+      "timestamp": 1782231300
+    },
+    {
+      "time": 1782232200000,
+      "taker_buy_vol": 950.3421,
+      "taker_sell_vol": 1095.7722,
+      "cum_vol_delta": -464.9612,
+      "timestamp": 1782232200
+    },
+    {
+      "time": 1782233100000,
+      "taker_buy_vol": 1016.4003,
+      "taker_sell_vol": 984.5402,
+      "cum_vol_delta": -433.101,
+      "timestamp": 1782233100
+    },
+    {
+      "time": 1782234000000,
+      "taker_buy_vol": 949.8019,
+      "taker_sell_vol": 1094.3874,
+      "cum_vol_delta": -577.6865,
+      "timestamp": 1782234000
+    },
+    {
+      "time": 1782234900000,
+      "taker_buy_vol": 988.6445,
+      "taker_sell_vol": 1103.7452,
+      "cum_vol_delta": -692.7872,
+      "timestamp": 1782234900
+    },
+    {
+      "time": 1782235800000,
+      "taker_buy_vol": 971.3621,
+      "taker_sell_vol": 1310.94,
+      "cum_vol_delta": -1032.3651,
+      "timestamp": 1782235800
+    },
+    {
+      "time": 1782236700000,
+      "taker_buy_vol": 1145.4295,
+      "taker_sell_vol": 1261.4632,
+      "cum_vol_delta": -1148.3988,
+      "timestamp": 1782236700
+    },
+    {
+      "time": 1782237600000,
+      "taker_buy_vol": 1006.8524,
+      "taker_sell_vol": 970.3993,
+      "cum_vol_delta": -1111.9457,
+      "timestamp": 1782237600
+    },
+    {
+      "time": 1782238500000,
+      "taker_buy_vol": 1252.6656,
+      "taker_sell_vol": 1346.3871,
+      "cum_vol_delta": -1205.6673,
+      "timestamp": 1782238500
+    },
+    {
+      "time": 1782239400000,
+      "taker_buy_vol": 839.8098,
+      "taker_sell_vol": 1012.0085,
+      "cum_vol_delta": -1377.8659,
+      "timestamp": 1782239400
+    },
+    {
+      "time": 1782240300000,
+      "taker_buy_vol": 885.7023,
+      "taker_sell_vol": 1019.7993,
+      "cum_vol_delta": -1511.9629,
+      "timestamp": 1782240300
+    },
+    {
+      "time": 1782241200000,
+      "taker_buy_vol": 936.3983,
+      "taker_sell_vol": 739.1959,
+      "cum_vol_delta": -1314.7605,
+      "timestamp": 1782241200
+    },
+    {
+      "time": 1782242100000,
+      "taker_buy_vol": 1107.5995,
+      "taker_sell_vol": 680.7975,
+      "cum_vol_delta": -887.9585,
+      "timestamp": 1782242100
+    },
+    {
+      "time": 1782243000000,
+      "taker_buy_vol": 1160.139,
+      "taker_sell_vol": 1080.7266,
+      "cum_vol_delta": -808.5462,
+      "timestamp": 1782243000
+    },
+    {
+      "time": 1782243900000,
+      "taker_buy_vol": 838.1867,
+      "taker_sell_vol": 950.1812,
+      "cum_vol_delta": -920.5407,
+      "timestamp": 1782243900
+    },
+    {
+      "time": 1782244800000,
+      "taker_buy_vol": 1280.1201,
+      "taker_sell_vol": 1194.749,
+      "cum_vol_delta": -835.1696,
+      "timestamp": 1782244800
+    },
+    {
+      "time": 1782245700000,
+      "taker_buy_vol": 1333.1116,
+      "taker_sell_vol": 1388.1875,
+      "cum_vol_delta": -890.2455,
+      "timestamp": 1782245700
+    },
+    {
+      "time": 1782246600000,
+      "taker_buy_vol": 1034.7323,
+      "taker_sell_vol": 1092.4518,
+      "cum_vol_delta": -947.9651,
+      "timestamp": 1782246600
+    },
+    {
+      "time": 1782247500000,
+      "taker_buy_vol": 1077.7995,
+      "taker_sell_vol": 780.5729,
+      "cum_vol_delta": -650.7385,
+      "timestamp": 1782247500
+    },
+    {
+      "time": 1782248400000,
+      "taker_buy_vol": 1273.6016,
+      "taker_sell_vol": 1152.9857,
+      "cum_vol_delta": -530.1226,
+      "timestamp": 1782248400
+    },
+    {
+      "time": 1782249300000,
+      "taker_buy_vol": 1080.7421,
+      "taker_sell_vol": 1139.153,
+      "cum_vol_delta": -588.5335,
+      "timestamp": 1782249300
+    },
+    {
+      "time": 1782250200000,
+      "taker_buy_vol": 1021.1639,
+      "taker_sell_vol": 1114.3065,
+      "cum_vol_delta": -681.6761,
+      "timestamp": 1782250200
+    },
+    {
+      "time": 1782251100000,
+      "taker_buy_vol": 1301.9404,
+      "taker_sell_vol": 1035.9999,
+      "cum_vol_delta": -415.7355,
+      "timestamp": 1782251100
+    },
+    {
+      "time": 1782252000000,
+      "taker_buy_vol": 1411.0598,
+      "taker_sell_vol": 1121.9825,
+      "cum_vol_delta": -126.6582,
+      "timestamp": 1782252000
+    },
+    {
+      "time": 1782252900000,
+      "taker_buy_vol": 1198.8945,
+      "taker_sell_vol": 867.42,
+      "cum_vol_delta": 204.8163,
+      "timestamp": 1782252900
+    },
+    {
+      "time": 1782253800000,
+      "taker_buy_vol": 1325.3711,
+      "taker_sell_vol": 925.0451,
+      "cum_vol_delta": 605.1423,
+      "timestamp": 1782253800
+    },
+    {
+      "time": 1782254700000,
+      "taker_buy_vol": 1029.0632,
+      "taker_sell_vol": 977.9954,
+      "cum_vol_delta": 656.2101,
+      "timestamp": 1782254700
+    },
+    {
+      "time": 1782255600000,
+      "taker_buy_vol": 1166.1237,
+      "taker_sell_vol": 840.8507,
+      "cum_vol_delta": 981.483,
+      "timestamp": 1782255600
+    },
+    {
+      "time": 1782256500000,
+      "taker_buy_vol": 749.7007,
+      "taker_sell_vol": 1099.2483,
+      "cum_vol_delta": 631.9354,
+      "timestamp": 1782256500
+    },
+    {
+      "time": 1782257400000,
+      "taker_buy_vol": 1241.7008,
+      "taker_sell_vol": 1173.1763,
+      "cum_vol_delta": 700.46,
+      "timestamp": 1782257400
+    },
+    {
+      "time": 1782258300000,
+      "taker_buy_vol": 847.199,
+      "taker_sell_vol": 977.9669,
+      "cum_vol_delta": 569.6921,
+      "timestamp": 1782258300
+    },
+    {
+      "time": 1782259200000,
+      "taker_buy_vol": 961.2519,
+      "taker_sell_vol": 855.1988,
+      "cum_vol_delta": 675.7452,
+      "timestamp": 1782259200
+    },
+    {
+      "time": 1782260100000,
+      "taker_buy_vol": 873.7462,
+      "taker_sell_vol": 1074.4128,
+      "cum_vol_delta": 475.0786,
+      "timestamp": 1782260100
+    },
+    {
+      "time": 1782261000000,
+      "taker_buy_vol": 1095.7205,
+      "taker_sell_vol": 803.0828,
+      "cum_vol_delta": 767.7162,
+      "timestamp": 1782261000
+    },
+    {
+      "time": 1782261900000,
+      "taker_buy_vol": 920.9936,
+      "taker_sell_vol": 988.1159,
+      "cum_vol_delta": 700.594,
+      "timestamp": 1782261900
+    },
+    {
+      "time": 1782262800000,
+      "taker_buy_vol": 1057.2238,
+      "taker_sell_vol": 1043.7185,
+      "cum_vol_delta": 714.0994,
+      "timestamp": 1782262800
+    },
+    {
+      "time": 1782263700000,
+      "taker_buy_vol": 929.7283,
+      "taker_sell_vol": 1027.9705,
+      "cum_vol_delta": 615.8572,
+      "timestamp": 1782263700
+    },
+    {
+      "time": 1782264600000,
+      "taker_buy_vol": 645.1875,
+      "taker_sell_vol": 827.3401,
+      "cum_vol_delta": 433.7046,
+      "timestamp": 1782264600
+    },
+    {
+      "time": 1782265500000,
+      "taker_buy_vol": 1342.5815,
+      "taker_sell_vol": 902.4157,
+      "cum_vol_delta": 873.8704,
+      "timestamp": 1782265500
+    },
+    {
+      "time": 1782266400000,
+      "taker_buy_vol": 1473.461,
+      "taker_sell_vol": 488.82,
+      "cum_vol_delta": 1858.5114,
+      "timestamp": 1782266400
+    },
+    {
+      "time": 1782267300000,
+      "taker_buy_vol": 1394.3399,
+      "taker_sell_vol": 694.6328,
+      "cum_vol_delta": 2558.2186,
+      "timestamp": 1782267300
+    },
+    {
+      "time": 1782268200000,
+      "taker_buy_vol": 1080.6715,
+      "taker_sell_vol": 930.8146,
+      "cum_vol_delta": 2708.0754,
+      "timestamp": 1782268200
+    },
+    {
+      "time": 1782269100000,
+      "taker_buy_vol": 790.1335,
+      "taker_sell_vol": 1340.9157,
+      "cum_vol_delta": 2157.2932,
+      "timestamp": 1782269100
+    },
+    {
+      "time": 1782270000000,
+      "taker_buy_vol": 663.9031,
+      "taker_sell_vol": 1013.9148,
+      "cum_vol_delta": 1807.2815,
+      "timestamp": 1782270000
+    },
+    {
+      "time": 1782270900000,
+      "taker_buy_vol": 933.2775,
+      "taker_sell_vol": 1000.9405,
+      "cum_vol_delta": 1739.6186,
+      "timestamp": 1782270900
+    },
+    {
+      "time": 1782271800000,
+      "taker_buy_vol": 980.2652,
+      "taker_sell_vol": 986.1391,
+      "cum_vol_delta": 1733.7446,
+      "timestamp": 1782271800
+    },
+    {
+      "time": 1782272700000,
+      "taker_buy_vol": 853.8463,
+      "taker_sell_vol": 1093.4622,
+      "cum_vol_delta": 1494.1286,
+      "timestamp": 1782272700
+    },
+    {
+      "time": 1782273600000,
+      "taker_buy_vol": 911.5371,
+      "taker_sell_vol": 866.2816,
+      "cum_vol_delta": 1539.3842,
+      "timestamp": 1782273600
+    },
+    {
+      "time": 1782274500000,
+      "taker_buy_vol": 1339.2649,
+      "taker_sell_vol": 963.143,
+      "cum_vol_delta": 1915.5061,
+      "timestamp": 1782274500
+    },
+    {
+      "time": 1782275400000,
+      "taker_buy_vol": 1164.1004,
+      "taker_sell_vol": 1100.57,
+      "cum_vol_delta": 1979.0365,
+      "timestamp": 1782275400
+    },
+    {
+      "time": 1782276300000,
+      "taker_buy_vol": 1034.0099,
+      "taker_sell_vol": 1345.4066,
+      "cum_vol_delta": 1667.6398,
+      "timestamp": 1782276300
+    },
+    {
+      "time": 1782277200000,
+      "taker_buy_vol": 1101.8115,
+      "taker_sell_vol": 819.369,
+      "cum_vol_delta": 1950.0823,
+      "timestamp": 1782277200
+    },
+    {
+      "time": 1782278100000,
+      "taker_buy_vol": 893.5978,
+      "taker_sell_vol": 930.5244,
+      "cum_vol_delta": 1913.1558,
+      "timestamp": 1782278100
+    },
+    {
+      "time": 1782279000000,
+      "taker_buy_vol": 516.4122,
+      "taker_sell_vol": 1082.9585,
+      "cum_vol_delta": 1346.6095,
+      "timestamp": 1782279000
+    },
+    {
+      "time": 1782279900000,
+      "taker_buy_vol": 913.3789,
+      "taker_sell_vol": 1111.342,
+      "cum_vol_delta": 1148.6464,
+      "timestamp": 1782279900
+    },
+    {
+      "time": 1782280800000,
+      "taker_buy_vol": 834.73,
+      "taker_sell_vol": 1040.3728,
+      "cum_vol_delta": 943.0036,
+      "timestamp": 1782280800
+    },
+    {
+      "time": 1782281700000,
+      "taker_buy_vol": 797.2864,
+      "taker_sell_vol": 863.6277,
+      "cum_vol_delta": 876.6623,
+      "timestamp": 1782281700
+    },
+    {
+      "time": 1782282600000,
+      "taker_buy_vol": 902.6132,
+      "taker_sell_vol": 710.8971,
+      "cum_vol_delta": 1068.3784,
+      "timestamp": 1782282600
+    },
+    {
+      "time": 1782283500000,
+      "taker_buy_vol": 1047.7645,
+      "taker_sell_vol": 862.0579,
+      "cum_vol_delta": 1254.085,
+      "timestamp": 1782283500
+    },
+    {
+      "time": 1782284400000,
+      "taker_buy_vol": 1083.5633,
+      "taker_sell_vol": 827.1528,
+      "cum_vol_delta": 1510.4955,
+      "timestamp": 1782284400
+    },
+    {
+      "time": 1782285300000,
+      "taker_buy_vol": 705.115,
+      "taker_sell_vol": 1230.1645,
+      "cum_vol_delta": 985.446,
+      "timestamp": 1782285300
+    },
+    {
+      "time": 1782286200000,
+      "taker_buy_vol": 1282.7131,
+      "taker_sell_vol": 1041.3436,
+      "cum_vol_delta": 1226.8155,
+      "timestamp": 1782286200
+    },
+    {
+      "time": 1782287100000,
+      "taker_buy_vol": 1257.6789,
+      "taker_sell_vol": 937.7999,
+      "cum_vol_delta": 1546.6944,
+      "timestamp": 1782287100
+    },
+    {
+      "time": 1782288000000,
+      "taker_buy_vol": 836.4715,
+      "taker_sell_vol": 734.1364,
+      "cum_vol_delta": 1649.0295,
+      "timestamp": 1782288000
+    },
+    {
+      "time": 1782288900000,
+      "taker_buy_vol": 1138.7356,
+      "taker_sell_vol": 1006.5848,
+      "cum_vol_delta": 1781.1803,
+      "timestamp": 1782288900
+    },
+    {
+      "time": 1782289800000,
+      "taker_buy_vol": 940.6441,
+      "taker_sell_vol": 612.7479,
+      "cum_vol_delta": 2109.0764,
+      "timestamp": 1782289800
+    },
+    {
+      "time": 1782290700000,
+      "taker_buy_vol": 843.574,
+      "taker_sell_vol": 1187.1502,
+      "cum_vol_delta": 1765.5002,
+      "timestamp": 1782290700
+    },
+    {
+      "time": 1782291600000,
+      "taker_buy_vol": 1179.3879,
+      "taker_sell_vol": 1053.3492,
+      "cum_vol_delta": 1891.5389,
+      "timestamp": 1782291600
+    },
+    {
+      "time": 1782292500000,
+      "taker_buy_vol": 956.3237,
+      "taker_sell_vol": 922.8877,
+      "cum_vol_delta": 1924.9749,
+      "timestamp": 1782292500
+    },
+    {
+      "time": 1782293400000,
+      "taker_buy_vol": 810.1958,
+      "taker_sell_vol": 738.0369,
+      "cum_vol_delta": 1997.1338,
+      "timestamp": 1782293400
+    },
+    {
+      "time": 1782294300000,
+      "taker_buy_vol": 684.8402,
+      "taker_sell_vol": 680.3532,
+      "cum_vol_delta": 2001.6208,
+      "timestamp": 1782294300
+    },
+    {
+      "time": 1782295200000,
+      "taker_buy_vol": 965.5947,
+      "taker_sell_vol": 728.109,
+      "cum_vol_delta": 2239.1065,
+      "timestamp": 1782295200
+    },
+    {
+      "time": 1782296100000,
+      "taker_buy_vol": 1022.0174,
+      "taker_sell_vol": 1106.1548,
+      "cum_vol_delta": 2154.9692,
+      "timestamp": 1782296100
+    },
+    {
+      "time": 1782297000000,
+      "taker_buy_vol": 878.1679,
+      "taker_sell_vol": 811.1997,
+      "cum_vol_delta": 2221.9375,
+      "timestamp": 1782297000
+    },
+    {
+      "time": 1782297900000,
+      "taker_buy_vol": 837.1147,
+      "taker_sell_vol": 988.9039,
+      "cum_vol_delta": 2070.1483,
+      "timestamp": 1782297900
+    },
+    {
+      "time": 1782298800000,
+      "taker_buy_vol": 940.106,
+      "taker_sell_vol": 941.4543,
+      "cum_vol_delta": 2068.8,
+      "timestamp": 1782298800
+    },
+    {
+      "time": 1782299700000,
+      "taker_buy_vol": 1215.566,
+      "taker_sell_vol": 1119.6019,
+      "cum_vol_delta": 2164.7641,
+      "timestamp": 1782299700
+    },
+    {
+      "time": 1782300600000,
+      "taker_buy_vol": 691.323,
+      "taker_sell_vol": 594.9966,
+      "cum_vol_delta": 2261.0905,
+      "timestamp": 1782300600
+    },
+    {
+      "time": 1782301500000,
+      "taker_buy_vol": 846.8854,
+      "taker_sell_vol": 1206.6169,
+      "cum_vol_delta": 1901.3591,
+      "timestamp": 1782301500
+    },
+    {
+      "time": 1782302400000,
+      "taker_buy_vol": 1082.0194,
+      "taker_sell_vol": 878.9159,
+      "cum_vol_delta": 2104.4626,
+      "timestamp": 1782302400
+    },
+    {
+      "time": 1782303300000,
+      "taker_buy_vol": 1053.8665,
+      "taker_sell_vol": 674.476,
+      "cum_vol_delta": 2483.8531,
+      "timestamp": 1782303300
+    },
+    {
+      "time": 1782304200000,
+      "taker_buy_vol": 1078.2617,
+      "taker_sell_vol": 1030.7954,
+      "cum_vol_delta": 2531.3194,
+      "timestamp": 1782304200
+    },
+    {
+      "time": 1782305100000,
+      "taker_buy_vol": 1011.5957,
+      "taker_sell_vol": 707.257,
+      "cum_vol_delta": 2835.6581,
+      "timestamp": 1782305100
+    },
+    {
+      "time": 1782306000000,
+      "taker_buy_vol": 577.0713,
+      "taker_sell_vol": 748.6526,
+      "cum_vol_delta": 2664.0768,
+      "timestamp": 1782306000
+    },
+    {
+      "time": 1782306900000,
+      "taker_buy_vol": 1027.3996,
+      "taker_sell_vol": 960.489,
+      "cum_vol_delta": 2730.9874,
+      "timestamp": 1782306900
+    },
+    {
+      "time": 1782307800000,
+      "taker_buy_vol": 1116.2113,
+      "taker_sell_vol": 1249.403,
+      "cum_vol_delta": 2597.7957,
+      "timestamp": 1782307800
+    },
+    {
+      "time": 1782308700000,
+      "taker_buy_vol": 841.8847,
+      "taker_sell_vol": 971.1934,
+      "cum_vol_delta": 2468.487,
+      "timestamp": 1782308700
+    },
+    {
+      "time": 1782309600000,
+      "taker_buy_vol": 938.1475,
+      "taker_sell_vol": 806.1766,
+      "cum_vol_delta": 2600.4578,
+      "timestamp": 1782309600
+    },
+    {
+      "time": 1782310500000,
+      "taker_buy_vol": 1318.9625,
+      "taker_sell_vol": 1091.6056,
+      "cum_vol_delta": 2827.8148,
+      "timestamp": 1782310500
+    },
+    {
+      "time": 1782311400000,
+      "taker_buy_vol": 1035.1638,
+      "taker_sell_vol": 957.2405,
+      "cum_vol_delta": 2905.7381,
+      "timestamp": 1782311400
+    },
+    {
+      "time": 1782312300000,
+      "taker_buy_vol": 1201.6668,
+      "taker_sell_vol": 885.2928,
+      "cum_vol_delta": 3222.1121,
+      "timestamp": 1782312300
+    },
+    {
+      "time": 1782313200000,
+      "taker_buy_vol": 955.2031,
+      "taker_sell_vol": 1040.5632,
+      "cum_vol_delta": 3136.7519,
+      "timestamp": 1782313200
+    },
+    {
+      "time": 1782314100000,
+      "taker_buy_vol": 860.6971,
+      "taker_sell_vol": 960.6426,
+      "cum_vol_delta": 3036.8064,
+      "timestamp": 1782314100
+    },
+    {
+      "time": 1782315000000,
+      "taker_buy_vol": 1102.2247,
+      "taker_sell_vol": 1294.8498,
+      "cum_vol_delta": 2844.1814,
+      "timestamp": 1782315000
+    },
+    {
+      "time": 1782315900000,
+      "taker_buy_vol": 1038.2014,
+      "taker_sell_vol": 1110.9759,
+      "cum_vol_delta": 2771.4068,
+      "timestamp": 1782315900
+    },
+    {
+      "time": 1782316800000,
+      "taker_buy_vol": 941.2531,
+      "taker_sell_vol": 1005.3701,
+      "cum_vol_delta": 2707.2898,
+      "timestamp": 1782316800
+    },
+    {
+      "time": 1782317700000,
+      "taker_buy_vol": 1218.7374,
+      "taker_sell_vol": 974.8427,
+      "cum_vol_delta": 2951.1845,
+      "timestamp": 1782317700
+    },
+    {
+      "time": 1782318600000,
+      "taker_buy_vol": 762.6451,
+      "taker_sell_vol": 1068.9638,
+      "cum_vol_delta": 2644.8658,
+      "timestamp": 1782318600
+    },
+    {
+      "time": 1782319500000,
+      "taker_buy_vol": 1018.3802,
+      "taker_sell_vol": 574.7402,
+      "cum_vol_delta": 3088.5058,
+      "timestamp": 1782319500
+    },
+    {
+      "time": 1782320400000,
+      "taker_buy_vol": 978.4102,
+      "taker_sell_vol": 1078.4023,
+      "cum_vol_delta": 2988.5137,
+      "timestamp": 1782320400
+    },
+    {
+      "time": 1782321300000,
+      "taker_buy_vol": 1114.2353,
+      "taker_sell_vol": 899.2937,
+      "cum_vol_delta": 3203.4552,
+      "timestamp": 1782321300
+    },
+    {
+      "time": 1782322200000,
+      "taker_buy_vol": 942.5212,
+      "taker_sell_vol": 787.4425,
+      "cum_vol_delta": 3358.5339,
+      "timestamp": 1782322200
+    },
+    {
+      "time": 1782323100000,
+      "taker_buy_vol": 1199.3692,
+      "taker_sell_vol": 1234.525,
+      "cum_vol_delta": 3323.3781,
+      "timestamp": 1782323100
+    },
+    {
+      "time": 1782324000000,
+      "taker_buy_vol": 851.2054,
+      "taker_sell_vol": 988.6361,
+      "cum_vol_delta": 3185.9474,
+      "timestamp": 1782324000
+    },
+    {
+      "time": 1782324900000,
+      "taker_buy_vol": 1182.5007,
+      "taker_sell_vol": 1003.7436,
+      "cum_vol_delta": 3364.7045,
+      "timestamp": 1782324900
+    },
+    {
+      "time": 1782325800000,
+      "taker_buy_vol": 904.8152,
+      "taker_sell_vol": 980.1339,
+      "cum_vol_delta": 3289.3858,
+      "timestamp": 1782325800
+    },
+    {
+      "time": 1782326700000,
+      "taker_buy_vol": 937.1042,
+      "taker_sell_vol": 903.6987,
+      "cum_vol_delta": 3322.7913,
+      "timestamp": 1782326700
+    },
+    {
+      "time": 1782327600000,
+      "taker_buy_vol": 713.5571,
+      "taker_sell_vol": 928.583,
+      "cum_vol_delta": 3107.7654,
+      "timestamp": 1782327600
+    },
+    {
+      "time": 1782328500000,
+      "taker_buy_vol": 960.5701,
+      "taker_sell_vol": 974.3904,
+      "cum_vol_delta": 3093.9451,
+      "timestamp": 1782328500
+    },
+    {
+      "time": 1782329400000,
+      "taker_buy_vol": 950.6774,
+      "taker_sell_vol": 728.0444,
+      "cum_vol_delta": 3316.5781,
+      "timestamp": 1782329400
+    },
+    {
+      "time": 1782330300000,
+      "taker_buy_vol": 859.2237,
+      "taker_sell_vol": 898.2884,
+      "cum_vol_delta": 3277.5134,
+      "timestamp": 1782330300
+    },
+    {
+      "time": 1782331200000,
+      "taker_buy_vol": 903.8799,
+      "taker_sell_vol": 1032.3522,
+      "cum_vol_delta": 3149.0411,
+      "timestamp": 1782331200
+    },
+    {
+      "time": 1782332100000,
+      "taker_buy_vol": 986.9861,
+      "taker_sell_vol": 929.8936,
+      "cum_vol_delta": 3206.1336,
+      "timestamp": 1782332100
+    },
+    {
+      "time": 1782333000000,
+      "taker_buy_vol": 946.2403,
+      "taker_sell_vol": 1110.5541,
+      "cum_vol_delta": 3041.8199,
+      "timestamp": 1782333000
+    },
+    {
+      "time": 1782333900000,
+      "taker_buy_vol": 1043.1914,
+      "taker_sell_vol": 810.1068,
+      "cum_vol_delta": 3274.9045,
+      "timestamp": 1782333900
+    },
+    {
+      "time": 1782334800000,
+      "taker_buy_vol": 638.0044,
+      "taker_sell_vol": 1128.4053,
+      "cum_vol_delta": 2784.5036,
+      "timestamp": 1782334800
+    },
+    {
+      "time": 1782335700000,
+      "taker_buy_vol": 1059.8904,
+      "taker_sell_vol": 1332.9012,
+      "cum_vol_delta": 2511.4927,
+      "timestamp": 1782335700
+    },
+    {
+      "time": 1782336600000,
+      "taker_buy_vol": 1083.9234,
+      "taker_sell_vol": 1181.6968,
+      "cum_vol_delta": 2413.7193,
+      "timestamp": 1782336600
+    },
+    {
+      "time": 1782337500000,
+      "taker_buy_vol": 1209.9029,
+      "taker_sell_vol": 1205.3173,
+      "cum_vol_delta": 2418.3049,
+      "timestamp": 1782337500
+    },
+    {
+      "time": 1782338400000,
+      "taker_buy_vol": 1215.3119,
+      "taker_sell_vol": 647.1469,
+      "cum_vol_delta": 2986.4699,
+      "timestamp": 1782338400
+    },
+    {
+      "time": 1782339300000,
+      "taker_buy_vol": 856.8404,
+      "taker_sell_vol": 1093.4438,
+      "cum_vol_delta": 2749.8665,
+      "timestamp": 1782339300
+    },
+    {
+      "time": 1782340200000,
+      "taker_buy_vol": 986.1449,
+      "taker_sell_vol": 1117.7661,
+      "cum_vol_delta": 2618.2453,
+      "timestamp": 1782340200
+    },
+    {
+      "time": 1782341100000,
+      "taker_buy_vol": 1154.2419,
+      "taker_sell_vol": 1098.5376,
+      "cum_vol_delta": 2673.9496,
+      "timestamp": 1782341100
+    },
+    {
+      "time": 1782342000000,
+      "taker_buy_vol": 1092.1486,
+      "taker_sell_vol": 878.2635,
+      "cum_vol_delta": 2887.8346,
+      "timestamp": 1782342000
+    },
+    {
+      "time": 1782342900000,
+      "taker_buy_vol": 1177.1281,
+      "taker_sell_vol": 882.6637,
+      "cum_vol_delta": 3182.299,
+      "timestamp": 1782342900
+    },
+    {
+      "time": 1782343800000,
+      "taker_buy_vol": 938.1948,
+      "taker_sell_vol": 1075.9494,
+      "cum_vol_delta": 3044.5444,
+      "timestamp": 1782343800
+    },
+    {
+      "time": 1782344700000,
+      "taker_buy_vol": 1018.3775,
+      "taker_sell_vol": 828.06,
+      "cum_vol_delta": 3234.8619,
+      "timestamp": 1782344700
+    },
+    {
+      "time": 1782345600000,
+      "taker_buy_vol": 1102.2643,
+      "taker_sell_vol": 829.1226,
+      "cum_vol_delta": 3508.0035,
+      "timestamp": 1782345600
+    },
+    {
+      "time": 1782346500000,
+      "taker_buy_vol": 1127.5692,
+      "taker_sell_vol": 572.4194,
+      "cum_vol_delta": 4063.1534,
+      "timestamp": 1782346500
+    },
+    {
+      "time": 1782347400000,
+      "taker_buy_vol": 1181.1485,
+      "taker_sell_vol": 1139.3481,
+      "cum_vol_delta": 4104.9538,
+      "timestamp": 1782347400
+    },
+    {
+      "time": 1782348300000,
+      "taker_buy_vol": 1158.324,
+      "taker_sell_vol": 1050.3287,
+      "cum_vol_delta": 4212.9491,
+      "timestamp": 1782348300
+    },
+    {
+      "time": 1782349200000,
+      "taker_buy_vol": 868.2236,
+      "taker_sell_vol": 1012.6236,
+      "cum_vol_delta": 4068.5491,
+      "timestamp": 1782349200
+    },
+    {
+      "time": 1782350100000,
+      "taker_buy_vol": 961.7491,
+      "taker_sell_vol": 887.3679,
+      "cum_vol_delta": 4142.9304,
+      "timestamp": 1782350100
+    },
+    {
+      "time": 1782351000000,
+      "taker_buy_vol": 848.5322,
+      "taker_sell_vol": 927.2101,
+      "cum_vol_delta": 4064.2525,
+      "timestamp": 1782351000
+    },
+    {
+      "time": 1782351900000,
+      "taker_buy_vol": 972.5953,
+      "taker_sell_vol": 945.8387,
+      "cum_vol_delta": 4091.0091,
+      "timestamp": 1782351900
+    },
+    {
+      "time": 1782352800000,
+      "taker_buy_vol": 887.5508,
+      "taker_sell_vol": 865.8715,
+      "cum_vol_delta": 4112.6884,
+      "timestamp": 1782352800
+    },
+    {
+      "time": 1782353700000,
+      "taker_buy_vol": 881.3829,
+      "taker_sell_vol": 860.461,
+      "cum_vol_delta": 4133.6104,
+      "timestamp": 1782353700
+    },
+    {
+      "time": 1782354600000,
+      "taker_buy_vol": 1104.5105,
+      "taker_sell_vol": 887.4091,
+      "cum_vol_delta": 4350.7119,
+      "timestamp": 1782354600
+    },
+    {
+      "time": 1782355500000,
+      "taker_buy_vol": 890.9113,
+      "taker_sell_vol": 1171.1822,
+      "cum_vol_delta": 4070.441,
+      "timestamp": 1782355500
+    },
+    {
+      "time": 1782356400000,
+      "taker_buy_vol": 1179.743,
+      "taker_sell_vol": 1030.4381,
+      "cum_vol_delta": 4219.7459,
+      "timestamp": 1782356400
+    },
+    {
+      "time": 1782357300000,
+      "taker_buy_vol": 923.6863,
+      "taker_sell_vol": 1164.5549,
+      "cum_vol_delta": 3978.8773,
+      "timestamp": 1782357300
+    },
+    {
+      "time": 1782358200000,
+      "taker_buy_vol": 961.6526,
+      "taker_sell_vol": 1102.9519,
+      "cum_vol_delta": 3837.5779,
+      "timestamp": 1782358200
+    },
+    {
+      "time": 1782359100000,
+      "taker_buy_vol": 954.6199,
+      "taker_sell_vol": 901.6005,
+      "cum_vol_delta": 3890.5974,
+      "timestamp": 1782359100
+    },
+    {
+      "time": 1782360000000,
+      "taker_buy_vol": 946.5708,
+      "taker_sell_vol": 995.1095,
+      "cum_vol_delta": 3842.0587,
+      "timestamp": 1782360000
+    },
+    {
+      "time": 1782360900000,
+      "taker_buy_vol": 871.6023,
+      "taker_sell_vol": 950.6426,
+      "cum_vol_delta": 3763.0184,
+      "timestamp": 1782360900
+    },
+    {
+      "time": 1782361800000,
+      "taker_buy_vol": 913.0182,
+      "taker_sell_vol": 1099.4871,
+      "cum_vol_delta": 3576.5495,
+      "timestamp": 1782361800
+    },
+    {
+      "time": 1782362700000,
+      "taker_buy_vol": 1179.1653,
+      "taker_sell_vol": 1339.7553,
+      "cum_vol_delta": 3415.9594,
+      "timestamp": 1782362700
+    },
+    {
+      "time": 1782363600000,
+      "taker_buy_vol": 1079.1566,
+      "taker_sell_vol": 583.092,
+      "cum_vol_delta": 3912.0241,
+      "timestamp": 1782363600
+    },
+    {
+      "time": 1782364500000,
+      "taker_buy_vol": 903.9947,
+      "taker_sell_vol": 1092.683,
+      "cum_vol_delta": 3723.3358,
+      "timestamp": 1782364500
+    },
+    {
+      "time": 1782365400000,
+      "taker_buy_vol": 1289.9086,
+      "taker_sell_vol": 892.7486,
+      "cum_vol_delta": 4120.4958,
+      "timestamp": 1782365400
+    },
+    {
+      "time": 1782366300000,
+      "taker_buy_vol": 826.675,
+      "taker_sell_vol": 939.2501,
+      "cum_vol_delta": 4007.9208,
+      "timestamp": 1782366300
+    },
+    {
+      "time": 1782367200000,
+      "taker_buy_vol": 1115.9606,
+      "taker_sell_vol": 991.3041,
+      "cum_vol_delta": 4132.5773,
+      "timestamp": 1782367200
+    },
+    {
+      "time": 1782368100000,
+      "taker_buy_vol": 910.3236,
+      "taker_sell_vol": 1082.2488,
+      "cum_vol_delta": 3960.6521,
+      "timestamp": 1782368100
+    },
+    {
+      "time": 1782369000000,
+      "taker_buy_vol": 1147.25,
+      "taker_sell_vol": 1098.5536,
+      "cum_vol_delta": 4009.3485,
+      "timestamp": 1782369000
+    },
+    {
+      "time": 1782369900000,
+      "taker_buy_vol": 1074.6696,
+      "taker_sell_vol": 843.6134,
+      "cum_vol_delta": 4240.4046,
+      "timestamp": 1782369900
+    },
+    {
+      "time": 1782370800000,
+      "taker_buy_vol": 1109.9907,
+      "taker_sell_vol": 1067.139,
+      "cum_vol_delta": 4283.2564,
+      "timestamp": 1782370800
+    },
+    {
+      "time": 1782371700000,
+      "taker_buy_vol": 1244.386,
+      "taker_sell_vol": 1165.1804,
+      "cum_vol_delta": 4362.462,
+      "timestamp": 1782371700
+    },
+    {
+      "time": 1782372600000,
+      "taker_buy_vol": 974.1398,
+      "taker_sell_vol": 941.5405,
+      "cum_vol_delta": 4395.0613,
+      "timestamp": 1782372600
+    },
+    {
+      "time": 1782373500000,
+      "taker_buy_vol": 1218.0896,
+      "taker_sell_vol": 1138.0685,
+      "cum_vol_delta": 4475.0823,
+      "timestamp": 1782373500
+    },
+    {
+      "time": 1782374400000,
+      "taker_buy_vol": 875.8646,
+      "taker_sell_vol": 1009.822,
+      "cum_vol_delta": 4341.1249,
+      "timestamp": 1782374400
+    },
+    {
+      "time": 1782375300000,
+      "taker_buy_vol": 827.8331,
+      "taker_sell_vol": 769.5292,
+      "cum_vol_delta": 4399.4288,
+      "timestamp": 1782375300
+    },
+    {
+      "time": 1782376200000,
+      "taker_buy_vol": 1096.2759,
+      "taker_sell_vol": 1032.534,
+      "cum_vol_delta": 4463.1706,
+      "timestamp": 1782376200
+    },
+    {
+      "time": 1782377100000,
+      "taker_buy_vol": 705.1942,
+      "taker_sell_vol": 825.1518,
+      "cum_vol_delta": 4343.213,
+      "timestamp": 1782377100
+    },
+    {
+      "time": 1782378000000,
+      "taker_buy_vol": 1030.0234,
+      "taker_sell_vol": 1304.0872,
+      "cum_vol_delta": 4069.1492,
+      "timestamp": 1782378000
+    },
+    {
+      "time": 1782378900000,
+      "taker_buy_vol": 854.6948,
+      "taker_sell_vol": 961.8501,
+      "cum_vol_delta": 3961.994,
+      "timestamp": 1782378900
+    },
+    {
+      "time": 1782379800000,
+      "taker_buy_vol": 1281.6657,
+      "taker_sell_vol": 950.2407,
+      "cum_vol_delta": 4293.419,
+      "timestamp": 1782379800
+    },
+    {
+      "time": 1782380700000,
+      "taker_buy_vol": 955.6149,
+      "taker_sell_vol": 893.9604,
+      "cum_vol_delta": 4355.0735,
+      "timestamp": 1782380700
+    },
+    {
+      "time": 1782381600000,
+      "taker_buy_vol": 904.0921,
+      "taker_sell_vol": 995.2979,
+      "cum_vol_delta": 4263.8677,
+      "timestamp": 1782381600
+    },
+    {
+      "time": 1782382500000,
+      "taker_buy_vol": 804.6734,
+      "taker_sell_vol": 1053.8893,
+      "cum_vol_delta": 4014.6518,
+      "timestamp": 1782382500
+    },
+    {
+      "time": 1782383400000,
+      "taker_buy_vol": 1125.2468,
+      "taker_sell_vol": 1077.2904,
+      "cum_vol_delta": 4062.6082,
+      "timestamp": 1782383400
+    },
+    {
+      "time": 1782384300000,
+      "taker_buy_vol": 643.016,
+      "taker_sell_vol": 506.5604,
+      "cum_vol_delta": 4199.0638,
+      "timestamp": 1782384300
+    },
+    {
+      "time": 1782385200000,
+      "taker_buy_vol": 1116.2478,
+      "taker_sell_vol": 1300.5848,
+      "cum_vol_delta": 4014.7268,
+      "timestamp": 1782385200
+    },
+    {
+      "time": 1782386100000,
+      "taker_buy_vol": 1240.4812,
+      "taker_sell_vol": 986.7933,
+      "cum_vol_delta": 4268.4147,
+      "timestamp": 1782386100
+    },
+    {
+      "time": 1782387000000,
+      "taker_buy_vol": 938.6023,
+      "taker_sell_vol": 847.0408,
+      "cum_vol_delta": 4359.9761,
+      "timestamp": 1782387000
+    },
+    {
+      "time": 1782387900000,
+      "taker_buy_vol": 606.1655,
+      "taker_sell_vol": 1011.1115,
+      "cum_vol_delta": 3955.0301,
+      "timestamp": 1782387900
+    },
+    {
+      "time": 1782388800000,
+      "taker_buy_vol": 993.9941,
+      "taker_sell_vol": 1376.9408,
+      "cum_vol_delta": 3572.0834,
+      "timestamp": 1782388800
+    },
+    {
+      "time": 1782389700000,
+      "taker_buy_vol": 1117.6297,
+      "taker_sell_vol": 981.4721,
+      "cum_vol_delta": 3708.241,
+      "timestamp": 1782389700
+    },
+    {
+      "time": 1782390600000,
+      "taker_buy_vol": 1128.6874,
+      "taker_sell_vol": 519.0789,
+      "cum_vol_delta": 4317.8496,
+      "timestamp": 1782390600
+    },
+    {
+      "time": 1782391500000,
+      "taker_buy_vol": 1010.1642,
+      "taker_sell_vol": 738.1663,
+      "cum_vol_delta": 4589.8475,
+      "timestamp": 1782391500
+    },
+    {
+      "time": 1782392400000,
+      "taker_buy_vol": 1124.6798,
+      "taker_sell_vol": 1176.3933,
+      "cum_vol_delta": 4538.134,
+      "timestamp": 1782392400
+    },
+    {
+      "time": 1782393300000,
+      "taker_buy_vol": 1175.4737,
+      "taker_sell_vol": 1030.6503,
+      "cum_vol_delta": 4682.9574,
+      "timestamp": 1782393300
+    },
+    {
+      "time": 1782394200000,
+      "taker_buy_vol": 1115.6445,
+      "taker_sell_vol": 763.6191,
+      "cum_vol_delta": 5034.9828,
+      "timestamp": 1782394200
+    },
+    {
+      "time": 1782395100000,
+      "taker_buy_vol": 1013.8854,
+      "taker_sell_vol": 820.7753,
+      "cum_vol_delta": 5228.0929,
+      "timestamp": 1782395100
+    },
+    {
+      "time": 1782396000000,
+      "taker_buy_vol": 999.6634,
+      "taker_sell_vol": 933.4155,
+      "cum_vol_delta": 5294.3408,
+      "timestamp": 1782396000
+    },
+    {
+      "time": 1782396900000,
+      "taker_buy_vol": 953.9055,
+      "taker_sell_vol": 853.1317,
+      "cum_vol_delta": 5395.1145,
+      "timestamp": 1782396900
+    },
+    {
+      "time": 1782397800000,
+      "taker_buy_vol": 860.5796,
+      "taker_sell_vol": 1055.7574,
+      "cum_vol_delta": 5199.9367,
+      "timestamp": 1782397800
+    },
+    {
+      "time": 1782398700000,
+      "taker_buy_vol": 1111.6293,
+      "taker_sell_vol": 748.1943,
+      "cum_vol_delta": 5563.3717,
+      "timestamp": 1782398700
+    },
+    {
+      "time": 1782399600000,
+      "taker_buy_vol": 559.3436,
+      "taker_sell_vol": 821.0494,
+      "cum_vol_delta": 5301.6659,
+      "timestamp": 1782399600
+    },
+    {
+      "time": 1782400500000,
+      "taker_buy_vol": 591.1814,
+      "taker_sell_vol": 916.0942,
+      "cum_vol_delta": 4976.7531,
+      "timestamp": 1782400500
+    },
+    {
+      "time": 1782401400000,
+      "taker_buy_vol": 1027.8366,
+      "taker_sell_vol": 1348.579,
+      "cum_vol_delta": 4656.0107,
+      "timestamp": 1782401400
+    },
+    {
+      "time": 1782402300000,
+      "taker_buy_vol": 951.7931,
+      "taker_sell_vol": 1082.034,
+      "cum_vol_delta": 4525.7698,
+      "timestamp": 1782402300
+    },
+    {
+      "time": 1782403200000,
+      "taker_buy_vol": 542.7522,
+      "taker_sell_vol": 1254.0949,
+      "cum_vol_delta": 3814.4271,
+      "timestamp": 1782403200
+    },
+    {
+      "time": 1782404100000,
+      "taker_buy_vol": 838.3717,
+      "taker_sell_vol": 922.4706,
+      "cum_vol_delta": 3730.3282,
+      "timestamp": 1782404100
+    },
+    {
+      "time": 1782405000000,
+      "taker_buy_vol": 742.3382,
+      "taker_sell_vol": 907.3321,
+      "cum_vol_delta": 3565.3343,
+      "timestamp": 1782405000
+    },
+    {
+      "time": 1782405900000,
+      "taker_buy_vol": 1160.1439,
+      "taker_sell_vol": 1130.6207,
+      "cum_vol_delta": 3594.8575,
+      "timestamp": 1782405900
+    },
+    {
+      "time": 1782406800000,
+      "taker_buy_vol": 971.8664,
+      "taker_sell_vol": 970.5232,
+      "cum_vol_delta": 3596.2007,
+      "timestamp": 1782406800
+    },
+    {
+      "time": 1782407700000,
+      "taker_buy_vol": 999.4284,
+      "taker_sell_vol": 978.2776,
+      "cum_vol_delta": 3617.3515,
+      "timestamp": 1782407700
+    },
+    {
+      "time": 1782408600000,
+      "taker_buy_vol": 941.4472,
+      "taker_sell_vol": 1083.1356,
+      "cum_vol_delta": 3475.663,
+      "timestamp": 1782408600
+    },
+    {
+      "time": 1782409500000,
+      "taker_buy_vol": 780.1889,
+      "taker_sell_vol": 926.3809,
+      "cum_vol_delta": 3329.4711,
+      "timestamp": 1782409500
+    },
+    {
+      "time": 1782410400000,
+      "taker_buy_vol": 824.8074,
+      "taker_sell_vol": 1111.8948,
+      "cum_vol_delta": 3042.3836,
+      "timestamp": 1782410400
+    },
+    {
+      "time": 1782411300000,
+      "taker_buy_vol": 894.5351,
+      "taker_sell_vol": 993.9551,
+      "cum_vol_delta": 2942.9637,
+      "timestamp": 1782411300
+    },
+    {
+      "time": 1782412200000,
+      "taker_buy_vol": 944.4837,
+      "taker_sell_vol": 635.6545,
+      "cum_vol_delta": 3251.7929,
+      "timestamp": 1782412200
+    },
+    {
+      "time": 1782413100000,
+      "taker_buy_vol": 1222.0409,
+      "taker_sell_vol": 1304.8936,
+      "cum_vol_delta": 3168.9402,
+      "timestamp": 1782413100
+    },
+    {
+      "time": 1782414000000,
+      "taker_buy_vol": 1025.6224,
+      "taker_sell_vol": 979.7688,
+      "cum_vol_delta": 3214.7938,
+      "timestamp": 1782414000
+    },
+    {
+      "time": 1782414900000,
+      "taker_buy_vol": 1471.4658,
+      "taker_sell_vol": 1203.7416,
+      "cum_vol_delta": 3482.518,
+      "timestamp": 1782414900
+    },
+    {
+      "time": 1782415800000,
+      "taker_buy_vol": 627.6445,
+      "taker_sell_vol": 878.4033,
+      "cum_vol_delta": 3231.7592,
+      "timestamp": 1782415800
+    },
+    {
+      "time": 1782416700000,
+      "taker_buy_vol": 738.2839,
+      "taker_sell_vol": 1115.2169,
+      "cum_vol_delta": 2854.8261,
+      "timestamp": 1782416700
+    },
+    {
+      "time": 1782417600000,
+      "taker_buy_vol": 1113.2545,
+      "taker_sell_vol": 934.7786,
+      "cum_vol_delta": 3033.3021,
+      "timestamp": 1782417600
+    },
+    {
+      "time": 1782418500000,
+      "taker_buy_vol": 946.8145,
+      "taker_sell_vol": 785.0859,
+      "cum_vol_delta": 3195.0307,
+      "timestamp": 1782418500
+    },
+    {
+      "time": 1782419400000,
+      "taker_buy_vol": 1168.7417,
+      "taker_sell_vol": 918.9629,
+      "cum_vol_delta": 3444.8094,
+      "timestamp": 1782419400
+    },
+    {
+      "time": 1782420300000,
+      "taker_buy_vol": 1108.1774,
+      "taker_sell_vol": 1072.8026,
+      "cum_vol_delta": 3480.1843,
+      "timestamp": 1782420300
+    },
+    {
+      "time": 1782421200000,
+      "taker_buy_vol": 711.9648,
+      "taker_sell_vol": 1384.9617,
+      "cum_vol_delta": 2807.1873,
+      "timestamp": 1782421200
+    },
+    {
+      "time": 1782422100000,
+      "taker_buy_vol": 1215.4654,
+      "taker_sell_vol": 1077.7132,
+      "cum_vol_delta": 2944.9395,
+      "timestamp": 1782422100
+    },
+    {
+      "time": 1782423000000,
+      "taker_buy_vol": 818.8897,
+      "taker_sell_vol": 906.568,
+      "cum_vol_delta": 2857.2612,
+      "timestamp": 1782423000
+    },
+    {
+      "time": 1782423900000,
+      "taker_buy_vol": 1143.068,
+      "taker_sell_vol": 749.4407,
+      "cum_vol_delta": 3250.8885,
+      "timestamp": 1782423900
+    },
+    {
+      "time": 1782424800000,
+      "taker_buy_vol": 1204.6229,
+      "taker_sell_vol": 1189.5375,
+      "cum_vol_delta": 3265.974,
+      "timestamp": 1782424800
+    },
+    {
+      "time": 1782425700000,
+      "taker_buy_vol": 920.603,
+      "taker_sell_vol": 905.7687,
+      "cum_vol_delta": 3280.8083,
+      "timestamp": 1782425700
+    },
+    {
+      "time": 1782426600000,
+      "taker_buy_vol": 1104.9382,
+      "taker_sell_vol": 762.1581,
+      "cum_vol_delta": 3623.5884,
+      "timestamp": 1782426600
+    },
+    {
+      "time": 1782427500000,
+      "taker_buy_vol": 1243.0609,
+      "taker_sell_vol": 640.4743,
+      "cum_vol_delta": 4226.1751,
+      "timestamp": 1782427500
+    },
+    {
+      "time": 1782428400000,
+      "taker_buy_vol": 903.2647,
+      "taker_sell_vol": 822.7991,
+      "cum_vol_delta": 4306.6407,
+      "timestamp": 1782428400
+    },
+    {
+      "time": 1782429300000,
+      "taker_buy_vol": 847.9648,
+      "taker_sell_vol": 1247.9817,
+      "cum_vol_delta": 3906.6238,
+      "timestamp": 1782429300
+    },
+    {
+      "time": 1782430200000,
+      "taker_buy_vol": 1018.3831,
+      "taker_sell_vol": 1217.608,
+      "cum_vol_delta": 3707.3989,
+      "timestamp": 1782430200
+    },
+    {
+      "time": 1782431100000,
+      "taker_buy_vol": 948.4013,
+      "taker_sell_vol": 808.4919,
+      "cum_vol_delta": 3847.3083,
+      "timestamp": 1782431100
+    },
+    {
+      "time": 1782432000000,
+      "taker_buy_vol": 712.097,
+      "taker_sell_vol": 867.1693,
+      "cum_vol_delta": 3692.236,
+      "timestamp": 1782432000
+    },
+    {
+      "time": 1782432900000,
+      "taker_buy_vol": 853.4372,
+      "taker_sell_vol": 809.9288,
+      "cum_vol_delta": 3735.7444,
+      "timestamp": 1782432900
+    },
+    {
+      "time": 1782433800000,
+      "taker_buy_vol": 912.5061,
+      "taker_sell_vol": 867.4004,
+      "cum_vol_delta": 3780.8501,
+      "timestamp": 1782433800
+    },
+    {
+      "time": 1782434700000,
+      "taker_buy_vol": 889.663,
+      "taker_sell_vol": 1200.629,
+      "cum_vol_delta": 3469.884,
+      "timestamp": 1782434700
+    },
+    {
+      "time": 1782435600000,
+      "taker_buy_vol": 1093.7119,
+      "taker_sell_vol": 1012.4249,
+      "cum_vol_delta": 3551.171,
+      "timestamp": 1782435600
+    },
+    {
+      "time": 1782436500000,
+      "taker_buy_vol": 1019.4277,
+      "taker_sell_vol": 851.416,
+      "cum_vol_delta": 3719.1828,
+      "timestamp": 1782436500
+    },
+    {
+      "time": 1782437400000,
+      "taker_buy_vol": 1010.9968,
+      "taker_sell_vol": 1150.6682,
+      "cum_vol_delta": 3579.5114,
+      "timestamp": 1782437400
+    },
+    {
+      "time": 1782438300000,
+      "taker_buy_vol": 835.355,
+      "taker_sell_vol": 954.4809,
+      "cum_vol_delta": 3460.3856,
+      "timestamp": 1782438300
+    },
+    {
+      "time": 1782439200000,
+      "taker_buy_vol": 1057.4935,
+      "taker_sell_vol": 895.6665,
+      "cum_vol_delta": 3622.2126,
+      "timestamp": 1782439200
+    },
+    {
+      "time": 1782440100000,
+      "taker_buy_vol": 873.3642,
+      "taker_sell_vol": 967.6606,
+      "cum_vol_delta": 3527.9162,
+      "timestamp": 1782440100
+    },
+    {
+      "time": 1782441000000,
+      "taker_buy_vol": 898.528,
+      "taker_sell_vol": 1053.7215,
+      "cum_vol_delta": 3372.7227,
+      "timestamp": 1782441000
+    },
+    {
+      "time": 1782441900000,
+      "taker_buy_vol": 754.5185,
+      "taker_sell_vol": 955.7988,
+      "cum_vol_delta": 3171.4424,
+      "timestamp": 1782441900
+    },
+    {
+      "time": 1782442800000,
+      "taker_buy_vol": 1056.4866,
+      "taker_sell_vol": 931.7471,
+      "cum_vol_delta": 3296.1818,
+      "timestamp": 1782442800
+    },
+    {
+      "time": 1782443700000,
+      "taker_buy_vol": 864.7168,
+      "taker_sell_vol": 881.8796,
+      "cum_vol_delta": 3279.019,
+      "timestamp": 1782443700
+    },
+    {
+      "time": 1782444600000,
+      "taker_buy_vol": 1221.8973,
+      "taker_sell_vol": 923.064,
+      "cum_vol_delta": 3577.8522,
+      "timestamp": 1782444600
+    },
+    {
+      "time": 1782445500000,
+      "taker_buy_vol": 976.8529,
+      "taker_sell_vol": 1006.0306,
+      "cum_vol_delta": 3548.6745,
+      "timestamp": 1782445500
+    },
+    {
+      "time": 1782446400000,
+      "taker_buy_vol": 843.1003,
+      "taker_sell_vol": 799.2,
+      "cum_vol_delta": 3592.5748,
+      "timestamp": 1782446400
+    },
+    {
+      "time": 1782447300000,
+      "taker_buy_vol": 1245.8694,
+      "taker_sell_vol": 1128.1153,
+      "cum_vol_delta": 3710.3289,
+      "timestamp": 1782447300
+    },
+    {
+      "time": 1782448200000,
+      "taker_buy_vol": 756.3304,
+      "taker_sell_vol": 799.5457,
+      "cum_vol_delta": 3667.1135,
+      "timestamp": 1782448200
+    },
+    {
+      "time": 1782449100000,
+      "taker_buy_vol": 1364.5594,
+      "taker_sell_vol": 935.5901,
+      "cum_vol_delta": 4096.0828,
+      "timestamp": 1782449100
+    },
+    {
+      "time": 1782450000000,
+      "taker_buy_vol": 1264.7414,
+      "taker_sell_vol": 652.853,
+      "cum_vol_delta": 4707.9713,
+      "timestamp": 1782450000
+    },
+    {
+      "time": 1782450900000,
+      "taker_buy_vol": 943.8256,
+      "taker_sell_vol": 1161.9624,
+      "cum_vol_delta": 4489.8345,
+      "timestamp": 1782450900
+    },
+    {
+      "time": 1782451800000,
+      "taker_buy_vol": 768.7589,
+      "taker_sell_vol": 877.6792,
+      "cum_vol_delta": 4380.9141,
+      "timestamp": 1782451800
+    },
+    {
+      "time": 1782452700000,
+      "taker_buy_vol": 1029.1885,
+      "taker_sell_vol": 1024.028,
+      "cum_vol_delta": 4386.0747,
+      "timestamp": 1782452700
+    },
+    {
+      "time": 1782453600000,
+      "taker_buy_vol": 694.3128,
+      "taker_sell_vol": 1049.9412,
+      "cum_vol_delta": 4030.4462,
+      "timestamp": 1782453600
+    },
+    {
+      "time": 1782454500000,
+      "taker_buy_vol": 727.7874,
+      "taker_sell_vol": 966.2656,
+      "cum_vol_delta": 3791.968,
+      "timestamp": 1782454500
+    },
+    {
+      "time": 1782455400000,
+      "taker_buy_vol": 946.6443,
+      "taker_sell_vol": 845.9203,
+      "cum_vol_delta": 3892.6919,
+      "timestamp": 1782455400
+    },
+    {
+      "time": 1782456300000,
+      "taker_buy_vol": 1240.7355,
+      "taker_sell_vol": 652.1757,
+      "cum_vol_delta": 4481.2517,
+      "timestamp": 1782456300
+    },
+    {
+      "time": 1782457200000,
+      "taker_buy_vol": 1060.3671,
+      "taker_sell_vol": 1013.6217,
+      "cum_vol_delta": 4527.9971,
+      "timestamp": 1782457200
+    },
+    {
+      "time": 1782458100000,
+      "taker_buy_vol": 1433.7521,
+      "taker_sell_vol": 846.2043,
+      "cum_vol_delta": 5115.5449,
+      "timestamp": 1782458100
+    },
+    {
+      "time": 1782459000000,
+      "taker_buy_vol": 894.59,
+      "taker_sell_vol": 997.9156,
+      "cum_vol_delta": 5012.2194,
+      "timestamp": 1782459000
+    },
+    {
+      "time": 1782459900000,
+      "taker_buy_vol": 941.872,
+      "taker_sell_vol": 1289.3327,
+      "cum_vol_delta": 4664.7588,
+      "timestamp": 1782459900
+    },
+    {
+      "time": 1782460800000,
+      "taker_buy_vol": 907.374,
+      "taker_sell_vol": 1259.9675,
+      "cum_vol_delta": 4312.1653,
+      "timestamp": 1782460800
+    },
+    {
+      "time": 1782461700000,
+      "taker_buy_vol": 982.2035,
+      "taker_sell_vol": 1117.7431,
+      "cum_vol_delta": 4176.6257,
+      "timestamp": 1782461700
+    },
+    {
+      "time": 1782462600000,
+      "taker_buy_vol": 1128.4806,
+      "taker_sell_vol": 782.1591,
+      "cum_vol_delta": 4522.9472,
+      "timestamp": 1782462600
+    },
+    {
+      "time": 1782463500000,
+      "taker_buy_vol": 1052.5319,
+      "taker_sell_vol": 1082.0044,
+      "cum_vol_delta": 4493.4746,
+      "timestamp": 1782463500
+    },
+    {
+      "time": 1782464400000,
+      "taker_buy_vol": 1184.2452,
+      "taker_sell_vol": 865.2001,
+      "cum_vol_delta": 4812.5197,
+      "timestamp": 1782464400
+    },
+    {
+      "time": 1782465300000,
+      "taker_buy_vol": 765.0366,
+      "taker_sell_vol": 1155.65,
+      "cum_vol_delta": 4421.9062,
+      "timestamp": 1782465300
+    },
+    {
+      "time": 1782466200000,
+      "taker_buy_vol": 1270.6469,
+      "taker_sell_vol": 555.2479,
+      "cum_vol_delta": 5137.3053,
+      "timestamp": 1782466200
+    },
+    {
+      "time": 1782467100000,
+      "taker_buy_vol": 884.8314,
+      "taker_sell_vol": 984.8877,
+      "cum_vol_delta": 5037.2489,
+      "timestamp": 1782467100
+    },
+    {
+      "time": 1782468000000,
+      "taker_buy_vol": 1060.4488,
+      "taker_sell_vol": 988.1798,
+      "cum_vol_delta": 5109.5179,
+      "timestamp": 1782468000
+    },
+    {
+      "time": 1782468900000,
+      "taker_buy_vol": 975.1012,
+      "taker_sell_vol": 950.7601,
+      "cum_vol_delta": 5133.859,
+      "timestamp": 1782468900
+    },
+    {
+      "time": 1782469800000,
+      "taker_buy_vol": 964.5617,
+      "taker_sell_vol": 989.8551,
+      "cum_vol_delta": 5108.5657,
+      "timestamp": 1782469800
+    },
+    {
+      "time": 1782470700000,
+      "taker_buy_vol": 808.7746,
+      "taker_sell_vol": 890.2434,
+      "cum_vol_delta": 5027.0969,
+      "timestamp": 1782470700
+    },
+    {
+      "time": 1782471600000,
+      "taker_buy_vol": 1305.4167,
+      "taker_sell_vol": 629.4357,
+      "cum_vol_delta": 5703.0778,
+      "timestamp": 1782471600
+    },
+    {
+      "time": 1782472500000,
+      "taker_buy_vol": 682.4234,
+      "taker_sell_vol": 495.8997,
+      "cum_vol_delta": 5889.6016,
+      "timestamp": 1782472500
+    },
+    {
+      "time": 1782473400000,
+      "taker_buy_vol": 741.575,
+      "taker_sell_vol": 1070.5455,
+      "cum_vol_delta": 5560.631,
+      "timestamp": 1782473400
+    },
+    {
+      "time": 1782474300000,
+      "taker_buy_vol": 863.2279,
+      "taker_sell_vol": 771.511,
+      "cum_vol_delta": 5652.3479,
+      "timestamp": 1782474300
+    },
+    {
+      "time": 1782475200000,
+      "taker_buy_vol": 719.912,
+      "taker_sell_vol": 1488.1474,
+      "cum_vol_delta": 4884.1125,
+      "timestamp": 1782475200
+    },
+    {
+      "time": 1782476100000,
+      "taker_buy_vol": 1250.9041,
+      "taker_sell_vol": 808.6566,
+      "cum_vol_delta": 5326.36,
+      "timestamp": 1782476100
+    },
+    {
+      "time": 1782477000000,
+      "taker_buy_vol": 1131.7227,
+      "taker_sell_vol": 845.3371,
+      "cum_vol_delta": 5612.7456,
+      "timestamp": 1782477000
+    },
+    {
+      "time": 1782477900000,
+      "taker_buy_vol": 1271.3223,
+      "taker_sell_vol": 1022.0847,
+      "cum_vol_delta": 5861.9832,
+      "timestamp": 1782477900
+    },
+    {
+      "time": 1782478800000,
+      "taker_buy_vol": 961.3945,
+      "taker_sell_vol": 1309.9926,
+      "cum_vol_delta": 5513.3851,
+      "timestamp": 1782478800
+    },
+    {
+      "time": 1782479700000,
+      "taker_buy_vol": 998.7255,
+      "taker_sell_vol": 970.4342,
+      "cum_vol_delta": 5541.6764,
+      "timestamp": 1782479700
+    },
+    {
+      "time": 1782480600000,
+      "taker_buy_vol": 860.3635,
+      "taker_sell_vol": 1201.6894,
+      "cum_vol_delta": 5200.3505,
+      "timestamp": 1782480600
+    },
+    {
+      "time": 1782481500000,
+      "taker_buy_vol": 1239.9569,
+      "taker_sell_vol": 1181.6266,
+      "cum_vol_delta": 5258.6808,
+      "timestamp": 1782481500
+    },
+    {
+      "time": 1782482400000,
+      "taker_buy_vol": 924.4786,
+      "taker_sell_vol": 1050.7586,
+      "cum_vol_delta": 5132.4008,
+      "timestamp": 1782482400
+    },
+    {
+      "time": 1782483300000,
+      "taker_buy_vol": 956.9891,
+      "taker_sell_vol": 836.2842,
+      "cum_vol_delta": 5253.1057,
+      "timestamp": 1782483300
+    },
+    {
+      "time": 1782484200000,
+      "taker_buy_vol": 833.3477,
+      "taker_sell_vol": 763.693,
+      "cum_vol_delta": 5322.7604,
+      "timestamp": 1782484200
+    },
+    {
+      "time": 1782485100000,
+      "taker_buy_vol": 1058.682,
+      "taker_sell_vol": 715.3014,
+      "cum_vol_delta": 5666.141,
+      "timestamp": 1782485100
+    },
+    {
+      "time": 1782486000000,
+      "taker_buy_vol": 1483.813,
+      "taker_sell_vol": 994.1967,
+      "cum_vol_delta": 6155.7573,
+      "timestamp": 1782486000
+    },
+    {
+      "time": 1782486900000,
+      "taker_buy_vol": 868.2188,
+      "taker_sell_vol": 1174.0314,
+      "cum_vol_delta": 5849.9447,
+      "timestamp": 1782486900
+    },
+    {
+      "time": 1782487800000,
+      "taker_buy_vol": 1371.2825,
+      "taker_sell_vol": 1074.798,
+      "cum_vol_delta": 6146.4293,
+      "timestamp": 1782487800
+    },
+    {
+      "time": 1782488700000,
+      "taker_buy_vol": 906.6448,
+      "taker_sell_vol": 1011.3266,
+      "cum_vol_delta": 6041.7475,
+      "timestamp": 1782488700
+    },
+    {
+      "time": 1782489600000,
+      "taker_buy_vol": 892.6287,
+      "taker_sell_vol": 685.1913,
+      "cum_vol_delta": 6249.1849,
+      "timestamp": 1782489600
+    },
+    {
+      "time": 1782490500000,
+      "taker_buy_vol": 1404.0779,
+      "taker_sell_vol": 1113.0279,
+      "cum_vol_delta": 6540.2349,
+      "timestamp": 1782490500
+    },
+    {
+      "time": 1782491400000,
+      "taker_buy_vol": 1073.596,
+      "taker_sell_vol": 790.0099,
+      "cum_vol_delta": 6823.821,
+      "timestamp": 1782491400
+    },
+    {
+      "time": 1782492300000,
+      "taker_buy_vol": 894.4454,
+      "taker_sell_vol": 990.2516,
+      "cum_vol_delta": 6728.0148,
+      "timestamp": 1782492300
+    },
+    {
+      "time": 1782493200000,
+      "taker_buy_vol": 952.298,
+      "taker_sell_vol": 1179.9997,
+      "cum_vol_delta": 6500.3131,
+      "timestamp": 1782493200
+    },
+    {
+      "time": 1782494100000,
+      "taker_buy_vol": 957.0135,
+      "taker_sell_vol": 1152.6117,
+      "cum_vol_delta": 6304.7149,
+      "timestamp": 1782494100
+    },
+    {
+      "time": 1782495000000,
+      "taker_buy_vol": 1431.7923,
+      "taker_sell_vol": 847.596,
+      "cum_vol_delta": 6888.9112,
+      "timestamp": 1782495000
+    },
+    {
+      "time": 1782495900000,
+      "taker_buy_vol": 1208.021,
+      "taker_sell_vol": 903.5173,
+      "cum_vol_delta": 7193.4148,
+      "timestamp": 1782495900
+    },
+    {
+      "time": 1782496800000,
+      "taker_buy_vol": 952.1223,
+      "taker_sell_vol": 1062.9661,
+      "cum_vol_delta": 7082.571,
+      "timestamp": 1782496800
+    },
+    {
+      "time": 1782497700000,
+      "taker_buy_vol": 957.0249,
+      "taker_sell_vol": 969.94,
+      "cum_vol_delta": 7069.6559,
+      "timestamp": 1782497700
+    },
+    {
+      "time": 1782498600000,
+      "taker_buy_vol": 737.3538,
+      "taker_sell_vol": 739.581,
+      "cum_vol_delta": 7067.4287,
+      "timestamp": 1782498600
+    },
+    {
+      "time": 1782499500000,
+      "taker_buy_vol": 977.3873,
+      "taker_sell_vol": 936.0839,
+      "cum_vol_delta": 7108.7321,
+      "timestamp": 1782499500
+    },
+    {
+      "time": 1782500400000,
+      "taker_buy_vol": 931.9714,
+      "taker_sell_vol": 805.6457,
+      "cum_vol_delta": 7235.0578,
+      "timestamp": 1782500400
+    },
+    {
+      "time": 1782501300000,
+      "taker_buy_vol": 978.647,
+      "taker_sell_vol": 1178.7394,
+      "cum_vol_delta": 7034.9653,
+      "timestamp": 1782501300
+    },
+    {
+      "time": 1782502200000,
+      "taker_buy_vol": 812.2982,
+      "taker_sell_vol": 786.1756,
+      "cum_vol_delta": 7061.0879,
+      "timestamp": 1782502200
+    },
+    {
+      "time": 1782503100000,
+      "taker_buy_vol": 666.8274,
+      "taker_sell_vol": 969.7601,
+      "cum_vol_delta": 6758.1551,
+      "timestamp": 1782503100
+    },
+    {
+      "time": 1782504000000,
+      "taker_buy_vol": 1074.3379,
+      "taker_sell_vol": 918.0106,
+      "cum_vol_delta": 6914.4824,
+      "timestamp": 1782504000
+    },
+    {
+      "time": 1782504900000,
+      "taker_buy_vol": 954.0075,
+      "taker_sell_vol": 885.4314,
+      "cum_vol_delta": 6983.0586,
+      "timestamp": 1782504900
+    },
+    {
+      "time": 1782505800000,
+      "taker_buy_vol": 1312.2287,
+      "taker_sell_vol": 1010.3261,
+      "cum_vol_delta": 7284.9611,
+      "timestamp": 1782505800
+    },
+    {
+      "time": 1782506700000,
+      "taker_buy_vol": 661.493,
+      "taker_sell_vol": 836.8582,
+      "cum_vol_delta": 7109.5959,
+      "timestamp": 1782506700
+    },
+    {
+      "time": 1782507600000,
+      "taker_buy_vol": 879.4285,
+      "taker_sell_vol": 1013.6472,
+      "cum_vol_delta": 6975.3773,
+      "timestamp": 1782507600
+    },
+    {
+      "time": 1782508500000,
+      "taker_buy_vol": 1032.5447,
+      "taker_sell_vol": 791.1183,
+      "cum_vol_delta": 7216.8036,
+      "timestamp": 1782508500
+    },
+    {
+      "time": 1782509400000,
+      "taker_buy_vol": 753.916,
+      "taker_sell_vol": 890.9392,
+      "cum_vol_delta": 7079.7804,
+      "timestamp": 1782509400
+    },
+    {
+      "time": 1782510300000,
+      "taker_buy_vol": 1081.5768,
+      "taker_sell_vol": 1176.0188,
+      "cum_vol_delta": 6985.3385,
+      "timestamp": 1782510300
+    },
+    {
+      "time": 1782511200000,
+      "taker_buy_vol": 835.9292,
+      "taker_sell_vol": 1000.5441,
+      "cum_vol_delta": 6820.7236,
+      "timestamp": 1782511200
+    },
+    {
+      "time": 1782512100000,
+      "taker_buy_vol": 724.2697,
+      "taker_sell_vol": 1070.8861,
+      "cum_vol_delta": 6474.1072,
+      "timestamp": 1782512100
+    },
+    {
+      "time": 1782513000000,
+      "taker_buy_vol": 907.4272,
+      "taker_sell_vol": 1112.5204,
+      "cum_vol_delta": 6269.0139,
+      "timestamp": 1782513000
+    },
+    {
+      "time": 1782513900000,
+      "taker_buy_vol": 863.6585,
+      "taker_sell_vol": 1062.2344,
+      "cum_vol_delta": 6070.438,
+      "timestamp": 1782513900
+    },
+    {
+      "time": 1782514800000,
+      "taker_buy_vol": 832.3658,
+      "taker_sell_vol": 1129.343,
+      "cum_vol_delta": 5773.4608,
+      "timestamp": 1782514800
+    },
+    {
+      "time": 1782515700000,
+      "taker_buy_vol": 1445.385,
+      "taker_sell_vol": 1049.0226,
+      "cum_vol_delta": 6169.8231,
+      "timestamp": 1782515700
+    },
+    {
+      "time": 1782516600000,
+      "taker_buy_vol": 1010.8778,
+      "taker_sell_vol": 838.4296,
+      "cum_vol_delta": 6342.2714,
+      "timestamp": 1782516600
+    },
+    {
+      "time": 1782517500000,
+      "taker_buy_vol": 1200.734,
+      "taker_sell_vol": 938.748,
+      "cum_vol_delta": 6604.2574,
+      "timestamp": 1782517500
+    },
+    {
+      "time": 1782518400000,
+      "taker_buy_vol": 1089.9665,
+      "taker_sell_vol": 1138.43,
+      "cum_vol_delta": 6555.7939,
+      "timestamp": 1782518400
+    },
+    {
+      "time": 1782519300000,
+      "taker_buy_vol": 1151.8622,
+      "taker_sell_vol": 827.741,
+      "cum_vol_delta": 6879.9152,
+      "timestamp": 1782519300
+    },
+    {
+      "time": 1782520200000,
+      "taker_buy_vol": 1041.7248,
+      "taker_sell_vol": 1015.2153,
+      "cum_vol_delta": 6906.4246,
+      "timestamp": 1782520200
+    },
+    {
+      "time": 1782521100000,
+      "taker_buy_vol": 1155.7808,
+      "taker_sell_vol": 1034.7072,
+      "cum_vol_delta": 7027.4983,
+      "timestamp": 1782521100
+    },
+    {
+      "time": 1782522000000,
+      "taker_buy_vol": 981.8921,
+      "taker_sell_vol": 1237.0385,
+      "cum_vol_delta": 6772.3519,
+      "timestamp": 1782522000
+    },
+    {
+      "time": 1782522900000,
+      "taker_buy_vol": 926.5421,
+      "taker_sell_vol": 1094.837,
+      "cum_vol_delta": 6604.057,
+      "timestamp": 1782522900
+    },
+    {
+      "time": 1782523800000,
+      "taker_buy_vol": 944.152,
+      "taker_sell_vol": 1224.6869,
+      "cum_vol_delta": 6323.522,
+      "timestamp": 1782523800
+    },
+    {
+      "time": 1782524700000,
+      "taker_buy_vol": 860.7546,
+      "taker_sell_vol": 1173.8953,
+      "cum_vol_delta": 6010.3813,
+      "timestamp": 1782524700
+    },
+    {
+      "time": 1782525600000,
+      "taker_buy_vol": 676.301,
+      "taker_sell_vol": 610.8072,
+      "cum_vol_delta": 6075.8752,
+      "timestamp": 1782525600
+    },
+    {
+      "time": 1782526500000,
+      "taker_buy_vol": 955.3243,
+      "taker_sell_vol": 1173.2618,
+      "cum_vol_delta": 5857.9377,
+      "timestamp": 1782526500
+    },
+    {
+      "time": 1782527400000,
+      "taker_buy_vol": 979.3897,
+      "taker_sell_vol": 1067.9272,
+      "cum_vol_delta": 5769.4001,
+      "timestamp": 1782527400
+    },
+    {
+      "time": 1782528300000,
+      "taker_buy_vol": 945.4767,
+      "taker_sell_vol": 815.1955,
+      "cum_vol_delta": 5899.6813,
+      "timestamp": 1782528300
+    },
+    {
+      "time": 1782529200000,
+      "taker_buy_vol": 858.3442,
+      "taker_sell_vol": 1241.7832,
+      "cum_vol_delta": 5516.2423,
+      "timestamp": 1782529200
+    },
+    {
+      "time": 1782530100000,
+      "taker_buy_vol": 1028.0991,
+      "taker_sell_vol": 1095.4682,
+      "cum_vol_delta": 5448.8732,
+      "timestamp": 1782530100
+    },
+    {
+      "time": 1782531000000,
+      "taker_buy_vol": 1236.9561,
+      "taker_sell_vol": 1041.4306,
+      "cum_vol_delta": 5644.3987,
+      "timestamp": 1782531000
+    },
+    {
+      "time": 1782531900000,
+      "taker_buy_vol": 956.7081,
+      "taker_sell_vol": 1053.3463,
+      "cum_vol_delta": 5547.7605,
+      "timestamp": 1782531900
+    },
+    {
+      "time": 1782532800000,
+      "taker_buy_vol": 1077.4522,
+      "taker_sell_vol": 1013.9053,
+      "cum_vol_delta": 5611.3073,
+      "timestamp": 1782532800
+    },
+    {
+      "time": 1782533700000,
+      "taker_buy_vol": 928.2725,
+      "taker_sell_vol": 1036.4348,
+      "cum_vol_delta": 5503.1451,
+      "timestamp": 1782533700
+    },
+    {
+      "time": 1782534600000,
+      "taker_buy_vol": 810.5294,
+      "taker_sell_vol": 937.8769,
+      "cum_vol_delta": 5375.7975,
+      "timestamp": 1782534600
+    },
+    {
+      "time": 1782535500000,
+      "taker_buy_vol": 1185.3107,
+      "taker_sell_vol": 793.9559,
+      "cum_vol_delta": 5767.1522,
+      "timestamp": 1782535500
+    },
+    {
+      "time": 1782536400000,
+      "taker_buy_vol": 865.7678,
+      "taker_sell_vol": 1169.0779,
+      "cum_vol_delta": 5463.8421,
+      "timestamp": 1782536400
+    },
+    {
+      "time": 1782537300000,
+      "taker_buy_vol": 1121.7071,
+      "taker_sell_vol": 1181.5296,
+      "cum_vol_delta": 5404.0195,
+      "timestamp": 1782537300
+    },
+    {
+      "time": 1782538200000,
+      "taker_buy_vol": 1247.0808,
+      "taker_sell_vol": 880.7472,
+      "cum_vol_delta": 5770.3532,
+      "timestamp": 1782538200
+    },
+    {
+      "time": 1782539100000,
+      "taker_buy_vol": 1010.0667,
+      "taker_sell_vol": 1396.1683,
+      "cum_vol_delta": 5384.2516,
+      "timestamp": 1782539100
+    },
+    {
+      "time": 1782540000000,
+      "taker_buy_vol": 1041.5815,
+      "taker_sell_vol": 1038.5837,
+      "cum_vol_delta": 5387.2494,
+      "timestamp": 1782540000
+    },
+    {
+      "time": 1782540900000,
+      "taker_buy_vol": 901.2116,
+      "taker_sell_vol": 806.2143,
+      "cum_vol_delta": 5482.2468,
+      "timestamp": 1782540900
+    },
+    {
+      "time": 1782541800000,
+      "taker_buy_vol": 1194.6791,
+      "taker_sell_vol": 932.3393,
+      "cum_vol_delta": 5744.5865,
+      "timestamp": 1782541800
+    },
+    {
+      "time": 1782542700000,
+      "taker_buy_vol": 1186.1665,
+      "taker_sell_vol": 1093.4749,
+      "cum_vol_delta": 5837.2781,
+      "timestamp": 1782542700
+    },
+    {
+      "time": 1782543600000,
+      "taker_buy_vol": 1182.5354,
+      "taker_sell_vol": 761.468,
+      "cum_vol_delta": 6258.3455,
+      "timestamp": 1782543600
+    },
+    {
+      "time": 1782544500000,
+      "taker_buy_vol": 800.2962,
+      "taker_sell_vol": 1173.7013,
+      "cum_vol_delta": 5884.9404,
+      "timestamp": 1782544500
+    },
+    {
+      "time": 1782545400000,
+      "taker_buy_vol": 584.8909,
+      "taker_sell_vol": 1084.4058,
+      "cum_vol_delta": 5385.4255,
+      "timestamp": 1782545400
+    },
+    {
+      "time": 1782546300000,
+      "taker_buy_vol": 1020.3054,
+      "taker_sell_vol": 1034.9624,
+      "cum_vol_delta": 5370.7685,
+      "timestamp": 1782546300
+    },
+    {
+      "time": 1782547200000,
+      "taker_buy_vol": 977.8757,
+      "taker_sell_vol": 1230.694,
+      "cum_vol_delta": 5117.9502,
+      "timestamp": 1782547200
+    },
+    {
+      "time": 1782548100000,
+      "taker_buy_vol": 1241.365,
+      "taker_sell_vol": 983.8303,
+      "cum_vol_delta": 5375.4849,
+      "timestamp": 1782548100
+    },
+    {
+      "time": 1782549000000,
+      "taker_buy_vol": 948.5716,
+      "taker_sell_vol": 1071.0377,
+      "cum_vol_delta": 5253.0189,
+      "timestamp": 1782549000
+    },
+    {
+      "time": 1782549900000,
+      "taker_buy_vol": 1112.9009,
+      "taker_sell_vol": 1061.3374,
+      "cum_vol_delta": 5304.5824,
+      "timestamp": 1782549900
+    },
+    {
+      "time": 1782550800000,
+      "taker_buy_vol": 905.9406,
+      "taker_sell_vol": 764.6796,
+      "cum_vol_delta": 5445.8434,
+      "timestamp": 1782550800
+    },
+    {
+      "time": 1782551700000,
+      "taker_buy_vol": 981.6563,
+      "taker_sell_vol": 1116.2197,
+      "cum_vol_delta": 5311.28,
+      "timestamp": 1782551700
+    },
+    {
+      "time": 1782552600000,
+      "taker_buy_vol": 623.6206,
+      "taker_sell_vol": 690.1014,
+      "cum_vol_delta": 5244.7992,
+      "timestamp": 1782552600
+    },
+    {
+      "time": 1782553500000,
+      "taker_buy_vol": 929.3425,
+      "taker_sell_vol": 1173.332,
+      "cum_vol_delta": 5000.8097,
+      "timestamp": 1782553500
+    },
+    {
+      "time": 1782554400000,
+      "taker_buy_vol": 929.3487,
+      "taker_sell_vol": 774.7288,
+      "cum_vol_delta": 5155.4296,
+      "timestamp": 1782554400
+    },
+    {
+      "time": 1782555300000,
+      "taker_buy_vol": 751.9741,
+      "taker_sell_vol": 838.9352,
+      "cum_vol_delta": 5068.4685,
+      "timestamp": 1782555300
+    },
+    {
+      "time": 1782556200000,
+      "taker_buy_vol": 844.0633,
+      "taker_sell_vol": 1068.4106,
+      "cum_vol_delta": 4844.1211,
+      "timestamp": 1782556200
+    },
+    {
+      "time": 1782557100000,
+      "taker_buy_vol": 977.7318,
+      "taker_sell_vol": 701.3359,
+      "cum_vol_delta": 5120.5171,
+      "timestamp": 1782557100
+    },
+    {
+      "time": 1782558000000,
+      "taker_buy_vol": 796.8309,
+      "taker_sell_vol": 945.9284,
+      "cum_vol_delta": 4971.4196,
+      "timestamp": 1782558000
+    },
+    {
+      "time": 1782558900000,
+      "taker_buy_vol": 850.7946,
+      "taker_sell_vol": 1018.9036,
+      "cum_vol_delta": 4803.3107,
+      "timestamp": 1782558900
+    },
+    {
+      "time": 1782559800000,
+      "taker_buy_vol": 968.6749,
+      "taker_sell_vol": 763.0785,
+      "cum_vol_delta": 5008.907,
+      "timestamp": 1782559800
+    },
+    {
+      "time": 1782560700000,
+      "taker_buy_vol": 1140.7612,
+      "taker_sell_vol": 1031.4412,
+      "cum_vol_delta": 5118.227,
+      "timestamp": 1782560700
+    },
+    {
+      "time": 1782561600000,
+      "taker_buy_vol": 1217.9366,
+      "taker_sell_vol": 1102.1304,
+      "cum_vol_delta": 5234.0332,
+      "timestamp": 1782561600
+    },
+    {
+      "time": 1782562500000,
+      "taker_buy_vol": 928.8313,
+      "taker_sell_vol": 899.8052,
+      "cum_vol_delta": 5263.0592,
+      "timestamp": 1782562500
+    },
+    {
+      "time": 1782563400000,
+      "taker_buy_vol": 1252.6664,
+      "taker_sell_vol": 1093.7852,
+      "cum_vol_delta": 5421.9404,
+      "timestamp": 1782563400
+    },
+    {
+      "time": 1782564300000,
+      "taker_buy_vol": 1153.0776,
+      "taker_sell_vol": 729.2375,
+      "cum_vol_delta": 5845.7806,
+      "timestamp": 1782564300
+    },
+    {
+      "time": 1782565200000,
+      "taker_buy_vol": 972.8454,
+      "taker_sell_vol": 947.0943,
+      "cum_vol_delta": 5871.5316,
+      "timestamp": 1782565200
+    },
+    {
+      "time": 1782566100000,
+      "taker_buy_vol": 884.9862,
+      "taker_sell_vol": 1219.3771,
+      "cum_vol_delta": 5537.1407,
+      "timestamp": 1782566100
+    },
+    {
+      "time": 1782567000000,
+      "taker_buy_vol": 1124.9686,
+      "taker_sell_vol": 1120.2581,
+      "cum_vol_delta": 5541.8512,
+      "timestamp": 1782567000
+    },
+    {
+      "time": 1782567900000,
+      "taker_buy_vol": 808.9618,
+      "taker_sell_vol": 1182.1347,
+      "cum_vol_delta": 5168.6784,
+      "timestamp": 1782567900
+    },
+    {
+      "time": 1782568800000,
+      "taker_buy_vol": 935.6608,
+      "taker_sell_vol": 984.0105,
+      "cum_vol_delta": 5120.3287,
+      "timestamp": 1782568800
+    },
+    {
+      "time": 1782569700000,
+      "taker_buy_vol": 1487.9207,
+      "taker_sell_vol": 655.8919,
+      "cum_vol_delta": 5952.3576,
+      "timestamp": 1782569700
+    },
+    {
+      "time": 1782570600000,
+      "taker_buy_vol": 593.5422,
+      "taker_sell_vol": 898.4216,
+      "cum_vol_delta": 5647.4782,
+      "timestamp": 1782570600
+    },
+    {
+      "time": 1782571500000,
+      "taker_buy_vol": 1224.4816,
+      "taker_sell_vol": 868.163,
+      "cum_vol_delta": 6003.7967,
+      "timestamp": 1782571500
+    },
+    {
+      "time": 1782572400000,
+      "taker_buy_vol": 539.8458,
+      "taker_sell_vol": 868.7549,
+      "cum_vol_delta": 5674.8876,
+      "timestamp": 1782572400
+    },
+    {
+      "time": 1782573300000,
+      "taker_buy_vol": 780.6199,
+      "taker_sell_vol": 1063.9617,
+      "cum_vol_delta": 5391.5458,
+      "timestamp": 1782573300
+    },
+    {
+      "time": 1782574200000,
+      "taker_buy_vol": 743.5111,
+      "taker_sell_vol": 1238.6583,
+      "cum_vol_delta": 4896.3986,
+      "timestamp": 1782574200
+    },
+    {
+      "time": 1782575100000,
+      "taker_buy_vol": 1091.4083,
+      "taker_sell_vol": 1041.3449,
+      "cum_vol_delta": 4946.4621,
+      "timestamp": 1782575100
+    },
+    {
+      "time": 1782576000000,
+      "taker_buy_vol": 871.4237,
+      "taker_sell_vol": 967.1525,
+      "cum_vol_delta": 4850.7333,
+      "timestamp": 1782576000
+    },
+    {
+      "time": 1782576900000,
+      "taker_buy_vol": 866.1217,
+      "taker_sell_vol": 983.3673,
+      "cum_vol_delta": 4733.4876,
+      "timestamp": 1782576900
+    },
+    {
+      "time": 1782577800000,
+      "taker_buy_vol": 1057.9829,
+      "taker_sell_vol": 915.7284,
+      "cum_vol_delta": 4875.7421,
+      "timestamp": 1782577800
+    },
+    {
+      "time": 1782578700000,
+      "taker_buy_vol": 726.8134,
+      "taker_sell_vol": 945.1109,
+      "cum_vol_delta": 4657.4446,
+      "timestamp": 1782578700
+    },
+    {
+      "time": 1782579600000,
+      "taker_buy_vol": 765.9136,
+      "taker_sell_vol": 1308.4285,
+      "cum_vol_delta": 4114.9297,
+      "timestamp": 1782579600
+    },
+    {
+      "time": 1782580500000,
+      "taker_buy_vol": 1227.5807,
+      "taker_sell_vol": 1166.1448,
+      "cum_vol_delta": 4176.3655,
+      "timestamp": 1782580500
+    },
+    {
+      "time": 1782581400000,
+      "taker_buy_vol": 1050.6421,
+      "taker_sell_vol": 441.4996,
+      "cum_vol_delta": 4785.508,
+      "timestamp": 1782581400
+    },
+    {
+      "time": 1782582300000,
+      "taker_buy_vol": 865.7599,
+      "taker_sell_vol": 1232.452,
+      "cum_vol_delta": 4418.8158,
+      "timestamp": 1782582300
+    },
+    {
+      "time": 1782583200000,
+      "taker_buy_vol": 1097.9373,
+      "taker_sell_vol": 1293.5819,
+      "cum_vol_delta": 4223.1713,
+      "timestamp": 1782583200
+    },
+    {
+      "time": 1782584100000,
+      "taker_buy_vol": 978.6326,
+      "taker_sell_vol": 922.8712,
+      "cum_vol_delta": 4278.9326,
+      "timestamp": 1782584100
+    },
+    {
+      "time": 1782585000000,
+      "taker_buy_vol": 999.2006,
+      "taker_sell_vol": 831.3418,
+      "cum_vol_delta": 4446.7915,
+      "timestamp": 1782585000
+    },
+    {
+      "time": 1782585900000,
+      "taker_buy_vol": 910.6693,
+      "taker_sell_vol": 1172.1678,
+      "cum_vol_delta": 4185.293,
+      "timestamp": 1782585900
+    },
+    {
+      "time": 1782586800000,
+      "taker_buy_vol": 1266.0098,
+      "taker_sell_vol": 827.3017,
+      "cum_vol_delta": 4624.0011,
+      "timestamp": 1782586800
+    },
+    {
+      "time": 1782587700000,
+      "taker_buy_vol": 1328.3002,
+      "taker_sell_vol": 967.239,
+      "cum_vol_delta": 4985.0623,
+      "timestamp": 1782587700
+    },
+    {
+      "time": 1782588600000,
+      "taker_buy_vol": 698.0803,
+      "taker_sell_vol": 1047.03,
+      "cum_vol_delta": 4636.1125,
+      "timestamp": 1782588600
+    },
+    {
+      "time": 1782589500000,
+      "taker_buy_vol": 803.1518,
+      "taker_sell_vol": 1322.892,
+      "cum_vol_delta": 4116.3723,
+      "timestamp": 1782589500
+    },
+    {
+      "time": 1782590400000,
+      "taker_buy_vol": 980.8082,
+      "taker_sell_vol": 1071.2469,
+      "cum_vol_delta": 4025.9336,
+      "timestamp": 1782590400
+    },
+    {
+      "time": 1782591300000,
+      "taker_buy_vol": 1052.4727,
+      "taker_sell_vol": 871.37,
+      "cum_vol_delta": 4207.0363,
+      "timestamp": 1782591300
+    },
+    {
+      "time": 1782592200000,
+      "taker_buy_vol": 939.6397,
+      "taker_sell_vol": 981.5874,
+      "cum_vol_delta": 4165.0886,
+      "timestamp": 1782592200
+    },
+    {
+      "time": 1782593100000,
+      "taker_buy_vol": 1055.4913,
+      "taker_sell_vol": 1173.4235,
+      "cum_vol_delta": 4047.1564,
+      "timestamp": 1782593100
+    },
+    {
+      "time": 1782594000000,
+      "taker_buy_vol": 699.3501,
+      "taker_sell_vol": 643.4879,
+      "cum_vol_delta": 4103.0187,
+      "timestamp": 1782594000
+    },
+    {
+      "time": 1782594900000,
+      "taker_buy_vol": 1203.6884,
+      "taker_sell_vol": 1196.1191,
+      "cum_vol_delta": 4110.588,
+      "timestamp": 1782594900
+    },
+    {
+      "time": 1782595800000,
+      "taker_buy_vol": 1169.2725,
+      "taker_sell_vol": 1028.5695,
+      "cum_vol_delta": 4251.291,
+      "timestamp": 1782595800
+    },
+    {
+      "time": 1782596700000,
+      "taker_buy_vol": 1068.6227,
+      "taker_sell_vol": 634.1618,
+      "cum_vol_delta": 4685.7519,
+      "timestamp": 1782596700
+    },
+    {
+      "time": 1782597600000,
+      "taker_buy_vol": 741.6433,
+      "taker_sell_vol": 1199.6204,
+      "cum_vol_delta": 4227.7748,
+      "timestamp": 1782597600
+    },
+    {
+      "time": 1782598500000,
+      "taker_buy_vol": 981.7089,
+      "taker_sell_vol": 1101.4329,
+      "cum_vol_delta": 4108.0508,
+      "timestamp": 1782598500
+    },
+    {
+      "time": 1782599400000,
+      "taker_buy_vol": 995.0602,
+      "taker_sell_vol": 969.5496,
+      "cum_vol_delta": 4133.5615,
+      "timestamp": 1782599400
+    },
+    {
+      "time": 1782600300000,
+      "taker_buy_vol": 723.2704,
+      "taker_sell_vol": 601.3568,
+      "cum_vol_delta": 4255.475,
+      "timestamp": 1782600300
+    },
+    {
+      "time": 1782601200000,
+      "taker_buy_vol": 991.9253,
+      "taker_sell_vol": 502.253,
+      "cum_vol_delta": 4745.1473,
+      "timestamp": 1782601200
+    },
+    {
+      "time": 1782602100000,
+      "taker_buy_vol": 1075.2923,
+      "taker_sell_vol": 1259.0762,
+      "cum_vol_delta": 4561.3634,
+      "timestamp": 1782602100
+    },
+    {
+      "time": 1782603000000,
+      "taker_buy_vol": 943.4674,
+      "taker_sell_vol": 1022.125,
+      "cum_vol_delta": 4482.7058,
+      "timestamp": 1782603000
+    },
+    {
+      "time": 1782603900000,
+      "taker_buy_vol": 907.0505,
+      "taker_sell_vol": 1044.4907,
+      "cum_vol_delta": 4345.2656,
+      "timestamp": 1782603900
+    },
+    {
+      "time": 1782604800000,
+      "taker_buy_vol": 1089.5647,
+      "taker_sell_vol": 729.708,
+      "cum_vol_delta": 4705.1222,
+      "timestamp": 1782604800
+    },
+    {
+      "time": 1782605700000,
+      "taker_buy_vol": 671.2965,
+      "taker_sell_vol": 989.669,
+      "cum_vol_delta": 4386.7497,
+      "timestamp": 1782605700
+    },
+    {
+      "time": 1782606600000,
+      "taker_buy_vol": 960.9905,
+      "taker_sell_vol": 1050.1476,
+      "cum_vol_delta": 4297.5925,
+      "timestamp": 1782606600
+    },
+    {
+      "time": 1782607500000,
+      "taker_buy_vol": 933.5861,
+      "taker_sell_vol": 618.364,
+      "cum_vol_delta": 4612.8146,
+      "timestamp": 1782607500
+    },
+    {
+      "time": 1782608400000,
+      "taker_buy_vol": 969.3894,
+      "taker_sell_vol": 1235.4118,
+      "cum_vol_delta": 4346.7921,
+      "timestamp": 1782608400
+    },
+    {
+      "time": 1782609300000,
+      "taker_buy_vol": 938.5824,
+      "taker_sell_vol": 547.9024,
+      "cum_vol_delta": 4737.4722,
+      "timestamp": 1782609300
+    },
+    {
+      "time": 1782610200000,
+      "taker_buy_vol": 1049.1657,
+      "taker_sell_vol": 916.1724,
+      "cum_vol_delta": 4870.4655,
+      "timestamp": 1782610200
+    },
+    {
+      "time": 1782611100000,
+      "taker_buy_vol": 1081.4642,
+      "taker_sell_vol": 1067.5259,
+      "cum_vol_delta": 4884.4038,
+      "timestamp": 1782611100
+    },
+    {
+      "time": 1782612000000,
+      "taker_buy_vol": 842.6514,
+      "taker_sell_vol": 1125.3109,
+      "cum_vol_delta": 4601.7443,
+      "timestamp": 1782612000
+    },
+    {
+      "time": 1782612900000,
+      "taker_buy_vol": 1280.5289,
+      "taker_sell_vol": 1058.7499,
+      "cum_vol_delta": 4823.5232,
+      "timestamp": 1782612900
+    },
+    {
+      "time": 1782613800000,
+      "taker_buy_vol": 1042.7569,
+      "taker_sell_vol": 830.3205,
+      "cum_vol_delta": 5035.9596,
+      "timestamp": 1782613800
+    },
+    {
+      "time": 1782614700000,
+      "taker_buy_vol": 883.0753,
+      "taker_sell_vol": 1114.8912,
+      "cum_vol_delta": 4804.1438,
+      "timestamp": 1782614700
+    },
+    {
+      "time": 1782615600000,
+      "taker_buy_vol": 799.3454,
+      "taker_sell_vol": 756.6791,
+      "cum_vol_delta": 4846.8101,
+      "timestamp": 1782615600
+    },
+    {
+      "time": 1782616500000,
+      "taker_buy_vol": 1243.3747,
+      "taker_sell_vol": 478.8058,
+      "cum_vol_delta": 5611.379,
+      "timestamp": 1782616500
+    },
+    {
+      "time": 1782617400000,
+      "taker_buy_vol": 868.0048,
+      "taker_sell_vol": 1207.0772,
+      "cum_vol_delta": 5272.3066,
+      "timestamp": 1782617400
+    },
+    {
+      "time": 1782618300000,
+      "taker_buy_vol": 1062.1543,
+      "taker_sell_vol": 1069.9481,
+      "cum_vol_delta": 5264.5128,
+      "timestamp": 1782618300
+    },
+    {
+      "time": 1782619200000,
+      "taker_buy_vol": 1154.0317,
+      "taker_sell_vol": 1014.9706,
+      "cum_vol_delta": 5403.5738,
+      "timestamp": 1782619200
+    },
+    {
+      "time": 1782620100000,
+      "taker_buy_vol": 972.6239,
+      "taker_sell_vol": 812.1024,
+      "cum_vol_delta": 5564.0954,
+      "timestamp": 1782620100
+    },
+    {
+      "time": 1782621000000,
+      "taker_buy_vol": 1051.2755,
+      "taker_sell_vol": 857.8839,
+      "cum_vol_delta": 5757.4871,
+      "timestamp": 1782621000
+    },
+    {
+      "time": 1782621900000,
+      "taker_buy_vol": 1033.1893,
+      "taker_sell_vol": 599.3899,
+      "cum_vol_delta": 6191.2865,
+      "timestamp": 1782621900
+    },
+    {
+      "time": 1782622800000,
+      "taker_buy_vol": 1553.6234,
+      "taker_sell_vol": 842.2885,
+      "cum_vol_delta": 6902.6214,
+      "timestamp": 1782622800
+    },
+    {
+      "time": 1782623700000,
+      "taker_buy_vol": 987.3618,
+      "taker_sell_vol": 969.1636,
+      "cum_vol_delta": 6920.8196,
+      "timestamp": 1782623700
+    },
+    {
+      "time": 1782624600000,
+      "taker_buy_vol": 852.9584,
+      "taker_sell_vol": 1145.5848,
+      "cum_vol_delta": 6628.1932,
+      "timestamp": 1782624600
+    },
+    {
+      "time": 1782625500000,
+      "taker_buy_vol": 838.4174,
+      "taker_sell_vol": 855.7731,
+      "cum_vol_delta": 6610.8376,
+      "timestamp": 1782625500
+    },
+    {
+      "time": 1782626400000,
+      "taker_buy_vol": 1061.1462,
+      "taker_sell_vol": 890.8023,
+      "cum_vol_delta": 6781.1815,
+      "timestamp": 1782626400
+    },
+    {
+      "time": 1782627300000,
+      "taker_buy_vol": 975.9108,
+      "taker_sell_vol": 1192.5893,
+      "cum_vol_delta": 6564.503,
+      "timestamp": 1782627300
+    },
+    {
+      "time": 1782628200000,
+      "taker_buy_vol": 1169.8544,
+      "taker_sell_vol": 1018.8204,
+      "cum_vol_delta": 6715.537,
+      "timestamp": 1782628200
+    },
+    {
+      "time": 1782629100000,
+      "taker_buy_vol": 641.0263,
+      "taker_sell_vol": 831.549,
+      "cum_vol_delta": 6525.0143,
+      "timestamp": 1782629100
+    },
+    {
+      "time": 1782630000000,
+      "taker_buy_vol": 1128.5324,
+      "taker_sell_vol": 974.0518,
+      "cum_vol_delta": 6679.4949,
+      "timestamp": 1782630000
+    },
+    {
+      "time": 1782630900000,
+      "taker_buy_vol": 776.9697,
+      "taker_sell_vol": 1360.0135,
+      "cum_vol_delta": 6096.451,
+      "timestamp": 1782630900
+    },
+    {
+      "time": 1782631800000,
+      "taker_buy_vol": 824.8289,
+      "taker_sell_vol": 1104.1923,
+      "cum_vol_delta": 5817.0876,
+      "timestamp": 1782631800
+    },
+    {
+      "time": 1782632700000,
+      "taker_buy_vol": 945.0497,
+      "taker_sell_vol": 945.0954,
+      "cum_vol_delta": 5817.0419,
+      "timestamp": 1782632700
+    },
+    {
+      "time": 1782633600000,
+      "taker_buy_vol": 1028.9668,
+      "taker_sell_vol": 752.2864,
+      "cum_vol_delta": 6093.7222,
+      "timestamp": 1782633600
+    },
+    {
+      "time": 1782634500000,
+      "taker_buy_vol": 1183.8099,
+      "taker_sell_vol": 813.7143,
+      "cum_vol_delta": 6463.8178,
+      "timestamp": 1782634500
+    },
+    {
+      "time": 1782635400000,
+      "taker_buy_vol": 1026.3695,
+      "taker_sell_vol": 831.1773,
+      "cum_vol_delta": 6659.01,
+      "timestamp": 1782635400
+    },
+    {
+      "time": 1782636300000,
+      "taker_buy_vol": 1059.2502,
+      "taker_sell_vol": 750.4785,
+      "cum_vol_delta": 6967.7817,
+      "timestamp": 1782636300
+    },
+    {
+      "time": 1782637200000,
+      "taker_buy_vol": 1353.6419,
+      "taker_sell_vol": 1076.3708,
+      "cum_vol_delta": 7245.0528,
+      "timestamp": 1782637200
+    },
+    {
+      "time": 1782638100000,
+      "taker_buy_vol": 956.5532,
+      "taker_sell_vol": 776.2026,
+      "cum_vol_delta": 7425.4034,
+      "timestamp": 1782638100
+    },
+    {
+      "time": 1782639000000,
+      "taker_buy_vol": 1325.3133,
+      "taker_sell_vol": 894.3044,
+      "cum_vol_delta": 7856.4124,
+      "timestamp": 1782639000
+    },
+    {
+      "time": 1782639900000,
+      "taker_buy_vol": 1212.3148,
+      "taker_sell_vol": 649.6371,
+      "cum_vol_delta": 8419.0901,
+      "timestamp": 1782639900
+    },
+    {
+      "time": 1782640800000,
+      "taker_buy_vol": 1251.6238,
+      "taker_sell_vol": 985.2147,
+      "cum_vol_delta": 8685.4992,
+      "timestamp": 1782640800
+    },
+    {
+      "time": 1782641700000,
+      "taker_buy_vol": 990.8599,
+      "taker_sell_vol": 887.1205,
+      "cum_vol_delta": 8789.2386,
+      "timestamp": 1782641700
+    },
+    {
+      "time": 1782642600000,
+      "taker_buy_vol": 994.5616,
+      "taker_sell_vol": 974.2332,
+      "cum_vol_delta": 8809.567,
+      "timestamp": 1782642600
+    },
+    {
+      "time": 1782643500000,
+      "taker_buy_vol": 988.2184,
+      "taker_sell_vol": 957.3034,
+      "cum_vol_delta": 8840.482,
+      "timestamp": 1782643500
+    },
+    {
+      "time": 1782644400000,
+      "taker_buy_vol": 995.6094,
+      "taker_sell_vol": 1353.9504,
+      "cum_vol_delta": 8482.141,
+      "timestamp": 1782644400
+    },
+    {
+      "time": 1782645300000,
+      "taker_buy_vol": 942.5653,
+      "taker_sell_vol": 1040.9537,
+      "cum_vol_delta": 8383.7526,
+      "timestamp": 1782645300
+    },
+    {
+      "time": 1782646200000,
+      "taker_buy_vol": 1011.2167,
+      "taker_sell_vol": 950.2053,
+      "cum_vol_delta": 8444.764,
+      "timestamp": 1782646200
+    },
+    {
+      "time": 1782647100000,
+      "taker_buy_vol": 706.9321,
+      "taker_sell_vol": 1159.9107,
+      "cum_vol_delta": 7991.7854,
+      "timestamp": 1782647100
+    },
+    {
+      "time": 1782648000000,
+      "taker_buy_vol": 908.94,
+      "taker_sell_vol": 1110.4171,
+      "cum_vol_delta": 7790.3083,
+      "timestamp": 1782648000
+    },
+    {
+      "time": 1782648900000,
+      "taker_buy_vol": 795.3789,
+      "taker_sell_vol": 840.4632,
+      "cum_vol_delta": 7745.224,
+      "timestamp": 1782648900
+    },
+    {
+      "time": 1782649800000,
+      "taker_buy_vol": 1049.5879,
+      "taker_sell_vol": 969.3735,
+      "cum_vol_delta": 7825.4384,
+      "timestamp": 1782649800
+    },
+    {
+      "time": 1782650700000,
+      "taker_buy_vol": 821.7034,
+      "taker_sell_vol": 1113.4764,
+      "cum_vol_delta": 7533.6654,
+      "timestamp": 1782650700
+    },
+    {
+      "time": 1782651600000,
+      "taker_buy_vol": 808.1279,
+      "taker_sell_vol": 1125.1871,
+      "cum_vol_delta": 7216.6063,
+      "timestamp": 1782651600
+    },
+    {
+      "time": 1782652500000,
+      "taker_buy_vol": 1198.3323,
+      "taker_sell_vol": 756.0203,
+      "cum_vol_delta": 7658.9182,
+      "timestamp": 1782652500
+    },
+    {
+      "time": 1782653400000,
+      "taker_buy_vol": 974.9139,
+      "taker_sell_vol": 875.2958,
+      "cum_vol_delta": 7758.5364,
+      "timestamp": 1782653400
+    },
+    {
+      "time": 1782654300000,
+      "taker_buy_vol": 1055.3891,
+      "taker_sell_vol": 1079.6227,
+      "cum_vol_delta": 7734.3027,
+      "timestamp": 1782654300
+    },
+    {
+      "time": 1782655200000,
+      "taker_buy_vol": 999.5547,
+      "taker_sell_vol": 1014.4423,
+      "cum_vol_delta": 7719.4152,
+      "timestamp": 1782655200
+    },
+    {
+      "time": 1782656100000,
+      "taker_buy_vol": 777.7836,
+      "taker_sell_vol": 1142.9554,
+      "cum_vol_delta": 7354.2434,
+      "timestamp": 1782656100
+    },
+    {
+      "time": 1782657000000,
+      "taker_buy_vol": 676.7335,
+      "taker_sell_vol": 817.4466,
+      "cum_vol_delta": 7213.5303,
+      "timestamp": 1782657000
+    },
+    {
+      "time": 1782657900000,
+      "taker_buy_vol": 1163.0809,
+      "taker_sell_vol": 667.813,
+      "cum_vol_delta": 7708.7982,
+      "timestamp": 1782657900
+    },
+    {
+      "time": 1782658800000,
+      "taker_buy_vol": 658.3823,
+      "taker_sell_vol": 1046.6538,
+      "cum_vol_delta": 7320.5267,
+      "timestamp": 1782658800
+    },
+    {
+      "time": 1782659700000,
+      "taker_buy_vol": 990.643,
+      "taker_sell_vol": 844.9779,
+      "cum_vol_delta": 7466.1919,
+      "timestamp": 1782659700
+    },
+    {
+      "time": 1782660600000,
+      "taker_buy_vol": 1009.0664,
+      "taker_sell_vol": 816.1966,
+      "cum_vol_delta": 7659.0617,
+      "timestamp": 1782660600
+    },
+    {
+      "time": 1782661500000,
+      "taker_buy_vol": 1236.5927,
+      "taker_sell_vol": 1107.2443,
+      "cum_vol_delta": 7788.4101,
+      "timestamp": 1782661500
+    },
+    {
+      "time": 1782662400000,
+      "taker_buy_vol": 1113.4673,
+      "taker_sell_vol": 651.3835,
+      "cum_vol_delta": 8250.494,
+      "timestamp": 1782662400
+    },
+    {
+      "time": 1782663300000,
+      "taker_buy_vol": 1100.8525,
+      "taker_sell_vol": 968.5737,
+      "cum_vol_delta": 8382.7727,
+      "timestamp": 1782663300
+    },
+    {
+      "time": 1782664200000,
+      "taker_buy_vol": 1326.096,
+      "taker_sell_vol": 1084.6244,
+      "cum_vol_delta": 8624.2443,
+      "timestamp": 1782664200
+    },
+    {
+      "time": 1782665100000,
+      "taker_buy_vol": 917.4339,
+      "taker_sell_vol": 954.5499,
+      "cum_vol_delta": 8587.1283,
+      "timestamp": 1782665100
+    },
+    {
+      "time": 1782666000000,
+      "taker_buy_vol": 1050.4373,
+      "taker_sell_vol": 864.8934,
+      "cum_vol_delta": 8772.6723,
+      "timestamp": 1782666000
+    },
+    {
+      "time": 1782666900000,
+      "taker_buy_vol": 743.8723,
+      "taker_sell_vol": 890.0133,
+      "cum_vol_delta": 8626.5313,
+      "timestamp": 1782666900
+    },
+    {
+      "time": 1782667800000,
+      "taker_buy_vol": 1262.9904,
+      "taker_sell_vol": 827.0886,
+      "cum_vol_delta": 9062.4332,
+      "timestamp": 1782667800
+    },
+    {
+      "time": 1782668700000,
+      "taker_buy_vol": 964.9831,
+      "taker_sell_vol": 1263.3564,
+      "cum_vol_delta": 8764.0598,
+      "timestamp": 1782668700
+    },
+    {
+      "time": 1782669600000,
+      "taker_buy_vol": 1100.3765,
+      "taker_sell_vol": 1089.069,
+      "cum_vol_delta": 8775.3674,
+      "timestamp": 1782669600
+    },
+    {
+      "time": 1782670500000,
+      "taker_buy_vol": 953.1061,
+      "taker_sell_vol": 1065.4456,
+      "cum_vol_delta": 8663.0279,
+      "timestamp": 1782670500
+    },
+    {
+      "time": 1782671400000,
+      "taker_buy_vol": 982.9195,
+      "taker_sell_vol": 1221.2845,
+      "cum_vol_delta": 8424.6629,
+      "timestamp": 1782671400
+    },
+    {
+      "time": 1782672300000,
+      "taker_buy_vol": 1063.6273,
+      "taker_sell_vol": 1097.1451,
+      "cum_vol_delta": 8391.1451,
+      "timestamp": 1782672300
+    },
+    {
+      "time": 1782673200000,
+      "taker_buy_vol": 1164.0967,
+      "taker_sell_vol": 1201.9167,
+      "cum_vol_delta": 8353.3252,
+      "timestamp": 1782673200
+    },
+    {
+      "time": 1782674100000,
+      "taker_buy_vol": 1009.1562,
+      "taker_sell_vol": 919.7364,
+      "cum_vol_delta": 8442.745,
+      "timestamp": 1782674100
+    },
+    {
+      "time": 1782675000000,
+      "taker_buy_vol": 1115.3771,
+      "taker_sell_vol": 999.9344,
+      "cum_vol_delta": 8558.1877,
+      "timestamp": 1782675000
+    },
+    {
+      "time": 1782675900000,
+      "taker_buy_vol": 598.0406,
+      "taker_sell_vol": 1117.3669,
+      "cum_vol_delta": 8038.8613,
+      "timestamp": 1782675900
+    },
+    {
+      "time": 1782676800000,
+      "taker_buy_vol": 1125.3584,
+      "taker_sell_vol": 1212.5032,
+      "cum_vol_delta": 7951.7166,
+      "timestamp": 1782676800
+    },
+    {
+      "time": 1782677700000,
+      "taker_buy_vol": 1140.5423,
+      "taker_sell_vol": 1204.9293,
+      "cum_vol_delta": 7887.3296,
+      "timestamp": 1782677700
+    },
+    {
+      "time": 1782678600000,
+      "taker_buy_vol": 871.8215,
+      "taker_sell_vol": 1203.3792,
+      "cum_vol_delta": 7555.7719,
+      "timestamp": 1782678600
+    },
+    {
+      "time": 1782679500000,
+      "taker_buy_vol": 1120.0574,
+      "taker_sell_vol": 780.3727,
+      "cum_vol_delta": 7895.4567,
+      "timestamp": 1782679500
+    },
+    {
+      "time": 1782680400000,
+      "taker_buy_vol": 970.6896,
+      "taker_sell_vol": 852.0992,
+      "cum_vol_delta": 8014.0471,
+      "timestamp": 1782680400
+    },
+    {
+      "time": 1782681300000,
+      "taker_buy_vol": 1013.2347,
+      "taker_sell_vol": 1086.122,
+      "cum_vol_delta": 7941.1598,
+      "timestamp": 1782681300
+    },
+    {
+      "time": 1782682200000,
+      "taker_buy_vol": 922.2744,
+      "taker_sell_vol": 1138.1189,
+      "cum_vol_delta": 7725.3154,
+      "timestamp": 1782682200
+    },
+    {
+      "time": 1782683100000,
+      "taker_buy_vol": 864.1217,
+      "taker_sell_vol": 823.478,
+      "cum_vol_delta": 7765.9591,
+      "timestamp": 1782683100
+    },
+    {
+      "time": 1782684000000,
+      "taker_buy_vol": 796.8222,
+      "taker_sell_vol": 1107.4336,
+      "cum_vol_delta": 7455.3477,
+      "timestamp": 1782684000
+    },
+    {
+      "time": 1782684900000,
+      "taker_buy_vol": 1218.8043,
+      "taker_sell_vol": 808.6675,
+      "cum_vol_delta": 7865.4845,
+      "timestamp": 1782684900
+    },
+    {
+      "time": 1782685800000,
+      "taker_buy_vol": 954.4637,
+      "taker_sell_vol": 1269.904,
+      "cum_vol_delta": 7550.0443,
+      "timestamp": 1782685800
+    },
+    {
+      "time": 1782686700000,
+      "taker_buy_vol": 1045.5086,
+      "taker_sell_vol": 839.4756,
+      "cum_vol_delta": 7756.0772,
+      "timestamp": 1782686700
+    },
+    {
+      "time": 1782687600000,
+      "taker_buy_vol": 1180.4864,
+      "taker_sell_vol": 848.196,
+      "cum_vol_delta": 8088.3677,
+      "timestamp": 1782687600
+    },
+    {
+      "time": 1782688500000,
+      "taker_buy_vol": 1349.3343,
+      "taker_sell_vol": 905.3926,
+      "cum_vol_delta": 8532.3094,
+      "timestamp": 1782688500
+    },
+    {
+      "time": 1782689400000,
+      "taker_buy_vol": 1134.8014,
+      "taker_sell_vol": 833.1587,
+      "cum_vol_delta": 8833.9521,
+      "timestamp": 1782689400
+    },
+    {
+      "time": 1782690300000,
+      "taker_buy_vol": 1114.7702,
+      "taker_sell_vol": 929.4246,
+      "cum_vol_delta": 9019.2978,
+      "timestamp": 1782690300
+    },
+    {
+      "time": 1782691200000,
+      "taker_buy_vol": 1130.9769,
+      "taker_sell_vol": 1040.7455,
+      "cum_vol_delta": 9109.5291,
+      "timestamp": 1782691200
+    },
+    {
+      "time": 1782692100000,
+      "taker_buy_vol": 996.0593,
+      "taker_sell_vol": 978.6694,
+      "cum_vol_delta": 9126.919,
+      "timestamp": 1782692100
+    },
+    {
+      "time": 1782693000000,
+      "taker_buy_vol": 763.056,
+      "taker_sell_vol": 1033.0633,
+      "cum_vol_delta": 8856.9117,
+      "timestamp": 1782693000
+    },
+    {
+      "time": 1782693900000,
+      "taker_buy_vol": 701.6266,
+      "taker_sell_vol": 1220.2414,
+      "cum_vol_delta": 8338.2969,
+      "timestamp": 1782693900
+    },
+    {
+      "time": 1782694800000,
+      "taker_buy_vol": 1004.7461,
+      "taker_sell_vol": 1040.217,
+      "cum_vol_delta": 8302.8259,
+      "timestamp": 1782694800
+    },
+    {
+      "time": 1782695700000,
+      "taker_buy_vol": 884.4439,
+      "taker_sell_vol": 990.8102,
+      "cum_vol_delta": 8196.4597,
+      "timestamp": 1782695700
+    },
+    {
+      "time": 1782696600000,
+      "taker_buy_vol": 1342.7686,
+      "taker_sell_vol": 1310.0051,
+      "cum_vol_delta": 8229.2232,
+      "timestamp": 1782696600
+    },
+    {
+      "time": 1782697500000,
+      "taker_buy_vol": 695.1266,
+      "taker_sell_vol": 1140.0221,
+      "cum_vol_delta": 7784.3278,
+      "timestamp": 1782697500
+    },
+    {
+      "time": 1782698400000,
+      "taker_buy_vol": 1035.0279,
+      "taker_sell_vol": 1038.2773,
+      "cum_vol_delta": 7781.0784,
+      "timestamp": 1782698400
+    },
+    {
+      "time": 1782699300000,
+      "taker_buy_vol": 989.693,
+      "taker_sell_vol": 581.2675,
+      "cum_vol_delta": 8189.5039,
+      "timestamp": 1782699300
+    },
+    {
+      "time": 1782700200000,
+      "taker_buy_vol": 1037.3081,
+      "taker_sell_vol": 1089.6576,
+      "cum_vol_delta": 8137.1544,
+      "timestamp": 1782700200
+    },
+    {
+      "time": 1782701100000,
+      "taker_buy_vol": 1096.6656,
+      "taker_sell_vol": 1105.5629,
+      "cum_vol_delta": 8128.2571,
+      "timestamp": 1782701100
+    },
+    {
+      "time": 1782702000000,
+      "taker_buy_vol": 815.7196,
+      "taker_sell_vol": 849.2401,
+      "cum_vol_delta": 8094.7366,
+      "timestamp": 1782702000
+    },
+    {
+      "time": 1782702900000,
+      "taker_buy_vol": 806.3639,
+      "taker_sell_vol": 1016.0641,
+      "cum_vol_delta": 7885.0363,
+      "timestamp": 1782702900
+    },
+    {
+      "time": 1782703800000,
+      "taker_buy_vol": 783.4589,
+      "taker_sell_vol": 1043.0836,
+      "cum_vol_delta": 7625.4116,
+      "timestamp": 1782703800
+    },
+    {
+      "time": 1782704700000,
+      "taker_buy_vol": 984.8275,
+      "taker_sell_vol": 704.4719,
+      "cum_vol_delta": 7905.7672,
+      "timestamp": 1782704700
+    },
+    {
+      "time": 1782705600000,
+      "taker_buy_vol": 1072.9925,
+      "taker_sell_vol": 1179.7658,
+      "cum_vol_delta": 7798.9939,
+      "timestamp": 1782705600
+    },
+    {
+      "time": 1782706500000,
+      "taker_buy_vol": 1176.2136,
+      "taker_sell_vol": 1054.9799,
+      "cum_vol_delta": 7920.2276,
+      "timestamp": 1782706500
+    },
+    {
+      "time": 1782707400000,
+      "taker_buy_vol": 909.9935,
+      "taker_sell_vol": 919.6484,
+      "cum_vol_delta": 7910.5727,
+      "timestamp": 1782707400
+    },
+    {
+      "time": 1782708300000,
+      "taker_buy_vol": 1434.4917,
+      "taker_sell_vol": 957.0754,
+      "cum_vol_delta": 8387.9889,
+      "timestamp": 1782708300
+    },
+    {
+      "time": 1782709200000,
+      "taker_buy_vol": 1072.5303,
+      "taker_sell_vol": 885.4493,
+      "cum_vol_delta": 8575.0699,
+      "timestamp": 1782709200
+    },
+    {
+      "time": 1782710100000,
+      "taker_buy_vol": 986.3172,
+      "taker_sell_vol": 906.4651,
+      "cum_vol_delta": 8654.922,
+      "timestamp": 1782710100
+    },
+    {
+      "time": 1782711000000,
+      "taker_buy_vol": 587.3063,
+      "taker_sell_vol": 979.7337,
+      "cum_vol_delta": 8262.4946,
+      "timestamp": 1782711000
+    },
+    {
+      "time": 1782711900000,
+      "taker_buy_vol": 1047.8375,
+      "taker_sell_vol": 1076.2693,
+      "cum_vol_delta": 8234.0628,
+      "timestamp": 1782711900
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "coinglass_cvd_volume_orderflow_cvd",
+    "path": "/api/futures/cvd/history",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/coinglass/extracted_raw/20260704T154952Z/cvd_volume_orderflow/cvd/15m_raw.json",
+    "raw_shape": "code_msg_data_list_cvd",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

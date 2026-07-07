@@ -1,0 +1,3680 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "cvd_volume_orderflow",
+  "subtype": "taker_buy_sell_stats",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "day",
+  "extraction_window": null,
+  "records": [
+    {
+      "date": "2026-06-23",
+      "taker_buy_volume": 694.3363,
+      "taker_sell_volume": 826.7256,
+      "taker_total_volume": 1521.0619,
+      "taker_buy_ratio": 0.456481,
+      "taker_sell_ratio": 0.543519,
+      "taker_buy_sell_ratio": 0.839863,
+      "timestamp": 1782194400
+    },
+    {
+      "date": "2026-06-24",
+      "taker_buy_volume": 739.8282,
+      "taker_sell_volume": 597.992,
+      "taker_total_volume": 1337.8202,
+      "taker_buy_ratio": 0.55301,
+      "taker_sell_ratio": 0.44699,
+      "taker_buy_sell_ratio": 1.237187,
+      "timestamp": 1782280800
+    },
+    {
+      "date": "2026-06-25",
+      "taker_buy_volume": 1055.9064,
+      "taker_sell_volume": 784.1182,
+      "taker_total_volume": 1840.0246,
+      "taker_buy_ratio": 0.573855,
+      "taker_sell_ratio": 0.426145,
+      "taker_buy_sell_ratio": 1.346616,
+      "timestamp": 1782367200
+    },
+    {
+      "date": "2026-06-26",
+      "taker_buy_volume": 840.0375,
+      "taker_sell_volume": 882.0516,
+      "taker_total_volume": 1722.0891,
+      "taker_buy_ratio": 0.487801,
+      "taker_sell_ratio": 0.512199,
+      "taker_buy_sell_ratio": 0.952368,
+      "timestamp": 1782453600
+    },
+    {
+      "date": "2026-06-27",
+      "taker_buy_volume": 931.0347,
+      "taker_sell_volume": 740.8943,
+      "taker_total_volume": 1671.929,
+      "taker_buy_ratio": 0.556863,
+      "taker_sell_ratio": 0.443137,
+      "taker_buy_sell_ratio": 1.256636,
+      "timestamp": 1782540000
+    },
+    {
+      "date": "2026-06-28",
+      "taker_buy_volume": 933.2843,
+      "taker_sell_volume": 1141.6693,
+      "taker_total_volume": 2074.9536,
+      "taker_buy_ratio": 0.449786,
+      "taker_sell_ratio": 0.550214,
+      "taker_buy_sell_ratio": 0.817473,
+      "timestamp": 1782626400
+    },
+    {
+      "date": "2026-06-29",
+      "taker_buy_volume": 811.6522,
+      "taker_sell_volume": 958.0333,
+      "taker_total_volume": 1769.6855,
+      "taker_buy_ratio": 0.458642,
+      "taker_sell_ratio": 0.541358,
+      "taker_buy_sell_ratio": 0.847207,
+      "timestamp": 1782712800
+    },
+    {
+      "date": "2026-06-30",
+      "taker_buy_volume": 783.1471,
+      "taker_sell_volume": 1011.1859,
+      "taker_total_volume": 1794.3329,
+      "taker_buy_ratio": 0.436456,
+      "taker_sell_ratio": 0.563544,
+      "taker_buy_sell_ratio": 0.774484,
+      "timestamp": 1782799200
+    },
+    {
+      "date": "2026-07-01",
+      "taker_buy_volume": 926.0433,
+      "taker_sell_volume": 615.7507,
+      "taker_total_volume": 1541.794,
+      "taker_buy_ratio": 0.600627,
+      "taker_sell_ratio": 0.399373,
+      "taker_buy_sell_ratio": 1.503926,
+      "timestamp": 1782885600
+    },
+    {
+      "date": "2026-07-02",
+      "taker_buy_volume": 949.0746,
+      "taker_sell_volume": 772.81,
+      "taker_total_volume": 1721.8846,
+      "taker_buy_ratio": 0.551184,
+      "taker_sell_ratio": 0.448816,
+      "taker_buy_sell_ratio": 1.228083,
+      "timestamp": 1782972000
+    },
+    {
+      "date": "2026-07-03",
+      "taker_buy_volume": 1023.8688,
+      "taker_sell_volume": 749.0249,
+      "taker_total_volume": 1772.8937,
+      "taker_buy_ratio": 0.577513,
+      "taker_sell_ratio": 0.422487,
+      "taker_buy_sell_ratio": 1.366936,
+      "timestamp": 1783058400
+    },
+    {
+      "date": "2026-07-04",
+      "taker_buy_volume": 950.3063,
+      "taker_sell_volume": 790.5965,
+      "taker_total_volume": 1740.9028,
+      "taker_buy_ratio": 0.54587,
+      "taker_sell_ratio": 0.45413,
+      "taker_buy_sell_ratio": 1.202012,
+      "timestamp": 1783144800
+    },
+    {
+      "date": "2026-07-05",
+      "taker_buy_volume": 662.9533,
+      "taker_sell_volume": 903.5587,
+      "taker_total_volume": 1566.512,
+      "taker_buy_ratio": 0.423203,
+      "taker_sell_ratio": 0.576797,
+      "taker_buy_sell_ratio": 0.733714,
+      "timestamp": 1783231200
+    },
+    {
+      "date": "2026-07-06",
+      "taker_buy_volume": 909.0917,
+      "taker_sell_volume": 1098.5896,
+      "taker_total_volume": 2007.6813,
+      "taker_buy_ratio": 0.452807,
+      "taker_sell_ratio": 0.547193,
+      "taker_buy_sell_ratio": 0.827508,
+      "timestamp": 1783317600
+    },
+    {
+      "date": "2026-07-07",
+      "taker_buy_volume": 810.66,
+      "taker_sell_volume": 772.7237,
+      "taker_total_volume": 1583.3837,
+      "taker_buy_ratio": 0.511979,
+      "taker_sell_ratio": 0.488021,
+      "taker_buy_sell_ratio": 1.049094,
+      "timestamp": 1783404000
+    },
+    {
+      "date": "2026-07-08",
+      "taker_buy_volume": 851.0019,
+      "taker_sell_volume": 587.6228,
+      "taker_total_volume": 1438.6247,
+      "taker_buy_ratio": 0.591539,
+      "taker_sell_ratio": 0.408461,
+      "taker_buy_sell_ratio": 1.448211,
+      "timestamp": 1783490400
+    },
+    {
+      "date": "2026-07-09",
+      "taker_buy_volume": 821.4956,
+      "taker_sell_volume": 978.7679,
+      "taker_total_volume": 1800.2634,
+      "taker_buy_ratio": 0.45632,
+      "taker_sell_ratio": 0.54368,
+      "taker_buy_sell_ratio": 0.839316,
+      "timestamp": 1783576800
+    },
+    {
+      "date": "2026-07-10",
+      "taker_buy_volume": 691.1292,
+      "taker_sell_volume": 1069.6696,
+      "taker_total_volume": 1760.7988,
+      "taker_buy_ratio": 0.392509,
+      "taker_sell_ratio": 0.607491,
+      "taker_buy_sell_ratio": 0.646115,
+      "timestamp": 1783663200
+    },
+    {
+      "date": "2026-07-11",
+      "taker_buy_volume": 982.9075,
+      "taker_sell_volume": 816.2925,
+      "taker_total_volume": 1799.2,
+      "taker_buy_ratio": 0.546303,
+      "taker_sell_ratio": 0.453697,
+      "taker_buy_sell_ratio": 1.204112,
+      "timestamp": 1783749600
+    },
+    {
+      "date": "2026-07-12",
+      "taker_buy_volume": 770.2631,
+      "taker_sell_volume": 705.5936,
+      "taker_total_volume": 1475.8567,
+      "taker_buy_ratio": 0.521909,
+      "taker_sell_ratio": 0.478091,
+      "taker_buy_sell_ratio": 1.091653,
+      "timestamp": 1783836000
+    },
+    {
+      "date": "2026-07-13",
+      "taker_buy_volume": 915.1664,
+      "taker_sell_volume": 901.0844,
+      "taker_total_volume": 1816.2508,
+      "taker_buy_ratio": 0.503877,
+      "taker_sell_ratio": 0.496123,
+      "taker_buy_sell_ratio": 1.015628,
+      "timestamp": 1783922400
+    },
+    {
+      "date": "2026-07-14",
+      "taker_buy_volume": 722.4274,
+      "taker_sell_volume": 959.2353,
+      "taker_total_volume": 1681.6626,
+      "taker_buy_ratio": 0.429591,
+      "taker_sell_ratio": 0.570409,
+      "taker_buy_sell_ratio": 0.753128,
+      "timestamp": 1784008800
+    },
+    {
+      "date": "2026-07-15",
+      "taker_buy_volume": 897.1553,
+      "taker_sell_volume": 619.4249,
+      "taker_total_volume": 1516.5801,
+      "taker_buy_ratio": 0.591565,
+      "taker_sell_ratio": 0.408435,
+      "taker_buy_sell_ratio": 1.448368,
+      "timestamp": 1784095200
+    },
+    {
+      "date": "2026-07-16",
+      "taker_buy_volume": 762.7582,
+      "taker_sell_volume": 873.2368,
+      "taker_total_volume": 1635.995,
+      "taker_buy_ratio": 0.466235,
+      "taker_sell_ratio": 0.533765,
+      "taker_buy_sell_ratio": 0.873484,
+      "timestamp": 1784181600
+    },
+    {
+      "date": "2026-07-17",
+      "taker_buy_volume": 707.1196,
+      "taker_sell_volume": 854.8278,
+      "taker_total_volume": 1561.9474,
+      "taker_buy_ratio": 0.452717,
+      "taker_sell_ratio": 0.547283,
+      "taker_buy_sell_ratio": 0.827207,
+      "timestamp": 1784268000
+    },
+    {
+      "date": "2026-07-18",
+      "taker_buy_volume": 991.3005,
+      "taker_sell_volume": 895.9457,
+      "taker_total_volume": 1887.2462,
+      "taker_buy_ratio": 0.525263,
+      "taker_sell_ratio": 0.474737,
+      "taker_buy_sell_ratio": 1.106429,
+      "timestamp": 1784354400
+    },
+    {
+      "date": "2026-07-19",
+      "taker_buy_volume": 890.6189,
+      "taker_sell_volume": 914.3618,
+      "taker_total_volume": 1804.9807,
+      "taker_buy_ratio": 0.493423,
+      "taker_sell_ratio": 0.506577,
+      "taker_buy_sell_ratio": 0.974033,
+      "timestamp": 1784440800
+    },
+    {
+      "date": "2026-07-20",
+      "taker_buy_volume": 895.8535,
+      "taker_sell_volume": 800.8037,
+      "taker_total_volume": 1696.6571,
+      "taker_buy_ratio": 0.528011,
+      "taker_sell_ratio": 0.471989,
+      "taker_buy_sell_ratio": 1.118693,
+      "timestamp": 1784527200
+    },
+    {
+      "date": "2026-07-21",
+      "taker_buy_volume": 832.5971,
+      "taker_sell_volume": 957.3527,
+      "taker_total_volume": 1789.9498,
+      "taker_buy_ratio": 0.465151,
+      "taker_sell_ratio": 0.534849,
+      "taker_buy_sell_ratio": 0.869687,
+      "timestamp": 1784613600
+    },
+    {
+      "date": "2026-07-22",
+      "taker_buy_volume": 662.2814,
+      "taker_sell_volume": 1035.1542,
+      "taker_total_volume": 1697.4356,
+      "taker_buy_ratio": 0.390166,
+      "taker_sell_ratio": 0.609834,
+      "taker_buy_sell_ratio": 0.63979,
+      "timestamp": 1784700000
+    },
+    {
+      "date": "2026-07-23",
+      "taker_buy_volume": 782.2214,
+      "taker_sell_volume": 585.2242,
+      "taker_total_volume": 1367.4456,
+      "taker_buy_ratio": 0.572031,
+      "taker_sell_ratio": 0.427969,
+      "taker_buy_sell_ratio": 1.336618,
+      "timestamp": 1784786400
+    },
+    {
+      "date": "2026-07-24",
+      "taker_buy_volume": 1008.3627,
+      "taker_sell_volume": 767.7746,
+      "taker_total_volume": 1776.1374,
+      "taker_buy_ratio": 0.567728,
+      "taker_sell_ratio": 0.432272,
+      "taker_buy_sell_ratio": 1.313358,
+      "timestamp": 1784872800
+    },
+    {
+      "date": "2026-07-25",
+      "taker_buy_volume": 727.3272,
+      "taker_sell_volume": 879.5998,
+      "taker_total_volume": 1606.927,
+      "taker_buy_ratio": 0.45262,
+      "taker_sell_ratio": 0.54738,
+      "taker_buy_sell_ratio": 0.826884,
+      "timestamp": 1784959200
+    },
+    {
+      "date": "2026-07-26",
+      "taker_buy_volume": 847.5302,
+      "taker_sell_volume": 445.2962,
+      "taker_total_volume": 1292.8264,
+      "taker_buy_ratio": 0.655564,
+      "taker_sell_ratio": 0.344436,
+      "taker_buy_sell_ratio": 1.903296,
+      "timestamp": 1785045600
+    },
+    {
+      "date": "2026-07-27",
+      "taker_buy_volume": 884.9445,
+      "taker_sell_volume": 1047.635,
+      "taker_total_volume": 1932.5795,
+      "taker_buy_ratio": 0.457908,
+      "taker_sell_ratio": 0.542092,
+      "taker_buy_sell_ratio": 0.844707,
+      "timestamp": 1785132000
+    },
+    {
+      "date": "2026-07-28",
+      "taker_buy_volume": 550.3782,
+      "taker_sell_volume": 689.8565,
+      "taker_total_volume": 1240.2347,
+      "taker_buy_ratio": 0.443769,
+      "taker_sell_ratio": 0.556231,
+      "taker_buy_sell_ratio": 0.797815,
+      "timestamp": 1785218400
+    },
+    {
+      "date": "2026-07-29",
+      "taker_buy_volume": 662.1035,
+      "taker_sell_volume": 970.3,
+      "taker_total_volume": 1632.4035,
+      "taker_buy_ratio": 0.4056,
+      "taker_sell_ratio": 0.5944,
+      "taker_buy_sell_ratio": 0.68237,
+      "timestamp": 1785304800
+    },
+    {
+      "date": "2026-07-30",
+      "taker_buy_volume": 949.3567,
+      "taker_sell_volume": 678.4736,
+      "taker_total_volume": 1627.8303,
+      "taker_buy_ratio": 0.583204,
+      "taker_sell_ratio": 0.416796,
+      "taker_buy_sell_ratio": 1.399254,
+      "timestamp": 1785391200
+    },
+    {
+      "date": "2026-07-31",
+      "taker_buy_volume": 830.6113,
+      "taker_sell_volume": 775.8241,
+      "taker_total_volume": 1606.4354,
+      "taker_buy_ratio": 0.517052,
+      "taker_sell_ratio": 0.482948,
+      "taker_buy_sell_ratio": 1.070618,
+      "timestamp": 1785477600
+    },
+    {
+      "date": "2026-08-01",
+      "taker_buy_volume": 901.9519,
+      "taker_sell_volume": 809.6232,
+      "taker_total_volume": 1711.5752,
+      "taker_buy_ratio": 0.526972,
+      "taker_sell_ratio": 0.473028,
+      "taker_buy_sell_ratio": 1.114039,
+      "timestamp": 1785564000
+    },
+    {
+      "date": "2026-08-02",
+      "taker_buy_volume": 608.5021,
+      "taker_sell_volume": 581.2942,
+      "taker_total_volume": 1189.7963,
+      "taker_buy_ratio": 0.511434,
+      "taker_sell_ratio": 0.488566,
+      "taker_buy_sell_ratio": 1.046806,
+      "timestamp": 1785650400
+    },
+    {
+      "date": "2026-08-03",
+      "taker_buy_volume": 1039.9706,
+      "taker_sell_volume": 782.9819,
+      "taker_total_volume": 1822.9525,
+      "taker_buy_ratio": 0.570487,
+      "taker_sell_ratio": 0.429513,
+      "taker_buy_sell_ratio": 1.328218,
+      "timestamp": 1785736800
+    },
+    {
+      "date": "2026-08-04",
+      "taker_buy_volume": 1174.9227,
+      "taker_sell_volume": 918.674,
+      "taker_total_volume": 2093.5967,
+      "taker_buy_ratio": 0.561198,
+      "taker_sell_ratio": 0.438802,
+      "taker_buy_sell_ratio": 1.278933,
+      "timestamp": 1785823200
+    },
+    {
+      "date": "2026-08-05",
+      "taker_buy_volume": 523.5361,
+      "taker_sell_volume": 961.7065,
+      "taker_total_volume": 1485.2426,
+      "taker_buy_ratio": 0.352492,
+      "taker_sell_ratio": 0.647508,
+      "taker_buy_sell_ratio": 0.544382,
+      "timestamp": 1785909600
+    },
+    {
+      "date": "2026-08-06",
+      "taker_buy_volume": 875.6283,
+      "taker_sell_volume": 956.8792,
+      "taker_total_volume": 1832.5075,
+      "taker_buy_ratio": 0.477831,
+      "taker_sell_ratio": 0.522169,
+      "taker_buy_sell_ratio": 0.915088,
+      "timestamp": 1785996000
+    },
+    {
+      "date": "2026-08-07",
+      "taker_buy_volume": 988.4237,
+      "taker_sell_volume": 749.9485,
+      "taker_total_volume": 1738.3722,
+      "taker_buy_ratio": 0.568592,
+      "taker_sell_ratio": 0.431408,
+      "taker_buy_sell_ratio": 1.317989,
+      "timestamp": 1786082400
+    },
+    {
+      "date": "2026-08-08",
+      "taker_buy_volume": 1024.6296,
+      "taker_sell_volume": 799.2274,
+      "taker_total_volume": 1823.857,
+      "taker_buy_ratio": 0.561793,
+      "taker_sell_ratio": 0.438207,
+      "taker_buy_sell_ratio": 1.282025,
+      "timestamp": 1786168800
+    },
+    {
+      "date": "2026-08-09",
+      "taker_buy_volume": 767.6677,
+      "taker_sell_volume": 895.3021,
+      "taker_total_volume": 1662.9698,
+      "taker_buy_ratio": 0.461625,
+      "taker_sell_ratio": 0.538375,
+      "taker_buy_sell_ratio": 0.85744,
+      "timestamp": 1786255200
+    },
+    {
+      "date": "2026-08-10",
+      "taker_buy_volume": 858.808,
+      "taker_sell_volume": 582.83,
+      "taker_total_volume": 1441.6379,
+      "taker_buy_ratio": 0.595717,
+      "taker_sell_ratio": 0.404283,
+      "taker_buy_sell_ratio": 1.473514,
+      "timestamp": 1786341600
+    },
+    {
+      "date": "2026-08-11",
+      "taker_buy_volume": 641.9589,
+      "taker_sell_volume": 782.6284,
+      "taker_total_volume": 1424.5874,
+      "taker_buy_ratio": 0.450628,
+      "taker_sell_ratio": 0.549372,
+      "taker_buy_sell_ratio": 0.82026,
+      "timestamp": 1786428000
+    },
+    {
+      "date": "2026-08-12",
+      "taker_buy_volume": 732.1538,
+      "taker_sell_volume": 552.2415,
+      "taker_total_volume": 1284.3953,
+      "taker_buy_ratio": 0.570038,
+      "taker_sell_ratio": 0.429962,
+      "taker_buy_sell_ratio": 1.325786,
+      "timestamp": 1786514400
+    },
+    {
+      "date": "2026-08-13",
+      "taker_buy_volume": 1254.8632,
+      "taker_sell_volume": 518.592,
+      "taker_total_volume": 1773.4552,
+      "taker_buy_ratio": 0.707581,
+      "taker_sell_ratio": 0.292419,
+      "taker_buy_sell_ratio": 2.419751,
+      "timestamp": 1786600800
+    },
+    {
+      "date": "2026-08-14",
+      "taker_buy_volume": 961.5506,
+      "taker_sell_volume": 1028.7939,
+      "taker_total_volume": 1990.3445,
+      "taker_buy_ratio": 0.483108,
+      "taker_sell_ratio": 0.516892,
+      "taker_buy_sell_ratio": 0.934639,
+      "timestamp": 1786687200
+    },
+    {
+      "date": "2026-08-15",
+      "taker_buy_volume": 685.8528,
+      "taker_sell_volume": 737.3186,
+      "taker_total_volume": 1423.1713,
+      "taker_buy_ratio": 0.481919,
+      "taker_sell_ratio": 0.518081,
+      "taker_buy_sell_ratio": 0.930199,
+      "timestamp": 1786773600
+    },
+    {
+      "date": "2026-08-16",
+      "taker_buy_volume": 1081.0146,
+      "taker_sell_volume": 760.0756,
+      "taker_total_volume": 1841.0902,
+      "taker_buy_ratio": 0.58716,
+      "taker_sell_ratio": 0.41284,
+      "taker_buy_sell_ratio": 1.422246,
+      "timestamp": 1786860000
+    },
+    {
+      "date": "2026-08-17",
+      "taker_buy_volume": 1015.0333,
+      "taker_sell_volume": 769.3638,
+      "taker_total_volume": 1784.3971,
+      "taker_buy_ratio": 0.568838,
+      "taker_sell_ratio": 0.431162,
+      "taker_buy_sell_ratio": 1.319315,
+      "timestamp": 1786946400
+    },
+    {
+      "date": "2026-08-18",
+      "taker_buy_volume": 854.3149,
+      "taker_sell_volume": 759.5482,
+      "taker_total_volume": 1613.8632,
+      "taker_buy_ratio": 0.52936,
+      "taker_sell_ratio": 0.47064,
+      "taker_buy_sell_ratio": 1.124767,
+      "timestamp": 1787032800
+    },
+    {
+      "date": "2026-08-19",
+      "taker_buy_volume": 621.6869,
+      "taker_sell_volume": 761.3733,
+      "taker_total_volume": 1383.0601,
+      "taker_buy_ratio": 0.449501,
+      "taker_sell_ratio": 0.550499,
+      "taker_buy_sell_ratio": 0.816534,
+      "timestamp": 1787119200
+    },
+    {
+      "date": "2026-08-20",
+      "taker_buy_volume": 736.3417,
+      "taker_sell_volume": 820.8626,
+      "taker_total_volume": 1557.2043,
+      "taker_buy_ratio": 0.472861,
+      "taker_sell_ratio": 0.527139,
+      "taker_buy_sell_ratio": 0.897034,
+      "timestamp": 1787205600
+    },
+    {
+      "date": "2026-08-21",
+      "taker_buy_volume": 893.629,
+      "taker_sell_volume": 750.816,
+      "taker_total_volume": 1644.4451,
+      "taker_buy_ratio": 0.543423,
+      "taker_sell_ratio": 0.456577,
+      "taker_buy_sell_ratio": 1.19021,
+      "timestamp": 1787292000
+    },
+    {
+      "date": "2026-08-22",
+      "taker_buy_volume": 1106.1414,
+      "taker_sell_volume": 879.775,
+      "taker_total_volume": 1985.9165,
+      "taker_buy_ratio": 0.556993,
+      "taker_sell_ratio": 0.443007,
+      "taker_buy_sell_ratio": 1.2573,
+      "timestamp": 1787378400
+    },
+    {
+      "date": "2026-08-23",
+      "taker_buy_volume": 1064.4165,
+      "taker_sell_volume": 808.5726,
+      "taker_total_volume": 1872.9891,
+      "taker_buy_ratio": 0.568298,
+      "taker_sell_ratio": 0.431702,
+      "taker_buy_sell_ratio": 1.316414,
+      "timestamp": 1787464800
+    },
+    {
+      "date": "2026-08-24",
+      "taker_buy_volume": 1079.5664,
+      "taker_sell_volume": 879.3651,
+      "taker_total_volume": 1958.9315,
+      "taker_buy_ratio": 0.5511,
+      "taker_sell_ratio": 0.4489,
+      "taker_buy_sell_ratio": 1.227666,
+      "timestamp": 1787551200
+    },
+    {
+      "date": "2026-08-25",
+      "taker_buy_volume": 799.1833,
+      "taker_sell_volume": 651.9483,
+      "taker_total_volume": 1451.1316,
+      "taker_buy_ratio": 0.550731,
+      "taker_sell_ratio": 0.449269,
+      "taker_buy_sell_ratio": 1.225839,
+      "timestamp": 1787637600
+    },
+    {
+      "date": "2026-08-26",
+      "taker_buy_volume": 740.701,
+      "taker_sell_volume": 899.9266,
+      "taker_total_volume": 1640.6276,
+      "taker_buy_ratio": 0.451474,
+      "taker_sell_ratio": 0.548526,
+      "taker_buy_sell_ratio": 0.823068,
+      "timestamp": 1787724000
+    },
+    {
+      "date": "2026-08-27",
+      "taker_buy_volume": 773.935,
+      "taker_sell_volume": 737.4675,
+      "taker_total_volume": 1511.4025,
+      "taker_buy_ratio": 0.512064,
+      "taker_sell_ratio": 0.487936,
+      "taker_buy_sell_ratio": 1.04945,
+      "timestamp": 1787810400
+    },
+    {
+      "date": "2026-08-28",
+      "taker_buy_volume": 758.2236,
+      "taker_sell_volume": 979.2754,
+      "taker_total_volume": 1737.499,
+      "taker_buy_ratio": 0.436388,
+      "taker_sell_ratio": 0.563612,
+      "taker_buy_sell_ratio": 0.77427,
+      "timestamp": 1787896800
+    },
+    {
+      "date": "2026-08-29",
+      "taker_buy_volume": 812.1062,
+      "taker_sell_volume": 1008.4349,
+      "taker_total_volume": 1820.5411,
+      "taker_buy_ratio": 0.44608,
+      "taker_sell_ratio": 0.55392,
+      "taker_buy_sell_ratio": 0.805314,
+      "timestamp": 1787983200
+    },
+    {
+      "date": "2026-08-30",
+      "taker_buy_volume": 788.7544,
+      "taker_sell_volume": 943.3149,
+      "taker_total_volume": 1732.0693,
+      "taker_buy_ratio": 0.455383,
+      "taker_sell_ratio": 0.544617,
+      "taker_buy_sell_ratio": 0.836152,
+      "timestamp": 1788069600
+    },
+    {
+      "date": "2026-08-31",
+      "taker_buy_volume": 716.7469,
+      "taker_sell_volume": 784.3061,
+      "taker_total_volume": 1501.053,
+      "taker_buy_ratio": 0.477496,
+      "taker_sell_ratio": 0.522504,
+      "taker_buy_sell_ratio": 0.913861,
+      "timestamp": 1788156000
+    },
+    {
+      "date": "2026-09-01",
+      "taker_buy_volume": 889.541,
+      "taker_sell_volume": 631.7103,
+      "taker_total_volume": 1521.2513,
+      "taker_buy_ratio": 0.584743,
+      "taker_sell_ratio": 0.415257,
+      "taker_buy_sell_ratio": 1.408147,
+      "timestamp": 1788242400
+    },
+    {
+      "date": "2026-09-02",
+      "taker_buy_volume": 999.8953,
+      "taker_sell_volume": 900.7021,
+      "taker_total_volume": 1900.5974,
+      "taker_buy_ratio": 0.526095,
+      "taker_sell_ratio": 0.473905,
+      "taker_buy_sell_ratio": 1.110129,
+      "timestamp": 1788328800
+    },
+    {
+      "date": "2026-09-03",
+      "taker_buy_volume": 869.2143,
+      "taker_sell_volume": 673.8128,
+      "taker_total_volume": 1543.0271,
+      "taker_buy_ratio": 0.563318,
+      "taker_sell_ratio": 0.436682,
+      "taker_buy_sell_ratio": 1.289994,
+      "timestamp": 1788415200
+    },
+    {
+      "date": "2026-09-04",
+      "taker_buy_volume": 708.8662,
+      "taker_sell_volume": 847.5242,
+      "taker_total_volume": 1556.3904,
+      "taker_buy_ratio": 0.455455,
+      "taker_sell_ratio": 0.544545,
+      "taker_buy_sell_ratio": 0.836396,
+      "timestamp": 1788501600
+    },
+    {
+      "date": "2026-09-05",
+      "taker_buy_volume": 839.1476,
+      "taker_sell_volume": 635.6955,
+      "taker_total_volume": 1474.8431,
+      "taker_buy_ratio": 0.568974,
+      "taker_sell_ratio": 0.431026,
+      "taker_buy_sell_ratio": 1.320047,
+      "timestamp": 1788588000
+    },
+    {
+      "date": "2026-09-06",
+      "taker_buy_volume": 729.0828,
+      "taker_sell_volume": 897.8021,
+      "taker_total_volume": 1626.885,
+      "taker_buy_ratio": 0.448147,
+      "taker_sell_ratio": 0.551853,
+      "taker_buy_sell_ratio": 0.812075,
+      "timestamp": 1788674400
+    },
+    {
+      "date": "2026-09-07",
+      "taker_buy_volume": 999.4144,
+      "taker_sell_volume": 820.0525,
+      "taker_total_volume": 1819.4669,
+      "taker_buy_ratio": 0.54929,
+      "taker_sell_ratio": 0.45071,
+      "taker_buy_sell_ratio": 1.21872,
+      "timestamp": 1788760800
+    },
+    {
+      "date": "2026-09-08",
+      "taker_buy_volume": 900.3606,
+      "taker_sell_volume": 1106.7142,
+      "taker_total_volume": 2007.0748,
+      "taker_buy_ratio": 0.448593,
+      "taker_sell_ratio": 0.551407,
+      "taker_buy_sell_ratio": 0.813544,
+      "timestamp": 1788847200
+    },
+    {
+      "date": "2026-09-09",
+      "taker_buy_volume": 841.2932,
+      "taker_sell_volume": 815.3384,
+      "taker_total_volume": 1656.6315,
+      "taker_buy_ratio": 0.507834,
+      "taker_sell_ratio": 0.492166,
+      "taker_buy_sell_ratio": 1.031833,
+      "timestamp": 1788933600
+    },
+    {
+      "date": "2026-09-10",
+      "taker_buy_volume": 672.373,
+      "taker_sell_volume": 808.3546,
+      "taker_total_volume": 1480.7276,
+      "taker_buy_ratio": 0.454083,
+      "taker_sell_ratio": 0.545917,
+      "taker_buy_sell_ratio": 0.83178,
+      "timestamp": 1789020000
+    },
+    {
+      "date": "2026-09-11",
+      "taker_buy_volume": 892.1918,
+      "taker_sell_volume": 897.7574,
+      "taker_total_volume": 1789.9492,
+      "taker_buy_ratio": 0.498445,
+      "taker_sell_ratio": 0.501555,
+      "taker_buy_sell_ratio": 0.993801,
+      "timestamp": 1789106400
+    },
+    {
+      "date": "2026-09-12",
+      "taker_buy_volume": 954.0624,
+      "taker_sell_volume": 755.4498,
+      "taker_total_volume": 1709.5122,
+      "taker_buy_ratio": 0.55809,
+      "taker_sell_ratio": 0.44191,
+      "taker_buy_sell_ratio": 1.262906,
+      "timestamp": 1789192800
+    },
+    {
+      "date": "2026-09-13",
+      "taker_buy_volume": 892.45,
+      "taker_sell_volume": 659.9218,
+      "taker_total_volume": 1552.3718,
+      "taker_buy_ratio": 0.574894,
+      "taker_sell_ratio": 0.425106,
+      "taker_buy_sell_ratio": 1.352357,
+      "timestamp": 1789279200
+    },
+    {
+      "date": "2026-09-14",
+      "taker_buy_volume": 924.2378,
+      "taker_sell_volume": 1018.6394,
+      "taker_total_volume": 1942.8772,
+      "taker_buy_ratio": 0.475706,
+      "taker_sell_ratio": 0.524294,
+      "taker_buy_sell_ratio": 0.907326,
+      "timestamp": 1789365600
+    },
+    {
+      "date": "2026-09-15",
+      "taker_buy_volume": 797.5864,
+      "taker_sell_volume": 939.7601,
+      "taker_total_volume": 1737.3465,
+      "taker_buy_ratio": 0.459083,
+      "taker_sell_ratio": 0.540917,
+      "taker_buy_sell_ratio": 0.848713,
+      "timestamp": 1789452000
+    },
+    {
+      "date": "2026-09-16",
+      "taker_buy_volume": 807.0054,
+      "taker_sell_volume": 846.659,
+      "taker_total_volume": 1653.6644,
+      "taker_buy_ratio": 0.48801,
+      "taker_sell_ratio": 0.51199,
+      "taker_buy_sell_ratio": 0.953165,
+      "timestamp": 1789538400
+    },
+    {
+      "date": "2026-09-17",
+      "taker_buy_volume": 891.3187,
+      "taker_sell_volume": 783.3658,
+      "taker_total_volume": 1674.6844,
+      "taker_buy_ratio": 0.532231,
+      "taker_sell_ratio": 0.467769,
+      "taker_buy_sell_ratio": 1.137807,
+      "timestamp": 1789624800
+    },
+    {
+      "date": "2026-09-18",
+      "taker_buy_volume": 981.1199,
+      "taker_sell_volume": 626.6266,
+      "taker_total_volume": 1607.7464,
+      "taker_buy_ratio": 0.610245,
+      "taker_sell_ratio": 0.389755,
+      "taker_buy_sell_ratio": 1.565717,
+      "timestamp": 1789711200
+    },
+    {
+      "date": "2026-09-19",
+      "taker_buy_volume": 738.6695,
+      "taker_sell_volume": 606.0841,
+      "taker_total_volume": 1344.7536,
+      "taker_buy_ratio": 0.549297,
+      "taker_sell_ratio": 0.450703,
+      "taker_buy_sell_ratio": 1.218757,
+      "timestamp": 1789797600
+    },
+    {
+      "date": "2026-09-20",
+      "taker_buy_volume": 849.6983,
+      "taker_sell_volume": 636.2068,
+      "taker_total_volume": 1485.9052,
+      "taker_buy_ratio": 0.571839,
+      "taker_sell_ratio": 0.428161,
+      "taker_buy_sell_ratio": 1.335569,
+      "timestamp": 1789884000
+    },
+    {
+      "date": "2026-09-21",
+      "taker_buy_volume": 815.108,
+      "taker_sell_volume": 1061.1643,
+      "taker_total_volume": 1876.2722,
+      "taker_buy_ratio": 0.434429,
+      "taker_sell_ratio": 0.565571,
+      "taker_buy_sell_ratio": 0.768126,
+      "timestamp": 1789970400
+    },
+    {
+      "date": "2026-09-22",
+      "taker_buy_volume": 1020.9803,
+      "taker_sell_volume": 1002.1246,
+      "taker_total_volume": 2023.1049,
+      "taker_buy_ratio": 0.50466,
+      "taker_sell_ratio": 0.49534,
+      "taker_buy_sell_ratio": 1.018816,
+      "timestamp": 1790056800
+    },
+    {
+      "date": "2026-09-23",
+      "taker_buy_volume": 852.526,
+      "taker_sell_volume": 875.1885,
+      "taker_total_volume": 1727.7145,
+      "taker_buy_ratio": 0.493442,
+      "taker_sell_ratio": 0.506558,
+      "taker_buy_sell_ratio": 0.974106,
+      "timestamp": 1790143200
+    },
+    {
+      "date": "2026-09-24",
+      "taker_buy_volume": 874.455,
+      "taker_sell_volume": 957.5042,
+      "taker_total_volume": 1831.9592,
+      "taker_buy_ratio": 0.477333,
+      "taker_sell_ratio": 0.522667,
+      "taker_buy_sell_ratio": 0.913265,
+      "timestamp": 1790229600
+    },
+    {
+      "date": "2026-09-25",
+      "taker_buy_volume": 1006.0637,
+      "taker_sell_volume": 698.0506,
+      "taker_total_volume": 1704.1143,
+      "taker_buy_ratio": 0.590373,
+      "taker_sell_ratio": 0.409627,
+      "taker_buy_sell_ratio": 1.441247,
+      "timestamp": 1790316000
+    },
+    {
+      "date": "2026-09-26",
+      "taker_buy_volume": 583.0521,
+      "taker_sell_volume": 832.1152,
+      "taker_total_volume": 1415.1673,
+      "taker_buy_ratio": 0.412002,
+      "taker_sell_ratio": 0.587998,
+      "taker_buy_sell_ratio": 0.700687,
+      "timestamp": 1790402400
+    },
+    {
+      "date": "2026-09-27",
+      "taker_buy_volume": 768.4227,
+      "taker_sell_volume": 694.5662,
+      "taker_total_volume": 1462.9889,
+      "taker_buy_ratio": 0.525242,
+      "taker_sell_ratio": 0.474758,
+      "taker_buy_sell_ratio": 1.106335,
+      "timestamp": 1790488800
+    },
+    {
+      "date": "2026-09-28",
+      "taker_buy_volume": 847.6834,
+      "taker_sell_volume": 666.2825,
+      "taker_total_volume": 1513.9659,
+      "taker_buy_ratio": 0.559909,
+      "taker_sell_ratio": 0.440091,
+      "taker_buy_sell_ratio": 1.272258,
+      "timestamp": 1790575200
+    },
+    {
+      "date": "2026-09-29",
+      "taker_buy_volume": 614.4844,
+      "taker_sell_volume": 977.6274,
+      "taker_total_volume": 1592.1117,
+      "taker_buy_ratio": 0.385956,
+      "taker_sell_ratio": 0.614044,
+      "taker_buy_sell_ratio": 0.628547,
+      "timestamp": 1790661600
+    },
+    {
+      "date": "2026-09-30",
+      "taker_buy_volume": 805.0476,
+      "taker_sell_volume": 972.2369,
+      "taker_total_volume": 1777.2845,
+      "taker_buy_ratio": 0.452965,
+      "taker_sell_ratio": 0.547035,
+      "taker_buy_sell_ratio": 0.828036,
+      "timestamp": 1790748000
+    },
+    {
+      "date": "2026-10-01",
+      "taker_buy_volume": 1039.1286,
+      "taker_sell_volume": 861.8124,
+      "taker_total_volume": 1900.941,
+      "taker_buy_ratio": 0.546639,
+      "taker_sell_ratio": 0.453361,
+      "taker_buy_sell_ratio": 1.205748,
+      "timestamp": 1790834400
+    },
+    {
+      "date": "2026-10-02",
+      "taker_buy_volume": 604.2051,
+      "taker_sell_volume": 727.5435,
+      "taker_total_volume": 1331.7485,
+      "taker_buy_ratio": 0.453693,
+      "taker_sell_ratio": 0.546307,
+      "taker_buy_sell_ratio": 0.830473,
+      "timestamp": 1790920800
+    },
+    {
+      "date": "2026-10-03",
+      "taker_buy_volume": 786.4885,
+      "taker_sell_volume": 876.8954,
+      "taker_total_volume": 1663.3839,
+      "taker_buy_ratio": 0.472824,
+      "taker_sell_ratio": 0.527176,
+      "taker_buy_sell_ratio": 0.896901,
+      "timestamp": 1791007200
+    },
+    {
+      "date": "2026-10-04",
+      "taker_buy_volume": 945.4879,
+      "taker_sell_volume": 907.6454,
+      "taker_total_volume": 1853.1333,
+      "taker_buy_ratio": 0.51021,
+      "taker_sell_ratio": 0.48979,
+      "taker_buy_sell_ratio": 1.041693,
+      "timestamp": 1791093600
+    },
+    {
+      "date": "2026-10-05",
+      "taker_buy_volume": 770.1943,
+      "taker_sell_volume": 794.5598,
+      "taker_total_volume": 1564.7542,
+      "taker_buy_ratio": 0.492214,
+      "taker_sell_ratio": 0.507786,
+      "taker_buy_sell_ratio": 0.969335,
+      "timestamp": 1791180000
+    },
+    {
+      "date": "2026-10-06",
+      "taker_buy_volume": 882.467,
+      "taker_sell_volume": 721.4431,
+      "taker_total_volume": 1603.9101,
+      "taker_buy_ratio": 0.550197,
+      "taker_sell_ratio": 0.449803,
+      "taker_buy_sell_ratio": 1.223197,
+      "timestamp": 1791266400
+    },
+    {
+      "date": "2026-10-07",
+      "taker_buy_volume": 757.7967,
+      "taker_sell_volume": 714.0733,
+      "taker_total_volume": 1471.87,
+      "taker_buy_ratio": 0.514853,
+      "taker_sell_ratio": 0.485147,
+      "taker_buy_sell_ratio": 1.061231,
+      "timestamp": 1791352800
+    },
+    {
+      "date": "2026-10-08",
+      "taker_buy_volume": 822.1777,
+      "taker_sell_volume": 597.7852,
+      "taker_total_volume": 1419.963,
+      "taker_buy_ratio": 0.579013,
+      "taker_sell_ratio": 0.420987,
+      "taker_buy_sell_ratio": 1.375373,
+      "timestamp": 1791439200
+    },
+    {
+      "date": "2026-10-09",
+      "taker_buy_volume": 776.9597,
+      "taker_sell_volume": 1121.6022,
+      "taker_total_volume": 1898.5618,
+      "taker_buy_ratio": 0.409236,
+      "taker_sell_ratio": 0.590764,
+      "taker_buy_sell_ratio": 0.692723,
+      "timestamp": 1791525600
+    },
+    {
+      "date": "2026-10-10",
+      "taker_buy_volume": 882.9518,
+      "taker_sell_volume": 817.4362,
+      "taker_total_volume": 1700.388,
+      "taker_buy_ratio": 0.519265,
+      "taker_sell_ratio": 0.480735,
+      "taker_buy_sell_ratio": 1.080148,
+      "timestamp": 1791612000
+    },
+    {
+      "date": "2026-10-11",
+      "taker_buy_volume": 1057.3551,
+      "taker_sell_volume": 571.6206,
+      "taker_total_volume": 1628.9757,
+      "taker_buy_ratio": 0.649092,
+      "taker_sell_ratio": 0.350908,
+      "taker_buy_sell_ratio": 1.84975,
+      "timestamp": 1791698400
+    },
+    {
+      "date": "2026-10-12",
+      "taker_buy_volume": 857.7568,
+      "taker_sell_volume": 814.7712,
+      "taker_total_volume": 1672.528,
+      "taker_buy_ratio": 0.51285,
+      "taker_sell_ratio": 0.48715,
+      "taker_buy_sell_ratio": 1.052758,
+      "timestamp": 1791784800
+    },
+    {
+      "date": "2026-10-13",
+      "taker_buy_volume": 984.729,
+      "taker_sell_volume": 993.0682,
+      "taker_total_volume": 1977.7972,
+      "taker_buy_ratio": 0.497892,
+      "taker_sell_ratio": 0.502108,
+      "taker_buy_sell_ratio": 0.991603,
+      "timestamp": 1791871200
+    },
+    {
+      "date": "2026-10-14",
+      "taker_buy_volume": 833.649,
+      "taker_sell_volume": 781.2258,
+      "taker_total_volume": 1614.8749,
+      "taker_buy_ratio": 0.516231,
+      "taker_sell_ratio": 0.483769,
+      "taker_buy_sell_ratio": 1.067104,
+      "timestamp": 1791957600
+    },
+    {
+      "date": "2026-10-15",
+      "taker_buy_volume": 749.6405,
+      "taker_sell_volume": 904.3896,
+      "taker_total_volume": 1654.0301,
+      "taker_buy_ratio": 0.453221,
+      "taker_sell_ratio": 0.546779,
+      "taker_buy_sell_ratio": 0.828891,
+      "timestamp": 1792044000
+    },
+    {
+      "date": "2026-10-16",
+      "taker_buy_volume": 873.6494,
+      "taker_sell_volume": 651.951,
+      "taker_total_volume": 1525.6004,
+      "taker_buy_ratio": 0.572659,
+      "taker_sell_ratio": 0.427341,
+      "taker_buy_sell_ratio": 1.340054,
+      "timestamp": 1792130400
+    },
+    {
+      "date": "2026-10-17",
+      "taker_buy_volume": 755.5963,
+      "taker_sell_volume": 669.9112,
+      "taker_total_volume": 1425.5075,
+      "taker_buy_ratio": 0.530054,
+      "taker_sell_ratio": 0.469946,
+      "taker_buy_sell_ratio": 1.127905,
+      "timestamp": 1792216800
+    },
+    {
+      "date": "2026-10-18",
+      "taker_buy_volume": 913.9794,
+      "taker_sell_volume": 975.0659,
+      "taker_total_volume": 1889.0453,
+      "taker_buy_ratio": 0.483831,
+      "taker_sell_ratio": 0.516169,
+      "taker_buy_sell_ratio": 0.937351,
+      "timestamp": 1792303200
+    },
+    {
+      "date": "2026-10-19",
+      "taker_buy_volume": 1011.1716,
+      "taker_sell_volume": 759.8903,
+      "taker_total_volume": 1771.0618,
+      "taker_buy_ratio": 0.570941,
+      "taker_sell_ratio": 0.429059,
+      "taker_buy_sell_ratio": 1.330681,
+      "timestamp": 1792389600
+    },
+    {
+      "date": "2026-10-20",
+      "taker_buy_volume": 797.1326,
+      "taker_sell_volume": 770.9666,
+      "taker_total_volume": 1568.0992,
+      "taker_buy_ratio": 0.508343,
+      "taker_sell_ratio": 0.491657,
+      "taker_buy_sell_ratio": 1.033939,
+      "timestamp": 1792476000
+    },
+    {
+      "date": "2026-10-21",
+      "taker_buy_volume": 910.2257,
+      "taker_sell_volume": 850.3517,
+      "taker_total_volume": 1760.5774,
+      "taker_buy_ratio": 0.517004,
+      "taker_sell_ratio": 0.482996,
+      "taker_buy_sell_ratio": 1.070411,
+      "timestamp": 1792562400
+    },
+    {
+      "date": "2026-10-22",
+      "taker_buy_volume": 894.9515,
+      "taker_sell_volume": 980.9077,
+      "taker_total_volume": 1875.8592,
+      "taker_buy_ratio": 0.477089,
+      "taker_sell_ratio": 0.522911,
+      "taker_buy_sell_ratio": 0.912371,
+      "timestamp": 1792648800
+    },
+    {
+      "date": "2026-10-23",
+      "taker_buy_volume": 876.2279,
+      "taker_sell_volume": 1130.1468,
+      "taker_total_volume": 2006.3748,
+      "taker_buy_ratio": 0.436722,
+      "taker_sell_ratio": 0.563278,
+      "taker_buy_sell_ratio": 0.775322,
+      "timestamp": 1792735200
+    },
+    {
+      "date": "2026-10-24",
+      "taker_buy_volume": 994.3139,
+      "taker_sell_volume": 681.5002,
+      "taker_total_volume": 1675.8142,
+      "taker_buy_ratio": 0.593332,
+      "taker_sell_ratio": 0.406668,
+      "taker_buy_sell_ratio": 1.459007,
+      "timestamp": 1792821600
+    },
+    {
+      "date": "2026-10-25",
+      "taker_buy_volume": 569.917,
+      "taker_sell_volume": 1031.5611,
+      "taker_total_volume": 1601.4781,
+      "taker_buy_ratio": 0.355869,
+      "taker_sell_ratio": 0.644131,
+      "taker_buy_sell_ratio": 0.55248,
+      "timestamp": 1792908000
+    },
+    {
+      "date": "2026-10-26",
+      "taker_buy_volume": 1022.6866,
+      "taker_sell_volume": 969.9999,
+      "taker_total_volume": 1992.6865,
+      "taker_buy_ratio": 0.51322,
+      "taker_sell_ratio": 0.48678,
+      "taker_buy_sell_ratio": 1.054316,
+      "timestamp": 1792994400
+    },
+    {
+      "date": "2026-10-27",
+      "taker_buy_volume": 902.9444,
+      "taker_sell_volume": 816.3958,
+      "taker_total_volume": 1719.3402,
+      "taker_buy_ratio": 0.525169,
+      "taker_sell_ratio": 0.474831,
+      "taker_buy_sell_ratio": 1.106013,
+      "timestamp": 1793080800
+    },
+    {
+      "date": "2026-10-28",
+      "taker_buy_volume": 1019.9075,
+      "taker_sell_volume": 714.5596,
+      "taker_total_volume": 1734.4671,
+      "taker_buy_ratio": 0.588024,
+      "taker_sell_ratio": 0.411976,
+      "taker_buy_sell_ratio": 1.427323,
+      "timestamp": 1793167200
+    },
+    {
+      "date": "2026-10-29",
+      "taker_buy_volume": 701.0766,
+      "taker_sell_volume": 872.9593,
+      "taker_total_volume": 1574.0359,
+      "taker_buy_ratio": 0.445401,
+      "taker_sell_ratio": 0.554599,
+      "taker_buy_sell_ratio": 0.803103,
+      "timestamp": 1793253600
+    },
+    {
+      "date": "2026-10-30",
+      "taker_buy_volume": 653.0186,
+      "taker_sell_volume": 819.1477,
+      "taker_total_volume": 1472.1663,
+      "taker_buy_ratio": 0.443577,
+      "taker_sell_ratio": 0.556423,
+      "taker_buy_sell_ratio": 0.797193,
+      "timestamp": 1793340000
+    },
+    {
+      "date": "2026-10-31",
+      "taker_buy_volume": 816.3019,
+      "taker_sell_volume": 968.5065,
+      "taker_total_volume": 1784.8085,
+      "taker_buy_ratio": 0.457361,
+      "taker_sell_ratio": 0.542639,
+      "taker_buy_sell_ratio": 0.842846,
+      "timestamp": 1793426400
+    },
+    {
+      "date": "2026-11-01",
+      "taker_buy_volume": 1045.9647,
+      "taker_sell_volume": 845.978,
+      "taker_total_volume": 1891.9427,
+      "taker_buy_ratio": 0.552852,
+      "taker_sell_ratio": 0.447148,
+      "taker_buy_sell_ratio": 1.236397,
+      "timestamp": 1793512800
+    },
+    {
+      "date": "2026-11-02",
+      "taker_buy_volume": 755.2424,
+      "taker_sell_volume": 897.5844,
+      "taker_total_volume": 1652.8268,
+      "taker_buy_ratio": 0.45694,
+      "taker_sell_ratio": 0.54306,
+      "taker_buy_sell_ratio": 0.841417,
+      "timestamp": 1793599200
+    },
+    {
+      "date": "2026-11-03",
+      "taker_buy_volume": 1141.9936,
+      "taker_sell_volume": 953.8206,
+      "taker_total_volume": 2095.8142,
+      "taker_buy_ratio": 0.544893,
+      "taker_sell_ratio": 0.455107,
+      "taker_buy_sell_ratio": 1.197283,
+      "timestamp": 1793685600
+    },
+    {
+      "date": "2026-11-04",
+      "taker_buy_volume": 863.831,
+      "taker_sell_volume": 972.5424,
+      "taker_total_volume": 1836.3734,
+      "taker_buy_ratio": 0.470401,
+      "taker_sell_ratio": 0.529599,
+      "taker_buy_sell_ratio": 0.888219,
+      "timestamp": 1793772000
+    },
+    {
+      "date": "2026-11-05",
+      "taker_buy_volume": 709.1463,
+      "taker_sell_volume": 860.6108,
+      "taker_total_volume": 1569.7571,
+      "taker_buy_ratio": 0.451755,
+      "taker_sell_ratio": 0.548245,
+      "taker_buy_sell_ratio": 0.824003,
+      "timestamp": 1793858400
+    },
+    {
+      "date": "2026-11-06",
+      "taker_buy_volume": 346.1922,
+      "taker_sell_volume": 891.4023,
+      "taker_total_volume": 1237.5945,
+      "taker_buy_ratio": 0.27973,
+      "taker_sell_ratio": 0.72027,
+      "taker_buy_sell_ratio": 0.388368,
+      "timestamp": 1793944800
+    },
+    {
+      "date": "2026-11-07",
+      "taker_buy_volume": 786.1051,
+      "taker_sell_volume": 898.1212,
+      "taker_total_volume": 1684.2264,
+      "taker_buy_ratio": 0.466746,
+      "taker_sell_ratio": 0.533254,
+      "taker_buy_sell_ratio": 0.875277,
+      "timestamp": 1794031200
+    },
+    {
+      "date": "2026-11-08",
+      "taker_buy_volume": 659.788,
+      "taker_sell_volume": 1041.9567,
+      "taker_total_volume": 1701.7447,
+      "taker_buy_ratio": 0.387713,
+      "taker_sell_ratio": 0.612287,
+      "taker_buy_sell_ratio": 0.63322,
+      "timestamp": 1794117600
+    },
+    {
+      "date": "2026-11-09",
+      "taker_buy_volume": 715.923,
+      "taker_sell_volume": 888.8153,
+      "taker_total_volume": 1604.7383,
+      "taker_buy_ratio": 0.446131,
+      "taker_sell_ratio": 0.553869,
+      "taker_buy_sell_ratio": 0.80548,
+      "timestamp": 1794204000
+    },
+    {
+      "date": "2026-11-10",
+      "taker_buy_volume": 924.5782,
+      "taker_sell_volume": 829.1816,
+      "taker_total_volume": 1753.7597,
+      "taker_buy_ratio": 0.527198,
+      "taker_sell_ratio": 0.472802,
+      "taker_buy_sell_ratio": 1.115049,
+      "timestamp": 1794290400
+    },
+    {
+      "date": "2026-11-11",
+      "taker_buy_volume": 867.5964,
+      "taker_sell_volume": 1134.1133,
+      "taker_total_volume": 2001.7097,
+      "taker_buy_ratio": 0.433428,
+      "taker_sell_ratio": 0.566572,
+      "taker_buy_sell_ratio": 0.765,
+      "timestamp": 1794376800
+    },
+    {
+      "date": "2026-11-12",
+      "taker_buy_volume": 818.5166,
+      "taker_sell_volume": 892.1118,
+      "taker_total_volume": 1710.6284,
+      "taker_buy_ratio": 0.478489,
+      "taker_sell_ratio": 0.521511,
+      "taker_buy_sell_ratio": 0.917505,
+      "timestamp": 1794463200
+    },
+    {
+      "date": "2026-11-13",
+      "taker_buy_volume": 997.1754,
+      "taker_sell_volume": 853.824,
+      "taker_total_volume": 1850.9994,
+      "taker_buy_ratio": 0.538723,
+      "taker_sell_ratio": 0.461277,
+      "taker_buy_sell_ratio": 1.167893,
+      "timestamp": 1794549600
+    },
+    {
+      "date": "2026-11-14",
+      "taker_buy_volume": 1249.6611,
+      "taker_sell_volume": 720.2409,
+      "taker_total_volume": 1969.902,
+      "taker_buy_ratio": 0.634377,
+      "taker_sell_ratio": 0.365623,
+      "taker_buy_sell_ratio": 1.73506,
+      "timestamp": 1794636000
+    },
+    {
+      "date": "2026-11-15",
+      "taker_buy_volume": 1008.9269,
+      "taker_sell_volume": 639.9625,
+      "taker_total_volume": 1648.8894,
+      "taker_buy_ratio": 0.611883,
+      "taker_sell_ratio": 0.388117,
+      "taker_buy_sell_ratio": 1.57654,
+      "timestamp": 1794722400
+    },
+    {
+      "date": "2026-11-16",
+      "taker_buy_volume": 838.567,
+      "taker_sell_volume": 742.3709,
+      "taker_total_volume": 1580.938,
+      "taker_buy_ratio": 0.530424,
+      "taker_sell_ratio": 0.469576,
+      "taker_buy_sell_ratio": 1.12958,
+      "timestamp": 1794808800
+    },
+    {
+      "date": "2026-11-17",
+      "taker_buy_volume": 837.1894,
+      "taker_sell_volume": 741.2046,
+      "taker_total_volume": 1578.394,
+      "taker_buy_ratio": 0.530406,
+      "taker_sell_ratio": 0.469594,
+      "taker_buy_sell_ratio": 1.129498,
+      "timestamp": 1794895200
+    },
+    {
+      "date": "2026-11-18",
+      "taker_buy_volume": 599.8415,
+      "taker_sell_volume": 751.6666,
+      "taker_total_volume": 1351.5081,
+      "taker_buy_ratio": 0.443831,
+      "taker_sell_ratio": 0.556169,
+      "taker_buy_sell_ratio": 0.798015,
+      "timestamp": 1794981600
+    },
+    {
+      "date": "2026-11-19",
+      "taker_buy_volume": 776.1618,
+      "taker_sell_volume": 729.9797,
+      "taker_total_volume": 1506.1416,
+      "taker_buy_ratio": 0.515331,
+      "taker_sell_ratio": 0.484669,
+      "taker_buy_sell_ratio": 1.063265,
+      "timestamp": 1795068000
+    },
+    {
+      "date": "2026-11-20",
+      "taker_buy_volume": 820.3321,
+      "taker_sell_volume": 1064.9045,
+      "taker_total_volume": 1885.2367,
+      "taker_buy_ratio": 0.435135,
+      "taker_sell_ratio": 0.564865,
+      "taker_buy_sell_ratio": 0.770334,
+      "timestamp": 1795154400
+    },
+    {
+      "date": "2026-11-21",
+      "taker_buy_volume": 692.2602,
+      "taker_sell_volume": 615.1411,
+      "taker_total_volume": 1307.4013,
+      "taker_buy_ratio": 0.529493,
+      "taker_sell_ratio": 0.470507,
+      "taker_buy_sell_ratio": 1.125368,
+      "timestamp": 1795240800
+    },
+    {
+      "date": "2026-11-22",
+      "taker_buy_volume": 1036.4584,
+      "taker_sell_volume": 996.8249,
+      "taker_total_volume": 2033.2833,
+      "taker_buy_ratio": 0.509746,
+      "taker_sell_ratio": 0.490254,
+      "taker_buy_sell_ratio": 1.03976,
+      "timestamp": 1795327200
+    },
+    {
+      "date": "2026-11-23",
+      "taker_buy_volume": 615.348,
+      "taker_sell_volume": 990.0854,
+      "taker_total_volume": 1605.4334,
+      "taker_buy_ratio": 0.383291,
+      "taker_sell_ratio": 0.616709,
+      "taker_buy_sell_ratio": 0.62151,
+      "timestamp": 1795413600
+    },
+    {
+      "date": "2026-11-24",
+      "taker_buy_volume": 699.172,
+      "taker_sell_volume": 876.4215,
+      "taker_total_volume": 1575.5935,
+      "taker_buy_ratio": 0.443751,
+      "taker_sell_ratio": 0.556249,
+      "taker_buy_sell_ratio": 0.797758,
+      "timestamp": 1795500000
+    },
+    {
+      "date": "2026-11-25",
+      "taker_buy_volume": 711.8757,
+      "taker_sell_volume": 573.1973,
+      "taker_total_volume": 1285.073,
+      "taker_buy_ratio": 0.553957,
+      "taker_sell_ratio": 0.446043,
+      "taker_buy_sell_ratio": 1.241938,
+      "timestamp": 1795586400
+    },
+    {
+      "date": "2026-11-26",
+      "taker_buy_volume": 816.5253,
+      "taker_sell_volume": 761.7465,
+      "taker_total_volume": 1578.2718,
+      "taker_buy_ratio": 0.517354,
+      "taker_sell_ratio": 0.482646,
+      "taker_buy_sell_ratio": 1.071912,
+      "timestamp": 1795672800
+    },
+    {
+      "date": "2026-11-27",
+      "taker_buy_volume": 970.4199,
+      "taker_sell_volume": 724.5512,
+      "taker_total_volume": 1694.9711,
+      "taker_buy_ratio": 0.572529,
+      "taker_sell_ratio": 0.427471,
+      "taker_buy_sell_ratio": 1.339339,
+      "timestamp": 1795759200
+    },
+    {
+      "date": "2026-11-28",
+      "taker_buy_volume": 764.469,
+      "taker_sell_volume": 833.5929,
+      "taker_total_volume": 1598.0619,
+      "taker_buy_ratio": 0.478373,
+      "taker_sell_ratio": 0.521627,
+      "taker_buy_sell_ratio": 0.917077,
+      "timestamp": 1795845600
+    },
+    {
+      "date": "2026-11-29",
+      "taker_buy_volume": 1013.2732,
+      "taker_sell_volume": 704.9192,
+      "taker_total_volume": 1718.1925,
+      "taker_buy_ratio": 0.589732,
+      "taker_sell_ratio": 0.410268,
+      "taker_buy_sell_ratio": 1.437432,
+      "timestamp": 1795932000
+    },
+    {
+      "date": "2026-11-30",
+      "taker_buy_volume": 920.8756,
+      "taker_sell_volume": 809.5036,
+      "taker_total_volume": 1730.3792,
+      "taker_buy_ratio": 0.532181,
+      "taker_sell_ratio": 0.467819,
+      "taker_buy_sell_ratio": 1.137581,
+      "timestamp": 1796018400
+    },
+    {
+      "date": "2026-12-01",
+      "taker_buy_volume": 908.0203,
+      "taker_sell_volume": 712.2705,
+      "taker_total_volume": 1620.2908,
+      "taker_buy_ratio": 0.560406,
+      "taker_sell_ratio": 0.439594,
+      "taker_buy_sell_ratio": 1.274825,
+      "timestamp": 1796104800
+    },
+    {
+      "date": "2026-12-02",
+      "taker_buy_volume": 798.3347,
+      "taker_sell_volume": 745.7009,
+      "taker_total_volume": 1544.0357,
+      "taker_buy_ratio": 0.517044,
+      "taker_sell_ratio": 0.482956,
+      "taker_buy_sell_ratio": 1.070583,
+      "timestamp": 1796191200
+    },
+    {
+      "date": "2026-12-03",
+      "taker_buy_volume": 848.7618,
+      "taker_sell_volume": 1181.3607,
+      "taker_total_volume": 2030.1225,
+      "taker_buy_ratio": 0.418084,
+      "taker_sell_ratio": 0.581916,
+      "taker_buy_sell_ratio": 0.718461,
+      "timestamp": 1796277600
+    },
+    {
+      "date": "2026-12-04",
+      "taker_buy_volume": 881.5009,
+      "taker_sell_volume": 907.7176,
+      "taker_total_volume": 1789.2185,
+      "taker_buy_ratio": 0.492674,
+      "taker_sell_ratio": 0.507326,
+      "taker_buy_sell_ratio": 0.971118,
+      "timestamp": 1796364000
+    },
+    {
+      "date": "2026-12-05",
+      "taker_buy_volume": 904.4742,
+      "taker_sell_volume": 771.8285,
+      "taker_total_volume": 1676.3027,
+      "taker_buy_ratio": 0.539565,
+      "taker_sell_ratio": 0.460435,
+      "taker_buy_sell_ratio": 1.171859,
+      "timestamp": 1796450400
+    },
+    {
+      "date": "2026-12-06",
+      "taker_buy_volume": 787.0821,
+      "taker_sell_volume": 939.4423,
+      "taker_total_volume": 1726.5244,
+      "taker_buy_ratio": 0.455877,
+      "taker_sell_ratio": 0.544123,
+      "taker_buy_sell_ratio": 0.837818,
+      "timestamp": 1796536800
+    },
+    {
+      "date": "2026-12-07",
+      "taker_buy_volume": 649.0049,
+      "taker_sell_volume": 630.9418,
+      "taker_total_volume": 1279.9466,
+      "taker_buy_ratio": 0.507056,
+      "taker_sell_ratio": 0.492944,
+      "taker_buy_sell_ratio": 1.028629,
+      "timestamp": 1796623200
+    },
+    {
+      "date": "2026-12-08",
+      "taker_buy_volume": 779.764,
+      "taker_sell_volume": 851.3766,
+      "taker_total_volume": 1631.1406,
+      "taker_buy_ratio": 0.478048,
+      "taker_sell_ratio": 0.521952,
+      "taker_buy_sell_ratio": 0.915886,
+      "timestamp": 1796709600
+    },
+    {
+      "date": "2026-12-09",
+      "taker_buy_volume": 689.8458,
+      "taker_sell_volume": 938.1162,
+      "taker_total_volume": 1627.962,
+      "taker_buy_ratio": 0.423748,
+      "taker_sell_ratio": 0.576252,
+      "taker_buy_sell_ratio": 0.735352,
+      "timestamp": 1796796000
+    },
+    {
+      "date": "2026-12-10",
+      "taker_buy_volume": 896.6044,
+      "taker_sell_volume": 637.687,
+      "taker_total_volume": 1534.2914,
+      "taker_buy_ratio": 0.584377,
+      "taker_sell_ratio": 0.415623,
+      "taker_buy_sell_ratio": 1.406026,
+      "timestamp": 1796882400
+    },
+    {
+      "date": "2026-12-11",
+      "taker_buy_volume": 1017.5873,
+      "taker_sell_volume": 1014.2979,
+      "taker_total_volume": 2031.8852,
+      "taker_buy_ratio": 0.500809,
+      "taker_sell_ratio": 0.499191,
+      "taker_buy_sell_ratio": 1.003243,
+      "timestamp": 1796968800
+    },
+    {
+      "date": "2026-12-12",
+      "taker_buy_volume": 877.7258,
+      "taker_sell_volume": 540.4332,
+      "taker_total_volume": 1418.159,
+      "taker_buy_ratio": 0.618919,
+      "taker_sell_ratio": 0.381081,
+      "taker_buy_sell_ratio": 1.624115,
+      "timestamp": 1797055200
+    },
+    {
+      "date": "2026-12-13",
+      "taker_buy_volume": 914.9318,
+      "taker_sell_volume": 795.4379,
+      "taker_total_volume": 1710.3697,
+      "taker_buy_ratio": 0.534932,
+      "taker_sell_ratio": 0.465068,
+      "taker_buy_sell_ratio": 1.150224,
+      "timestamp": 1797141600
+    },
+    {
+      "date": "2026-12-14",
+      "taker_buy_volume": 961.4575,
+      "taker_sell_volume": 706.4197,
+      "taker_total_volume": 1667.8772,
+      "taker_buy_ratio": 0.576456,
+      "taker_sell_ratio": 0.423544,
+      "taker_buy_sell_ratio": 1.361029,
+      "timestamp": 1797228000
+    },
+    {
+      "date": "2026-12-15",
+      "taker_buy_volume": 688.258,
+      "taker_sell_volume": 868.0508,
+      "taker_total_volume": 1556.3088,
+      "taker_buy_ratio": 0.442237,
+      "taker_sell_ratio": 0.557763,
+      "taker_buy_sell_ratio": 0.792878,
+      "timestamp": 1797314400
+    },
+    {
+      "date": "2026-12-16",
+      "taker_buy_volume": 799.593,
+      "taker_sell_volume": 661.0188,
+      "taker_total_volume": 1460.6118,
+      "taker_buy_ratio": 0.547437,
+      "taker_sell_ratio": 0.452563,
+      "taker_buy_sell_ratio": 1.209637,
+      "timestamp": 1797400800
+    },
+    {
+      "date": "2026-12-17",
+      "taker_buy_volume": 898.9424,
+      "taker_sell_volume": 848.9177,
+      "taker_total_volume": 1747.8602,
+      "taker_buy_ratio": 0.51431,
+      "taker_sell_ratio": 0.48569,
+      "taker_buy_sell_ratio": 1.058928,
+      "timestamp": 1797487200
+    },
+    {
+      "date": "2026-12-18",
+      "taker_buy_volume": 744.6115,
+      "taker_sell_volume": 1010.4862,
+      "taker_total_volume": 1755.0977,
+      "taker_buy_ratio": 0.424256,
+      "taker_sell_ratio": 0.575744,
+      "taker_buy_sell_ratio": 0.736884,
+      "timestamp": 1797573600
+    },
+    {
+      "date": "2026-12-19",
+      "taker_buy_volume": 1006.7173,
+      "taker_sell_volume": 816.8895,
+      "taker_total_volume": 1823.6068,
+      "taker_buy_ratio": 0.552047,
+      "taker_sell_ratio": 0.447953,
+      "taker_buy_sell_ratio": 1.232379,
+      "timestamp": 1797660000
+    },
+    {
+      "date": "2026-12-20",
+      "taker_buy_volume": 889.6086,
+      "taker_sell_volume": 905.7712,
+      "taker_total_volume": 1795.3798,
+      "taker_buy_ratio": 0.495499,
+      "taker_sell_ratio": 0.504501,
+      "taker_buy_sell_ratio": 0.982156,
+      "timestamp": 1797746400
+    },
+    {
+      "date": "2026-12-21",
+      "taker_buy_volume": 589.9645,
+      "taker_sell_volume": 1029.2146,
+      "taker_total_volume": 1619.1792,
+      "taker_buy_ratio": 0.36436,
+      "taker_sell_ratio": 0.63564,
+      "taker_buy_sell_ratio": 0.573218,
+      "timestamp": 1797832800
+    },
+    {
+      "date": "2026-12-22",
+      "taker_buy_volume": 1012.8749,
+      "taker_sell_volume": 829.3705,
+      "taker_total_volume": 1842.2455,
+      "taker_buy_ratio": 0.549805,
+      "taker_sell_ratio": 0.450195,
+      "taker_buy_sell_ratio": 1.221257,
+      "timestamp": 1797919200
+    },
+    {
+      "date": "2026-12-23",
+      "taker_buy_volume": 901.561,
+      "taker_sell_volume": 787.4475,
+      "taker_total_volume": 1689.0085,
+      "taker_buy_ratio": 0.533781,
+      "taker_sell_ratio": 0.466219,
+      "taker_buy_sell_ratio": 1.144916,
+      "timestamp": 1798005600
+    },
+    {
+      "date": "2026-12-24",
+      "taker_buy_volume": 882.7297,
+      "taker_sell_volume": 862.9487,
+      "taker_total_volume": 1745.6784,
+      "taker_buy_ratio": 0.505666,
+      "taker_sell_ratio": 0.494334,
+      "taker_buy_sell_ratio": 1.022922,
+      "timestamp": 1798092000
+    },
+    {
+      "date": "2026-12-25",
+      "taker_buy_volume": 912.9458,
+      "taker_sell_volume": 829.1388,
+      "taker_total_volume": 1742.0846,
+      "taker_buy_ratio": 0.524054,
+      "taker_sell_ratio": 0.475946,
+      "taker_buy_sell_ratio": 1.101077,
+      "timestamp": 1798178400
+    },
+    {
+      "date": "2026-12-26",
+      "taker_buy_volume": 755.9855,
+      "taker_sell_volume": 758.4794,
+      "taker_total_volume": 1514.465,
+      "taker_buy_ratio": 0.499177,
+      "taker_sell_ratio": 0.500823,
+      "taker_buy_sell_ratio": 0.996712,
+      "timestamp": 1798264800
+    },
+    {
+      "date": "2026-12-27",
+      "taker_buy_volume": 918.9587,
+      "taker_sell_volume": 665.0182,
+      "taker_total_volume": 1583.9769,
+      "taker_buy_ratio": 0.580159,
+      "taker_sell_ratio": 0.419841,
+      "taker_buy_sell_ratio": 1.381855,
+      "timestamp": 1798351200
+    },
+    {
+      "date": "2026-12-28",
+      "taker_buy_volume": 1051.5614,
+      "taker_sell_volume": 911.7183,
+      "taker_total_volume": 1963.2797,
+      "taker_buy_ratio": 0.535615,
+      "taker_sell_ratio": 0.464385,
+      "taker_buy_sell_ratio": 1.153384,
+      "timestamp": 1798437600
+    },
+    {
+      "date": "2026-12-29",
+      "taker_buy_volume": 993.6326,
+      "taker_sell_volume": 847.8106,
+      "taker_total_volume": 1841.4432,
+      "taker_buy_ratio": 0.539594,
+      "taker_sell_ratio": 0.460406,
+      "taker_buy_sell_ratio": 1.171998,
+      "timestamp": 1798524000
+    },
+    {
+      "date": "2026-12-30",
+      "taker_buy_volume": 794.4466,
+      "taker_sell_volume": 658.9591,
+      "taker_total_volume": 1453.4057,
+      "taker_buy_ratio": 0.54661,
+      "taker_sell_ratio": 0.45339,
+      "taker_buy_sell_ratio": 1.205608,
+      "timestamp": 1798610400
+    },
+    {
+      "date": "2026-12-31",
+      "taker_buy_volume": 977.402,
+      "taker_sell_volume": 958.1433,
+      "taker_total_volume": 1935.5453,
+      "taker_buy_ratio": 0.504975,
+      "taker_sell_ratio": 0.495025,
+      "taker_buy_sell_ratio": 1.0201,
+      "timestamp": 1798696800
+    },
+    {
+      "date": "2027-01-01",
+      "taker_buy_volume": 768.0503,
+      "taker_sell_volume": 966.7277,
+      "taker_total_volume": 1734.778,
+      "taker_buy_ratio": 0.442737,
+      "taker_sell_ratio": 0.557263,
+      "taker_buy_sell_ratio": 0.794485,
+      "timestamp": 1798783200
+    },
+    {
+      "date": "2027-01-02",
+      "taker_buy_volume": 1060.478,
+      "taker_sell_volume": 1073.301,
+      "taker_total_volume": 2133.779,
+      "taker_buy_ratio": 0.496995,
+      "taker_sell_ratio": 0.503005,
+      "taker_buy_sell_ratio": 0.988053,
+      "timestamp": 1798869600
+    },
+    {
+      "date": "2027-01-03",
+      "taker_buy_volume": 941.7977,
+      "taker_sell_volume": 818.425,
+      "taker_total_volume": 1760.2227,
+      "taker_buy_ratio": 0.535045,
+      "taker_sell_ratio": 0.464955,
+      "taker_buy_sell_ratio": 1.150744,
+      "timestamp": 1798956000
+    },
+    {
+      "date": "2027-01-04",
+      "taker_buy_volume": 965.4019,
+      "taker_sell_volume": 755.248,
+      "taker_total_volume": 1720.6499,
+      "taker_buy_ratio": 0.561068,
+      "taker_sell_ratio": 0.438932,
+      "taker_buy_sell_ratio": 1.278258,
+      "timestamp": 1799042400
+    },
+    {
+      "date": "2027-01-05",
+      "taker_buy_volume": 974.7235,
+      "taker_sell_volume": 530.2754,
+      "taker_total_volume": 1504.999,
+      "taker_buy_ratio": 0.647657,
+      "taker_sell_ratio": 0.352343,
+      "taker_buy_sell_ratio": 1.838146,
+      "timestamp": 1799128800
+    },
+    {
+      "date": "2027-01-06",
+      "taker_buy_volume": 594.4566,
+      "taker_sell_volume": 916.8889,
+      "taker_total_volume": 1511.3454,
+      "taker_buy_ratio": 0.393329,
+      "taker_sell_ratio": 0.606671,
+      "taker_buy_sell_ratio": 0.648341,
+      "timestamp": 1799215200
+    },
+    {
+      "date": "2027-01-07",
+      "taker_buy_volume": 992.9871,
+      "taker_sell_volume": 851.4481,
+      "taker_total_volume": 1844.4352,
+      "taker_buy_ratio": 0.538369,
+      "taker_sell_ratio": 0.461631,
+      "taker_buy_sell_ratio": 1.166233,
+      "timestamp": 1799301600
+    },
+    {
+      "date": "2027-01-08",
+      "taker_buy_volume": 911.6694,
+      "taker_sell_volume": 789.4523,
+      "taker_total_volume": 1701.1217,
+      "taker_buy_ratio": 0.535922,
+      "taker_sell_ratio": 0.464078,
+      "taker_buy_sell_ratio": 1.154812,
+      "timestamp": 1799388000
+    },
+    {
+      "date": "2027-01-09",
+      "taker_buy_volume": 932.8646,
+      "taker_sell_volume": 737.0416,
+      "taker_total_volume": 1669.9061,
+      "taker_buy_ratio": 0.558633,
+      "taker_sell_ratio": 0.441367,
+      "taker_buy_sell_ratio": 1.265688,
+      "timestamp": 1799474400
+    },
+    {
+      "date": "2027-01-10",
+      "taker_buy_volume": 802.5076,
+      "taker_sell_volume": 846.3763,
+      "taker_total_volume": 1648.8839,
+      "taker_buy_ratio": 0.486697,
+      "taker_sell_ratio": 0.513303,
+      "taker_buy_sell_ratio": 0.948169,
+      "timestamp": 1799560800
+    },
+    {
+      "date": "2027-01-11",
+      "taker_buy_volume": 627.7915,
+      "taker_sell_volume": 776.5407,
+      "taker_total_volume": 1404.3322,
+      "taker_buy_ratio": 0.447039,
+      "taker_sell_ratio": 0.552961,
+      "taker_buy_sell_ratio": 0.808446,
+      "timestamp": 1799647200
+    },
+    {
+      "date": "2027-01-12",
+      "taker_buy_volume": 918.6019,
+      "taker_sell_volume": 802.1706,
+      "taker_total_volume": 1720.7726,
+      "taker_buy_ratio": 0.533831,
+      "taker_sell_ratio": 0.466169,
+      "taker_buy_sell_ratio": 1.145145,
+      "timestamp": 1799733600
+    },
+    {
+      "date": "2027-01-13",
+      "taker_buy_volume": 805.2935,
+      "taker_sell_volume": 803.4547,
+      "taker_total_volume": 1608.7482,
+      "taker_buy_ratio": 0.500572,
+      "taker_sell_ratio": 0.499428,
+      "taker_buy_sell_ratio": 1.002289,
+      "timestamp": 1799820000
+    },
+    {
+      "date": "2027-01-14",
+      "taker_buy_volume": 1025.7216,
+      "taker_sell_volume": 799.8765,
+      "taker_total_volume": 1825.5981,
+      "taker_buy_ratio": 0.561855,
+      "taker_sell_ratio": 0.438145,
+      "taker_buy_sell_ratio": 1.28235,
+      "timestamp": 1799906400
+    },
+    {
+      "date": "2027-01-15",
+      "taker_buy_volume": 822.25,
+      "taker_sell_volume": 828.4142,
+      "taker_total_volume": 1650.6642,
+      "taker_buy_ratio": 0.498133,
+      "taker_sell_ratio": 0.501867,
+      "taker_buy_sell_ratio": 0.992559,
+      "timestamp": 1799992800
+    },
+    {
+      "date": "2027-01-16",
+      "taker_buy_volume": 595.8183,
+      "taker_sell_volume": 1006.1289,
+      "taker_total_volume": 1601.9472,
+      "taker_buy_ratio": 0.371934,
+      "taker_sell_ratio": 0.628066,
+      "taker_buy_sell_ratio": 0.592189,
+      "timestamp": 1800079200
+    },
+    {
+      "date": "2027-01-17",
+      "taker_buy_volume": 849.486,
+      "taker_sell_volume": 649.2392,
+      "taker_total_volume": 1498.7252,
+      "taker_buy_ratio": 0.566806,
+      "taker_sell_ratio": 0.433194,
+      "taker_buy_sell_ratio": 1.308433,
+      "timestamp": 1800165600
+    },
+    {
+      "date": "2027-01-18",
+      "taker_buy_volume": 992.783,
+      "taker_sell_volume": 597.8028,
+      "taker_total_volume": 1590.5858,
+      "taker_buy_ratio": 0.624162,
+      "taker_sell_ratio": 0.375838,
+      "taker_buy_sell_ratio": 1.66072,
+      "timestamp": 1800252000
+    },
+    {
+      "date": "2027-01-19",
+      "taker_buy_volume": 841.7799,
+      "taker_sell_volume": 907.8722,
+      "taker_total_volume": 1749.6521,
+      "taker_buy_ratio": 0.481113,
+      "taker_sell_ratio": 0.518887,
+      "taker_buy_sell_ratio": 0.927201,
+      "timestamp": 1800338400
+    },
+    {
+      "date": "2027-01-20",
+      "taker_buy_volume": 916.3499,
+      "taker_sell_volume": 899.4375,
+      "taker_total_volume": 1815.7874,
+      "taker_buy_ratio": 0.504657,
+      "taker_sell_ratio": 0.495343,
+      "taker_buy_sell_ratio": 1.018803,
+      "timestamp": 1800424800
+    },
+    {
+      "date": "2027-01-21",
+      "taker_buy_volume": 947.1646,
+      "taker_sell_volume": 891.8216,
+      "taker_total_volume": 1838.9862,
+      "taker_buy_ratio": 0.515047,
+      "taker_sell_ratio": 0.484953,
+      "taker_buy_sell_ratio": 1.062056,
+      "timestamp": 1800511200
+    },
+    {
+      "date": "2027-01-22",
+      "taker_buy_volume": 991.0319,
+      "taker_sell_volume": 912.1908,
+      "taker_total_volume": 1903.2227,
+      "taker_buy_ratio": 0.520713,
+      "taker_sell_ratio": 0.479287,
+      "taker_buy_sell_ratio": 1.08643,
+      "timestamp": 1800597600
+    },
+    {
+      "date": "2027-01-23",
+      "taker_buy_volume": 874.8815,
+      "taker_sell_volume": 815.0728,
+      "taker_total_volume": 1689.9543,
+      "taker_buy_ratio": 0.517695,
+      "taker_sell_ratio": 0.482305,
+      "taker_buy_sell_ratio": 1.073378,
+      "timestamp": 1800684000
+    },
+    {
+      "date": "2027-01-24",
+      "taker_buy_volume": 698.1451,
+      "taker_sell_volume": 742.9305,
+      "taker_total_volume": 1441.0756,
+      "taker_buy_ratio": 0.484461,
+      "taker_sell_ratio": 0.515539,
+      "taker_buy_sell_ratio": 0.939718,
+      "timestamp": 1800770400
+    },
+    {
+      "date": "2027-01-25",
+      "taker_buy_volume": 863.8515,
+      "taker_sell_volume": 776.1791,
+      "taker_total_volume": 1640.0306,
+      "taker_buy_ratio": 0.526729,
+      "taker_sell_ratio": 0.473271,
+      "taker_buy_sell_ratio": 1.112954,
+      "timestamp": 1800856800
+    },
+    {
+      "date": "2027-01-26",
+      "taker_buy_volume": 866.2932,
+      "taker_sell_volume": 782.3472,
+      "taker_total_volume": 1648.6403,
+      "taker_buy_ratio": 0.525459,
+      "taker_sell_ratio": 0.474541,
+      "taker_buy_sell_ratio": 1.1073,
+      "timestamp": 1800943200
+    },
+    {
+      "date": "2027-01-27",
+      "taker_buy_volume": 977.0394,
+      "taker_sell_volume": 793.2958,
+      "taker_total_volume": 1770.3351,
+      "taker_buy_ratio": 0.551895,
+      "taker_sell_ratio": 0.448105,
+      "taker_buy_sell_ratio": 1.23162,
+      "timestamp": 1801029600
+    },
+    {
+      "date": "2027-01-28",
+      "taker_buy_volume": 757.4365,
+      "taker_sell_volume": 694.5337,
+      "taker_total_volume": 1451.9702,
+      "taker_buy_ratio": 0.521661,
+      "taker_sell_ratio": 0.478339,
+      "taker_buy_sell_ratio": 1.090568,
+      "timestamp": 1801116000
+    },
+    {
+      "date": "2027-01-29",
+      "taker_buy_volume": 958.9313,
+      "taker_sell_volume": 787.0825,
+      "taker_total_volume": 1746.0138,
+      "taker_buy_ratio": 0.549212,
+      "taker_sell_ratio": 0.450788,
+      "taker_buy_sell_ratio": 1.218336,
+      "timestamp": 1801202400
+    },
+    {
+      "date": "2027-01-30",
+      "taker_buy_volume": 892.8528,
+      "taker_sell_volume": 861.0272,
+      "taker_total_volume": 1753.88,
+      "taker_buy_ratio": 0.509073,
+      "taker_sell_ratio": 0.490927,
+      "taker_buy_sell_ratio": 1.036962,
+      "timestamp": 1801288800
+    },
+    {
+      "date": "2027-01-31",
+      "taker_buy_volume": 899.1698,
+      "taker_sell_volume": 1084.1324,
+      "taker_total_volume": 1983.3022,
+      "taker_buy_ratio": 0.45337,
+      "taker_sell_ratio": 0.54663,
+      "taker_buy_sell_ratio": 0.829391,
+      "timestamp": 1801375200
+    },
+    {
+      "date": "2027-02-01",
+      "taker_buy_volume": 892.6836,
+      "taker_sell_volume": 716.8763,
+      "taker_total_volume": 1609.5599,
+      "taker_buy_ratio": 0.554613,
+      "taker_sell_ratio": 0.445387,
+      "taker_buy_sell_ratio": 1.245241,
+      "timestamp": 1801461600
+    },
+    {
+      "date": "2027-02-02",
+      "taker_buy_volume": 706.1262,
+      "taker_sell_volume": 910.2465,
+      "taker_total_volume": 1616.3727,
+      "taker_buy_ratio": 0.436859,
+      "taker_sell_ratio": 0.563141,
+      "taker_buy_sell_ratio": 0.775753,
+      "timestamp": 1801548000
+    },
+    {
+      "date": "2027-02-03",
+      "taker_buy_volume": 772.372,
+      "taker_sell_volume": 940.3134,
+      "taker_total_volume": 1712.6853,
+      "taker_buy_ratio": 0.450971,
+      "taker_sell_ratio": 0.549029,
+      "taker_buy_sell_ratio": 0.821399,
+      "timestamp": 1801634400
+    },
+    {
+      "date": "2027-02-04",
+      "taker_buy_volume": 970.8242,
+      "taker_sell_volume": 659.507,
+      "taker_total_volume": 1630.3312,
+      "taker_buy_ratio": 0.595477,
+      "taker_sell_ratio": 0.404523,
+      "taker_buy_sell_ratio": 1.472045,
+      "timestamp": 1801720800
+    },
+    {
+      "date": "2027-02-05",
+      "taker_buy_volume": 699.1024,
+      "taker_sell_volume": 875.0699,
+      "taker_total_volume": 1574.1723,
+      "taker_buy_ratio": 0.444108,
+      "taker_sell_ratio": 0.555892,
+      "taker_buy_sell_ratio": 0.79891,
+      "timestamp": 1801807200
+    },
+    {
+      "date": "2027-02-06",
+      "taker_buy_volume": 1081.3122,
+      "taker_sell_volume": 1119.2814,
+      "taker_total_volume": 2200.5936,
+      "taker_buy_ratio": 0.491373,
+      "taker_sell_ratio": 0.508627,
+      "taker_buy_sell_ratio": 0.966077,
+      "timestamp": 1801893600
+    },
+    {
+      "date": "2027-02-07",
+      "taker_buy_volume": 978.2745,
+      "taker_sell_volume": 1041.757,
+      "taker_total_volume": 2020.0315,
+      "taker_buy_ratio": 0.484287,
+      "taker_sell_ratio": 0.515713,
+      "taker_buy_sell_ratio": 0.939062,
+      "timestamp": 1801980000
+    },
+    {
+      "date": "2027-02-08",
+      "taker_buy_volume": 878.538,
+      "taker_sell_volume": 705.3835,
+      "taker_total_volume": 1583.9216,
+      "taker_buy_ratio": 0.55466,
+      "taker_sell_ratio": 0.44534,
+      "taker_buy_sell_ratio": 1.245476,
+      "timestamp": 1802066400
+    },
+    {
+      "date": "2027-02-09",
+      "taker_buy_volume": 949.1825,
+      "taker_sell_volume": 654.3702,
+      "taker_total_volume": 1603.5527,
+      "taker_buy_ratio": 0.591925,
+      "taker_sell_ratio": 0.408075,
+      "taker_buy_sell_ratio": 1.450528,
+      "timestamp": 1802152800
+    },
+    {
+      "date": "2027-02-10",
+      "taker_buy_volume": 723.0349,
+      "taker_sell_volume": 1106.7562,
+      "taker_total_volume": 1829.7911,
+      "taker_buy_ratio": 0.395146,
+      "taker_sell_ratio": 0.604854,
+      "taker_buy_sell_ratio": 0.653292,
+      "timestamp": 1802239200
+    },
+    {
+      "date": "2027-02-11",
+      "taker_buy_volume": 691.5691,
+      "taker_sell_volume": 849.736,
+      "taker_total_volume": 1541.3051,
+      "taker_buy_ratio": 0.448691,
+      "taker_sell_ratio": 0.551309,
+      "taker_buy_sell_ratio": 0.813864,
+      "timestamp": 1802325600
+    },
+    {
+      "date": "2027-02-12",
+      "taker_buy_volume": 718.6776,
+      "taker_sell_volume": 1058.7845,
+      "taker_total_volume": 1777.4622,
+      "taker_buy_ratio": 0.404328,
+      "taker_sell_ratio": 0.595672,
+      "taker_buy_sell_ratio": 0.678776,
+      "timestamp": 1802412000
+    },
+    {
+      "date": "2027-02-13",
+      "taker_buy_volume": 960.7625,
+      "taker_sell_volume": 929.9924,
+      "taker_total_volume": 1890.7549,
+      "taker_buy_ratio": 0.508137,
+      "taker_sell_ratio": 0.491863,
+      "taker_buy_sell_ratio": 1.033086,
+      "timestamp": 1802498400
+    },
+    {
+      "date": "2027-02-14",
+      "taker_buy_volume": 850.2371,
+      "taker_sell_volume": 868.3867,
+      "taker_total_volume": 1718.6239,
+      "taker_buy_ratio": 0.49472,
+      "taker_sell_ratio": 0.50528,
+      "taker_buy_sell_ratio": 0.9791,
+      "timestamp": 1802584800
+    },
+    {
+      "date": "2027-02-15",
+      "taker_buy_volume": 1003.2669,
+      "taker_sell_volume": 830.3281,
+      "taker_total_volume": 1833.5951,
+      "taker_buy_ratio": 0.547158,
+      "taker_sell_ratio": 0.452842,
+      "taker_buy_sell_ratio": 1.208278,
+      "timestamp": 1802671200
+    },
+    {
+      "date": "2027-02-16",
+      "taker_buy_volume": 782.4375,
+      "taker_sell_volume": 696.8616,
+      "taker_total_volume": 1479.2991,
+      "taker_buy_ratio": 0.528924,
+      "taker_sell_ratio": 0.471076,
+      "taker_buy_sell_ratio": 1.122802,
+      "timestamp": 1802757600
+    },
+    {
+      "date": "2027-02-17",
+      "taker_buy_volume": 1045.852,
+      "taker_sell_volume": 726.5105,
+      "taker_total_volume": 1772.3625,
+      "taker_buy_ratio": 0.590089,
+      "taker_sell_ratio": 0.409911,
+      "taker_buy_sell_ratio": 1.439555,
+      "timestamp": 1802844000
+    },
+    {
+      "date": "2027-02-18",
+      "taker_buy_volume": 815.8782,
+      "taker_sell_volume": 781.5534,
+      "taker_total_volume": 1597.4315,
+      "taker_buy_ratio": 0.510744,
+      "taker_sell_ratio": 0.489256,
+      "taker_buy_sell_ratio": 1.043919,
+      "timestamp": 1802930400
+    },
+    {
+      "date": "2027-02-19",
+      "taker_buy_volume": 846.2855,
+      "taker_sell_volume": 1043.2959,
+      "taker_total_volume": 1889.5813,
+      "taker_buy_ratio": 0.447869,
+      "taker_sell_ratio": 0.552131,
+      "taker_buy_sell_ratio": 0.811165,
+      "timestamp": 1803016800
+    },
+    {
+      "date": "2027-02-20",
+      "taker_buy_volume": 986.1873,
+      "taker_sell_volume": 786.2719,
+      "taker_total_volume": 1772.4592,
+      "taker_buy_ratio": 0.556395,
+      "taker_sell_ratio": 0.443605,
+      "taker_buy_sell_ratio": 1.254257,
+      "timestamp": 1803103200
+    },
+    {
+      "date": "2027-02-21",
+      "taker_buy_volume": 877.8857,
+      "taker_sell_volume": 890.6184,
+      "taker_total_volume": 1768.5041,
+      "taker_buy_ratio": 0.4964,
+      "taker_sell_ratio": 0.5036,
+      "taker_buy_sell_ratio": 0.985704,
+      "timestamp": 1803189600
+    },
+    {
+      "date": "2027-02-22",
+      "taker_buy_volume": 794.4059,
+      "taker_sell_volume": 777.8622,
+      "taker_total_volume": 1572.2681,
+      "taker_buy_ratio": 0.505261,
+      "taker_sell_ratio": 0.494739,
+      "taker_buy_sell_ratio": 1.021268,
+      "timestamp": 1803276000
+    },
+    {
+      "date": "2027-02-23",
+      "taker_buy_volume": 730.5063,
+      "taker_sell_volume": 960.1718,
+      "taker_total_volume": 1690.678,
+      "taker_buy_ratio": 0.432079,
+      "taker_sell_ratio": 0.567921,
+      "taker_buy_sell_ratio": 0.760808,
+      "timestamp": 1803362400
+    },
+    {
+      "date": "2027-02-24",
+      "taker_buy_volume": 750.7983,
+      "taker_sell_volume": 1049.0206,
+      "taker_total_volume": 1799.8189,
+      "taker_buy_ratio": 0.417152,
+      "taker_sell_ratio": 0.582848,
+      "taker_buy_sell_ratio": 0.715714,
+      "timestamp": 1803448800
+    },
+    {
+      "date": "2027-02-25",
+      "taker_buy_volume": 849.3373,
+      "taker_sell_volume": 1017.1167,
+      "taker_total_volume": 1866.454,
+      "taker_buy_ratio": 0.455054,
+      "taker_sell_ratio": 0.544946,
+      "taker_buy_sell_ratio": 0.835044,
+      "timestamp": 1803535200
+    },
+    {
+      "date": "2027-02-26",
+      "taker_buy_volume": 1103.6773,
+      "taker_sell_volume": 837.4883,
+      "taker_total_volume": 1941.1656,
+      "taker_buy_ratio": 0.568564,
+      "taker_sell_ratio": 0.431436,
+      "taker_buy_sell_ratio": 1.317842,
+      "timestamp": 1803621600
+    },
+    {
+      "date": "2027-02-27",
+      "taker_buy_volume": 874.0566,
+      "taker_sell_volume": 888.4155,
+      "taker_total_volume": 1762.4721,
+      "taker_buy_ratio": 0.495926,
+      "taker_sell_ratio": 0.504074,
+      "taker_buy_sell_ratio": 0.983838,
+      "timestamp": 1803708000
+    },
+    {
+      "date": "2027-02-28",
+      "taker_buy_volume": 928.0883,
+      "taker_sell_volume": 1029.0988,
+      "taker_total_volume": 1957.1871,
+      "taker_buy_ratio": 0.474195,
+      "taker_sell_ratio": 0.525805,
+      "taker_buy_sell_ratio": 0.901846,
+      "timestamp": 1803794400
+    },
+    {
+      "date": "2027-03-01",
+      "taker_buy_volume": 1073.314,
+      "taker_sell_volume": 905.6426,
+      "taker_total_volume": 1978.9566,
+      "taker_buy_ratio": 0.542364,
+      "taker_sell_ratio": 0.457636,
+      "taker_buy_sell_ratio": 1.185141,
+      "timestamp": 1803880800
+    },
+    {
+      "date": "2027-03-02",
+      "taker_buy_volume": 920.4476,
+      "taker_sell_volume": 916.4113,
+      "taker_total_volume": 1836.8589,
+      "taker_buy_ratio": 0.501099,
+      "taker_sell_ratio": 0.498901,
+      "taker_buy_sell_ratio": 1.004404,
+      "timestamp": 1803967200
+    },
+    {
+      "date": "2027-03-03",
+      "taker_buy_volume": 804.8499,
+      "taker_sell_volume": 629.1242,
+      "taker_total_volume": 1433.974,
+      "taker_buy_ratio": 0.561272,
+      "taker_sell_ratio": 0.438728,
+      "taker_buy_sell_ratio": 1.279318,
+      "timestamp": 1804053600
+    },
+    {
+      "date": "2027-03-04",
+      "taker_buy_volume": 956.6461,
+      "taker_sell_volume": 699.6904,
+      "taker_total_volume": 1656.3365,
+      "taker_buy_ratio": 0.577567,
+      "taker_sell_ratio": 0.422433,
+      "taker_buy_sell_ratio": 1.367242,
+      "timestamp": 1804140000
+    },
+    {
+      "date": "2027-03-05",
+      "taker_buy_volume": 902.1904,
+      "taker_sell_volume": 877.5587,
+      "taker_total_volume": 1779.7491,
+      "taker_buy_ratio": 0.50692,
+      "taker_sell_ratio": 0.49308,
+      "taker_buy_sell_ratio": 1.028068,
+      "timestamp": 1804226400
+    },
+    {
+      "date": "2027-03-06",
+      "taker_buy_volume": 901.4211,
+      "taker_sell_volume": 797.2776,
+      "taker_total_volume": 1698.6987,
+      "taker_buy_ratio": 0.530654,
+      "taker_sell_ratio": 0.469346,
+      "taker_buy_sell_ratio": 1.130624,
+      "timestamp": 1804312800
+    },
+    {
+      "date": "2027-03-07",
+      "taker_buy_volume": 995.1225,
+      "taker_sell_volume": 930.9277,
+      "taker_total_volume": 1926.0502,
+      "taker_buy_ratio": 0.516665,
+      "taker_sell_ratio": 0.483335,
+      "taker_buy_sell_ratio": 1.068958,
+      "timestamp": 1804399200
+    },
+    {
+      "date": "2027-03-08",
+      "taker_buy_volume": 698.7323,
+      "taker_sell_volume": 926.6159,
+      "taker_total_volume": 1625.3482,
+      "taker_buy_ratio": 0.429897,
+      "taker_sell_ratio": 0.570103,
+      "taker_buy_sell_ratio": 0.754069,
+      "timestamp": 1804485600
+    },
+    {
+      "date": "2027-03-09",
+      "taker_buy_volume": 761.5104,
+      "taker_sell_volume": 992.7034,
+      "taker_total_volume": 1754.2138,
+      "taker_buy_ratio": 0.434104,
+      "taker_sell_ratio": 0.565896,
+      "taker_buy_sell_ratio": 0.767108,
+      "timestamp": 1804572000
+    },
+    {
+      "date": "2027-03-10",
+      "taker_buy_volume": 1016.5234,
+      "taker_sell_volume": 764.2447,
+      "taker_total_volume": 1780.7681,
+      "taker_buy_ratio": 0.570834,
+      "taker_sell_ratio": 0.429166,
+      "taker_buy_sell_ratio": 1.330102,
+      "timestamp": 1804658400
+    },
+    {
+      "date": "2027-03-11",
+      "taker_buy_volume": 929.604,
+      "taker_sell_volume": 917.711,
+      "taker_total_volume": 1847.3151,
+      "taker_buy_ratio": 0.503219,
+      "taker_sell_ratio": 0.496781,
+      "taker_buy_sell_ratio": 1.012959,
+      "timestamp": 1804744800
+    },
+    {
+      "date": "2027-03-12",
+      "taker_buy_volume": 633.915,
+      "taker_sell_volume": 828.6213,
+      "taker_total_volume": 1462.5363,
+      "taker_buy_ratio": 0.433435,
+      "taker_sell_ratio": 0.566565,
+      "taker_buy_sell_ratio": 0.765024,
+      "timestamp": 1804831200
+    },
+    {
+      "date": "2027-03-13",
+      "taker_buy_volume": 1139.8138,
+      "taker_sell_volume": 700.6697,
+      "taker_total_volume": 1840.4835,
+      "taker_buy_ratio": 0.619301,
+      "taker_sell_ratio": 0.380699,
+      "taker_buy_sell_ratio": 1.626749,
+      "timestamp": 1804917600
+    },
+    {
+      "date": "2027-03-14",
+      "taker_buy_volume": 901.7307,
+      "taker_sell_volume": 638.3458,
+      "taker_total_volume": 1540.0765,
+      "taker_buy_ratio": 0.58551,
+      "taker_sell_ratio": 0.41449,
+      "taker_buy_sell_ratio": 1.412605,
+      "timestamp": 1805004000
+    },
+    {
+      "date": "2027-03-15",
+      "taker_buy_volume": 909.6626,
+      "taker_sell_volume": 1239.7718,
+      "taker_total_volume": 2149.4344,
+      "taker_buy_ratio": 0.42321,
+      "taker_sell_ratio": 0.57679,
+      "taker_buy_sell_ratio": 0.733734,
+      "timestamp": 1805090400
+    },
+    {
+      "date": "2027-03-16",
+      "taker_buy_volume": 840.5464,
+      "taker_sell_volume": 1038.1114,
+      "taker_total_volume": 1878.6578,
+      "taker_buy_ratio": 0.447419,
+      "taker_sell_ratio": 0.552581,
+      "taker_buy_sell_ratio": 0.809688,
+      "timestamp": 1805176800
+    },
+    {
+      "date": "2027-03-17",
+      "taker_buy_volume": 952.1388,
+      "taker_sell_volume": 664.4723,
+      "taker_total_volume": 1616.6111,
+      "taker_buy_ratio": 0.588972,
+      "taker_sell_ratio": 0.411028,
+      "taker_buy_sell_ratio": 1.432925,
+      "timestamp": 1805263200
+    },
+    {
+      "date": "2027-03-18",
+      "taker_buy_volume": 689.5364,
+      "taker_sell_volume": 967.2144,
+      "taker_total_volume": 1656.7508,
+      "taker_buy_ratio": 0.416198,
+      "taker_sell_ratio": 0.583802,
+      "taker_buy_sell_ratio": 0.71291,
+      "timestamp": 1805349600
+    },
+    {
+      "date": "2027-03-19",
+      "taker_buy_volume": 852.6433,
+      "taker_sell_volume": 900.0986,
+      "taker_total_volume": 1752.7418,
+      "taker_buy_ratio": 0.486463,
+      "taker_sell_ratio": 0.513537,
+      "taker_buy_sell_ratio": 0.947278,
+      "timestamp": 1805436000
+    },
+    {
+      "date": "2027-03-20",
+      "taker_buy_volume": 814.2246,
+      "taker_sell_volume": 784.8428,
+      "taker_total_volume": 1599.0674,
+      "taker_buy_ratio": 0.509187,
+      "taker_sell_ratio": 0.490813,
+      "taker_buy_sell_ratio": 1.037437,
+      "timestamp": 1805522400
+    },
+    {
+      "date": "2027-03-21",
+      "taker_buy_volume": 643.0988,
+      "taker_sell_volume": 548.512,
+      "taker_total_volume": 1191.6107,
+      "taker_buy_ratio": 0.539689,
+      "taker_sell_ratio": 0.460311,
+      "taker_buy_sell_ratio": 1.172443,
+      "timestamp": 1805608800
+    },
+    {
+      "date": "2027-03-22",
+      "taker_buy_volume": 944.5057,
+      "taker_sell_volume": 561.9558,
+      "taker_total_volume": 1506.4615,
+      "taker_buy_ratio": 0.62697,
+      "taker_sell_ratio": 0.37303,
+      "taker_buy_sell_ratio": 1.680747,
+      "timestamp": 1805695200
+    },
+    {
+      "date": "2027-03-23",
+      "taker_buy_volume": 872.8936,
+      "taker_sell_volume": 615.7536,
+      "taker_total_volume": 1488.6473,
+      "taker_buy_ratio": 0.586367,
+      "taker_sell_ratio": 0.413633,
+      "taker_buy_sell_ratio": 1.417602,
+      "timestamp": 1805781600
+    },
+    {
+      "date": "2027-03-24",
+      "taker_buy_volume": 729.8729,
+      "taker_sell_volume": 790.6102,
+      "taker_total_volume": 1520.4831,
+      "taker_buy_ratio": 0.480027,
+      "taker_sell_ratio": 0.519973,
+      "taker_buy_sell_ratio": 0.923177,
+      "timestamp": 1805868000
+    },
+    {
+      "date": "2027-03-25",
+      "taker_buy_volume": 1118.1979,
+      "taker_sell_volume": 1213.7096,
+      "taker_total_volume": 2331.9075,
+      "taker_buy_ratio": 0.479521,
+      "taker_sell_ratio": 0.520479,
+      "taker_buy_sell_ratio": 0.921306,
+      "timestamp": 1805954400
+    },
+    {
+      "date": "2027-03-26",
+      "taker_buy_volume": 806.651,
+      "taker_sell_volume": 882.7664,
+      "taker_total_volume": 1689.4174,
+      "taker_buy_ratio": 0.477473,
+      "taker_sell_ratio": 0.522527,
+      "taker_buy_sell_ratio": 0.913776,
+      "timestamp": 1806040800
+    },
+    {
+      "date": "2027-03-27",
+      "taker_buy_volume": 874.8729,
+      "taker_sell_volume": 799.6859,
+      "taker_total_volume": 1674.5588,
+      "taker_buy_ratio": 0.52245,
+      "taker_sell_ratio": 0.47755,
+      "taker_buy_sell_ratio": 1.094021,
+      "timestamp": 1806127200
+    },
+    {
+      "date": "2027-03-28",
+      "taker_buy_volume": 870.2272,
+      "taker_sell_volume": 1023.0969,
+      "taker_total_volume": 1893.3241,
+      "taker_buy_ratio": 0.459629,
+      "taker_sell_ratio": 0.540371,
+      "taker_buy_sell_ratio": 0.850581,
+      "timestamp": 1806213600
+    },
+    {
+      "date": "2027-03-29",
+      "taker_buy_volume": 591.8807,
+      "taker_sell_volume": 961.9932,
+      "taker_total_volume": 1553.8739,
+      "taker_buy_ratio": 0.380907,
+      "taker_sell_ratio": 0.619093,
+      "taker_buy_sell_ratio": 0.615265,
+      "timestamp": 1806300000
+    },
+    {
+      "date": "2027-03-30",
+      "taker_buy_volume": 929.8258,
+      "taker_sell_volume": 798.6836,
+      "taker_total_volume": 1728.5095,
+      "taker_buy_ratio": 0.537935,
+      "taker_sell_ratio": 0.462065,
+      "taker_buy_sell_ratio": 1.164198,
+      "timestamp": 1806386400
+    },
+    {
+      "date": "2027-03-31",
+      "taker_buy_volume": 921.9513,
+      "taker_sell_volume": 868.9129,
+      "taker_total_volume": 1790.8641,
+      "taker_buy_ratio": 0.514808,
+      "taker_sell_ratio": 0.485192,
+      "taker_buy_sell_ratio": 1.06104,
+      "timestamp": 1806472800
+    },
+    {
+      "date": "2027-04-01",
+      "taker_buy_volume": 926.2079,
+      "taker_sell_volume": 824.7503,
+      "taker_total_volume": 1750.9581,
+      "taker_buy_ratio": 0.528972,
+      "taker_sell_ratio": 0.471028,
+      "taker_buy_sell_ratio": 1.123016,
+      "timestamp": 1806559200
+    },
+    {
+      "date": "2027-04-02",
+      "taker_buy_volume": 746.7822,
+      "taker_sell_volume": 782.9291,
+      "taker_total_volume": 1529.7113,
+      "taker_buy_ratio": 0.488185,
+      "taker_sell_ratio": 0.511815,
+      "taker_buy_sell_ratio": 0.953831,
+      "timestamp": 1806645600
+    },
+    {
+      "date": "2027-04-03",
+      "taker_buy_volume": 893.2835,
+      "taker_sell_volume": 865.6957,
+      "taker_total_volume": 1758.9791,
+      "taker_buy_ratio": 0.507842,
+      "taker_sell_ratio": 0.492158,
+      "taker_buy_sell_ratio": 1.031868,
+      "timestamp": 1806732000
+    },
+    {
+      "date": "2027-04-04",
+      "taker_buy_volume": 1101.9806,
+      "taker_sell_volume": 750.1194,
+      "taker_total_volume": 1852.1,
+      "taker_buy_ratio": 0.59499,
+      "taker_sell_ratio": 0.40501,
+      "taker_buy_sell_ratio": 1.469074,
+      "timestamp": 1806818400
+    },
+    {
+      "date": "2027-04-05",
+      "taker_buy_volume": 660.977,
+      "taker_sell_volume": 966.9923,
+      "taker_total_volume": 1627.9693,
+      "taker_buy_ratio": 0.406013,
+      "taker_sell_ratio": 0.593987,
+      "taker_buy_sell_ratio": 0.683539,
+      "timestamp": 1806904800
+    },
+    {
+      "date": "2027-04-06",
+      "taker_buy_volume": 765.4774,
+      "taker_sell_volume": 768.7564,
+      "taker_total_volume": 1534.2338,
+      "taker_buy_ratio": 0.498931,
+      "taker_sell_ratio": 0.501069,
+      "taker_buy_sell_ratio": 0.995735,
+      "timestamp": 1806991200
+    },
+    {
+      "date": "2027-04-07",
+      "taker_buy_volume": 800.7021,
+      "taker_sell_volume": 897.7147,
+      "taker_total_volume": 1698.4168,
+      "taker_buy_ratio": 0.47144,
+      "taker_sell_ratio": 0.52856,
+      "taker_buy_sell_ratio": 0.891934,
+      "timestamp": 1807077600
+    },
+    {
+      "date": "2027-04-08",
+      "taker_buy_volume": 834.7341,
+      "taker_sell_volume": 549.5322,
+      "taker_total_volume": 1384.2663,
+      "taker_buy_ratio": 0.603016,
+      "taker_sell_ratio": 0.396984,
+      "taker_buy_sell_ratio": 1.51899,
+      "timestamp": 1807164000
+    },
+    {
+      "date": "2027-04-09",
+      "taker_buy_volume": 811.073,
+      "taker_sell_volume": 594.27,
+      "taker_total_volume": 1405.343,
+      "taker_buy_ratio": 0.577135,
+      "taker_sell_ratio": 0.422865,
+      "taker_buy_sell_ratio": 1.364822,
+      "timestamp": 1807250400
+    },
+    {
+      "date": "2027-04-10",
+      "taker_buy_volume": 890.6597,
+      "taker_sell_volume": 791.0921,
+      "taker_total_volume": 1681.7518,
+      "taker_buy_ratio": 0.529602,
+      "taker_sell_ratio": 0.470398,
+      "taker_buy_sell_ratio": 1.125861,
+      "timestamp": 1807336800
+    },
+    {
+      "date": "2027-04-11",
+      "taker_buy_volume": 763.4115,
+      "taker_sell_volume": 911.4398,
+      "taker_total_volume": 1674.8513,
+      "taker_buy_ratio": 0.455809,
+      "taker_sell_ratio": 0.544191,
+      "taker_buy_sell_ratio": 0.837589,
+      "timestamp": 1807423200
+    },
+    {
+      "date": "2027-04-12",
+      "taker_buy_volume": 1102.7242,
+      "taker_sell_volume": 695.803,
+      "taker_total_volume": 1798.5273,
+      "taker_buy_ratio": 0.613126,
+      "taker_sell_ratio": 0.386874,
+      "taker_buy_sell_ratio": 1.584822,
+      "timestamp": 1807509600
+    },
+    {
+      "date": "2027-04-13",
+      "taker_buy_volume": 789.0588,
+      "taker_sell_volume": 810.5853,
+      "taker_total_volume": 1599.6441,
+      "taker_buy_ratio": 0.493271,
+      "taker_sell_ratio": 0.506729,
+      "taker_buy_sell_ratio": 0.973443,
+      "timestamp": 1807596000
+    },
+    {
+      "date": "2027-04-14",
+      "taker_buy_volume": 689.7478,
+      "taker_sell_volume": 1052.44,
+      "taker_total_volume": 1742.1878,
+      "taker_buy_ratio": 0.395909,
+      "taker_sell_ratio": 0.604091,
+      "taker_buy_sell_ratio": 0.65538,
+      "timestamp": 1807682400
+    },
+    {
+      "date": "2027-04-15",
+      "taker_buy_volume": 841.7671,
+      "taker_sell_volume": 983.4036,
+      "taker_total_volume": 1825.1707,
+      "taker_buy_ratio": 0.461199,
+      "taker_sell_ratio": 0.538801,
+      "taker_buy_sell_ratio": 0.855973,
+      "timestamp": 1807768800
+    },
+    {
+      "date": "2027-04-16",
+      "taker_buy_volume": 598.652,
+      "taker_sell_volume": 879.3112,
+      "taker_total_volume": 1477.9631,
+      "taker_buy_ratio": 0.405052,
+      "taker_sell_ratio": 0.594948,
+      "taker_buy_sell_ratio": 0.680819,
+      "timestamp": 1807855200
+    },
+    {
+      "date": "2027-04-17",
+      "taker_buy_volume": 883.0143,
+      "taker_sell_volume": 896.7112,
+      "taker_total_volume": 1779.7256,
+      "taker_buy_ratio": 0.496152,
+      "taker_sell_ratio": 0.503848,
+      "taker_buy_sell_ratio": 0.984725,
+      "timestamp": 1807941600
+    },
+    {
+      "date": "2027-04-18",
+      "taker_buy_volume": 884.9083,
+      "taker_sell_volume": 814.9783,
+      "taker_total_volume": 1699.8866,
+      "taker_buy_ratio": 0.520569,
+      "taker_sell_ratio": 0.479431,
+      "taker_buy_sell_ratio": 1.085806,
+      "timestamp": 1808028000
+    },
+    {
+      "date": "2027-04-19",
+      "taker_buy_volume": 867.814,
+      "taker_sell_volume": 892.5201,
+      "taker_total_volume": 1760.3341,
+      "taker_buy_ratio": 0.492983,
+      "taker_sell_ratio": 0.507017,
+      "taker_buy_sell_ratio": 0.972319,
+      "timestamp": 1808114400
+    },
+    {
+      "date": "2027-04-20",
+      "taker_buy_volume": 824.4514,
+      "taker_sell_volume": 741.2607,
+      "taker_total_volume": 1565.7121,
+      "taker_buy_ratio": 0.526566,
+      "taker_sell_ratio": 0.473434,
+      "taker_buy_sell_ratio": 1.112229,
+      "timestamp": 1808200800
+    },
+    {
+      "date": "2027-04-21",
+      "taker_buy_volume": 788.9376,
+      "taker_sell_volume": 816.5856,
+      "taker_total_volume": 1605.5232,
+      "taker_buy_ratio": 0.49139,
+      "taker_sell_ratio": 0.50861,
+      "taker_buy_sell_ratio": 0.966142,
+      "timestamp": 1808287200
+    },
+    {
+      "date": "2027-04-22",
+      "taker_buy_volume": 818.1957,
+      "taker_sell_volume": 784.9877,
+      "taker_total_volume": 1603.1834,
+      "taker_buy_ratio": 0.510357,
+      "taker_sell_ratio": 0.489643,
+      "taker_buy_sell_ratio": 1.042304,
+      "timestamp": 1808373600
+    },
+    {
+      "date": "2027-04-23",
+      "taker_buy_volume": 673.0091,
+      "taker_sell_volume": 572.4317,
+      "taker_total_volume": 1245.4407,
+      "taker_buy_ratio": 0.540378,
+      "taker_sell_ratio": 0.459622,
+      "taker_buy_sell_ratio": 1.175702,
+      "timestamp": 1808460000
+    },
+    {
+      "date": "2027-04-24",
+      "taker_buy_volume": 670.1343,
+      "taker_sell_volume": 823.912,
+      "taker_total_volume": 1494.0463,
+      "taker_buy_ratio": 0.448536,
+      "taker_sell_ratio": 0.551464,
+      "taker_buy_sell_ratio": 0.813357,
+      "timestamp": 1808546400
+    },
+    {
+      "date": "2027-04-25",
+      "taker_buy_volume": 856.1024,
+      "taker_sell_volume": 1191.5262,
+      "taker_total_volume": 2047.6286,
+      "taker_buy_ratio": 0.418095,
+      "taker_sell_ratio": 0.581905,
+      "taker_buy_sell_ratio": 0.718492,
+      "timestamp": 1808632800
+    },
+    {
+      "date": "2027-04-26",
+      "taker_buy_volume": 813.6023,
+      "taker_sell_volume": 838.3267,
+      "taker_total_volume": 1651.929,
+      "taker_buy_ratio": 0.492517,
+      "taker_sell_ratio": 0.507483,
+      "taker_buy_sell_ratio": 0.970508,
+      "timestamp": 1808719200
+    },
+    {
+      "date": "2027-04-27",
+      "taker_buy_volume": 935.3144,
+      "taker_sell_volume": 752.397,
+      "taker_total_volume": 1687.7114,
+      "taker_buy_ratio": 0.554191,
+      "taker_sell_ratio": 0.445809,
+      "taker_buy_sell_ratio": 1.243113,
+      "timestamp": 1808805600
+    },
+    {
+      "date": "2027-04-28",
+      "taker_buy_volume": 1030.8713,
+      "taker_sell_volume": 796.2949,
+      "taker_total_volume": 1827.1662,
+      "taker_buy_ratio": 0.564191,
+      "taker_sell_ratio": 0.435809,
+      "taker_buy_sell_ratio": 1.294585,
+      "timestamp": 1808892000
+    },
+    {
+      "date": "2027-04-29",
+      "taker_buy_volume": 833.7585,
+      "taker_sell_volume": 1054.2047,
+      "taker_total_volume": 1887.9632,
+      "taker_buy_ratio": 0.441618,
+      "taker_sell_ratio": 0.558382,
+      "taker_buy_sell_ratio": 0.790889,
+      "timestamp": 1808978400
+    },
+    {
+      "date": "2027-04-30",
+      "taker_buy_volume": 1196.865,
+      "taker_sell_volume": 943.3119,
+      "taker_total_volume": 2140.1769,
+      "taker_buy_ratio": 0.559236,
+      "taker_sell_ratio": 0.440764,
+      "taker_buy_sell_ratio": 1.26879,
+      "timestamp": 1809064800
+    },
+    {
+      "date": "2027-05-01",
+      "taker_buy_volume": 899.1665,
+      "taker_sell_volume": 1077.0997,
+      "taker_total_volume": 1976.2662,
+      "taker_buy_ratio": 0.454982,
+      "taker_sell_ratio": 0.545018,
+      "taker_buy_sell_ratio": 0.834803,
+      "timestamp": 1809151200
+    },
+    {
+      "date": "2027-05-02",
+      "taker_buy_volume": 1035.7831,
+      "taker_sell_volume": 666.8755,
+      "taker_total_volume": 1702.6587,
+      "taker_buy_ratio": 0.608333,
+      "taker_sell_ratio": 0.391667,
+      "taker_buy_sell_ratio": 1.553188,
+      "timestamp": 1809237600
+    },
+    {
+      "date": "2027-05-03",
+      "taker_buy_volume": 698.5758,
+      "taker_sell_volume": 1068.0785,
+      "taker_total_volume": 1766.6543,
+      "taker_buy_ratio": 0.395423,
+      "taker_sell_ratio": 0.604577,
+      "taker_buy_sell_ratio": 0.654049,
+      "timestamp": 1809324000
+    },
+    {
+      "date": "2027-05-04",
+      "taker_buy_volume": 766.0359,
+      "taker_sell_volume": 892.1121,
+      "taker_total_volume": 1658.1479,
+      "taker_buy_ratio": 0.461983,
+      "taker_sell_ratio": 0.538017,
+      "taker_buy_sell_ratio": 0.858677,
+      "timestamp": 1809410400
+    },
+    {
+      "date": "2027-05-05",
+      "taker_buy_volume": 911.8473,
+      "taker_sell_volume": 781.116,
+      "taker_total_volume": 1692.9632,
+      "taker_buy_ratio": 0.53861,
+      "taker_sell_ratio": 0.46139,
+      "taker_buy_sell_ratio": 1.167365,
+      "timestamp": 1809496800
+    },
+    {
+      "date": "2027-05-06",
+      "taker_buy_volume": 803.3506,
+      "taker_sell_volume": 821.5948,
+      "taker_total_volume": 1624.9454,
+      "taker_buy_ratio": 0.494386,
+      "taker_sell_ratio": 0.505614,
+      "taker_buy_sell_ratio": 0.977794,
+      "timestamp": 1809583200
+    },
+    {
+      "date": "2027-05-07",
+      "taker_buy_volume": 1066.6417,
+      "taker_sell_volume": 954.8034,
+      "taker_total_volume": 2021.445,
+      "taker_buy_ratio": 0.527663,
+      "taker_sell_ratio": 0.472337,
+      "taker_buy_sell_ratio": 1.117132,
+      "timestamp": 1809669600
+    },
+    {
+      "date": "2027-05-08",
+      "taker_buy_volume": 779.503,
+      "taker_sell_volume": 752.4795,
+      "taker_total_volume": 1531.9826,
+      "taker_buy_ratio": 0.50882,
+      "taker_sell_ratio": 0.49118,
+      "taker_buy_sell_ratio": 1.035913,
+      "timestamp": 1809756000
+    },
+    {
+      "date": "2027-05-09",
+      "taker_buy_volume": 837.968,
+      "taker_sell_volume": 801.5243,
+      "taker_total_volume": 1639.4923,
+      "taker_buy_ratio": 0.511114,
+      "taker_sell_ratio": 0.488886,
+      "taker_buy_sell_ratio": 1.045468,
+      "timestamp": 1809842400
+    },
+    {
+      "date": "2027-05-10",
+      "taker_buy_volume": 706.3076,
+      "taker_sell_volume": 841.5382,
+      "taker_total_volume": 1547.8458,
+      "taker_buy_ratio": 0.456317,
+      "taker_sell_ratio": 0.543683,
+      "taker_buy_sell_ratio": 0.839305,
+      "timestamp": 1809928800
+    },
+    {
+      "date": "2027-05-11",
+      "taker_buy_volume": 1057.1927,
+      "taker_sell_volume": 907.4754,
+      "taker_total_volume": 1964.6682,
+      "taker_buy_ratio": 0.538102,
+      "taker_sell_ratio": 0.461898,
+      "taker_buy_sell_ratio": 1.164982,
+      "timestamp": 1810015200
+    },
+    {
+      "date": "2027-05-12",
+      "taker_buy_volume": 790.1117,
+      "taker_sell_volume": 978.798,
+      "taker_total_volume": 1768.9097,
+      "taker_buy_ratio": 0.446666,
+      "taker_sell_ratio": 0.553334,
+      "taker_buy_sell_ratio": 0.807227,
+      "timestamp": 1810101600
+    },
+    {
+      "date": "2027-05-13",
+      "taker_buy_volume": 599.3896,
+      "taker_sell_volume": 628.1658,
+      "taker_total_volume": 1227.5553,
+      "taker_buy_ratio": 0.488279,
+      "taker_sell_ratio": 0.511721,
+      "taker_buy_sell_ratio": 0.95419,
+      "timestamp": 1810188000
+    },
+    {
+      "date": "2027-05-14",
+      "taker_buy_volume": 1234.773,
+      "taker_sell_volume": 740.9024,
+      "taker_total_volume": 1975.6754,
+      "taker_buy_ratio": 0.624988,
+      "taker_sell_ratio": 0.375012,
+      "taker_buy_sell_ratio": 1.66658,
+      "timestamp": 1810274400
+    },
+    {
+      "date": "2027-05-15",
+      "taker_buy_volume": 1161.1573,
+      "taker_sell_volume": 796.5122,
+      "taker_total_volume": 1957.6695,
+      "taker_buy_ratio": 0.593132,
+      "taker_sell_ratio": 0.406868,
+      "taker_buy_sell_ratio": 1.457802,
+      "timestamp": 1810360800
+    },
+    {
+      "date": "2027-05-16",
+      "taker_buy_volume": 836.5422,
+      "taker_sell_volume": 934.7218,
+      "taker_total_volume": 1771.2641,
+      "taker_buy_ratio": 0.472285,
+      "taker_sell_ratio": 0.527715,
+      "taker_buy_sell_ratio": 0.894964,
+      "timestamp": 1810447200
+    },
+    {
+      "date": "2027-05-17",
+      "taker_buy_volume": 832.8628,
+      "taker_sell_volume": 912.8252,
+      "taker_total_volume": 1745.688,
+      "taker_buy_ratio": 0.477097,
+      "taker_sell_ratio": 0.522903,
+      "taker_buy_sell_ratio": 0.912401,
+      "timestamp": 1810533600
+    },
+    {
+      "date": "2027-05-18",
+      "taker_buy_volume": 1134.5792,
+      "taker_sell_volume": 747.7586,
+      "taker_total_volume": 1882.3378,
+      "taker_buy_ratio": 0.60275,
+      "taker_sell_ratio": 0.39725,
+      "taker_buy_sell_ratio": 1.517307,
+      "timestamp": 1810620000
+    },
+    {
+      "date": "2027-05-19",
+      "taker_buy_volume": 877.6495,
+      "taker_sell_volume": 813.3522,
+      "taker_total_volume": 1691.0016,
+      "taker_buy_ratio": 0.519012,
+      "taker_sell_ratio": 0.480988,
+      "taker_buy_sell_ratio": 1.079052,
+      "timestamp": 1810706400
+    },
+    {
+      "date": "2027-05-20",
+      "taker_buy_volume": 811.0567,
+      "taker_sell_volume": 793.1626,
+      "taker_total_volume": 1604.2192,
+      "taker_buy_ratio": 0.505577,
+      "taker_sell_ratio": 0.494423,
+      "taker_buy_sell_ratio": 1.02256,
+      "timestamp": 1810792800
+    },
+    {
+      "date": "2027-05-21",
+      "taker_buy_volume": 1011.6151,
+      "taker_sell_volume": 934.7005,
+      "taker_total_volume": 1946.3157,
+      "taker_buy_ratio": 0.519759,
+      "taker_sell_ratio": 0.480241,
+      "taker_buy_sell_ratio": 1.082288,
+      "timestamp": 1810879200
+    },
+    {
+      "date": "2027-05-22",
+      "taker_buy_volume": 833.9409,
+      "taker_sell_volume": 637.7913,
+      "taker_total_volume": 1471.7322,
+      "taker_buy_ratio": 0.566639,
+      "taker_sell_ratio": 0.433361,
+      "taker_buy_sell_ratio": 1.307545,
+      "timestamp": 1810965600
+    },
+    {
+      "date": "2027-05-23",
+      "taker_buy_volume": 836.4544,
+      "taker_sell_volume": 900.8458,
+      "taker_total_volume": 1737.3002,
+      "taker_buy_ratio": 0.481468,
+      "taker_sell_ratio": 0.518532,
+      "taker_buy_sell_ratio": 0.928521,
+      "timestamp": 1811052000
+    },
+    {
+      "date": "2027-05-24",
+      "taker_buy_volume": 954.2556,
+      "taker_sell_volume": 824.9681,
+      "taker_total_volume": 1779.2236,
+      "taker_buy_ratio": 0.536333,
+      "taker_sell_ratio": 0.463667,
+      "taker_buy_sell_ratio": 1.156718,
+      "timestamp": 1811138400
+    },
+    {
+      "date": "2027-05-25",
+      "taker_buy_volume": 804.3479,
+      "taker_sell_volume": 806.5661,
+      "taker_total_volume": 1610.9141,
+      "taker_buy_ratio": 0.499312,
+      "taker_sell_ratio": 0.500688,
+      "taker_buy_sell_ratio": 0.99725,
+      "timestamp": 1811224800
+    },
+    {
+      "date": "2027-05-26",
+      "taker_buy_volume": 725.8472,
+      "taker_sell_volume": 647.6949,
+      "taker_total_volume": 1373.5421,
+      "taker_buy_ratio": 0.528449,
+      "taker_sell_ratio": 0.471551,
+      "taker_buy_sell_ratio": 1.120662,
+      "timestamp": 1811311200
+    },
+    {
+      "date": "2027-05-27",
+      "taker_buy_volume": 811.1186,
+      "taker_sell_volume": 606.5471,
+      "taker_total_volume": 1417.6657,
+      "taker_buy_ratio": 0.572151,
+      "taker_sell_ratio": 0.427849,
+      "taker_buy_sell_ratio": 1.337272,
+      "timestamp": 1811397600
+    },
+    {
+      "date": "2027-05-28",
+      "taker_buy_volume": 763.7076,
+      "taker_sell_volume": 930.916,
+      "taker_total_volume": 1694.6236,
+      "taker_buy_ratio": 0.450665,
+      "taker_sell_ratio": 0.549335,
+      "taker_buy_sell_ratio": 0.820383,
+      "timestamp": 1811484000
+    },
+    {
+      "date": "2027-05-29",
+      "taker_buy_volume": 611.1054,
+      "taker_sell_volume": 982.3128,
+      "taker_total_volume": 1593.4182,
+      "taker_buy_ratio": 0.383519,
+      "taker_sell_ratio": 0.616481,
+      "taker_buy_sell_ratio": 0.622109,
+      "timestamp": 1811570400
+    },
+    {
+      "date": "2027-05-30",
+      "taker_buy_volume": 917.7133,
+      "taker_sell_volume": 766.9514,
+      "taker_total_volume": 1684.6647,
+      "taker_buy_ratio": 0.544745,
+      "taker_sell_ratio": 0.455255,
+      "taker_buy_sell_ratio": 1.196573,
+      "timestamp": 1811656800
+    },
+    {
+      "date": "2027-05-31",
+      "taker_buy_volume": 698.5115,
+      "taker_sell_volume": 551.9442,
+      "taker_total_volume": 1250.4557,
+      "taker_buy_ratio": 0.558606,
+      "taker_sell_ratio": 0.441394,
+      "taker_buy_sell_ratio": 1.265547,
+      "timestamp": 1811743200
+    },
+    {
+      "date": "2027-06-01",
+      "taker_buy_volume": 886.4642,
+      "taker_sell_volume": 853.0825,
+      "taker_total_volume": 1739.5466,
+      "taker_buy_ratio": 0.509595,
+      "taker_sell_ratio": 0.490405,
+      "taker_buy_sell_ratio": 1.039131,
+      "timestamp": 1811829600
+    },
+    {
+      "date": "2027-06-02",
+      "taker_buy_volume": 670.6734,
+      "taker_sell_volume": 1007.5933,
+      "taker_total_volume": 1678.2667,
+      "taker_buy_ratio": 0.399623,
+      "taker_sell_ratio": 0.600377,
+      "taker_buy_sell_ratio": 0.665619,
+      "timestamp": 1811916000
+    },
+    {
+      "date": "2027-06-03",
+      "taker_buy_volume": 1082.4146,
+      "taker_sell_volume": 925.37,
+      "taker_total_volume": 2007.7846,
+      "taker_buy_ratio": 0.539109,
+      "taker_sell_ratio": 0.460891,
+      "taker_buy_sell_ratio": 1.16971,
+      "timestamp": 1812002400
+    },
+    {
+      "date": "2027-06-04",
+      "taker_buy_volume": 706.6952,
+      "taker_sell_volume": 757.9198,
+      "taker_total_volume": 1464.615,
+      "taker_buy_ratio": 0.482513,
+      "taker_sell_ratio": 0.517487,
+      "taker_buy_sell_ratio": 0.932414,
+      "timestamp": 1812088800
+    },
+    {
+      "date": "2027-06-05",
+      "taker_buy_volume": 841.6161,
+      "taker_sell_volume": 1051.4989,
+      "taker_total_volume": 1893.115,
+      "taker_buy_ratio": 0.444567,
+      "taker_sell_ratio": 0.555433,
+      "taker_buy_sell_ratio": 0.800397,
+      "timestamp": 1812175200
+    },
+    {
+      "date": "2027-06-06",
+      "taker_buy_volume": 1024.7659,
+      "taker_sell_volume": 691.6208,
+      "taker_total_volume": 1716.3868,
+      "taker_buy_ratio": 0.597048,
+      "taker_sell_ratio": 0.402952,
+      "taker_buy_sell_ratio": 1.481687,
+      "timestamp": 1812261600
+    },
+    {
+      "date": "2027-06-07",
+      "taker_buy_volume": 1021.5509,
+      "taker_sell_volume": 1050.0012,
+      "taker_total_volume": 2071.5521,
+      "taker_buy_ratio": 0.493133,
+      "taker_sell_ratio": 0.506867,
+      "taker_buy_sell_ratio": 0.972904,
+      "timestamp": 1812348000
+    },
+    {
+      "date": "2027-06-08",
+      "taker_buy_volume": 1017.6505,
+      "taker_sell_volume": 850.3405,
+      "taker_total_volume": 1867.991,
+      "taker_buy_ratio": 0.544783,
+      "taker_sell_ratio": 0.455217,
+      "taker_buy_sell_ratio": 1.196756,
+      "timestamp": 1812434400
+    },
+    {
+      "date": "2027-06-09",
+      "taker_buy_volume": 979.3956,
+      "taker_sell_volume": 740.5196,
+      "taker_total_volume": 1719.9152,
+      "taker_buy_ratio": 0.569444,
+      "taker_sell_ratio": 0.430556,
+      "taker_buy_sell_ratio": 1.322579,
+      "timestamp": 1812520800
+    },
+    {
+      "date": "2027-06-10",
+      "taker_buy_volume": 920.8446,
+      "taker_sell_volume": 628.3327,
+      "taker_total_volume": 1549.1773,
+      "taker_buy_ratio": 0.594409,
+      "taker_sell_ratio": 0.405591,
+      "taker_buy_sell_ratio": 1.465537,
+      "timestamp": 1812607200
+    },
+    {
+      "date": "2027-06-11",
+      "taker_buy_volume": 829.1876,
+      "taker_sell_volume": 922.4144,
+      "taker_total_volume": 1751.602,
+      "taker_buy_ratio": 0.473388,
+      "taker_sell_ratio": 0.526612,
+      "taker_buy_sell_ratio": 0.898932,
+      "timestamp": 1812693600
+    },
+    {
+      "date": "2027-06-12",
+      "taker_buy_volume": 818.2334,
+      "taker_sell_volume": 463.1235,
+      "taker_total_volume": 1281.3569,
+      "taker_buy_ratio": 0.638568,
+      "taker_sell_ratio": 0.361432,
+      "taker_buy_sell_ratio": 1.766771,
+      "timestamp": 1812780000
+    },
+    {
+      "date": "2027-06-13",
+      "taker_buy_volume": 970.3762,
+      "taker_sell_volume": 885.2007,
+      "taker_total_volume": 1855.5769,
+      "taker_buy_ratio": 0.522951,
+      "taker_sell_ratio": 0.477049,
+      "taker_buy_sell_ratio": 1.096222,
+      "timestamp": 1812866400
+    },
+    {
+      "date": "2027-06-14",
+      "taker_buy_volume": 867.4152,
+      "taker_sell_volume": 737.742,
+      "taker_total_volume": 1605.1573,
+      "taker_buy_ratio": 0.540393,
+      "taker_sell_ratio": 0.459607,
+      "taker_buy_sell_ratio": 1.17577,
+      "timestamp": 1812952800
+    },
+    {
+      "date": "2027-06-15",
+      "taker_buy_volume": 929.0775,
+      "taker_sell_volume": 678.3631,
+      "taker_total_volume": 1607.4406,
+      "taker_buy_ratio": 0.577986,
+      "taker_sell_ratio": 0.422014,
+      "taker_buy_sell_ratio": 1.369587,
+      "timestamp": 1813039200
+    },
+    {
+      "date": "2027-06-16",
+      "taker_buy_volume": 559.9063,
+      "taker_sell_volume": 753.6576,
+      "taker_total_volume": 1313.5639,
+      "taker_buy_ratio": 0.42625,
+      "taker_sell_ratio": 0.57375,
+      "taker_buy_sell_ratio": 0.742919,
+      "timestamp": 1813125600
+    },
+    {
+      "date": "2027-06-17",
+      "taker_buy_volume": 864.2221,
+      "taker_sell_volume": 772.0061,
+      "taker_total_volume": 1636.2282,
+      "taker_buy_ratio": 0.528179,
+      "taker_sell_ratio": 0.471821,
+      "taker_buy_sell_ratio": 1.11945,
+      "timestamp": 1813212000
+    },
+    {
+      "date": "2027-06-18",
+      "taker_buy_volume": 1004.467,
+      "taker_sell_volume": 802.6904,
+      "taker_total_volume": 1807.1574,
+      "taker_buy_ratio": 0.555827,
+      "taker_sell_ratio": 0.444173,
+      "taker_buy_sell_ratio": 1.251375,
+      "timestamp": 1813298400
+    },
+    {
+      "date": "2027-06-19",
+      "taker_buy_volume": 757.1326,
+      "taker_sell_volume": 739.8924,
+      "taker_total_volume": 1497.025,
+      "taker_buy_ratio": 0.505758,
+      "taker_sell_ratio": 0.494242,
+      "taker_buy_sell_ratio": 1.023301,
+      "timestamp": 1813384800
+    },
+    {
+      "date": "2027-06-20",
+      "taker_buy_volume": 713.7728,
+      "taker_sell_volume": 856.1717,
+      "taker_total_volume": 1569.9445,
+      "taker_buy_ratio": 0.454648,
+      "taker_sell_ratio": 0.545352,
+      "taker_buy_sell_ratio": 0.833679,
+      "timestamp": 1813471200
+    },
+    {
+      "date": "2027-06-21",
+      "taker_buy_volume": 951.9216,
+      "taker_sell_volume": 875.5044,
+      "taker_total_volume": 1827.4259,
+      "taker_buy_ratio": 0.520908,
+      "taker_sell_ratio": 0.479092,
+      "taker_buy_sell_ratio": 1.087284,
+      "timestamp": 1813557600
+    },
+    {
+      "date": "2027-06-22",
+      "taker_buy_volume": 636.9522,
+      "taker_sell_volume": 786.8265,
+      "taker_total_volume": 1423.7787,
+      "taker_buy_ratio": 0.447367,
+      "taker_sell_ratio": 0.552633,
+      "taker_buy_sell_ratio": 0.80952,
+      "timestamp": 1813644000
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_cvd_volume_orderflow_taker_buy_sell_stats",
+    "path": "/btc/market-data/taker-buy-sell-stats",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/cvd_volume_orderflow/taker_buy_sell_stats/day_raw.json",
+    "raw_shape": "status_result_data_taker_stats",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 365,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

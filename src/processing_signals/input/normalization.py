@@ -30,7 +30,7 @@ def normalize_extracted_raw(provider: str, run_id: str) -> list[dict[str, Any]]:
         records = sort_by_timestamp(records)
 
         min_required = int(raw.get("metadata", {}).get("min_records", 0) or 0)
-        if raw.get("data_type") in {"snapshot", "event_list", "heatmap"}:
+        if raw.get("data_type") in {"snapshot", "event_list", "heatmap", "matrix"}:
             min_required = 0
 
         normalized.append(
@@ -52,6 +52,9 @@ def normalize_extracted_raw(provider: str, run_id: str) -> list[dict[str, Any]]:
                     "provider_endpoint": raw["endpoint_name"],
                     "path": raw.get("metadata", {}).get("path"),
                     "raw_file": path.as_posix(),
+                    "raw_shape": raw.get("metadata", {}).get("raw_shape"),
+                    "loader_strategy": raw.get("metadata", {}).get("loader_strategy"),
+                    "row_timestamp_required": raw.get("metadata", {}).get("row_timestamp_required"),
                 },
                 "quality": evaluate_quality(records, min_required, duplicates_removed),
             }

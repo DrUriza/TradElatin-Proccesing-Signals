@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "coinglass",
+  "family": "liquidations",
+  "subtype": "liquidation_map",
+  "data_type": "snapshot",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": null,
+  "extraction_window": "latest",
+  "records": [
+    {
+      "time": 1782172800000,
+      "symbol": "BTC",
+      "exchange_list": [
+        "Binance",
+        "OKX",
+        "Bybit"
+      ],
+      "buckets": [
+        {
+          "leverage": "5x",
+          "side": "long",
+          "price_level": 101926.55,
+          "estimated_liquidation_usd": 6623603.32
+        },
+        {
+          "leverage": "5x",
+          "side": "short",
+          "price_level": 96367.88,
+          "estimated_liquidation_usd": 15325119.86
+        },
+        {
+          "leverage": "10x",
+          "side": "long",
+          "price_level": 108768.72,
+          "estimated_liquidation_usd": 1249024.2
+        },
+        {
+          "leverage": "10x",
+          "side": "short",
+          "price_level": 97321.77,
+          "estimated_liquidation_usd": 10898878.14
+        },
+        {
+          "leverage": "25x",
+          "side": "long",
+          "price_level": 97098.76,
+          "estimated_liquidation_usd": 10562841.31
+        },
+        {
+          "leverage": "25x",
+          "side": "short",
+          "price_level": 101080.17,
+          "estimated_liquidation_usd": 10899758.23
+        },
+        {
+          "leverage": "50x",
+          "side": "long",
+          "price_level": 106803.35,
+          "estimated_liquidation_usd": 12954627.96
+        },
+        {
+          "leverage": "50x",
+          "side": "short",
+          "price_level": 100145.24,
+          "estimated_liquidation_usd": 1648539.93
+        },
+        {
+          "leverage": "100x",
+          "side": "long",
+          "price_level": 99360.69,
+          "estimated_liquidation_usd": 12091839.79
+        },
+        {
+          "leverage": "100x",
+          "side": "short",
+          "price_level": 106432.97,
+          "estimated_liquidation_usd": 10728658.9
+        }
+      ],
+      "timestamp": 1782172800
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "coinglass_liquidations_liquidation_map",
+    "path": "/api/futures/liquidation/aggregated-map",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/coinglass/extracted_raw/20260704T154952Z/liquidations/liquidation_map/latest_raw.json",
+    "raw_shape": "code_msg_data_snapshot_liquidation_map",
+    "loader_strategy": "snapshot_fixed_window",
+    "row_timestamp_required": false
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 1,
+    "min_records_required": 0,
+    "duplicates_removed": 0
+  }
+}

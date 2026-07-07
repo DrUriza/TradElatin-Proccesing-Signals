@@ -1,0 +1,4230 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "coinglass",
+  "family": "sentiment_positioning",
+  "subtype": "top_account_long_short_ratio",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "4h",
+  "extraction_window": null,
+  "records": [
+    {
+      "time": 1782172800000,
+      "top_account_long_percent": 48.2662,
+      "top_account_short_percent": 51.7338,
+      "top_account_long_short_ratio": 0.932973,
+      "timestamp": 1782172800
+    },
+    {
+      "time": 1782187200000,
+      "top_account_long_percent": 47.0678,
+      "top_account_short_percent": 52.9322,
+      "top_account_long_short_ratio": 0.889211,
+      "timestamp": 1782187200
+    },
+    {
+      "time": 1782201600000,
+      "top_account_long_percent": 55.6236,
+      "top_account_short_percent": 44.3764,
+      "top_account_long_short_ratio": 1.253449,
+      "timestamp": 1782201600
+    },
+    {
+      "time": 1782216000000,
+      "top_account_long_percent": 45.2462,
+      "top_account_short_percent": 54.7538,
+      "top_account_long_short_ratio": 0.826356,
+      "timestamp": 1782216000
+    },
+    {
+      "time": 1782230400000,
+      "top_account_long_percent": 42.8632,
+      "top_account_short_percent": 57.1368,
+      "top_account_long_short_ratio": 0.750186,
+      "timestamp": 1782230400
+    },
+    {
+      "time": 1782244800000,
+      "top_account_long_percent": 50.9818,
+      "top_account_short_percent": 49.0182,
+      "top_account_long_short_ratio": 1.040058,
+      "timestamp": 1782244800
+    },
+    {
+      "time": 1782259200000,
+      "top_account_long_percent": 52.5879,
+      "top_account_short_percent": 47.4121,
+      "top_account_long_short_ratio": 1.109166,
+      "timestamp": 1782259200
+    },
+    {
+      "time": 1782273600000,
+      "top_account_long_percent": 47.838,
+      "top_account_short_percent": 52.162,
+      "top_account_long_short_ratio": 0.917106,
+      "timestamp": 1782273600
+    },
+    {
+      "time": 1782288000000,
+      "top_account_long_percent": 56.0316,
+      "top_account_short_percent": 43.9684,
+      "top_account_long_short_ratio": 1.274361,
+      "timestamp": 1782288000
+    },
+    {
+      "time": 1782302400000,
+      "top_account_long_percent": 51.0099,
+      "top_account_short_percent": 48.9901,
+      "top_account_long_short_ratio": 1.041227,
+      "timestamp": 1782302400
+    },
+    {
+      "time": 1782316800000,
+      "top_account_long_percent": 51.8593,
+      "top_account_short_percent": 48.1407,
+      "top_account_long_short_ratio": 1.077246,
+      "timestamp": 1782316800
+    },
+    {
+      "time": 1782331200000,
+      "top_account_long_percent": 50.9086,
+      "top_account_short_percent": 49.0914,
+      "top_account_long_short_ratio": 1.037018,
+      "timestamp": 1782331200
+    },
+    {
+      "time": 1782345600000,
+      "top_account_long_percent": 42.2479,
+      "top_account_short_percent": 57.7521,
+      "top_account_long_short_ratio": 0.73154,
+      "timestamp": 1782345600
+    },
+    {
+      "time": 1782360000000,
+      "top_account_long_percent": 51.3571,
+      "top_account_short_percent": 48.6429,
+      "top_account_long_short_ratio": 1.0558,
+      "timestamp": 1782360000
+    },
+    {
+      "time": 1782374400000,
+      "top_account_long_percent": 54.9111,
+      "top_account_short_percent": 45.0889,
+      "top_account_long_short_ratio": 1.217842,
+      "timestamp": 1782374400
+    },
+    {
+      "time": 1782388800000,
+      "top_account_long_percent": 52.7025,
+      "top_account_short_percent": 47.2975,
+      "top_account_long_short_ratio": 1.114279,
+      "timestamp": 1782388800
+    },
+    {
+      "time": 1782403200000,
+      "top_account_long_percent": 52.2954,
+      "top_account_short_percent": 47.7046,
+      "top_account_long_short_ratio": 1.096233,
+      "timestamp": 1782403200
+    },
+    {
+      "time": 1782417600000,
+      "top_account_long_percent": 43.8282,
+      "top_account_short_percent": 56.1718,
+      "top_account_long_short_ratio": 0.780252,
+      "timestamp": 1782417600
+    },
+    {
+      "time": 1782432000000,
+      "top_account_long_percent": 51.4066,
+      "top_account_short_percent": 48.5934,
+      "top_account_long_short_ratio": 1.057891,
+      "timestamp": 1782432000
+    },
+    {
+      "time": 1782446400000,
+      "top_account_long_percent": 53.3877,
+      "top_account_short_percent": 46.6123,
+      "top_account_long_short_ratio": 1.145359,
+      "timestamp": 1782446400
+    },
+    {
+      "time": 1782460800000,
+      "top_account_long_percent": 45.838,
+      "top_account_short_percent": 54.162,
+      "top_account_long_short_ratio": 0.846313,
+      "timestamp": 1782460800
+    },
+    {
+      "time": 1782475200000,
+      "top_account_long_percent": 50.5226,
+      "top_account_short_percent": 49.4774,
+      "top_account_long_short_ratio": 1.021126,
+      "timestamp": 1782475200
+    },
+    {
+      "time": 1782489600000,
+      "top_account_long_percent": 51.5442,
+      "top_account_short_percent": 48.4558,
+      "top_account_long_short_ratio": 1.063737,
+      "timestamp": 1782489600
+    },
+    {
+      "time": 1782504000000,
+      "top_account_long_percent": 51.5077,
+      "top_account_short_percent": 48.4923,
+      "top_account_long_short_ratio": 1.062181,
+      "timestamp": 1782504000
+    },
+    {
+      "time": 1782518400000,
+      "top_account_long_percent": 49.8497,
+      "top_account_short_percent": 50.1503,
+      "top_account_long_short_ratio": 0.994008,
+      "timestamp": 1782518400
+    },
+    {
+      "time": 1782532800000,
+      "top_account_long_percent": 47.3183,
+      "top_account_short_percent": 52.6817,
+      "top_account_long_short_ratio": 0.898191,
+      "timestamp": 1782532800
+    },
+    {
+      "time": 1782547200000,
+      "top_account_long_percent": 61.0945,
+      "top_account_short_percent": 38.9055,
+      "top_account_long_short_ratio": 1.570329,
+      "timestamp": 1782547200
+    },
+    {
+      "time": 1782561600000,
+      "top_account_long_percent": 49.8484,
+      "top_account_short_percent": 50.1516,
+      "top_account_long_short_ratio": 0.993955,
+      "timestamp": 1782561600
+    },
+    {
+      "time": 1782576000000,
+      "top_account_long_percent": 59.4156,
+      "top_account_short_percent": 40.5844,
+      "top_account_long_short_ratio": 1.464003,
+      "timestamp": 1782576000
+    },
+    {
+      "time": 1782590400000,
+      "top_account_long_percent": 50.0617,
+      "top_account_short_percent": 49.9383,
+      "top_account_long_short_ratio": 1.002473,
+      "timestamp": 1782590400
+    },
+    {
+      "time": 1782604800000,
+      "top_account_long_percent": 50.3086,
+      "top_account_short_percent": 49.6914,
+      "top_account_long_short_ratio": 1.01242,
+      "timestamp": 1782604800
+    },
+    {
+      "time": 1782619200000,
+      "top_account_long_percent": 55.1779,
+      "top_account_short_percent": 44.8221,
+      "top_account_long_short_ratio": 1.231042,
+      "timestamp": 1782619200
+    },
+    {
+      "time": 1782633600000,
+      "top_account_long_percent": 48.3294,
+      "top_account_short_percent": 51.6706,
+      "top_account_long_short_ratio": 0.935338,
+      "timestamp": 1782633600
+    },
+    {
+      "time": 1782648000000,
+      "top_account_long_percent": 46.2,
+      "top_account_short_percent": 53.8,
+      "top_account_long_short_ratio": 0.858735,
+      "timestamp": 1782648000
+    },
+    {
+      "time": 1782662400000,
+      "top_account_long_percent": 55.5603,
+      "top_account_short_percent": 44.4397,
+      "top_account_long_short_ratio": 1.250239,
+      "timestamp": 1782662400
+    },
+    {
+      "time": 1782676800000,
+      "top_account_long_percent": 47.8856,
+      "top_account_short_percent": 52.1144,
+      "top_account_long_short_ratio": 0.918854,
+      "timestamp": 1782676800
+    },
+    {
+      "time": 1782691200000,
+      "top_account_long_percent": 52.2974,
+      "top_account_short_percent": 47.7026,
+      "top_account_long_short_ratio": 1.096322,
+      "timestamp": 1782691200
+    },
+    {
+      "time": 1782705600000,
+      "top_account_long_percent": 52.0545,
+      "top_account_short_percent": 47.9455,
+      "top_account_long_short_ratio": 1.085701,
+      "timestamp": 1782705600
+    },
+    {
+      "time": 1782720000000,
+      "top_account_long_percent": 43.5145,
+      "top_account_short_percent": 56.4855,
+      "top_account_long_short_ratio": 0.770367,
+      "timestamp": 1782720000
+    },
+    {
+      "time": 1782734400000,
+      "top_account_long_percent": 56.8826,
+      "top_account_short_percent": 43.1174,
+      "top_account_long_short_ratio": 1.319248,
+      "timestamp": 1782734400
+    },
+    {
+      "time": 1782748800000,
+      "top_account_long_percent": 54.7998,
+      "top_account_short_percent": 45.2002,
+      "top_account_long_short_ratio": 1.212382,
+      "timestamp": 1782748800
+    },
+    {
+      "time": 1782763200000,
+      "top_account_long_percent": 53.8253,
+      "top_account_short_percent": 46.1747,
+      "top_account_long_short_ratio": 1.165689,
+      "timestamp": 1782763200
+    },
+    {
+      "time": 1782777600000,
+      "top_account_long_percent": 61.8085,
+      "top_account_short_percent": 38.1915,
+      "top_account_long_short_ratio": 1.618384,
+      "timestamp": 1782777600
+    },
+    {
+      "time": 1782792000000,
+      "top_account_long_percent": 47.9879,
+      "top_account_short_percent": 52.0121,
+      "top_account_long_short_ratio": 0.922629,
+      "timestamp": 1782792000
+    },
+    {
+      "time": 1782806400000,
+      "top_account_long_percent": 55.8158,
+      "top_account_short_percent": 44.1842,
+      "top_account_long_short_ratio": 1.263254,
+      "timestamp": 1782806400
+    },
+    {
+      "time": 1782820800000,
+      "top_account_long_percent": 52.0305,
+      "top_account_short_percent": 47.9695,
+      "top_account_long_short_ratio": 1.08466,
+      "timestamp": 1782820800
+    },
+    {
+      "time": 1782835200000,
+      "top_account_long_percent": 56.8866,
+      "top_account_short_percent": 43.1134,
+      "top_account_long_short_ratio": 1.319465,
+      "timestamp": 1782835200
+    },
+    {
+      "time": 1782849600000,
+      "top_account_long_percent": 49.7709,
+      "top_account_short_percent": 50.2291,
+      "top_account_long_short_ratio": 0.990878,
+      "timestamp": 1782849600
+    },
+    {
+      "time": 1782864000000,
+      "top_account_long_percent": 54.169,
+      "top_account_short_percent": 45.831,
+      "top_account_long_short_ratio": 1.181929,
+      "timestamp": 1782864000
+    },
+    {
+      "time": 1782878400000,
+      "top_account_long_percent": 54.7461,
+      "top_account_short_percent": 45.2539,
+      "top_account_long_short_ratio": 1.209752,
+      "timestamp": 1782878400
+    },
+    {
+      "time": 1782892800000,
+      "top_account_long_percent": 57.3646,
+      "top_account_short_percent": 42.6354,
+      "top_account_long_short_ratio": 1.34547,
+      "timestamp": 1782892800
+    },
+    {
+      "time": 1782907200000,
+      "top_account_long_percent": 54.0357,
+      "top_account_short_percent": 45.9643,
+      "top_account_long_short_ratio": 1.175601,
+      "timestamp": 1782907200
+    },
+    {
+      "time": 1782921600000,
+      "top_account_long_percent": 57.7997,
+      "top_account_short_percent": 42.2003,
+      "top_account_long_short_ratio": 1.369653,
+      "timestamp": 1782921600
+    },
+    {
+      "time": 1782936000000,
+      "top_account_long_percent": 45.9386,
+      "top_account_short_percent": 54.0614,
+      "top_account_long_short_ratio": 0.849749,
+      "timestamp": 1782936000
+    },
+    {
+      "time": 1782950400000,
+      "top_account_long_percent": 53.8028,
+      "top_account_short_percent": 46.1972,
+      "top_account_long_short_ratio": 1.164635,
+      "timestamp": 1782950400
+    },
+    {
+      "time": 1782964800000,
+      "top_account_long_percent": 57.8244,
+      "top_account_short_percent": 42.1756,
+      "top_account_long_short_ratio": 1.37104,
+      "timestamp": 1782964800
+    },
+    {
+      "time": 1782979200000,
+      "top_account_long_percent": 51.8312,
+      "top_account_short_percent": 48.1688,
+      "top_account_long_short_ratio": 1.076033,
+      "timestamp": 1782979200
+    },
+    {
+      "time": 1782993600000,
+      "top_account_long_percent": 53.6829,
+      "top_account_short_percent": 46.3171,
+      "top_account_long_short_ratio": 1.159029,
+      "timestamp": 1782993600
+    },
+    {
+      "time": 1783008000000,
+      "top_account_long_percent": 58.0498,
+      "top_account_short_percent": 41.9502,
+      "top_account_long_short_ratio": 1.383779,
+      "timestamp": 1783008000
+    },
+    {
+      "time": 1783022400000,
+      "top_account_long_percent": 49.8235,
+      "top_account_short_percent": 50.1765,
+      "top_account_long_short_ratio": 0.992964,
+      "timestamp": 1783022400
+    },
+    {
+      "time": 1783036800000,
+      "top_account_long_percent": 49.1639,
+      "top_account_short_percent": 50.8361,
+      "top_account_long_short_ratio": 0.967106,
+      "timestamp": 1783036800
+    },
+    {
+      "time": 1783051200000,
+      "top_account_long_percent": 47.2941,
+      "top_account_short_percent": 52.7059,
+      "top_account_long_short_ratio": 0.897322,
+      "timestamp": 1783051200
+    },
+    {
+      "time": 1783065600000,
+      "top_account_long_percent": 49.6764,
+      "top_account_short_percent": 50.3236,
+      "top_account_long_short_ratio": 0.987139,
+      "timestamp": 1783065600
+    },
+    {
+      "time": 1783080000000,
+      "top_account_long_percent": 55.4571,
+      "top_account_short_percent": 44.5429,
+      "top_account_long_short_ratio": 1.245028,
+      "timestamp": 1783080000
+    },
+    {
+      "time": 1783094400000,
+      "top_account_long_percent": 52.98,
+      "top_account_short_percent": 47.02,
+      "top_account_long_short_ratio": 1.126755,
+      "timestamp": 1783094400
+    },
+    {
+      "time": 1783108800000,
+      "top_account_long_percent": 51.9579,
+      "top_account_short_percent": 48.0421,
+      "top_account_long_short_ratio": 1.08151,
+      "timestamp": 1783108800
+    },
+    {
+      "time": 1783123200000,
+      "top_account_long_percent": 51.7793,
+      "top_account_short_percent": 48.2207,
+      "top_account_long_short_ratio": 1.073796,
+      "timestamp": 1783123200
+    },
+    {
+      "time": 1783137600000,
+      "top_account_long_percent": 53.2951,
+      "top_account_short_percent": 46.7049,
+      "top_account_long_short_ratio": 1.141103,
+      "timestamp": 1783137600
+    },
+    {
+      "time": 1783152000000,
+      "top_account_long_percent": 59.2227,
+      "top_account_short_percent": 40.7773,
+      "top_account_long_short_ratio": 1.452346,
+      "timestamp": 1783152000
+    },
+    {
+      "time": 1783166400000,
+      "top_account_long_percent": 50.2225,
+      "top_account_short_percent": 49.7775,
+      "top_account_long_short_ratio": 1.00894,
+      "timestamp": 1783166400
+    },
+    {
+      "time": 1783180800000,
+      "top_account_long_percent": 50.4883,
+      "top_account_short_percent": 49.5117,
+      "top_account_long_short_ratio": 1.019725,
+      "timestamp": 1783180800
+    },
+    {
+      "time": 1783195200000,
+      "top_account_long_percent": 49.6817,
+      "top_account_short_percent": 50.3183,
+      "top_account_long_short_ratio": 0.987349,
+      "timestamp": 1783195200
+    },
+    {
+      "time": 1783209600000,
+      "top_account_long_percent": 52.0738,
+      "top_account_short_percent": 47.9262,
+      "top_account_long_short_ratio": 1.086543,
+      "timestamp": 1783209600
+    },
+    {
+      "time": 1783224000000,
+      "top_account_long_percent": 48.6442,
+      "top_account_short_percent": 51.3558,
+      "top_account_long_short_ratio": 0.947199,
+      "timestamp": 1783224000
+    },
+    {
+      "time": 1783238400000,
+      "top_account_long_percent": 54.4324,
+      "top_account_short_percent": 45.5676,
+      "top_account_long_short_ratio": 1.194544,
+      "timestamp": 1783238400
+    },
+    {
+      "time": 1783252800000,
+      "top_account_long_percent": 48.4717,
+      "top_account_short_percent": 51.5283,
+      "top_account_long_short_ratio": 0.94068,
+      "timestamp": 1783252800
+    },
+    {
+      "time": 1783267200000,
+      "top_account_long_percent": 50.4034,
+      "top_account_short_percent": 49.5966,
+      "top_account_long_short_ratio": 1.016268,
+      "timestamp": 1783267200
+    },
+    {
+      "time": 1783281600000,
+      "top_account_long_percent": 43.675,
+      "top_account_short_percent": 56.325,
+      "top_account_long_short_ratio": 0.775412,
+      "timestamp": 1783281600
+    },
+    {
+      "time": 1783296000000,
+      "top_account_long_percent": 55.4471,
+      "top_account_short_percent": 44.5529,
+      "top_account_long_short_ratio": 1.244525,
+      "timestamp": 1783296000
+    },
+    {
+      "time": 1783310400000,
+      "top_account_long_percent": 57.168,
+      "top_account_short_percent": 42.832,
+      "top_account_long_short_ratio": 1.334705,
+      "timestamp": 1783310400
+    },
+    {
+      "time": 1783324800000,
+      "top_account_long_percent": 59.1917,
+      "top_account_short_percent": 40.8083,
+      "top_account_long_short_ratio": 1.450485,
+      "timestamp": 1783324800
+    },
+    {
+      "time": 1783339200000,
+      "top_account_long_percent": 53.3316,
+      "top_account_short_percent": 46.6684,
+      "top_account_long_short_ratio": 1.142779,
+      "timestamp": 1783339200
+    },
+    {
+      "time": 1783353600000,
+      "top_account_long_percent": 48.3078,
+      "top_account_short_percent": 51.6922,
+      "top_account_long_short_ratio": 0.934526,
+      "timestamp": 1783353600
+    },
+    {
+      "time": 1783368000000,
+      "top_account_long_percent": 52.8984,
+      "top_account_short_percent": 47.1016,
+      "top_account_long_short_ratio": 1.123071,
+      "timestamp": 1783368000
+    },
+    {
+      "time": 1783382400000,
+      "top_account_long_percent": 54.0084,
+      "top_account_short_percent": 45.9916,
+      "top_account_long_short_ratio": 1.174311,
+      "timestamp": 1783382400
+    },
+    {
+      "time": 1783396800000,
+      "top_account_long_percent": 59.0602,
+      "top_account_short_percent": 40.9398,
+      "top_account_long_short_ratio": 1.442609,
+      "timestamp": 1783396800
+    },
+    {
+      "time": 1783411200000,
+      "top_account_long_percent": 47.1621,
+      "top_account_short_percent": 52.8379,
+      "top_account_long_short_ratio": 0.89258,
+      "timestamp": 1783411200
+    },
+    {
+      "time": 1783425600000,
+      "top_account_long_percent": 55.1385,
+      "top_account_short_percent": 44.8615,
+      "top_account_long_short_ratio": 1.229081,
+      "timestamp": 1783425600
+    },
+    {
+      "time": 1783440000000,
+      "top_account_long_percent": 54.3596,
+      "top_account_short_percent": 45.6404,
+      "top_account_long_short_ratio": 1.191044,
+      "timestamp": 1783440000
+    },
+    {
+      "time": 1783454400000,
+      "top_account_long_percent": 52.5774,
+      "top_account_short_percent": 47.4226,
+      "top_account_long_short_ratio": 1.108698,
+      "timestamp": 1783454400
+    },
+    {
+      "time": 1783468800000,
+      "top_account_long_percent": 57.8108,
+      "top_account_short_percent": 42.1892,
+      "top_account_long_short_ratio": 1.370272,
+      "timestamp": 1783468800
+    },
+    {
+      "time": 1783483200000,
+      "top_account_long_percent": 51.8361,
+      "top_account_short_percent": 48.1639,
+      "top_account_long_short_ratio": 1.076244,
+      "timestamp": 1783483200
+    },
+    {
+      "time": 1783497600000,
+      "top_account_long_percent": 47.1444,
+      "top_account_short_percent": 52.8556,
+      "top_account_long_short_ratio": 0.891946,
+      "timestamp": 1783497600
+    },
+    {
+      "time": 1783512000000,
+      "top_account_long_percent": 54.9184,
+      "top_account_short_percent": 45.0816,
+      "top_account_long_short_ratio": 1.218197,
+      "timestamp": 1783512000
+    },
+    {
+      "time": 1783526400000,
+      "top_account_long_percent": 52.6364,
+      "top_account_short_percent": 47.3636,
+      "top_account_long_short_ratio": 1.111325,
+      "timestamp": 1783526400
+    },
+    {
+      "time": 1783540800000,
+      "top_account_long_percent": 43.0743,
+      "top_account_short_percent": 56.9257,
+      "top_account_long_short_ratio": 0.756674,
+      "timestamp": 1783540800
+    },
+    {
+      "time": 1783555200000,
+      "top_account_long_percent": 49.919,
+      "top_account_short_percent": 50.081,
+      "top_account_long_short_ratio": 0.996767,
+      "timestamp": 1783555200
+    },
+    {
+      "time": 1783569600000,
+      "top_account_long_percent": 43.122,
+      "top_account_short_percent": 56.878,
+      "top_account_long_short_ratio": 0.75815,
+      "timestamp": 1783569600
+    },
+    {
+      "time": 1783584000000,
+      "top_account_long_percent": 52.2724,
+      "top_account_short_percent": 47.7276,
+      "top_account_long_short_ratio": 1.095226,
+      "timestamp": 1783584000
+    },
+    {
+      "time": 1783598400000,
+      "top_account_long_percent": 52.5649,
+      "top_account_short_percent": 47.4351,
+      "top_account_long_short_ratio": 1.108146,
+      "timestamp": 1783598400
+    },
+    {
+      "time": 1783612800000,
+      "top_account_long_percent": 43.0204,
+      "top_account_short_percent": 56.9796,
+      "top_account_long_short_ratio": 0.755015,
+      "timestamp": 1783612800
+    },
+    {
+      "time": 1783627200000,
+      "top_account_long_percent": 48.5569,
+      "top_account_short_percent": 51.4431,
+      "top_account_long_short_ratio": 0.943895,
+      "timestamp": 1783627200
+    },
+    {
+      "time": 1783641600000,
+      "top_account_long_percent": 48.803,
+      "top_account_short_percent": 51.197,
+      "top_account_long_short_ratio": 0.953238,
+      "timestamp": 1783641600
+    },
+    {
+      "time": 1783656000000,
+      "top_account_long_percent": 43.4159,
+      "top_account_short_percent": 56.5841,
+      "top_account_long_short_ratio": 0.76728,
+      "timestamp": 1783656000
+    },
+    {
+      "time": 1783670400000,
+      "top_account_long_percent": 54.4831,
+      "top_account_short_percent": 45.5169,
+      "top_account_long_short_ratio": 1.196987,
+      "timestamp": 1783670400
+    },
+    {
+      "time": 1783684800000,
+      "top_account_long_percent": 40.4826,
+      "top_account_short_percent": 59.5174,
+      "top_account_long_short_ratio": 0.68018,
+      "timestamp": 1783684800
+    },
+    {
+      "time": 1783699200000,
+      "top_account_long_percent": 48.2195,
+      "top_account_short_percent": 51.7805,
+      "top_account_long_short_ratio": 0.931228,
+      "timestamp": 1783699200
+    },
+    {
+      "time": 1783713600000,
+      "top_account_long_percent": 54.9302,
+      "top_account_short_percent": 45.0698,
+      "top_account_long_short_ratio": 1.218782,
+      "timestamp": 1783713600
+    },
+    {
+      "time": 1783728000000,
+      "top_account_long_percent": 52.9053,
+      "top_account_short_percent": 47.0947,
+      "top_account_long_short_ratio": 1.123383,
+      "timestamp": 1783728000
+    },
+    {
+      "time": 1783742400000,
+      "top_account_long_percent": 49.9504,
+      "top_account_short_percent": 50.0496,
+      "top_account_long_short_ratio": 0.998017,
+      "timestamp": 1783742400
+    },
+    {
+      "time": 1783756800000,
+      "top_account_long_percent": 46.739,
+      "top_account_short_percent": 53.261,
+      "top_account_long_short_ratio": 0.877547,
+      "timestamp": 1783756800
+    },
+    {
+      "time": 1783771200000,
+      "top_account_long_percent": 46.5773,
+      "top_account_short_percent": 53.4227,
+      "top_account_long_short_ratio": 0.871862,
+      "timestamp": 1783771200
+    },
+    {
+      "time": 1783785600000,
+      "top_account_long_percent": 48.2576,
+      "top_account_short_percent": 51.7424,
+      "top_account_long_short_ratio": 0.932651,
+      "timestamp": 1783785600
+    },
+    {
+      "time": 1783800000000,
+      "top_account_long_percent": 43.3354,
+      "top_account_short_percent": 56.6646,
+      "top_account_long_short_ratio": 0.764769,
+      "timestamp": 1783800000
+    },
+    {
+      "time": 1783814400000,
+      "top_account_long_percent": 44.0967,
+      "top_account_short_percent": 55.9033,
+      "top_account_long_short_ratio": 0.788802,
+      "timestamp": 1783814400
+    },
+    {
+      "time": 1783828800000,
+      "top_account_long_percent": 51.5636,
+      "top_account_short_percent": 48.4364,
+      "top_account_long_short_ratio": 1.064561,
+      "timestamp": 1783828800
+    },
+    {
+      "time": 1783843200000,
+      "top_account_long_percent": 45.2367,
+      "top_account_short_percent": 54.7633,
+      "top_account_long_short_ratio": 0.826039,
+      "timestamp": 1783843200
+    },
+    {
+      "time": 1783857600000,
+      "top_account_long_percent": 44.395,
+      "top_account_short_percent": 55.605,
+      "top_account_long_short_ratio": 0.798401,
+      "timestamp": 1783857600
+    },
+    {
+      "time": 1783872000000,
+      "top_account_long_percent": 41.2095,
+      "top_account_short_percent": 58.7905,
+      "top_account_long_short_ratio": 0.700955,
+      "timestamp": 1783872000
+    },
+    {
+      "time": 1783886400000,
+      "top_account_long_percent": 48.0055,
+      "top_account_short_percent": 51.9945,
+      "top_account_long_short_ratio": 0.923282,
+      "timestamp": 1783886400
+    },
+    {
+      "time": 1783900800000,
+      "top_account_long_percent": 48.0383,
+      "top_account_short_percent": 51.9617,
+      "top_account_long_short_ratio": 0.924494,
+      "timestamp": 1783900800
+    },
+    {
+      "time": 1783915200000,
+      "top_account_long_percent": 49.5925,
+      "top_account_short_percent": 50.4075,
+      "top_account_long_short_ratio": 0.983832,
+      "timestamp": 1783915200
+    },
+    {
+      "time": 1783929600000,
+      "top_account_long_percent": 49.1354,
+      "top_account_short_percent": 50.8646,
+      "top_account_long_short_ratio": 0.966003,
+      "timestamp": 1783929600
+    },
+    {
+      "time": 1783944000000,
+      "top_account_long_percent": 43.4716,
+      "top_account_short_percent": 56.5284,
+      "top_account_long_short_ratio": 0.769023,
+      "timestamp": 1783944000
+    },
+    {
+      "time": 1783958400000,
+      "top_account_long_percent": 43.418,
+      "top_account_short_percent": 56.582,
+      "top_account_long_short_ratio": 0.767345,
+      "timestamp": 1783958400
+    },
+    {
+      "time": 1783972800000,
+      "top_account_long_percent": 51.6065,
+      "top_account_short_percent": 48.3935,
+      "top_account_long_short_ratio": 1.066392,
+      "timestamp": 1783972800
+    },
+    {
+      "time": 1783987200000,
+      "top_account_long_percent": 51.4059,
+      "top_account_short_percent": 48.5941,
+      "top_account_long_short_ratio": 1.057864,
+      "timestamp": 1783987200
+    },
+    {
+      "time": 1784001600000,
+      "top_account_long_percent": 46.4879,
+      "top_account_short_percent": 53.5121,
+      "top_account_long_short_ratio": 0.868737,
+      "timestamp": 1784001600
+    },
+    {
+      "time": 1784016000000,
+      "top_account_long_percent": 44.7862,
+      "top_account_short_percent": 55.2138,
+      "top_account_long_short_ratio": 0.811143,
+      "timestamp": 1784016000
+    },
+    {
+      "time": 1784030400000,
+      "top_account_long_percent": 50.9513,
+      "top_account_short_percent": 49.0487,
+      "top_account_long_short_ratio": 1.038791,
+      "timestamp": 1784030400
+    },
+    {
+      "time": 1784044800000,
+      "top_account_long_percent": 45.4706,
+      "top_account_short_percent": 54.5294,
+      "top_account_long_short_ratio": 0.833874,
+      "timestamp": 1784044800
+    },
+    {
+      "time": 1784059200000,
+      "top_account_long_percent": 46.3083,
+      "top_account_short_percent": 53.6917,
+      "top_account_long_short_ratio": 0.862485,
+      "timestamp": 1784059200
+    },
+    {
+      "time": 1784073600000,
+      "top_account_long_percent": 50.7428,
+      "top_account_short_percent": 49.2572,
+      "top_account_long_short_ratio": 1.03016,
+      "timestamp": 1784073600
+    },
+    {
+      "time": 1784088000000,
+      "top_account_long_percent": 46.5215,
+      "top_account_short_percent": 53.4785,
+      "top_account_long_short_ratio": 0.869911,
+      "timestamp": 1784088000
+    },
+    {
+      "time": 1784102400000,
+      "top_account_long_percent": 45.3829,
+      "top_account_short_percent": 54.6171,
+      "top_account_long_short_ratio": 0.830929,
+      "timestamp": 1784102400
+    },
+    {
+      "time": 1784116800000,
+      "top_account_long_percent": 44.102,
+      "top_account_short_percent": 55.898,
+      "top_account_long_short_ratio": 0.788972,
+      "timestamp": 1784116800
+    },
+    {
+      "time": 1784131200000,
+      "top_account_long_percent": 41.1556,
+      "top_account_short_percent": 58.8444,
+      "top_account_long_short_ratio": 0.699398,
+      "timestamp": 1784131200
+    },
+    {
+      "time": 1784145600000,
+      "top_account_long_percent": 44.2201,
+      "top_account_short_percent": 55.7799,
+      "top_account_long_short_ratio": 0.792762,
+      "timestamp": 1784145600
+    },
+    {
+      "time": 1784160000000,
+      "top_account_long_percent": 35.0,
+      "top_account_short_percent": 65.0,
+      "top_account_long_short_ratio": 0.538462,
+      "timestamp": 1784160000
+    },
+    {
+      "time": 1784174400000,
+      "top_account_long_percent": 44.7178,
+      "top_account_short_percent": 55.2822,
+      "top_account_long_short_ratio": 0.808899,
+      "timestamp": 1784174400
+    },
+    {
+      "time": 1784188800000,
+      "top_account_long_percent": 51.7382,
+      "top_account_short_percent": 48.2618,
+      "top_account_long_short_ratio": 1.072033,
+      "timestamp": 1784188800
+    },
+    {
+      "time": 1784203200000,
+      "top_account_long_percent": 41.8806,
+      "top_account_short_percent": 58.1194,
+      "top_account_long_short_ratio": 0.720597,
+      "timestamp": 1784203200
+    },
+    {
+      "time": 1784217600000,
+      "top_account_long_percent": 42.6635,
+      "top_account_short_percent": 57.3365,
+      "top_account_long_short_ratio": 0.74409,
+      "timestamp": 1784217600
+    },
+    {
+      "time": 1784232000000,
+      "top_account_long_percent": 50.9709,
+      "top_account_short_percent": 49.0291,
+      "top_account_long_short_ratio": 1.039606,
+      "timestamp": 1784232000
+    },
+    {
+      "time": 1784246400000,
+      "top_account_long_percent": 47.7679,
+      "top_account_short_percent": 52.2321,
+      "top_account_long_short_ratio": 0.914533,
+      "timestamp": 1784246400
+    },
+    {
+      "time": 1784260800000,
+      "top_account_long_percent": 44.7285,
+      "top_account_short_percent": 55.2715,
+      "top_account_long_short_ratio": 0.809252,
+      "timestamp": 1784260800
+    },
+    {
+      "time": 1784275200000,
+      "top_account_long_percent": 45.5708,
+      "top_account_short_percent": 54.4292,
+      "top_account_long_short_ratio": 0.837249,
+      "timestamp": 1784275200
+    },
+    {
+      "time": 1784289600000,
+      "top_account_long_percent": 37.2387,
+      "top_account_short_percent": 62.7613,
+      "top_account_long_short_ratio": 0.593338,
+      "timestamp": 1784289600
+    },
+    {
+      "time": 1784304000000,
+      "top_account_long_percent": 46.386,
+      "top_account_short_percent": 53.614,
+      "top_account_long_short_ratio": 0.865185,
+      "timestamp": 1784304000
+    },
+    {
+      "time": 1784318400000,
+      "top_account_long_percent": 41.727,
+      "top_account_short_percent": 58.273,
+      "top_account_long_short_ratio": 0.71606,
+      "timestamp": 1784318400
+    },
+    {
+      "time": 1784332800000,
+      "top_account_long_percent": 44.8439,
+      "top_account_short_percent": 55.1561,
+      "top_account_long_short_ratio": 0.813036,
+      "timestamp": 1784332800
+    },
+    {
+      "time": 1784347200000,
+      "top_account_long_percent": 43.296,
+      "top_account_short_percent": 56.704,
+      "top_account_long_short_ratio": 0.763543,
+      "timestamp": 1784347200
+    },
+    {
+      "time": 1784361600000,
+      "top_account_long_percent": 44.5052,
+      "top_account_short_percent": 55.4948,
+      "top_account_long_short_ratio": 0.801971,
+      "timestamp": 1784361600
+    },
+    {
+      "time": 1784376000000,
+      "top_account_long_percent": 47.8242,
+      "top_account_short_percent": 52.1758,
+      "top_account_long_short_ratio": 0.916597,
+      "timestamp": 1784376000
+    },
+    {
+      "time": 1784390400000,
+      "top_account_long_percent": 48.8607,
+      "top_account_short_percent": 51.1393,
+      "top_account_long_short_ratio": 0.955445,
+      "timestamp": 1784390400
+    },
+    {
+      "time": 1784404800000,
+      "top_account_long_percent": 48.24,
+      "top_account_short_percent": 51.76,
+      "top_account_long_short_ratio": 0.931995,
+      "timestamp": 1784404800
+    },
+    {
+      "time": 1784419200000,
+      "top_account_long_percent": 51.7352,
+      "top_account_short_percent": 48.2648,
+      "top_account_long_short_ratio": 1.071902,
+      "timestamp": 1784419200
+    },
+    {
+      "time": 1784433600000,
+      "top_account_long_percent": 39.035,
+      "top_account_short_percent": 60.965,
+      "top_account_long_short_ratio": 0.640284,
+      "timestamp": 1784433600
+    },
+    {
+      "time": 1784448000000,
+      "top_account_long_percent": 41.8772,
+      "top_account_short_percent": 58.1228,
+      "top_account_long_short_ratio": 0.720494,
+      "timestamp": 1784448000
+    },
+    {
+      "time": 1784462400000,
+      "top_account_long_percent": 48.6819,
+      "top_account_short_percent": 51.3181,
+      "top_account_long_short_ratio": 0.948632,
+      "timestamp": 1784462400
+    },
+    {
+      "time": 1784476800000,
+      "top_account_long_percent": 50.187,
+      "top_account_short_percent": 49.813,
+      "top_account_long_short_ratio": 1.007509,
+      "timestamp": 1784476800
+    },
+    {
+      "time": 1784491200000,
+      "top_account_long_percent": 41.664,
+      "top_account_short_percent": 58.336,
+      "top_account_long_short_ratio": 0.714206,
+      "timestamp": 1784491200
+    },
+    {
+      "time": 1784505600000,
+      "top_account_long_percent": 48.0294,
+      "top_account_short_percent": 51.9706,
+      "top_account_long_short_ratio": 0.924165,
+      "timestamp": 1784505600
+    },
+    {
+      "time": 1784520000000,
+      "top_account_long_percent": 43.2827,
+      "top_account_short_percent": 56.7173,
+      "top_account_long_short_ratio": 0.763129,
+      "timestamp": 1784520000
+    },
+    {
+      "time": 1784534400000,
+      "top_account_long_percent": 46.2473,
+      "top_account_short_percent": 53.7527,
+      "top_account_long_short_ratio": 0.860372,
+      "timestamp": 1784534400
+    },
+    {
+      "time": 1784548800000,
+      "top_account_long_percent": 37.5894,
+      "top_account_short_percent": 62.4106,
+      "top_account_long_short_ratio": 0.602291,
+      "timestamp": 1784548800
+    },
+    {
+      "time": 1784563200000,
+      "top_account_long_percent": 50.1755,
+      "top_account_short_percent": 49.8245,
+      "top_account_long_short_ratio": 1.007046,
+      "timestamp": 1784563200
+    },
+    {
+      "time": 1784577600000,
+      "top_account_long_percent": 48.2908,
+      "top_account_short_percent": 51.7092,
+      "top_account_long_short_ratio": 0.933892,
+      "timestamp": 1784577600
+    },
+    {
+      "time": 1784592000000,
+      "top_account_long_percent": 50.3463,
+      "top_account_short_percent": 49.6537,
+      "top_account_long_short_ratio": 1.013947,
+      "timestamp": 1784592000
+    },
+    {
+      "time": 1784606400000,
+      "top_account_long_percent": 58.6787,
+      "top_account_short_percent": 41.3213,
+      "top_account_long_short_ratio": 1.420057,
+      "timestamp": 1784606400
+    },
+    {
+      "time": 1784620800000,
+      "top_account_long_percent": 56.1541,
+      "top_account_short_percent": 43.8459,
+      "top_account_long_short_ratio": 1.280713,
+      "timestamp": 1784620800
+    },
+    {
+      "time": 1784635200000,
+      "top_account_long_percent": 53.4328,
+      "top_account_short_percent": 46.5672,
+      "top_account_long_short_ratio": 1.147434,
+      "timestamp": 1784635200
+    },
+    {
+      "time": 1784649600000,
+      "top_account_long_percent": 43.6792,
+      "top_account_short_percent": 56.3208,
+      "top_account_long_short_ratio": 0.775544,
+      "timestamp": 1784649600
+    },
+    {
+      "time": 1784664000000,
+      "top_account_long_percent": 40.4389,
+      "top_account_short_percent": 59.5611,
+      "top_account_long_short_ratio": 0.678949,
+      "timestamp": 1784664000
+    },
+    {
+      "time": 1784678400000,
+      "top_account_long_percent": 49.8676,
+      "top_account_short_percent": 50.1324,
+      "top_account_long_short_ratio": 0.994719,
+      "timestamp": 1784678400
+    },
+    {
+      "time": 1784692800000,
+      "top_account_long_percent": 51.5359,
+      "top_account_short_percent": 48.4641,
+      "top_account_long_short_ratio": 1.063385,
+      "timestamp": 1784692800
+    },
+    {
+      "time": 1784707200000,
+      "top_account_long_percent": 44.0939,
+      "top_account_short_percent": 55.9061,
+      "top_account_long_short_ratio": 0.788713,
+      "timestamp": 1784707200
+    },
+    {
+      "time": 1784721600000,
+      "top_account_long_percent": 52.0922,
+      "top_account_short_percent": 47.9078,
+      "top_account_long_short_ratio": 1.087343,
+      "timestamp": 1784721600
+    },
+    {
+      "time": 1784736000000,
+      "top_account_long_percent": 50.5951,
+      "top_account_short_percent": 49.4049,
+      "top_account_long_short_ratio": 1.024093,
+      "timestamp": 1784736000
+    },
+    {
+      "time": 1784750400000,
+      "top_account_long_percent": 51.8224,
+      "top_account_short_percent": 48.1776,
+      "top_account_long_short_ratio": 1.075652,
+      "timestamp": 1784750400
+    },
+    {
+      "time": 1784764800000,
+      "top_account_long_percent": 50.0265,
+      "top_account_short_percent": 49.9735,
+      "top_account_long_short_ratio": 1.001061,
+      "timestamp": 1784764800
+    },
+    {
+      "time": 1784779200000,
+      "top_account_long_percent": 52.3821,
+      "top_account_short_percent": 47.6179,
+      "top_account_long_short_ratio": 1.100052,
+      "timestamp": 1784779200
+    },
+    {
+      "time": 1784793600000,
+      "top_account_long_percent": 48.8205,
+      "top_account_short_percent": 51.1795,
+      "top_account_long_short_ratio": 0.953909,
+      "timestamp": 1784793600
+    },
+    {
+      "time": 1784808000000,
+      "top_account_long_percent": 46.3472,
+      "top_account_short_percent": 53.6528,
+      "top_account_long_short_ratio": 0.863835,
+      "timestamp": 1784808000
+    },
+    {
+      "time": 1784822400000,
+      "top_account_long_percent": 45.5076,
+      "top_account_short_percent": 54.4924,
+      "top_account_long_short_ratio": 0.835119,
+      "timestamp": 1784822400
+    },
+    {
+      "time": 1784836800000,
+      "top_account_long_percent": 41.3378,
+      "top_account_short_percent": 58.6622,
+      "top_account_long_short_ratio": 0.704676,
+      "timestamp": 1784836800
+    },
+    {
+      "time": 1784851200000,
+      "top_account_long_percent": 57.6371,
+      "top_account_short_percent": 42.3629,
+      "top_account_long_short_ratio": 1.360556,
+      "timestamp": 1784851200
+    },
+    {
+      "time": 1784865600000,
+      "top_account_long_percent": 41.9419,
+      "top_account_short_percent": 58.0581,
+      "top_account_long_short_ratio": 0.722414,
+      "timestamp": 1784865600
+    },
+    {
+      "time": 1784880000000,
+      "top_account_long_percent": 43.8293,
+      "top_account_short_percent": 56.1707,
+      "top_account_long_short_ratio": 0.780289,
+      "timestamp": 1784880000
+    },
+    {
+      "time": 1784894400000,
+      "top_account_long_percent": 49.1463,
+      "top_account_short_percent": 50.8537,
+      "top_account_long_short_ratio": 0.966427,
+      "timestamp": 1784894400
+    },
+    {
+      "time": 1784908800000,
+      "top_account_long_percent": 49.1575,
+      "top_account_short_percent": 50.8425,
+      "top_account_long_short_ratio": 0.966857,
+      "timestamp": 1784908800
+    },
+    {
+      "time": 1784923200000,
+      "top_account_long_percent": 54.6101,
+      "top_account_short_percent": 45.3899,
+      "top_account_long_short_ratio": 1.203131,
+      "timestamp": 1784923200
+    },
+    {
+      "time": 1784937600000,
+      "top_account_long_percent": 52.5319,
+      "top_account_short_percent": 47.4681,
+      "top_account_long_short_ratio": 1.106679,
+      "timestamp": 1784937600
+    },
+    {
+      "time": 1784952000000,
+      "top_account_long_percent": 55.8836,
+      "top_account_short_percent": 44.1164,
+      "top_account_long_short_ratio": 1.266732,
+      "timestamp": 1784952000
+    },
+    {
+      "time": 1784966400000,
+      "top_account_long_percent": 59.9348,
+      "top_account_short_percent": 40.0652,
+      "top_account_long_short_ratio": 1.495929,
+      "timestamp": 1784966400
+    },
+    {
+      "time": 1784980800000,
+      "top_account_long_percent": 49.1362,
+      "top_account_short_percent": 50.8638,
+      "top_account_long_short_ratio": 0.966034,
+      "timestamp": 1784980800
+    },
+    {
+      "time": 1784995200000,
+      "top_account_long_percent": 57.383,
+      "top_account_short_percent": 42.617,
+      "top_account_long_short_ratio": 1.346482,
+      "timestamp": 1784995200
+    },
+    {
+      "time": 1785009600000,
+      "top_account_long_percent": 58.8581,
+      "top_account_short_percent": 41.1419,
+      "top_account_long_short_ratio": 1.430614,
+      "timestamp": 1785009600
+    },
+    {
+      "time": 1785024000000,
+      "top_account_long_percent": 42.3848,
+      "top_account_short_percent": 57.6152,
+      "top_account_long_short_ratio": 0.735653,
+      "timestamp": 1785024000
+    },
+    {
+      "time": 1785038400000,
+      "top_account_long_percent": 46.3445,
+      "top_account_short_percent": 53.6555,
+      "top_account_long_short_ratio": 0.863743,
+      "timestamp": 1785038400
+    },
+    {
+      "time": 1785052800000,
+      "top_account_long_percent": 49.9239,
+      "top_account_short_percent": 50.0761,
+      "top_account_long_short_ratio": 0.996962,
+      "timestamp": 1785052800
+    },
+    {
+      "time": 1785067200000,
+      "top_account_long_percent": 51.5646,
+      "top_account_short_percent": 48.4354,
+      "top_account_long_short_ratio": 1.064605,
+      "timestamp": 1785067200
+    },
+    {
+      "time": 1785081600000,
+      "top_account_long_percent": 53.3935,
+      "top_account_short_percent": 46.6065,
+      "top_account_long_short_ratio": 1.145624,
+      "timestamp": 1785081600
+    },
+    {
+      "time": 1785096000000,
+      "top_account_long_percent": 38.3507,
+      "top_account_short_percent": 61.6493,
+      "top_account_long_short_ratio": 0.622078,
+      "timestamp": 1785096000
+    },
+    {
+      "time": 1785110400000,
+      "top_account_long_percent": 58.397,
+      "top_account_short_percent": 41.603,
+      "top_account_long_short_ratio": 1.403673,
+      "timestamp": 1785110400
+    },
+    {
+      "time": 1785124800000,
+      "top_account_long_percent": 46.9531,
+      "top_account_short_percent": 53.0469,
+      "top_account_long_short_ratio": 0.885125,
+      "timestamp": 1785124800
+    },
+    {
+      "time": 1785139200000,
+      "top_account_long_percent": 54.5157,
+      "top_account_short_percent": 45.4843,
+      "top_account_long_short_ratio": 1.198562,
+      "timestamp": 1785139200
+    },
+    {
+      "time": 1785153600000,
+      "top_account_long_percent": 60.1999,
+      "top_account_short_percent": 39.8001,
+      "top_account_long_short_ratio": 1.512554,
+      "timestamp": 1785153600
+    },
+    {
+      "time": 1785168000000,
+      "top_account_long_percent": 54.1827,
+      "top_account_short_percent": 45.8173,
+      "top_account_long_short_ratio": 1.182584,
+      "timestamp": 1785168000
+    },
+    {
+      "time": 1785182400000,
+      "top_account_long_percent": 49.8602,
+      "top_account_short_percent": 50.1398,
+      "top_account_long_short_ratio": 0.994424,
+      "timestamp": 1785182400
+    },
+    {
+      "time": 1785196800000,
+      "top_account_long_percent": 48.3731,
+      "top_account_short_percent": 51.6269,
+      "top_account_long_short_ratio": 0.936976,
+      "timestamp": 1785196800
+    },
+    {
+      "time": 1785211200000,
+      "top_account_long_percent": 50.225,
+      "top_account_short_percent": 49.775,
+      "top_account_long_short_ratio": 1.009041,
+      "timestamp": 1785211200
+    },
+    {
+      "time": 1785225600000,
+      "top_account_long_percent": 42.6284,
+      "top_account_short_percent": 57.3716,
+      "top_account_long_short_ratio": 0.743022,
+      "timestamp": 1785225600
+    },
+    {
+      "time": 1785240000000,
+      "top_account_long_percent": 48.5784,
+      "top_account_short_percent": 51.4216,
+      "top_account_long_short_ratio": 0.944707,
+      "timestamp": 1785240000
+    },
+    {
+      "time": 1785254400000,
+      "top_account_long_percent": 52.4331,
+      "top_account_short_percent": 47.5669,
+      "top_account_long_short_ratio": 1.102304,
+      "timestamp": 1785254400
+    },
+    {
+      "time": 1785268800000,
+      "top_account_long_percent": 47.0136,
+      "top_account_short_percent": 52.9864,
+      "top_account_long_short_ratio": 0.887276,
+      "timestamp": 1785268800
+    },
+    {
+      "time": 1785283200000,
+      "top_account_long_percent": 52.1569,
+      "top_account_short_percent": 47.8431,
+      "top_account_long_short_ratio": 1.090164,
+      "timestamp": 1785283200
+    },
+    {
+      "time": 1785297600000,
+      "top_account_long_percent": 50.0344,
+      "top_account_short_percent": 49.9656,
+      "top_account_long_short_ratio": 1.001375,
+      "timestamp": 1785297600
+    },
+    {
+      "time": 1785312000000,
+      "top_account_long_percent": 51.8796,
+      "top_account_short_percent": 48.1204,
+      "top_account_long_short_ratio": 1.078121,
+      "timestamp": 1785312000
+    },
+    {
+      "time": 1785326400000,
+      "top_account_long_percent": 64.9341,
+      "top_account_short_percent": 35.0659,
+      "top_account_long_short_ratio": 1.851777,
+      "timestamp": 1785326400
+    },
+    {
+      "time": 1785340800000,
+      "top_account_long_percent": 54.5248,
+      "top_account_short_percent": 45.4752,
+      "top_account_long_short_ratio": 1.199001,
+      "timestamp": 1785340800
+    },
+    {
+      "time": 1785355200000,
+      "top_account_long_percent": 61.1464,
+      "top_account_short_percent": 38.8536,
+      "top_account_long_short_ratio": 1.573765,
+      "timestamp": 1785355200
+    },
+    {
+      "time": 1785369600000,
+      "top_account_long_percent": 57.1604,
+      "top_account_short_percent": 42.8396,
+      "top_account_long_short_ratio": 1.33429,
+      "timestamp": 1785369600
+    },
+    {
+      "time": 1785384000000,
+      "top_account_long_percent": 49.0488,
+      "top_account_short_percent": 50.9512,
+      "top_account_long_short_ratio": 0.962662,
+      "timestamp": 1785384000
+    },
+    {
+      "time": 1785398400000,
+      "top_account_long_percent": 49.1286,
+      "top_account_short_percent": 50.8714,
+      "top_account_long_short_ratio": 0.96574,
+      "timestamp": 1785398400
+    },
+    {
+      "time": 1785412800000,
+      "top_account_long_percent": 57.171,
+      "top_account_short_percent": 42.829,
+      "top_account_long_short_ratio": 1.334864,
+      "timestamp": 1785412800
+    },
+    {
+      "time": 1785427200000,
+      "top_account_long_percent": 57.3703,
+      "top_account_short_percent": 42.6297,
+      "top_account_long_short_ratio": 1.345782,
+      "timestamp": 1785427200
+    },
+    {
+      "time": 1785441600000,
+      "top_account_long_percent": 54.6988,
+      "top_account_short_percent": 45.3012,
+      "top_account_long_short_ratio": 1.207447,
+      "timestamp": 1785441600
+    },
+    {
+      "time": 1785456000000,
+      "top_account_long_percent": 50.1274,
+      "top_account_short_percent": 49.8726,
+      "top_account_long_short_ratio": 1.005109,
+      "timestamp": 1785456000
+    },
+    {
+      "time": 1785470400000,
+      "top_account_long_percent": 54.2339,
+      "top_account_short_percent": 45.7661,
+      "top_account_long_short_ratio": 1.185025,
+      "timestamp": 1785470400
+    },
+    {
+      "time": 1785484800000,
+      "top_account_long_percent": 47.9516,
+      "top_account_short_percent": 52.0484,
+      "top_account_long_short_ratio": 0.921288,
+      "timestamp": 1785484800
+    },
+    {
+      "time": 1785499200000,
+      "top_account_long_percent": 55.4438,
+      "top_account_short_percent": 44.5562,
+      "top_account_long_short_ratio": 1.244356,
+      "timestamp": 1785499200
+    },
+    {
+      "time": 1785513600000,
+      "top_account_long_percent": 52.5226,
+      "top_account_short_percent": 47.4774,
+      "top_account_long_short_ratio": 1.106267,
+      "timestamp": 1785513600
+    },
+    {
+      "time": 1785528000000,
+      "top_account_long_percent": 61.1684,
+      "top_account_short_percent": 38.8316,
+      "top_account_long_short_ratio": 1.575221,
+      "timestamp": 1785528000
+    },
+    {
+      "time": 1785542400000,
+      "top_account_long_percent": 54.206,
+      "top_account_short_percent": 45.794,
+      "top_account_long_short_ratio": 1.183694,
+      "timestamp": 1785542400
+    },
+    {
+      "time": 1785556800000,
+      "top_account_long_percent": 45.6935,
+      "top_account_short_percent": 54.3065,
+      "top_account_long_short_ratio": 0.841401,
+      "timestamp": 1785556800
+    },
+    {
+      "time": 1785571200000,
+      "top_account_long_percent": 55.1446,
+      "top_account_short_percent": 44.8554,
+      "top_account_long_short_ratio": 1.229387,
+      "timestamp": 1785571200
+    },
+    {
+      "time": 1785585600000,
+      "top_account_long_percent": 49.1083,
+      "top_account_short_percent": 50.8917,
+      "top_account_long_short_ratio": 0.964957,
+      "timestamp": 1785585600
+    },
+    {
+      "time": 1785600000000,
+      "top_account_long_percent": 52.1507,
+      "top_account_short_percent": 47.8493,
+      "top_account_long_short_ratio": 1.089893,
+      "timestamp": 1785600000
+    },
+    {
+      "time": 1785614400000,
+      "top_account_long_percent": 59.8359,
+      "top_account_short_percent": 40.1641,
+      "top_account_long_short_ratio": 1.489787,
+      "timestamp": 1785614400
+    },
+    {
+      "time": 1785628800000,
+      "top_account_long_percent": 54.3174,
+      "top_account_short_percent": 45.6826,
+      "top_account_long_short_ratio": 1.189017,
+      "timestamp": 1785628800
+    },
+    {
+      "time": 1785643200000,
+      "top_account_long_percent": 46.1396,
+      "top_account_short_percent": 53.8604,
+      "top_account_long_short_ratio": 0.856651,
+      "timestamp": 1785643200
+    },
+    {
+      "time": 1785657600000,
+      "top_account_long_percent": 50.3639,
+      "top_account_short_percent": 49.6361,
+      "top_account_long_short_ratio": 1.014662,
+      "timestamp": 1785657600
+    },
+    {
+      "time": 1785672000000,
+      "top_account_long_percent": 45.6044,
+      "top_account_short_percent": 54.3956,
+      "top_account_long_short_ratio": 0.838385,
+      "timestamp": 1785672000
+    },
+    {
+      "time": 1785686400000,
+      "top_account_long_percent": 54.4917,
+      "top_account_short_percent": 45.5083,
+      "top_account_long_short_ratio": 1.197401,
+      "timestamp": 1785686400
+    },
+    {
+      "time": 1785700800000,
+      "top_account_long_percent": 57.5264,
+      "top_account_short_percent": 42.4736,
+      "top_account_long_short_ratio": 1.354406,
+      "timestamp": 1785700800
+    },
+    {
+      "time": 1785715200000,
+      "top_account_long_percent": 56.2254,
+      "top_account_short_percent": 43.7746,
+      "top_account_long_short_ratio": 1.28443,
+      "timestamp": 1785715200
+    },
+    {
+      "time": 1785729600000,
+      "top_account_long_percent": 64.0667,
+      "top_account_short_percent": 35.9333,
+      "top_account_long_short_ratio": 1.782931,
+      "timestamp": 1785729600
+    },
+    {
+      "time": 1785744000000,
+      "top_account_long_percent": 62.562,
+      "top_account_short_percent": 37.438,
+      "top_account_long_short_ratio": 1.671085,
+      "timestamp": 1785744000
+    },
+    {
+      "time": 1785758400000,
+      "top_account_long_percent": 43.0125,
+      "top_account_short_percent": 56.9875,
+      "top_account_long_short_ratio": 0.75477,
+      "timestamp": 1785758400
+    },
+    {
+      "time": 1785772800000,
+      "top_account_long_percent": 49.937,
+      "top_account_short_percent": 50.063,
+      "top_account_long_short_ratio": 0.997483,
+      "timestamp": 1785772800
+    },
+    {
+      "time": 1785787200000,
+      "top_account_long_percent": 50.8446,
+      "top_account_short_percent": 49.1554,
+      "top_account_long_short_ratio": 1.034365,
+      "timestamp": 1785787200
+    },
+    {
+      "time": 1785801600000,
+      "top_account_long_percent": 48.9849,
+      "top_account_short_percent": 51.0151,
+      "top_account_long_short_ratio": 0.960204,
+      "timestamp": 1785801600
+    },
+    {
+      "time": 1785816000000,
+      "top_account_long_percent": 50.1053,
+      "top_account_short_percent": 49.8947,
+      "top_account_long_short_ratio": 1.004222,
+      "timestamp": 1785816000
+    },
+    {
+      "time": 1785830400000,
+      "top_account_long_percent": 53.4912,
+      "top_account_short_percent": 46.5088,
+      "top_account_long_short_ratio": 1.150131,
+      "timestamp": 1785830400
+    },
+    {
+      "time": 1785844800000,
+      "top_account_long_percent": 41.7071,
+      "top_account_short_percent": 58.2929,
+      "top_account_long_short_ratio": 0.715476,
+      "timestamp": 1785844800
+    },
+    {
+      "time": 1785859200000,
+      "top_account_long_percent": 55.0736,
+      "top_account_short_percent": 44.9264,
+      "top_account_long_short_ratio": 1.22586,
+      "timestamp": 1785859200
+    },
+    {
+      "time": 1785873600000,
+      "top_account_long_percent": 51.3614,
+      "top_account_short_percent": 48.6386,
+      "top_account_long_short_ratio": 1.05598,
+      "timestamp": 1785873600
+    },
+    {
+      "time": 1785888000000,
+      "top_account_long_percent": 43.5716,
+      "top_account_short_percent": 56.4284,
+      "top_account_long_short_ratio": 0.772156,
+      "timestamp": 1785888000
+    },
+    {
+      "time": 1785902400000,
+      "top_account_long_percent": 61.2762,
+      "top_account_short_percent": 38.7238,
+      "top_account_long_short_ratio": 1.582389,
+      "timestamp": 1785902400
+    },
+    {
+      "time": 1785916800000,
+      "top_account_long_percent": 53.9797,
+      "top_account_short_percent": 46.0203,
+      "top_account_long_short_ratio": 1.172953,
+      "timestamp": 1785916800
+    },
+    {
+      "time": 1785931200000,
+      "top_account_long_percent": 49.1012,
+      "top_account_short_percent": 50.8988,
+      "top_account_long_short_ratio": 0.964684,
+      "timestamp": 1785931200
+    },
+    {
+      "time": 1785945600000,
+      "top_account_long_percent": 48.2092,
+      "top_account_short_percent": 51.7908,
+      "top_account_long_short_ratio": 0.930845,
+      "timestamp": 1785945600
+    },
+    {
+      "time": 1785960000000,
+      "top_account_long_percent": 55.0259,
+      "top_account_short_percent": 44.9741,
+      "top_account_long_short_ratio": 1.223502,
+      "timestamp": 1785960000
+    },
+    {
+      "time": 1785974400000,
+      "top_account_long_percent": 53.6607,
+      "top_account_short_percent": 46.3393,
+      "top_account_long_short_ratio": 1.157997,
+      "timestamp": 1785974400
+    },
+    {
+      "time": 1785988800000,
+      "top_account_long_percent": 51.8688,
+      "top_account_short_percent": 48.1312,
+      "top_account_long_short_ratio": 1.077656,
+      "timestamp": 1785988800
+    },
+    {
+      "time": 1786003200000,
+      "top_account_long_percent": 59.8365,
+      "top_account_short_percent": 40.1635,
+      "top_account_long_short_ratio": 1.489822,
+      "timestamp": 1786003200
+    },
+    {
+      "time": 1786017600000,
+      "top_account_long_percent": 46.3724,
+      "top_account_short_percent": 53.6276,
+      "top_account_long_short_ratio": 0.864711,
+      "timestamp": 1786017600
+    },
+    {
+      "time": 1786032000000,
+      "top_account_long_percent": 46.2757,
+      "top_account_short_percent": 53.7243,
+      "top_account_long_short_ratio": 0.861355,
+      "timestamp": 1786032000
+    },
+    {
+      "time": 1786046400000,
+      "top_account_long_percent": 48.9412,
+      "top_account_short_percent": 51.0588,
+      "top_account_long_short_ratio": 0.958526,
+      "timestamp": 1786046400
+    },
+    {
+      "time": 1786060800000,
+      "top_account_long_percent": 41.2361,
+      "top_account_short_percent": 58.7639,
+      "top_account_long_short_ratio": 0.701724,
+      "timestamp": 1786060800
+    },
+    {
+      "time": 1786075200000,
+      "top_account_long_percent": 53.0117,
+      "top_account_short_percent": 46.9883,
+      "top_account_long_short_ratio": 1.128188,
+      "timestamp": 1786075200
+    },
+    {
+      "time": 1786089600000,
+      "top_account_long_percent": 49.5981,
+      "top_account_short_percent": 50.4019,
+      "top_account_long_short_ratio": 0.984051,
+      "timestamp": 1786089600
+    },
+    {
+      "time": 1786104000000,
+      "top_account_long_percent": 46.9397,
+      "top_account_short_percent": 53.0603,
+      "top_account_long_short_ratio": 0.884649,
+      "timestamp": 1786104000
+    },
+    {
+      "time": 1786118400000,
+      "top_account_long_percent": 53.0182,
+      "top_account_short_percent": 46.9818,
+      "top_account_long_short_ratio": 1.128484,
+      "timestamp": 1786118400
+    },
+    {
+      "time": 1786132800000,
+      "top_account_long_percent": 39.0075,
+      "top_account_short_percent": 60.9925,
+      "top_account_long_short_ratio": 0.639546,
+      "timestamp": 1786132800
+    },
+    {
+      "time": 1786147200000,
+      "top_account_long_percent": 44.2118,
+      "top_account_short_percent": 55.7882,
+      "top_account_long_short_ratio": 0.792493,
+      "timestamp": 1786147200
+    },
+    {
+      "time": 1786161600000,
+      "top_account_long_percent": 48.143,
+      "top_account_short_percent": 51.857,
+      "top_account_long_short_ratio": 0.928379,
+      "timestamp": 1786161600
+    },
+    {
+      "time": 1786176000000,
+      "top_account_long_percent": 43.9263,
+      "top_account_short_percent": 56.0737,
+      "top_account_long_short_ratio": 0.783367,
+      "timestamp": 1786176000
+    },
+    {
+      "time": 1786190400000,
+      "top_account_long_percent": 52.7534,
+      "top_account_short_percent": 47.2466,
+      "top_account_long_short_ratio": 1.116553,
+      "timestamp": 1786190400
+    },
+    {
+      "time": 1786204800000,
+      "top_account_long_percent": 45.1944,
+      "top_account_short_percent": 54.8056,
+      "top_account_long_short_ratio": 0.82463,
+      "timestamp": 1786204800
+    },
+    {
+      "time": 1786219200000,
+      "top_account_long_percent": 45.7291,
+      "top_account_short_percent": 54.2709,
+      "top_account_long_short_ratio": 0.842607,
+      "timestamp": 1786219200
+    },
+    {
+      "time": 1786233600000,
+      "top_account_long_percent": 44.0302,
+      "top_account_short_percent": 55.9698,
+      "top_account_long_short_ratio": 0.786678,
+      "timestamp": 1786233600
+    },
+    {
+      "time": 1786248000000,
+      "top_account_long_percent": 49.8934,
+      "top_account_short_percent": 50.1066,
+      "top_account_long_short_ratio": 0.995743,
+      "timestamp": 1786248000
+    },
+    {
+      "time": 1786262400000,
+      "top_account_long_percent": 55.9497,
+      "top_account_short_percent": 44.0503,
+      "top_account_long_short_ratio": 1.270132,
+      "timestamp": 1786262400
+    },
+    {
+      "time": 1786276800000,
+      "top_account_long_percent": 51.9556,
+      "top_account_short_percent": 48.0444,
+      "top_account_long_short_ratio": 1.081408,
+      "timestamp": 1786276800
+    },
+    {
+      "time": 1786291200000,
+      "top_account_long_percent": 53.1991,
+      "top_account_short_percent": 46.8009,
+      "top_account_long_short_ratio": 1.136712,
+      "timestamp": 1786291200
+    },
+    {
+      "time": 1786305600000,
+      "top_account_long_percent": 45.4126,
+      "top_account_short_percent": 54.5874,
+      "top_account_long_short_ratio": 0.831923,
+      "timestamp": 1786305600
+    },
+    {
+      "time": 1786320000000,
+      "top_account_long_percent": 45.3452,
+      "top_account_short_percent": 54.6548,
+      "top_account_long_short_ratio": 0.829665,
+      "timestamp": 1786320000
+    },
+    {
+      "time": 1786334400000,
+      "top_account_long_percent": 45.573,
+      "top_account_short_percent": 54.427,
+      "top_account_long_short_ratio": 0.837322,
+      "timestamp": 1786334400
+    },
+    {
+      "time": 1786348800000,
+      "top_account_long_percent": 51.0021,
+      "top_account_short_percent": 48.9979,
+      "top_account_long_short_ratio": 1.040902,
+      "timestamp": 1786348800
+    },
+    {
+      "time": 1786363200000,
+      "top_account_long_percent": 35.5932,
+      "top_account_short_percent": 64.4068,
+      "top_account_long_short_ratio": 0.55263,
+      "timestamp": 1786363200
+    },
+    {
+      "time": 1786377600000,
+      "top_account_long_percent": 52.6677,
+      "top_account_short_percent": 47.3323,
+      "top_account_long_short_ratio": 1.11272,
+      "timestamp": 1786377600
+    },
+    {
+      "time": 1786392000000,
+      "top_account_long_percent": 45.8262,
+      "top_account_short_percent": 54.1738,
+      "top_account_long_short_ratio": 0.845911,
+      "timestamp": 1786392000
+    },
+    {
+      "time": 1786406400000,
+      "top_account_long_percent": 46.8628,
+      "top_account_short_percent": 53.1372,
+      "top_account_long_short_ratio": 0.881921,
+      "timestamp": 1786406400
+    },
+    {
+      "time": 1786420800000,
+      "top_account_long_percent": 38.0044,
+      "top_account_short_percent": 61.9956,
+      "top_account_long_short_ratio": 0.613019,
+      "timestamp": 1786420800
+    },
+    {
+      "time": 1786435200000,
+      "top_account_long_percent": 47.7168,
+      "top_account_short_percent": 52.2832,
+      "top_account_long_short_ratio": 0.912661,
+      "timestamp": 1786435200
+    },
+    {
+      "time": 1786449600000,
+      "top_account_long_percent": 48.6008,
+      "top_account_short_percent": 51.3992,
+      "top_account_long_short_ratio": 0.945555,
+      "timestamp": 1786449600
+    },
+    {
+      "time": 1786464000000,
+      "top_account_long_percent": 37.755,
+      "top_account_short_percent": 62.245,
+      "top_account_long_short_ratio": 0.606555,
+      "timestamp": 1786464000
+    },
+    {
+      "time": 1786478400000,
+      "top_account_long_percent": 42.522,
+      "top_account_short_percent": 57.478,
+      "top_account_long_short_ratio": 0.739797,
+      "timestamp": 1786478400
+    },
+    {
+      "time": 1786492800000,
+      "top_account_long_percent": 56.9961,
+      "top_account_short_percent": 43.0039,
+      "top_account_long_short_ratio": 1.32537,
+      "timestamp": 1786492800
+    },
+    {
+      "time": 1786507200000,
+      "top_account_long_percent": 43.6309,
+      "top_account_short_percent": 56.3691,
+      "top_account_long_short_ratio": 0.774021,
+      "timestamp": 1786507200
+    },
+    {
+      "time": 1786521600000,
+      "top_account_long_percent": 53.363,
+      "top_account_short_percent": 46.637,
+      "top_account_long_short_ratio": 1.144218,
+      "timestamp": 1786521600
+    },
+    {
+      "time": 1786536000000,
+      "top_account_long_percent": 35.4404,
+      "top_account_short_percent": 64.5596,
+      "top_account_long_short_ratio": 0.548956,
+      "timestamp": 1786536000
+    },
+    {
+      "time": 1786550400000,
+      "top_account_long_percent": 47.7647,
+      "top_account_short_percent": 52.2353,
+      "top_account_long_short_ratio": 0.914414,
+      "timestamp": 1786550400
+    },
+    {
+      "time": 1786564800000,
+      "top_account_long_percent": 35.0,
+      "top_account_short_percent": 65.0,
+      "top_account_long_short_ratio": 0.538462,
+      "timestamp": 1786564800
+    },
+    {
+      "time": 1786579200000,
+      "top_account_long_percent": 43.545,
+      "top_account_short_percent": 56.455,
+      "top_account_long_short_ratio": 0.771322,
+      "timestamp": 1786579200
+    },
+    {
+      "time": 1786593600000,
+      "top_account_long_percent": 50.7645,
+      "top_account_short_percent": 49.2355,
+      "top_account_long_short_ratio": 1.031054,
+      "timestamp": 1786593600
+    },
+    {
+      "time": 1786608000000,
+      "top_account_long_percent": 53.5534,
+      "top_account_short_percent": 46.4466,
+      "top_account_long_short_ratio": 1.153008,
+      "timestamp": 1786608000
+    },
+    {
+      "time": 1786622400000,
+      "top_account_long_percent": 40.889,
+      "top_account_short_percent": 59.111,
+      "top_account_long_short_ratio": 0.691733,
+      "timestamp": 1786622400
+    },
+    {
+      "time": 1786636800000,
+      "top_account_long_percent": 54.2224,
+      "top_account_short_percent": 45.7776,
+      "top_account_long_short_ratio": 1.184474,
+      "timestamp": 1786636800
+    },
+    {
+      "time": 1786651200000,
+      "top_account_long_percent": 49.5162,
+      "top_account_short_percent": 50.4838,
+      "top_account_long_short_ratio": 0.980833,
+      "timestamp": 1786651200
+    },
+    {
+      "time": 1786665600000,
+      "top_account_long_percent": 35.2191,
+      "top_account_short_percent": 64.7809,
+      "top_account_long_short_ratio": 0.543666,
+      "timestamp": 1786665600
+    },
+    {
+      "time": 1786680000000,
+      "top_account_long_percent": 39.3265,
+      "top_account_short_percent": 60.6735,
+      "top_account_long_short_ratio": 0.648166,
+      "timestamp": 1786680000
+    },
+    {
+      "time": 1786694400000,
+      "top_account_long_percent": 51.405,
+      "top_account_short_percent": 48.595,
+      "top_account_long_short_ratio": 1.057825,
+      "timestamp": 1786694400
+    },
+    {
+      "time": 1786708800000,
+      "top_account_long_percent": 35.773,
+      "top_account_short_percent": 64.227,
+      "top_account_long_short_ratio": 0.556978,
+      "timestamp": 1786708800
+    },
+    {
+      "time": 1786723200000,
+      "top_account_long_percent": 42.0028,
+      "top_account_short_percent": 57.9972,
+      "top_account_long_short_ratio": 0.724221,
+      "timestamp": 1786723200
+    },
+    {
+      "time": 1786737600000,
+      "top_account_long_percent": 56.4385,
+      "top_account_short_percent": 43.5615,
+      "top_account_long_short_ratio": 1.295603,
+      "timestamp": 1786737600
+    },
+    {
+      "time": 1786752000000,
+      "top_account_long_percent": 42.6618,
+      "top_account_short_percent": 57.3382,
+      "top_account_long_short_ratio": 0.744039,
+      "timestamp": 1786752000
+    },
+    {
+      "time": 1786766400000,
+      "top_account_long_percent": 47.1853,
+      "top_account_short_percent": 52.8147,
+      "top_account_long_short_ratio": 0.893411,
+      "timestamp": 1786766400
+    },
+    {
+      "time": 1786780800000,
+      "top_account_long_percent": 42.1801,
+      "top_account_short_percent": 57.8199,
+      "top_account_long_short_ratio": 0.729509,
+      "timestamp": 1786780800
+    },
+    {
+      "time": 1786795200000,
+      "top_account_long_percent": 43.8034,
+      "top_account_short_percent": 56.1966,
+      "top_account_long_short_ratio": 0.779466,
+      "timestamp": 1786795200
+    },
+    {
+      "time": 1786809600000,
+      "top_account_long_percent": 48.1003,
+      "top_account_short_percent": 51.8997,
+      "top_account_long_short_ratio": 0.926794,
+      "timestamp": 1786809600
+    },
+    {
+      "time": 1786824000000,
+      "top_account_long_percent": 38.6241,
+      "top_account_short_percent": 61.3759,
+      "top_account_long_short_ratio": 0.629305,
+      "timestamp": 1786824000
+    },
+    {
+      "time": 1786838400000,
+      "top_account_long_percent": 51.2327,
+      "top_account_short_percent": 48.7673,
+      "top_account_long_short_ratio": 1.050554,
+      "timestamp": 1786838400
+    },
+    {
+      "time": 1786852800000,
+      "top_account_long_percent": 38.9372,
+      "top_account_short_percent": 61.0628,
+      "top_account_long_short_ratio": 0.637657,
+      "timestamp": 1786852800
+    },
+    {
+      "time": 1786867200000,
+      "top_account_long_percent": 39.0924,
+      "top_account_short_percent": 60.9076,
+      "top_account_long_short_ratio": 0.641831,
+      "timestamp": 1786867200
+    },
+    {
+      "time": 1786881600000,
+      "top_account_long_percent": 43.6745,
+      "top_account_short_percent": 56.3255,
+      "top_account_long_short_ratio": 0.775394,
+      "timestamp": 1786881600
+    },
+    {
+      "time": 1786896000000,
+      "top_account_long_percent": 44.9078,
+      "top_account_short_percent": 55.0922,
+      "top_account_long_short_ratio": 0.81514,
+      "timestamp": 1786896000
+    },
+    {
+      "time": 1786910400000,
+      "top_account_long_percent": 45.7316,
+      "top_account_short_percent": 54.2684,
+      "top_account_long_short_ratio": 0.842693,
+      "timestamp": 1786910400
+    },
+    {
+      "time": 1786924800000,
+      "top_account_long_percent": 47.5292,
+      "top_account_short_percent": 52.4708,
+      "top_account_long_short_ratio": 0.905821,
+      "timestamp": 1786924800
+    },
+    {
+      "time": 1786939200000,
+      "top_account_long_percent": 51.6619,
+      "top_account_short_percent": 48.3381,
+      "top_account_long_short_ratio": 1.068761,
+      "timestamp": 1786939200
+    },
+    {
+      "time": 1786953600000,
+      "top_account_long_percent": 35.0,
+      "top_account_short_percent": 65.0,
+      "top_account_long_short_ratio": 0.538462,
+      "timestamp": 1786953600
+    },
+    {
+      "time": 1786968000000,
+      "top_account_long_percent": 42.5635,
+      "top_account_short_percent": 57.4365,
+      "top_account_long_short_ratio": 0.741052,
+      "timestamp": 1786968000
+    },
+    {
+      "time": 1786982400000,
+      "top_account_long_percent": 45.3442,
+      "top_account_short_percent": 54.6558,
+      "top_account_long_short_ratio": 0.829631,
+      "timestamp": 1786982400
+    },
+    {
+      "time": 1786996800000,
+      "top_account_long_percent": 41.2091,
+      "top_account_short_percent": 58.7909,
+      "top_account_long_short_ratio": 0.700943,
+      "timestamp": 1786996800
+    },
+    {
+      "time": 1787011200000,
+      "top_account_long_percent": 45.2616,
+      "top_account_short_percent": 54.7384,
+      "top_account_long_short_ratio": 0.826872,
+      "timestamp": 1787011200
+    },
+    {
+      "time": 1787025600000,
+      "top_account_long_percent": 45.5928,
+      "top_account_short_percent": 54.4072,
+      "top_account_long_short_ratio": 0.837991,
+      "timestamp": 1787025600
+    },
+    {
+      "time": 1787040000000,
+      "top_account_long_percent": 43.1289,
+      "top_account_short_percent": 56.8711,
+      "top_account_long_short_ratio": 0.758362,
+      "timestamp": 1787040000
+    },
+    {
+      "time": 1787054400000,
+      "top_account_long_percent": 50.7884,
+      "top_account_short_percent": 49.2116,
+      "top_account_long_short_ratio": 1.032041,
+      "timestamp": 1787054400
+    },
+    {
+      "time": 1787068800000,
+      "top_account_long_percent": 42.3782,
+      "top_account_short_percent": 57.6218,
+      "top_account_long_short_ratio": 0.735454,
+      "timestamp": 1787068800
+    },
+    {
+      "time": 1787083200000,
+      "top_account_long_percent": 47.8996,
+      "top_account_short_percent": 52.1004,
+      "top_account_long_short_ratio": 0.919372,
+      "timestamp": 1787083200
+    },
+    {
+      "time": 1787097600000,
+      "top_account_long_percent": 46.8136,
+      "top_account_short_percent": 53.1864,
+      "top_account_long_short_ratio": 0.880179,
+      "timestamp": 1787097600
+    },
+    {
+      "time": 1787112000000,
+      "top_account_long_percent": 50.2249,
+      "top_account_short_percent": 49.7751,
+      "top_account_long_short_ratio": 1.009035,
+      "timestamp": 1787112000
+    },
+    {
+      "time": 1787126400000,
+      "top_account_long_percent": 45.5417,
+      "top_account_short_percent": 54.4583,
+      "top_account_long_short_ratio": 0.836268,
+      "timestamp": 1787126400
+    },
+    {
+      "time": 1787140800000,
+      "top_account_long_percent": 48.8152,
+      "top_account_short_percent": 51.1848,
+      "top_account_long_short_ratio": 0.953706,
+      "timestamp": 1787140800
+    },
+    {
+      "time": 1787155200000,
+      "top_account_long_percent": 45.2068,
+      "top_account_short_percent": 54.7932,
+      "top_account_long_short_ratio": 0.825043,
+      "timestamp": 1787155200
+    },
+    {
+      "time": 1787169600000,
+      "top_account_long_percent": 54.8825,
+      "top_account_short_percent": 45.1175,
+      "top_account_long_short_ratio": 1.216436,
+      "timestamp": 1787169600
+    },
+    {
+      "time": 1787184000000,
+      "top_account_long_percent": 47.5279,
+      "top_account_short_percent": 52.4721,
+      "top_account_long_short_ratio": 0.905773,
+      "timestamp": 1787184000
+    },
+    {
+      "time": 1787198400000,
+      "top_account_long_percent": 52.3826,
+      "top_account_short_percent": 47.6174,
+      "top_account_long_short_ratio": 1.100073,
+      "timestamp": 1787198400
+    },
+    {
+      "time": 1787212800000,
+      "top_account_long_percent": 39.5068,
+      "top_account_short_percent": 60.4932,
+      "top_account_long_short_ratio": 0.653078,
+      "timestamp": 1787212800
+    },
+    {
+      "time": 1787227200000,
+      "top_account_long_percent": 51.2894,
+      "top_account_short_percent": 48.7106,
+      "top_account_long_short_ratio": 1.052942,
+      "timestamp": 1787227200
+    },
+    {
+      "time": 1787241600000,
+      "top_account_long_percent": 45.5142,
+      "top_account_short_percent": 54.4858,
+      "top_account_long_short_ratio": 0.835341,
+      "timestamp": 1787241600
+    },
+    {
+      "time": 1787256000000,
+      "top_account_long_percent": 40.6713,
+      "top_account_short_percent": 59.3287,
+      "top_account_long_short_ratio": 0.685526,
+      "timestamp": 1787256000
+    },
+    {
+      "time": 1787270400000,
+      "top_account_long_percent": 39.2641,
+      "top_account_short_percent": 60.7359,
+      "top_account_long_short_ratio": 0.646473,
+      "timestamp": 1787270400
+    },
+    {
+      "time": 1787284800000,
+      "top_account_long_percent": 51.159,
+      "top_account_short_percent": 48.841,
+      "top_account_long_short_ratio": 1.047461,
+      "timestamp": 1787284800
+    },
+    {
+      "time": 1787299200000,
+      "top_account_long_percent": 49.2482,
+      "top_account_short_percent": 50.7518,
+      "top_account_long_short_ratio": 0.970374,
+      "timestamp": 1787299200
+    },
+    {
+      "time": 1787313600000,
+      "top_account_long_percent": 49.5679,
+      "top_account_short_percent": 50.4321,
+      "top_account_long_short_ratio": 0.982865,
+      "timestamp": 1787313600
+    },
+    {
+      "time": 1787328000000,
+      "top_account_long_percent": 49.7054,
+      "top_account_short_percent": 50.2946,
+      "top_account_long_short_ratio": 0.988285,
+      "timestamp": 1787328000
+    },
+    {
+      "time": 1787342400000,
+      "top_account_long_percent": 53.0905,
+      "top_account_short_percent": 46.9095,
+      "top_account_long_short_ratio": 1.131763,
+      "timestamp": 1787342400
+    },
+    {
+      "time": 1787356800000,
+      "top_account_long_percent": 51.8373,
+      "top_account_short_percent": 48.1627,
+      "top_account_long_short_ratio": 1.076296,
+      "timestamp": 1787356800
+    },
+    {
+      "time": 1787371200000,
+      "top_account_long_percent": 54.4188,
+      "top_account_short_percent": 45.5812,
+      "top_account_long_short_ratio": 1.193887,
+      "timestamp": 1787371200
+    },
+    {
+      "time": 1787385600000,
+      "top_account_long_percent": 42.8845,
+      "top_account_short_percent": 57.1155,
+      "top_account_long_short_ratio": 0.750837,
+      "timestamp": 1787385600
+    },
+    {
+      "time": 1787400000000,
+      "top_account_long_percent": 44.4966,
+      "top_account_short_percent": 55.5034,
+      "top_account_long_short_ratio": 0.801692,
+      "timestamp": 1787400000
+    },
+    {
+      "time": 1787414400000,
+      "top_account_long_percent": 57.6217,
+      "top_account_short_percent": 42.3783,
+      "top_account_long_short_ratio": 1.359701,
+      "timestamp": 1787414400
+    },
+    {
+      "time": 1787428800000,
+      "top_account_long_percent": 43.1184,
+      "top_account_short_percent": 56.8816,
+      "top_account_long_short_ratio": 0.758037,
+      "timestamp": 1787428800
+    },
+    {
+      "time": 1787443200000,
+      "top_account_long_percent": 50.78,
+      "top_account_short_percent": 49.22,
+      "top_account_long_short_ratio": 1.031694,
+      "timestamp": 1787443200
+    },
+    {
+      "time": 1787457600000,
+      "top_account_long_percent": 49.7966,
+      "top_account_short_percent": 50.2034,
+      "top_account_long_short_ratio": 0.991897,
+      "timestamp": 1787457600
+    },
+    {
+      "time": 1787472000000,
+      "top_account_long_percent": 51.364,
+      "top_account_short_percent": 48.636,
+      "top_account_long_short_ratio": 1.056092,
+      "timestamp": 1787472000
+    },
+    {
+      "time": 1787486400000,
+      "top_account_long_percent": 48.1059,
+      "top_account_short_percent": 51.8941,
+      "top_account_long_short_ratio": 0.927002,
+      "timestamp": 1787486400
+    },
+    {
+      "time": 1787500800000,
+      "top_account_long_percent": 47.0487,
+      "top_account_short_percent": 52.9513,
+      "top_account_long_short_ratio": 0.888527,
+      "timestamp": 1787500800
+    },
+    {
+      "time": 1787515200000,
+      "top_account_long_percent": 48.9318,
+      "top_account_short_percent": 51.0682,
+      "top_account_long_short_ratio": 0.958167,
+      "timestamp": 1787515200
+    },
+    {
+      "time": 1787529600000,
+      "top_account_long_percent": 46.4847,
+      "top_account_short_percent": 53.5153,
+      "top_account_long_short_ratio": 0.868624,
+      "timestamp": 1787529600
+    },
+    {
+      "time": 1787544000000,
+      "top_account_long_percent": 56.6853,
+      "top_account_short_percent": 43.3147,
+      "top_account_long_short_ratio": 1.308688,
+      "timestamp": 1787544000
+    },
+    {
+      "time": 1787558400000,
+      "top_account_long_percent": 53.8823,
+      "top_account_short_percent": 46.1177,
+      "top_account_long_short_ratio": 1.168363,
+      "timestamp": 1787558400
+    },
+    {
+      "time": 1787572800000,
+      "top_account_long_percent": 46.3231,
+      "top_account_short_percent": 53.6769,
+      "top_account_long_short_ratio": 0.863,
+      "timestamp": 1787572800
+    },
+    {
+      "time": 1787587200000,
+      "top_account_long_percent": 47.6211,
+      "top_account_short_percent": 52.3789,
+      "top_account_long_short_ratio": 0.909166,
+      "timestamp": 1787587200
+    },
+    {
+      "time": 1787601600000,
+      "top_account_long_percent": 52.5185,
+      "top_account_short_percent": 47.4815,
+      "top_account_long_short_ratio": 1.106082,
+      "timestamp": 1787601600
+    },
+    {
+      "time": 1787616000000,
+      "top_account_long_percent": 51.2911,
+      "top_account_short_percent": 48.7089,
+      "top_account_long_short_ratio": 1.053012,
+      "timestamp": 1787616000
+    },
+    {
+      "time": 1787630400000,
+      "top_account_long_percent": 46.2533,
+      "top_account_short_percent": 53.7467,
+      "top_account_long_short_ratio": 0.860579,
+      "timestamp": 1787630400
+    },
+    {
+      "time": 1787644800000,
+      "top_account_long_percent": 52.4957,
+      "top_account_short_percent": 47.5043,
+      "top_account_long_short_ratio": 1.105072,
+      "timestamp": 1787644800
+    },
+    {
+      "time": 1787659200000,
+      "top_account_long_percent": 51.3113,
+      "top_account_short_percent": 48.6887,
+      "top_account_long_short_ratio": 1.053866,
+      "timestamp": 1787659200
+    },
+    {
+      "time": 1787673600000,
+      "top_account_long_percent": 56.0748,
+      "top_account_short_percent": 43.9252,
+      "top_account_long_short_ratio": 1.276595,
+      "timestamp": 1787673600
+    },
+    {
+      "time": 1787688000000,
+      "top_account_long_percent": 55.9478,
+      "top_account_short_percent": 44.0522,
+      "top_account_long_short_ratio": 1.270033,
+      "timestamp": 1787688000
+    },
+    {
+      "time": 1787702400000,
+      "top_account_long_percent": 48.2502,
+      "top_account_short_percent": 51.7498,
+      "top_account_long_short_ratio": 0.932373,
+      "timestamp": 1787702400
+    },
+    {
+      "time": 1787716800000,
+      "top_account_long_percent": 56.1925,
+      "top_account_short_percent": 43.8075,
+      "top_account_long_short_ratio": 1.282715,
+      "timestamp": 1787716800
+    },
+    {
+      "time": 1787731200000,
+      "top_account_long_percent": 44.6538,
+      "top_account_short_percent": 55.3462,
+      "top_account_long_short_ratio": 0.80681,
+      "timestamp": 1787731200
+    },
+    {
+      "time": 1787745600000,
+      "top_account_long_percent": 48.595,
+      "top_account_short_percent": 51.405,
+      "top_account_long_short_ratio": 0.945337,
+      "timestamp": 1787745600
+    },
+    {
+      "time": 1787760000000,
+      "top_account_long_percent": 48.1034,
+      "top_account_short_percent": 51.8966,
+      "top_account_long_short_ratio": 0.926908,
+      "timestamp": 1787760000
+    },
+    {
+      "time": 1787774400000,
+      "top_account_long_percent": 49.4271,
+      "top_account_short_percent": 50.5729,
+      "top_account_long_short_ratio": 0.977342,
+      "timestamp": 1787774400
+    },
+    {
+      "time": 1787788800000,
+      "top_account_long_percent": 43.2763,
+      "top_account_short_percent": 56.7237,
+      "top_account_long_short_ratio": 0.762932,
+      "timestamp": 1787788800
+    },
+    {
+      "time": 1787803200000,
+      "top_account_long_percent": 56.8344,
+      "top_account_short_percent": 43.1656,
+      "top_account_long_short_ratio": 1.31666,
+      "timestamp": 1787803200
+    },
+    {
+      "time": 1787817600000,
+      "top_account_long_percent": 49.45,
+      "top_account_short_percent": 50.55,
+      "top_account_long_short_ratio": 0.978238,
+      "timestamp": 1787817600
+    },
+    {
+      "time": 1787832000000,
+      "top_account_long_percent": 62.6352,
+      "top_account_short_percent": 37.3648,
+      "top_account_long_short_ratio": 1.676316,
+      "timestamp": 1787832000
+    },
+    {
+      "time": 1787846400000,
+      "top_account_long_percent": 45.368,
+      "top_account_short_percent": 54.632,
+      "top_account_long_short_ratio": 0.830429,
+      "timestamp": 1787846400
+    },
+    {
+      "time": 1787860800000,
+      "top_account_long_percent": 49.3431,
+      "top_account_short_percent": 50.6569,
+      "top_account_long_short_ratio": 0.974063,
+      "timestamp": 1787860800
+    },
+    {
+      "time": 1787875200000,
+      "top_account_long_percent": 50.4288,
+      "top_account_short_percent": 49.5712,
+      "top_account_long_short_ratio": 1.0173,
+      "timestamp": 1787875200
+    },
+    {
+      "time": 1787889600000,
+      "top_account_long_percent": 48.0149,
+      "top_account_short_percent": 51.9851,
+      "top_account_long_short_ratio": 0.923627,
+      "timestamp": 1787889600
+    },
+    {
+      "time": 1787904000000,
+      "top_account_long_percent": 44.7446,
+      "top_account_short_percent": 55.2554,
+      "top_account_long_short_ratio": 0.809778,
+      "timestamp": 1787904000
+    },
+    {
+      "time": 1787918400000,
+      "top_account_long_percent": 53.441,
+      "top_account_short_percent": 46.559,
+      "top_account_long_short_ratio": 1.147813,
+      "timestamp": 1787918400
+    },
+    {
+      "time": 1787932800000,
+      "top_account_long_percent": 54.8134,
+      "top_account_short_percent": 45.1866,
+      "top_account_long_short_ratio": 1.213044,
+      "timestamp": 1787932800
+    },
+    {
+      "time": 1787947200000,
+      "top_account_long_percent": 37.1895,
+      "top_account_short_percent": 62.8105,
+      "top_account_long_short_ratio": 0.59209,
+      "timestamp": 1787947200
+    },
+    {
+      "time": 1787961600000,
+      "top_account_long_percent": 65.0,
+      "top_account_short_percent": 35.0,
+      "top_account_long_short_ratio": 1.857143,
+      "timestamp": 1787961600
+    },
+    {
+      "time": 1787976000000,
+      "top_account_long_percent": 51.2026,
+      "top_account_short_percent": 48.7974,
+      "top_account_long_short_ratio": 1.049291,
+      "timestamp": 1787976000
+    },
+    {
+      "time": 1787990400000,
+      "top_account_long_percent": 55.995,
+      "top_account_short_percent": 44.005,
+      "top_account_long_short_ratio": 1.272467,
+      "timestamp": 1787990400
+    },
+    {
+      "time": 1788004800000,
+      "top_account_long_percent": 51.4278,
+      "top_account_short_percent": 48.5722,
+      "top_account_long_short_ratio": 1.058791,
+      "timestamp": 1788004800
+    },
+    {
+      "time": 1788019200000,
+      "top_account_long_percent": 59.1011,
+      "top_account_short_percent": 40.8989,
+      "top_account_long_short_ratio": 1.445055,
+      "timestamp": 1788019200
+    },
+    {
+      "time": 1788033600000,
+      "top_account_long_percent": 47.9662,
+      "top_account_short_percent": 52.0338,
+      "top_account_long_short_ratio": 0.921827,
+      "timestamp": 1788033600
+    },
+    {
+      "time": 1788048000000,
+      "top_account_long_percent": 58.3997,
+      "top_account_short_percent": 41.6003,
+      "top_account_long_short_ratio": 1.40383,
+      "timestamp": 1788048000
+    },
+    {
+      "time": 1788062400000,
+      "top_account_long_percent": 49.556,
+      "top_account_short_percent": 50.444,
+      "top_account_long_short_ratio": 0.982395,
+      "timestamp": 1788062400
+    },
+    {
+      "time": 1788076800000,
+      "top_account_long_percent": 56.0434,
+      "top_account_short_percent": 43.9566,
+      "top_account_long_short_ratio": 1.274969,
+      "timestamp": 1788076800
+    },
+    {
+      "time": 1788091200000,
+      "top_account_long_percent": 55.7248,
+      "top_account_short_percent": 44.2752,
+      "top_account_long_short_ratio": 1.258601,
+      "timestamp": 1788091200
+    },
+    {
+      "time": 1788105600000,
+      "top_account_long_percent": 50.7747,
+      "top_account_short_percent": 49.2253,
+      "top_account_long_short_ratio": 1.031474,
+      "timestamp": 1788105600
+    },
+    {
+      "time": 1788120000000,
+      "top_account_long_percent": 57.1788,
+      "top_account_short_percent": 42.8212,
+      "top_account_long_short_ratio": 1.335292,
+      "timestamp": 1788120000
+    },
+    {
+      "time": 1788134400000,
+      "top_account_long_percent": 49.9478,
+      "top_account_short_percent": 50.0522,
+      "top_account_long_short_ratio": 0.997916,
+      "timestamp": 1788134400
+    },
+    {
+      "time": 1788148800000,
+      "top_account_long_percent": 51.4552,
+      "top_account_short_percent": 48.5448,
+      "top_account_long_short_ratio": 1.059954,
+      "timestamp": 1788148800
+    },
+    {
+      "time": 1788163200000,
+      "top_account_long_percent": 52.4618,
+      "top_account_short_percent": 47.5382,
+      "top_account_long_short_ratio": 1.103572,
+      "timestamp": 1788163200
+    },
+    {
+      "time": 1788177600000,
+      "top_account_long_percent": 57.8855,
+      "top_account_short_percent": 42.1145,
+      "top_account_long_short_ratio": 1.374477,
+      "timestamp": 1788177600
+    },
+    {
+      "time": 1788192000000,
+      "top_account_long_percent": 51.5026,
+      "top_account_short_percent": 48.4974,
+      "top_account_long_short_ratio": 1.061966,
+      "timestamp": 1788192000
+    },
+    {
+      "time": 1788206400000,
+      "top_account_long_percent": 52.4637,
+      "top_account_short_percent": 47.5363,
+      "top_account_long_short_ratio": 1.103657,
+      "timestamp": 1788206400
+    },
+    {
+      "time": 1788220800000,
+      "top_account_long_percent": 60.5061,
+      "top_account_short_percent": 39.4939,
+      "top_account_long_short_ratio": 1.532038,
+      "timestamp": 1788220800
+    },
+    {
+      "time": 1788235200000,
+      "top_account_long_percent": 53.3193,
+      "top_account_short_percent": 46.6807,
+      "top_account_long_short_ratio": 1.142211,
+      "timestamp": 1788235200
+    },
+    {
+      "time": 1788249600000,
+      "top_account_long_percent": 47.9442,
+      "top_account_short_percent": 52.0558,
+      "top_account_long_short_ratio": 0.921017,
+      "timestamp": 1788249600
+    },
+    {
+      "time": 1788264000000,
+      "top_account_long_percent": 59.1942,
+      "top_account_short_percent": 40.8058,
+      "top_account_long_short_ratio": 1.450632,
+      "timestamp": 1788264000
+    },
+    {
+      "time": 1788278400000,
+      "top_account_long_percent": 47.51,
+      "top_account_short_percent": 52.49,
+      "top_account_long_short_ratio": 0.905126,
+      "timestamp": 1788278400
+    },
+    {
+      "time": 1788292800000,
+      "top_account_long_percent": 50.1496,
+      "top_account_short_percent": 49.8504,
+      "top_account_long_short_ratio": 1.006001,
+      "timestamp": 1788292800
+    },
+    {
+      "time": 1788307200000,
+      "top_account_long_percent": 52.798,
+      "top_account_short_percent": 47.202,
+      "top_account_long_short_ratio": 1.118555,
+      "timestamp": 1788307200
+    },
+    {
+      "time": 1788321600000,
+      "top_account_long_percent": 60.6352,
+      "top_account_short_percent": 39.3648,
+      "top_account_long_short_ratio": 1.540337,
+      "timestamp": 1788321600
+    },
+    {
+      "time": 1788336000000,
+      "top_account_long_percent": 56.0231,
+      "top_account_short_percent": 43.9769,
+      "top_account_long_short_ratio": 1.273922,
+      "timestamp": 1788336000
+    },
+    {
+      "time": 1788350400000,
+      "top_account_long_percent": 60.4685,
+      "top_account_short_percent": 39.5315,
+      "top_account_long_short_ratio": 1.529628,
+      "timestamp": 1788350400
+    },
+    {
+      "time": 1788364800000,
+      "top_account_long_percent": 53.0522,
+      "top_account_short_percent": 46.9478,
+      "top_account_long_short_ratio": 1.130026,
+      "timestamp": 1788364800
+    },
+    {
+      "time": 1788379200000,
+      "top_account_long_percent": 51.4149,
+      "top_account_short_percent": 48.5851,
+      "top_account_long_short_ratio": 1.058243,
+      "timestamp": 1788379200
+    },
+    {
+      "time": 1788393600000,
+      "top_account_long_percent": 55.7412,
+      "top_account_short_percent": 44.2588,
+      "top_account_long_short_ratio": 1.259437,
+      "timestamp": 1788393600
+    },
+    {
+      "time": 1788408000000,
+      "top_account_long_percent": 50.8578,
+      "top_account_short_percent": 49.1422,
+      "top_account_long_short_ratio": 1.03491,
+      "timestamp": 1788408000
+    },
+    {
+      "time": 1788422400000,
+      "top_account_long_percent": 58.5079,
+      "top_account_short_percent": 41.4921,
+      "top_account_long_short_ratio": 1.410097,
+      "timestamp": 1788422400
+    },
+    {
+      "time": 1788436800000,
+      "top_account_long_percent": 50.6782,
+      "top_account_short_percent": 49.3218,
+      "top_account_long_short_ratio": 1.0275,
+      "timestamp": 1788436800
+    },
+    {
+      "time": 1788451200000,
+      "top_account_long_percent": 61.8638,
+      "top_account_short_percent": 38.1362,
+      "top_account_long_short_ratio": 1.622179,
+      "timestamp": 1788451200
+    },
+    {
+      "time": 1788465600000,
+      "top_account_long_percent": 48.0896,
+      "top_account_short_percent": 51.9104,
+      "top_account_long_short_ratio": 0.926395,
+      "timestamp": 1788465600
+    },
+    {
+      "time": 1788480000000,
+      "top_account_long_percent": 53.0406,
+      "top_account_short_percent": 46.9594,
+      "top_account_long_short_ratio": 1.129499,
+      "timestamp": 1788480000
+    },
+    {
+      "time": 1788494400000,
+      "top_account_long_percent": 61.5255,
+      "top_account_short_percent": 38.4745,
+      "top_account_long_short_ratio": 1.599123,
+      "timestamp": 1788494400
+    },
+    {
+      "time": 1788508800000,
+      "top_account_long_percent": 51.8031,
+      "top_account_short_percent": 48.1969,
+      "top_account_long_short_ratio": 1.074821,
+      "timestamp": 1788508800
+    },
+    {
+      "time": 1788523200000,
+      "top_account_long_percent": 49.3477,
+      "top_account_short_percent": 50.6523,
+      "top_account_long_short_ratio": 0.974244,
+      "timestamp": 1788523200
+    },
+    {
+      "time": 1788537600000,
+      "top_account_long_percent": 52.8351,
+      "top_account_short_percent": 47.1649,
+      "top_account_long_short_ratio": 1.120222,
+      "timestamp": 1788537600
+    },
+    {
+      "time": 1788552000000,
+      "top_account_long_percent": 51.9191,
+      "top_account_short_percent": 48.0809,
+      "top_account_long_short_ratio": 1.079828,
+      "timestamp": 1788552000
+    },
+    {
+      "time": 1788566400000,
+      "top_account_long_percent": 52.0444,
+      "top_account_short_percent": 47.9556,
+      "top_account_long_short_ratio": 1.085264,
+      "timestamp": 1788566400
+    },
+    {
+      "time": 1788580800000,
+      "top_account_long_percent": 48.421,
+      "top_account_short_percent": 51.579,
+      "top_account_long_short_ratio": 0.938772,
+      "timestamp": 1788580800
+    },
+    {
+      "time": 1788595200000,
+      "top_account_long_percent": 49.5347,
+      "top_account_short_percent": 50.4653,
+      "top_account_long_short_ratio": 0.981561,
+      "timestamp": 1788595200
+    },
+    {
+      "time": 1788609600000,
+      "top_account_long_percent": 61.5254,
+      "top_account_short_percent": 38.4746,
+      "top_account_long_short_ratio": 1.599115,
+      "timestamp": 1788609600
+    },
+    {
+      "time": 1788624000000,
+      "top_account_long_percent": 57.254,
+      "top_account_short_percent": 42.746,
+      "top_account_long_short_ratio": 1.339399,
+      "timestamp": 1788624000
+    },
+    {
+      "time": 1788638400000,
+      "top_account_long_percent": 53.913,
+      "top_account_short_percent": 46.087,
+      "top_account_long_short_ratio": 1.169811,
+      "timestamp": 1788638400
+    },
+    {
+      "time": 1788652800000,
+      "top_account_long_percent": 47.5755,
+      "top_account_short_percent": 52.4245,
+      "top_account_long_short_ratio": 0.907505,
+      "timestamp": 1788652800
+    },
+    {
+      "time": 1788667200000,
+      "top_account_long_percent": 59.5125,
+      "top_account_short_percent": 40.4875,
+      "top_account_long_short_ratio": 1.469899,
+      "timestamp": 1788667200
+    },
+    {
+      "time": 1788681600000,
+      "top_account_long_percent": 45.5824,
+      "top_account_short_percent": 54.4176,
+      "top_account_long_short_ratio": 0.83764,
+      "timestamp": 1788681600
+    },
+    {
+      "time": 1788696000000,
+      "top_account_long_percent": 48.3573,
+      "top_account_short_percent": 51.6427,
+      "top_account_long_short_ratio": 0.936383,
+      "timestamp": 1788696000
+    },
+    {
+      "time": 1788710400000,
+      "top_account_long_percent": 50.2326,
+      "top_account_short_percent": 49.7674,
+      "top_account_long_short_ratio": 1.009347,
+      "timestamp": 1788710400
+    },
+    {
+      "time": 1788724800000,
+      "top_account_long_percent": 56.6442,
+      "top_account_short_percent": 43.3558,
+      "top_account_long_short_ratio": 1.306497,
+      "timestamp": 1788724800
+    },
+    {
+      "time": 1788739200000,
+      "top_account_long_percent": 50.0793,
+      "top_account_short_percent": 49.9207,
+      "top_account_long_short_ratio": 1.003175,
+      "timestamp": 1788739200
+    },
+    {
+      "time": 1788753600000,
+      "top_account_long_percent": 54.4837,
+      "top_account_short_percent": 45.5163,
+      "top_account_long_short_ratio": 1.197017,
+      "timestamp": 1788753600
+    },
+    {
+      "time": 1788768000000,
+      "top_account_long_percent": 54.5952,
+      "top_account_short_percent": 45.4048,
+      "top_account_long_short_ratio": 1.202409,
+      "timestamp": 1788768000
+    },
+    {
+      "time": 1788782400000,
+      "top_account_long_percent": 57.0062,
+      "top_account_short_percent": 42.9938,
+      "top_account_long_short_ratio": 1.325915,
+      "timestamp": 1788782400
+    },
+    {
+      "time": 1788796800000,
+      "top_account_long_percent": 61.3561,
+      "top_account_short_percent": 38.6439,
+      "top_account_long_short_ratio": 1.587732,
+      "timestamp": 1788796800
+    },
+    {
+      "time": 1788811200000,
+      "top_account_long_percent": 45.4021,
+      "top_account_short_percent": 54.5979,
+      "top_account_long_short_ratio": 0.831572,
+      "timestamp": 1788811200
+    },
+    {
+      "time": 1788825600000,
+      "top_account_long_percent": 55.2563,
+      "top_account_short_percent": 44.7437,
+      "top_account_long_short_ratio": 1.234949,
+      "timestamp": 1788825600
+    },
+    {
+      "time": 1788840000000,
+      "top_account_long_percent": 44.1488,
+      "top_account_short_percent": 55.8512,
+      "top_account_long_short_ratio": 0.790471,
+      "timestamp": 1788840000
+    },
+    {
+      "time": 1788854400000,
+      "top_account_long_percent": 53.787,
+      "top_account_short_percent": 46.213,
+      "top_account_long_short_ratio": 1.163892,
+      "timestamp": 1788854400
+    },
+    {
+      "time": 1788868800000,
+      "top_account_long_percent": 52.7753,
+      "top_account_short_percent": 47.2247,
+      "top_account_long_short_ratio": 1.117535,
+      "timestamp": 1788868800
+    },
+    {
+      "time": 1788883200000,
+      "top_account_long_percent": 48.5762,
+      "top_account_short_percent": 51.4238,
+      "top_account_long_short_ratio": 0.944624,
+      "timestamp": 1788883200
+    },
+    {
+      "time": 1788897600000,
+      "top_account_long_percent": 53.0002,
+      "top_account_short_percent": 46.9998,
+      "top_account_long_short_ratio": 1.127668,
+      "timestamp": 1788897600
+    },
+    {
+      "time": 1788912000000,
+      "top_account_long_percent": 56.4795,
+      "top_account_short_percent": 43.5205,
+      "top_account_long_short_ratio": 1.29777,
+      "timestamp": 1788912000
+    },
+    {
+      "time": 1788926400000,
+      "top_account_long_percent": 51.8935,
+      "top_account_short_percent": 48.1065,
+      "top_account_long_short_ratio": 1.07872,
+      "timestamp": 1788926400
+    },
+    {
+      "time": 1788940800000,
+      "top_account_long_percent": 40.3055,
+      "top_account_short_percent": 59.6945,
+      "top_account_long_short_ratio": 0.675196,
+      "timestamp": 1788940800
+    },
+    {
+      "time": 1788955200000,
+      "top_account_long_percent": 55.7809,
+      "top_account_short_percent": 44.2191,
+      "top_account_long_short_ratio": 1.261465,
+      "timestamp": 1788955200
+    },
+    {
+      "time": 1788969600000,
+      "top_account_long_percent": 43.2792,
+      "top_account_short_percent": 56.7208,
+      "top_account_long_short_ratio": 0.763022,
+      "timestamp": 1788969600
+    },
+    {
+      "time": 1788984000000,
+      "top_account_long_percent": 56.9743,
+      "top_account_short_percent": 43.0257,
+      "top_account_long_short_ratio": 1.324192,
+      "timestamp": 1788984000
+    },
+    {
+      "time": 1788998400000,
+      "top_account_long_percent": 48.4872,
+      "top_account_short_percent": 51.5128,
+      "top_account_long_short_ratio": 0.941264,
+      "timestamp": 1788998400
+    },
+    {
+      "time": 1789012800000,
+      "top_account_long_percent": 56.5098,
+      "top_account_short_percent": 43.4902,
+      "top_account_long_short_ratio": 1.29937,
+      "timestamp": 1789012800
+    },
+    {
+      "time": 1789027200000,
+      "top_account_long_percent": 46.6295,
+      "top_account_short_percent": 53.3705,
+      "top_account_long_short_ratio": 0.873695,
+      "timestamp": 1789027200
+    },
+    {
+      "time": 1789041600000,
+      "top_account_long_percent": 47.7639,
+      "top_account_short_percent": 52.2361,
+      "top_account_long_short_ratio": 0.914384,
+      "timestamp": 1789041600
+    },
+    {
+      "time": 1789056000000,
+      "top_account_long_percent": 45.6674,
+      "top_account_short_percent": 54.3326,
+      "top_account_long_short_ratio": 0.840516,
+      "timestamp": 1789056000
+    },
+    {
+      "time": 1789070400000,
+      "top_account_long_percent": 52.1411,
+      "top_account_short_percent": 47.8589,
+      "top_account_long_short_ratio": 1.089474,
+      "timestamp": 1789070400
+    },
+    {
+      "time": 1789084800000,
+      "top_account_long_percent": 48.5198,
+      "top_account_short_percent": 51.4802,
+      "top_account_long_short_ratio": 0.942495,
+      "timestamp": 1789084800
+    },
+    {
+      "time": 1789099200000,
+      "top_account_long_percent": 53.1479,
+      "top_account_short_percent": 46.8521,
+      "top_account_long_short_ratio": 1.134374,
+      "timestamp": 1789099200
+    },
+    {
+      "time": 1789113600000,
+      "top_account_long_percent": 50.6036,
+      "top_account_short_percent": 49.3964,
+      "top_account_long_short_ratio": 1.024438,
+      "timestamp": 1789113600
+    },
+    {
+      "time": 1789128000000,
+      "top_account_long_percent": 48.3597,
+      "top_account_short_percent": 51.6403,
+      "top_account_long_short_ratio": 0.936473,
+      "timestamp": 1789128000
+    },
+    {
+      "time": 1789142400000,
+      "top_account_long_percent": 53.1501,
+      "top_account_short_percent": 46.8499,
+      "top_account_long_short_ratio": 1.134476,
+      "timestamp": 1789142400
+    },
+    {
+      "time": 1789156800000,
+      "top_account_long_percent": 54.3846,
+      "top_account_short_percent": 45.6154,
+      "top_account_long_short_ratio": 1.19224,
+      "timestamp": 1789156800
+    },
+    {
+      "time": 1789171200000,
+      "top_account_long_percent": 51.7909,
+      "top_account_short_percent": 48.2091,
+      "top_account_long_short_ratio": 1.074299,
+      "timestamp": 1789171200
+    },
+    {
+      "time": 1789185600000,
+      "top_account_long_percent": 54.8682,
+      "top_account_short_percent": 45.1318,
+      "top_account_long_short_ratio": 1.215735,
+      "timestamp": 1789185600
+    },
+    {
+      "time": 1789200000000,
+      "top_account_long_percent": 52.1164,
+      "top_account_short_percent": 47.8836,
+      "top_account_long_short_ratio": 1.088397,
+      "timestamp": 1789200000
+    },
+    {
+      "time": 1789214400000,
+      "top_account_long_percent": 49.4935,
+      "top_account_short_percent": 50.5065,
+      "top_account_long_short_ratio": 0.979943,
+      "timestamp": 1789214400
+    },
+    {
+      "time": 1789228800000,
+      "top_account_long_percent": 45.5645,
+      "top_account_short_percent": 54.4355,
+      "top_account_long_short_ratio": 0.837035,
+      "timestamp": 1789228800
+    },
+    {
+      "time": 1789243200000,
+      "top_account_long_percent": 49.7522,
+      "top_account_short_percent": 50.2478,
+      "top_account_long_short_ratio": 0.990138,
+      "timestamp": 1789243200
+    },
+    {
+      "time": 1789257600000,
+      "top_account_long_percent": 55.5616,
+      "top_account_short_percent": 44.4384,
+      "top_account_long_short_ratio": 1.250305,
+      "timestamp": 1789257600
+    },
+    {
+      "time": 1789272000000,
+      "top_account_long_percent": 45.433,
+      "top_account_short_percent": 54.567,
+      "top_account_long_short_ratio": 0.832608,
+      "timestamp": 1789272000
+    },
+    {
+      "time": 1789286400000,
+      "top_account_long_percent": 55.0145,
+      "top_account_short_percent": 44.9855,
+      "top_account_long_short_ratio": 1.222936,
+      "timestamp": 1789286400
+    },
+    {
+      "time": 1789300800000,
+      "top_account_long_percent": 50.9675,
+      "top_account_short_percent": 49.0325,
+      "top_account_long_short_ratio": 1.039462,
+      "timestamp": 1789300800
+    },
+    {
+      "time": 1789315200000,
+      "top_account_long_percent": 48.1257,
+      "top_account_short_percent": 51.8743,
+      "top_account_long_short_ratio": 0.927737,
+      "timestamp": 1789315200
+    },
+    {
+      "time": 1789329600000,
+      "top_account_long_percent": 38.3173,
+      "top_account_short_percent": 61.6827,
+      "top_account_long_short_ratio": 0.621201,
+      "timestamp": 1789329600
+    },
+    {
+      "time": 1789344000000,
+      "top_account_long_percent": 46.3872,
+      "top_account_short_percent": 53.6128,
+      "top_account_long_short_ratio": 0.865227,
+      "timestamp": 1789344000
+    },
+    {
+      "time": 1789358400000,
+      "top_account_long_percent": 46.1692,
+      "top_account_short_percent": 53.8308,
+      "top_account_long_short_ratio": 0.857673,
+      "timestamp": 1789358400
+    },
+    {
+      "time": 1789372800000,
+      "top_account_long_percent": 48.0668,
+      "top_account_short_percent": 51.9332,
+      "top_account_long_short_ratio": 0.925551,
+      "timestamp": 1789372800
+    },
+    {
+      "time": 1789387200000,
+      "top_account_long_percent": 51.9774,
+      "top_account_short_percent": 48.0226,
+      "top_account_long_short_ratio": 1.082353,
+      "timestamp": 1789387200
+    },
+    {
+      "time": 1789401600000,
+      "top_account_long_percent": 46.6264,
+      "top_account_short_percent": 53.3736,
+      "top_account_long_short_ratio": 0.873585,
+      "timestamp": 1789401600
+    },
+    {
+      "time": 1789416000000,
+      "top_account_long_percent": 49.6032,
+      "top_account_short_percent": 50.3968,
+      "top_account_long_short_ratio": 0.984253,
+      "timestamp": 1789416000
+    },
+    {
+      "time": 1789430400000,
+      "top_account_long_percent": 41.9163,
+      "top_account_short_percent": 58.0837,
+      "top_account_long_short_ratio": 0.721653,
+      "timestamp": 1789430400
+    },
+    {
+      "time": 1789444800000,
+      "top_account_long_percent": 49.2911,
+      "top_account_short_percent": 50.7089,
+      "top_account_long_short_ratio": 0.97204,
+      "timestamp": 1789444800
+    },
+    {
+      "time": 1789459200000,
+      "top_account_long_percent": 43.0584,
+      "top_account_short_percent": 56.9416,
+      "top_account_long_short_ratio": 0.756185,
+      "timestamp": 1789459200
+    },
+    {
+      "time": 1789473600000,
+      "top_account_long_percent": 42.7032,
+      "top_account_short_percent": 57.2968,
+      "top_account_long_short_ratio": 0.745299,
+      "timestamp": 1789473600
+    },
+    {
+      "time": 1789488000000,
+      "top_account_long_percent": 47.2012,
+      "top_account_short_percent": 52.7988,
+      "top_account_long_short_ratio": 0.893981,
+      "timestamp": 1789488000
+    },
+    {
+      "time": 1789502400000,
+      "top_account_long_percent": 38.0863,
+      "top_account_short_percent": 61.9137,
+      "top_account_long_short_ratio": 0.615152,
+      "timestamp": 1789502400
+    },
+    {
+      "time": 1789516800000,
+      "top_account_long_percent": 44.3415,
+      "top_account_short_percent": 55.6585,
+      "top_account_long_short_ratio": 0.796672,
+      "timestamp": 1789516800
+    },
+    {
+      "time": 1789531200000,
+      "top_account_long_percent": 46.7927,
+      "top_account_short_percent": 53.2073,
+      "top_account_long_short_ratio": 0.879441,
+      "timestamp": 1789531200
+    },
+    {
+      "time": 1789545600000,
+      "top_account_long_percent": 47.7424,
+      "top_account_short_percent": 52.2576,
+      "top_account_long_short_ratio": 0.913596,
+      "timestamp": 1789545600
+    },
+    {
+      "time": 1789560000000,
+      "top_account_long_percent": 49.5546,
+      "top_account_short_percent": 50.4454,
+      "top_account_long_short_ratio": 0.982341,
+      "timestamp": 1789560000
+    },
+    {
+      "time": 1789574400000,
+      "top_account_long_percent": 43.7694,
+      "top_account_short_percent": 56.2306,
+      "top_account_long_short_ratio": 0.778391,
+      "timestamp": 1789574400
+    },
+    {
+      "time": 1789588800000,
+      "top_account_long_percent": 50.2904,
+      "top_account_short_percent": 49.7096,
+      "top_account_long_short_ratio": 1.011683,
+      "timestamp": 1789588800
+    },
+    {
+      "time": 1789603200000,
+      "top_account_long_percent": 45.7574,
+      "top_account_short_percent": 54.2426,
+      "top_account_long_short_ratio": 0.843569,
+      "timestamp": 1789603200
+    },
+    {
+      "time": 1789617600000,
+      "top_account_long_percent": 48.8864,
+      "top_account_short_percent": 51.1136,
+      "top_account_long_short_ratio": 0.956427,
+      "timestamp": 1789617600
+    },
+    {
+      "time": 1789632000000,
+      "top_account_long_percent": 51.6603,
+      "top_account_short_percent": 48.3397,
+      "top_account_long_short_ratio": 1.068695,
+      "timestamp": 1789632000
+    },
+    {
+      "time": 1789646400000,
+      "top_account_long_percent": 51.9569,
+      "top_account_short_percent": 48.0431,
+      "top_account_long_short_ratio": 1.081466,
+      "timestamp": 1789646400
+    },
+    {
+      "time": 1789660800000,
+      "top_account_long_percent": 49.7636,
+      "top_account_short_percent": 50.2364,
+      "top_account_long_short_ratio": 0.990589,
+      "timestamp": 1789660800
+    },
+    {
+      "time": 1789675200000,
+      "top_account_long_percent": 51.6681,
+      "top_account_short_percent": 48.3319,
+      "top_account_long_short_ratio": 1.069028,
+      "timestamp": 1789675200
+    },
+    {
+      "time": 1789689600000,
+      "top_account_long_percent": 51.6681,
+      "top_account_short_percent": 48.3319,
+      "top_account_long_short_ratio": 1.069028,
+      "timestamp": 1789689600
+    },
+    {
+      "time": 1789704000000,
+      "top_account_long_percent": 46.4288,
+      "top_account_short_percent": 53.5712,
+      "top_account_long_short_ratio": 0.866673,
+      "timestamp": 1789704000
+    },
+    {
+      "time": 1789718400000,
+      "top_account_long_percent": 49.4098,
+      "top_account_short_percent": 50.5902,
+      "top_account_long_short_ratio": 0.976669,
+      "timestamp": 1789718400
+    },
+    {
+      "time": 1789732800000,
+      "top_account_long_percent": 43.947,
+      "top_account_short_percent": 56.053,
+      "top_account_long_short_ratio": 0.784026,
+      "timestamp": 1789732800
+    },
+    {
+      "time": 1789747200000,
+      "top_account_long_percent": 51.6968,
+      "top_account_short_percent": 48.3032,
+      "top_account_long_short_ratio": 1.070257,
+      "timestamp": 1789747200
+    },
+    {
+      "time": 1789761600000,
+      "top_account_long_percent": 50.9537,
+      "top_account_short_percent": 49.0463,
+      "top_account_long_short_ratio": 1.03889,
+      "timestamp": 1789761600
+    },
+    {
+      "time": 1789776000000,
+      "top_account_long_percent": 46.5207,
+      "top_account_short_percent": 53.4793,
+      "top_account_long_short_ratio": 0.869881,
+      "timestamp": 1789776000
+    },
+    {
+      "time": 1789790400000,
+      "top_account_long_percent": 48.711,
+      "top_account_short_percent": 51.289,
+      "top_account_long_short_ratio": 0.949735,
+      "timestamp": 1789790400
+    },
+    {
+      "time": 1789804800000,
+      "top_account_long_percent": 44.7868,
+      "top_account_short_percent": 55.2132,
+      "top_account_long_short_ratio": 0.81116,
+      "timestamp": 1789804800
+    },
+    {
+      "time": 1789819200000,
+      "top_account_long_percent": 37.5541,
+      "top_account_short_percent": 62.4459,
+      "top_account_long_short_ratio": 0.601387,
+      "timestamp": 1789819200
+    },
+    {
+      "time": 1789833600000,
+      "top_account_long_percent": 56.2961,
+      "top_account_short_percent": 43.7039,
+      "top_account_long_short_ratio": 1.288126,
+      "timestamp": 1789833600
+    },
+    {
+      "time": 1789848000000,
+      "top_account_long_percent": 51.2442,
+      "top_account_short_percent": 48.7558,
+      "top_account_long_short_ratio": 1.051037,
+      "timestamp": 1789848000
+    },
+    {
+      "time": 1789862400000,
+      "top_account_long_percent": 44.4242,
+      "top_account_short_percent": 55.5758,
+      "top_account_long_short_ratio": 0.799344,
+      "timestamp": 1789862400
+    },
+    {
+      "time": 1789876800000,
+      "top_account_long_percent": 49.1929,
+      "top_account_short_percent": 50.8071,
+      "top_account_long_short_ratio": 0.968229,
+      "timestamp": 1789876800
+    },
+    {
+      "time": 1789891200000,
+      "top_account_long_percent": 46.2223,
+      "top_account_short_percent": 53.7777,
+      "top_account_long_short_ratio": 0.859507,
+      "timestamp": 1789891200
+    },
+    {
+      "time": 1789905600000,
+      "top_account_long_percent": 40.5507,
+      "top_account_short_percent": 59.4493,
+      "top_account_long_short_ratio": 0.682107,
+      "timestamp": 1789905600
+    },
+    {
+      "time": 1789920000000,
+      "top_account_long_percent": 44.5393,
+      "top_account_short_percent": 55.4607,
+      "top_account_long_short_ratio": 0.803078,
+      "timestamp": 1789920000
+    },
+    {
+      "time": 1789934400000,
+      "top_account_long_percent": 43.7643,
+      "top_account_short_percent": 56.2357,
+      "top_account_long_short_ratio": 0.77823,
+      "timestamp": 1789934400
+    },
+    {
+      "time": 1789948800000,
+      "top_account_long_percent": 49.1757,
+      "top_account_short_percent": 50.8243,
+      "top_account_long_short_ratio": 0.967563,
+      "timestamp": 1789948800
+    },
+    {
+      "time": 1789963200000,
+      "top_account_long_percent": 46.0418,
+      "top_account_short_percent": 53.9582,
+      "top_account_long_short_ratio": 0.853286,
+      "timestamp": 1789963200
+    },
+    {
+      "time": 1789977600000,
+      "top_account_long_percent": 43.8029,
+      "top_account_short_percent": 56.1971,
+      "top_account_long_short_ratio": 0.779451,
+      "timestamp": 1789977600
+    },
+    {
+      "time": 1789992000000,
+      "top_account_long_percent": 53.3044,
+      "top_account_short_percent": 46.6956,
+      "top_account_long_short_ratio": 1.141529,
+      "timestamp": 1789992000
+    },
+    {
+      "time": 1790006400000,
+      "top_account_long_percent": 44.5784,
+      "top_account_short_percent": 55.4216,
+      "top_account_long_short_ratio": 0.804349,
+      "timestamp": 1790006400
+    },
+    {
+      "time": 1790020800000,
+      "top_account_long_percent": 45.925,
+      "top_account_short_percent": 54.075,
+      "top_account_long_short_ratio": 0.849285,
+      "timestamp": 1790020800
+    },
+    {
+      "time": 1790035200000,
+      "top_account_long_percent": 50.8814,
+      "top_account_short_percent": 49.1186,
+      "top_account_long_short_ratio": 1.035889,
+      "timestamp": 1790035200
+    },
+    {
+      "time": 1790049600000,
+      "top_account_long_percent": 45.4143,
+      "top_account_short_percent": 54.5857,
+      "top_account_long_short_ratio": 0.831983,
+      "timestamp": 1790049600
+    },
+    {
+      "time": 1790064000000,
+      "top_account_long_percent": 52.845,
+      "top_account_short_percent": 47.155,
+      "top_account_long_short_ratio": 1.120667,
+      "timestamp": 1790064000
+    },
+    {
+      "time": 1790078400000,
+      "top_account_long_percent": 49.5937,
+      "top_account_short_percent": 50.4063,
+      "top_account_long_short_ratio": 0.983877,
+      "timestamp": 1790078400
+    },
+    {
+      "time": 1790092800000,
+      "top_account_long_percent": 47.6607,
+      "top_account_short_percent": 52.3393,
+      "top_account_long_short_ratio": 0.910611,
+      "timestamp": 1790092800
+    },
+    {
+      "time": 1790107200000,
+      "top_account_long_percent": 42.6062,
+      "top_account_short_percent": 57.3938,
+      "top_account_long_short_ratio": 0.742348,
+      "timestamp": 1790107200
+    },
+    {
+      "time": 1790121600000,
+      "top_account_long_percent": 44.232,
+      "top_account_short_percent": 55.768,
+      "top_account_long_short_ratio": 0.793143,
+      "timestamp": 1790121600
+    },
+    {
+      "time": 1790136000000,
+      "top_account_long_percent": 39.7987,
+      "top_account_short_percent": 60.2013,
+      "top_account_long_short_ratio": 0.661093,
+      "timestamp": 1790136000
+    },
+    {
+      "time": 1790150400000,
+      "top_account_long_percent": 39.1895,
+      "top_account_short_percent": 60.8105,
+      "top_account_long_short_ratio": 0.644453,
+      "timestamp": 1790150400
+    },
+    {
+      "time": 1790164800000,
+      "top_account_long_percent": 53.4811,
+      "top_account_short_percent": 46.5189,
+      "top_account_long_short_ratio": 1.149666,
+      "timestamp": 1790164800
+    },
+    {
+      "time": 1790179200000,
+      "top_account_long_percent": 45.8999,
+      "top_account_short_percent": 54.1001,
+      "top_account_long_short_ratio": 0.848425,
+      "timestamp": 1790179200
+    },
+    {
+      "time": 1790193600000,
+      "top_account_long_percent": 62.3934,
+      "top_account_short_percent": 37.6066,
+      "top_account_long_short_ratio": 1.659105,
+      "timestamp": 1790193600
+    },
+    {
+      "time": 1790208000000,
+      "top_account_long_percent": 49.0613,
+      "top_account_short_percent": 50.9387,
+      "top_account_long_short_ratio": 0.963143,
+      "timestamp": 1790208000
+    },
+    {
+      "time": 1790222400000,
+      "top_account_long_percent": 54.9252,
+      "top_account_short_percent": 45.0748,
+      "top_account_long_short_ratio": 1.218535,
+      "timestamp": 1790222400
+    },
+    {
+      "time": 1790236800000,
+      "top_account_long_percent": 51.1013,
+      "top_account_short_percent": 48.8987,
+      "top_account_long_short_ratio": 1.045045,
+      "timestamp": 1790236800
+    },
+    {
+      "time": 1790251200000,
+      "top_account_long_percent": 54.4436,
+      "top_account_short_percent": 45.5564,
+      "top_account_long_short_ratio": 1.195083,
+      "timestamp": 1790251200
+    },
+    {
+      "time": 1790265600000,
+      "top_account_long_percent": 47.4433,
+      "top_account_short_percent": 52.5567,
+      "top_account_long_short_ratio": 0.902708,
+      "timestamp": 1790265600
+    },
+    {
+      "time": 1790280000000,
+      "top_account_long_percent": 51.7203,
+      "top_account_short_percent": 48.2797,
+      "top_account_long_short_ratio": 1.071264,
+      "timestamp": 1790280000
+    },
+    {
+      "time": 1790294400000,
+      "top_account_long_percent": 48.3696,
+      "top_account_short_percent": 51.6304,
+      "top_account_long_short_ratio": 0.936842,
+      "timestamp": 1790294400
+    },
+    {
+      "time": 1790308800000,
+      "top_account_long_percent": 46.4038,
+      "top_account_short_percent": 53.5962,
+      "top_account_long_short_ratio": 0.865803,
+      "timestamp": 1790308800
+    },
+    {
+      "time": 1790323200000,
+      "top_account_long_percent": 49.9272,
+      "top_account_short_percent": 50.0728,
+      "top_account_long_short_ratio": 0.997091,
+      "timestamp": 1790323200
+    },
+    {
+      "time": 1790337600000,
+      "top_account_long_percent": 47.6202,
+      "top_account_short_percent": 52.3798,
+      "top_account_long_short_ratio": 0.909134,
+      "timestamp": 1790337600
+    },
+    {
+      "time": 1790352000000,
+      "top_account_long_percent": 53.9208,
+      "top_account_short_percent": 46.0792,
+      "top_account_long_short_ratio": 1.170177,
+      "timestamp": 1790352000
+    },
+    {
+      "time": 1790366400000,
+      "top_account_long_percent": 52.1581,
+      "top_account_short_percent": 47.8419,
+      "top_account_long_short_ratio": 1.090216,
+      "timestamp": 1790366400
+    },
+    {
+      "time": 1790380800000,
+      "top_account_long_percent": 46.2875,
+      "top_account_short_percent": 53.7125,
+      "top_account_long_short_ratio": 0.861763,
+      "timestamp": 1790380800
+    },
+    {
+      "time": 1790395200000,
+      "top_account_long_percent": 57.1243,
+      "top_account_short_percent": 42.8757,
+      "top_account_long_short_ratio": 1.332323,
+      "timestamp": 1790395200
+    },
+    {
+      "time": 1790409600000,
+      "top_account_long_percent": 54.7298,
+      "top_account_short_percent": 45.2702,
+      "top_account_long_short_ratio": 1.208958,
+      "timestamp": 1790409600
+    },
+    {
+      "time": 1790424000000,
+      "top_account_long_percent": 41.0219,
+      "top_account_short_percent": 58.9781,
+      "top_account_long_short_ratio": 0.695545,
+      "timestamp": 1790424000
+    },
+    {
+      "time": 1790438400000,
+      "top_account_long_percent": 45.372,
+      "top_account_short_percent": 54.628,
+      "top_account_long_short_ratio": 0.830564,
+      "timestamp": 1790438400
+    },
+    {
+      "time": 1790452800000,
+      "top_account_long_percent": 49.6351,
+      "top_account_short_percent": 50.3649,
+      "top_account_long_short_ratio": 0.985511,
+      "timestamp": 1790452800
+    },
+    {
+      "time": 1790467200000,
+      "top_account_long_percent": 56.7493,
+      "top_account_short_percent": 43.2507,
+      "top_account_long_short_ratio": 1.312103,
+      "timestamp": 1790467200
+    },
+    {
+      "time": 1790481600000,
+      "top_account_long_percent": 55.7215,
+      "top_account_short_percent": 44.2785,
+      "top_account_long_short_ratio": 1.258435,
+      "timestamp": 1790481600
+    },
+    {
+      "time": 1790496000000,
+      "top_account_long_percent": 48.7194,
+      "top_account_short_percent": 51.2806,
+      "top_account_long_short_ratio": 0.950056,
+      "timestamp": 1790496000
+    },
+    {
+      "time": 1790510400000,
+      "top_account_long_percent": 49.1644,
+      "top_account_short_percent": 50.8356,
+      "top_account_long_short_ratio": 0.967125,
+      "timestamp": 1790510400
+    },
+    {
+      "time": 1790524800000,
+      "top_account_long_percent": 53.081,
+      "top_account_short_percent": 46.919,
+      "top_account_long_short_ratio": 1.131333,
+      "timestamp": 1790524800
+    },
+    {
+      "time": 1790539200000,
+      "top_account_long_percent": 51.6771,
+      "top_account_short_percent": 48.3229,
+      "top_account_long_short_ratio": 1.069412,
+      "timestamp": 1790539200
+    },
+    {
+      "time": 1790553600000,
+      "top_account_long_percent": 51.8427,
+      "top_account_short_percent": 48.1573,
+      "top_account_long_short_ratio": 1.076527,
+      "timestamp": 1790553600
+    },
+    {
+      "time": 1790568000000,
+      "top_account_long_percent": 43.8609,
+      "top_account_short_percent": 56.1391,
+      "top_account_long_short_ratio": 0.78129,
+      "timestamp": 1790568000
+    },
+    {
+      "time": 1790582400000,
+      "top_account_long_percent": 50.08,
+      "top_account_short_percent": 49.92,
+      "top_account_long_short_ratio": 1.003205,
+      "timestamp": 1790582400
+    },
+    {
+      "time": 1790596800000,
+      "top_account_long_percent": 57.2595,
+      "top_account_short_percent": 42.7405,
+      "top_account_long_short_ratio": 1.339701,
+      "timestamp": 1790596800
+    },
+    {
+      "time": 1790611200000,
+      "top_account_long_percent": 45.153,
+      "top_account_short_percent": 54.847,
+      "top_account_long_short_ratio": 0.823253,
+      "timestamp": 1790611200
+    },
+    {
+      "time": 1790625600000,
+      "top_account_long_percent": 57.9173,
+      "top_account_short_percent": 42.0827,
+      "top_account_long_short_ratio": 1.376273,
+      "timestamp": 1790625600
+    },
+    {
+      "time": 1790640000000,
+      "top_account_long_percent": 52.2704,
+      "top_account_short_percent": 47.7296,
+      "top_account_long_short_ratio": 1.095134,
+      "timestamp": 1790640000
+    },
+    {
+      "time": 1790654400000,
+      "top_account_long_percent": 50.8976,
+      "top_account_short_percent": 49.1024,
+      "top_account_long_short_ratio": 1.036559,
+      "timestamp": 1790654400
+    },
+    {
+      "time": 1790668800000,
+      "top_account_long_percent": 55.9899,
+      "top_account_short_percent": 44.0101,
+      "top_account_long_short_ratio": 1.272208,
+      "timestamp": 1790668800
+    },
+    {
+      "time": 1790683200000,
+      "top_account_long_percent": 53.8645,
+      "top_account_short_percent": 46.1355,
+      "top_account_long_short_ratio": 1.167529,
+      "timestamp": 1790683200
+    },
+    {
+      "time": 1790697600000,
+      "top_account_long_percent": 52.487,
+      "top_account_short_percent": 47.513,
+      "top_account_long_short_ratio": 1.104687,
+      "timestamp": 1790697600
+    },
+    {
+      "time": 1790712000000,
+      "top_account_long_percent": 50.9117,
+      "top_account_short_percent": 49.0883,
+      "top_account_long_short_ratio": 1.037146,
+      "timestamp": 1790712000
+    },
+    {
+      "time": 1790726400000,
+      "top_account_long_percent": 51.8461,
+      "top_account_short_percent": 48.1539,
+      "top_account_long_short_ratio": 1.076676,
+      "timestamp": 1790726400
+    },
+    {
+      "time": 1790740800000,
+      "top_account_long_percent": 52.2309,
+      "top_account_short_percent": 47.7691,
+      "top_account_long_short_ratio": 1.093402,
+      "timestamp": 1790740800
+    },
+    {
+      "time": 1790755200000,
+      "top_account_long_percent": 64.3909,
+      "top_account_short_percent": 35.6091,
+      "top_account_long_short_ratio": 1.808269,
+      "timestamp": 1790755200
+    },
+    {
+      "time": 1790769600000,
+      "top_account_long_percent": 50.9566,
+      "top_account_short_percent": 49.0434,
+      "top_account_long_short_ratio": 1.03901,
+      "timestamp": 1790769600
+    },
+    {
+      "time": 1790784000000,
+      "top_account_long_percent": 53.0257,
+      "top_account_short_percent": 46.9743,
+      "top_account_long_short_ratio": 1.128824,
+      "timestamp": 1790784000
+    },
+    {
+      "time": 1790798400000,
+      "top_account_long_percent": 57.714,
+      "top_account_short_percent": 42.286,
+      "top_account_long_short_ratio": 1.364848,
+      "timestamp": 1790798400
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "coinglass_sentiment_positioning_top_account_long_short_ratio",
+    "path": "/api/futures/top-long-short-account-ratio/history",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/coinglass/extracted_raw/20260704T154952Z/sentiment_positioning/top_account_long_short_ratio/4h_raw.json",
+    "raw_shape": "code_msg_data_list_top_account_ratio",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

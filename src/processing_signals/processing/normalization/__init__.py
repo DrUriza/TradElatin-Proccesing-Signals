@@ -1,3 +1,3 @@
-from processing_signals.processing.normalization.normalizer import Normalizer
+from processing_signals.processing.normalization.processing_normalization import ProcessingNormalization
 
-__all__ = ["Normalizer"]
+__all__ = ["ProcessingNormalization"]

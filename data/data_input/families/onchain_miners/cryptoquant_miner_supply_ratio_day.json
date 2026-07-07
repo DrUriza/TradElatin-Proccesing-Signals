@@ -1,0 +1,1855 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "onchain_miners",
+  "subtype": "miner_supply_ratio",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "day",
+  "extraction_window": null,
+  "records": [
+    {
+      "date": "2026-06-23",
+      "miner_supply_ratio": 0.09330229,
+      "timestamp": 1782194400
+    },
+    {
+      "date": "2026-06-24",
+      "miner_supply_ratio": 0.09218826,
+      "timestamp": 1782280800
+    },
+    {
+      "date": "2026-06-25",
+      "miner_supply_ratio": 0.0885577,
+      "timestamp": 1782367200
+    },
+    {
+      "date": "2026-06-26",
+      "miner_supply_ratio": 0.10396881,
+      "timestamp": 1782453600
+    },
+    {
+      "date": "2026-06-27",
+      "miner_supply_ratio": 0.0975075,
+      "timestamp": 1782540000
+    },
+    {
+      "date": "2026-06-28",
+      "miner_supply_ratio": 0.08297199,
+      "timestamp": 1782626400
+    },
+    {
+      "date": "2026-06-29",
+      "miner_supply_ratio": 0.10142223,
+      "timestamp": 1782712800
+    },
+    {
+      "date": "2026-06-30",
+      "miner_supply_ratio": 0.11177644,
+      "timestamp": 1782799200
+    },
+    {
+      "date": "2026-07-01",
+      "miner_supply_ratio": 0.08113979,
+      "timestamp": 1782885600
+    },
+    {
+      "date": "2026-07-02",
+      "miner_supply_ratio": 0.10189004,
+      "timestamp": 1782972000
+    },
+    {
+      "date": "2026-07-03",
+      "miner_supply_ratio": 0.09682662,
+      "timestamp": 1783058400
+    },
+    {
+      "date": "2026-07-04",
+      "miner_supply_ratio": 0.09942347,
+      "timestamp": 1783144800
+    },
+    {
+      "date": "2026-07-05",
+      "miner_supply_ratio": 0.1046416,
+      "timestamp": 1783231200
+    },
+    {
+      "date": "2026-07-06",
+      "miner_supply_ratio": 0.08327303,
+      "timestamp": 1783317600
+    },
+    {
+      "date": "2026-07-07",
+      "miner_supply_ratio": 0.09219889,
+      "timestamp": 1783404000
+    },
+    {
+      "date": "2026-07-08",
+      "miner_supply_ratio": 0.10009033,
+      "timestamp": 1783490400
+    },
+    {
+      "date": "2026-07-09",
+      "miner_supply_ratio": 0.10208133,
+      "timestamp": 1783576800
+    },
+    {
+      "date": "2026-07-10",
+      "miner_supply_ratio": 0.08952845,
+      "timestamp": 1783663200
+    },
+    {
+      "date": "2026-07-11",
+      "miner_supply_ratio": 0.08751379,
+      "timestamp": 1783749600
+    },
+    {
+      "date": "2026-07-12",
+      "miner_supply_ratio": 0.09155028,
+      "timestamp": 1783836000
+    },
+    {
+      "date": "2026-07-13",
+      "miner_supply_ratio": 0.09186255,
+      "timestamp": 1783922400
+    },
+    {
+      "date": "2026-07-14",
+      "miner_supply_ratio": 0.09408906,
+      "timestamp": 1784008800
+    },
+    {
+      "date": "2026-07-15",
+      "miner_supply_ratio": 0.09454532,
+      "timestamp": 1784095200
+    },
+    {
+      "date": "2026-07-16",
+      "miner_supply_ratio": 0.10783673,
+      "timestamp": 1784181600
+    },
+    {
+      "date": "2026-07-17",
+      "miner_supply_ratio": 0.10425171,
+      "timestamp": 1784268000
+    },
+    {
+      "date": "2026-07-18",
+      "miner_supply_ratio": 0.10030183,
+      "timestamp": 1784354400
+    },
+    {
+      "date": "2026-07-19",
+      "miner_supply_ratio": 0.11020264,
+      "timestamp": 1784440800
+    },
+    {
+      "date": "2026-07-20",
+      "miner_supply_ratio": 0.09342232,
+      "timestamp": 1784527200
+    },
+    {
+      "date": "2026-07-21",
+      "miner_supply_ratio": 0.09987508,
+      "timestamp": 1784613600
+    },
+    {
+      "date": "2026-07-22",
+      "miner_supply_ratio": 0.10097582,
+      "timestamp": 1784700000
+    },
+    {
+      "date": "2026-07-23",
+      "miner_supply_ratio": 0.08564772,
+      "timestamp": 1784786400
+    },
+    {
+      "date": "2026-07-24",
+      "miner_supply_ratio": 0.08623438,
+      "timestamp": 1784872800
+    },
+    {
+      "date": "2026-07-25",
+      "miner_supply_ratio": 0.08695906,
+      "timestamp": 1784959200
+    },
+    {
+      "date": "2026-07-26",
+      "miner_supply_ratio": 0.09544377,
+      "timestamp": 1785045600
+    },
+    {
+      "date": "2026-07-27",
+      "miner_supply_ratio": 0.09177145,
+      "timestamp": 1785132000
+    },
+    {
+      "date": "2026-07-28",
+      "miner_supply_ratio": 0.09221043,
+      "timestamp": 1785218400
+    },
+    {
+      "date": "2026-07-29",
+      "miner_supply_ratio": 0.1003731,
+      "timestamp": 1785304800
+    },
+    {
+      "date": "2026-07-30",
+      "miner_supply_ratio": 0.09855277,
+      "timestamp": 1785391200
+    },
+    {
+      "date": "2026-07-31",
+      "miner_supply_ratio": 0.09876161,
+      "timestamp": 1785477600
+    },
+    {
+      "date": "2026-08-01",
+      "miner_supply_ratio": 0.09514494,
+      "timestamp": 1785564000
+    },
+    {
+      "date": "2026-08-02",
+      "miner_supply_ratio": 0.08451773,
+      "timestamp": 1785650400
+    },
+    {
+      "date": "2026-08-03",
+      "miner_supply_ratio": 0.09166255,
+      "timestamp": 1785736800
+    },
+    {
+      "date": "2026-08-04",
+      "miner_supply_ratio": 0.09498387,
+      "timestamp": 1785823200
+    },
+    {
+      "date": "2026-08-05",
+      "miner_supply_ratio": 0.09649165,
+      "timestamp": 1785909600
+    },
+    {
+      "date": "2026-08-06",
+      "miner_supply_ratio": 0.09342011,
+      "timestamp": 1785996000
+    },
+    {
+      "date": "2026-08-07",
+      "miner_supply_ratio": 0.08984442,
+      "timestamp": 1786082400
+    },
+    {
+      "date": "2026-08-08",
+      "miner_supply_ratio": 0.10212002,
+      "timestamp": 1786168800
+    },
+    {
+      "date": "2026-08-09",
+      "miner_supply_ratio": 0.09480721,
+      "timestamp": 1786255200
+    },
+    {
+      "date": "2026-08-10",
+      "miner_supply_ratio": 0.08724428,
+      "timestamp": 1786341600
+    },
+    {
+      "date": "2026-08-11",
+      "miner_supply_ratio": 0.08889506,
+      "timestamp": 1786428000
+    },
+    {
+      "date": "2026-08-12",
+      "miner_supply_ratio": 0.090548,
+      "timestamp": 1786514400
+    },
+    {
+      "date": "2026-08-13",
+      "miner_supply_ratio": 0.10047373,
+      "timestamp": 1786600800
+    },
+    {
+      "date": "2026-08-14",
+      "miner_supply_ratio": 0.09676425,
+      "timestamp": 1786687200
+    },
+    {
+      "date": "2026-08-15",
+      "miner_supply_ratio": 0.09365316,
+      "timestamp": 1786773600
+    },
+    {
+      "date": "2026-08-16",
+      "miner_supply_ratio": 0.09942267,
+      "timestamp": 1786860000
+    },
+    {
+      "date": "2026-08-17",
+      "miner_supply_ratio": 0.09299041,
+      "timestamp": 1786946400
+    },
+    {
+      "date": "2026-08-18",
+      "miner_supply_ratio": 0.09796071,
+      "timestamp": 1787032800
+    },
+    {
+      "date": "2026-08-19",
+      "miner_supply_ratio": 0.0982619,
+      "timestamp": 1787119200
+    },
+    {
+      "date": "2026-08-20",
+      "miner_supply_ratio": 0.0949407,
+      "timestamp": 1787205600
+    },
+    {
+      "date": "2026-08-21",
+      "miner_supply_ratio": 0.10426856,
+      "timestamp": 1787292000
+    },
+    {
+      "date": "2026-08-22",
+      "miner_supply_ratio": 0.09779082,
+      "timestamp": 1787378400
+    },
+    {
+      "date": "2026-08-23",
+      "miner_supply_ratio": 0.09278835,
+      "timestamp": 1787464800
+    },
+    {
+      "date": "2026-08-24",
+      "miner_supply_ratio": 0.09230694,
+      "timestamp": 1787551200
+    },
+    {
+      "date": "2026-08-25",
+      "miner_supply_ratio": 0.08790958,
+      "timestamp": 1787637600
+    },
+    {
+      "date": "2026-08-26",
+      "miner_supply_ratio": 0.09346541,
+      "timestamp": 1787724000
+    },
+    {
+      "date": "2026-08-27",
+      "miner_supply_ratio": 0.0988903,
+      "timestamp": 1787810400
+    },
+    {
+      "date": "2026-08-28",
+      "miner_supply_ratio": 0.08869686,
+      "timestamp": 1787896800
+    },
+    {
+      "date": "2026-08-29",
+      "miner_supply_ratio": 0.09680087,
+      "timestamp": 1787983200
+    },
+    {
+      "date": "2026-08-30",
+      "miner_supply_ratio": 0.10473274,
+      "timestamp": 1788069600
+    },
+    {
+      "date": "2026-08-31",
+      "miner_supply_ratio": 0.09177184,
+      "timestamp": 1788156000
+    },
+    {
+      "date": "2026-09-01",
+      "miner_supply_ratio": 0.09450159,
+      "timestamp": 1788242400
+    },
+    {
+      "date": "2026-09-02",
+      "miner_supply_ratio": 0.0920784,
+      "timestamp": 1788328800
+    },
+    {
+      "date": "2026-09-03",
+      "miner_supply_ratio": 0.08548175,
+      "timestamp": 1788415200
+    },
+    {
+      "date": "2026-09-04",
+      "miner_supply_ratio": 0.09140229,
+      "timestamp": 1788501600
+    },
+    {
+      "date": "2026-09-05",
+      "miner_supply_ratio": 0.09931887,
+      "timestamp": 1788588000
+    },
+    {
+      "date": "2026-09-06",
+      "miner_supply_ratio": 0.09399554,
+      "timestamp": 1788674400
+    },
+    {
+      "date": "2026-09-07",
+      "miner_supply_ratio": 0.09320731,
+      "timestamp": 1788760800
+    },
+    {
+      "date": "2026-09-08",
+      "miner_supply_ratio": 0.1006328,
+      "timestamp": 1788847200
+    },
+    {
+      "date": "2026-09-09",
+      "miner_supply_ratio": 0.09662104,
+      "timestamp": 1788933600
+    },
+    {
+      "date": "2026-09-10",
+      "miner_supply_ratio": 0.09223974,
+      "timestamp": 1789020000
+    },
+    {
+      "date": "2026-09-11",
+      "miner_supply_ratio": 0.0998709,
+      "timestamp": 1789106400
+    },
+    {
+      "date": "2026-09-12",
+      "miner_supply_ratio": 0.09302732,
+      "timestamp": 1789192800
+    },
+    {
+      "date": "2026-09-13",
+      "miner_supply_ratio": 0.0948487,
+      "timestamp": 1789279200
+    },
+    {
+      "date": "2026-09-14",
+      "miner_supply_ratio": 0.09363034,
+      "timestamp": 1789365600
+    },
+    {
+      "date": "2026-09-15",
+      "miner_supply_ratio": 0.09121738,
+      "timestamp": 1789452000
+    },
+    {
+      "date": "2026-09-16",
+      "miner_supply_ratio": 0.08647022,
+      "timestamp": 1789538400
+    },
+    {
+      "date": "2026-09-17",
+      "miner_supply_ratio": 0.10137194,
+      "timestamp": 1789624800
+    },
+    {
+      "date": "2026-09-18",
+      "miner_supply_ratio": 0.09712087,
+      "timestamp": 1789711200
+    },
+    {
+      "date": "2026-09-19",
+      "miner_supply_ratio": 0.09686013,
+      "timestamp": 1789797600
+    },
+    {
+      "date": "2026-09-20",
+      "miner_supply_ratio": 0.09571527,
+      "timestamp": 1789884000
+    },
+    {
+      "date": "2026-09-21",
+      "miner_supply_ratio": 0.08582845,
+      "timestamp": 1789970400
+    },
+    {
+      "date": "2026-09-22",
+      "miner_supply_ratio": 0.10600816,
+      "timestamp": 1790056800
+    },
+    {
+      "date": "2026-09-23",
+      "miner_supply_ratio": 0.10020159,
+      "timestamp": 1790143200
+    },
+    {
+      "date": "2026-09-24",
+      "miner_supply_ratio": 0.09909219,
+      "timestamp": 1790229600
+    },
+    {
+      "date": "2026-09-25",
+      "miner_supply_ratio": 0.09480709,
+      "timestamp": 1790316000
+    },
+    {
+      "date": "2026-09-26",
+      "miner_supply_ratio": 0.08766535,
+      "timestamp": 1790402400
+    },
+    {
+      "date": "2026-09-27",
+      "miner_supply_ratio": 0.09810251,
+      "timestamp": 1790488800
+    },
+    {
+      "date": "2026-09-28",
+      "miner_supply_ratio": 0.10196444,
+      "timestamp": 1790575200
+    },
+    {
+      "date": "2026-09-29",
+      "miner_supply_ratio": 0.08955973,
+      "timestamp": 1790661600
+    },
+    {
+      "date": "2026-09-30",
+      "miner_supply_ratio": 0.09575973,
+      "timestamp": 1790748000
+    },
+    {
+      "date": "2026-10-01",
+      "miner_supply_ratio": 0.0968324,
+      "timestamp": 1790834400
+    },
+    {
+      "date": "2026-10-02",
+      "miner_supply_ratio": 0.08878866,
+      "timestamp": 1790920800
+    },
+    {
+      "date": "2026-10-03",
+      "miner_supply_ratio": 0.09953024,
+      "timestamp": 1791007200
+    },
+    {
+      "date": "2026-10-04",
+      "miner_supply_ratio": 0.09220477,
+      "timestamp": 1791093600
+    },
+    {
+      "date": "2026-10-05",
+      "miner_supply_ratio": 0.1023123,
+      "timestamp": 1791180000
+    },
+    {
+      "date": "2026-10-06",
+      "miner_supply_ratio": 0.08880626,
+      "timestamp": 1791266400
+    },
+    {
+      "date": "2026-10-07",
+      "miner_supply_ratio": 0.09631188,
+      "timestamp": 1791352800
+    },
+    {
+      "date": "2026-10-08",
+      "miner_supply_ratio": 0.10612243,
+      "timestamp": 1791439200
+    },
+    {
+      "date": "2026-10-09",
+      "miner_supply_ratio": 0.09091604,
+      "timestamp": 1791525600
+    },
+    {
+      "date": "2026-10-10",
+      "miner_supply_ratio": 0.09252176,
+      "timestamp": 1791612000
+    },
+    {
+      "date": "2026-10-11",
+      "miner_supply_ratio": 0.08991276,
+      "timestamp": 1791698400
+    },
+    {
+      "date": "2026-10-12",
+      "miner_supply_ratio": 0.09089064,
+      "timestamp": 1791784800
+    },
+    {
+      "date": "2026-10-13",
+      "miner_supply_ratio": 0.09935876,
+      "timestamp": 1791871200
+    },
+    {
+      "date": "2026-10-14",
+      "miner_supply_ratio": 0.08738271,
+      "timestamp": 1791957600
+    },
+    {
+      "date": "2026-10-15",
+      "miner_supply_ratio": 0.09535682,
+      "timestamp": 1792044000
+    },
+    {
+      "date": "2026-10-16",
+      "miner_supply_ratio": 0.09466762,
+      "timestamp": 1792130400
+    },
+    {
+      "date": "2026-10-17",
+      "miner_supply_ratio": 0.10276664,
+      "timestamp": 1792216800
+    },
+    {
+      "date": "2026-10-18",
+      "miner_supply_ratio": 0.09517201,
+      "timestamp": 1792303200
+    },
+    {
+      "date": "2026-10-19",
+      "miner_supply_ratio": 0.0983342,
+      "timestamp": 1792389600
+    },
+    {
+      "date": "2026-10-20",
+      "miner_supply_ratio": 0.08943445,
+      "timestamp": 1792476000
+    },
+    {
+      "date": "2026-10-21",
+      "miner_supply_ratio": 0.10340936,
+      "timestamp": 1792562400
+    },
+    {
+      "date": "2026-10-22",
+      "miner_supply_ratio": 0.10622659,
+      "timestamp": 1792648800
+    },
+    {
+      "date": "2026-10-23",
+      "miner_supply_ratio": 0.0896726,
+      "timestamp": 1792735200
+    },
+    {
+      "date": "2026-10-24",
+      "miner_supply_ratio": 0.09626799,
+      "timestamp": 1792821600
+    },
+    {
+      "date": "2026-10-25",
+      "miner_supply_ratio": 0.10005434,
+      "timestamp": 1792908000
+    },
+    {
+      "date": "2026-10-26",
+      "miner_supply_ratio": 0.09272983,
+      "timestamp": 1792994400
+    },
+    {
+      "date": "2026-10-27",
+      "miner_supply_ratio": 0.08825321,
+      "timestamp": 1793080800
+    },
+    {
+      "date": "2026-10-28",
+      "miner_supply_ratio": 0.10468681,
+      "timestamp": 1793167200
+    },
+    {
+      "date": "2026-10-29",
+      "miner_supply_ratio": 0.10432611,
+      "timestamp": 1793253600
+    },
+    {
+      "date": "2026-10-30",
+      "miner_supply_ratio": 0.09340151,
+      "timestamp": 1793340000
+    },
+    {
+      "date": "2026-10-31",
+      "miner_supply_ratio": 0.08877209,
+      "timestamp": 1793426400
+    },
+    {
+      "date": "2026-11-01",
+      "miner_supply_ratio": 0.09193488,
+      "timestamp": 1793512800
+    },
+    {
+      "date": "2026-11-02",
+      "miner_supply_ratio": 0.09487593,
+      "timestamp": 1793599200
+    },
+    {
+      "date": "2026-11-03",
+      "miner_supply_ratio": 0.09909668,
+      "timestamp": 1793685600
+    },
+    {
+      "date": "2026-11-04",
+      "miner_supply_ratio": 0.09332454,
+      "timestamp": 1793772000
+    },
+    {
+      "date": "2026-11-05",
+      "miner_supply_ratio": 0.10589308,
+      "timestamp": 1793858400
+    },
+    {
+      "date": "2026-11-06",
+      "miner_supply_ratio": 0.0920111,
+      "timestamp": 1793944800
+    },
+    {
+      "date": "2026-11-07",
+      "miner_supply_ratio": 0.08987678,
+      "timestamp": 1794031200
+    },
+    {
+      "date": "2026-11-08",
+      "miner_supply_ratio": 0.10550539,
+      "timestamp": 1794117600
+    },
+    {
+      "date": "2026-11-09",
+      "miner_supply_ratio": 0.09156409,
+      "timestamp": 1794204000
+    },
+    {
+      "date": "2026-11-10",
+      "miner_supply_ratio": 0.10449657,
+      "timestamp": 1794290400
+    },
+    {
+      "date": "2026-11-11",
+      "miner_supply_ratio": 0.08132536,
+      "timestamp": 1794376800
+    },
+    {
+      "date": "2026-11-12",
+      "miner_supply_ratio": 0.10047643,
+      "timestamp": 1794463200
+    },
+    {
+      "date": "2026-11-13",
+      "miner_supply_ratio": 0.09912602,
+      "timestamp": 1794549600
+    },
+    {
+      "date": "2026-11-14",
+      "miner_supply_ratio": 0.10207382,
+      "timestamp": 1794636000
+    },
+    {
+      "date": "2026-11-15",
+      "miner_supply_ratio": 0.10143196,
+      "timestamp": 1794722400
+    },
+    {
+      "date": "2026-11-16",
+      "miner_supply_ratio": 0.09535295,
+      "timestamp": 1794808800
+    },
+    {
+      "date": "2026-11-17",
+      "miner_supply_ratio": 0.09345749,
+      "timestamp": 1794895200
+    },
+    {
+      "date": "2026-11-18",
+      "miner_supply_ratio": 0.08311813,
+      "timestamp": 1794981600
+    },
+    {
+      "date": "2026-11-19",
+      "miner_supply_ratio": 0.0958447,
+      "timestamp": 1795068000
+    },
+    {
+      "date": "2026-11-20",
+      "miner_supply_ratio": 0.09439613,
+      "timestamp": 1795154400
+    },
+    {
+      "date": "2026-11-21",
+      "miner_supply_ratio": 0.09113169,
+      "timestamp": 1795240800
+    },
+    {
+      "date": "2026-11-22",
+      "miner_supply_ratio": 0.09367405,
+      "timestamp": 1795327200
+    },
+    {
+      "date": "2026-11-23",
+      "miner_supply_ratio": 0.09539057,
+      "timestamp": 1795413600
+    },
+    {
+      "date": "2026-11-24",
+      "miner_supply_ratio": 0.07929041,
+      "timestamp": 1795500000
+    },
+    {
+      "date": "2026-11-25",
+      "miner_supply_ratio": 0.09822865,
+      "timestamp": 1795586400
+    },
+    {
+      "date": "2026-11-26",
+      "miner_supply_ratio": 0.10412921,
+      "timestamp": 1795672800
+    },
+    {
+      "date": "2026-11-27",
+      "miner_supply_ratio": 0.09519772,
+      "timestamp": 1795759200
+    },
+    {
+      "date": "2026-11-28",
+      "miner_supply_ratio": 0.09286092,
+      "timestamp": 1795845600
+    },
+    {
+      "date": "2026-11-29",
+      "miner_supply_ratio": 0.09587854,
+      "timestamp": 1795932000
+    },
+    {
+      "date": "2026-11-30",
+      "miner_supply_ratio": 0.09597337,
+      "timestamp": 1796018400
+    },
+    {
+      "date": "2026-12-01",
+      "miner_supply_ratio": 0.10461885,
+      "timestamp": 1796104800
+    },
+    {
+      "date": "2026-12-02",
+      "miner_supply_ratio": 0.09703687,
+      "timestamp": 1796191200
+    },
+    {
+      "date": "2026-12-03",
+      "miner_supply_ratio": 0.09325007,
+      "timestamp": 1796277600
+    },
+    {
+      "date": "2026-12-04",
+      "miner_supply_ratio": 0.09279889,
+      "timestamp": 1796364000
+    },
+    {
+      "date": "2026-12-05",
+      "miner_supply_ratio": 0.09069383,
+      "timestamp": 1796450400
+    },
+    {
+      "date": "2026-12-06",
+      "miner_supply_ratio": 0.09695646,
+      "timestamp": 1796536800
+    },
+    {
+      "date": "2026-12-07",
+      "miner_supply_ratio": 0.10051871,
+      "timestamp": 1796623200
+    },
+    {
+      "date": "2026-12-08",
+      "miner_supply_ratio": 0.1019048,
+      "timestamp": 1796709600
+    },
+    {
+      "date": "2026-12-09",
+      "miner_supply_ratio": 0.09668171,
+      "timestamp": 1796796000
+    },
+    {
+      "date": "2026-12-10",
+      "miner_supply_ratio": 0.08726184,
+      "timestamp": 1796882400
+    },
+    {
+      "date": "2026-12-11",
+      "miner_supply_ratio": 0.09320639,
+      "timestamp": 1796968800
+    },
+    {
+      "date": "2026-12-12",
+      "miner_supply_ratio": 0.09688852,
+      "timestamp": 1797055200
+    },
+    {
+      "date": "2026-12-13",
+      "miner_supply_ratio": 0.10325889,
+      "timestamp": 1797141600
+    },
+    {
+      "date": "2026-12-14",
+      "miner_supply_ratio": 0.08121013,
+      "timestamp": 1797228000
+    },
+    {
+      "date": "2026-12-15",
+      "miner_supply_ratio": 0.10112022,
+      "timestamp": 1797314400
+    },
+    {
+      "date": "2026-12-16",
+      "miner_supply_ratio": 0.09108096,
+      "timestamp": 1797400800
+    },
+    {
+      "date": "2026-12-17",
+      "miner_supply_ratio": 0.09676434,
+      "timestamp": 1797487200
+    },
+    {
+      "date": "2026-12-18",
+      "miner_supply_ratio": 0.09815579,
+      "timestamp": 1797573600
+    },
+    {
+      "date": "2026-12-19",
+      "miner_supply_ratio": 0.101149,
+      "timestamp": 1797660000
+    },
+    {
+      "date": "2026-12-20",
+      "miner_supply_ratio": 0.08665772,
+      "timestamp": 1797746400
+    },
+    {
+      "date": "2026-12-21",
+      "miner_supply_ratio": 0.09812421,
+      "timestamp": 1797832800
+    },
+    {
+      "date": "2026-12-22",
+      "miner_supply_ratio": 0.09272148,
+      "timestamp": 1797919200
+    },
+    {
+      "date": "2026-12-23",
+      "miner_supply_ratio": 0.09498632,
+      "timestamp": 1798005600
+    },
+    {
+      "date": "2026-12-24",
+      "miner_supply_ratio": 0.10532672,
+      "timestamp": 1798092000
+    },
+    {
+      "date": "2026-12-25",
+      "miner_supply_ratio": 0.09641406,
+      "timestamp": 1798178400
+    },
+    {
+      "date": "2026-12-26",
+      "miner_supply_ratio": 0.08994601,
+      "timestamp": 1798264800
+    },
+    {
+      "date": "2026-12-27",
+      "miner_supply_ratio": 0.08816847,
+      "timestamp": 1798351200
+    },
+    {
+      "date": "2026-12-28",
+      "miner_supply_ratio": 0.10610688,
+      "timestamp": 1798437600
+    },
+    {
+      "date": "2026-12-29",
+      "miner_supply_ratio": 0.10031598,
+      "timestamp": 1798524000
+    },
+    {
+      "date": "2026-12-30",
+      "miner_supply_ratio": 0.09189618,
+      "timestamp": 1798610400
+    },
+    {
+      "date": "2026-12-31",
+      "miner_supply_ratio": 0.10325658,
+      "timestamp": 1798696800
+    },
+    {
+      "date": "2027-01-01",
+      "miner_supply_ratio": 0.08613719,
+      "timestamp": 1798783200
+    },
+    {
+      "date": "2027-01-02",
+      "miner_supply_ratio": 0.09219842,
+      "timestamp": 1798869600
+    },
+    {
+      "date": "2027-01-03",
+      "miner_supply_ratio": 0.095157,
+      "timestamp": 1798956000
+    },
+    {
+      "date": "2027-01-04",
+      "miner_supply_ratio": 0.10650938,
+      "timestamp": 1799042400
+    },
+    {
+      "date": "2027-01-05",
+      "miner_supply_ratio": 0.08855455,
+      "timestamp": 1799128800
+    },
+    {
+      "date": "2027-01-06",
+      "miner_supply_ratio": 0.09760412,
+      "timestamp": 1799215200
+    },
+    {
+      "date": "2027-01-07",
+      "miner_supply_ratio": 0.0927538,
+      "timestamp": 1799301600
+    },
+    {
+      "date": "2027-01-08",
+      "miner_supply_ratio": 0.10595834,
+      "timestamp": 1799388000
+    },
+    {
+      "date": "2027-01-09",
+      "miner_supply_ratio": 0.09676206,
+      "timestamp": 1799474400
+    },
+    {
+      "date": "2027-01-10",
+      "miner_supply_ratio": 0.09158838,
+      "timestamp": 1799560800
+    },
+    {
+      "date": "2027-01-11",
+      "miner_supply_ratio": 0.09618283,
+      "timestamp": 1799647200
+    },
+    {
+      "date": "2027-01-12",
+      "miner_supply_ratio": 0.09535954,
+      "timestamp": 1799733600
+    },
+    {
+      "date": "2027-01-13",
+      "miner_supply_ratio": 0.07883853,
+      "timestamp": 1799820000
+    },
+    {
+      "date": "2027-01-14",
+      "miner_supply_ratio": 0.10157823,
+      "timestamp": 1799906400
+    },
+    {
+      "date": "2027-01-15",
+      "miner_supply_ratio": 0.10612263,
+      "timestamp": 1799992800
+    },
+    {
+      "date": "2027-01-16",
+      "miner_supply_ratio": 0.1014903,
+      "timestamp": 1800079200
+    },
+    {
+      "date": "2027-01-17",
+      "miner_supply_ratio": 0.09870383,
+      "timestamp": 1800165600
+    },
+    {
+      "date": "2027-01-18",
+      "miner_supply_ratio": 0.08965902,
+      "timestamp": 1800252000
+    },
+    {
+      "date": "2027-01-19",
+      "miner_supply_ratio": 0.0840951,
+      "timestamp": 1800338400
+    },
+    {
+      "date": "2027-01-20",
+      "miner_supply_ratio": 0.09861085,
+      "timestamp": 1800424800
+    },
+    {
+      "date": "2027-01-21",
+      "miner_supply_ratio": 0.10360825,
+      "timestamp": 1800511200
+    },
+    {
+      "date": "2027-01-22",
+      "miner_supply_ratio": 0.1011131,
+      "timestamp": 1800597600
+    },
+    {
+      "date": "2027-01-23",
+      "miner_supply_ratio": 0.09227615,
+      "timestamp": 1800684000
+    },
+    {
+      "date": "2027-01-24",
+      "miner_supply_ratio": 0.09788361,
+      "timestamp": 1800770400
+    },
+    {
+      "date": "2027-01-25",
+      "miner_supply_ratio": 0.09357522,
+      "timestamp": 1800856800
+    },
+    {
+      "date": "2027-01-26",
+      "miner_supply_ratio": 0.09018479,
+      "timestamp": 1800943200
+    },
+    {
+      "date": "2027-01-27",
+      "miner_supply_ratio": 0.08337046,
+      "timestamp": 1801029600
+    },
+    {
+      "date": "2027-01-28",
+      "miner_supply_ratio": 0.08636306,
+      "timestamp": 1801116000
+    },
+    {
+      "date": "2027-01-29",
+      "miner_supply_ratio": 0.10728036,
+      "timestamp": 1801202400
+    },
+    {
+      "date": "2027-01-30",
+      "miner_supply_ratio": 0.08916706,
+      "timestamp": 1801288800
+    },
+    {
+      "date": "2027-01-31",
+      "miner_supply_ratio": 0.08228943,
+      "timestamp": 1801375200
+    },
+    {
+      "date": "2027-02-01",
+      "miner_supply_ratio": 0.10293458,
+      "timestamp": 1801461600
+    },
+    {
+      "date": "2027-02-02",
+      "miner_supply_ratio": 0.09710391,
+      "timestamp": 1801548000
+    },
+    {
+      "date": "2027-02-03",
+      "miner_supply_ratio": 0.08636945,
+      "timestamp": 1801634400
+    },
+    {
+      "date": "2027-02-04",
+      "miner_supply_ratio": 0.10328495,
+      "timestamp": 1801720800
+    },
+    {
+      "date": "2027-02-05",
+      "miner_supply_ratio": 0.09260905,
+      "timestamp": 1801807200
+    },
+    {
+      "date": "2027-02-06",
+      "miner_supply_ratio": 0.09543614,
+      "timestamp": 1801893600
+    },
+    {
+      "date": "2027-02-07",
+      "miner_supply_ratio": 0.10375696,
+      "timestamp": 1801980000
+    },
+    {
+      "date": "2027-02-08",
+      "miner_supply_ratio": 0.09476975,
+      "timestamp": 1802066400
+    },
+    {
+      "date": "2027-02-09",
+      "miner_supply_ratio": 0.09503985,
+      "timestamp": 1802152800
+    },
+    {
+      "date": "2027-02-10",
+      "miner_supply_ratio": 0.10048787,
+      "timestamp": 1802239200
+    },
+    {
+      "date": "2027-02-11",
+      "miner_supply_ratio": 0.09671029,
+      "timestamp": 1802325600
+    },
+    {
+      "date": "2027-02-12",
+      "miner_supply_ratio": 0.09966499,
+      "timestamp": 1802412000
+    },
+    {
+      "date": "2027-02-13",
+      "miner_supply_ratio": 0.10251221,
+      "timestamp": 1802498400
+    },
+    {
+      "date": "2027-02-14",
+      "miner_supply_ratio": 0.10144584,
+      "timestamp": 1802584800
+    },
+    {
+      "date": "2027-02-15",
+      "miner_supply_ratio": 0.10076458,
+      "timestamp": 1802671200
+    },
+    {
+      "date": "2027-02-16",
+      "miner_supply_ratio": 0.10029362,
+      "timestamp": 1802757600
+    },
+    {
+      "date": "2027-02-17",
+      "miner_supply_ratio": 0.0968477,
+      "timestamp": 1802844000
+    },
+    {
+      "date": "2027-02-18",
+      "miner_supply_ratio": 0.10501685,
+      "timestamp": 1802930400
+    },
+    {
+      "date": "2027-02-19",
+      "miner_supply_ratio": 0.11254894,
+      "timestamp": 1803016800
+    },
+    {
+      "date": "2027-02-20",
+      "miner_supply_ratio": 0.08974299,
+      "timestamp": 1803103200
+    },
+    {
+      "date": "2027-02-21",
+      "miner_supply_ratio": 0.09770908,
+      "timestamp": 1803189600
+    },
+    {
+      "date": "2027-02-22",
+      "miner_supply_ratio": 0.10070515,
+      "timestamp": 1803276000
+    },
+    {
+      "date": "2027-02-23",
+      "miner_supply_ratio": 0.09331114,
+      "timestamp": 1803362400
+    },
+    {
+      "date": "2027-02-24",
+      "miner_supply_ratio": 0.09124976,
+      "timestamp": 1803448800
+    },
+    {
+      "date": "2027-02-25",
+      "miner_supply_ratio": 0.09041139,
+      "timestamp": 1803535200
+    },
+    {
+      "date": "2027-02-26",
+      "miner_supply_ratio": 0.09328391,
+      "timestamp": 1803621600
+    },
+    {
+      "date": "2027-02-27",
+      "miner_supply_ratio": 0.089698,
+      "timestamp": 1803708000
+    },
+    {
+      "date": "2027-02-28",
+      "miner_supply_ratio": 0.09406289,
+      "timestamp": 1803794400
+    },
+    {
+      "date": "2027-03-01",
+      "miner_supply_ratio": 0.0922222,
+      "timestamp": 1803880800
+    },
+    {
+      "date": "2027-03-02",
+      "miner_supply_ratio": 0.09458053,
+      "timestamp": 1803967200
+    },
+    {
+      "date": "2027-03-03",
+      "miner_supply_ratio": 0.09529061,
+      "timestamp": 1804053600
+    },
+    {
+      "date": "2027-03-04",
+      "miner_supply_ratio": 0.09608991,
+      "timestamp": 1804140000
+    },
+    {
+      "date": "2027-03-05",
+      "miner_supply_ratio": 0.08853499,
+      "timestamp": 1804226400
+    },
+    {
+      "date": "2027-03-06",
+      "miner_supply_ratio": 0.09622063,
+      "timestamp": 1804312800
+    },
+    {
+      "date": "2027-03-07",
+      "miner_supply_ratio": 0.09392523,
+      "timestamp": 1804399200
+    },
+    {
+      "date": "2027-03-08",
+      "miner_supply_ratio": 0.09294182,
+      "timestamp": 1804485600
+    },
+    {
+      "date": "2027-03-09",
+      "miner_supply_ratio": 0.10044143,
+      "timestamp": 1804572000
+    },
+    {
+      "date": "2027-03-10",
+      "miner_supply_ratio": 0.09632471,
+      "timestamp": 1804658400
+    },
+    {
+      "date": "2027-03-11",
+      "miner_supply_ratio": 0.10190408,
+      "timestamp": 1804744800
+    },
+    {
+      "date": "2027-03-12",
+      "miner_supply_ratio": 0.08887943,
+      "timestamp": 1804831200
+    },
+    {
+      "date": "2027-03-13",
+      "miner_supply_ratio": 0.1030951,
+      "timestamp": 1804917600
+    },
+    {
+      "date": "2027-03-14",
+      "miner_supply_ratio": 0.09564789,
+      "timestamp": 1805004000
+    },
+    {
+      "date": "2027-03-15",
+      "miner_supply_ratio": 0.0903478,
+      "timestamp": 1805090400
+    },
+    {
+      "date": "2027-03-16",
+      "miner_supply_ratio": 0.09518624,
+      "timestamp": 1805176800
+    },
+    {
+      "date": "2027-03-17",
+      "miner_supply_ratio": 0.10320923,
+      "timestamp": 1805263200
+    },
+    {
+      "date": "2027-03-18",
+      "miner_supply_ratio": 0.09533999,
+      "timestamp": 1805349600
+    },
+    {
+      "date": "2027-03-19",
+      "miner_supply_ratio": 0.09773893,
+      "timestamp": 1805436000
+    },
+    {
+      "date": "2027-03-20",
+      "miner_supply_ratio": 0.09959729,
+      "timestamp": 1805522400
+    },
+    {
+      "date": "2027-03-21",
+      "miner_supply_ratio": 0.09868384,
+      "timestamp": 1805608800
+    },
+    {
+      "date": "2027-03-22",
+      "miner_supply_ratio": 0.09239102,
+      "timestamp": 1805695200
+    },
+    {
+      "date": "2027-03-23",
+      "miner_supply_ratio": 0.09384324,
+      "timestamp": 1805781600
+    },
+    {
+      "date": "2027-03-24",
+      "miner_supply_ratio": 0.10328521,
+      "timestamp": 1805868000
+    },
+    {
+      "date": "2027-03-25",
+      "miner_supply_ratio": 0.09431324,
+      "timestamp": 1805954400
+    },
+    {
+      "date": "2027-03-26",
+      "miner_supply_ratio": 0.09298525,
+      "timestamp": 1806040800
+    },
+    {
+      "date": "2027-03-27",
+      "miner_supply_ratio": 0.09491496,
+      "timestamp": 1806127200
+    },
+    {
+      "date": "2027-03-28",
+      "miner_supply_ratio": 0.08816948,
+      "timestamp": 1806213600
+    },
+    {
+      "date": "2027-03-29",
+      "miner_supply_ratio": 0.09978867,
+      "timestamp": 1806300000
+    },
+    {
+      "date": "2027-03-30",
+      "miner_supply_ratio": 0.09040609,
+      "timestamp": 1806386400
+    },
+    {
+      "date": "2027-03-31",
+      "miner_supply_ratio": 0.09309672,
+      "timestamp": 1806472800
+    },
+    {
+      "date": "2027-04-01",
+      "miner_supply_ratio": 0.09780575,
+      "timestamp": 1806559200
+    },
+    {
+      "date": "2027-04-02",
+      "miner_supply_ratio": 0.10359102,
+      "timestamp": 1806645600
+    },
+    {
+      "date": "2027-04-03",
+      "miner_supply_ratio": 0.10223887,
+      "timestamp": 1806732000
+    },
+    {
+      "date": "2027-04-04",
+      "miner_supply_ratio": 0.0992245,
+      "timestamp": 1806818400
+    },
+    {
+      "date": "2027-04-05",
+      "miner_supply_ratio": 0.1036406,
+      "timestamp": 1806904800
+    },
+    {
+      "date": "2027-04-06",
+      "miner_supply_ratio": 0.09734596,
+      "timestamp": 1806991200
+    },
+    {
+      "date": "2027-04-07",
+      "miner_supply_ratio": 0.09103499,
+      "timestamp": 1807077600
+    },
+    {
+      "date": "2027-04-08",
+      "miner_supply_ratio": 0.09921901,
+      "timestamp": 1807164000
+    },
+    {
+      "date": "2027-04-09",
+      "miner_supply_ratio": 0.08421298,
+      "timestamp": 1807250400
+    },
+    {
+      "date": "2027-04-10",
+      "miner_supply_ratio": 0.10065644,
+      "timestamp": 1807336800
+    },
+    {
+      "date": "2027-04-11",
+      "miner_supply_ratio": 0.09457664,
+      "timestamp": 1807423200
+    },
+    {
+      "date": "2027-04-12",
+      "miner_supply_ratio": 0.09441618,
+      "timestamp": 1807509600
+    },
+    {
+      "date": "2027-04-13",
+      "miner_supply_ratio": 0.08689447,
+      "timestamp": 1807596000
+    },
+    {
+      "date": "2027-04-14",
+      "miner_supply_ratio": 0.09230405,
+      "timestamp": 1807682400
+    },
+    {
+      "date": "2027-04-15",
+      "miner_supply_ratio": 0.09820072,
+      "timestamp": 1807768800
+    },
+    {
+      "date": "2027-04-16",
+      "miner_supply_ratio": 0.09488071,
+      "timestamp": 1807855200
+    },
+    {
+      "date": "2027-04-17",
+      "miner_supply_ratio": 0.08292423,
+      "timestamp": 1807941600
+    },
+    {
+      "date": "2027-04-18",
+      "miner_supply_ratio": 0.08420252,
+      "timestamp": 1808028000
+    },
+    {
+      "date": "2027-04-19",
+      "miner_supply_ratio": 0.10346704,
+      "timestamp": 1808114400
+    },
+    {
+      "date": "2027-04-20",
+      "miner_supply_ratio": 0.08590027,
+      "timestamp": 1808200800
+    },
+    {
+      "date": "2027-04-21",
+      "miner_supply_ratio": 0.10351472,
+      "timestamp": 1808287200
+    },
+    {
+      "date": "2027-04-22",
+      "miner_supply_ratio": 0.10308124,
+      "timestamp": 1808373600
+    },
+    {
+      "date": "2027-04-23",
+      "miner_supply_ratio": 0.0982028,
+      "timestamp": 1808460000
+    },
+    {
+      "date": "2027-04-24",
+      "miner_supply_ratio": 0.10262378,
+      "timestamp": 1808546400
+    },
+    {
+      "date": "2027-04-25",
+      "miner_supply_ratio": 0.08861976,
+      "timestamp": 1808632800
+    },
+    {
+      "date": "2027-04-26",
+      "miner_supply_ratio": 0.09079916,
+      "timestamp": 1808719200
+    },
+    {
+      "date": "2027-04-27",
+      "miner_supply_ratio": 0.09368347,
+      "timestamp": 1808805600
+    },
+    {
+      "date": "2027-04-28",
+      "miner_supply_ratio": 0.08785457,
+      "timestamp": 1808892000
+    },
+    {
+      "date": "2027-04-29",
+      "miner_supply_ratio": 0.09845146,
+      "timestamp": 1808978400
+    },
+    {
+      "date": "2027-04-30",
+      "miner_supply_ratio": 0.0941627,
+      "timestamp": 1809064800
+    },
+    {
+      "date": "2027-05-01",
+      "miner_supply_ratio": 0.10560968,
+      "timestamp": 1809151200
+    },
+    {
+      "date": "2027-05-02",
+      "miner_supply_ratio": 0.09942456,
+      "timestamp": 1809237600
+    },
+    {
+      "date": "2027-05-03",
+      "miner_supply_ratio": 0.0996292,
+      "timestamp": 1809324000
+    },
+    {
+      "date": "2027-05-04",
+      "miner_supply_ratio": 0.09354451,
+      "timestamp": 1809410400
+    },
+    {
+      "date": "2027-05-05",
+      "miner_supply_ratio": 0.08922971,
+      "timestamp": 1809496800
+    },
+    {
+      "date": "2027-05-06",
+      "miner_supply_ratio": 0.09109606,
+      "timestamp": 1809583200
+    },
+    {
+      "date": "2027-05-07",
+      "miner_supply_ratio": 0.08854675,
+      "timestamp": 1809669600
+    },
+    {
+      "date": "2027-05-08",
+      "miner_supply_ratio": 0.10321367,
+      "timestamp": 1809756000
+    },
+    {
+      "date": "2027-05-09",
+      "miner_supply_ratio": 0.09718145,
+      "timestamp": 1809842400
+    },
+    {
+      "date": "2027-05-10",
+      "miner_supply_ratio": 0.09584388,
+      "timestamp": 1809928800
+    },
+    {
+      "date": "2027-05-11",
+      "miner_supply_ratio": 0.09320892,
+      "timestamp": 1810015200
+    },
+    {
+      "date": "2027-05-12",
+      "miner_supply_ratio": 0.09490133,
+      "timestamp": 1810101600
+    },
+    {
+      "date": "2027-05-13",
+      "miner_supply_ratio": 0.09903539,
+      "timestamp": 1810188000
+    },
+    {
+      "date": "2027-05-14",
+      "miner_supply_ratio": 0.08295403,
+      "timestamp": 1810274400
+    },
+    {
+      "date": "2027-05-15",
+      "miner_supply_ratio": 0.08880204,
+      "timestamp": 1810360800
+    },
+    {
+      "date": "2027-05-16",
+      "miner_supply_ratio": 0.08715975,
+      "timestamp": 1810447200
+    },
+    {
+      "date": "2027-05-17",
+      "miner_supply_ratio": 0.08713503,
+      "timestamp": 1810533600
+    },
+    {
+      "date": "2027-05-18",
+      "miner_supply_ratio": 0.08774002,
+      "timestamp": 1810620000
+    },
+    {
+      "date": "2027-05-19",
+      "miner_supply_ratio": 0.09001837,
+      "timestamp": 1810706400
+    },
+    {
+      "date": "2027-05-20",
+      "miner_supply_ratio": 0.09377593,
+      "timestamp": 1810792800
+    },
+    {
+      "date": "2027-05-21",
+      "miner_supply_ratio": 0.09083185,
+      "timestamp": 1810879200
+    },
+    {
+      "date": "2027-05-22",
+      "miner_supply_ratio": 0.08669699,
+      "timestamp": 1810965600
+    },
+    {
+      "date": "2027-05-23",
+      "miner_supply_ratio": 0.08616823,
+      "timestamp": 1811052000
+    },
+    {
+      "date": "2027-05-24",
+      "miner_supply_ratio": 0.10347805,
+      "timestamp": 1811138400
+    },
+    {
+      "date": "2027-05-25",
+      "miner_supply_ratio": 0.07876521,
+      "timestamp": 1811224800
+    },
+    {
+      "date": "2027-05-26",
+      "miner_supply_ratio": 0.09391496,
+      "timestamp": 1811311200
+    },
+    {
+      "date": "2027-05-27",
+      "miner_supply_ratio": 0.09107882,
+      "timestamp": 1811397600
+    },
+    {
+      "date": "2027-05-28",
+      "miner_supply_ratio": 0.09061434,
+      "timestamp": 1811484000
+    },
+    {
+      "date": "2027-05-29",
+      "miner_supply_ratio": 0.09034636,
+      "timestamp": 1811570400
+    },
+    {
+      "date": "2027-05-30",
+      "miner_supply_ratio": 0.08570807,
+      "timestamp": 1811656800
+    },
+    {
+      "date": "2027-05-31",
+      "miner_supply_ratio": 0.09480766,
+      "timestamp": 1811743200
+    },
+    {
+      "date": "2027-06-01",
+      "miner_supply_ratio": 0.09481628,
+      "timestamp": 1811829600
+    },
+    {
+      "date": "2027-06-02",
+      "miner_supply_ratio": 0.09590043,
+      "timestamp": 1811916000
+    },
+    {
+      "date": "2027-06-03",
+      "miner_supply_ratio": 0.09398555,
+      "timestamp": 1812002400
+    },
+    {
+      "date": "2027-06-04",
+      "miner_supply_ratio": 0.09358008,
+      "timestamp": 1812088800
+    },
+    {
+      "date": "2027-06-05",
+      "miner_supply_ratio": 0.09906883,
+      "timestamp": 1812175200
+    },
+    {
+      "date": "2027-06-06",
+      "miner_supply_ratio": 0.09373653,
+      "timestamp": 1812261600
+    },
+    {
+      "date": "2027-06-07",
+      "miner_supply_ratio": 0.07991557,
+      "timestamp": 1812348000
+    },
+    {
+      "date": "2027-06-08",
+      "miner_supply_ratio": 0.10162354,
+      "timestamp": 1812434400
+    },
+    {
+      "date": "2027-06-09",
+      "miner_supply_ratio": 0.09750847,
+      "timestamp": 1812520800
+    },
+    {
+      "date": "2027-06-10",
+      "miner_supply_ratio": 0.09743968,
+      "timestamp": 1812607200
+    },
+    {
+      "date": "2027-06-11",
+      "miner_supply_ratio": 0.09072835,
+      "timestamp": 1812693600
+    },
+    {
+      "date": "2027-06-12",
+      "miner_supply_ratio": 0.08712467,
+      "timestamp": 1812780000
+    },
+    {
+      "date": "2027-06-13",
+      "miner_supply_ratio": 0.09338372,
+      "timestamp": 1812866400
+    },
+    {
+      "date": "2027-06-14",
+      "miner_supply_ratio": 0.08612557,
+      "timestamp": 1812952800
+    },
+    {
+      "date": "2027-06-15",
+      "miner_supply_ratio": 0.0950173,
+      "timestamp": 1813039200
+    },
+    {
+      "date": "2027-06-16",
+      "miner_supply_ratio": 0.09082401,
+      "timestamp": 1813125600
+    },
+    {
+      "date": "2027-06-17",
+      "miner_supply_ratio": 0.09250534,
+      "timestamp": 1813212000
+    },
+    {
+      "date": "2027-06-18",
+      "miner_supply_ratio": 0.09148913,
+      "timestamp": 1813298400
+    },
+    {
+      "date": "2027-06-19",
+      "miner_supply_ratio": 0.08986155,
+      "timestamp": 1813384800
+    },
+    {
+      "date": "2027-06-20",
+      "miner_supply_ratio": 0.0975563,
+      "timestamp": 1813471200
+    },
+    {
+      "date": "2027-06-21",
+      "miner_supply_ratio": 0.09840045,
+      "timestamp": 1813557600
+    },
+    {
+      "date": "2027-06-22",
+      "miner_supply_ratio": 0.09156342,
+      "timestamp": 1813644000
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_onchain_miners_miner_supply_ratio",
+    "path": "/btc/flow-indicator/miner-supply-ratio",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/onchain_miners/miner_supply_ratio/day_raw.json",
+    "raw_shape": "status_result_data_miner_supply_ratio",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 365,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

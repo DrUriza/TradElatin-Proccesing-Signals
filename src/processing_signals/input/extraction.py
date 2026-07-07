@@ -57,6 +57,7 @@ def extract_endpoint(
     """Extract one endpoint into a raw payload descriptor."""
     context = prepare_extraction_context(provider, mode, endpoint_config)
     folder_provider = str(context["provider"])
+    effective_min_records = int(endpoint_config.get("min_records") or min_records)
 
     if mode == "live" and not context["callable_live"]:
         raw = {
@@ -81,7 +82,10 @@ def extract_endpoint(
                 "base_url": context.get("base_url"),
                 "path": context.get("path"),
                 "headers": _redact_headers(context.get("headers", {})),
-                "min_records": min_records,
+                "min_records": effective_min_records,
+                "raw_shape": endpoint_config.get("raw_shape"),
+                "loader_strategy": endpoint_config.get("loader_strategy"),
+                "row_timestamp_required": endpoint_config.get("row_timestamp_required"),
             },
         }
         _write_raw(folder_provider, raw)
@@ -89,7 +93,40 @@ def extract_endpoint(
 
     raw_response = None
     if mode == "synthetic":
-        raw_response = _load_synthetic_raw_response(folder_provider, endpoint_config, timeframe, extraction_window)
+        try:
+            raw_response = _load_synthetic_raw_response(folder_provider, endpoint_config, timeframe, extraction_window)
+        except FileNotFoundError as exc:
+            status = "timeframe_not_available" if timeframe is not None else "synthetic_raw_missing"
+            raw = {
+                "run_id": run_id,
+                "provider": endpoint_config["provider"],
+                "mode": mode,
+                "endpoint_name": endpoint_config["endpoint_name"],
+                "family": endpoint_config["family"],
+                "subtype": endpoint_config["subtype"],
+                "data_type": endpoint_config["data_type"],
+                "asset": asset,
+                "symbol": symbol,
+                "exchange": _exchange(endpoint_config),
+                "timeframe": timeframe,
+                "extraction_window": extraction_window,
+                "status": status,
+                "raw_response": None,
+                "metadata": {
+                    "mode": mode,
+                    "path": endpoint_config.get("path"),
+                    "live_status": endpoint_config.get("live_status"),
+                    "requested_timeframe": timeframe,
+                    "requested_extraction_window": extraction_window,
+                    "error": str(exc),
+                    "min_records": effective_min_records,
+                    "raw_shape": endpoint_config.get("raw_shape"),
+                    "loader_strategy": endpoint_config.get("loader_strategy"),
+                    "row_timestamp_required": endpoint_config.get("row_timestamp_required"),
+                },
+            }
+            _write_raw(folder_provider, raw)
+            return raw
     else:
         try:
             raw_response = _load_live_raw_response(
@@ -122,7 +159,10 @@ def extract_endpoint(
                     "path": context.get("path"),
                     "headers": _redact_headers(context.get("headers", {})),
                     "api_key_configured": bool(context.get("api_key")),
-                    "min_records": min_records,
+                    "min_records": effective_min_records,
+                    "raw_shape": endpoint_config.get("raw_shape"),
+                    "loader_strategy": endpoint_config.get("loader_strategy"),
+                    "row_timestamp_required": endpoint_config.get("row_timestamp_required"),
                 },
             }
             _write_raw(folder_provider, raw)
@@ -150,7 +190,10 @@ def extract_endpoint(
             "base_url": context.get("base_url"),
             "headers": _redact_headers(context.get("headers", {})),
             "api_key_configured": bool(context.get("api_key")),
-            "min_records": min_records,
+            "min_records": effective_min_records,
+            "raw_shape": endpoint_config.get("raw_shape"),
+            "loader_strategy": endpoint_config.get("loader_strategy"),
+            "row_timestamp_required": endpoint_config.get("row_timestamp_required"),
         },
     }
     _write_raw(folder_provider, raw)
@@ -164,22 +207,30 @@ def _load_synthetic_raw_response(
     extraction_window: str | None,
 ) -> Any | None:
     slot = timeframe or extraction_window or "latest"
-    zip_path = (
-        Path(__file__).resolve().parent
-        / "apis"
-        / folder_provider
-        / "synthetic_raw"
-        / f"{folder_provider}_synthetic_raw.zip"
-    )
+    zip_root = Path(__file__).resolve().parent / "apis" / folder_provider / "synthetic_raw"
+    zip_path = zip_root / f"{folder_provider}_synthetic_raw.zip"
+    if not zip_path.exists():
+        corrected_zip_path = zip_root / f"{folder_provider}_synthetic_raw_corrected.zip"
+        if corrected_zip_path.exists():
+            zip_path = corrected_zip_path
     if not zip_path.exists():
         raise FileNotFoundError(f"Missing synthetic raw ZIP: {zip_path}")
 
-    member = f"{endpoint_config['family']}/{endpoint_config['subtype']}/{slot}_raw.json"
+    template = endpoint_config.get("synthetic_file_template")
+    if template:
+        requested_member = str(template).format(timeframe=timeframe, extraction_window=extraction_window, slot=slot)
+    else:
+        requested_member = f"{endpoint_config['family']}/{endpoint_config['subtype']}/{slot}_raw.json"
+
     with zipfile.ZipFile(zip_path, "r") as archive:
         try:
-            return json.loads(archive.read(member).decode("utf-8"))
+            return json.loads(archive.read(requested_member).decode("utf-8"))
         except KeyError as exc:
-            raise FileNotFoundError(f"Missing synthetic raw member {member} in {zip_path}") from exc
+            fallback_member = f"{folder_provider}/{requested_member}"
+            try:
+                return json.loads(archive.read(fallback_member).decode("utf-8"))
+            except KeyError:
+                raise FileNotFoundError(f"Missing synthetic raw member {requested_member} in {zip_path}") from exc
 
 
 def _load_live_raw_response(

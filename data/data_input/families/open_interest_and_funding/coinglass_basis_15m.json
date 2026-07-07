@@ -1,0 +1,5430 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "coinglass",
+  "family": "open_interest_and_funding",
+  "subtype": "basis",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "15m",
+  "extraction_window": null,
+  "records": [
+    {
+      "time": 1782172800000,
+      "index_price": 103909.53,
+      "futures_price": 103945.94,
+      "basis": 36.4182,
+      "basis_rate": 0.00035048,
+      "annualized_basis_rate": 0.04313768,
+      "timestamp": 1782172800
+    },
+    {
+      "time": 1782173700000,
+      "index_price": 103965.15,
+      "futures_price": 104032.19,
+      "basis": 67.0368,
+      "basis_rate": 0.0006448,
+      "annualized_basis_rate": 0.08222573,
+      "timestamp": 1782173700
+    },
+    {
+      "time": 1782174600000,
+      "index_price": 104061.45,
+      "futures_price": 104168.97,
+      "basis": 107.5217,
+      "basis_rate": 0.00103325,
+      "annualized_basis_rate": 0.08722249,
+      "timestamp": 1782174600
+    },
+    {
+      "time": 1782175500000,
+      "index_price": 104136.69,
+      "futures_price": 104234.9,
+      "basis": 98.2072,
+      "basis_rate": 0.00094306,
+      "annualized_basis_rate": 0.04145214,
+      "timestamp": 1782175500
+    },
+    {
+      "time": 1782176400000,
+      "index_price": 104189.18,
+      "futures_price": 104262.92,
+      "basis": 73.7444,
+      "basis_rate": 0.00070779,
+      "annualized_basis_rate": 0.05728809,
+      "timestamp": 1782176400
+    },
+    {
+      "time": 1782177300000,
+      "index_price": 104363.12,
+      "futures_price": 104530.3,
+      "basis": 167.1839,
+      "basis_rate": 0.00160194,
+      "annualized_basis_rate": 0.02510378,
+      "timestamp": 1782177300
+    },
+    {
+      "time": 1782178200000,
+      "index_price": 104307.77,
+      "futures_price": 104386.52,
+      "basis": 78.7475,
+      "basis_rate": 0.00075495,
+      "annualized_basis_rate": 0.07558574,
+      "timestamp": 1782178200
+    },
+    {
+      "time": 1782179100000,
+      "index_price": 104336.65,
+      "futures_price": 104370.68,
+      "basis": 34.0266,
+      "basis_rate": 0.00032612,
+      "annualized_basis_rate": 0.05780971,
+      "timestamp": 1782179100
+    },
+    {
+      "time": 1782180000000,
+      "index_price": 104423.36,
+      "futures_price": 104536.83,
+      "basis": 113.4698,
+      "basis_rate": 0.00108663,
+      "annualized_basis_rate": 0.03652951,
+      "timestamp": 1782180000
+    },
+    {
+      "time": 1782180900000,
+      "index_price": 104616.16,
+      "futures_price": 104705.65,
+      "basis": 89.4844,
+      "basis_rate": 0.00085536,
+      "annualized_basis_rate": 0.05634675,
+      "timestamp": 1782180900
+    },
+    {
+      "time": 1782181800000,
+      "index_price": 104512.77,
+      "futures_price": 104557.12,
+      "basis": 44.3501,
+      "basis_rate": 0.00042435,
+      "annualized_basis_rate": 0.0296454,
+      "timestamp": 1782181800
+    },
+    {
+      "time": 1782182700000,
+      "index_price": 104699.78,
+      "futures_price": 104801.76,
+      "basis": 101.9792,
+      "basis_rate": 0.00097402,
+      "annualized_basis_rate": 0.04504142,
+      "timestamp": 1782182700
+    },
+    {
+      "time": 1782183600000,
+      "index_price": 104579.98,
+      "futures_price": 104688.35,
+      "basis": 108.3759,
+      "basis_rate": 0.0010363,
+      "annualized_basis_rate": 0.04561391,
+      "timestamp": 1782183600
+    },
+    {
+      "time": 1782184500000,
+      "index_price": 104702.75,
+      "futures_price": 104775.32,
+      "basis": 72.5671,
+      "basis_rate": 0.00069308,
+      "annualized_basis_rate": 0.03568235,
+      "timestamp": 1782184500
+    },
+    {
+      "time": 1782185400000,
+      "index_price": 104674.4,
+      "futures_price": 104743.4,
+      "basis": 69.0016,
+      "basis_rate": 0.0006592,
+      "annualized_basis_rate": 0.05483881,
+      "timestamp": 1782185400
+    },
+    {
+      "time": 1782186300000,
+      "index_price": 104912.66,
+      "futures_price": 105014.04,
+      "basis": 101.3849,
+      "basis_rate": 0.00096637,
+      "annualized_basis_rate": 0.03115374,
+      "timestamp": 1782186300
+    },
+    {
+      "time": 1782187200000,
+      "index_price": 104790.25,
+      "futures_price": 104935.26,
+      "basis": 145.0153,
+      "basis_rate": 0.00138386,
+      "annualized_basis_rate": 0.07184458,
+      "timestamp": 1782187200
+    },
+    {
+      "time": 1782188100000,
+      "index_price": 104796.69,
+      "futures_price": 104901.2,
+      "basis": 104.5132,
+      "basis_rate": 0.00099729,
+      "annualized_basis_rate": 0.06603721,
+      "timestamp": 1782188100
+    },
+    {
+      "time": 1782189000000,
+      "index_price": 104901.21,
+      "futures_price": 105024.21,
+      "basis": 123.004,
+      "basis_rate": 0.00117257,
+      "annualized_basis_rate": 0.0397543,
+      "timestamp": 1782189000
+    },
+    {
+      "time": 1782189900000,
+      "index_price": 104952.52,
+      "futures_price": 105093.91,
+      "basis": 141.3911,
+      "basis_rate": 0.00134719,
+      "annualized_basis_rate": 0.01964992,
+      "timestamp": 1782189900
+    },
+    {
+      "time": 1782190800000,
+      "index_price": 105115.07,
+      "futures_price": 105174.07,
+      "basis": 59.0024,
+      "basis_rate": 0.00056131,
+      "annualized_basis_rate": 0.04000113,
+      "timestamp": 1782190800
+    },
+    {
+      "time": 1782191700000,
+      "index_price": 105057.03,
+      "futures_price": 105205.24,
+      "basis": 148.2139,
+      "basis_rate": 0.00141079,
+      "annualized_basis_rate": 0.04490676,
+      "timestamp": 1782191700
+    },
+    {
+      "time": 1782192600000,
+      "index_price": 104992.95,
+      "futures_price": 105133.98,
+      "basis": 141.0307,
+      "basis_rate": 0.00134324,
+      "annualized_basis_rate": 0.07721985,
+      "timestamp": 1782192600
+    },
+    {
+      "time": 1782193500000,
+      "index_price": 105098.83,
+      "futures_price": 105179.02,
+      "basis": 80.1913,
+      "basis_rate": 0.00076301,
+      "annualized_basis_rate": 0.06470138,
+      "timestamp": 1782193500
+    },
+    {
+      "time": 1782194400000,
+      "index_price": 105211.08,
+      "futures_price": 105217.75,
+      "basis": 6.67,
+      "basis_rate": 6.34e-05,
+      "annualized_basis_rate": 0.05291754,
+      "timestamp": 1782194400
+    },
+    {
+      "time": 1782195300000,
+      "index_price": 105210.4,
+      "futures_price": 105282.49,
+      "basis": 72.0862,
+      "basis_rate": 0.00068516,
+      "annualized_basis_rate": 0.05032412,
+      "timestamp": 1782195300
+    },
+    {
+      "time": 1782196200000,
+      "index_price": 105198.41,
+      "futures_price": 105314.87,
+      "basis": 116.4609,
+      "basis_rate": 0.00110706,
+      "annualized_basis_rate": 0.03562181,
+      "timestamp": 1782196200
+    },
+    {
+      "time": 1782197100000,
+      "index_price": 105137.6,
+      "futures_price": 105192.48,
+      "basis": 54.8838,
+      "basis_rate": 0.00052202,
+      "annualized_basis_rate": 0.07058296,
+      "timestamp": 1782197100
+    },
+    {
+      "time": 1782198000000,
+      "index_price": 105105.0,
+      "futures_price": 105220.11,
+      "basis": 115.1149,
+      "basis_rate": 0.00109524,
+      "annualized_basis_rate": 0.06621251,
+      "timestamp": 1782198000
+    },
+    {
+      "time": 1782198900000,
+      "index_price": 105311.02,
+      "futures_price": 105361.83,
+      "basis": 50.8132,
+      "basis_rate": 0.00048251,
+      "annualized_basis_rate": 0.06195118,
+      "timestamp": 1782198900
+    },
+    {
+      "time": 1782199800000,
+      "index_price": 105228.35,
+      "futures_price": 105270.06,
+      "basis": 41.714,
+      "basis_rate": 0.00039641,
+      "annualized_basis_rate": 0.06266561,
+      "timestamp": 1782199800
+    },
+    {
+      "time": 1782200700000,
+      "index_price": 105325.58,
+      "futures_price": 105396.48,
+      "basis": 70.8993,
+      "basis_rate": 0.00067314,
+      "annualized_basis_rate": 0.06682742,
+      "timestamp": 1782200700
+    },
+    {
+      "time": 1782201600000,
+      "index_price": 105315.66,
+      "futures_price": 105413.54,
+      "basis": 97.8776,
+      "basis_rate": 0.00092937,
+      "annualized_basis_rate": 0.04897824,
+      "timestamp": 1782201600
+    },
+    {
+      "time": 1782202500000,
+      "index_price": 105238.01,
+      "futures_price": 105315.47,
+      "basis": 77.4607,
+      "basis_rate": 0.00073605,
+      "annualized_basis_rate": 0.07366343,
+      "timestamp": 1782202500
+    },
+    {
+      "time": 1782203400000,
+      "index_price": 105152.48,
+      "futures_price": 105185.26,
+      "basis": 32.778,
+      "basis_rate": 0.00031172,
+      "annualized_basis_rate": 0.05000643,
+      "timestamp": 1782203400
+    },
+    {
+      "time": 1782204300000,
+      "index_price": 105240.28,
+      "futures_price": 105267.42,
+      "basis": 27.1389,
+      "basis_rate": 0.00025788,
+      "annualized_basis_rate": 0.07406545,
+      "timestamp": 1782204300
+    },
+    {
+      "time": 1782205200000,
+      "index_price": 105162.25,
+      "futures_price": 105234.28,
+      "basis": 72.0313,
+      "basis_rate": 0.00068495,
+      "annualized_basis_rate": 0.05560248,
+      "timestamp": 1782205200
+    },
+    {
+      "time": 1782206100000,
+      "index_price": 105134.15,
+      "futures_price": 105225.68,
+      "basis": 91.5274,
+      "basis_rate": 0.00087058,
+      "annualized_basis_rate": 0.05724345,
+      "timestamp": 1782206100
+    },
+    {
+      "time": 1782207000000,
+      "index_price": 105160.67,
+      "futures_price": 105207.03,
+      "basis": 46.3673,
+      "basis_rate": 0.00044092,
+      "annualized_basis_rate": 0.06881176,
+      "timestamp": 1782207000
+    },
+    {
+      "time": 1782207900000,
+      "index_price": 105082.55,
+      "futures_price": 105164.93,
+      "basis": 82.3857,
+      "basis_rate": 0.00078401,
+      "annualized_basis_rate": 0.08990194,
+      "timestamp": 1782207900
+    },
+    {
+      "time": 1782208800000,
+      "index_price": 105213.83,
+      "futures_price": 105285.38,
+      "basis": 71.5435,
+      "basis_rate": 0.00067998,
+      "annualized_basis_rate": 0.04554069,
+      "timestamp": 1782208800
+    },
+    {
+      "time": 1782209700000,
+      "index_price": 105034.15,
+      "futures_price": 105122.62,
+      "basis": 88.4759,
+      "basis_rate": 0.00084235,
+      "annualized_basis_rate": 0.0371921,
+      "timestamp": 1782209700
+    },
+    {
+      "time": 1782210600000,
+      "index_price": 105026.33,
+      "futures_price": 105069.07,
+      "basis": 42.7374,
+      "basis_rate": 0.00040692,
+      "annualized_basis_rate": 0.05472722,
+      "timestamp": 1782210600
+    },
+    {
+      "time": 1782211500000,
+      "index_price": 104950.93,
+      "futures_price": 105043.18,
+      "basis": 92.2483,
+      "basis_rate": 0.00087897,
+      "annualized_basis_rate": 0.07261579,
+      "timestamp": 1782211500
+    },
+    {
+      "time": 1782212400000,
+      "index_price": 105082.36,
+      "futures_price": 105160.98,
+      "basis": 78.6234,
+      "basis_rate": 0.00074821,
+      "annualized_basis_rate": 0.06180234,
+      "timestamp": 1782212400
+    },
+    {
+      "time": 1782213300000,
+      "index_price": 105108.38,
+      "futures_price": 105206.42,
+      "basis": 98.0402,
+      "basis_rate": 0.00093275,
+      "annualized_basis_rate": 0.07381302,
+      "timestamp": 1782213300
+    },
+    {
+      "time": 1782214200000,
+      "index_price": 104925.6,
+      "futures_price": 104971.15,
+      "basis": 45.552,
+      "basis_rate": 0.00043414,
+      "annualized_basis_rate": 0.03918327,
+      "timestamp": 1782214200
+    },
+    {
+      "time": 1782215100000,
+      "index_price": 104837.78,
+      "futures_price": 104995.68,
+      "basis": 157.8993,
+      "basis_rate": 0.00150613,
+      "annualized_basis_rate": 0.03012498,
+      "timestamp": 1782215100
+    },
+    {
+      "time": 1782216000000,
+      "index_price": 104837.9,
+      "futures_price": 104937.06,
+      "basis": 99.1588,
+      "basis_rate": 0.00094583,
+      "annualized_basis_rate": 0.0520405,
+      "timestamp": 1782216000
+    },
+    {
+      "time": 1782216900000,
+      "index_price": 104876.57,
+      "futures_price": 105031.31,
+      "basis": 154.7447,
+      "basis_rate": 0.00147549,
+      "annualized_basis_rate": 0.06428206,
+      "timestamp": 1782216900
+    },
+    {
+      "time": 1782217800000,
+      "index_price": 104854.25,
+      "futures_price": 104861.12,
+      "basis": 6.8711,
+      "basis_rate": 6.553e-05,
+      "annualized_basis_rate": 0.02079381,
+      "timestamp": 1782217800
+    },
+    {
+      "time": 1782218700000,
+      "index_price": 104694.68,
+      "futures_price": 104820.01,
+      "basis": 125.3298,
+      "basis_rate": 0.0011971,
+      "annualized_basis_rate": 0.02536063,
+      "timestamp": 1782218700
+    },
+    {
+      "time": 1782219600000,
+      "index_price": 104756.17,
+      "futures_price": 104899.97,
+      "basis": 143.7945,
+      "basis_rate": 0.00137266,
+      "annualized_basis_rate": 0.04855726,
+      "timestamp": 1782219600
+    },
+    {
+      "time": 1782220500000,
+      "index_price": 104704.37,
+      "futures_price": 104866.08,
+      "basis": 161.708,
+      "basis_rate": 0.00154442,
+      "annualized_basis_rate": 0.05820855,
+      "timestamp": 1782220500
+    },
+    {
+      "time": 1782221400000,
+      "index_price": 104577.23,
+      "futures_price": 104687.06,
+      "basis": 109.8321,
+      "basis_rate": 0.00105025,
+      "annualized_basis_rate": 0.06913267,
+      "timestamp": 1782221400
+    },
+    {
+      "time": 1782222300000,
+      "index_price": 104744.03,
+      "futures_price": 104848.89,
+      "basis": 104.8631,
+      "basis_rate": 0.00100114,
+      "annualized_basis_rate": 0.01859334,
+      "timestamp": 1782222300
+    },
+    {
+      "time": 1782223200000,
+      "index_price": 104471.24,
+      "futures_price": 104609.72,
+      "basis": 138.4722,
+      "basis_rate": 0.00132546,
+      "annualized_basis_rate": 0.06935769,
+      "timestamp": 1782223200
+    },
+    {
+      "time": 1782224100000,
+      "index_price": 104594.08,
+      "futures_price": 104615.28,
+      "basis": 21.2005,
+      "basis_rate": 0.00020269,
+      "annualized_basis_rate": 0.0341121,
+      "timestamp": 1782224100
+    },
+    {
+      "time": 1782225000000,
+      "index_price": 104508.95,
+      "futures_price": 104603.95,
+      "basis": 94.994,
+      "basis_rate": 0.00090896,
+      "annualized_basis_rate": 0.05363813,
+      "timestamp": 1782225000
+    },
+    {
+      "time": 1782225900000,
+      "index_price": 104535.35,
+      "futures_price": 104569.44,
+      "basis": 34.0923,
+      "basis_rate": 0.00032613,
+      "annualized_basis_rate": 0.04633729,
+      "timestamp": 1782225900
+    },
+    {
+      "time": 1782226800000,
+      "index_price": 104483.16,
+      "futures_price": 104649.37,
+      "basis": 166.215,
+      "basis_rate": 0.00159083,
+      "annualized_basis_rate": 0.06487783,
+      "timestamp": 1782226800
+    },
+    {
+      "time": 1782227700000,
+      "index_price": 104316.92,
+      "futures_price": 104314.31,
+      "basis": -2.6089,
+      "basis_rate": -2.501e-05,
+      "annualized_basis_rate": 0.04239896,
+      "timestamp": 1782227700
+    },
+    {
+      "time": 1782228600000,
+      "index_price": 104339.97,
+      "futures_price": 104360.52,
+      "basis": 20.5507,
+      "basis_rate": 0.00019696,
+      "annualized_basis_rate": 0.05483041,
+      "timestamp": 1782228600
+    },
+    {
+      "time": 1782229500000,
+      "index_price": 104310.18,
+      "futures_price": 104398.61,
+      "basis": 88.4214,
+      "basis_rate": 0.00084768,
+      "annualized_basis_rate": 0.02947884,
+      "timestamp": 1782229500
+    },
+    {
+      "time": 1782230400000,
+      "index_price": 104166.85,
+      "futures_price": 104257.14,
+      "basis": 90.295,
+      "basis_rate": 0.00086683,
+      "annualized_basis_rate": 0.0614259,
+      "timestamp": 1782230400
+    },
+    {
+      "time": 1782231300000,
+      "index_price": 104099.15,
+      "futures_price": 104233.43,
+      "basis": 134.2834,
+      "basis_rate": 0.00128996,
+      "annualized_basis_rate": 0.07453447,
+      "timestamp": 1782231300
+    },
+    {
+      "time": 1782232200000,
+      "index_price": 104059.53,
+      "futures_price": 104196.85,
+      "basis": 137.3118,
+      "basis_rate": 0.00131955,
+      "annualized_basis_rate": 0.05737053,
+      "timestamp": 1782232200
+    },
+    {
+      "time": 1782233100000,
+      "index_price": 103993.36,
+      "futures_price": 104095.71,
+      "basis": 102.3533,
+      "basis_rate": 0.00098423,
+      "annualized_basis_rate": 0.0732921,
+      "timestamp": 1782233100
+    },
+    {
+      "time": 1782234000000,
+      "index_price": 104105.25,
+      "futures_price": 104228.73,
+      "basis": 123.4812,
+      "basis_rate": 0.00118612,
+      "annualized_basis_rate": 0.05547547,
+      "timestamp": 1782234000
+    },
+    {
+      "time": 1782234900000,
+      "index_price": 104088.17,
+      "futures_price": 104159.77,
+      "basis": 71.5966,
+      "basis_rate": 0.00068785,
+      "annualized_basis_rate": 0.08427904,
+      "timestamp": 1782234900
+    },
+    {
+      "time": 1782235800000,
+      "index_price": 104073.32,
+      "futures_price": 104180.2,
+      "basis": 106.8812,
+      "basis_rate": 0.00102698,
+      "annualized_basis_rate": 0.06672544,
+      "timestamp": 1782235800
+    },
+    {
+      "time": 1782236700000,
+      "index_price": 103945.61,
+      "futures_price": 104021.98,
+      "basis": 76.3768,
+      "basis_rate": 0.00073478,
+      "annualized_basis_rate": 0.07366556,
+      "timestamp": 1782236700
+    },
+    {
+      "time": 1782237600000,
+      "index_price": 103860.02,
+      "futures_price": 103952.22,
+      "basis": 92.1972,
+      "basis_rate": 0.00088771,
+      "annualized_basis_rate": 0.05991248,
+      "timestamp": 1782237600
+    },
+    {
+      "time": 1782238500000,
+      "index_price": 103771.84,
+      "futures_price": 103857.14,
+      "basis": 85.2942,
+      "basis_rate": 0.00082194,
+      "annualized_basis_rate": 0.0367782,
+      "timestamp": 1782238500
+    },
+    {
+      "time": 1782239400000,
+      "index_price": 103838.52,
+      "futures_price": 103934.69,
+      "basis": 96.1701,
+      "basis_rate": 0.00092615,
+      "annualized_basis_rate": 0.08821595,
+      "timestamp": 1782239400
+    },
+    {
+      "time": 1782240300000,
+      "index_price": 103836.0,
+      "futures_price": 103967.67,
+      "basis": 131.6705,
+      "basis_rate": 0.00126806,
+      "annualized_basis_rate": 0.03658965,
+      "timestamp": 1782240300
+    },
+    {
+      "time": 1782241200000,
+      "index_price": 103827.9,
+      "futures_price": 103908.87,
+      "basis": 80.9776,
+      "basis_rate": 0.00077992,
+      "annualized_basis_rate": 0.05770731,
+      "timestamp": 1782241200
+    },
+    {
+      "time": 1782242100000,
+      "index_price": 103763.37,
+      "futures_price": 103860.61,
+      "basis": 97.2458,
+      "basis_rate": 0.00093719,
+      "annualized_basis_rate": 0.06673157,
+      "timestamp": 1782242100
+    },
+    {
+      "time": 1782243000000,
+      "index_price": 103823.74,
+      "futures_price": 103883.04,
+      "basis": 59.3001,
+      "basis_rate": 0.00057116,
+      "annualized_basis_rate": 0.01860958,
+      "timestamp": 1782243000
+    },
+    {
+      "time": 1782243900000,
+      "index_price": 103607.87,
+      "futures_price": 103643.54,
+      "basis": 35.6708,
+      "basis_rate": 0.00034429,
+      "annualized_basis_rate": 0.04922775,
+      "timestamp": 1782243900
+    },
+    {
+      "time": 1782244800000,
+      "index_price": 103567.81,
+      "futures_price": 103737.95,
+      "basis": 170.1364,
+      "basis_rate": 0.00164275,
+      "annualized_basis_rate": 0.07386824,
+      "timestamp": 1782244800
+    },
+    {
+      "time": 1782245700000,
+      "index_price": 103595.07,
+      "futures_price": 103741.76,
+      "basis": 146.6918,
+      "basis_rate": 0.00141601,
+      "annualized_basis_rate": 0.05324247,
+      "timestamp": 1782245700
+    },
+    {
+      "time": 1782246600000,
+      "index_price": 103567.91,
+      "futures_price": 103671.58,
+      "basis": 103.6681,
+      "basis_rate": 0.00100097,
+      "annualized_basis_rate": 0.03485976,
+      "timestamp": 1782246600
+    },
+    {
+      "time": 1782247500000,
+      "index_price": 103639.96,
+      "futures_price": 103710.19,
+      "basis": 70.2346,
+      "basis_rate": 0.00067768,
+      "annualized_basis_rate": 0.04932195,
+      "timestamp": 1782247500
+    },
+    {
+      "time": 1782248400000,
+      "index_price": 103605.35,
+      "futures_price": 103686.42,
+      "basis": 81.0731,
+      "basis_rate": 0.00078252,
+      "annualized_basis_rate": 0.06412866,
+      "timestamp": 1782248400
+    },
+    {
+      "time": 1782249300000,
+      "index_price": 103629.0,
+      "futures_price": 103688.36,
+      "basis": 59.3607,
+      "basis_rate": 0.00057282,
+      "annualized_basis_rate": 0.06126485,
+      "timestamp": 1782249300
+    },
+    {
+      "time": 1782250200000,
+      "index_price": 103657.46,
+      "futures_price": 103720.0,
+      "basis": 62.5317,
+      "basis_rate": 0.00060325,
+      "annualized_basis_rate": 0.05310209,
+      "timestamp": 1782250200
+    },
+    {
+      "time": 1782251100000,
+      "index_price": 103649.57,
+      "futures_price": 103679.35,
+      "basis": 29.781,
+      "basis_rate": 0.00028732,
+      "annualized_basis_rate": 0.05324964,
+      "timestamp": 1782251100
+    },
+    {
+      "time": 1782252000000,
+      "index_price": 103612.16,
+      "futures_price": 103725.06,
+      "basis": 112.8963,
+      "basis_rate": 0.0010896,
+      "annualized_basis_rate": 0.06501909,
+      "timestamp": 1782252000
+    },
+    {
+      "time": 1782252900000,
+      "index_price": 103533.03,
+      "futures_price": 103618.83,
+      "basis": 85.7944,
+      "basis_rate": 0.00082867,
+      "annualized_basis_rate": 0.04952671,
+      "timestamp": 1782252900
+    },
+    {
+      "time": 1782253800000,
+      "index_price": 103724.06,
+      "futures_price": 103749.84,
+      "basis": 25.7812,
+      "basis_rate": 0.00024856,
+      "annualized_basis_rate": 0.05049167,
+      "timestamp": 1782253800
+    },
+    {
+      "time": 1782254700000,
+      "index_price": 103743.02,
+      "futures_price": 103812.88,
+      "basis": 69.8581,
+      "basis_rate": 0.00067338,
+      "annualized_basis_rate": 0.07374616,
+      "timestamp": 1782254700
+    },
+    {
+      "time": 1782255600000,
+      "index_price": 103706.03,
+      "futures_price": 103809.59,
+      "basis": 103.5626,
+      "basis_rate": 0.00099862,
+      "annualized_basis_rate": 0.06801992,
+      "timestamp": 1782255600
+    },
+    {
+      "time": 1782256500000,
+      "index_price": 103614.47,
+      "futures_price": 103677.18,
+      "basis": 62.7107,
+      "basis_rate": 0.00060523,
+      "annualized_basis_rate": 0.04910821,
+      "timestamp": 1782256500
+    },
+    {
+      "time": 1782257400000,
+      "index_price": 103693.88,
+      "futures_price": 103789.66,
+      "basis": 95.78,
+      "basis_rate": 0.00092368,
+      "annualized_basis_rate": 0.04713281,
+      "timestamp": 1782257400
+    },
+    {
+      "time": 1782258300000,
+      "index_price": 103791.76,
+      "futures_price": 103864.86,
+      "basis": 73.1059,
+      "basis_rate": 0.00070435,
+      "annualized_basis_rate": 0.05917407,
+      "timestamp": 1782258300
+    },
+    {
+      "time": 1782259200000,
+      "index_price": 103628.96,
+      "futures_price": 103733.64,
+      "basis": 104.6872,
+      "basis_rate": 0.00101021,
+      "annualized_basis_rate": 0.08744564,
+      "timestamp": 1782259200
+    },
+    {
+      "time": 1782260100000,
+      "index_price": 103853.68,
+      "futures_price": 103973.0,
+      "basis": 119.3222,
+      "basis_rate": 0.00114895,
+      "annualized_basis_rate": 0.03748515,
+      "timestamp": 1782260100
+    },
+    {
+      "time": 1782261000000,
+      "index_price": 103754.15,
+      "futures_price": 103865.61,
+      "basis": 111.4535,
+      "basis_rate": 0.00107421,
+      "annualized_basis_rate": 0.06979491,
+      "timestamp": 1782261000
+    },
+    {
+      "time": 1782261900000,
+      "index_price": 103697.96,
+      "futures_price": 103774.38,
+      "basis": 76.4134,
+      "basis_rate": 0.00073688,
+      "annualized_basis_rate": 0.09313061,
+      "timestamp": 1782261900
+    },
+    {
+      "time": 1782262800000,
+      "index_price": 103938.31,
+      "futures_price": 104043.27,
+      "basis": 104.9541,
+      "basis_rate": 0.00100977,
+      "annualized_basis_rate": 0.05299937,
+      "timestamp": 1782262800
+    },
+    {
+      "time": 1782263700000,
+      "index_price": 103827.02,
+      "futures_price": 103931.14,
+      "basis": 104.1106,
+      "basis_rate": 0.00100273,
+      "annualized_basis_rate": 0.02587553,
+      "timestamp": 1782263700
+    },
+    {
+      "time": 1782264600000,
+      "index_price": 103989.73,
+      "futures_price": 104117.17,
+      "basis": 127.4345,
+      "basis_rate": 0.00122545,
+      "annualized_basis_rate": 0.06540567,
+      "timestamp": 1782264600
+    },
+    {
+      "time": 1782265500000,
+      "index_price": 104050.92,
+      "futures_price": 104153.61,
+      "basis": 102.6899,
+      "basis_rate": 0.00098692,
+      "annualized_basis_rate": 0.08496524,
+      "timestamp": 1782265500
+    },
+    {
+      "time": 1782266400000,
+      "index_price": 104096.44,
+      "futures_price": 104193.37,
+      "basis": 96.9301,
+      "basis_rate": 0.00093116,
+      "annualized_basis_rate": 0.0374762,
+      "timestamp": 1782266400
+    },
+    {
+      "time": 1782267300000,
+      "index_price": 103986.73,
+      "futures_price": 104075.47,
+      "basis": 88.7399,
+      "basis_rate": 0.00085338,
+      "annualized_basis_rate": 0.0499633,
+      "timestamp": 1782267300
+    },
+    {
+      "time": 1782268200000,
+      "index_price": 104010.87,
+      "futures_price": 104111.0,
+      "basis": 100.1318,
+      "basis_rate": 0.00096271,
+      "annualized_basis_rate": 0.06214544,
+      "timestamp": 1782268200
+    },
+    {
+      "time": 1782269100000,
+      "index_price": 104150.21,
+      "futures_price": 104355.61,
+      "basis": 205.3984,
+      "basis_rate": 0.00197214,
+      "annualized_basis_rate": 0.08072603,
+      "timestamp": 1782269100
+    },
+    {
+      "time": 1782270000000,
+      "index_price": 104166.19,
+      "futures_price": 104265.37,
+      "basis": 99.1769,
+      "basis_rate": 0.0009521,
+      "annualized_basis_rate": 0.07249723,
+      "timestamp": 1782270000
+    },
+    {
+      "time": 1782270900000,
+      "index_price": 104172.09,
+      "futures_price": 104261.69,
+      "basis": 89.5995,
+      "basis_rate": 0.00086011,
+      "annualized_basis_rate": 0.07157465,
+      "timestamp": 1782270900
+    },
+    {
+      "time": 1782271800000,
+      "index_price": 104348.88,
+      "futures_price": 104443.69,
+      "basis": 94.8099,
+      "basis_rate": 0.00090859,
+      "annualized_basis_rate": 0.07623031,
+      "timestamp": 1782271800
+    },
+    {
+      "time": 1782272700000,
+      "index_price": 104296.26,
+      "futures_price": 104356.4,
+      "basis": 60.1434,
+      "basis_rate": 0.00057666,
+      "annualized_basis_rate": 0.05814366,
+      "timestamp": 1782272700
+    },
+    {
+      "time": 1782273600000,
+      "index_price": 104442.46,
+      "futures_price": 104540.0,
+      "basis": 97.5313,
+      "basis_rate": 0.00093383,
+      "annualized_basis_rate": 0.06544392,
+      "timestamp": 1782273600
+    },
+    {
+      "time": 1782274500000,
+      "index_price": 104384.18,
+      "futures_price": 104439.05,
+      "basis": 54.8632,
+      "basis_rate": 0.00052559,
+      "annualized_basis_rate": 0.07625752,
+      "timestamp": 1782274500
+    },
+    {
+      "time": 1782275400000,
+      "index_price": 104434.51,
+      "futures_price": 104489.32,
+      "basis": 54.8064,
+      "basis_rate": 0.00052479,
+      "annualized_basis_rate": 0.04419428,
+      "timestamp": 1782275400
+    },
+    {
+      "time": 1782276300000,
+      "index_price": 104456.52,
+      "futures_price": 104538.63,
+      "basis": 82.1109,
+      "basis_rate": 0.00078608,
+      "annualized_basis_rate": 0.08410305,
+      "timestamp": 1782276300
+    },
+    {
+      "time": 1782277200000,
+      "index_price": 104737.42,
+      "futures_price": 104852.01,
+      "basis": 114.589,
+      "basis_rate": 0.00109406,
+      "annualized_basis_rate": 0.07757683,
+      "timestamp": 1782277200
+    },
+    {
+      "time": 1782278100000,
+      "index_price": 104775.1,
+      "futures_price": 104816.86,
+      "basis": 41.7589,
+      "basis_rate": 0.00039856,
+      "annualized_basis_rate": 0.06063267,
+      "timestamp": 1782278100
+    },
+    {
+      "time": 1782279000000,
+      "index_price": 104702.54,
+      "futures_price": 104807.93,
+      "basis": 105.3969,
+      "basis_rate": 0.00100663,
+      "annualized_basis_rate": 0.03336492,
+      "timestamp": 1782279000
+    },
+    {
+      "time": 1782279900000,
+      "index_price": 104860.27,
+      "futures_price": 104954.45,
+      "basis": 94.188,
+      "basis_rate": 0.00089822,
+      "annualized_basis_rate": 0.03952472,
+      "timestamp": 1782279900
+    },
+    {
+      "time": 1782280800000,
+      "index_price": 104936.04,
+      "futures_price": 105041.62,
+      "basis": 105.5793,
+      "basis_rate": 0.00100613,
+      "annualized_basis_rate": 0.02205003,
+      "timestamp": 1782280800
+    },
+    {
+      "time": 1782281700000,
+      "index_price": 104933.71,
+      "futures_price": 105051.24,
+      "basis": 117.5298,
+      "basis_rate": 0.00112004,
+      "annualized_basis_rate": 0.04174581,
+      "timestamp": 1782281700
+    },
+    {
+      "time": 1782282600000,
+      "index_price": 105001.44,
+      "futures_price": 105058.2,
+      "basis": 56.7556,
+      "basis_rate": 0.00054052,
+      "annualized_basis_rate": 0.00900264,
+      "timestamp": 1782282600
+    },
+    {
+      "time": 1782283500000,
+      "index_price": 105162.56,
+      "futures_price": 105214.52,
+      "basis": 51.9556,
+      "basis_rate": 0.00049405,
+      "annualized_basis_rate": 0.08765173,
+      "timestamp": 1782283500
+    },
+    {
+      "time": 1782284400000,
+      "index_price": 105172.09,
+      "futures_price": 105316.4,
+      "basis": 144.3156,
+      "basis_rate": 0.00137219,
+      "annualized_basis_rate": 0.10424261,
+      "timestamp": 1782284400
+    },
+    {
+      "time": 1782285300000,
+      "index_price": 105141.47,
+      "futures_price": 105249.64,
+      "basis": 108.1758,
+      "basis_rate": 0.00102886,
+      "annualized_basis_rate": 0.04856239,
+      "timestamp": 1782285300
+    },
+    {
+      "time": 1782286200000,
+      "index_price": 105117.81,
+      "futures_price": 105164.19,
+      "basis": 46.3762,
+      "basis_rate": 0.00044118,
+      "annualized_basis_rate": 0.02843567,
+      "timestamp": 1782286200
+    },
+    {
+      "time": 1782287100000,
+      "index_price": 105307.51,
+      "futures_price": 105413.48,
+      "basis": 105.9727,
+      "basis_rate": 0.00100632,
+      "annualized_basis_rate": 0.06459463,
+      "timestamp": 1782287100
+    },
+    {
+      "time": 1782288000000,
+      "index_price": 105348.56,
+      "futures_price": 105419.55,
+      "basis": 70.9965,
+      "basis_rate": 0.00067392,
+      "annualized_basis_rate": 0.06889441,
+      "timestamp": 1782288000
+    },
+    {
+      "time": 1782288900000,
+      "index_price": 105384.64,
+      "futures_price": 105509.62,
+      "basis": 124.9797,
+      "basis_rate": 0.00118594,
+      "annualized_basis_rate": 0.05424232,
+      "timestamp": 1782288900
+    },
+    {
+      "time": 1782289800000,
+      "index_price": 105492.69,
+      "futures_price": 105588.12,
+      "basis": 95.43,
+      "basis_rate": 0.00090461,
+      "annualized_basis_rate": 0.06234407,
+      "timestamp": 1782289800
+    },
+    {
+      "time": 1782290700000,
+      "index_price": 105573.85,
+      "futures_price": 105685.61,
+      "basis": 111.7626,
+      "basis_rate": 0.00105862,
+      "annualized_basis_rate": 0.0735885,
+      "timestamp": 1782290700
+    },
+    {
+      "time": 1782291600000,
+      "index_price": 105471.41,
+      "futures_price": 105565.09,
+      "basis": 93.6813,
+      "basis_rate": 0.00088822,
+      "annualized_basis_rate": 0.03323624,
+      "timestamp": 1782291600
+    },
+    {
+      "time": 1782292500000,
+      "index_price": 105476.06,
+      "futures_price": 105554.62,
+      "basis": 78.56,
+      "basis_rate": 0.00074481,
+      "annualized_basis_rate": 0.04239171,
+      "timestamp": 1782292500
+    },
+    {
+      "time": 1782293400000,
+      "index_price": 105602.15,
+      "futures_price": 105651.26,
+      "basis": 49.1062,
+      "basis_rate": 0.00046501,
+      "annualized_basis_rate": 0.04842566,
+      "timestamp": 1782293400
+    },
+    {
+      "time": 1782294300000,
+      "index_price": 105620.89,
+      "futures_price": 105717.54,
+      "basis": 96.6552,
+      "basis_rate": 0.00091511,
+      "annualized_basis_rate": 0.04798713,
+      "timestamp": 1782294300
+    },
+    {
+      "time": 1782295200000,
+      "index_price": 105639.69,
+      "futures_price": 105717.95,
+      "basis": 78.2555,
+      "basis_rate": 0.00074078,
+      "annualized_basis_rate": 0.02130381,
+      "timestamp": 1782295200
+    },
+    {
+      "time": 1782296100000,
+      "index_price": 105855.35,
+      "futures_price": 105940.49,
+      "basis": 85.1365,
+      "basis_rate": 0.00080427,
+      "annualized_basis_rate": 0.04098427,
+      "timestamp": 1782296100
+    },
+    {
+      "time": 1782297000000,
+      "index_price": 105771.97,
+      "futures_price": 105907.21,
+      "basis": 135.2408,
+      "basis_rate": 0.00127861,
+      "annualized_basis_rate": 0.06487316,
+      "timestamp": 1782297000
+    },
+    {
+      "time": 1782297900000,
+      "index_price": 105844.45,
+      "futures_price": 105929.4,
+      "basis": 84.9543,
+      "basis_rate": 0.00080263,
+      "annualized_basis_rate": 0.06857083,
+      "timestamp": 1782297900
+    },
+    {
+      "time": 1782298800000,
+      "index_price": 105780.85,
+      "futures_price": 105857.48,
+      "basis": 76.6298,
+      "basis_rate": 0.00072442,
+      "annualized_basis_rate": 0.09252684,
+      "timestamp": 1782298800
+    },
+    {
+      "time": 1782299700000,
+      "index_price": 105966.41,
+      "futures_price": 106057.13,
+      "basis": 90.7244,
+      "basis_rate": 0.00085616,
+      "annualized_basis_rate": 0.07436585,
+      "timestamp": 1782299700
+    },
+    {
+      "time": 1782300600000,
+      "index_price": 106007.97,
+      "futures_price": 106114.66,
+      "basis": 106.6941,
+      "basis_rate": 0.00100647,
+      "annualized_basis_rate": 0.02546293,
+      "timestamp": 1782300600
+    },
+    {
+      "time": 1782301500000,
+      "index_price": 105954.43,
+      "futures_price": 105983.89,
+      "basis": 29.4613,
+      "basis_rate": 0.00027806,
+      "annualized_basis_rate": 0.06342236,
+      "timestamp": 1782301500
+    },
+    {
+      "time": 1782302400000,
+      "index_price": 105939.77,
+      "futures_price": 106026.09,
+      "basis": 86.3168,
+      "basis_rate": 0.00081477,
+      "annualized_basis_rate": 0.04628013,
+      "timestamp": 1782302400
+    },
+    {
+      "time": 1782303300000,
+      "index_price": 106016.25,
+      "futures_price": 106133.88,
+      "basis": 117.6343,
+      "basis_rate": 0.00110959,
+      "annualized_basis_rate": 0.05517547,
+      "timestamp": 1782303300
+    },
+    {
+      "time": 1782304200000,
+      "index_price": 106094.77,
+      "futures_price": 106191.63,
+      "basis": 96.8576,
+      "basis_rate": 0.00091293,
+      "annualized_basis_rate": 0.01972886,
+      "timestamp": 1782304200
+    },
+    {
+      "time": 1782305100000,
+      "index_price": 105975.4,
+      "futures_price": 106064.44,
+      "basis": 89.0413,
+      "basis_rate": 0.00084021,
+      "annualized_basis_rate": 0.07000776,
+      "timestamp": 1782305100
+    },
+    {
+      "time": 1782306000000,
+      "index_price": 105999.7,
+      "futures_price": 106094.59,
+      "basis": 94.8933,
+      "basis_rate": 0.00089522,
+      "annualized_basis_rate": 0.09086184,
+      "timestamp": 1782306000
+    },
+    {
+      "time": 1782306900000,
+      "index_price": 106090.06,
+      "futures_price": 106234.89,
+      "basis": 144.8235,
+      "basis_rate": 0.0013651,
+      "annualized_basis_rate": 0.01276917,
+      "timestamp": 1782306900
+    },
+    {
+      "time": 1782307800000,
+      "index_price": 106033.82,
+      "futures_price": 106101.65,
+      "basis": 67.829,
+      "basis_rate": 0.00063969,
+      "annualized_basis_rate": 0.02308118,
+      "timestamp": 1782307800
+    },
+    {
+      "time": 1782308700000,
+      "index_price": 106118.53,
+      "futures_price": 106241.04,
+      "basis": 122.5145,
+      "basis_rate": 0.00115451,
+      "annualized_basis_rate": 0.08052965,
+      "timestamp": 1782308700
+    },
+    {
+      "time": 1782309600000,
+      "index_price": 105978.09,
+      "futures_price": 106098.83,
+      "basis": 120.7399,
+      "basis_rate": 0.00113929,
+      "annualized_basis_rate": 0.03066858,
+      "timestamp": 1782309600
+    },
+    {
+      "time": 1782310500000,
+      "index_price": 105972.27,
+      "futures_price": 106066.96,
+      "basis": 94.6889,
+      "basis_rate": 0.00089353,
+      "annualized_basis_rate": 0.03319401,
+      "timestamp": 1782310500
+    },
+    {
+      "time": 1782311400000,
+      "index_price": 106063.76,
+      "futures_price": 106133.65,
+      "basis": 69.889,
+      "basis_rate": 0.00065893,
+      "annualized_basis_rate": 0.06156169,
+      "timestamp": 1782311400
+    },
+    {
+      "time": 1782312300000,
+      "index_price": 106114.06,
+      "futures_price": 106190.8,
+      "basis": 76.7435,
+      "basis_rate": 0.00072322,
+      "annualized_basis_rate": 0.05839286,
+      "timestamp": 1782312300
+    },
+    {
+      "time": 1782313200000,
+      "index_price": 105930.78,
+      "futures_price": 105980.85,
+      "basis": 50.0736,
+      "basis_rate": 0.0004727,
+      "annualized_basis_rate": 0.04759837,
+      "timestamp": 1782313200
+    },
+    {
+      "time": 1782314100000,
+      "index_price": 106087.32,
+      "futures_price": 106176.85,
+      "basis": 89.5289,
+      "basis_rate": 0.00084392,
+      "annualized_basis_rate": 0.04976591,
+      "timestamp": 1782314100
+    },
+    {
+      "time": 1782315000000,
+      "index_price": 105954.53,
+      "futures_price": 106074.35,
+      "basis": 119.8232,
+      "basis_rate": 0.00113089,
+      "annualized_basis_rate": 0.0435433,
+      "timestamp": 1782315000
+    },
+    {
+      "time": 1782315900000,
+      "index_price": 105986.28,
+      "futures_price": 106075.77,
+      "basis": 89.4918,
+      "basis_rate": 0.00084437,
+      "annualized_basis_rate": 0.0619877,
+      "timestamp": 1782315900
+    },
+    {
+      "time": 1782316800000,
+      "index_price": 105987.09,
+      "futures_price": 106092.96,
+      "basis": 105.8686,
+      "basis_rate": 0.00099888,
+      "annualized_basis_rate": 0.03860755,
+      "timestamp": 1782316800
+    },
+    {
+      "time": 1782317700000,
+      "index_price": 105919.68,
+      "futures_price": 106027.34,
+      "basis": 107.6575,
+      "basis_rate": 0.00101641,
+      "annualized_basis_rate": 0.04875612,
+      "timestamp": 1782317700
+    },
+    {
+      "time": 1782318600000,
+      "index_price": 105941.76,
+      "futures_price": 105996.36,
+      "basis": 54.5945,
+      "basis_rate": 0.00051533,
+      "annualized_basis_rate": 0.05796557,
+      "timestamp": 1782318600
+    },
+    {
+      "time": 1782319500000,
+      "index_price": 105801.35,
+      "futures_price": 105907.11,
+      "basis": 105.7622,
+      "basis_rate": 0.00099963,
+      "annualized_basis_rate": 0.04477798,
+      "timestamp": 1782319500
+    },
+    {
+      "time": 1782320400000,
+      "index_price": 105868.32,
+      "futures_price": 105986.08,
+      "basis": 117.7569,
+      "basis_rate": 0.0011123,
+      "annualized_basis_rate": 0.04286689,
+      "timestamp": 1782320400
+    },
+    {
+      "time": 1782321300000,
+      "index_price": 105822.07,
+      "futures_price": 105902.4,
+      "basis": 80.3347,
+      "basis_rate": 0.00075915,
+      "annualized_basis_rate": 0.03181898,
+      "timestamp": 1782321300
+    },
+    {
+      "time": 1782322200000,
+      "index_price": 105811.75,
+      "futures_price": 105865.19,
+      "basis": 53.4426,
+      "basis_rate": 0.00050507,
+      "annualized_basis_rate": 0.08011495,
+      "timestamp": 1782322200
+    },
+    {
+      "time": 1782323100000,
+      "index_price": 105726.93,
+      "futures_price": 105780.5,
+      "basis": 53.5753,
+      "basis_rate": 0.00050673,
+      "annualized_basis_rate": 0.06696308,
+      "timestamp": 1782323100
+    },
+    {
+      "time": 1782324000000,
+      "index_price": 105729.47,
+      "futures_price": 105841.05,
+      "basis": 111.5731,
+      "basis_rate": 0.00105527,
+      "annualized_basis_rate": 0.06118132,
+      "timestamp": 1782324000
+    },
+    {
+      "time": 1782324900000,
+      "index_price": 105672.95,
+      "futures_price": 105816.93,
+      "basis": 143.98,
+      "basis_rate": 0.00136251,
+      "annualized_basis_rate": 0.0388894,
+      "timestamp": 1782324900
+    },
+    {
+      "time": 1782325800000,
+      "index_price": 105669.61,
+      "futures_price": 105797.87,
+      "basis": 128.2542,
+      "basis_rate": 0.00121373,
+      "annualized_basis_rate": 0.04187573,
+      "timestamp": 1782325800
+    },
+    {
+      "time": 1782326700000,
+      "index_price": 105681.66,
+      "futures_price": 105744.06,
+      "basis": 62.4045,
+      "basis_rate": 0.0005905,
+      "annualized_basis_rate": 0.04711874,
+      "timestamp": 1782326700
+    },
+    {
+      "time": 1782327600000,
+      "index_price": 105603.05,
+      "futures_price": 105616.2,
+      "basis": 13.1499,
+      "basis_rate": 0.00012452,
+      "annualized_basis_rate": 0.02974215,
+      "timestamp": 1782327600
+    },
+    {
+      "time": 1782328500000,
+      "index_price": 105627.9,
+      "futures_price": 105721.51,
+      "basis": 93.6056,
+      "basis_rate": 0.00088618,
+      "annualized_basis_rate": 0.04696273,
+      "timestamp": 1782328500
+    },
+    {
+      "time": 1782329400000,
+      "index_price": 105371.89,
+      "futures_price": 105484.75,
+      "basis": 112.8558,
+      "basis_rate": 0.00107102,
+      "annualized_basis_rate": 0.06323572,
+      "timestamp": 1782329400
+    },
+    {
+      "time": 1782330300000,
+      "index_price": 105372.31,
+      "futures_price": 105452.36,
+      "basis": 80.0543,
+      "basis_rate": 0.00075973,
+      "annualized_basis_rate": 0.06783173,
+      "timestamp": 1782330300
+    },
+    {
+      "time": 1782331200000,
+      "index_price": 105369.75,
+      "futures_price": 105438.58,
+      "basis": 68.8274,
+      "basis_rate": 0.0006532,
+      "annualized_basis_rate": 0.05632196,
+      "timestamp": 1782331200
+    },
+    {
+      "time": 1782332100000,
+      "index_price": 105269.79,
+      "futures_price": 105350.27,
+      "basis": 80.4844,
+      "basis_rate": 0.00076455,
+      "annualized_basis_rate": 0.03300157,
+      "timestamp": 1782332100
+    },
+    {
+      "time": 1782333000000,
+      "index_price": 105390.37,
+      "futures_price": 105486.09,
+      "basis": 95.7203,
+      "basis_rate": 0.00090825,
+      "annualized_basis_rate": 0.05390488,
+      "timestamp": 1782333000
+    },
+    {
+      "time": 1782333900000,
+      "index_price": 105374.24,
+      "futures_price": 105467.9,
+      "basis": 93.6533,
+      "basis_rate": 0.00088877,
+      "annualized_basis_rate": 0.04957277,
+      "timestamp": 1782333900
+    },
+    {
+      "time": 1782334800000,
+      "index_price": 105282.92,
+      "futures_price": 105436.36,
+      "basis": 153.4454,
+      "basis_rate": 0.00145746,
+      "annualized_basis_rate": 0.02468241,
+      "timestamp": 1782334800
+    },
+    {
+      "time": 1782335700000,
+      "index_price": 105242.83,
+      "futures_price": 105309.03,
+      "basis": 66.1942,
+      "basis_rate": 0.00062897,
+      "annualized_basis_rate": 0.05430832,
+      "timestamp": 1782335700
+    },
+    {
+      "time": 1782336600000,
+      "index_price": 105026.29,
+      "futures_price": 105080.22,
+      "basis": 53.9358,
+      "basis_rate": 0.00051355,
+      "annualized_basis_rate": 0.04794415,
+      "timestamp": 1782336600
+    },
+    {
+      "time": 1782337500000,
+      "index_price": 105135.77,
+      "futures_price": 105245.51,
+      "basis": 109.7425,
+      "basis_rate": 0.00104382,
+      "annualized_basis_rate": 0.08441092,
+      "timestamp": 1782337500
+    },
+    {
+      "time": 1782338400000,
+      "index_price": 104954.87,
+      "futures_price": 105024.21,
+      "basis": 69.3343,
+      "basis_rate": 0.00066061,
+      "annualized_basis_rate": 0.0622358,
+      "timestamp": 1782338400
+    },
+    {
+      "time": 1782339300000,
+      "index_price": 104955.61,
+      "futures_price": 105063.25,
+      "basis": 107.6357,
+      "basis_rate": 0.00102553,
+      "annualized_basis_rate": 0.05110396,
+      "timestamp": 1782339300
+    },
+    {
+      "time": 1782340200000,
+      "index_price": 104826.1,
+      "futures_price": 104894.81,
+      "basis": 68.7058,
+      "basis_rate": 0.00065543,
+      "annualized_basis_rate": 0.06451848,
+      "timestamp": 1782340200
+    },
+    {
+      "time": 1782341100000,
+      "index_price": 104785.31,
+      "futures_price": 104924.48,
+      "basis": 139.1644,
+      "basis_rate": 0.00132809,
+      "annualized_basis_rate": 0.07163564,
+      "timestamp": 1782341100
+    },
+    {
+      "time": 1782342000000,
+      "index_price": 104785.35,
+      "futures_price": 104910.88,
+      "basis": 125.5335,
+      "basis_rate": 0.00119801,
+      "annualized_basis_rate": 0.0564399,
+      "timestamp": 1782342000
+    },
+    {
+      "time": 1782342900000,
+      "index_price": 104748.04,
+      "futures_price": 104819.88,
+      "basis": 71.8384,
+      "basis_rate": 0.00068582,
+      "annualized_basis_rate": 0.04132589,
+      "timestamp": 1782342900
+    },
+    {
+      "time": 1782343800000,
+      "index_price": 104762.11,
+      "futures_price": 104861.39,
+      "basis": 99.2827,
+      "basis_rate": 0.0009477,
+      "annualized_basis_rate": 0.06586134,
+      "timestamp": 1782343800
+    },
+    {
+      "time": 1782344700000,
+      "index_price": 104759.63,
+      "futures_price": 104831.37,
+      "basis": 71.7405,
+      "basis_rate": 0.00068481,
+      "annualized_basis_rate": 0.06074496,
+      "timestamp": 1782344700
+    },
+    {
+      "time": 1782345600000,
+      "index_price": 104675.2,
+      "futures_price": 104818.42,
+      "basis": 143.2175,
+      "basis_rate": 0.00136821,
+      "annualized_basis_rate": 0.04532777,
+      "timestamp": 1782345600
+    },
+    {
+      "time": 1782346500000,
+      "index_price": 104600.39,
+      "futures_price": 104700.04,
+      "basis": 99.6477,
+      "basis_rate": 0.00095265,
+      "annualized_basis_rate": 0.05729258,
+      "timestamp": 1782346500
+    },
+    {
+      "time": 1782347400000,
+      "index_price": 104575.78,
+      "futures_price": 104607.61,
+      "basis": 31.8366,
+      "basis_rate": 0.00030444,
+      "annualized_basis_rate": 0.0365162,
+      "timestamp": 1782347400
+    },
+    {
+      "time": 1782348300000,
+      "index_price": 104645.43,
+      "futures_price": 104712.63,
+      "basis": 67.1938,
+      "basis_rate": 0.00064211,
+      "annualized_basis_rate": 0.05722952,
+      "timestamp": 1782348300
+    },
+    {
+      "time": 1782349200000,
+      "index_price": 104526.22,
+      "futures_price": 104668.71,
+      "basis": 142.4875,
+      "basis_rate": 0.00136317,
+      "annualized_basis_rate": 0.04825351,
+      "timestamp": 1782349200
+    },
+    {
+      "time": 1782350100000,
+      "index_price": 104588.41,
+      "futures_price": 104657.27,
+      "basis": 68.8671,
+      "basis_rate": 0.00065846,
+      "annualized_basis_rate": 0.06411179,
+      "timestamp": 1782350100
+    },
+    {
+      "time": 1782351000000,
+      "index_price": 104499.97,
+      "futures_price": 104666.11,
+      "basis": 166.1327,
+      "basis_rate": 0.00158979,
+      "annualized_basis_rate": 0.08030489,
+      "timestamp": 1782351000
+    },
+    {
+      "time": 1782351900000,
+      "index_price": 104419.0,
+      "futures_price": 104454.09,
+      "basis": 35.0866,
+      "basis_rate": 0.00033602,
+      "annualized_basis_rate": 0.05918069,
+      "timestamp": 1782351900
+    },
+    {
+      "time": 1782352800000,
+      "index_price": 104562.73,
+      "futures_price": 104671.67,
+      "basis": 108.9434,
+      "basis_rate": 0.0010419,
+      "annualized_basis_rate": 0.05796458,
+      "timestamp": 1782352800
+    },
+    {
+      "time": 1782353700000,
+      "index_price": 104583.84,
+      "futures_price": 104663.39,
+      "basis": 79.5495,
+      "basis_rate": 0.00076063,
+      "annualized_basis_rate": 0.04396358,
+      "timestamp": 1782353700
+    },
+    {
+      "time": 1782354600000,
+      "index_price": 104393.44,
+      "futures_price": 104520.32,
+      "basis": 126.8731,
+      "basis_rate": 0.00121534,
+      "annualized_basis_rate": 0.06588788,
+      "timestamp": 1782354600
+    },
+    {
+      "time": 1782355500000,
+      "index_price": 104511.09,
+      "futures_price": 104656.57,
+      "basis": 145.4851,
+      "basis_rate": 0.00139205,
+      "annualized_basis_rate": 0.0901037,
+      "timestamp": 1782355500
+    },
+    {
+      "time": 1782356400000,
+      "index_price": 104434.9,
+      "futures_price": 104525.97,
+      "basis": 91.0733,
+      "basis_rate": 0.00087206,
+      "annualized_basis_rate": 0.0700586,
+      "timestamp": 1782356400
+    },
+    {
+      "time": 1782357300000,
+      "index_price": 104434.39,
+      "futures_price": 104537.91,
+      "basis": 103.5163,
+      "basis_rate": 0.00099121,
+      "annualized_basis_rate": 0.03560542,
+      "timestamp": 1782357300
+    },
+    {
+      "time": 1782358200000,
+      "index_price": 104560.61,
+      "futures_price": 104575.95,
+      "basis": 15.3404,
+      "basis_rate": 0.00014671,
+      "annualized_basis_rate": 0.07356762,
+      "timestamp": 1782358200
+    },
+    {
+      "time": 1782359100000,
+      "index_price": 104449.91,
+      "futures_price": 104524.93,
+      "basis": 75.0267,
+      "basis_rate": 0.0007183,
+      "annualized_basis_rate": 0.05584279,
+      "timestamp": 1782359100
+    },
+    {
+      "time": 1782360000000,
+      "index_price": 104532.54,
+      "futures_price": 104583.68,
+      "basis": 51.1381,
+      "basis_rate": 0.00048921,
+      "annualized_basis_rate": 0.06557401,
+      "timestamp": 1782360000
+    },
+    {
+      "time": 1782360900000,
+      "index_price": 104402.48,
+      "futures_price": 104540.33,
+      "basis": 137.846,
+      "basis_rate": 0.00132033,
+      "annualized_basis_rate": 0.06185316,
+      "timestamp": 1782360900
+    },
+    {
+      "time": 1782361800000,
+      "index_price": 104380.27,
+      "futures_price": 104510.08,
+      "basis": 129.8127,
+      "basis_rate": 0.00124365,
+      "annualized_basis_rate": 0.068423,
+      "timestamp": 1782361800
+    },
+    {
+      "time": 1782362700000,
+      "index_price": 104480.65,
+      "futures_price": 104508.21,
+      "basis": 27.5673,
+      "basis_rate": 0.00026385,
+      "annualized_basis_rate": 0.06327579,
+      "timestamp": 1782362700
+    },
+    {
+      "time": 1782363600000,
+      "index_price": 104425.88,
+      "futures_price": 104478.88,
+      "basis": 52.9953,
+      "basis_rate": 0.00050749,
+      "annualized_basis_rate": 0.06605474,
+      "timestamp": 1782363600
+    },
+    {
+      "time": 1782364500000,
+      "index_price": 104533.71,
+      "futures_price": 104626.13,
+      "basis": 92.4265,
+      "basis_rate": 0.00088418,
+      "annualized_basis_rate": 0.0776895,
+      "timestamp": 1782364500
+    },
+    {
+      "time": 1782365400000,
+      "index_price": 104591.32,
+      "futures_price": 104685.17,
+      "basis": 93.8514,
+      "basis_rate": 0.00089732,
+      "annualized_basis_rate": 0.04386198,
+      "timestamp": 1782365400
+    },
+    {
+      "time": 1782366300000,
+      "index_price": 104669.02,
+      "futures_price": 104707.25,
+      "basis": 38.2255,
+      "basis_rate": 0.0003652,
+      "annualized_basis_rate": 0.08484898,
+      "timestamp": 1782366300
+    },
+    {
+      "time": 1782367200000,
+      "index_price": 104542.9,
+      "futures_price": 104615.31,
+      "basis": 72.413,
+      "basis_rate": 0.00069266,
+      "annualized_basis_rate": 0.05340857,
+      "timestamp": 1782367200
+    },
+    {
+      "time": 1782368100000,
+      "index_price": 104685.21,
+      "futures_price": 104791.81,
+      "basis": 106.6048,
+      "basis_rate": 0.00101834,
+      "annualized_basis_rate": 0.0462444,
+      "timestamp": 1782368100
+    },
+    {
+      "time": 1782369000000,
+      "index_price": 104738.26,
+      "futures_price": 104808.44,
+      "basis": 70.1857,
+      "basis_rate": 0.00067011,
+      "annualized_basis_rate": 0.0693908,
+      "timestamp": 1782369000
+    },
+    {
+      "time": 1782369900000,
+      "index_price": 104764.98,
+      "futures_price": 104819.19,
+      "basis": 54.2142,
+      "basis_rate": 0.00051748,
+      "annualized_basis_rate": 0.06218449,
+      "timestamp": 1782369900
+    },
+    {
+      "time": 1782370800000,
+      "index_price": 104787.52,
+      "futures_price": 104873.06,
+      "basis": 85.5391,
+      "basis_rate": 0.00081631,
+      "annualized_basis_rate": 0.05672919,
+      "timestamp": 1782370800
+    },
+    {
+      "time": 1782371700000,
+      "index_price": 104721.34,
+      "futures_price": 104781.79,
+      "basis": 60.4543,
+      "basis_rate": 0.00057729,
+      "annualized_basis_rate": 0.05316327,
+      "timestamp": 1782371700
+    },
+    {
+      "time": 1782372600000,
+      "index_price": 104732.48,
+      "futures_price": 104880.77,
+      "basis": 148.2858,
+      "basis_rate": 0.00141585,
+      "annualized_basis_rate": 0.072084,
+      "timestamp": 1782372600
+    },
+    {
+      "time": 1782373500000,
+      "index_price": 104808.83,
+      "futures_price": 104883.49,
+      "basis": 74.6619,
+      "basis_rate": 0.00071236,
+      "annualized_basis_rate": 0.04636136,
+      "timestamp": 1782373500
+    },
+    {
+      "time": 1782374400000,
+      "index_price": 104812.67,
+      "futures_price": 104956.19,
+      "basis": 143.5174,
+      "basis_rate": 0.00136928,
+      "annualized_basis_rate": 0.04876442,
+      "timestamp": 1782374400
+    },
+    {
+      "time": 1782375300000,
+      "index_price": 104972.8,
+      "futures_price": 105053.45,
+      "basis": 80.6539,
+      "basis_rate": 0.00076833,
+      "annualized_basis_rate": 0.02200939,
+      "timestamp": 1782375300
+    },
+    {
+      "time": 1782376200000,
+      "index_price": 105036.49,
+      "futures_price": 105140.6,
+      "basis": 104.1055,
+      "basis_rate": 0.00099114,
+      "annualized_basis_rate": 0.0635567,
+      "timestamp": 1782376200
+    },
+    {
+      "time": 1782377100000,
+      "index_price": 104934.65,
+      "futures_price": 104963.46,
+      "basis": 28.8131,
+      "basis_rate": 0.00027458,
+      "annualized_basis_rate": 0.07864894,
+      "timestamp": 1782377100
+    },
+    {
+      "time": 1782378000000,
+      "index_price": 105160.0,
+      "futures_price": 105192.71,
+      "basis": 32.7139,
+      "basis_rate": 0.00031109,
+      "annualized_basis_rate": 0.05445679,
+      "timestamp": 1782378000
+    },
+    {
+      "time": 1782378900000,
+      "index_price": 105112.32,
+      "futures_price": 105196.8,
+      "basis": 84.4849,
+      "basis_rate": 0.00080376,
+      "annualized_basis_rate": 0.03828502,
+      "timestamp": 1782378900
+    },
+    {
+      "time": 1782379800000,
+      "index_price": 105079.53,
+      "futures_price": 105103.2,
+      "basis": 23.6668,
+      "basis_rate": 0.00022523,
+      "annualized_basis_rate": 0.05067956,
+      "timestamp": 1782379800
+    },
+    {
+      "time": 1782380700000,
+      "index_price": 105128.02,
+      "futures_price": 105221.11,
+      "basis": 93.0909,
+      "basis_rate": 0.0008855,
+      "annualized_basis_rate": 0.06008537,
+      "timestamp": 1782380700
+    },
+    {
+      "time": 1782381600000,
+      "index_price": 105332.27,
+      "futures_price": 105408.01,
+      "basis": 75.7379,
+      "basis_rate": 0.00071904,
+      "annualized_basis_rate": 0.04529849,
+      "timestamp": 1782381600
+    },
+    {
+      "time": 1782382500000,
+      "index_price": 105371.53,
+      "futures_price": 105462.34,
+      "basis": 90.8081,
+      "basis_rate": 0.00086179,
+      "annualized_basis_rate": 0.06538965,
+      "timestamp": 1782382500
+    },
+    {
+      "time": 1782383400000,
+      "index_price": 105331.89,
+      "futures_price": 105474.11,
+      "basis": 142.2174,
+      "basis_rate": 0.00135018,
+      "annualized_basis_rate": 0.0805904,
+      "timestamp": 1782383400
+    },
+    {
+      "time": 1782384300000,
+      "index_price": 105562.49,
+      "futures_price": 105675.49,
+      "basis": 112.9935,
+      "basis_rate": 0.00107039,
+      "annualized_basis_rate": 0.03101354,
+      "timestamp": 1782384300
+    },
+    {
+      "time": 1782385200000,
+      "index_price": 105589.53,
+      "futures_price": 105644.94,
+      "basis": 55.4097,
+      "basis_rate": 0.00052477,
+      "annualized_basis_rate": 0.04964078,
+      "timestamp": 1782385200
+    },
+    {
+      "time": 1782386100000,
+      "index_price": 105572.05,
+      "futures_price": 105658.29,
+      "basis": 86.2417,
+      "basis_rate": 0.0008169,
+      "annualized_basis_rate": 0.04651177,
+      "timestamp": 1782386100
+    },
+    {
+      "time": 1782387000000,
+      "index_price": 105678.32,
+      "futures_price": 105757.79,
+      "basis": 79.4756,
+      "basis_rate": 0.00075205,
+      "annualized_basis_rate": 0.03819961,
+      "timestamp": 1782387000
+    },
+    {
+      "time": 1782387900000,
+      "index_price": 105792.39,
+      "futures_price": 105919.0,
+      "basis": 126.6141,
+      "basis_rate": 0.00119682,
+      "annualized_basis_rate": 0.06789359,
+      "timestamp": 1782387900
+    },
+    {
+      "time": 1782388800000,
+      "index_price": 105703.57,
+      "futures_price": 105763.99,
+      "basis": 60.4168,
+      "basis_rate": 0.00057157,
+      "annualized_basis_rate": 0.0552122,
+      "timestamp": 1782388800
+    },
+    {
+      "time": 1782389700000,
+      "index_price": 105725.75,
+      "futures_price": 105795.51,
+      "basis": 69.7624,
+      "basis_rate": 0.00065984,
+      "annualized_basis_rate": 0.04917771,
+      "timestamp": 1782389700
+    },
+    {
+      "time": 1782390600000,
+      "index_price": 105791.18,
+      "futures_price": 105906.62,
+      "basis": 115.4374,
+      "basis_rate": 0.00109118,
+      "annualized_basis_rate": 0.04518065,
+      "timestamp": 1782390600
+    },
+    {
+      "time": 1782391500000,
+      "index_price": 106028.29,
+      "futures_price": 106091.18,
+      "basis": 62.888,
+      "basis_rate": 0.00059312,
+      "annualized_basis_rate": 0.03413217,
+      "timestamp": 1782391500
+    },
+    {
+      "time": 1782392400000,
+      "index_price": 105958.58,
+      "futures_price": 106044.81,
+      "basis": 86.2297,
+      "basis_rate": 0.00081381,
+      "annualized_basis_rate": 0.02586215,
+      "timestamp": 1782392400
+    },
+    {
+      "time": 1782393300000,
+      "index_price": 106121.0,
+      "futures_price": 106122.48,
+      "basis": 1.4811,
+      "basis_rate": 1.396e-05,
+      "annualized_basis_rate": 0.05153491,
+      "timestamp": 1782393300
+    },
+    {
+      "time": 1782394200000,
+      "index_price": 105987.53,
+      "futures_price": 106018.66,
+      "basis": 31.1322,
+      "basis_rate": 0.00029373,
+      "annualized_basis_rate": 0.01333349,
+      "timestamp": 1782394200
+    },
+    {
+      "time": 1782395100000,
+      "index_price": 106154.79,
+      "futures_price": 106192.62,
+      "basis": 37.8313,
+      "basis_rate": 0.00035638,
+      "annualized_basis_rate": 0.04541801,
+      "timestamp": 1782395100
+    },
+    {
+      "time": 1782396000000,
+      "index_price": 106284.81,
+      "futures_price": 106403.25,
+      "basis": 118.4368,
+      "basis_rate": 0.00111433,
+      "annualized_basis_rate": 0.03174657,
+      "timestamp": 1782396000
+    },
+    {
+      "time": 1782396900000,
+      "index_price": 106356.68,
+      "futures_price": 106457.28,
+      "basis": 100.6006,
+      "basis_rate": 0.00094588,
+      "annualized_basis_rate": 0.06544722,
+      "timestamp": 1782396900
+    },
+    {
+      "time": 1782397800000,
+      "index_price": 106324.98,
+      "futures_price": 106421.04,
+      "basis": 96.0583,
+      "basis_rate": 0.00090344,
+      "annualized_basis_rate": 0.0509114,
+      "timestamp": 1782397800
+    },
+    {
+      "time": 1782398700000,
+      "index_price": 106475.87,
+      "futures_price": 106578.86,
+      "basis": 102.9828,
+      "basis_rate": 0.00096719,
+      "annualized_basis_rate": 0.06969901,
+      "timestamp": 1782398700
+    },
+    {
+      "time": 1782399600000,
+      "index_price": 106467.88,
+      "futures_price": 106561.98,
+      "basis": 94.0953,
+      "basis_rate": 0.00088379,
+      "annualized_basis_rate": 0.06793719,
+      "timestamp": 1782399600
+    },
+    {
+      "time": 1782400500000,
+      "index_price": 106556.16,
+      "futures_price": 106660.65,
+      "basis": 104.4882,
+      "basis_rate": 0.00098059,
+      "annualized_basis_rate": 0.03864836,
+      "timestamp": 1782400500
+    },
+    {
+      "time": 1782401400000,
+      "index_price": 106392.9,
+      "futures_price": 106474.66,
+      "basis": 81.7589,
+      "basis_rate": 0.00076846,
+      "annualized_basis_rate": 0.06016259,
+      "timestamp": 1782401400
+    },
+    {
+      "time": 1782402300000,
+      "index_price": 106573.07,
+      "futures_price": 106663.29,
+      "basis": 90.2118,
+      "basis_rate": 0.00084648,
+      "annualized_basis_rate": 0.0500663,
+      "timestamp": 1782402300
+    },
+    {
+      "time": 1782403200000,
+      "index_price": 106687.52,
+      "futures_price": 106765.59,
+      "basis": 78.072,
+      "basis_rate": 0.00073178,
+      "annualized_basis_rate": 0.02848365,
+      "timestamp": 1782403200
+    },
+    {
+      "time": 1782404100000,
+      "index_price": 106544.72,
+      "futures_price": 106661.01,
+      "basis": 116.2923,
+      "basis_rate": 0.00109149,
+      "annualized_basis_rate": 0.06227168,
+      "timestamp": 1782404100
+    },
+    {
+      "time": 1782405000000,
+      "index_price": 106651.75,
+      "futures_price": 106761.16,
+      "basis": 109.4108,
+      "basis_rate": 0.00102587,
+      "annualized_basis_rate": 0.0666615,
+      "timestamp": 1782405000
+    },
+    {
+      "time": 1782405900000,
+      "index_price": 106723.4,
+      "futures_price": 106745.75,
+      "basis": 22.3485,
+      "basis_rate": 0.00020941,
+      "annualized_basis_rate": 0.06597454,
+      "timestamp": 1782405900
+    },
+    {
+      "time": 1782406800000,
+      "index_price": 106833.8,
+      "futures_price": 106946.25,
+      "basis": 112.447,
+      "basis_rate": 0.00105254,
+      "annualized_basis_rate": 0.04019588,
+      "timestamp": 1782406800
+    },
+    {
+      "time": 1782407700000,
+      "index_price": 106629.92,
+      "futures_price": 106731.75,
+      "basis": 101.8281,
+      "basis_rate": 0.00095497,
+      "annualized_basis_rate": 0.04750314,
+      "timestamp": 1782407700
+    },
+    {
+      "time": 1782408600000,
+      "index_price": 106655.82,
+      "futures_price": 106804.22,
+      "basis": 148.3939,
+      "basis_rate": 0.00139133,
+      "annualized_basis_rate": 0.04177187,
+      "timestamp": 1782408600
+    },
+    {
+      "time": 1782409500000,
+      "index_price": 106793.87,
+      "futures_price": 106889.36,
+      "basis": 95.4881,
+      "basis_rate": 0.00089413,
+      "annualized_basis_rate": 0.03703564,
+      "timestamp": 1782409500
+    },
+    {
+      "time": 1782410400000,
+      "index_price": 106825.93,
+      "futures_price": 106897.66,
+      "basis": 71.7307,
+      "basis_rate": 0.00067147,
+      "annualized_basis_rate": 0.09960334,
+      "timestamp": 1782410400
+    },
+    {
+      "time": 1782411300000,
+      "index_price": 106835.99,
+      "futures_price": 106918.32,
+      "basis": 82.3323,
+      "basis_rate": 0.00077064,
+      "annualized_basis_rate": 0.05837336,
+      "timestamp": 1782411300
+    },
+    {
+      "time": 1782412200000,
+      "index_price": 106936.54,
+      "futures_price": 107041.25,
+      "basis": 104.7083,
+      "basis_rate": 0.00097916,
+      "annualized_basis_rate": 0.05397929,
+      "timestamp": 1782412200
+    },
+    {
+      "time": 1782413100000,
+      "index_price": 106767.56,
+      "futures_price": 106879.74,
+      "basis": 112.1798,
+      "basis_rate": 0.00105069,
+      "annualized_basis_rate": 0.01997799,
+      "timestamp": 1782413100
+    },
+    {
+      "time": 1782414000000,
+      "index_price": 106795.05,
+      "futures_price": 106921.88,
+      "basis": 126.8273,
+      "basis_rate": 0.00118758,
+      "annualized_basis_rate": 0.04872617,
+      "timestamp": 1782414000
+    },
+    {
+      "time": 1782414900000,
+      "index_price": 106863.85,
+      "futures_price": 106979.63,
+      "basis": 115.7757,
+      "basis_rate": 0.00108339,
+      "annualized_basis_rate": 0.06334428,
+      "timestamp": 1782414900
+    },
+    {
+      "time": 1782415800000,
+      "index_price": 106882.26,
+      "futures_price": 106983.23,
+      "basis": 100.9712,
+      "basis_rate": 0.0009447,
+      "annualized_basis_rate": 0.06416029,
+      "timestamp": 1782415800
+    },
+    {
+      "time": 1782416700000,
+      "index_price": 106954.05,
+      "futures_price": 107043.92,
+      "basis": 89.8745,
+      "basis_rate": 0.00084031,
+      "annualized_basis_rate": 0.03558753,
+      "timestamp": 1782416700
+    },
+    {
+      "time": 1782417600000,
+      "index_price": 106898.85,
+      "futures_price": 107000.01,
+      "basis": 101.1571,
+      "basis_rate": 0.00094629,
+      "annualized_basis_rate": 0.02714489,
+      "timestamp": 1782417600
+    },
+    {
+      "time": 1782418500000,
+      "index_price": 106845.5,
+      "futures_price": 106928.9,
+      "basis": 83.4042,
+      "basis_rate": 0.00078061,
+      "annualized_basis_rate": 0.04988063,
+      "timestamp": 1782418500
+    },
+    {
+      "time": 1782419400000,
+      "index_price": 106972.17,
+      "futures_price": 107015.0,
+      "basis": 42.8322,
+      "basis_rate": 0.00040041,
+      "annualized_basis_rate": 0.03702192,
+      "timestamp": 1782419400
+    },
+    {
+      "time": 1782420300000,
+      "index_price": 106943.94,
+      "futures_price": 107028.59,
+      "basis": 84.6536,
+      "basis_rate": 0.00079157,
+      "annualized_basis_rate": 0.01624702,
+      "timestamp": 1782420300
+    },
+    {
+      "time": 1782421200000,
+      "index_price": 106923.39,
+      "futures_price": 107000.14,
+      "basis": 76.7504,
+      "basis_rate": 0.00071781,
+      "annualized_basis_rate": 0.05104553,
+      "timestamp": 1782421200
+    },
+    {
+      "time": 1782422100000,
+      "index_price": 106877.64,
+      "futures_price": 106975.64,
+      "basis": 97.9944,
+      "basis_rate": 0.00091688,
+      "annualized_basis_rate": 0.05077772,
+      "timestamp": 1782422100
+    },
+    {
+      "time": 1782423000000,
+      "index_price": 106945.04,
+      "futures_price": 106972.53,
+      "basis": 27.4903,
+      "basis_rate": 0.00025705,
+      "annualized_basis_rate": 0.04544268,
+      "timestamp": 1782423000
+    },
+    {
+      "time": 1782423900000,
+      "index_price": 106701.37,
+      "futures_price": 106768.79,
+      "basis": 67.4245,
+      "basis_rate": 0.0006319,
+      "annualized_basis_rate": 0.04805715,
+      "timestamp": 1782423900
+    },
+    {
+      "time": 1782424800000,
+      "index_price": 106766.0,
+      "futures_price": 106830.24,
+      "basis": 64.2324,
+      "basis_rate": 0.00060162,
+      "annualized_basis_rate": 0.04032905,
+      "timestamp": 1782424800
+    },
+    {
+      "time": 1782425700000,
+      "index_price": 106854.03,
+      "futures_price": 106952.36,
+      "basis": 98.3328,
+      "basis_rate": 0.00092025,
+      "annualized_basis_rate": 0.04924749,
+      "timestamp": 1782425700
+    },
+    {
+      "time": 1782426600000,
+      "index_price": 106854.45,
+      "futures_price": 106886.54,
+      "basis": 32.0891,
+      "basis_rate": 0.00030031,
+      "annualized_basis_rate": 0.05095739,
+      "timestamp": 1782426600
+    },
+    {
+      "time": 1782427500000,
+      "index_price": 106746.89,
+      "futures_price": 106855.56,
+      "basis": 108.6619,
+      "basis_rate": 0.00101794,
+      "annualized_basis_rate": 0.05616178,
+      "timestamp": 1782427500
+    },
+    {
+      "time": 1782428400000,
+      "index_price": 106694.92,
+      "futures_price": 106743.25,
+      "basis": 48.3228,
+      "basis_rate": 0.00045291,
+      "annualized_basis_rate": 0.04184417,
+      "timestamp": 1782428400
+    },
+    {
+      "time": 1782429300000,
+      "index_price": 106681.21,
+      "futures_price": 106819.13,
+      "basis": 137.9168,
+      "basis_rate": 0.00129279,
+      "annualized_basis_rate": 0.05736872,
+      "timestamp": 1782429300
+    },
+    {
+      "time": 1782430200000,
+      "index_price": 106549.49,
+      "futures_price": 106664.69,
+      "basis": 115.2005,
+      "basis_rate": 0.00108119,
+      "annualized_basis_rate": 0.05400266,
+      "timestamp": 1782430200
+    },
+    {
+      "time": 1782431100000,
+      "index_price": 106499.84,
+      "futures_price": 106699.66,
+      "basis": 199.826,
+      "basis_rate": 0.0018763,
+      "annualized_basis_rate": 0.07953155,
+      "timestamp": 1782431100
+    },
+    {
+      "time": 1782432000000,
+      "index_price": 106655.42,
+      "futures_price": 106738.88,
+      "basis": 83.454,
+      "basis_rate": 0.00078246,
+      "annualized_basis_rate": 0.05501537,
+      "timestamp": 1782432000
+    },
+    {
+      "time": 1782432900000,
+      "index_price": 106434.48,
+      "futures_price": 106531.99,
+      "basis": 97.5085,
+      "basis_rate": 0.00091614,
+      "annualized_basis_rate": 0.05196793,
+      "timestamp": 1782432900
+    },
+    {
+      "time": 1782433800000,
+      "index_price": 106577.01,
+      "futures_price": 106629.41,
+      "basis": 52.3999,
+      "basis_rate": 0.00049166,
+      "annualized_basis_rate": 0.03954908,
+      "timestamp": 1782433800
+    },
+    {
+      "time": 1782434700000,
+      "index_price": 106416.76,
+      "futures_price": 106471.67,
+      "basis": 54.9051,
+      "basis_rate": 0.00051594,
+      "annualized_basis_rate": 0.03560327,
+      "timestamp": 1782434700
+    },
+    {
+      "time": 1782435600000,
+      "index_price": 106316.45,
+      "futures_price": 106409.19,
+      "basis": 92.7374,
+      "basis_rate": 0.00087228,
+      "annualized_basis_rate": 0.05830657,
+      "timestamp": 1782435600
+    },
+    {
+      "time": 1782436500000,
+      "index_price": 106425.5,
+      "futures_price": 106454.98,
+      "basis": 29.4726,
+      "basis_rate": 0.00027693,
+      "annualized_basis_rate": 0.08071681,
+      "timestamp": 1782436500
+    },
+    {
+      "time": 1782437400000,
+      "index_price": 106321.88,
+      "futures_price": 106351.57,
+      "basis": 29.6907,
+      "basis_rate": 0.00027925,
+      "annualized_basis_rate": 0.04706325,
+      "timestamp": 1782437400
+    },
+    {
+      "time": 1782438300000,
+      "index_price": 106245.99,
+      "futures_price": 106346.75,
+      "basis": 100.7576,
+      "basis_rate": 0.00094834,
+      "annualized_basis_rate": 0.08318628,
+      "timestamp": 1782438300
+    },
+    {
+      "time": 1782439200000,
+      "index_price": 106248.78,
+      "futures_price": 106312.11,
+      "basis": 63.3306,
+      "basis_rate": 0.00059606,
+      "annualized_basis_rate": 0.04737473,
+      "timestamp": 1782439200
+    },
+    {
+      "time": 1782440100000,
+      "index_price": 106220.04,
+      "futures_price": 106281.99,
+      "basis": 61.9556,
+      "basis_rate": 0.00058328,
+      "annualized_basis_rate": 0.03512835,
+      "timestamp": 1782440100
+    },
+    {
+      "time": 1782441000000,
+      "index_price": 106170.9,
+      "futures_price": 106230.71,
+      "basis": 59.8071,
+      "basis_rate": 0.00056331,
+      "annualized_basis_rate": 0.07529809,
+      "timestamp": 1782441000
+    },
+    {
+      "time": 1782441900000,
+      "index_price": 106010.08,
+      "futures_price": 106110.75,
+      "basis": 100.6702,
+      "basis_rate": 0.00094963,
+      "annualized_basis_rate": 0.03741445,
+      "timestamp": 1782441900
+    },
+    {
+      "time": 1782442800000,
+      "index_price": 106027.73,
+      "futures_price": 106062.03,
+      "basis": 34.2992,
+      "basis_rate": 0.00032349,
+      "annualized_basis_rate": 0.04898907,
+      "timestamp": 1782442800
+    },
+    {
+      "time": 1782443700000,
+      "index_price": 106020.28,
+      "futures_price": 106079.36,
+      "basis": 59.0765,
+      "basis_rate": 0.00055722,
+      "annualized_basis_rate": 0.05212701,
+      "timestamp": 1782443700
+    },
+    {
+      "time": 1782444600000,
+      "index_price": 105837.01,
+      "futures_price": 105879.4,
+      "basis": 42.3905,
+      "basis_rate": 0.00040053,
+      "annualized_basis_rate": 0.04552593,
+      "timestamp": 1782444600
+    },
+    {
+      "time": 1782445500000,
+      "index_price": 105782.71,
+      "futures_price": 105893.3,
+      "basis": 110.5982,
+      "basis_rate": 0.00104552,
+      "annualized_basis_rate": 0.03803167,
+      "timestamp": 1782445500
+    },
+    {
+      "time": 1782446400000,
+      "index_price": 105822.74,
+      "futures_price": 105913.27,
+      "basis": 90.5277,
+      "basis_rate": 0.00085547,
+      "annualized_basis_rate": 0.06629656,
+      "timestamp": 1782446400
+    },
+    {
+      "time": 1782447300000,
+      "index_price": 105820.95,
+      "futures_price": 105881.31,
+      "basis": 60.3544,
+      "basis_rate": 0.00057034,
+      "annualized_basis_rate": 0.04915588,
+      "timestamp": 1782447300
+    },
+    {
+      "time": 1782448200000,
+      "index_price": 105636.34,
+      "futures_price": 105733.04,
+      "basis": 96.7073,
+      "basis_rate": 0.00091547,
+      "annualized_basis_rate": 0.04882876,
+      "timestamp": 1782448200
+    },
+    {
+      "time": 1782449100000,
+      "index_price": 105648.92,
+      "futures_price": 105764.03,
+      "basis": 115.1063,
+      "basis_rate": 0.00108952,
+      "annualized_basis_rate": 0.06586695,
+      "timestamp": 1782449100
+    },
+    {
+      "time": 1782450000000,
+      "index_price": 105563.34,
+      "futures_price": 105665.15,
+      "basis": 101.8087,
+      "basis_rate": 0.00096443,
+      "annualized_basis_rate": 0.10067252,
+      "timestamp": 1782450000
+    },
+    {
+      "time": 1782450900000,
+      "index_price": 105624.12,
+      "futures_price": 105662.14,
+      "basis": 38.0238,
+      "basis_rate": 0.00035999,
+      "annualized_basis_rate": 0.0420622,
+      "timestamp": 1782450900
+    },
+    {
+      "time": 1782451800000,
+      "index_price": 105663.44,
+      "futures_price": 105800.24,
+      "basis": 136.7959,
+      "basis_rate": 0.00129464,
+      "annualized_basis_rate": 0.05128952,
+      "timestamp": 1782451800
+    },
+    {
+      "time": 1782452700000,
+      "index_price": 105563.74,
+      "futures_price": 105714.35,
+      "basis": 150.6083,
+      "basis_rate": 0.0014267,
+      "annualized_basis_rate": 0.0770391,
+      "timestamp": 1782452700
+    },
+    {
+      "time": 1782453600000,
+      "index_price": 105490.98,
+      "futures_price": 105557.47,
+      "basis": 66.4927,
+      "basis_rate": 0.00063032,
+      "annualized_basis_rate": 0.02358587,
+      "timestamp": 1782453600
+    },
+    {
+      "time": 1782454500000,
+      "index_price": 105425.76,
+      "futures_price": 105529.84,
+      "basis": 104.0837,
+      "basis_rate": 0.00098727,
+      "annualized_basis_rate": 0.06221476,
+      "timestamp": 1782454500
+    },
+    {
+      "time": 1782455400000,
+      "index_price": 105366.36,
+      "futures_price": 105344.86,
+      "basis": -21.5062,
+      "basis_rate": -0.00020411,
+      "annualized_basis_rate": 0.05983378,
+      "timestamp": 1782455400
+    },
+    {
+      "time": 1782456300000,
+      "index_price": 105523.47,
+      "futures_price": 105652.29,
+      "basis": 128.811,
+      "basis_rate": 0.00122069,
+      "annualized_basis_rate": 0.03042123,
+      "timestamp": 1782456300
+    },
+    {
+      "time": 1782457200000,
+      "index_price": 105355.71,
+      "futures_price": 105479.9,
+      "basis": 124.1892,
+      "basis_rate": 0.00117876,
+      "annualized_basis_rate": 0.02777658,
+      "timestamp": 1782457200
+    },
+    {
+      "time": 1782458100000,
+      "index_price": 105438.43,
+      "futures_price": 105549.16,
+      "basis": 110.7316,
+      "basis_rate": 0.0010502,
+      "annualized_basis_rate": 0.06797424,
+      "timestamp": 1782458100
+    },
+    {
+      "time": 1782459000000,
+      "index_price": 105451.99,
+      "futures_price": 105528.08,
+      "basis": 76.0926,
+      "basis_rate": 0.00072159,
+      "annualized_basis_rate": 0.05286039,
+      "timestamp": 1782459000
+    },
+    {
+      "time": 1782459900000,
+      "index_price": 105465.96,
+      "futures_price": 105599.22,
+      "basis": 133.2648,
+      "basis_rate": 0.00126358,
+      "annualized_basis_rate": 0.03725092,
+      "timestamp": 1782459900
+    },
+    {
+      "time": 1782460800000,
+      "index_price": 105381.38,
+      "futures_price": 105477.41,
+      "basis": 96.0315,
+      "basis_rate": 0.00091128,
+      "annualized_basis_rate": 0.06453802,
+      "timestamp": 1782460800
+    },
+    {
+      "time": 1782461700000,
+      "index_price": 105240.01,
+      "futures_price": 105282.75,
+      "basis": 42.7392,
+      "basis_rate": 0.00040611,
+      "annualized_basis_rate": 0.08095522,
+      "timestamp": 1782461700
+    },
+    {
+      "time": 1782462600000,
+      "index_price": 105395.46,
+      "futures_price": 105483.95,
+      "basis": 88.4922,
+      "basis_rate": 0.00083962,
+      "annualized_basis_rate": 0.0231949,
+      "timestamp": 1782462600
+    },
+    {
+      "time": 1782463500000,
+      "index_price": 105213.02,
+      "futures_price": 105326.41,
+      "basis": 113.393,
+      "basis_rate": 0.00107775,
+      "annualized_basis_rate": 0.02354433,
+      "timestamp": 1782463500
+    },
+    {
+      "time": 1782464400000,
+      "index_price": 105294.86,
+      "futures_price": 105335.7,
+      "basis": 40.8467,
+      "basis_rate": 0.00038793,
+      "annualized_basis_rate": 0.02698444,
+      "timestamp": 1782464400
+    },
+    {
+      "time": 1782465300000,
+      "index_price": 105219.0,
+      "futures_price": 105326.38,
+      "basis": 107.383,
+      "basis_rate": 0.00102057,
+      "annualized_basis_rate": 0.05480202,
+      "timestamp": 1782465300
+    },
+    {
+      "time": 1782466200000,
+      "index_price": 105204.79,
+      "futures_price": 105279.61,
+      "basis": 74.8142,
+      "basis_rate": 0.00071113,
+      "annualized_basis_rate": 0.05587986,
+      "timestamp": 1782466200
+    },
+    {
+      "time": 1782467100000,
+      "index_price": 105193.38,
+      "futures_price": 105293.72,
+      "basis": 100.3411,
+      "basis_rate": 0.00095387,
+      "annualized_basis_rate": 0.04113046,
+      "timestamp": 1782467100
+    },
+    {
+      "time": 1782468000000,
+      "index_price": 105324.42,
+      "futures_price": 105446.19,
+      "basis": 121.7722,
+      "basis_rate": 0.00115616,
+      "annualized_basis_rate": 0.03542153,
+      "timestamp": 1782468000
+    },
+    {
+      "time": 1782468900000,
+      "index_price": 105231.56,
+      "futures_price": 105266.06,
+      "basis": 34.5028,
+      "basis_rate": 0.00032787,
+      "annualized_basis_rate": 0.05642166,
+      "timestamp": 1782468900
+    },
+    {
+      "time": 1782469800000,
+      "index_price": 105248.68,
+      "futures_price": 105329.47,
+      "basis": 80.7853,
+      "basis_rate": 0.00076757,
+      "annualized_basis_rate": 0.03211797,
+      "timestamp": 1782469800
+    },
+    {
+      "time": 1782470700000,
+      "index_price": 105412.74,
+      "futures_price": 105449.78,
+      "basis": 37.0409,
+      "basis_rate": 0.00035139,
+      "annualized_basis_rate": 0.06502449,
+      "timestamp": 1782470700
+    },
+    {
+      "time": 1782471600000,
+      "index_price": 105415.45,
+      "futures_price": 105536.26,
+      "basis": 120.8154,
+      "basis_rate": 0.00114609,
+      "annualized_basis_rate": 0.01092771,
+      "timestamp": 1782471600
+    },
+    {
+      "time": 1782472500000,
+      "index_price": 105409.36,
+      "futures_price": 105535.27,
+      "basis": 125.908,
+      "basis_rate": 0.00119447,
+      "annualized_basis_rate": 0.0582875,
+      "timestamp": 1782472500
+    },
+    {
+      "time": 1782473400000,
+      "index_price": 105411.59,
+      "futures_price": 105493.97,
+      "basis": 82.3827,
+      "basis_rate": 0.00078153,
+      "annualized_basis_rate": 0.06567173,
+      "timestamp": 1782473400
+    },
+    {
+      "time": 1782474300000,
+      "index_price": 105504.36,
+      "futures_price": 105617.25,
+      "basis": 112.8977,
+      "basis_rate": 0.00107008,
+      "annualized_basis_rate": 0.04476958,
+      "timestamp": 1782474300
+    },
+    {
+      "time": 1782475200000,
+      "index_price": 105349.98,
+      "futures_price": 105399.01,
+      "basis": 49.0345,
+      "basis_rate": 0.00046544,
+      "annualized_basis_rate": 0.04046757,
+      "timestamp": 1782475200
+    },
+    {
+      "time": 1782476100000,
+      "index_price": 105395.71,
+      "futures_price": 105446.64,
+      "basis": 50.9324,
+      "basis_rate": 0.00048325,
+      "annualized_basis_rate": 0.07018601,
+      "timestamp": 1782476100
+    },
+    {
+      "time": 1782477000000,
+      "index_price": 105525.33,
+      "futures_price": 105589.24,
+      "basis": 63.9126,
+      "basis_rate": 0.00060566,
+      "annualized_basis_rate": 0.04577392,
+      "timestamp": 1782477000
+    },
+    {
+      "time": 1782477900000,
+      "index_price": 105451.67,
+      "futures_price": 105571.7,
+      "basis": 120.0295,
+      "basis_rate": 0.00113824,
+      "annualized_basis_rate": 0.05559871,
+      "timestamp": 1782477900
+    },
+    {
+      "time": 1782478800000,
+      "index_price": 105587.88,
+      "futures_price": 105639.64,
+      "basis": 51.7619,
+      "basis_rate": 0.00049023,
+      "annualized_basis_rate": 0.06493536,
+      "timestamp": 1782478800
+    },
+    {
+      "time": 1782479700000,
+      "index_price": 105530.36,
+      "futures_price": 105561.28,
+      "basis": 30.9198,
+      "basis_rate": 0.00029299,
+      "annualized_basis_rate": 0.07787007,
+      "timestamp": 1782479700
+    },
+    {
+      "time": 1782480600000,
+      "index_price": 105676.26,
+      "futures_price": 105803.67,
+      "basis": 127.4078,
+      "basis_rate": 0.00120564,
+      "annualized_basis_rate": 0.05000428,
+      "timestamp": 1782480600
+    },
+    {
+      "time": 1782481500000,
+      "index_price": 105786.92,
+      "futures_price": 105900.68,
+      "basis": 113.7565,
+      "basis_rate": 0.00107534,
+      "annualized_basis_rate": 0.04468998,
+      "timestamp": 1782481500
+    },
+    {
+      "time": 1782482400000,
+      "index_price": 105710.7,
+      "futures_price": 105806.03,
+      "basis": 95.3271,
+      "basis_rate": 0.00090177,
+      "annualized_basis_rate": 0.04307075,
+      "timestamp": 1782482400
+    },
+    {
+      "time": 1782483300000,
+      "index_price": 105834.35,
+      "futures_price": 105943.44,
+      "basis": 109.0863,
+      "basis_rate": 0.00103073,
+      "annualized_basis_rate": 0.06905128,
+      "timestamp": 1782483300
+    },
+    {
+      "time": 1782484200000,
+      "index_price": 105831.04,
+      "futures_price": 105953.98,
+      "basis": 122.9337,
+      "basis_rate": 0.0011616,
+      "annualized_basis_rate": 0.07376453,
+      "timestamp": 1782484200
+    },
+    {
+      "time": 1782485100000,
+      "index_price": 105802.71,
+      "futures_price": 105844.57,
+      "basis": 41.8576,
+      "basis_rate": 0.00039562,
+      "annualized_basis_rate": 0.05813386,
+      "timestamp": 1782485100
+    },
+    {
+      "time": 1782486000000,
+      "index_price": 105956.22,
+      "futures_price": 106023.59,
+      "basis": 67.3688,
+      "basis_rate": 0.00063582,
+      "annualized_basis_rate": 0.07008531,
+      "timestamp": 1782486000
+    },
+    {
+      "time": 1782486900000,
+      "index_price": 106007.62,
+      "futures_price": 106147.87,
+      "basis": 140.2443,
+      "basis_rate": 0.00132296,
+      "annualized_basis_rate": 0.05295141,
+      "timestamp": 1782486900
+    },
+    {
+      "time": 1782487800000,
+      "index_price": 106089.52,
+      "futures_price": 106156.56,
+      "basis": 67.0365,
+      "basis_rate": 0.00063189,
+      "annualized_basis_rate": 0.06513892,
+      "timestamp": 1782487800
+    },
+    {
+      "time": 1782488700000,
+      "index_price": 106147.48,
+      "futures_price": 106226.97,
+      "basis": 79.4927,
+      "basis_rate": 0.00074889,
+      "annualized_basis_rate": 0.04580271,
+      "timestamp": 1782488700
+    },
+    {
+      "time": 1782489600000,
+      "index_price": 106043.83,
+      "futures_price": 106182.97,
+      "basis": 139.1397,
+      "basis_rate": 0.0013121,
+      "annualized_basis_rate": 0.06947549,
+      "timestamp": 1782489600
+    },
+    {
+      "time": 1782490500000,
+      "index_price": 106287.14,
+      "futures_price": 106374.57,
+      "basis": 87.4339,
+      "basis_rate": 0.00082262,
+      "annualized_basis_rate": 0.03377926,
+      "timestamp": 1782490500
+    },
+    {
+      "time": 1782491400000,
+      "index_price": 106185.88,
+      "futures_price": 106273.98,
+      "basis": 88.0974,
+      "basis_rate": 0.00082965,
+      "annualized_basis_rate": 0.07190235,
+      "timestamp": 1782491400
+    },
+    {
+      "time": 1782492300000,
+      "index_price": 106220.97,
+      "futures_price": 106294.56,
+      "basis": 73.5881,
+      "basis_rate": 0.00069278,
+      "annualized_basis_rate": 0.04036491,
+      "timestamp": 1782492300
+    },
+    {
+      "time": 1782493200000,
+      "index_price": 106275.95,
+      "futures_price": 106318.83,
+      "basis": 42.8862,
+      "basis_rate": 0.00040354,
+      "annualized_basis_rate": 0.05068451,
+      "timestamp": 1782493200
+    },
+    {
+      "time": 1782494100000,
+      "index_price": 106337.47,
+      "futures_price": 106454.15,
+      "basis": 116.6806,
+      "basis_rate": 0.00109727,
+      "annualized_basis_rate": 0.0764439,
+      "timestamp": 1782494100
+    },
+    {
+      "time": 1782495000000,
+      "index_price": 106482.43,
+      "futures_price": 106553.16,
+      "basis": 70.7287,
+      "basis_rate": 0.00066423,
+      "annualized_basis_rate": 0.0453446,
+      "timestamp": 1782495000
+    },
+    {
+      "time": 1782495900000,
+      "index_price": 106498.4,
+      "futures_price": 106606.88,
+      "basis": 108.4865,
+      "basis_rate": 0.00101867,
+      "annualized_basis_rate": 0.04058256,
+      "timestamp": 1782495900
+    },
+    {
+      "time": 1782496800000,
+      "index_price": 106547.52,
+      "futures_price": 106568.52,
+      "basis": 20.9991,
+      "basis_rate": 0.00019709,
+      "annualized_basis_rate": 0.04221808,
+      "timestamp": 1782496800
+    },
+    {
+      "time": 1782497700000,
+      "index_price": 106698.45,
+      "futures_price": 106803.72,
+      "basis": 105.2728,
+      "basis_rate": 0.00098664,
+      "annualized_basis_rate": 0.06848086,
+      "timestamp": 1782497700
+    },
+    {
+      "time": 1782498600000,
+      "index_price": 106826.32,
+      "futures_price": 106863.14,
+      "basis": 36.8166,
+      "basis_rate": 0.00034464,
+      "annualized_basis_rate": 0.08371197,
+      "timestamp": 1782498600
+    },
+    {
+      "time": 1782499500000,
+      "index_price": 106791.71,
+      "futures_price": 106861.92,
+      "basis": 70.2014,
+      "basis_rate": 0.00065737,
+      "annualized_basis_rate": 0.0505716,
+      "timestamp": 1782499500
+    },
+    {
+      "time": 1782500400000,
+      "index_price": 106884.56,
+      "futures_price": 106974.79,
+      "basis": 90.2229,
+      "basis_rate": 0.00084412,
+      "annualized_basis_rate": 0.04422186,
+      "timestamp": 1782500400
+    },
+    {
+      "time": 1782501300000,
+      "index_price": 106952.88,
+      "futures_price": 107062.71,
+      "basis": 109.8303,
+      "basis_rate": 0.0010269,
+      "annualized_basis_rate": 0.05398088,
+      "timestamp": 1782501300
+    },
+    {
+      "time": 1782502200000,
+      "index_price": 106899.81,
+      "futures_price": 107008.9,
+      "basis": 109.084,
+      "basis_rate": 0.00102043,
+      "annualized_basis_rate": 0.05501819,
+      "timestamp": 1782502200
+    },
+    {
+      "time": 1782503100000,
+      "index_price": 106957.87,
+      "futures_price": 107039.61,
+      "basis": 81.7401,
+      "basis_rate": 0.00076423,
+      "annualized_basis_rate": 0.02418027,
+      "timestamp": 1782503100
+    },
+    {
+      "time": 1782504000000,
+      "index_price": 106973.27,
+      "futures_price": 107079.91,
+      "basis": 106.6375,
+      "basis_rate": 0.00099686,
+      "annualized_basis_rate": 0.0608839,
+      "timestamp": 1782504000
+    },
+    {
+      "time": 1782504900000,
+      "index_price": 107078.08,
+      "futures_price": 107167.14,
+      "basis": 89.0534,
+      "basis_rate": 0.00083167,
+      "annualized_basis_rate": 0.07398087,
+      "timestamp": 1782504900
+    },
+    {
+      "time": 1782505800000,
+      "index_price": 107198.66,
+      "futures_price": 107337.84,
+      "basis": 139.1799,
+      "basis_rate": 0.00129834,
+      "annualized_basis_rate": 0.04830688,
+      "timestamp": 1782505800
+    },
+    {
+      "time": 1782506700000,
+      "index_price": 107295.31,
+      "futures_price": 107406.83,
+      "basis": 111.5158,
+      "basis_rate": 0.00103934,
+      "annualized_basis_rate": 0.08976498,
+      "timestamp": 1782506700
+    },
+    {
+      "time": 1782507600000,
+      "index_price": 107278.3,
+      "futures_price": 107378.77,
+      "basis": 100.462,
+      "basis_rate": 0.00093646,
+      "annualized_basis_rate": 0.06870236,
+      "timestamp": 1782507600
+    },
+    {
+      "time": 1782508500000,
+      "index_price": 107219.86,
+      "futures_price": 107255.86,
+      "basis": 35.9986,
+      "basis_rate": 0.00033575,
+      "annualized_basis_rate": 0.04650715,
+      "timestamp": 1782508500
+    },
+    {
+      "time": 1782509400000,
+      "index_price": 107327.64,
+      "futures_price": 107352.31,
+      "basis": 24.6682,
+      "basis_rate": 0.00022984,
+      "annualized_basis_rate": 0.04598527,
+      "timestamp": 1782509400
+    },
+    {
+      "time": 1782510300000,
+      "index_price": 107512.33,
+      "futures_price": 107577.9,
+      "basis": 65.5633,
+      "basis_rate": 0.00060982,
+      "annualized_basis_rate": 0.03626815,
+      "timestamp": 1782510300
+    },
+    {
+      "time": 1782511200000,
+      "index_price": 107398.77,
+      "futures_price": 107508.06,
+      "basis": 109.2917,
+      "basis_rate": 0.00101763,
+      "annualized_basis_rate": 0.02637101,
+      "timestamp": 1782511200
+    },
+    {
+      "time": 1782512100000,
+      "index_price": 107469.23,
+      "futures_price": 107500.37,
+      "basis": 31.1325,
+      "basis_rate": 0.00028969,
+      "annualized_basis_rate": 0.06088346,
+      "timestamp": 1782512100
+    },
+    {
+      "time": 1782513000000,
+      "index_price": 107493.13,
+      "futures_price": 107595.46,
+      "basis": 102.3358,
+      "basis_rate": 0.00095202,
+      "annualized_basis_rate": 0.06129873,
+      "timestamp": 1782513000
+    },
+    {
+      "time": 1782513900000,
+      "index_price": 107522.99,
+      "futures_price": 107583.15,
+      "basis": 60.1597,
+      "basis_rate": 0.00055951,
+      "annualized_basis_rate": 0.05204353,
+      "timestamp": 1782513900
+    },
+    {
+      "time": 1782514800000,
+      "index_price": 107471.92,
+      "futures_price": 107523.87,
+      "basis": 51.9503,
+      "basis_rate": 0.00048339,
+      "annualized_basis_rate": 0.03776865,
+      "timestamp": 1782514800
+    },
+    {
+      "time": 1782515700000,
+      "index_price": 107711.83,
+      "futures_price": 107816.68,
+      "basis": 104.8587,
+      "basis_rate": 0.00097351,
+      "annualized_basis_rate": 0.02505187,
+      "timestamp": 1782515700
+    },
+    {
+      "time": 1782516600000,
+      "index_price": 107569.26,
+      "futures_price": 107593.68,
+      "basis": 24.4228,
+      "basis_rate": 0.00022704,
+      "annualized_basis_rate": 0.06167722,
+      "timestamp": 1782516600
+    },
+    {
+      "time": 1782517500000,
+      "index_price": 107585.62,
+      "futures_price": 107691.36,
+      "basis": 105.7389,
+      "basis_rate": 0.00098283,
+      "annualized_basis_rate": 0.04983975,
+      "timestamp": 1782517500
+    },
+    {
+      "time": 1782518400000,
+      "index_price": 107659.35,
+      "futures_price": 107726.19,
+      "basis": 66.8402,
+      "basis_rate": 0.00062085,
+      "annualized_basis_rate": 0.06487271,
+      "timestamp": 1782518400
+    },
+    {
+      "time": 1782519300000,
+      "index_price": 107662.67,
+      "futures_price": 107690.68,
+      "basis": 28.014,
+      "basis_rate": 0.0002602,
+      "annualized_basis_rate": 0.02022181,
+      "timestamp": 1782519300
+    },
+    {
+      "time": 1782520200000,
+      "index_price": 107742.59,
+      "futures_price": 107801.77,
+      "basis": 59.1788,
+      "basis_rate": 0.00054926,
+      "annualized_basis_rate": 0.0771646,
+      "timestamp": 1782520200
+    },
+    {
+      "time": 1782521100000,
+      "index_price": 107739.47,
+      "futures_price": 107888.73,
+      "basis": 149.2632,
+      "basis_rate": 0.00138541,
+      "annualized_basis_rate": 0.07682908,
+      "timestamp": 1782521100
+    },
+    {
+      "time": 1782522000000,
+      "index_price": 107658.65,
+      "futures_price": 107820.57,
+      "basis": 161.9137,
+      "basis_rate": 0.00150395,
+      "annualized_basis_rate": 0.0456848,
+      "timestamp": 1782522000
+    },
+    {
+      "time": 1782522900000,
+      "index_price": 107773.78,
+      "futures_price": 107837.82,
+      "basis": 64.0398,
+      "basis_rate": 0.00059421,
+      "annualized_basis_rate": 0.05293233,
+      "timestamp": 1782522900
+    },
+    {
+      "time": 1782523800000,
+      "index_price": 107684.27,
+      "futures_price": 107799.5,
+      "basis": 115.2282,
+      "basis_rate": 0.00107006,
+      "annualized_basis_rate": 0.06366486,
+      "timestamp": 1782523800
+    },
+    {
+      "time": 1782524700000,
+      "index_price": 107741.04,
+      "futures_price": 107888.53,
+      "basis": 147.4867,
+      "basis_rate": 0.0013689,
+      "annualized_basis_rate": 0.06423521,
+      "timestamp": 1782524700
+    },
+    {
+      "time": 1782525600000,
+      "index_price": 107624.26,
+      "futures_price": 107678.95,
+      "basis": 54.6981,
+      "basis_rate": 0.00050823,
+      "annualized_basis_rate": 0.08164353,
+      "timestamp": 1782525600
+    },
+    {
+      "time": 1782526500000,
+      "index_price": 107817.79,
+      "futures_price": 107957.62,
+      "basis": 139.8288,
+      "basis_rate": 0.0012969,
+      "annualized_basis_rate": 0.04892125,
+      "timestamp": 1782526500
+    },
+    {
+      "time": 1782527400000,
+      "index_price": 107779.93,
+      "futures_price": 107851.47,
+      "basis": 71.5357,
+      "basis_rate": 0.00066372,
+      "annualized_basis_rate": 0.06049115,
+      "timestamp": 1782527400
+    },
+    {
+      "time": 1782528300000,
+      "index_price": 107632.54,
+      "futures_price": 107696.35,
+      "basis": 63.8086,
+      "basis_rate": 0.00059284,
+      "annualized_basis_rate": 0.05814611,
+      "timestamp": 1782528300
+    },
+    {
+      "time": 1782529200000,
+      "index_price": 107612.72,
+      "futures_price": 107659.6,
+      "basis": 46.8842,
+      "basis_rate": 0.00043568,
+      "annualized_basis_rate": 0.03833331,
+      "timestamp": 1782529200
+    },
+    {
+      "time": 1782530100000,
+      "index_price": 107683.59,
+      "futures_price": 107774.23,
+      "basis": 90.6358,
+      "basis_rate": 0.00084169,
+      "annualized_basis_rate": 0.04923616,
+      "timestamp": 1782530100
+    },
+    {
+      "time": 1782531000000,
+      "index_price": 107770.21,
+      "futures_price": 107848.99,
+      "basis": 78.7795,
+      "basis_rate": 0.000731,
+      "annualized_basis_rate": 0.04569397,
+      "timestamp": 1782531000
+    },
+    {
+      "time": 1782531900000,
+      "index_price": 107665.98,
+      "futures_price": 107771.58,
+      "basis": 105.5974,
+      "basis_rate": 0.00098079,
+      "annualized_basis_rate": 0.08879047,
+      "timestamp": 1782531900
+    },
+    {
+      "time": 1782532800000,
+      "index_price": 107553.37,
+      "futures_price": 107635.24,
+      "basis": 81.8705,
+      "basis_rate": 0.00076121,
+      "annualized_basis_rate": 0.0742195,
+      "timestamp": 1782532800
+    },
+    {
+      "time": 1782533700000,
+      "index_price": 107476.29,
+      "futures_price": 107500.58,
+      "basis": 24.2891,
+      "basis_rate": 0.00022599,
+      "annualized_basis_rate": 0.07133024,
+      "timestamp": 1782533700
+    },
+    {
+      "time": 1782534600000,
+      "index_price": 107434.5,
+      "futures_price": 107562.81,
+      "basis": 128.3092,
+      "basis_rate": 0.0011943,
+      "annualized_basis_rate": 0.05446871,
+      "timestamp": 1782534600
+    },
+    {
+      "time": 1782535500000,
+      "index_price": 107643.28,
+      "futures_price": 107701.22,
+      "basis": 57.9427,
+      "basis_rate": 0.00053828,
+      "annualized_basis_rate": 0.05384539,
+      "timestamp": 1782535500
+    },
+    {
+      "time": 1782536400000,
+      "index_price": 107525.26,
+      "futures_price": 107565.22,
+      "basis": 39.9503,
+      "basis_rate": 0.00037154,
+      "annualized_basis_rate": 0.03471648,
+      "timestamp": 1782536400
+    },
+    {
+      "time": 1782537300000,
+      "index_price": 107459.52,
+      "futures_price": 107556.05,
+      "basis": 96.5347,
+      "basis_rate": 0.00089834,
+      "annualized_basis_rate": 0.06250727,
+      "timestamp": 1782537300
+    },
+    {
+      "time": 1782538200000,
+      "index_price": 107431.44,
+      "futures_price": 107473.32,
+      "basis": 41.8765,
+      "basis_rate": 0.0003898,
+      "annualized_basis_rate": 0.03712803,
+      "timestamp": 1782538200
+    },
+    {
+      "time": 1782539100000,
+      "index_price": 107293.21,
+      "futures_price": 107341.55,
+      "basis": 48.3353,
+      "basis_rate": 0.0004505,
+      "annualized_basis_rate": 0.07482801,
+      "timestamp": 1782539100
+    },
+    {
+      "time": 1782540000000,
+      "index_price": 107428.96,
+      "futures_price": 107450.76,
+      "basis": 21.7942,
+      "basis_rate": 0.00020287,
+      "annualized_basis_rate": 0.03002355,
+      "timestamp": 1782540000
+    },
+    {
+      "time": 1782540900000,
+      "index_price": 107399.6,
+      "futures_price": 107438.85,
+      "basis": 39.2476,
+      "basis_rate": 0.00036544,
+      "annualized_basis_rate": 0.04843466,
+      "timestamp": 1782540900
+    },
+    {
+      "time": 1782541800000,
+      "index_price": 107213.32,
+      "futures_price": 107343.13,
+      "basis": 129.8109,
+      "basis_rate": 0.00121077,
+      "annualized_basis_rate": 0.05879356,
+      "timestamp": 1782541800
+    },
+    {
+      "time": 1782542700000,
+      "index_price": 107261.88,
+      "futures_price": 107325.32,
+      "basis": 63.4467,
+      "basis_rate": 0.00059151,
+      "annualized_basis_rate": 0.06809879,
+      "timestamp": 1782542700
+    },
+    {
+      "time": 1782543600000,
+      "index_price": 107210.6,
+      "futures_price": 107294.62,
+      "basis": 84.0129,
+      "basis_rate": 0.00078362,
+      "annualized_basis_rate": 0.05472633,
+      "timestamp": 1782543600
+    },
+    {
+      "time": 1782544500000,
+      "index_price": 107189.97,
+      "futures_price": 107243.69,
+      "basis": 53.7264,
+      "basis_rate": 0.00050123,
+      "annualized_basis_rate": 0.0567292,
+      "timestamp": 1782544500
+    },
+    {
+      "time": 1782545400000,
+      "index_price": 107040.27,
+      "futures_price": 107159.2,
+      "basis": 118.926,
+      "basis_rate": 0.00111104,
+      "annualized_basis_rate": 0.04535997,
+      "timestamp": 1782545400
+    },
+    {
+      "time": 1782546300000,
+      "index_price": 107115.87,
+      "futures_price": 107183.68,
+      "basis": 67.8073,
+      "basis_rate": 0.00063303,
+      "annualized_basis_rate": 0.03415305,
+      "timestamp": 1782546300
+    },
+    {
+      "time": 1782547200000,
+      "index_price": 107024.82,
+      "futures_price": 107106.17,
+      "basis": 81.3453,
+      "basis_rate": 0.00076006,
+      "annualized_basis_rate": 0.06578611,
+      "timestamp": 1782547200
+    },
+    {
+      "time": 1782548100000,
+      "index_price": 107082.67,
+      "futures_price": 107124.35,
+      "basis": 41.6849,
+      "basis_rate": 0.00038928,
+      "annualized_basis_rate": 0.03384212,
+      "timestamp": 1782548100
+    },
+    {
+      "time": 1782549000000,
+      "index_price": 106931.92,
+      "futures_price": 107016.26,
+      "basis": 84.3385,
+      "basis_rate": 0.00078871,
+      "annualized_basis_rate": 0.0870996,
+      "timestamp": 1782549000
+    },
+    {
+      "time": 1782549900000,
+      "index_price": 106891.88,
+      "futures_price": 106990.69,
+      "basis": 98.812,
+      "basis_rate": 0.00092441,
+      "annualized_basis_rate": 0.04556232,
+      "timestamp": 1782549900
+    },
+    {
+      "time": 1782550800000,
+      "index_price": 106721.86,
+      "futures_price": 106785.84,
+      "basis": 63.9842,
+      "basis_rate": 0.00059954,
+      "annualized_basis_rate": 0.0236843,
+      "timestamp": 1782550800
+    },
+    {
+      "time": 1782551700000,
+      "index_price": 106897.32,
+      "futures_price": 107050.72,
+      "basis": 153.4046,
+      "basis_rate": 0.00143507,
+      "annualized_basis_rate": 0.06455395,
+      "timestamp": 1782551700
+    },
+    {
+      "time": 1782552600000,
+      "index_price": 106703.54,
+      "futures_price": 106871.05,
+      "basis": 167.5083,
+      "basis_rate": 0.00156985,
+      "annualized_basis_rate": 0.05070105,
+      "timestamp": 1782552600
+    },
+    {
+      "time": 1782553500000,
+      "index_price": 106597.67,
+      "futures_price": 106616.01,
+      "basis": 18.3319,
+      "basis_rate": 0.00017197,
+      "annualized_basis_rate": 0.07121711,
+      "timestamp": 1782553500
+    },
+    {
+      "time": 1782554400000,
+      "index_price": 106616.16,
+      "futures_price": 106676.58,
+      "basis": 60.419,
+      "basis_rate": 0.0005667,
+      "annualized_basis_rate": 0.06485471,
+      "timestamp": 1782554400
+    },
+    {
+      "time": 1782555300000,
+      "index_price": 106675.9,
+      "futures_price": 106769.02,
+      "basis": 93.1218,
+      "basis_rate": 0.00087294,
+      "annualized_basis_rate": 0.08156424,
+      "timestamp": 1782555300
+    },
+    {
+      "time": 1782556200000,
+      "index_price": 106602.52,
+      "futures_price": 106719.2,
+      "basis": 116.6719,
+      "basis_rate": 0.00109446,
+      "annualized_basis_rate": 0.06290347,
+      "timestamp": 1782556200
+    },
+    {
+      "time": 1782557100000,
+      "index_price": 106455.76,
+      "futures_price": 106488.34,
+      "basis": 32.5775,
+      "basis_rate": 0.00030602,
+      "annualized_basis_rate": 0.06117769,
+      "timestamp": 1782557100
+    },
+    {
+      "time": 1782558000000,
+      "index_price": 106579.15,
+      "futures_price": 106681.04,
+      "basis": 101.8888,
+      "basis_rate": 0.00095599,
+      "annualized_basis_rate": 0.06210287,
+      "timestamp": 1782558000
+    },
+    {
+      "time": 1782558900000,
+      "index_price": 106417.65,
+      "futures_price": 106540.79,
+      "basis": 123.1404,
+      "basis_rate": 0.00115714,
+      "annualized_basis_rate": 0.07443068,
+      "timestamp": 1782558900
+    },
+    {
+      "time": 1782559800000,
+      "index_price": 106479.22,
+      "futures_price": 106582.27,
+      "basis": 103.054,
+      "basis_rate": 0.00096783,
+      "annualized_basis_rate": 0.04754183,
+      "timestamp": 1782559800
+    },
+    {
+      "time": 1782560700000,
+      "index_price": 106376.44,
+      "futures_price": 106387.56,
+      "basis": 11.1162,
+      "basis_rate": 0.0001045,
+      "annualized_basis_rate": 0.06042676,
+      "timestamp": 1782560700
+    },
+    {
+      "time": 1782561600000,
+      "index_price": 106245.01,
+      "futures_price": 106312.59,
+      "basis": 67.5824,
+      "basis_rate": 0.0006361,
+      "annualized_basis_rate": 0.07804384,
+      "timestamp": 1782561600
+    },
+    {
+      "time": 1782562500000,
+      "index_price": 106226.22,
+      "futures_price": 106301.06,
+      "basis": 74.843,
+      "basis_rate": 0.00070456,
+      "annualized_basis_rate": 0.03398724,
+      "timestamp": 1782562500
+    },
+    {
+      "time": 1782563400000,
+      "index_price": 106242.67,
+      "futures_price": 106310.18,
+      "basis": 67.5161,
+      "basis_rate": 0.00063549,
+      "annualized_basis_rate": 0.06916874,
+      "timestamp": 1782563400
+    },
+    {
+      "time": 1782564300000,
+      "index_price": 106226.23,
+      "futures_price": 106298.94,
+      "basis": 72.71,
+      "basis_rate": 0.00068448,
+      "annualized_basis_rate": 0.07720147,
+      "timestamp": 1782564300
+    },
+    {
+      "time": 1782565200000,
+      "index_price": 106125.61,
+      "futures_price": 106191.09,
+      "basis": 65.4777,
+      "basis_rate": 0.00061698,
+      "annualized_basis_rate": 0.03661049,
+      "timestamp": 1782565200
+    },
+    {
+      "time": 1782566100000,
+      "index_price": 106182.72,
+      "futures_price": 106278.77,
+      "basis": 96.0513,
+      "basis_rate": 0.00090459,
+      "annualized_basis_rate": 0.03337684,
+      "timestamp": 1782566100
+    },
+    {
+      "time": 1782567000000,
+      "index_price": 106184.66,
+      "futures_price": 106357.84,
+      "basis": 173.1741,
+      "basis_rate": 0.00163088,
+      "annualized_basis_rate": 0.05857911,
+      "timestamp": 1782567000
+    },
+    {
+      "time": 1782567900000,
+      "index_price": 106176.69,
+      "futures_price": 106275.11,
+      "basis": 98.4147,
+      "basis_rate": 0.0009269,
+      "annualized_basis_rate": 0.07489723,
+      "timestamp": 1782567900
+    },
+    {
+      "time": 1782568800000,
+      "index_price": 106092.76,
+      "futures_price": 106247.77,
+      "basis": 155.0096,
+      "basis_rate": 0.00146108,
+      "annualized_basis_rate": 0.07739596,
+      "timestamp": 1782568800
+    },
+    {
+      "time": 1782569700000,
+      "index_price": 106244.37,
+      "futures_price": 106354.22,
+      "basis": 109.85,
+      "basis_rate": 0.00103394,
+      "annualized_basis_rate": 0.05670848,
+      "timestamp": 1782569700
+    },
+    {
+      "time": 1782570600000,
+      "index_price": 106072.09,
+      "futures_price": 106121.56,
+      "basis": 49.4702,
+      "basis_rate": 0.00046638,
+      "annualized_basis_rate": 0.02375331,
+      "timestamp": 1782570600
+    },
+    {
+      "time": 1782571500000,
+      "index_price": 106202.2,
+      "futures_price": 106291.56,
+      "basis": 89.3597,
+      "basis_rate": 0.00084141,
+      "annualized_basis_rate": 0.08569452,
+      "timestamp": 1782571500
+    },
+    {
+      "time": 1782572400000,
+      "index_price": 106165.39,
+      "futures_price": 106180.03,
+      "basis": 14.6446,
+      "basis_rate": 0.00013794,
+      "annualized_basis_rate": 0.06060435,
+      "timestamp": 1782572400
+    },
+    {
+      "time": 1782573300000,
+      "index_price": 106048.77,
+      "futures_price": 106061.0,
+      "basis": 12.2315,
+      "basis_rate": 0.00011534,
+      "annualized_basis_rate": 0.03841466,
+      "timestamp": 1782573300
+    },
+    {
+      "time": 1782574200000,
+      "index_price": 106173.08,
+      "futures_price": 106267.91,
+      "basis": 94.8255,
+      "basis_rate": 0.00089312,
+      "annualized_basis_rate": 0.09891944,
+      "timestamp": 1782574200
+    },
+    {
+      "time": 1782575100000,
+      "index_price": 106091.11,
+      "futures_price": 106223.77,
+      "basis": 132.652,
+      "basis_rate": 0.00125036,
+      "annualized_basis_rate": 0.04827918,
+      "timestamp": 1782575100
+    },
+    {
+      "time": 1782576000000,
+      "index_price": 106236.12,
+      "futures_price": 106291.64,
+      "basis": 55.5222,
+      "basis_rate": 0.00052263,
+      "annualized_basis_rate": 0.10464679,
+      "timestamp": 1782576000
+    },
+    {
+      "time": 1782576900000,
+      "index_price": 106041.96,
+      "futures_price": 106201.1,
+      "basis": 159.1404,
+      "basis_rate": 0.00150073,
+      "annualized_basis_rate": 0.06022549,
+      "timestamp": 1782576900
+    },
+    {
+      "time": 1782577800000,
+      "index_price": 106234.82,
+      "futures_price": 106303.28,
+      "basis": 68.4593,
+      "basis_rate": 0.00064441,
+      "annualized_basis_rate": 0.08908248,
+      "timestamp": 1782577800
+    },
+    {
+      "time": 1782578700000,
+      "index_price": 106139.65,
+      "futures_price": 106242.99,
+      "basis": 103.3424,
+      "basis_rate": 0.00097365,
+      "annualized_basis_rate": 0.05036076,
+      "timestamp": 1782578700
+    },
+    {
+      "time": 1782579600000,
+      "index_price": 106118.33,
+      "futures_price": 106254.99,
+      "basis": 136.653,
+      "basis_rate": 0.00128774,
+      "annualized_basis_rate": 0.05904025,
+      "timestamp": 1782579600
+    },
+    {
+      "time": 1782580500000,
+      "index_price": 106182.75,
+      "futures_price": 106344.63,
+      "basis": 161.8849,
+      "basis_rate": 0.00152459,
+      "annualized_basis_rate": 0.02969646,
+      "timestamp": 1782580500
+    },
+    {
+      "time": 1782581400000,
+      "index_price": 106117.58,
+      "futures_price": 106185.15,
+      "basis": 67.5673,
+      "basis_rate": 0.00063672,
+      "annualized_basis_rate": 0.08335858,
+      "timestamp": 1782581400
+    },
+    {
+      "time": 1782582300000,
+      "index_price": 106305.1,
+      "futures_price": 106371.66,
+      "basis": 66.5608,
+      "basis_rate": 0.00062613,
+      "annualized_basis_rate": 0.05838014,
+      "timestamp": 1782582300
+    },
+    {
+      "time": 1782583200000,
+      "index_price": 106304.83,
+      "futures_price": 106375.96,
+      "basis": 71.1304,
+      "basis_rate": 0.00066912,
+      "annualized_basis_rate": 0.05548155,
+      "timestamp": 1782583200
+    },
+    {
+      "time": 1782584100000,
+      "index_price": 106416.82,
+      "futures_price": 106519.02,
+      "basis": 102.2055,
+      "basis_rate": 0.00096043,
+      "annualized_basis_rate": 0.07399489,
+      "timestamp": 1782584100
+    },
+    {
+      "time": 1782585000000,
+      "index_price": 106441.83,
+      "futures_price": 106545.2,
+      "basis": 103.3718,
+      "basis_rate": 0.00097116,
+      "annualized_basis_rate": 0.03160486,
+      "timestamp": 1782585000
+    },
+    {
+      "time": 1782585900000,
+      "index_price": 106401.15,
+      "futures_price": 106457.36,
+      "basis": 56.2141,
+      "basis_rate": 0.00052832,
+      "annualized_basis_rate": 0.07694712,
+      "timestamp": 1782585900
+    },
+    {
+      "time": 1782586800000,
+      "index_price": 106414.5,
+      "futures_price": 106539.92,
+      "basis": 125.4233,
+      "basis_rate": 0.00117863,
+      "annualized_basis_rate": 0.02797439,
+      "timestamp": 1782586800
+    },
+    {
+      "time": 1782587700000,
+      "index_price": 106559.68,
+      "futures_price": 106622.1,
+      "basis": 62.4117,
+      "basis_rate": 0.0005857,
+      "annualized_basis_rate": 0.06637026,
+      "timestamp": 1782587700
+    },
+    {
+      "time": 1782588600000,
+      "index_price": 106391.35,
+      "futures_price": 106531.04,
+      "basis": 139.6913,
+      "basis_rate": 0.00131299,
+      "annualized_basis_rate": 0.05384947,
+      "timestamp": 1782588600
+    },
+    {
+      "time": 1782589500000,
+      "index_price": 106524.23,
+      "futures_price": 106539.06,
+      "basis": 14.8259,
+      "basis_rate": 0.00013918,
+      "annualized_basis_rate": 0.06609073,
+      "timestamp": 1782589500
+    },
+    {
+      "time": 1782590400000,
+      "index_price": 106688.64,
+      "futures_price": 106770.49,
+      "basis": 81.8441,
+      "basis_rate": 0.00076713,
+      "annualized_basis_rate": 0.02368787,
+      "timestamp": 1782590400
+    },
+    {
+      "time": 1782591300000,
+      "index_price": 106643.98,
+      "futures_price": 106684.46,
+      "basis": 40.4858,
+      "basis_rate": 0.00037964,
+      "annualized_basis_rate": 0.05209994,
+      "timestamp": 1782591300
+    },
+    {
+      "time": 1782592200000,
+      "index_price": 106776.6,
+      "futures_price": 106835.3,
+      "basis": 58.6993,
+      "basis_rate": 0.00054974,
+      "annualized_basis_rate": 0.01995187,
+      "timestamp": 1782592200
+    },
+    {
+      "time": 1782593100000,
+      "index_price": 106769.31,
+      "futures_price": 106835.37,
+      "basis": 66.064,
+      "basis_rate": 0.00061875,
+      "annualized_basis_rate": 0.05684755,
+      "timestamp": 1782593100
+    },
+    {
+      "time": 1782594000000,
+      "index_price": 106797.98,
+      "futures_price": 106979.83,
+      "basis": 181.8499,
+      "basis_rate": 0.00170275,
+      "annualized_basis_rate": 0.05487932,
+      "timestamp": 1782594000
+    },
+    {
+      "time": 1782594900000,
+      "index_price": 106817.7,
+      "futures_price": 106939.56,
+      "basis": 121.8628,
+      "basis_rate": 0.00114085,
+      "annualized_basis_rate": 0.0655091,
+      "timestamp": 1782594900
+    },
+    {
+      "time": 1782595800000,
+      "index_price": 106799.82,
+      "futures_price": 106861.24,
+      "basis": 61.4181,
+      "basis_rate": 0.00057508,
+      "annualized_basis_rate": 0.03019547,
+      "timestamp": 1782595800
+    },
+    {
+      "time": 1782596700000,
+      "index_price": 106887.58,
+      "futures_price": 106996.98,
+      "basis": 109.4002,
+      "basis_rate": 0.00102351,
+      "annualized_basis_rate": 0.07391122,
+      "timestamp": 1782596700
+    },
+    {
+      "time": 1782597600000,
+      "index_price": 107046.11,
+      "futures_price": 107100.33,
+      "basis": 54.2114,
+      "basis_rate": 0.00050643,
+      "annualized_basis_rate": 0.01018678,
+      "timestamp": 1782597600
+    },
+    {
+      "time": 1782598500000,
+      "index_price": 106973.82,
+      "futures_price": 107046.63,
+      "basis": 72.8037,
+      "basis_rate": 0.00068057,
+      "annualized_basis_rate": 0.05622478,
+      "timestamp": 1782598500
+    },
+    {
+      "time": 1782599400000,
+      "index_price": 107060.15,
+      "futures_price": 107149.05,
+      "basis": 88.8988,
+      "basis_rate": 0.00083036,
+      "annualized_basis_rate": 0.00445419,
+      "timestamp": 1782599400
+    },
+    {
+      "time": 1782600300000,
+      "index_price": 107230.89,
+      "futures_price": 107294.84,
+      "basis": 63.9516,
+      "basis_rate": 0.00059639,
+      "annualized_basis_rate": 0.08746001,
+      "timestamp": 1782600300
+    },
+    {
+      "time": 1782601200000,
+      "index_price": 107157.9,
+      "futures_price": 107193.24,
+      "basis": 35.3391,
+      "basis_rate": 0.00032979,
+      "annualized_basis_rate": 0.02655783,
+      "timestamp": 1782601200
+    },
+    {
+      "time": 1782602100000,
+      "index_price": 107331.22,
+      "futures_price": 107430.08,
+      "basis": 98.863,
+      "basis_rate": 0.0009211,
+      "annualized_basis_rate": 0.05927055,
+      "timestamp": 1782602100
+    },
+    {
+      "time": 1782603000000,
+      "index_price": 107443.66,
+      "futures_price": 107526.76,
+      "basis": 83.104,
+      "basis_rate": 0.00077347,
+      "annualized_basis_rate": 0.06275545,
+      "timestamp": 1782603000
+    },
+    {
+      "time": 1782603900000,
+      "index_price": 107356.98,
+      "futures_price": 107413.41,
+      "basis": 56.4227,
+      "basis_rate": 0.00052556,
+      "annualized_basis_rate": 0.05913631,
+      "timestamp": 1782603900
+    },
+    {
+      "time": 1782604800000,
+      "index_price": 107576.35,
+      "futures_price": 107616.32,
+      "basis": 39.9709,
+      "basis_rate": 0.00037156,
+      "annualized_basis_rate": 0.086465,
+      "timestamp": 1782604800
+    },
+    {
+      "time": 1782605700000,
+      "index_price": 107591.83,
+      "futures_price": 107719.15,
+      "basis": 127.3227,
+      "basis_rate": 0.00118339,
+      "annualized_basis_rate": 0.08267028,
+      "timestamp": 1782605700
+    },
+    {
+      "time": 1782606600000,
+      "index_price": 107727.42,
+      "futures_price": 107787.71,
+      "basis": 60.2885,
+      "basis_rate": 0.00055964,
+      "annualized_basis_rate": 0.02852078,
+      "timestamp": 1782606600
+    },
+    {
+      "time": 1782607500000,
+      "index_price": 107663.5,
+      "futures_price": 107743.94,
+      "basis": 80.4466,
+      "basis_rate": 0.0007472,
+      "annualized_basis_rate": 0.09965717,
+      "timestamp": 1782607500
+    },
+    {
+      "time": 1782608400000,
+      "index_price": 107656.7,
+      "futures_price": 107674.61,
+      "basis": 17.9086,
+      "basis_rate": 0.00016635,
+      "annualized_basis_rate": 0.05703338,
+      "timestamp": 1782608400
+    },
+    {
+      "time": 1782609300000,
+      "index_price": 107884.03,
+      "futures_price": 107979.17,
+      "basis": 95.1366,
+      "basis_rate": 0.00088184,
+      "annualized_basis_rate": 0.06275612,
+      "timestamp": 1782609300
+    },
+    {
+      "time": 1782610200000,
+      "index_price": 107909.53,
+      "futures_price": 107955.53,
+      "basis": 45.9938,
+      "basis_rate": 0.00042623,
+      "annualized_basis_rate": 0.03762201,
+      "timestamp": 1782610200
+    },
+    {
+      "time": 1782611100000,
+      "index_price": 107957.6,
+      "futures_price": 107992.86,
+      "basis": 35.2642,
+      "basis_rate": 0.00032665,
+      "annualized_basis_rate": 0.06115757,
+      "timestamp": 1782611100
+    },
+    {
+      "time": 1782612000000,
+      "index_price": 107927.49,
+      "futures_price": 108040.99,
+      "basis": 113.5017,
+      "basis_rate": 0.00105165,
+      "annualized_basis_rate": 0.0547849,
+      "timestamp": 1782612000
+    },
+    {
+      "time": 1782612900000,
+      "index_price": 108033.05,
+      "futures_price": 108112.08,
+      "basis": 79.0276,
+      "basis_rate": 0.00073151,
+      "annualized_basis_rate": 0.06292001,
+      "timestamp": 1782612900
+    },
+    {
+      "time": 1782613800000,
+      "index_price": 108026.23,
+      "futures_price": 108095.34,
+      "basis": 69.1158,
+      "basis_rate": 0.00063981,
+      "annualized_basis_rate": 0.04966769,
+      "timestamp": 1782613800
+    },
+    {
+      "time": 1782614700000,
+      "index_price": 107982.8,
+      "futures_price": 108056.13,
+      "basis": 73.3342,
+      "basis_rate": 0.00067913,
+      "annualized_basis_rate": 0.06110148,
+      "timestamp": 1782614700
+    },
+    {
+      "time": 1782615600000,
+      "index_price": 108081.54,
+      "futures_price": 108193.13,
+      "basis": 111.59,
+      "basis_rate": 0.00103246,
+      "annualized_basis_rate": 0.04321413,
+      "timestamp": 1782615600
+    },
+    {
+      "time": 1782616500000,
+      "index_price": 108126.16,
+      "futures_price": 108244.51,
+      "basis": 118.3476,
+      "basis_rate": 0.00109453,
+      "annualized_basis_rate": 0.03057441,
+      "timestamp": 1782616500
+    },
+    {
+      "time": 1782617400000,
+      "index_price": 108162.77,
+      "futures_price": 108219.9,
+      "basis": 57.1379,
+      "basis_rate": 0.00052826,
+      "annualized_basis_rate": 0.04216615,
+      "timestamp": 1782617400
+    },
+    {
+      "time": 1782618300000,
+      "index_price": 108167.54,
+      "futures_price": 108230.05,
+      "basis": 62.5063,
+      "basis_rate": 0.00057787,
+      "annualized_basis_rate": 0.05496402,
+      "timestamp": 1782618300
+    },
+    {
+      "time": 1782619200000,
+      "index_price": 108283.34,
+      "futures_price": 108320.89,
+      "basis": 37.551,
+      "basis_rate": 0.00034679,
+      "annualized_basis_rate": 0.06147951,
+      "timestamp": 1782619200
+    },
+    {
+      "time": 1782620100000,
+      "index_price": 108281.39,
+      "futures_price": 108368.98,
+      "basis": 87.5903,
+      "basis_rate": 0.00080891,
+      "annualized_basis_rate": 0.07279016,
+      "timestamp": 1782620100
+    },
+    {
+      "time": 1782621000000,
+      "index_price": 108277.59,
+      "futures_price": 108343.46,
+      "basis": 65.8661,
+      "basis_rate": 0.00060831,
+      "annualized_basis_rate": 0.05878498,
+      "timestamp": 1782621000
+    },
+    {
+      "time": 1782621900000,
+      "index_price": 108298.55,
+      "futures_price": 108381.04,
+      "basis": 82.4933,
+      "basis_rate": 0.00076172,
+      "annualized_basis_rate": 0.06863584,
+      "timestamp": 1782621900
+    },
+    {
+      "time": 1782622800000,
+      "index_price": 108508.68,
+      "futures_price": 108569.17,
+      "basis": 60.492,
+      "basis_rate": 0.00055749,
+      "annualized_basis_rate": 0.06093281,
+      "timestamp": 1782622800
+    },
+    {
+      "time": 1782623700000,
+      "index_price": 108430.15,
+      "futures_price": 108538.15,
+      "basis": 108.0033,
+      "basis_rate": 0.00099606,
+      "annualized_basis_rate": 0.03532267,
+      "timestamp": 1782623700
+    },
+    {
+      "time": 1782624600000,
+      "index_price": 108359.32,
+      "futures_price": 108443.25,
+      "basis": 83.9311,
+      "basis_rate": 0.00077456,
+      "annualized_basis_rate": 0.05417129,
+      "timestamp": 1782624600
+    },
+    {
+      "time": 1782625500000,
+      "index_price": 108446.27,
+      "futures_price": 108484.72,
+      "basis": 38.4505,
+      "basis_rate": 0.00035456,
+      "annualized_basis_rate": 0.06228937,
+      "timestamp": 1782625500
+    },
+    {
+      "time": 1782626400000,
+      "index_price": 108525.83,
+      "futures_price": 108652.8,
+      "basis": 126.9779,
+      "basis_rate": 0.00117002,
+      "annualized_basis_rate": 0.06882655,
+      "timestamp": 1782626400
+    },
+    {
+      "time": 1782627300000,
+      "index_price": 108587.64,
+      "futures_price": 108716.91,
+      "basis": 129.2715,
+      "basis_rate": 0.00119048,
+      "annualized_basis_rate": 0.058905,
+      "timestamp": 1782627300
+    },
+    {
+      "time": 1782628200000,
+      "index_price": 108613.89,
+      "futures_price": 108695.61,
+      "basis": 81.7228,
+      "basis_rate": 0.00075242,
+      "annualized_basis_rate": 0.08027778,
+      "timestamp": 1782628200
+    },
+    {
+      "time": 1782629100000,
+      "index_price": 108436.5,
+      "futures_price": 108527.77,
+      "basis": 91.2697,
+      "basis_rate": 0.00084169,
+      "annualized_basis_rate": 0.0381895,
+      "timestamp": 1782629100
+    },
+    {
+      "time": 1782630000000,
+      "index_price": 108446.79,
+      "futures_price": 108519.93,
+      "basis": 73.1337,
+      "basis_rate": 0.00067437,
+      "annualized_basis_rate": 0.04355055,
+      "timestamp": 1782630000
+    },
+    {
+      "time": 1782630900000,
+      "index_price": 108538.61,
+      "futures_price": 108660.87,
+      "basis": 122.2624,
+      "basis_rate": 0.00112644,
+      "annualized_basis_rate": 0.0902137,
+      "timestamp": 1782630900
+    },
+    {
+      "time": 1782631800000,
+      "index_price": 108602.0,
+      "futures_price": 108662.65,
+      "basis": 60.6428,
+      "basis_rate": 0.00055839,
+      "annualized_basis_rate": 0.08909328,
+      "timestamp": 1782631800
+    },
+    {
+      "time": 1782632700000,
+      "index_price": 108667.5,
+      "futures_price": 108789.79,
+      "basis": 122.2872,
+      "basis_rate": 0.00112533,
+      "annualized_basis_rate": 0.05670994,
+      "timestamp": 1782632700
+    },
+    {
+      "time": 1782633600000,
+      "index_price": 108541.69,
+      "futures_price": 108624.95,
+      "basis": 83.26,
+      "basis_rate": 0.00076708,
+      "annualized_basis_rate": 0.06514068,
+      "timestamp": 1782633600
+    },
+    {
+      "time": 1782634500000,
+      "index_price": 108443.79,
+      "futures_price": 108562.11,
+      "basis": 118.3153,
+      "basis_rate": 0.00109103,
+      "annualized_basis_rate": 0.04677378,
+      "timestamp": 1782634500
+    },
+    {
+      "time": 1782635400000,
+      "index_price": 108642.87,
+      "futures_price": 108706.06,
+      "basis": 63.1895,
+      "basis_rate": 0.00058163,
+      "annualized_basis_rate": 0.05647132,
+      "timestamp": 1782635400
+    },
+    {
+      "time": 1782636300000,
+      "index_price": 108525.86,
+      "futures_price": 108586.44,
+      "basis": 60.5786,
+      "basis_rate": 0.00055819,
+      "annualized_basis_rate": 0.08429616,
+      "timestamp": 1782636300
+    },
+    {
+      "time": 1782637200000,
+      "index_price": 108570.23,
+      "futures_price": 108633.26,
+      "basis": 63.0239,
+      "basis_rate": 0.00058049,
+      "annualized_basis_rate": 0.05896595,
+      "timestamp": 1782637200
+    },
+    {
+      "time": 1782638100000,
+      "index_price": 108580.34,
+      "futures_price": 108685.03,
+      "basis": 104.69,
+      "basis_rate": 0.00096417,
+      "annualized_basis_rate": 0.03059538,
+      "timestamp": 1782638100
+    },
+    {
+      "time": 1782639000000,
+      "index_price": 108541.78,
+      "futures_price": 108647.85,
+      "basis": 106.0716,
+      "basis_rate": 0.00097724,
+      "annualized_basis_rate": 0.0650756,
+      "timestamp": 1782639000
+    },
+    {
+      "time": 1782639900000,
+      "index_price": 108449.77,
+      "futures_price": 108507.43,
+      "basis": 57.6614,
+      "basis_rate": 0.00053169,
+      "annualized_basis_rate": 0.06395902,
+      "timestamp": 1782639900
+    },
+    {
+      "time": 1782640800000,
+      "index_price": 108462.02,
+      "futures_price": 108569.76,
+      "basis": 107.7448,
+      "basis_rate": 0.00099339,
+      "annualized_basis_rate": 0.03306484,
+      "timestamp": 1782640800
+    },
+    {
+      "time": 1782641700000,
+      "index_price": 108432.26,
+      "futures_price": 108534.92,
+      "basis": 102.6539,
+      "basis_rate": 0.00094671,
+      "annualized_basis_rate": 0.02987732,
+      "timestamp": 1782641700
+    },
+    {
+      "time": 1782642600000,
+      "index_price": 108441.33,
+      "futures_price": 108522.75,
+      "basis": 81.424,
+      "basis_rate": 0.00075086,
+      "annualized_basis_rate": 0.02392013,
+      "timestamp": 1782642600
+    },
+    {
+      "time": 1782643500000,
+      "index_price": 108291.54,
+      "futures_price": 108339.83,
+      "basis": 48.2897,
+      "basis_rate": 0.00044592,
+      "annualized_basis_rate": 0.04931421,
+      "timestamp": 1782643500
+    },
+    {
+      "time": 1782644400000,
+      "index_price": 108276.06,
+      "futures_price": 108385.2,
+      "basis": 109.1462,
+      "basis_rate": 0.00100804,
+      "annualized_basis_rate": 0.03361305,
+      "timestamp": 1782644400
+    },
+    {
+      "time": 1782645300000,
+      "index_price": 108245.02,
+      "futures_price": 108338.62,
+      "basis": 93.6056,
+      "basis_rate": 0.00086476,
+      "annualized_basis_rate": 0.09463062,
+      "timestamp": 1782645300
+    },
+    {
+      "time": 1782646200000,
+      "index_price": 108184.81,
+      "futures_price": 108287.99,
+      "basis": 103.1836,
+      "basis_rate": 0.00095377,
+      "annualized_basis_rate": 0.06983687,
+      "timestamp": 1782646200
+    },
+    {
+      "time": 1782647100000,
+      "index_price": 108289.92,
+      "futures_price": 108382.97,
+      "basis": 93.0474,
+      "basis_rate": 0.00085924,
+      "annualized_basis_rate": 0.01850665,
+      "timestamp": 1782647100
+    },
+    {
+      "time": 1782648000000,
+      "index_price": 108055.7,
+      "futures_price": 108128.33,
+      "basis": 72.6292,
+      "basis_rate": 0.00067215,
+      "annualized_basis_rate": 0.07663473,
+      "timestamp": 1782648000
+    },
+    {
+      "time": 1782648900000,
+      "index_price": 108183.76,
+      "futures_price": 108271.5,
+      "basis": 87.7451,
+      "basis_rate": 0.00081107,
+      "annualized_basis_rate": 0.0538879,
+      "timestamp": 1782648900
+    },
+    {
+      "time": 1782649800000,
+      "index_price": 108004.12,
+      "futures_price": 108062.85,
+      "basis": 58.7312,
+      "basis_rate": 0.00054379,
+      "annualized_basis_rate": 0.0410155,
+      "timestamp": 1782649800
+    },
+    {
+      "time": 1782650700000,
+      "index_price": 108083.57,
+      "futures_price": 108157.76,
+      "basis": 74.1877,
+      "basis_rate": 0.00068639,
+      "annualized_basis_rate": 0.03992116,
+      "timestamp": 1782650700
+    },
+    {
+      "time": 1782651600000,
+      "index_price": 107960.57,
+      "futures_price": 108057.41,
+      "basis": 96.8432,
+      "basis_rate": 0.00089702,
+      "annualized_basis_rate": 0.03369268,
+      "timestamp": 1782651600
+    },
+    {
+      "time": 1782652500000,
+      "index_price": 108057.05,
+      "futures_price": 108116.81,
+      "basis": 59.7613,
+      "basis_rate": 0.00055305,
+      "annualized_basis_rate": 0.06843209,
+      "timestamp": 1782652500
+    },
+    {
+      "time": 1782653400000,
+      "index_price": 107983.03,
+      "futures_price": 108076.99,
+      "basis": 93.9581,
+      "basis_rate": 0.00087012,
+      "annualized_basis_rate": 0.06793757,
+      "timestamp": 1782653400
+    },
+    {
+      "time": 1782654300000,
+      "index_price": 107778.04,
+      "futures_price": 107852.27,
+      "basis": 74.2313,
+      "basis_rate": 0.00068874,
+      "annualized_basis_rate": 0.06549319,
+      "timestamp": 1782654300
+    },
+    {
+      "time": 1782655200000,
+      "index_price": 107858.87,
+      "futures_price": 107935.56,
+      "basis": 76.6898,
+      "basis_rate": 0.00071102,
+      "annualized_basis_rate": 0.07538791,
+      "timestamp": 1782655200
+    },
+    {
+      "time": 1782656100000,
+      "index_price": 107651.79,
+      "futures_price": 107748.61,
+      "basis": 96.8195,
+      "basis_rate": 0.00089938,
+      "annualized_basis_rate": 0.03977718,
+      "timestamp": 1782656100
+    },
+    {
+      "time": 1782657000000,
+      "index_price": 107822.47,
+      "futures_price": 107847.39,
+      "basis": 24.9295,
+      "basis_rate": 0.00023121,
+      "annualized_basis_rate": 0.05596635,
+      "timestamp": 1782657000
+    },
+    {
+      "time": 1782657900000,
+      "index_price": 107578.55,
+      "futures_price": 107682.75,
+      "basis": 104.1909,
+      "basis_rate": 0.00096851,
+      "annualized_basis_rate": 0.0279855,
+      "timestamp": 1782657900
+    },
+    {
+      "time": 1782658800000,
+      "index_price": 107646.38,
+      "futures_price": 107757.42,
+      "basis": 111.0398,
+      "basis_rate": 0.00103152,
+      "annualized_basis_rate": 0.06099046,
+      "timestamp": 1782658800
+    },
+    {
+      "time": 1782659700000,
+      "index_price": 107625.53,
+      "futures_price": 107726.4,
+      "basis": 100.8652,
+      "basis_rate": 0.00093719,
+      "annualized_basis_rate": 0.08360735,
+      "timestamp": 1782659700
+    },
+    {
+      "time": 1782660600000,
+      "index_price": 107429.07,
+      "futures_price": 107526.3,
+      "basis": 97.2257,
+      "basis_rate": 0.00090502,
+      "annualized_basis_rate": 0.05255001,
+      "timestamp": 1782660600
+    },
+    {
+      "time": 1782661500000,
+      "index_price": 107610.74,
+      "futures_price": 107653.12,
+      "basis": 42.3816,
+      "basis_rate": 0.00039384,
+      "annualized_basis_rate": 0.05974506,
+      "timestamp": 1782661500
+    },
+    {
+      "time": 1782662400000,
+      "index_price": 107470.41,
+      "futures_price": 107567.51,
+      "basis": 97.099,
+      "basis_rate": 0.0009035,
+      "annualized_basis_rate": 0.06205886,
+      "timestamp": 1782662400
+    },
+    {
+      "time": 1782663300000,
+      "index_price": 107330.65,
+      "futures_price": 107380.34,
+      "basis": 49.6863,
+      "basis_rate": 0.00046293,
+      "annualized_basis_rate": 0.05534692,
+      "timestamp": 1782663300
+    },
+    {
+      "time": 1782664200000,
+      "index_price": 107285.84,
+      "futures_price": 107350.94,
+      "basis": 65.1022,
+      "basis_rate": 0.00060681,
+      "annualized_basis_rate": 0.04713429,
+      "timestamp": 1782664200
+    },
+    {
+      "time": 1782665100000,
+      "index_price": 107225.07,
+      "futures_price": 107397.99,
+      "basis": 172.9216,
+      "basis_rate": 0.0016127,
+      "annualized_basis_rate": 0.06700732,
+      "timestamp": 1782665100
+    },
+    {
+      "time": 1782666000000,
+      "index_price": 107355.93,
+      "futures_price": 107437.52,
+      "basis": 81.5861,
+      "basis_rate": 0.00075996,
+      "annualized_basis_rate": 0.05356884,
+      "timestamp": 1782666000
+    },
+    {
+      "time": 1782666900000,
+      "index_price": 107375.75,
+      "futures_price": 107415.52,
+      "basis": 39.7651,
+      "basis_rate": 0.00037034,
+      "annualized_basis_rate": 0.06679872,
+      "timestamp": 1782666900
+    },
+    {
+      "time": 1782667800000,
+      "index_price": 107194.17,
+      "futures_price": 107300.23,
+      "basis": 106.0638,
+      "basis_rate": 0.00098945,
+      "annualized_basis_rate": 0.06584743,
+      "timestamp": 1782667800
+    },
+    {
+      "time": 1782668700000,
+      "index_price": 107192.32,
+      "futures_price": 107322.84,
+      "basis": 130.5188,
+      "basis_rate": 0.00121761,
+      "annualized_basis_rate": 0.03484627,
+      "timestamp": 1782668700
+    },
+    {
+      "time": 1782669600000,
+      "index_price": 107066.79,
+      "futures_price": 107178.76,
+      "basis": 111.9772,
+      "basis_rate": 0.00104586,
+      "annualized_basis_rate": 0.0545509,
+      "timestamp": 1782669600
+    },
+    {
+      "time": 1782670500000,
+      "index_price": 107048.0,
+      "futures_price": 107064.73,
+      "basis": 16.7305,
+      "basis_rate": 0.00015629,
+      "annualized_basis_rate": 0.02287927,
+      "timestamp": 1782670500
+    },
+    {
+      "time": 1782671400000,
+      "index_price": 107134.21,
+      "futures_price": 107159.17,
+      "basis": 24.9633,
+      "basis_rate": 0.00023301,
+      "annualized_basis_rate": 0.04315238,
+      "timestamp": 1782671400
+    },
+    {
+      "time": 1782672300000,
+      "index_price": 107021.1,
+      "futures_price": 107051.42,
+      "basis": 30.3157,
+      "basis_rate": 0.00028327,
+      "annualized_basis_rate": 0.08289454,
+      "timestamp": 1782672300
+    },
+    {
+      "time": 1782673200000,
+      "index_price": 107005.13,
+      "futures_price": 107131.38,
+      "basis": 126.2529,
+      "basis_rate": 0.00117988,
+      "annualized_basis_rate": 0.06022412,
+      "timestamp": 1782673200
+    },
+    {
+      "time": 1782674100000,
+      "index_price": 107031.16,
+      "futures_price": 107123.3,
+      "basis": 92.1405,
+      "basis_rate": 0.00086088,
+      "annualized_basis_rate": 0.04854097,
+      "timestamp": 1782674100
+    },
+    {
+      "time": 1782675000000,
+      "index_price": 106969.6,
+      "futures_price": 107089.29,
+      "basis": 119.689,
+      "basis_rate": 0.00111891,
+      "annualized_basis_rate": 0.04539991,
+      "timestamp": 1782675000
+    },
+    {
+      "time": 1782675900000,
+      "index_price": 106924.63,
+      "futures_price": 106983.83,
+      "basis": 59.1972,
+      "basis_rate": 0.00055363,
+      "annualized_basis_rate": 0.08044799,
+      "timestamp": 1782675900
+    },
+    {
+      "time": 1782676800000,
+      "index_price": 106927.91,
+      "futures_price": 106969.54,
+      "basis": 41.6298,
+      "basis_rate": 0.00038933,
+      "annualized_basis_rate": 0.07232611,
+      "timestamp": 1782676800
+    },
+    {
+      "time": 1782677700000,
+      "index_price": 107018.04,
+      "futures_price": 107125.68,
+      "basis": 107.6366,
+      "basis_rate": 0.00100578,
+      "annualized_basis_rate": 0.05312036,
+      "timestamp": 1782677700
+    },
+    {
+      "time": 1782678600000,
+      "index_price": 106865.6,
+      "futures_price": 106892.99,
+      "basis": 27.3971,
+      "basis_rate": 0.00025637,
+      "annualized_basis_rate": 0.07091595,
+      "timestamp": 1782678600
+    },
+    {
+      "time": 1782679500000,
+      "index_price": 106896.29,
+      "futures_price": 106963.74,
+      "basis": 67.452,
+      "basis_rate": 0.000631,
+      "annualized_basis_rate": 0.03144855,
+      "timestamp": 1782679500
+    },
+    {
+      "time": 1782680400000,
+      "index_price": 107066.97,
+      "futures_price": 107100.79,
+      "basis": 33.8179,
+      "basis_rate": 0.00031586,
+      "annualized_basis_rate": 0.03389411,
+      "timestamp": 1782680400
+    },
+    {
+      "time": 1782681300000,
+      "index_price": 107031.43,
+      "futures_price": 107098.43,
+      "basis": 66.9983,
+      "basis_rate": 0.00062597,
+      "annualized_basis_rate": 0.06049795,
+      "timestamp": 1782681300
+    },
+    {
+      "time": 1782682200000,
+      "index_price": 107062.38,
+      "futures_price": 107172.81,
+      "basis": 110.4279,
+      "basis_rate": 0.00103143,
+      "annualized_basis_rate": 0.05537555,
+      "timestamp": 1782682200
+    },
+    {
+      "time": 1782683100000,
+      "index_price": 106921.02,
+      "futures_price": 107002.27,
+      "basis": 81.2501,
+      "basis_rate": 0.00075991,
+      "annualized_basis_rate": 0.05521883,
+      "timestamp": 1782683100
+    },
+    {
+      "time": 1782684000000,
+      "index_price": 107016.55,
+      "futures_price": 107104.28,
+      "basis": 87.7273,
+      "basis_rate": 0.00081975,
+      "annualized_basis_rate": 0.0368154,
+      "timestamp": 1782684000
+    },
+    {
+      "time": 1782684900000,
+      "index_price": 107055.23,
+      "futures_price": 107168.95,
+      "basis": 113.7221,
+      "basis_rate": 0.00106227,
+      "annualized_basis_rate": 0.07722442,
+      "timestamp": 1782684900
+    },
+    {
+      "time": 1782685800000,
+      "index_price": 107102.92,
+      "futures_price": 107193.55,
+      "basis": 90.6315,
+      "basis_rate": 0.00084621,
+      "annualized_basis_rate": 0.04081351,
+      "timestamp": 1782685800
+    },
+    {
+      "time": 1782686700000,
+      "index_price": 107090.17,
+      "futures_price": 107168.03,
+      "basis": 77.8674,
+      "basis_rate": 0.00072712,
+      "annualized_basis_rate": 0.07892911,
+      "timestamp": 1782686700
+    },
+    {
+      "time": 1782687600000,
+      "index_price": 106965.27,
+      "futures_price": 107085.5,
+      "basis": 120.237,
+      "basis_rate": 0.00112408,
+      "annualized_basis_rate": 0.06195518,
+      "timestamp": 1782687600
+    },
+    {
+      "time": 1782688500000,
+      "index_price": 107162.76,
+      "futures_price": 107286.07,
+      "basis": 123.3067,
+      "basis_rate": 0.00115065,
+      "annualized_basis_rate": 0.0758482,
+      "timestamp": 1782688500
+    },
+    {
+      "time": 1782689400000,
+      "index_price": 107177.42,
+      "futures_price": 107297.17,
+      "basis": 119.7527,
+      "basis_rate": 0.00111733,
+      "annualized_basis_rate": 0.0446785,
+      "timestamp": 1782689400
+    },
+    {
+      "time": 1782690300000,
+      "index_price": 107219.16,
+      "futures_price": 107307.8,
+      "basis": 88.6386,
+      "basis_rate": 0.00082671,
+      "annualized_basis_rate": 0.08420641,
+      "timestamp": 1782690300
+    },
+    {
+      "time": 1782691200000,
+      "index_price": 107075.87,
+      "futures_price": 107108.42,
+      "basis": 32.5518,
+      "basis_rate": 0.00030401,
+      "annualized_basis_rate": 0.05762017,
+      "timestamp": 1782691200
+    },
+    {
+      "time": 1782692100000,
+      "index_price": 107253.15,
+      "futures_price": 107394.77,
+      "basis": 141.6111,
+      "basis_rate": 0.00132034,
+      "annualized_basis_rate": 0.06391944,
+      "timestamp": 1782692100
+    },
+    {
+      "time": 1782693000000,
+      "index_price": 107296.22,
+      "futures_price": 107352.43,
+      "basis": 56.2061,
+      "basis_rate": 0.00052384,
+      "annualized_basis_rate": 0.05166043,
+      "timestamp": 1782693000
+    },
+    {
+      "time": 1782693900000,
+      "index_price": 107292.8,
+      "futures_price": 107418.39,
+      "basis": 125.5862,
+      "basis_rate": 0.0011705,
+      "annualized_basis_rate": 0.0613491,
+      "timestamp": 1782693900
+    },
+    {
+      "time": 1782694800000,
+      "index_price": 107236.41,
+      "futures_price": 107315.65,
+      "basis": 79.2457,
+      "basis_rate": 0.00073898,
+      "annualized_basis_rate": 0.05904831,
+      "timestamp": 1782694800
+    },
+    {
+      "time": 1782695700000,
+      "index_price": 107304.31,
+      "futures_price": 107340.33,
+      "basis": 36.017,
+      "basis_rate": 0.00033565,
+      "annualized_basis_rate": 0.04608825,
+      "timestamp": 1782695700
+    },
+    {
+      "time": 1782696600000,
+      "index_price": 107477.43,
+      "futures_price": 107530.55,
+      "basis": 53.1209,
+      "basis_rate": 0.00049425,
+      "annualized_basis_rate": 0.04972264,
+      "timestamp": 1782696600
+    },
+    {
+      "time": 1782697500000,
+      "index_price": 107330.69,
+      "futures_price": 107409.81,
+      "basis": 79.1203,
+      "basis_rate": 0.00073716,
+      "annualized_basis_rate": 0.05267421,
+      "timestamp": 1782697500
+    },
+    {
+      "time": 1782698400000,
+      "index_price": 107424.54,
+      "futures_price": 107539.94,
+      "basis": 115.3931,
+      "basis_rate": 0.00107418,
+      "annualized_basis_rate": 0.05942223,
+      "timestamp": 1782698400
+    },
+    {
+      "time": 1782699300000,
+      "index_price": 107541.63,
+      "futures_price": 107602.75,
+      "basis": 61.1131,
+      "basis_rate": 0.00056827,
+      "annualized_basis_rate": 0.07624003,
+      "timestamp": 1782699300
+    },
+    {
+      "time": 1782700200000,
+      "index_price": 107590.02,
+      "futures_price": 107638.0,
+      "basis": 47.9873,
+      "basis_rate": 0.00044602,
+      "annualized_basis_rate": 0.0521313,
+      "timestamp": 1782700200
+    },
+    {
+      "time": 1782701100000,
+      "index_price": 107691.48,
+      "futures_price": 107710.86,
+      "basis": 19.3826,
+      "basis_rate": 0.00017998,
+      "annualized_basis_rate": 0.03109225,
+      "timestamp": 1782701100
+    },
+    {
+      "time": 1782702000000,
+      "index_price": 107634.56,
+      "futures_price": 107671.11,
+      "basis": 36.5537,
+      "basis_rate": 0.00033961,
+      "annualized_basis_rate": 0.0885074,
+      "timestamp": 1782702000
+    },
+    {
+      "time": 1782702900000,
+      "index_price": 107650.13,
+      "futures_price": 107724.16,
+      "basis": 74.0282,
+      "basis_rate": 0.00068767,
+      "annualized_basis_rate": 0.0777155,
+      "timestamp": 1782702900
+    },
+    {
+      "time": 1782703800000,
+      "index_price": 107802.85,
+      "futures_price": 107863.81,
+      "basis": 60.9535,
+      "basis_rate": 0.00056542,
+      "annualized_basis_rate": 0.06906908,
+      "timestamp": 1782703800
+    },
+    {
+      "time": 1782704700000,
+      "index_price": 107922.09,
+      "futures_price": 108011.73,
+      "basis": 89.6425,
+      "basis_rate": 0.00083062,
+      "annualized_basis_rate": 0.06584348,
+      "timestamp": 1782704700
+    },
+    {
+      "time": 1782705600000,
+      "index_price": 107824.4,
+      "futures_price": 107855.17,
+      "basis": 30.7737,
+      "basis_rate": 0.00028541,
+      "annualized_basis_rate": 0.04768503,
+      "timestamp": 1782705600
+    },
+    {
+      "time": 1782706500000,
+      "index_price": 107984.82,
+      "futures_price": 108065.12,
+      "basis": 80.3017,
+      "basis_rate": 0.00074364,
+      "annualized_basis_rate": 0.05087981,
+      "timestamp": 1782706500
+    },
+    {
+      "time": 1782707400000,
+      "index_price": 108103.19,
+      "futures_price": 108152.86,
+      "basis": 49.668,
+      "basis_rate": 0.00045945,
+      "annualized_basis_rate": 0.06129957,
+      "timestamp": 1782707400
+    },
+    {
+      "time": 1782708300000,
+      "index_price": 108098.18,
+      "futures_price": 108222.81,
+      "basis": 124.6282,
+      "basis_rate": 0.00115292,
+      "annualized_basis_rate": 0.05850181,
+      "timestamp": 1782708300
+    },
+    {
+      "time": 1782709200000,
+      "index_price": 108060.61,
+      "futures_price": 108136.78,
+      "basis": 76.1716,
+      "basis_rate": 0.0007049,
+      "annualized_basis_rate": 0.06767578,
+      "timestamp": 1782709200
+    },
+    {
+      "time": 1782710100000,
+      "index_price": 108197.73,
+      "futures_price": 108258.93,
+      "basis": 61.1982,
+      "basis_rate": 0.00056561,
+      "annualized_basis_rate": 0.05332306,
+      "timestamp": 1782710100
+    },
+    {
+      "time": 1782711000000,
+      "index_price": 108361.33,
+      "futures_price": 108445.32,
+      "basis": 83.9912,
+      "basis_rate": 0.0007751,
+      "annualized_basis_rate": 0.02657767,
+      "timestamp": 1782711000
+    },
+    {
+      "time": 1782711900000,
+      "index_price": 108235.14,
+      "futures_price": 108322.9,
+      "basis": 87.7612,
+      "basis_rate": 0.00081084,
+      "annualized_basis_rate": 0.06339481,
+      "timestamp": 1782711900
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "coinglass_open_interest_and_funding_basis",
+    "path": "/api/futures/basis/history",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/coinglass/extracted_raw/20260704T154952Z/open_interest_and_funding/basis/15m_raw.json",
+    "raw_shape": "code_msg_data_list_basis",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

@@ -1,0 +1,3630 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "open_interest_and_funding",
+  "subtype": "open_interest",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "hour",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-23T00:00:00Z",
+      "blockheight": 856000,
+      "open_interest": 14577014944.34,
+      "timestamp": 1782172800
+    },
+    {
+      "datetime": "2026-06-23T01:00:00Z",
+      "blockheight": 856001,
+      "open_interest": 15046113778.85,
+      "timestamp": 1782176400
+    },
+    {
+      "datetime": "2026-06-23T02:00:00Z",
+      "blockheight": 856002,
+      "open_interest": 14295475065.66,
+      "timestamp": 1782180000
+    },
+    {
+      "datetime": "2026-06-23T03:00:00Z",
+      "blockheight": 856003,
+      "open_interest": 14448319477.68,
+      "timestamp": 1782183600
+    },
+    {
+      "datetime": "2026-06-23T04:00:00Z",
+      "blockheight": 856004,
+      "open_interest": 14970853352.61,
+      "timestamp": 1782187200
+    },
+    {
+      "datetime": "2026-06-23T05:00:00Z",
+      "blockheight": 856005,
+      "open_interest": 14299099080.68,
+      "timestamp": 1782190800
+    },
+    {
+      "datetime": "2026-06-23T06:00:00Z",
+      "blockheight": 856006,
+      "open_interest": 13901679995.34,
+      "timestamp": 1782194400
+    },
+    {
+      "datetime": "2026-06-23T07:00:00Z",
+      "blockheight": 856007,
+      "open_interest": 15660917539.21,
+      "timestamp": 1782198000
+    },
+    {
+      "datetime": "2026-06-23T08:00:00Z",
+      "blockheight": 856008,
+      "open_interest": 14553490765.55,
+      "timestamp": 1782201600
+    },
+    {
+      "datetime": "2026-06-23T09:00:00Z",
+      "blockheight": 856009,
+      "open_interest": 13713406809.26,
+      "timestamp": 1782205200
+    },
+    {
+      "datetime": "2026-06-23T10:00:00Z",
+      "blockheight": 856010,
+      "open_interest": 16579169622.49,
+      "timestamp": 1782208800
+    },
+    {
+      "datetime": "2026-06-23T11:00:00Z",
+      "blockheight": 856011,
+      "open_interest": 14386234464.49,
+      "timestamp": 1782212400
+    },
+    {
+      "datetime": "2026-06-23T12:00:00Z",
+      "blockheight": 856012,
+      "open_interest": 16383835785.79,
+      "timestamp": 1782216000
+    },
+    {
+      "datetime": "2026-06-23T13:00:00Z",
+      "blockheight": 856013,
+      "open_interest": 13936143098.33,
+      "timestamp": 1782219600
+    },
+    {
+      "datetime": "2026-06-23T14:00:00Z",
+      "blockheight": 856014,
+      "open_interest": 14939742165.71,
+      "timestamp": 1782223200
+    },
+    {
+      "datetime": "2026-06-23T15:00:00Z",
+      "blockheight": 856015,
+      "open_interest": 14678200010.66,
+      "timestamp": 1782226800
+    },
+    {
+      "datetime": "2026-06-23T16:00:00Z",
+      "blockheight": 856016,
+      "open_interest": 16528026887.7,
+      "timestamp": 1782230400
+    },
+    {
+      "datetime": "2026-06-23T17:00:00Z",
+      "blockheight": 856017,
+      "open_interest": 15034739116.66,
+      "timestamp": 1782234000
+    },
+    {
+      "datetime": "2026-06-23T18:00:00Z",
+      "blockheight": 856018,
+      "open_interest": 14505696742.89,
+      "timestamp": 1782237600
+    },
+    {
+      "datetime": "2026-06-23T19:00:00Z",
+      "blockheight": 856019,
+      "open_interest": 13885173524.21,
+      "timestamp": 1782241200
+    },
+    {
+      "datetime": "2026-06-23T20:00:00Z",
+      "blockheight": 856020,
+      "open_interest": 15932004645.0,
+      "timestamp": 1782244800
+    },
+    {
+      "datetime": "2026-06-23T21:00:00Z",
+      "blockheight": 856021,
+      "open_interest": 15275804543.37,
+      "timestamp": 1782248400
+    },
+    {
+      "datetime": "2026-06-23T22:00:00Z",
+      "blockheight": 856022,
+      "open_interest": 13353027538.24,
+      "timestamp": 1782252000
+    },
+    {
+      "datetime": "2026-06-23T23:00:00Z",
+      "blockheight": 856023,
+      "open_interest": 14603337061.44,
+      "timestamp": 1782255600
+    },
+    {
+      "datetime": "2026-06-24T00:00:00Z",
+      "blockheight": 856024,
+      "open_interest": 15853901088.78,
+      "timestamp": 1782259200
+    },
+    {
+      "datetime": "2026-06-24T01:00:00Z",
+      "blockheight": 856025,
+      "open_interest": 14050796913.9,
+      "timestamp": 1782262800
+    },
+    {
+      "datetime": "2026-06-24T02:00:00Z",
+      "blockheight": 856026,
+      "open_interest": 14243408725.53,
+      "timestamp": 1782266400
+    },
+    {
+      "datetime": "2026-06-24T03:00:00Z",
+      "blockheight": 856027,
+      "open_interest": 11797828338.72,
+      "timestamp": 1782270000
+    },
+    {
+      "datetime": "2026-06-24T04:00:00Z",
+      "blockheight": 856028,
+      "open_interest": 15775951730.79,
+      "timestamp": 1782273600
+    },
+    {
+      "datetime": "2026-06-24T05:00:00Z",
+      "blockheight": 856029,
+      "open_interest": 15711592808.33,
+      "timestamp": 1782277200
+    },
+    {
+      "datetime": "2026-06-24T06:00:00Z",
+      "blockheight": 856030,
+      "open_interest": 12793401134.67,
+      "timestamp": 1782280800
+    },
+    {
+      "datetime": "2026-06-24T07:00:00Z",
+      "blockheight": 856031,
+      "open_interest": 13800350318.99,
+      "timestamp": 1782284400
+    },
+    {
+      "datetime": "2026-06-24T08:00:00Z",
+      "blockheight": 856032,
+      "open_interest": 13196356265.8,
+      "timestamp": 1782288000
+    },
+    {
+      "datetime": "2026-06-24T09:00:00Z",
+      "blockheight": 856033,
+      "open_interest": 13382178511.38,
+      "timestamp": 1782291600
+    },
+    {
+      "datetime": "2026-06-24T10:00:00Z",
+      "blockheight": 856034,
+      "open_interest": 15162034609.32,
+      "timestamp": 1782295200
+    },
+    {
+      "datetime": "2026-06-24T11:00:00Z",
+      "blockheight": 856035,
+      "open_interest": 14402881386.27,
+      "timestamp": 1782298800
+    },
+    {
+      "datetime": "2026-06-24T12:00:00Z",
+      "blockheight": 856036,
+      "open_interest": 15693133834.41,
+      "timestamp": 1782302400
+    },
+    {
+      "datetime": "2026-06-24T13:00:00Z",
+      "blockheight": 856037,
+      "open_interest": 15447264893.5,
+      "timestamp": 1782306000
+    },
+    {
+      "datetime": "2026-06-24T14:00:00Z",
+      "blockheight": 856038,
+      "open_interest": 14904637323.13,
+      "timestamp": 1782309600
+    },
+    {
+      "datetime": "2026-06-24T15:00:00Z",
+      "blockheight": 856039,
+      "open_interest": 15146159723.35,
+      "timestamp": 1782313200
+    },
+    {
+      "datetime": "2026-06-24T16:00:00Z",
+      "blockheight": 856040,
+      "open_interest": 14054934538.39,
+      "timestamp": 1782316800
+    },
+    {
+      "datetime": "2026-06-24T17:00:00Z",
+      "blockheight": 856041,
+      "open_interest": 14599554321.05,
+      "timestamp": 1782320400
+    },
+    {
+      "datetime": "2026-06-24T18:00:00Z",
+      "blockheight": 856042,
+      "open_interest": 14897514758.24,
+      "timestamp": 1782324000
+    },
+    {
+      "datetime": "2026-06-24T19:00:00Z",
+      "blockheight": 856043,
+      "open_interest": 13725036789.01,
+      "timestamp": 1782327600
+    },
+    {
+      "datetime": "2026-06-24T20:00:00Z",
+      "blockheight": 856044,
+      "open_interest": 13399971524.01,
+      "timestamp": 1782331200
+    },
+    {
+      "datetime": "2026-06-24T21:00:00Z",
+      "blockheight": 856045,
+      "open_interest": 16440715345.1,
+      "timestamp": 1782334800
+    },
+    {
+      "datetime": "2026-06-24T22:00:00Z",
+      "blockheight": 856046,
+      "open_interest": 14191320632.89,
+      "timestamp": 1782338400
+    },
+    {
+      "datetime": "2026-06-24T23:00:00Z",
+      "blockheight": 856047,
+      "open_interest": 12506191353.97,
+      "timestamp": 1782342000
+    },
+    {
+      "datetime": "2026-06-25T00:00:00Z",
+      "blockheight": 856048,
+      "open_interest": 15529997767.54,
+      "timestamp": 1782345600
+    },
+    {
+      "datetime": "2026-06-25T01:00:00Z",
+      "blockheight": 856049,
+      "open_interest": 15150253565.7,
+      "timestamp": 1782349200
+    },
+    {
+      "datetime": "2026-06-25T02:00:00Z",
+      "blockheight": 856050,
+      "open_interest": 13892346902.7,
+      "timestamp": 1782352800
+    },
+    {
+      "datetime": "2026-06-25T03:00:00Z",
+      "blockheight": 856051,
+      "open_interest": 15092679962.53,
+      "timestamp": 1782356400
+    },
+    {
+      "datetime": "2026-06-25T04:00:00Z",
+      "blockheight": 856052,
+      "open_interest": 15584640256.55,
+      "timestamp": 1782360000
+    },
+    {
+      "datetime": "2026-06-25T05:00:00Z",
+      "blockheight": 856053,
+      "open_interest": 13350175484.01,
+      "timestamp": 1782363600
+    },
+    {
+      "datetime": "2026-06-25T06:00:00Z",
+      "blockheight": 856054,
+      "open_interest": 14512167907.74,
+      "timestamp": 1782367200
+    },
+    {
+      "datetime": "2026-06-25T07:00:00Z",
+      "blockheight": 856055,
+      "open_interest": 14185827720.45,
+      "timestamp": 1782370800
+    },
+    {
+      "datetime": "2026-06-25T08:00:00Z",
+      "blockheight": 856056,
+      "open_interest": 13645689618.74,
+      "timestamp": 1782374400
+    },
+    {
+      "datetime": "2026-06-25T09:00:00Z",
+      "blockheight": 856057,
+      "open_interest": 13953952602.4,
+      "timestamp": 1782378000
+    },
+    {
+      "datetime": "2026-06-25T10:00:00Z",
+      "blockheight": 856058,
+      "open_interest": 12784389698.2,
+      "timestamp": 1782381600
+    },
+    {
+      "datetime": "2026-06-25T11:00:00Z",
+      "blockheight": 856059,
+      "open_interest": 14803657677.94,
+      "timestamp": 1782385200
+    },
+    {
+      "datetime": "2026-06-25T12:00:00Z",
+      "blockheight": 856060,
+      "open_interest": 13574579477.0,
+      "timestamp": 1782388800
+    },
+    {
+      "datetime": "2026-06-25T13:00:00Z",
+      "blockheight": 856061,
+      "open_interest": 12920977131.96,
+      "timestamp": 1782392400
+    },
+    {
+      "datetime": "2026-06-25T14:00:00Z",
+      "blockheight": 856062,
+      "open_interest": 14034384284.67,
+      "timestamp": 1782396000
+    },
+    {
+      "datetime": "2026-06-25T15:00:00Z",
+      "blockheight": 856063,
+      "open_interest": 15176616745.03,
+      "timestamp": 1782399600
+    },
+    {
+      "datetime": "2026-06-25T16:00:00Z",
+      "blockheight": 856064,
+      "open_interest": 15220800921.34,
+      "timestamp": 1782403200
+    },
+    {
+      "datetime": "2026-06-25T17:00:00Z",
+      "blockheight": 856065,
+      "open_interest": 15028565849.76,
+      "timestamp": 1782406800
+    },
+    {
+      "datetime": "2026-06-25T18:00:00Z",
+      "blockheight": 856066,
+      "open_interest": 13847763994.53,
+      "timestamp": 1782410400
+    },
+    {
+      "datetime": "2026-06-25T19:00:00Z",
+      "blockheight": 856067,
+      "open_interest": 15594317872.85,
+      "timestamp": 1782414000
+    },
+    {
+      "datetime": "2026-06-25T20:00:00Z",
+      "blockheight": 856068,
+      "open_interest": 14680223661.42,
+      "timestamp": 1782417600
+    },
+    {
+      "datetime": "2026-06-25T21:00:00Z",
+      "blockheight": 856069,
+      "open_interest": 15123558137.29,
+      "timestamp": 1782421200
+    },
+    {
+      "datetime": "2026-06-25T22:00:00Z",
+      "blockheight": 856070,
+      "open_interest": 13821106044.53,
+      "timestamp": 1782424800
+    },
+    {
+      "datetime": "2026-06-25T23:00:00Z",
+      "blockheight": 856071,
+      "open_interest": 15190292411.65,
+      "timestamp": 1782428400
+    },
+    {
+      "datetime": "2026-06-26T00:00:00Z",
+      "blockheight": 856072,
+      "open_interest": 13418186755.69,
+      "timestamp": 1782432000
+    },
+    {
+      "datetime": "2026-06-26T01:00:00Z",
+      "blockheight": 856073,
+      "open_interest": 13603556795.8,
+      "timestamp": 1782435600
+    },
+    {
+      "datetime": "2026-06-26T02:00:00Z",
+      "blockheight": 856074,
+      "open_interest": 16095573442.03,
+      "timestamp": 1782439200
+    },
+    {
+      "datetime": "2026-06-26T03:00:00Z",
+      "blockheight": 856075,
+      "open_interest": 13150288024.65,
+      "timestamp": 1782442800
+    },
+    {
+      "datetime": "2026-06-26T04:00:00Z",
+      "blockheight": 856076,
+      "open_interest": 13983524883.38,
+      "timestamp": 1782446400
+    },
+    {
+      "datetime": "2026-06-26T05:00:00Z",
+      "blockheight": 856077,
+      "open_interest": 15367554490.37,
+      "timestamp": 1782450000
+    },
+    {
+      "datetime": "2026-06-26T06:00:00Z",
+      "blockheight": 856078,
+      "open_interest": 14302944859.42,
+      "timestamp": 1782453600
+    },
+    {
+      "datetime": "2026-06-26T07:00:00Z",
+      "blockheight": 856079,
+      "open_interest": 15011348853.36,
+      "timestamp": 1782457200
+    },
+    {
+      "datetime": "2026-06-26T08:00:00Z",
+      "blockheight": 856080,
+      "open_interest": 13592047209.82,
+      "timestamp": 1782460800
+    },
+    {
+      "datetime": "2026-06-26T09:00:00Z",
+      "blockheight": 856081,
+      "open_interest": 15639231558.61,
+      "timestamp": 1782464400
+    },
+    {
+      "datetime": "2026-06-26T10:00:00Z",
+      "blockheight": 856082,
+      "open_interest": 12448100255.62,
+      "timestamp": 1782468000
+    },
+    {
+      "datetime": "2026-06-26T11:00:00Z",
+      "blockheight": 856083,
+      "open_interest": 14135889250.62,
+      "timestamp": 1782471600
+    },
+    {
+      "datetime": "2026-06-26T12:00:00Z",
+      "blockheight": 856084,
+      "open_interest": 14866772173.19,
+      "timestamp": 1782475200
+    },
+    {
+      "datetime": "2026-06-26T13:00:00Z",
+      "blockheight": 856085,
+      "open_interest": 14544683607.7,
+      "timestamp": 1782478800
+    },
+    {
+      "datetime": "2026-06-26T14:00:00Z",
+      "blockheight": 856086,
+      "open_interest": 14704019484.87,
+      "timestamp": 1782482400
+    },
+    {
+      "datetime": "2026-06-26T15:00:00Z",
+      "blockheight": 856087,
+      "open_interest": 13890432084.18,
+      "timestamp": 1782486000
+    },
+    {
+      "datetime": "2026-06-26T16:00:00Z",
+      "blockheight": 856088,
+      "open_interest": 14791213529.74,
+      "timestamp": 1782489600
+    },
+    {
+      "datetime": "2026-06-26T17:00:00Z",
+      "blockheight": 856089,
+      "open_interest": 14728796637.76,
+      "timestamp": 1782493200
+    },
+    {
+      "datetime": "2026-06-26T18:00:00Z",
+      "blockheight": 856090,
+      "open_interest": 14449396443.17,
+      "timestamp": 1782496800
+    },
+    {
+      "datetime": "2026-06-26T19:00:00Z",
+      "blockheight": 856091,
+      "open_interest": 12770262810.04,
+      "timestamp": 1782500400
+    },
+    {
+      "datetime": "2026-06-26T20:00:00Z",
+      "blockheight": 856092,
+      "open_interest": 15679209634.35,
+      "timestamp": 1782504000
+    },
+    {
+      "datetime": "2026-06-26T21:00:00Z",
+      "blockheight": 856093,
+      "open_interest": 13985378763.29,
+      "timestamp": 1782507600
+    },
+    {
+      "datetime": "2026-06-26T22:00:00Z",
+      "blockheight": 856094,
+      "open_interest": 12992068381.43,
+      "timestamp": 1782511200
+    },
+    {
+      "datetime": "2026-06-26T23:00:00Z",
+      "blockheight": 856095,
+      "open_interest": 14812788372.81,
+      "timestamp": 1782514800
+    },
+    {
+      "datetime": "2026-06-27T00:00:00Z",
+      "blockheight": 856096,
+      "open_interest": 14452195797.56,
+      "timestamp": 1782518400
+    },
+    {
+      "datetime": "2026-06-27T01:00:00Z",
+      "blockheight": 856097,
+      "open_interest": 15782455861.02,
+      "timestamp": 1782522000
+    },
+    {
+      "datetime": "2026-06-27T02:00:00Z",
+      "blockheight": 856098,
+      "open_interest": 14644976166.22,
+      "timestamp": 1782525600
+    },
+    {
+      "datetime": "2026-06-27T03:00:00Z",
+      "blockheight": 856099,
+      "open_interest": 14254069386.9,
+      "timestamp": 1782529200
+    },
+    {
+      "datetime": "2026-06-27T04:00:00Z",
+      "blockheight": 856100,
+      "open_interest": 13679957626.29,
+      "timestamp": 1782532800
+    },
+    {
+      "datetime": "2026-06-27T05:00:00Z",
+      "blockheight": 856101,
+      "open_interest": 14529814220.83,
+      "timestamp": 1782536400
+    },
+    {
+      "datetime": "2026-06-27T06:00:00Z",
+      "blockheight": 856102,
+      "open_interest": 15807853391.75,
+      "timestamp": 1782540000
+    },
+    {
+      "datetime": "2026-06-27T07:00:00Z",
+      "blockheight": 856103,
+      "open_interest": 14273229221.86,
+      "timestamp": 1782543600
+    },
+    {
+      "datetime": "2026-06-27T08:00:00Z",
+      "blockheight": 856104,
+      "open_interest": 15523960521.56,
+      "timestamp": 1782547200
+    },
+    {
+      "datetime": "2026-06-27T09:00:00Z",
+      "blockheight": 856105,
+      "open_interest": 15095800508.96,
+      "timestamp": 1782550800
+    },
+    {
+      "datetime": "2026-06-27T10:00:00Z",
+      "blockheight": 856106,
+      "open_interest": 14100419310.69,
+      "timestamp": 1782554400
+    },
+    {
+      "datetime": "2026-06-27T11:00:00Z",
+      "blockheight": 856107,
+      "open_interest": 14507456159.28,
+      "timestamp": 1782558000
+    },
+    {
+      "datetime": "2026-06-27T12:00:00Z",
+      "blockheight": 856108,
+      "open_interest": 14124262887.01,
+      "timestamp": 1782561600
+    },
+    {
+      "datetime": "2026-06-27T13:00:00Z",
+      "blockheight": 856109,
+      "open_interest": 14804803807.84,
+      "timestamp": 1782565200
+    },
+    {
+      "datetime": "2026-06-27T14:00:00Z",
+      "blockheight": 856110,
+      "open_interest": 15697539197.99,
+      "timestamp": 1782568800
+    },
+    {
+      "datetime": "2026-06-27T15:00:00Z",
+      "blockheight": 856111,
+      "open_interest": 14240345857.05,
+      "timestamp": 1782572400
+    },
+    {
+      "datetime": "2026-06-27T16:00:00Z",
+      "blockheight": 856112,
+      "open_interest": 16027625224.67,
+      "timestamp": 1782576000
+    },
+    {
+      "datetime": "2026-06-27T17:00:00Z",
+      "blockheight": 856113,
+      "open_interest": 12344081360.25,
+      "timestamp": 1782579600
+    },
+    {
+      "datetime": "2026-06-27T18:00:00Z",
+      "blockheight": 856114,
+      "open_interest": 13789704146.93,
+      "timestamp": 1782583200
+    },
+    {
+      "datetime": "2026-06-27T19:00:00Z",
+      "blockheight": 856115,
+      "open_interest": 15138961191.59,
+      "timestamp": 1782586800
+    },
+    {
+      "datetime": "2026-06-27T20:00:00Z",
+      "blockheight": 856116,
+      "open_interest": 14283216505.32,
+      "timestamp": 1782590400
+    },
+    {
+      "datetime": "2026-06-27T21:00:00Z",
+      "blockheight": 856117,
+      "open_interest": 13599621112.41,
+      "timestamp": 1782594000
+    },
+    {
+      "datetime": "2026-06-27T22:00:00Z",
+      "blockheight": 856118,
+      "open_interest": 15292535677.19,
+      "timestamp": 1782597600
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856119,
+      "open_interest": 15366716752.38,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856120,
+      "open_interest": 13962622277.55,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856121,
+      "open_interest": 15457980524.02,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856122,
+      "open_interest": 15522598022.56,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856123,
+      "open_interest": 14009138947.73,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856124,
+      "open_interest": 15650097748.0,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856125,
+      "open_interest": 14636727021.4,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856126,
+      "open_interest": 14198531860.04,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856127,
+      "open_interest": 12826483823.6,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856128,
+      "open_interest": 13697518543.97,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856129,
+      "open_interest": 16150372599.08,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856130,
+      "open_interest": 13956654996.74,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856131,
+      "open_interest": 14951816992.78,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856132,
+      "open_interest": 14893851768.61,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856133,
+      "open_interest": 14207642832.29,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856134,
+      "open_interest": 15308028706.21,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856135,
+      "open_interest": 14135519849.47,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856136,
+      "open_interest": 15469118960.05,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856137,
+      "open_interest": 15568500315.47,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856138,
+      "open_interest": 15176699755.78,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856139,
+      "open_interest": 14377972307.31,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856140,
+      "open_interest": 13534811098.77,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856141,
+      "open_interest": 13170993767.56,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856142,
+      "open_interest": 13788261615.68,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856143,
+      "open_interest": 13508789103.94,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856144,
+      "open_interest": 13878815746.05,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856145,
+      "open_interest": 14691153348.82,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856146,
+      "open_interest": 15601359795.37,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856147,
+      "open_interest": 15371671293.15,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856148,
+      "open_interest": 14309893588.29,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856149,
+      "open_interest": 14623879834.36,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856150,
+      "open_interest": 14016263977.34,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856151,
+      "open_interest": 15868293303.06,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856152,
+      "open_interest": 14259641040.74,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856153,
+      "open_interest": 13832090350.91,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856154,
+      "open_interest": 15043719140.27,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856155,
+      "open_interest": 15201913572.14,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856156,
+      "open_interest": 14166067777.15,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856157,
+      "open_interest": 13241032178.95,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856158,
+      "open_interest": 13655879274.87,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856159,
+      "open_interest": 13808741613.92,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856160,
+      "open_interest": 14049317430.28,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856161,
+      "open_interest": 14616346965.86,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856162,
+      "open_interest": 16500513638.9,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856163,
+      "open_interest": 13698908150.54,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856164,
+      "open_interest": 14051234368.26,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856165,
+      "open_interest": 15063680492.81,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856166,
+      "open_interest": 14687105197.06,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856167,
+      "open_interest": 13712913251.17,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856168,
+      "open_interest": 15304929157.78,
+      "timestamp": 1782777600
+    },
+    {
+      "datetime": "2026-06-30T01:00:00Z",
+      "blockheight": 856169,
+      "open_interest": 14663073677.68,
+      "timestamp": 1782781200
+    },
+    {
+      "datetime": "2026-06-30T02:00:00Z",
+      "blockheight": 856170,
+      "open_interest": 13922207706.07,
+      "timestamp": 1782784800
+    },
+    {
+      "datetime": "2026-06-30T03:00:00Z",
+      "blockheight": 856171,
+      "open_interest": 13547432779.43,
+      "timestamp": 1782788400
+    },
+    {
+      "datetime": "2026-06-30T04:00:00Z",
+      "blockheight": 856172,
+      "open_interest": 13866146653.52,
+      "timestamp": 1782792000
+    },
+    {
+      "datetime": "2026-06-30T05:00:00Z",
+      "blockheight": 856173,
+      "open_interest": 15552417876.36,
+      "timestamp": 1782795600
+    },
+    {
+      "datetime": "2026-06-30T06:00:00Z",
+      "blockheight": 856174,
+      "open_interest": 15065120774.58,
+      "timestamp": 1782799200
+    },
+    {
+      "datetime": "2026-06-30T07:00:00Z",
+      "blockheight": 856175,
+      "open_interest": 14464107037.74,
+      "timestamp": 1782802800
+    },
+    {
+      "datetime": "2026-06-30T08:00:00Z",
+      "blockheight": 856176,
+      "open_interest": 14035045735.23,
+      "timestamp": 1782806400
+    },
+    {
+      "datetime": "2026-06-30T09:00:00Z",
+      "blockheight": 856177,
+      "open_interest": 13251994705.43,
+      "timestamp": 1782810000
+    },
+    {
+      "datetime": "2026-06-30T10:00:00Z",
+      "blockheight": 856178,
+      "open_interest": 14464255737.06,
+      "timestamp": 1782813600
+    },
+    {
+      "datetime": "2026-06-30T11:00:00Z",
+      "blockheight": 856179,
+      "open_interest": 14351230894.55,
+      "timestamp": 1782817200
+    },
+    {
+      "datetime": "2026-06-30T12:00:00Z",
+      "blockheight": 856180,
+      "open_interest": 15512409685.03,
+      "timestamp": 1782820800
+    },
+    {
+      "datetime": "2026-06-30T13:00:00Z",
+      "blockheight": 856181,
+      "open_interest": 13708842737.59,
+      "timestamp": 1782824400
+    },
+    {
+      "datetime": "2026-06-30T14:00:00Z",
+      "blockheight": 856182,
+      "open_interest": 13660315505.37,
+      "timestamp": 1782828000
+    },
+    {
+      "datetime": "2026-06-30T15:00:00Z",
+      "blockheight": 856183,
+      "open_interest": 15547873556.18,
+      "timestamp": 1782831600
+    },
+    {
+      "datetime": "2026-06-30T16:00:00Z",
+      "blockheight": 856184,
+      "open_interest": 14611525203.67,
+      "timestamp": 1782835200
+    },
+    {
+      "datetime": "2026-06-30T17:00:00Z",
+      "blockheight": 856185,
+      "open_interest": 14752325167.28,
+      "timestamp": 1782838800
+    },
+    {
+      "datetime": "2026-06-30T18:00:00Z",
+      "blockheight": 856186,
+      "open_interest": 15015908617.1,
+      "timestamp": 1782842400
+    },
+    {
+      "datetime": "2026-06-30T19:00:00Z",
+      "blockheight": 856187,
+      "open_interest": 15396471500.24,
+      "timestamp": 1782846000
+    },
+    {
+      "datetime": "2026-06-30T20:00:00Z",
+      "blockheight": 856188,
+      "open_interest": 13384495549.93,
+      "timestamp": 1782849600
+    },
+    {
+      "datetime": "2026-06-30T21:00:00Z",
+      "blockheight": 856189,
+      "open_interest": 14144690103.56,
+      "timestamp": 1782853200
+    },
+    {
+      "datetime": "2026-06-30T22:00:00Z",
+      "blockheight": 856190,
+      "open_interest": 15909900072.77,
+      "timestamp": 1782856800
+    },
+    {
+      "datetime": "2026-06-30T23:00:00Z",
+      "blockheight": 856191,
+      "open_interest": 15629592281.58,
+      "timestamp": 1782860400
+    },
+    {
+      "datetime": "2026-07-01T00:00:00Z",
+      "blockheight": 856192,
+      "open_interest": 14795491486.27,
+      "timestamp": 1782864000
+    },
+    {
+      "datetime": "2026-07-01T01:00:00Z",
+      "blockheight": 856193,
+      "open_interest": 14508644381.85,
+      "timestamp": 1782867600
+    },
+    {
+      "datetime": "2026-07-01T02:00:00Z",
+      "blockheight": 856194,
+      "open_interest": 13810974625.24,
+      "timestamp": 1782871200
+    },
+    {
+      "datetime": "2026-07-01T03:00:00Z",
+      "blockheight": 856195,
+      "open_interest": 12757864219.17,
+      "timestamp": 1782874800
+    },
+    {
+      "datetime": "2026-07-01T04:00:00Z",
+      "blockheight": 856196,
+      "open_interest": 15114952250.55,
+      "timestamp": 1782878400
+    },
+    {
+      "datetime": "2026-07-01T05:00:00Z",
+      "blockheight": 856197,
+      "open_interest": 13801034861.2,
+      "timestamp": 1782882000
+    },
+    {
+      "datetime": "2026-07-01T06:00:00Z",
+      "blockheight": 856198,
+      "open_interest": 14606544454.26,
+      "timestamp": 1782885600
+    },
+    {
+      "datetime": "2026-07-01T07:00:00Z",
+      "blockheight": 856199,
+      "open_interest": 13947394362.28,
+      "timestamp": 1782889200
+    },
+    {
+      "datetime": "2026-07-01T08:00:00Z",
+      "blockheight": 856200,
+      "open_interest": 13887350214.41,
+      "timestamp": 1782892800
+    },
+    {
+      "datetime": "2026-07-01T09:00:00Z",
+      "blockheight": 856201,
+      "open_interest": 16383221998.03,
+      "timestamp": 1782896400
+    },
+    {
+      "datetime": "2026-07-01T10:00:00Z",
+      "blockheight": 856202,
+      "open_interest": 14298837587.47,
+      "timestamp": 1782900000
+    },
+    {
+      "datetime": "2026-07-01T11:00:00Z",
+      "blockheight": 856203,
+      "open_interest": 13515218574.88,
+      "timestamp": 1782903600
+    },
+    {
+      "datetime": "2026-07-01T12:00:00Z",
+      "blockheight": 856204,
+      "open_interest": 13575288923.05,
+      "timestamp": 1782907200
+    },
+    {
+      "datetime": "2026-07-01T13:00:00Z",
+      "blockheight": 856205,
+      "open_interest": 15243523089.01,
+      "timestamp": 1782910800
+    },
+    {
+      "datetime": "2026-07-01T14:00:00Z",
+      "blockheight": 856206,
+      "open_interest": 13749617686.84,
+      "timestamp": 1782914400
+    },
+    {
+      "datetime": "2026-07-01T15:00:00Z",
+      "blockheight": 856207,
+      "open_interest": 13179524746.78,
+      "timestamp": 1782918000
+    },
+    {
+      "datetime": "2026-07-01T16:00:00Z",
+      "blockheight": 856208,
+      "open_interest": 15323065381.34,
+      "timestamp": 1782921600
+    },
+    {
+      "datetime": "2026-07-01T17:00:00Z",
+      "blockheight": 856209,
+      "open_interest": 14958924124.98,
+      "timestamp": 1782925200
+    },
+    {
+      "datetime": "2026-07-01T18:00:00Z",
+      "blockheight": 856210,
+      "open_interest": 15736362926.42,
+      "timestamp": 1782928800
+    },
+    {
+      "datetime": "2026-07-01T19:00:00Z",
+      "blockheight": 856211,
+      "open_interest": 15442843219.03,
+      "timestamp": 1782932400
+    },
+    {
+      "datetime": "2026-07-01T20:00:00Z",
+      "blockheight": 856212,
+      "open_interest": 15057460306.24,
+      "timestamp": 1782936000
+    },
+    {
+      "datetime": "2026-07-01T21:00:00Z",
+      "blockheight": 856213,
+      "open_interest": 14607482601.93,
+      "timestamp": 1782939600
+    },
+    {
+      "datetime": "2026-07-01T22:00:00Z",
+      "blockheight": 856214,
+      "open_interest": 13695187840.22,
+      "timestamp": 1782943200
+    },
+    {
+      "datetime": "2026-07-01T23:00:00Z",
+      "blockheight": 856215,
+      "open_interest": 15480243551.89,
+      "timestamp": 1782946800
+    },
+    {
+      "datetime": "2026-07-02T00:00:00Z",
+      "blockheight": 856216,
+      "open_interest": 13549144357.07,
+      "timestamp": 1782950400
+    },
+    {
+      "datetime": "2026-07-02T01:00:00Z",
+      "blockheight": 856217,
+      "open_interest": 13758865084.65,
+      "timestamp": 1782954000
+    },
+    {
+      "datetime": "2026-07-02T02:00:00Z",
+      "blockheight": 856218,
+      "open_interest": 12986881909.52,
+      "timestamp": 1782957600
+    },
+    {
+      "datetime": "2026-07-02T03:00:00Z",
+      "blockheight": 856219,
+      "open_interest": 14858720164.23,
+      "timestamp": 1782961200
+    },
+    {
+      "datetime": "2026-07-02T04:00:00Z",
+      "blockheight": 856220,
+      "open_interest": 14889917135.69,
+      "timestamp": 1782964800
+    },
+    {
+      "datetime": "2026-07-02T05:00:00Z",
+      "blockheight": 856221,
+      "open_interest": 14638542678.73,
+      "timestamp": 1782968400
+    },
+    {
+      "datetime": "2026-07-02T06:00:00Z",
+      "blockheight": 856222,
+      "open_interest": 14365266348.66,
+      "timestamp": 1782972000
+    },
+    {
+      "datetime": "2026-07-02T07:00:00Z",
+      "blockheight": 856223,
+      "open_interest": 14118049035.61,
+      "timestamp": 1782975600
+    },
+    {
+      "datetime": "2026-07-02T08:00:00Z",
+      "blockheight": 856224,
+      "open_interest": 14828492792.22,
+      "timestamp": 1782979200
+    },
+    {
+      "datetime": "2026-07-02T09:00:00Z",
+      "blockheight": 856225,
+      "open_interest": 15661805941.52,
+      "timestamp": 1782982800
+    },
+    {
+      "datetime": "2026-07-02T10:00:00Z",
+      "blockheight": 856226,
+      "open_interest": 15175193004.17,
+      "timestamp": 1782986400
+    },
+    {
+      "datetime": "2026-07-02T11:00:00Z",
+      "blockheight": 856227,
+      "open_interest": 14034830187.45,
+      "timestamp": 1782990000
+    },
+    {
+      "datetime": "2026-07-02T12:00:00Z",
+      "blockheight": 856228,
+      "open_interest": 11563331270.55,
+      "timestamp": 1782993600
+    },
+    {
+      "datetime": "2026-07-02T13:00:00Z",
+      "blockheight": 856229,
+      "open_interest": 15145741305.24,
+      "timestamp": 1782997200
+    },
+    {
+      "datetime": "2026-07-02T14:00:00Z",
+      "blockheight": 856230,
+      "open_interest": 13608122234.79,
+      "timestamp": 1783000800
+    },
+    {
+      "datetime": "2026-07-02T15:00:00Z",
+      "blockheight": 856231,
+      "open_interest": 14496613359.97,
+      "timestamp": 1783004400
+    },
+    {
+      "datetime": "2026-07-02T16:00:00Z",
+      "blockheight": 856232,
+      "open_interest": 13694176656.86,
+      "timestamp": 1783008000
+    },
+    {
+      "datetime": "2026-07-02T17:00:00Z",
+      "blockheight": 856233,
+      "open_interest": 15048328520.6,
+      "timestamp": 1783011600
+    },
+    {
+      "datetime": "2026-07-02T18:00:00Z",
+      "blockheight": 856234,
+      "open_interest": 14293958870.03,
+      "timestamp": 1783015200
+    },
+    {
+      "datetime": "2026-07-02T19:00:00Z",
+      "blockheight": 856235,
+      "open_interest": 13601420583.82,
+      "timestamp": 1783018800
+    },
+    {
+      "datetime": "2026-07-02T20:00:00Z",
+      "blockheight": 856236,
+      "open_interest": 14149425563.69,
+      "timestamp": 1783022400
+    },
+    {
+      "datetime": "2026-07-02T21:00:00Z",
+      "blockheight": 856237,
+      "open_interest": 14123197001.64,
+      "timestamp": 1783026000
+    },
+    {
+      "datetime": "2026-07-02T22:00:00Z",
+      "blockheight": 856238,
+      "open_interest": 15242650456.86,
+      "timestamp": 1783029600
+    },
+    {
+      "datetime": "2026-07-02T23:00:00Z",
+      "blockheight": 856239,
+      "open_interest": 15556187130.9,
+      "timestamp": 1783033200
+    },
+    {
+      "datetime": "2026-07-03T00:00:00Z",
+      "blockheight": 856240,
+      "open_interest": 13843653655.51,
+      "timestamp": 1783036800
+    },
+    {
+      "datetime": "2026-07-03T01:00:00Z",
+      "blockheight": 856241,
+      "open_interest": 13530355783.42,
+      "timestamp": 1783040400
+    },
+    {
+      "datetime": "2026-07-03T02:00:00Z",
+      "blockheight": 856242,
+      "open_interest": 12793766418.75,
+      "timestamp": 1783044000
+    },
+    {
+      "datetime": "2026-07-03T03:00:00Z",
+      "blockheight": 856243,
+      "open_interest": 12973092500.73,
+      "timestamp": 1783047600
+    },
+    {
+      "datetime": "2026-07-03T04:00:00Z",
+      "blockheight": 856244,
+      "open_interest": 14495917029.68,
+      "timestamp": 1783051200
+    },
+    {
+      "datetime": "2026-07-03T05:00:00Z",
+      "blockheight": 856245,
+      "open_interest": 14392780573.24,
+      "timestamp": 1783054800
+    },
+    {
+      "datetime": "2026-07-03T06:00:00Z",
+      "blockheight": 856246,
+      "open_interest": 13449557856.1,
+      "timestamp": 1783058400
+    },
+    {
+      "datetime": "2026-07-03T07:00:00Z",
+      "blockheight": 856247,
+      "open_interest": 13685320396.47,
+      "timestamp": 1783062000
+    },
+    {
+      "datetime": "2026-07-03T08:00:00Z",
+      "blockheight": 856248,
+      "open_interest": 14411599121.03,
+      "timestamp": 1783065600
+    },
+    {
+      "datetime": "2026-07-03T09:00:00Z",
+      "blockheight": 856249,
+      "open_interest": 14040456665.84,
+      "timestamp": 1783069200
+    },
+    {
+      "datetime": "2026-07-03T10:00:00Z",
+      "blockheight": 856250,
+      "open_interest": 13589170436.65,
+      "timestamp": 1783072800
+    },
+    {
+      "datetime": "2026-07-03T11:00:00Z",
+      "blockheight": 856251,
+      "open_interest": 15374173577.73,
+      "timestamp": 1783076400
+    },
+    {
+      "datetime": "2026-07-03T12:00:00Z",
+      "blockheight": 856252,
+      "open_interest": 15059787448.72,
+      "timestamp": 1783080000
+    },
+    {
+      "datetime": "2026-07-03T13:00:00Z",
+      "blockheight": 856253,
+      "open_interest": 14117365494.89,
+      "timestamp": 1783083600
+    },
+    {
+      "datetime": "2026-07-03T14:00:00Z",
+      "blockheight": 856254,
+      "open_interest": 14192870600.08,
+      "timestamp": 1783087200
+    },
+    {
+      "datetime": "2026-07-03T15:00:00Z",
+      "blockheight": 856255,
+      "open_interest": 15403476544.3,
+      "timestamp": 1783090800
+    },
+    {
+      "datetime": "2026-07-03T16:00:00Z",
+      "blockheight": 856256,
+      "open_interest": 14939231557.44,
+      "timestamp": 1783094400
+    },
+    {
+      "datetime": "2026-07-03T17:00:00Z",
+      "blockheight": 856257,
+      "open_interest": 14870880745.12,
+      "timestamp": 1783098000
+    },
+    {
+      "datetime": "2026-07-03T18:00:00Z",
+      "blockheight": 856258,
+      "open_interest": 14596101399.84,
+      "timestamp": 1783101600
+    },
+    {
+      "datetime": "2026-07-03T19:00:00Z",
+      "blockheight": 856259,
+      "open_interest": 13041616777.21,
+      "timestamp": 1783105200
+    },
+    {
+      "datetime": "2026-07-03T20:00:00Z",
+      "blockheight": 856260,
+      "open_interest": 13784304345.48,
+      "timestamp": 1783108800
+    },
+    {
+      "datetime": "2026-07-03T21:00:00Z",
+      "blockheight": 856261,
+      "open_interest": 13389436574.7,
+      "timestamp": 1783112400
+    },
+    {
+      "datetime": "2026-07-03T22:00:00Z",
+      "blockheight": 856262,
+      "open_interest": 14407655938.67,
+      "timestamp": 1783116000
+    },
+    {
+      "datetime": "2026-07-03T23:00:00Z",
+      "blockheight": 856263,
+      "open_interest": 13743288039.41,
+      "timestamp": 1783119600
+    },
+    {
+      "datetime": "2026-07-04T00:00:00Z",
+      "blockheight": 856264,
+      "open_interest": 15508254463.38,
+      "timestamp": 1783123200
+    },
+    {
+      "datetime": "2026-07-04T01:00:00Z",
+      "blockheight": 856265,
+      "open_interest": 14815552952.7,
+      "timestamp": 1783126800
+    },
+    {
+      "datetime": "2026-07-04T02:00:00Z",
+      "blockheight": 856266,
+      "open_interest": 14052223746.46,
+      "timestamp": 1783130400
+    },
+    {
+      "datetime": "2026-07-04T03:00:00Z",
+      "blockheight": 856267,
+      "open_interest": 15586407548.67,
+      "timestamp": 1783134000
+    },
+    {
+      "datetime": "2026-07-04T04:00:00Z",
+      "blockheight": 856268,
+      "open_interest": 13798364127.75,
+      "timestamp": 1783137600
+    },
+    {
+      "datetime": "2026-07-04T05:00:00Z",
+      "blockheight": 856269,
+      "open_interest": 13252806616.21,
+      "timestamp": 1783141200
+    },
+    {
+      "datetime": "2026-07-04T06:00:00Z",
+      "blockheight": 856270,
+      "open_interest": 14179532158.71,
+      "timestamp": 1783144800
+    },
+    {
+      "datetime": "2026-07-04T07:00:00Z",
+      "blockheight": 856271,
+      "open_interest": 16046455938.45,
+      "timestamp": 1783148400
+    },
+    {
+      "datetime": "2026-07-04T08:00:00Z",
+      "blockheight": 856272,
+      "open_interest": 14905770367.27,
+      "timestamp": 1783152000
+    },
+    {
+      "datetime": "2026-07-04T09:00:00Z",
+      "blockheight": 856273,
+      "open_interest": 14282950664.56,
+      "timestamp": 1783155600
+    },
+    {
+      "datetime": "2026-07-04T10:00:00Z",
+      "blockheight": 856274,
+      "open_interest": 14372227274.67,
+      "timestamp": 1783159200
+    },
+    {
+      "datetime": "2026-07-04T11:00:00Z",
+      "blockheight": 856275,
+      "open_interest": 15158817367.55,
+      "timestamp": 1783162800
+    },
+    {
+      "datetime": "2026-07-04T12:00:00Z",
+      "blockheight": 856276,
+      "open_interest": 13014435690.27,
+      "timestamp": 1783166400
+    },
+    {
+      "datetime": "2026-07-04T13:00:00Z",
+      "blockheight": 856277,
+      "open_interest": 14306205996.28,
+      "timestamp": 1783170000
+    },
+    {
+      "datetime": "2026-07-04T14:00:00Z",
+      "blockheight": 856278,
+      "open_interest": 14504072965.72,
+      "timestamp": 1783173600
+    },
+    {
+      "datetime": "2026-07-04T15:00:00Z",
+      "blockheight": 856279,
+      "open_interest": 14365920371.42,
+      "timestamp": 1783177200
+    },
+    {
+      "datetime": "2026-07-04T16:00:00Z",
+      "blockheight": 856280,
+      "open_interest": 15507584593.79,
+      "timestamp": 1783180800
+    },
+    {
+      "datetime": "2026-07-04T17:00:00Z",
+      "blockheight": 856281,
+      "open_interest": 15917926030.55,
+      "timestamp": 1783184400
+    },
+    {
+      "datetime": "2026-07-04T18:00:00Z",
+      "blockheight": 856282,
+      "open_interest": 13152744230.16,
+      "timestamp": 1783188000
+    },
+    {
+      "datetime": "2026-07-04T19:00:00Z",
+      "blockheight": 856283,
+      "open_interest": 13295865677.18,
+      "timestamp": 1783191600
+    },
+    {
+      "datetime": "2026-07-04T20:00:00Z",
+      "blockheight": 856284,
+      "open_interest": 14295463404.26,
+      "timestamp": 1783195200
+    },
+    {
+      "datetime": "2026-07-04T21:00:00Z",
+      "blockheight": 856285,
+      "open_interest": 14440186670.39,
+      "timestamp": 1783198800
+    },
+    {
+      "datetime": "2026-07-04T22:00:00Z",
+      "blockheight": 856286,
+      "open_interest": 15198572493.83,
+      "timestamp": 1783202400
+    },
+    {
+      "datetime": "2026-07-04T23:00:00Z",
+      "blockheight": 856287,
+      "open_interest": 14364493758.64,
+      "timestamp": 1783206000
+    },
+    {
+      "datetime": "2026-07-05T00:00:00Z",
+      "blockheight": 856288,
+      "open_interest": 15615598537.4,
+      "timestamp": 1783209600
+    },
+    {
+      "datetime": "2026-07-05T01:00:00Z",
+      "blockheight": 856289,
+      "open_interest": 14270799768.65,
+      "timestamp": 1783213200
+    },
+    {
+      "datetime": "2026-07-05T02:00:00Z",
+      "blockheight": 856290,
+      "open_interest": 16008913427.22,
+      "timestamp": 1783216800
+    },
+    {
+      "datetime": "2026-07-05T03:00:00Z",
+      "blockheight": 856291,
+      "open_interest": 12744453403.3,
+      "timestamp": 1783220400
+    },
+    {
+      "datetime": "2026-07-05T04:00:00Z",
+      "blockheight": 856292,
+      "open_interest": 14208337484.58,
+      "timestamp": 1783224000
+    },
+    {
+      "datetime": "2026-07-05T05:00:00Z",
+      "blockheight": 856293,
+      "open_interest": 15354614496.03,
+      "timestamp": 1783227600
+    },
+    {
+      "datetime": "2026-07-05T06:00:00Z",
+      "blockheight": 856294,
+      "open_interest": 13979776561.86,
+      "timestamp": 1783231200
+    },
+    {
+      "datetime": "2026-07-05T07:00:00Z",
+      "blockheight": 856295,
+      "open_interest": 15123918574.5,
+      "timestamp": 1783234800
+    },
+    {
+      "datetime": "2026-07-05T08:00:00Z",
+      "blockheight": 856296,
+      "open_interest": 14213586004.16,
+      "timestamp": 1783238400
+    },
+    {
+      "datetime": "2026-07-05T09:00:00Z",
+      "blockheight": 856297,
+      "open_interest": 13780682104.45,
+      "timestamp": 1783242000
+    },
+    {
+      "datetime": "2026-07-05T10:00:00Z",
+      "blockheight": 856298,
+      "open_interest": 15280869102.13,
+      "timestamp": 1783245600
+    },
+    {
+      "datetime": "2026-07-05T11:00:00Z",
+      "blockheight": 856299,
+      "open_interest": 15808734329.74,
+      "timestamp": 1783249200
+    },
+    {
+      "datetime": "2026-07-05T12:00:00Z",
+      "blockheight": 856300,
+      "open_interest": 15357177413.49,
+      "timestamp": 1783252800
+    },
+    {
+      "datetime": "2026-07-05T13:00:00Z",
+      "blockheight": 856301,
+      "open_interest": 12449117732.58,
+      "timestamp": 1783256400
+    },
+    {
+      "datetime": "2026-07-05T14:00:00Z",
+      "blockheight": 856302,
+      "open_interest": 13923394614.77,
+      "timestamp": 1783260000
+    },
+    {
+      "datetime": "2026-07-05T15:00:00Z",
+      "blockheight": 856303,
+      "open_interest": 14780102498.04,
+      "timestamp": 1783263600
+    },
+    {
+      "datetime": "2026-07-05T16:00:00Z",
+      "blockheight": 856304,
+      "open_interest": 13449527819.15,
+      "timestamp": 1783267200
+    },
+    {
+      "datetime": "2026-07-05T17:00:00Z",
+      "blockheight": 856305,
+      "open_interest": 14312697929.69,
+      "timestamp": 1783270800
+    },
+    {
+      "datetime": "2026-07-05T18:00:00Z",
+      "blockheight": 856306,
+      "open_interest": 15343677558.7,
+      "timestamp": 1783274400
+    },
+    {
+      "datetime": "2026-07-05T19:00:00Z",
+      "blockheight": 856307,
+      "open_interest": 15193620856.27,
+      "timestamp": 1783278000
+    },
+    {
+      "datetime": "2026-07-05T20:00:00Z",
+      "blockheight": 856308,
+      "open_interest": 14462038081.87,
+      "timestamp": 1783281600
+    },
+    {
+      "datetime": "2026-07-05T21:00:00Z",
+      "blockheight": 856309,
+      "open_interest": 14166865345.68,
+      "timestamp": 1783285200
+    },
+    {
+      "datetime": "2026-07-05T22:00:00Z",
+      "blockheight": 856310,
+      "open_interest": 13382136040.69,
+      "timestamp": 1783288800
+    },
+    {
+      "datetime": "2026-07-05T23:00:00Z",
+      "blockheight": 856311,
+      "open_interest": 14271421599.96,
+      "timestamp": 1783292400
+    },
+    {
+      "datetime": "2026-07-06T00:00:00Z",
+      "blockheight": 856312,
+      "open_interest": 15429909100.27,
+      "timestamp": 1783296000
+    },
+    {
+      "datetime": "2026-07-06T01:00:00Z",
+      "blockheight": 856313,
+      "open_interest": 13900888085.75,
+      "timestamp": 1783299600
+    },
+    {
+      "datetime": "2026-07-06T02:00:00Z",
+      "blockheight": 856314,
+      "open_interest": 14804502955.71,
+      "timestamp": 1783303200
+    },
+    {
+      "datetime": "2026-07-06T03:00:00Z",
+      "blockheight": 856315,
+      "open_interest": 13719155552.09,
+      "timestamp": 1783306800
+    },
+    {
+      "datetime": "2026-07-06T04:00:00Z",
+      "blockheight": 856316,
+      "open_interest": 15501275011.68,
+      "timestamp": 1783310400
+    },
+    {
+      "datetime": "2026-07-06T05:00:00Z",
+      "blockheight": 856317,
+      "open_interest": 13915355944.52,
+      "timestamp": 1783314000
+    },
+    {
+      "datetime": "2026-07-06T06:00:00Z",
+      "blockheight": 856318,
+      "open_interest": 14051255620.52,
+      "timestamp": 1783317600
+    },
+    {
+      "datetime": "2026-07-06T07:00:00Z",
+      "blockheight": 856319,
+      "open_interest": 14340233023.45,
+      "timestamp": 1783321200
+    },
+    {
+      "datetime": "2026-07-06T08:00:00Z",
+      "blockheight": 856320,
+      "open_interest": 14965211471.55,
+      "timestamp": 1783324800
+    },
+    {
+      "datetime": "2026-07-06T09:00:00Z",
+      "blockheight": 856321,
+      "open_interest": 15296369199.95,
+      "timestamp": 1783328400
+    },
+    {
+      "datetime": "2026-07-06T10:00:00Z",
+      "blockheight": 856322,
+      "open_interest": 14602564189.32,
+      "timestamp": 1783332000
+    },
+    {
+      "datetime": "2026-07-06T11:00:00Z",
+      "blockheight": 856323,
+      "open_interest": 13795344217.46,
+      "timestamp": 1783335600
+    },
+    {
+      "datetime": "2026-07-06T12:00:00Z",
+      "blockheight": 856324,
+      "open_interest": 14284350989.55,
+      "timestamp": 1783339200
+    },
+    {
+      "datetime": "2026-07-06T13:00:00Z",
+      "blockheight": 856325,
+      "open_interest": 13108374926.23,
+      "timestamp": 1783342800
+    },
+    {
+      "datetime": "2026-07-06T14:00:00Z",
+      "blockheight": 856326,
+      "open_interest": 12350647634.68,
+      "timestamp": 1783346400
+    },
+    {
+      "datetime": "2026-07-06T15:00:00Z",
+      "blockheight": 856327,
+      "open_interest": 15281336975.11,
+      "timestamp": 1783350000
+    },
+    {
+      "datetime": "2026-07-06T16:00:00Z",
+      "blockheight": 856328,
+      "open_interest": 12729492615.71,
+      "timestamp": 1783353600
+    },
+    {
+      "datetime": "2026-07-06T17:00:00Z",
+      "blockheight": 856329,
+      "open_interest": 15091677338.31,
+      "timestamp": 1783357200
+    },
+    {
+      "datetime": "2026-07-06T18:00:00Z",
+      "blockheight": 856330,
+      "open_interest": 14011635656.54,
+      "timestamp": 1783360800
+    },
+    {
+      "datetime": "2026-07-06T19:00:00Z",
+      "blockheight": 856331,
+      "open_interest": 14372755574.68,
+      "timestamp": 1783364400
+    },
+    {
+      "datetime": "2026-07-06T20:00:00Z",
+      "blockheight": 856332,
+      "open_interest": 15321575534.63,
+      "timestamp": 1783368000
+    },
+    {
+      "datetime": "2026-07-06T21:00:00Z",
+      "blockheight": 856333,
+      "open_interest": 15463278575.68,
+      "timestamp": 1783371600
+    },
+    {
+      "datetime": "2026-07-06T22:00:00Z",
+      "blockheight": 856334,
+      "open_interest": 15284173056.83,
+      "timestamp": 1783375200
+    },
+    {
+      "datetime": "2026-07-06T23:00:00Z",
+      "blockheight": 856335,
+      "open_interest": 14196206351.76,
+      "timestamp": 1783378800
+    },
+    {
+      "datetime": "2026-07-07T00:00:00Z",
+      "blockheight": 856336,
+      "open_interest": 13736681920.38,
+      "timestamp": 1783382400
+    },
+    {
+      "datetime": "2026-07-07T01:00:00Z",
+      "blockheight": 856337,
+      "open_interest": 13921360753.94,
+      "timestamp": 1783386000
+    },
+    {
+      "datetime": "2026-07-07T02:00:00Z",
+      "blockheight": 856338,
+      "open_interest": 13283078484.11,
+      "timestamp": 1783389600
+    },
+    {
+      "datetime": "2026-07-07T03:00:00Z",
+      "blockheight": 856339,
+      "open_interest": 13192085427.78,
+      "timestamp": 1783393200
+    },
+    {
+      "datetime": "2026-07-07T04:00:00Z",
+      "blockheight": 856340,
+      "open_interest": 14732425065.21,
+      "timestamp": 1783396800
+    },
+    {
+      "datetime": "2026-07-07T05:00:00Z",
+      "blockheight": 856341,
+      "open_interest": 14563416995.76,
+      "timestamp": 1783400400
+    },
+    {
+      "datetime": "2026-07-07T06:00:00Z",
+      "blockheight": 856342,
+      "open_interest": 14753348726.29,
+      "timestamp": 1783404000
+    },
+    {
+      "datetime": "2026-07-07T07:00:00Z",
+      "blockheight": 856343,
+      "open_interest": 15090025819.07,
+      "timestamp": 1783407600
+    },
+    {
+      "datetime": "2026-07-07T08:00:00Z",
+      "blockheight": 856344,
+      "open_interest": 15884230062.06,
+      "timestamp": 1783411200
+    },
+    {
+      "datetime": "2026-07-07T09:00:00Z",
+      "blockheight": 856345,
+      "open_interest": 13642416723.46,
+      "timestamp": 1783414800
+    },
+    {
+      "datetime": "2026-07-07T10:00:00Z",
+      "blockheight": 856346,
+      "open_interest": 14983093769.13,
+      "timestamp": 1783418400
+    },
+    {
+      "datetime": "2026-07-07T11:00:00Z",
+      "blockheight": 856347,
+      "open_interest": 14297947389.32,
+      "timestamp": 1783422000
+    },
+    {
+      "datetime": "2026-07-07T12:00:00Z",
+      "blockheight": 856348,
+      "open_interest": 13657675079.11,
+      "timestamp": 1783425600
+    },
+    {
+      "datetime": "2026-07-07T13:00:00Z",
+      "blockheight": 856349,
+      "open_interest": 13481315889.2,
+      "timestamp": 1783429200
+    },
+    {
+      "datetime": "2026-07-07T14:00:00Z",
+      "blockheight": 856350,
+      "open_interest": 15522532930.64,
+      "timestamp": 1783432800
+    },
+    {
+      "datetime": "2026-07-07T15:00:00Z",
+      "blockheight": 856351,
+      "open_interest": 13045663258.18,
+      "timestamp": 1783436400
+    },
+    {
+      "datetime": "2026-07-07T16:00:00Z",
+      "blockheight": 856352,
+      "open_interest": 14294761176.32,
+      "timestamp": 1783440000
+    },
+    {
+      "datetime": "2026-07-07T17:00:00Z",
+      "blockheight": 856353,
+      "open_interest": 14196424668.37,
+      "timestamp": 1783443600
+    },
+    {
+      "datetime": "2026-07-07T18:00:00Z",
+      "blockheight": 856354,
+      "open_interest": 15415194305.99,
+      "timestamp": 1783447200
+    },
+    {
+      "datetime": "2026-07-07T19:00:00Z",
+      "blockheight": 856355,
+      "open_interest": 14716908499.26,
+      "timestamp": 1783450800
+    },
+    {
+      "datetime": "2026-07-07T20:00:00Z",
+      "blockheight": 856356,
+      "open_interest": 14171428477.24,
+      "timestamp": 1783454400
+    },
+    {
+      "datetime": "2026-07-07T21:00:00Z",
+      "blockheight": 856357,
+      "open_interest": 15986712005.84,
+      "timestamp": 1783458000
+    },
+    {
+      "datetime": "2026-07-07T22:00:00Z",
+      "blockheight": 856358,
+      "open_interest": 16268619062.62,
+      "timestamp": 1783461600
+    },
+    {
+      "datetime": "2026-07-07T23:00:00Z",
+      "blockheight": 856359,
+      "open_interest": 13215300930.42,
+      "timestamp": 1783465200
+    },
+    {
+      "datetime": "2026-07-08T00:00:00Z",
+      "blockheight": 856360,
+      "open_interest": 15220640364.24,
+      "timestamp": 1783468800
+    },
+    {
+      "datetime": "2026-07-08T01:00:00Z",
+      "blockheight": 856361,
+      "open_interest": 14438263803.23,
+      "timestamp": 1783472400
+    },
+    {
+      "datetime": "2026-07-08T02:00:00Z",
+      "blockheight": 856362,
+      "open_interest": 14824221046.42,
+      "timestamp": 1783476000
+    },
+    {
+      "datetime": "2026-07-08T03:00:00Z",
+      "blockheight": 856363,
+      "open_interest": 12698512321.59,
+      "timestamp": 1783479600
+    },
+    {
+      "datetime": "2026-07-08T04:00:00Z",
+      "blockheight": 856364,
+      "open_interest": 14854611702.57,
+      "timestamp": 1783483200
+    },
+    {
+      "datetime": "2026-07-08T05:00:00Z",
+      "blockheight": 856365,
+      "open_interest": 13928383307.49,
+      "timestamp": 1783486800
+    },
+    {
+      "datetime": "2026-07-08T06:00:00Z",
+      "blockheight": 856366,
+      "open_interest": 16794743336.59,
+      "timestamp": 1783490400
+    },
+    {
+      "datetime": "2026-07-08T07:00:00Z",
+      "blockheight": 856367,
+      "open_interest": 14448476331.88,
+      "timestamp": 1783494000
+    },
+    {
+      "datetime": "2026-07-08T08:00:00Z",
+      "blockheight": 856368,
+      "open_interest": 14125958465.84,
+      "timestamp": 1783497600
+    },
+    {
+      "datetime": "2026-07-08T09:00:00Z",
+      "blockheight": 856369,
+      "open_interest": 14015552667.14,
+      "timestamp": 1783501200
+    },
+    {
+      "datetime": "2026-07-08T10:00:00Z",
+      "blockheight": 856370,
+      "open_interest": 15631981857.51,
+      "timestamp": 1783504800
+    },
+    {
+      "datetime": "2026-07-08T11:00:00Z",
+      "blockheight": 856371,
+      "open_interest": 15234144300.79,
+      "timestamp": 1783508400
+    },
+    {
+      "datetime": "2026-07-08T12:00:00Z",
+      "blockheight": 856372,
+      "open_interest": 14663749171.73,
+      "timestamp": 1783512000
+    },
+    {
+      "datetime": "2026-07-08T13:00:00Z",
+      "blockheight": 856373,
+      "open_interest": 13673588988.43,
+      "timestamp": 1783515600
+    },
+    {
+      "datetime": "2026-07-08T14:00:00Z",
+      "blockheight": 856374,
+      "open_interest": 16393515635.42,
+      "timestamp": 1783519200
+    },
+    {
+      "datetime": "2026-07-08T15:00:00Z",
+      "blockheight": 856375,
+      "open_interest": 15149638410.99,
+      "timestamp": 1783522800
+    },
+    {
+      "datetime": "2026-07-08T16:00:00Z",
+      "blockheight": 856376,
+      "open_interest": 15419073762.58,
+      "timestamp": 1783526400
+    },
+    {
+      "datetime": "2026-07-08T17:00:00Z",
+      "blockheight": 856377,
+      "open_interest": 15440065166.18,
+      "timestamp": 1783530000
+    },
+    {
+      "datetime": "2026-07-08T18:00:00Z",
+      "blockheight": 856378,
+      "open_interest": 14941930355.9,
+      "timestamp": 1783533600
+    },
+    {
+      "datetime": "2026-07-08T19:00:00Z",
+      "blockheight": 856379,
+      "open_interest": 16140226945.67,
+      "timestamp": 1783537200
+    },
+    {
+      "datetime": "2026-07-08T20:00:00Z",
+      "blockheight": 856380,
+      "open_interest": 15651667033.02,
+      "timestamp": 1783540800
+    },
+    {
+      "datetime": "2026-07-08T21:00:00Z",
+      "blockheight": 856381,
+      "open_interest": 14646383514.21,
+      "timestamp": 1783544400
+    },
+    {
+      "datetime": "2026-07-08T22:00:00Z",
+      "blockheight": 856382,
+      "open_interest": 12726668674.16,
+      "timestamp": 1783548000
+    },
+    {
+      "datetime": "2026-07-08T23:00:00Z",
+      "blockheight": 856383,
+      "open_interest": 15411812232.4,
+      "timestamp": 1783551600
+    },
+    {
+      "datetime": "2026-07-09T00:00:00Z",
+      "blockheight": 856384,
+      "open_interest": 14313324361.06,
+      "timestamp": 1783555200
+    },
+    {
+      "datetime": "2026-07-09T01:00:00Z",
+      "blockheight": 856385,
+      "open_interest": 14782675620.53,
+      "timestamp": 1783558800
+    },
+    {
+      "datetime": "2026-07-09T02:00:00Z",
+      "blockheight": 856386,
+      "open_interest": 15510432442.57,
+      "timestamp": 1783562400
+    },
+    {
+      "datetime": "2026-07-09T03:00:00Z",
+      "blockheight": 856387,
+      "open_interest": 16261675681.75,
+      "timestamp": 1783566000
+    },
+    {
+      "datetime": "2026-07-09T04:00:00Z",
+      "blockheight": 856388,
+      "open_interest": 13273895492.92,
+      "timestamp": 1783569600
+    },
+    {
+      "datetime": "2026-07-09T05:00:00Z",
+      "blockheight": 856389,
+      "open_interest": 14163332803.15,
+      "timestamp": 1783573200
+    },
+    {
+      "datetime": "2026-07-09T06:00:00Z",
+      "blockheight": 856390,
+      "open_interest": 14744209600.34,
+      "timestamp": 1783576800
+    },
+    {
+      "datetime": "2026-07-09T07:00:00Z",
+      "blockheight": 856391,
+      "open_interest": 15372229930.66,
+      "timestamp": 1783580400
+    },
+    {
+      "datetime": "2026-07-09T08:00:00Z",
+      "blockheight": 856392,
+      "open_interest": 14587005769.18,
+      "timestamp": 1783584000
+    },
+    {
+      "datetime": "2026-07-09T09:00:00Z",
+      "blockheight": 856393,
+      "open_interest": 15200194141.23,
+      "timestamp": 1783587600
+    },
+    {
+      "datetime": "2026-07-09T10:00:00Z",
+      "blockheight": 856394,
+      "open_interest": 14090352731.53,
+      "timestamp": 1783591200
+    },
+    {
+      "datetime": "2026-07-09T11:00:00Z",
+      "blockheight": 856395,
+      "open_interest": 14460331970.88,
+      "timestamp": 1783594800
+    },
+    {
+      "datetime": "2026-07-09T12:00:00Z",
+      "blockheight": 856396,
+      "open_interest": 13878590950.67,
+      "timestamp": 1783598400
+    },
+    {
+      "datetime": "2026-07-09T13:00:00Z",
+      "blockheight": 856397,
+      "open_interest": 14026583740.72,
+      "timestamp": 1783602000
+    },
+    {
+      "datetime": "2026-07-09T14:00:00Z",
+      "blockheight": 856398,
+      "open_interest": 13379948428.6,
+      "timestamp": 1783605600
+    },
+    {
+      "datetime": "2026-07-09T15:00:00Z",
+      "blockheight": 856399,
+      "open_interest": 15528150528.2,
+      "timestamp": 1783609200
+    },
+    {
+      "datetime": "2026-07-09T16:00:00Z",
+      "blockheight": 856400,
+      "open_interest": 13771682980.98,
+      "timestamp": 1783612800
+    },
+    {
+      "datetime": "2026-07-09T17:00:00Z",
+      "blockheight": 856401,
+      "open_interest": 15415920913.43,
+      "timestamp": 1783616400
+    },
+    {
+      "datetime": "2026-07-09T18:00:00Z",
+      "blockheight": 856402,
+      "open_interest": 14738900839.15,
+      "timestamp": 1783620000
+    },
+    {
+      "datetime": "2026-07-09T19:00:00Z",
+      "blockheight": 856403,
+      "open_interest": 14568145023.02,
+      "timestamp": 1783623600
+    },
+    {
+      "datetime": "2026-07-09T20:00:00Z",
+      "blockheight": 856404,
+      "open_interest": 15033259548.7,
+      "timestamp": 1783627200
+    },
+    {
+      "datetime": "2026-07-09T21:00:00Z",
+      "blockheight": 856405,
+      "open_interest": 15900518633.61,
+      "timestamp": 1783630800
+    },
+    {
+      "datetime": "2026-07-09T22:00:00Z",
+      "blockheight": 856406,
+      "open_interest": 15455191991.49,
+      "timestamp": 1783634400
+    },
+    {
+      "datetime": "2026-07-09T23:00:00Z",
+      "blockheight": 856407,
+      "open_interest": 13598267700.28,
+      "timestamp": 1783638000
+    },
+    {
+      "datetime": "2026-07-10T00:00:00Z",
+      "blockheight": 856408,
+      "open_interest": 14668980402.76,
+      "timestamp": 1783641600
+    },
+    {
+      "datetime": "2026-07-10T01:00:00Z",
+      "blockheight": 856409,
+      "open_interest": 14486158247.02,
+      "timestamp": 1783645200
+    },
+    {
+      "datetime": "2026-07-10T02:00:00Z",
+      "blockheight": 856410,
+      "open_interest": 14119627258.38,
+      "timestamp": 1783648800
+    },
+    {
+      "datetime": "2026-07-10T03:00:00Z",
+      "blockheight": 856411,
+      "open_interest": 14280167687.72,
+      "timestamp": 1783652400
+    },
+    {
+      "datetime": "2026-07-10T04:00:00Z",
+      "blockheight": 856412,
+      "open_interest": 13984077326.13,
+      "timestamp": 1783656000
+    },
+    {
+      "datetime": "2026-07-10T05:00:00Z",
+      "blockheight": 856413,
+      "open_interest": 15447150448.16,
+      "timestamp": 1783659600
+    },
+    {
+      "datetime": "2026-07-10T06:00:00Z",
+      "blockheight": 856414,
+      "open_interest": 14133489544.66,
+      "timestamp": 1783663200
+    },
+    {
+      "datetime": "2026-07-10T07:00:00Z",
+      "blockheight": 856415,
+      "open_interest": 14837354217.15,
+      "timestamp": 1783666800
+    },
+    {
+      "datetime": "2026-07-10T08:00:00Z",
+      "blockheight": 856416,
+      "open_interest": 14838935499.05,
+      "timestamp": 1783670400
+    },
+    {
+      "datetime": "2026-07-10T09:00:00Z",
+      "blockheight": 856417,
+      "open_interest": 14872709345.3,
+      "timestamp": 1783674000
+    },
+    {
+      "datetime": "2026-07-10T10:00:00Z",
+      "blockheight": 856418,
+      "open_interest": 13729075731.43,
+      "timestamp": 1783677600
+    },
+    {
+      "datetime": "2026-07-10T11:00:00Z",
+      "blockheight": 856419,
+      "open_interest": 13782918740.58,
+      "timestamp": 1783681200
+    },
+    {
+      "datetime": "2026-07-10T12:00:00Z",
+      "blockheight": 856420,
+      "open_interest": 14498529879.88,
+      "timestamp": 1783684800
+    },
+    {
+      "datetime": "2026-07-10T13:00:00Z",
+      "blockheight": 856421,
+      "open_interest": 13708582788.92,
+      "timestamp": 1783688400
+    },
+    {
+      "datetime": "2026-07-10T14:00:00Z",
+      "blockheight": 856422,
+      "open_interest": 15520583593.92,
+      "timestamp": 1783692000
+    },
+    {
+      "datetime": "2026-07-10T15:00:00Z",
+      "blockheight": 856423,
+      "open_interest": 15364879170.02,
+      "timestamp": 1783695600
+    },
+    {
+      "datetime": "2026-07-10T16:00:00Z",
+      "blockheight": 856424,
+      "open_interest": 15354391793.8,
+      "timestamp": 1783699200
+    },
+    {
+      "datetime": "2026-07-10T17:00:00Z",
+      "blockheight": 856425,
+      "open_interest": 13265483704.65,
+      "timestamp": 1783702800
+    },
+    {
+      "datetime": "2026-07-10T18:00:00Z",
+      "blockheight": 856426,
+      "open_interest": 14913354616.14,
+      "timestamp": 1783706400
+    },
+    {
+      "datetime": "2026-07-10T19:00:00Z",
+      "blockheight": 856427,
+      "open_interest": 14383405742.85,
+      "timestamp": 1783710000
+    },
+    {
+      "datetime": "2026-07-10T20:00:00Z",
+      "blockheight": 856428,
+      "open_interest": 15796900889.02,
+      "timestamp": 1783713600
+    },
+    {
+      "datetime": "2026-07-10T21:00:00Z",
+      "blockheight": 856429,
+      "open_interest": 16787551350.23,
+      "timestamp": 1783717200
+    },
+    {
+      "datetime": "2026-07-10T22:00:00Z",
+      "blockheight": 856430,
+      "open_interest": 14042914346.32,
+      "timestamp": 1783720800
+    },
+    {
+      "datetime": "2026-07-10T23:00:00Z",
+      "blockheight": 856431,
+      "open_interest": 15441877068.14,
+      "timestamp": 1783724400
+    },
+    {
+      "datetime": "2026-07-11T00:00:00Z",
+      "blockheight": 856432,
+      "open_interest": 15068835921.2,
+      "timestamp": 1783728000
+    },
+    {
+      "datetime": "2026-07-11T01:00:00Z",
+      "blockheight": 856433,
+      "open_interest": 13730843971.26,
+      "timestamp": 1783731600
+    },
+    {
+      "datetime": "2026-07-11T02:00:00Z",
+      "blockheight": 856434,
+      "open_interest": 16416814203.15,
+      "timestamp": 1783735200
+    },
+    {
+      "datetime": "2026-07-11T03:00:00Z",
+      "blockheight": 856435,
+      "open_interest": 12686570237.12,
+      "timestamp": 1783738800
+    },
+    {
+      "datetime": "2026-07-11T04:00:00Z",
+      "blockheight": 856436,
+      "open_interest": 12067740406.99,
+      "timestamp": 1783742400
+    },
+    {
+      "datetime": "2026-07-11T05:00:00Z",
+      "blockheight": 856437,
+      "open_interest": 15394717332.32,
+      "timestamp": 1783746000
+    },
+    {
+      "datetime": "2026-07-11T06:00:00Z",
+      "blockheight": 856438,
+      "open_interest": 13967223864.41,
+      "timestamp": 1783749600
+    },
+    {
+      "datetime": "2026-07-11T07:00:00Z",
+      "blockheight": 856439,
+      "open_interest": 15453912464.33,
+      "timestamp": 1783753200
+    },
+    {
+      "datetime": "2026-07-11T08:00:00Z",
+      "blockheight": 856440,
+      "open_interest": 14020543545.95,
+      "timestamp": 1783756800
+    },
+    {
+      "datetime": "2026-07-11T09:00:00Z",
+      "blockheight": 856441,
+      "open_interest": 14478531189.8,
+      "timestamp": 1783760400
+    },
+    {
+      "datetime": "2026-07-11T10:00:00Z",
+      "blockheight": 856442,
+      "open_interest": 13137973741.95,
+      "timestamp": 1783764000
+    },
+    {
+      "datetime": "2026-07-11T11:00:00Z",
+      "blockheight": 856443,
+      "open_interest": 14120948595.86,
+      "timestamp": 1783767600
+    },
+    {
+      "datetime": "2026-07-11T12:00:00Z",
+      "blockheight": 856444,
+      "open_interest": 15293373194.18,
+      "timestamp": 1783771200
+    },
+    {
+      "datetime": "2026-07-11T13:00:00Z",
+      "blockheight": 856445,
+      "open_interest": 14570477368.21,
+      "timestamp": 1783774800
+    },
+    {
+      "datetime": "2026-07-11T14:00:00Z",
+      "blockheight": 856446,
+      "open_interest": 15066125391.76,
+      "timestamp": 1783778400
+    },
+    {
+      "datetime": "2026-07-11T15:00:00Z",
+      "blockheight": 856447,
+      "open_interest": 14341407576.15,
+      "timestamp": 1783782000
+    },
+    {
+      "datetime": "2026-07-11T16:00:00Z",
+      "blockheight": 856448,
+      "open_interest": 15620055109.21,
+      "timestamp": 1783785600
+    },
+    {
+      "datetime": "2026-07-11T17:00:00Z",
+      "blockheight": 856449,
+      "open_interest": 12814772073.25,
+      "timestamp": 1783789200
+    },
+    {
+      "datetime": "2026-07-11T18:00:00Z",
+      "blockheight": 856450,
+      "open_interest": 14542775683.47,
+      "timestamp": 1783792800
+    },
+    {
+      "datetime": "2026-07-11T19:00:00Z",
+      "blockheight": 856451,
+      "open_interest": 13679592421.64,
+      "timestamp": 1783796400
+    },
+    {
+      "datetime": "2026-07-11T20:00:00Z",
+      "blockheight": 856452,
+      "open_interest": 14173646240.82,
+      "timestamp": 1783800000
+    },
+    {
+      "datetime": "2026-07-11T21:00:00Z",
+      "blockheight": 856453,
+      "open_interest": 14523107254.83,
+      "timestamp": 1783803600
+    },
+    {
+      "datetime": "2026-07-11T22:00:00Z",
+      "blockheight": 856454,
+      "open_interest": 16128425911.02,
+      "timestamp": 1783807200
+    },
+    {
+      "datetime": "2026-07-11T23:00:00Z",
+      "blockheight": 856455,
+      "open_interest": 13695635221.81,
+      "timestamp": 1783810800
+    },
+    {
+      "datetime": "2026-07-12T00:00:00Z",
+      "blockheight": 856456,
+      "open_interest": 16609999740.34,
+      "timestamp": 1783814400
+    },
+    {
+      "datetime": "2026-07-12T01:00:00Z",
+      "blockheight": 856457,
+      "open_interest": 14702355469.42,
+      "timestamp": 1783818000
+    },
+    {
+      "datetime": "2026-07-12T02:00:00Z",
+      "blockheight": 856458,
+      "open_interest": 13161531895.95,
+      "timestamp": 1783821600
+    },
+    {
+      "datetime": "2026-07-12T03:00:00Z",
+      "blockheight": 856459,
+      "open_interest": 14025554868.08,
+      "timestamp": 1783825200
+    },
+    {
+      "datetime": "2026-07-12T04:00:00Z",
+      "blockheight": 856460,
+      "open_interest": 13910277239.05,
+      "timestamp": 1783828800
+    },
+    {
+      "datetime": "2026-07-12T05:00:00Z",
+      "blockheight": 856461,
+      "open_interest": 14080644389.77,
+      "timestamp": 1783832400
+    },
+    {
+      "datetime": "2026-07-12T06:00:00Z",
+      "blockheight": 856462,
+      "open_interest": 14365751464.83,
+      "timestamp": 1783836000
+    },
+    {
+      "datetime": "2026-07-12T07:00:00Z",
+      "blockheight": 856463,
+      "open_interest": 13313792767.24,
+      "timestamp": 1783839600
+    },
+    {
+      "datetime": "2026-07-12T08:00:00Z",
+      "blockheight": 856464,
+      "open_interest": 14791217668.15,
+      "timestamp": 1783843200
+    },
+    {
+      "datetime": "2026-07-12T09:00:00Z",
+      "blockheight": 856465,
+      "open_interest": 15056367630.47,
+      "timestamp": 1783846800
+    },
+    {
+      "datetime": "2026-07-12T10:00:00Z",
+      "blockheight": 856466,
+      "open_interest": 13783826220.79,
+      "timestamp": 1783850400
+    },
+    {
+      "datetime": "2026-07-12T11:00:00Z",
+      "blockheight": 856467,
+      "open_interest": 14532019928.59,
+      "timestamp": 1783854000
+    },
+    {
+      "datetime": "2026-07-12T12:00:00Z",
+      "blockheight": 856468,
+      "open_interest": 15406119382.84,
+      "timestamp": 1783857600
+    },
+    {
+      "datetime": "2026-07-12T13:00:00Z",
+      "blockheight": 856469,
+      "open_interest": 14799468561.36,
+      "timestamp": 1783861200
+    },
+    {
+      "datetime": "2026-07-12T14:00:00Z",
+      "blockheight": 856470,
+      "open_interest": 14912363866.94,
+      "timestamp": 1783864800
+    },
+    {
+      "datetime": "2026-07-12T15:00:00Z",
+      "blockheight": 856471,
+      "open_interest": 14371518330.84,
+      "timestamp": 1783868400
+    },
+    {
+      "datetime": "2026-07-12T16:00:00Z",
+      "blockheight": 856472,
+      "open_interest": 15322133818.78,
+      "timestamp": 1783872000
+    },
+    {
+      "datetime": "2026-07-12T17:00:00Z",
+      "blockheight": 856473,
+      "open_interest": 14617940428.15,
+      "timestamp": 1783875600
+    },
+    {
+      "datetime": "2026-07-12T18:00:00Z",
+      "blockheight": 856474,
+      "open_interest": 16398236206.63,
+      "timestamp": 1783879200
+    },
+    {
+      "datetime": "2026-07-12T19:00:00Z",
+      "blockheight": 856475,
+      "open_interest": 14490525691.99,
+      "timestamp": 1783882800
+    },
+    {
+      "datetime": "2026-07-12T20:00:00Z",
+      "blockheight": 856476,
+      "open_interest": 14436584705.94,
+      "timestamp": 1783886400
+    },
+    {
+      "datetime": "2026-07-12T21:00:00Z",
+      "blockheight": 856477,
+      "open_interest": 11728856415.53,
+      "timestamp": 1783890000
+    },
+    {
+      "datetime": "2026-07-12T22:00:00Z",
+      "blockheight": 856478,
+      "open_interest": 13042698893.59,
+      "timestamp": 1783893600
+    },
+    {
+      "datetime": "2026-07-12T23:00:00Z",
+      "blockheight": 856479,
+      "open_interest": 14978824168.47,
+      "timestamp": 1783897200
+    },
+    {
+      "datetime": "2026-07-13T00:00:00Z",
+      "blockheight": 856480,
+      "open_interest": 13306702829.9,
+      "timestamp": 1783900800
+    },
+    {
+      "datetime": "2026-07-13T01:00:00Z",
+      "blockheight": 856481,
+      "open_interest": 15288958667.74,
+      "timestamp": 1783904400
+    },
+    {
+      "datetime": "2026-07-13T02:00:00Z",
+      "blockheight": 856482,
+      "open_interest": 15455686793.35,
+      "timestamp": 1783908000
+    },
+    {
+      "datetime": "2026-07-13T03:00:00Z",
+      "blockheight": 856483,
+      "open_interest": 15440095428.99,
+      "timestamp": 1783911600
+    },
+    {
+      "datetime": "2026-07-13T04:00:00Z",
+      "blockheight": 856484,
+      "open_interest": 14022770561.26,
+      "timestamp": 1783915200
+    },
+    {
+      "datetime": "2026-07-13T05:00:00Z",
+      "blockheight": 856485,
+      "open_interest": 15762764525.57,
+      "timestamp": 1783918800
+    },
+    {
+      "datetime": "2026-07-13T06:00:00Z",
+      "blockheight": 856486,
+      "open_interest": 15943677387.37,
+      "timestamp": 1783922400
+    },
+    {
+      "datetime": "2026-07-13T07:00:00Z",
+      "blockheight": 856487,
+      "open_interest": 13330599315.41,
+      "timestamp": 1783926000
+    },
+    {
+      "datetime": "2026-07-13T08:00:00Z",
+      "blockheight": 856488,
+      "open_interest": 16165214457.83,
+      "timestamp": 1783929600
+    },
+    {
+      "datetime": "2026-07-13T09:00:00Z",
+      "blockheight": 856489,
+      "open_interest": 14485229355.88,
+      "timestamp": 1783933200
+    },
+    {
+      "datetime": "2026-07-13T10:00:00Z",
+      "blockheight": 856490,
+      "open_interest": 14236485187.69,
+      "timestamp": 1783936800
+    },
+    {
+      "datetime": "2026-07-13T11:00:00Z",
+      "blockheight": 856491,
+      "open_interest": 13492145501.92,
+      "timestamp": 1783940400
+    },
+    {
+      "datetime": "2026-07-13T12:00:00Z",
+      "blockheight": 856492,
+      "open_interest": 15312676108.3,
+      "timestamp": 1783944000
+    },
+    {
+      "datetime": "2026-07-13T13:00:00Z",
+      "blockheight": 856493,
+      "open_interest": 16047769951.18,
+      "timestamp": 1783947600
+    },
+    {
+      "datetime": "2026-07-13T14:00:00Z",
+      "blockheight": 856494,
+      "open_interest": 15352858915.27,
+      "timestamp": 1783951200
+    },
+    {
+      "datetime": "2026-07-13T15:00:00Z",
+      "blockheight": 856495,
+      "open_interest": 13949653084.67,
+      "timestamp": 1783954800
+    },
+    {
+      "datetime": "2026-07-13T16:00:00Z",
+      "blockheight": 856496,
+      "open_interest": 13595586796.96,
+      "timestamp": 1783958400
+    },
+    {
+      "datetime": "2026-07-13T17:00:00Z",
+      "blockheight": 856497,
+      "open_interest": 16262696821.74,
+      "timestamp": 1783962000
+    },
+    {
+      "datetime": "2026-07-13T18:00:00Z",
+      "blockheight": 856498,
+      "open_interest": 15473301504.66,
+      "timestamp": 1783965600
+    },
+    {
+      "datetime": "2026-07-13T19:00:00Z",
+      "blockheight": 856499,
+      "open_interest": 14856476838.3,
+      "timestamp": 1783969200
+    },
+    {
+      "datetime": "2026-07-13T20:00:00Z",
+      "blockheight": 856500,
+      "open_interest": 14666005595.28,
+      "timestamp": 1783972800
+    },
+    {
+      "datetime": "2026-07-13T21:00:00Z",
+      "blockheight": 856501,
+      "open_interest": 14859397979.33,
+      "timestamp": 1783976400
+    },
+    {
+      "datetime": "2026-07-13T22:00:00Z",
+      "blockheight": 856502,
+      "open_interest": 14403918532.84,
+      "timestamp": 1783980000
+    },
+    {
+      "datetime": "2026-07-13T23:00:00Z",
+      "blockheight": 856503,
+      "open_interest": 14533164063.79,
+      "timestamp": 1783983600
+    },
+    {
+      "datetime": "2026-07-14T00:00:00Z",
+      "blockheight": 856504,
+      "open_interest": 12611545146.99,
+      "timestamp": 1783987200
+    },
+    {
+      "datetime": "2026-07-14T01:00:00Z",
+      "blockheight": 856505,
+      "open_interest": 15547023519.57,
+      "timestamp": 1783990800
+    },
+    {
+      "datetime": "2026-07-14T02:00:00Z",
+      "blockheight": 856506,
+      "open_interest": 13565581252.37,
+      "timestamp": 1783994400
+    },
+    {
+      "datetime": "2026-07-14T03:00:00Z",
+      "blockheight": 856507,
+      "open_interest": 13747591797.02,
+      "timestamp": 1783998000
+    },
+    {
+      "datetime": "2026-07-14T04:00:00Z",
+      "blockheight": 856508,
+      "open_interest": 14930779468.5,
+      "timestamp": 1784001600
+    },
+    {
+      "datetime": "2026-07-14T05:00:00Z",
+      "blockheight": 856509,
+      "open_interest": 14351630809.63,
+      "timestamp": 1784005200
+    },
+    {
+      "datetime": "2026-07-14T06:00:00Z",
+      "blockheight": 856510,
+      "open_interest": 14110486772.81,
+      "timestamp": 1784008800
+    },
+    {
+      "datetime": "2026-07-14T07:00:00Z",
+      "blockheight": 856511,
+      "open_interest": 16348146320.77,
+      "timestamp": 1784012400
+    },
+    {
+      "datetime": "2026-07-14T08:00:00Z",
+      "blockheight": 856512,
+      "open_interest": 13400535528.52,
+      "timestamp": 1784016000
+    },
+    {
+      "datetime": "2026-07-14T09:00:00Z",
+      "blockheight": 856513,
+      "open_interest": 13932722272.8,
+      "timestamp": 1784019600
+    },
+    {
+      "datetime": "2026-07-14T10:00:00Z",
+      "blockheight": 856514,
+      "open_interest": 14925526514.62,
+      "timestamp": 1784023200
+    },
+    {
+      "datetime": "2026-07-14T11:00:00Z",
+      "blockheight": 856515,
+      "open_interest": 13618525238.85,
+      "timestamp": 1784026800
+    },
+    {
+      "datetime": "2026-07-14T12:00:00Z",
+      "blockheight": 856516,
+      "open_interest": 14169828575.04,
+      "timestamp": 1784030400
+    },
+    {
+      "datetime": "2026-07-14T13:00:00Z",
+      "blockheight": 856517,
+      "open_interest": 15075933708.74,
+      "timestamp": 1784034000
+    },
+    {
+      "datetime": "2026-07-14T14:00:00Z",
+      "blockheight": 856518,
+      "open_interest": 14946215390.13,
+      "timestamp": 1784037600
+    },
+    {
+      "datetime": "2026-07-14T15:00:00Z",
+      "blockheight": 856519,
+      "open_interest": 15009681696.52,
+      "timestamp": 1784041200
+    },
+    {
+      "datetime": "2026-07-14T16:00:00Z",
+      "blockheight": 856520,
+      "open_interest": 16185761813.0,
+      "timestamp": 1784044800
+    },
+    {
+      "datetime": "2026-07-14T17:00:00Z",
+      "blockheight": 856521,
+      "open_interest": 14239360582.09,
+      "timestamp": 1784048400
+    },
+    {
+      "datetime": "2026-07-14T18:00:00Z",
+      "blockheight": 856522,
+      "open_interest": 14806005878.53,
+      "timestamp": 1784052000
+    },
+    {
+      "datetime": "2026-07-14T19:00:00Z",
+      "blockheight": 856523,
+      "open_interest": 15508332250.47,
+      "timestamp": 1784055600
+    },
+    {
+      "datetime": "2026-07-14T20:00:00Z",
+      "blockheight": 856524,
+      "open_interest": 14448985063.26,
+      "timestamp": 1784059200
+    },
+    {
+      "datetime": "2026-07-14T21:00:00Z",
+      "blockheight": 856525,
+      "open_interest": 14631007385.81,
+      "timestamp": 1784062800
+    },
+    {
+      "datetime": "2026-07-14T22:00:00Z",
+      "blockheight": 856526,
+      "open_interest": 15749743104.47,
+      "timestamp": 1784066400
+    },
+    {
+      "datetime": "2026-07-14T23:00:00Z",
+      "blockheight": 856527,
+      "open_interest": 14785723129.99,
+      "timestamp": 1784070000
+    },
+    {
+      "datetime": "2026-07-15T00:00:00Z",
+      "blockheight": 856528,
+      "open_interest": 15192784487.62,
+      "timestamp": 1784073600
+    },
+    {
+      "datetime": "2026-07-15T01:00:00Z",
+      "blockheight": 856529,
+      "open_interest": 13991929546.04,
+      "timestamp": 1784077200
+    },
+    {
+      "datetime": "2026-07-15T02:00:00Z",
+      "blockheight": 856530,
+      "open_interest": 15032574941.63,
+      "timestamp": 1784080800
+    },
+    {
+      "datetime": "2026-07-15T03:00:00Z",
+      "blockheight": 856531,
+      "open_interest": 15376942505.36,
+      "timestamp": 1784084400
+    },
+    {
+      "datetime": "2026-07-15T04:00:00Z",
+      "blockheight": 856532,
+      "open_interest": 14128477327.41,
+      "timestamp": 1784088000
+    },
+    {
+      "datetime": "2026-07-15T05:00:00Z",
+      "blockheight": 856533,
+      "open_interest": 14517226188.25,
+      "timestamp": 1784091600
+    },
+    {
+      "datetime": "2026-07-15T06:00:00Z",
+      "blockheight": 856534,
+      "open_interest": 14836560070.71,
+      "timestamp": 1784095200
+    },
+    {
+      "datetime": "2026-07-15T07:00:00Z",
+      "blockheight": 856535,
+      "open_interest": 14589129475.39,
+      "timestamp": 1784098800
+    },
+    {
+      "datetime": "2026-07-15T08:00:00Z",
+      "blockheight": 856536,
+      "open_interest": 14216136472.7,
+      "timestamp": 1784102400
+    },
+    {
+      "datetime": "2026-07-15T09:00:00Z",
+      "blockheight": 856537,
+      "open_interest": 14068654585.71,
+      "timestamp": 1784106000
+    },
+    {
+      "datetime": "2026-07-15T10:00:00Z",
+      "blockheight": 856538,
+      "open_interest": 13850587346.76,
+      "timestamp": 1784109600
+    },
+    {
+      "datetime": "2026-07-15T11:00:00Z",
+      "blockheight": 856539,
+      "open_interest": 14072469318.89,
+      "timestamp": 1784113200
+    },
+    {
+      "datetime": "2026-07-15T12:00:00Z",
+      "blockheight": 856540,
+      "open_interest": 15325743737.38,
+      "timestamp": 1784116800
+    },
+    {
+      "datetime": "2026-07-15T13:00:00Z",
+      "blockheight": 856541,
+      "open_interest": 13484406959.26,
+      "timestamp": 1784120400
+    },
+    {
+      "datetime": "2026-07-15T14:00:00Z",
+      "blockheight": 856542,
+      "open_interest": 12803916918.71,
+      "timestamp": 1784124000
+    },
+    {
+      "datetime": "2026-07-15T15:00:00Z",
+      "blockheight": 856543,
+      "open_interest": 13892684940.77,
+      "timestamp": 1784127600
+    },
+    {
+      "datetime": "2026-07-15T16:00:00Z",
+      "blockheight": 856544,
+      "open_interest": 14471348491.89,
+      "timestamp": 1784131200
+    },
+    {
+      "datetime": "2026-07-15T17:00:00Z",
+      "blockheight": 856545,
+      "open_interest": 13901884463.54,
+      "timestamp": 1784134800
+    },
+    {
+      "datetime": "2026-07-15T18:00:00Z",
+      "blockheight": 856546,
+      "open_interest": 15274798415.96,
+      "timestamp": 1784138400
+    },
+    {
+      "datetime": "2026-07-15T19:00:00Z",
+      "blockheight": 856547,
+      "open_interest": 14706659397.27,
+      "timestamp": 1784142000
+    },
+    {
+      "datetime": "2026-07-15T20:00:00Z",
+      "blockheight": 856548,
+      "open_interest": 15422856896.7,
+      "timestamp": 1784145600
+    },
+    {
+      "datetime": "2026-07-15T21:00:00Z",
+      "blockheight": 856549,
+      "open_interest": 16063870599.31,
+      "timestamp": 1784149200
+    },
+    {
+      "datetime": "2026-07-15T22:00:00Z",
+      "blockheight": 856550,
+      "open_interest": 15526861031.16,
+      "timestamp": 1784152800
+    },
+    {
+      "datetime": "2026-07-15T23:00:00Z",
+      "blockheight": 856551,
+      "open_interest": 13298956713.64,
+      "timestamp": 1784156400
+    },
+    {
+      "datetime": "2026-07-16T00:00:00Z",
+      "blockheight": 856552,
+      "open_interest": 15129000720.49,
+      "timestamp": 1784160000
+    },
+    {
+      "datetime": "2026-07-16T01:00:00Z",
+      "blockheight": 856553,
+      "open_interest": 13171161623.89,
+      "timestamp": 1784163600
+    },
+    {
+      "datetime": "2026-07-16T02:00:00Z",
+      "blockheight": 856554,
+      "open_interest": 13776827621.74,
+      "timestamp": 1784167200
+    },
+    {
+      "datetime": "2026-07-16T03:00:00Z",
+      "blockheight": 856555,
+      "open_interest": 13582321219.74,
+      "timestamp": 1784170800
+    },
+    {
+      "datetime": "2026-07-16T04:00:00Z",
+      "blockheight": 856556,
+      "open_interest": 14414298591.69,
+      "timestamp": 1784174400
+    },
+    {
+      "datetime": "2026-07-16T05:00:00Z",
+      "blockheight": 856557,
+      "open_interest": 15910016882.89,
+      "timestamp": 1784178000
+    },
+    {
+      "datetime": "2026-07-16T06:00:00Z",
+      "blockheight": 856558,
+      "open_interest": 14117587298.29,
+      "timestamp": 1784181600
+    },
+    {
+      "datetime": "2026-07-16T07:00:00Z",
+      "blockheight": 856559,
+      "open_interest": 12604910224.03,
+      "timestamp": 1784185200
+    },
+    {
+      "datetime": "2026-07-16T08:00:00Z",
+      "blockheight": 856560,
+      "open_interest": 14549929966.75,
+      "timestamp": 1784188800
+    },
+    {
+      "datetime": "2026-07-16T09:00:00Z",
+      "blockheight": 856561,
+      "open_interest": 16012089998.48,
+      "timestamp": 1784192400
+    },
+    {
+      "datetime": "2026-07-16T10:00:00Z",
+      "blockheight": 856562,
+      "open_interest": 14214896102.72,
+      "timestamp": 1784196000
+    },
+    {
+      "datetime": "2026-07-16T11:00:00Z",
+      "blockheight": 856563,
+      "open_interest": 14213382436.56,
+      "timestamp": 1784199600
+    },
+    {
+      "datetime": "2026-07-16T12:00:00Z",
+      "blockheight": 856564,
+      "open_interest": 14842317920.37,
+      "timestamp": 1784203200
+    },
+    {
+      "datetime": "2026-07-16T13:00:00Z",
+      "blockheight": 856565,
+      "open_interest": 14706901106.23,
+      "timestamp": 1784206800
+    },
+    {
+      "datetime": "2026-07-16T14:00:00Z",
+      "blockheight": 856566,
+      "open_interest": 16832779029.27,
+      "timestamp": 1784210400
+    },
+    {
+      "datetime": "2026-07-16T15:00:00Z",
+      "blockheight": 856567,
+      "open_interest": 14489100051.64,
+      "timestamp": 1784214000
+    },
+    {
+      "datetime": "2026-07-16T16:00:00Z",
+      "blockheight": 856568,
+      "open_interest": 15049527246.25,
+      "timestamp": 1784217600
+    },
+    {
+      "datetime": "2026-07-16T17:00:00Z",
+      "blockheight": 856569,
+      "open_interest": 14711653097.86,
+      "timestamp": 1784221200
+    },
+    {
+      "datetime": "2026-07-16T18:00:00Z",
+      "blockheight": 856570,
+      "open_interest": 14286024389.35,
+      "timestamp": 1784224800
+    },
+    {
+      "datetime": "2026-07-16T19:00:00Z",
+      "blockheight": 856571,
+      "open_interest": 15521615889.01,
+      "timestamp": 1784228400
+    },
+    {
+      "datetime": "2026-07-16T20:00:00Z",
+      "blockheight": 856572,
+      "open_interest": 13239303485.72,
+      "timestamp": 1784232000
+    },
+    {
+      "datetime": "2026-07-16T21:00:00Z",
+      "blockheight": 856573,
+      "open_interest": 12879137126.72,
+      "timestamp": 1784235600
+    },
+    {
+      "datetime": "2026-07-16T22:00:00Z",
+      "blockheight": 856574,
+      "open_interest": 13941606352.73,
+      "timestamp": 1784239200
+    },
+    {
+      "datetime": "2026-07-16T23:00:00Z",
+      "blockheight": 856575,
+      "open_interest": 16217980029.28,
+      "timestamp": 1784242800
+    },
+    {
+      "datetime": "2026-07-17T00:00:00Z",
+      "blockheight": 856576,
+      "open_interest": 12768138950.28,
+      "timestamp": 1784246400
+    },
+    {
+      "datetime": "2026-07-17T01:00:00Z",
+      "blockheight": 856577,
+      "open_interest": 14670765655.22,
+      "timestamp": 1784250000
+    },
+    {
+      "datetime": "2026-07-17T02:00:00Z",
+      "blockheight": 856578,
+      "open_interest": 14898178210.65,
+      "timestamp": 1784253600
+    },
+    {
+      "datetime": "2026-07-17T03:00:00Z",
+      "blockheight": 856579,
+      "open_interest": 14127492838.1,
+      "timestamp": 1784257200
+    },
+    {
+      "datetime": "2026-07-17T04:00:00Z",
+      "blockheight": 856580,
+      "open_interest": 17266272166.4,
+      "timestamp": 1784260800
+    },
+    {
+      "datetime": "2026-07-17T05:00:00Z",
+      "blockheight": 856581,
+      "open_interest": 15241251055.61,
+      "timestamp": 1784264400
+    },
+    {
+      "datetime": "2026-07-17T06:00:00Z",
+      "blockheight": 856582,
+      "open_interest": 14381250786.46,
+      "timestamp": 1784268000
+    },
+    {
+      "datetime": "2026-07-17T07:00:00Z",
+      "blockheight": 856583,
+      "open_interest": 13708793613.32,
+      "timestamp": 1784271600
+    },
+    {
+      "datetime": "2026-07-17T08:00:00Z",
+      "blockheight": 856584,
+      "open_interest": 13250426724.19,
+      "timestamp": 1784275200
+    },
+    {
+      "datetime": "2026-07-17T09:00:00Z",
+      "blockheight": 856585,
+      "open_interest": 14148729508.02,
+      "timestamp": 1784278800
+    },
+    {
+      "datetime": "2026-07-17T10:00:00Z",
+      "blockheight": 856586,
+      "open_interest": 13501715880.36,
+      "timestamp": 1784282400
+    },
+    {
+      "datetime": "2026-07-17T11:00:00Z",
+      "blockheight": 856587,
+      "open_interest": 15315849280.77,
+      "timestamp": 1784286000
+    },
+    {
+      "datetime": "2026-07-17T12:00:00Z",
+      "blockheight": 856588,
+      "open_interest": 14602168104.5,
+      "timestamp": 1784289600
+    },
+    {
+      "datetime": "2026-07-17T13:00:00Z",
+      "blockheight": 856589,
+      "open_interest": 13878687250.81,
+      "timestamp": 1784293200
+    },
+    {
+      "datetime": "2026-07-17T14:00:00Z",
+      "blockheight": 856590,
+      "open_interest": 14053781356.29,
+      "timestamp": 1784296800
+    },
+    {
+      "datetime": "2026-07-17T15:00:00Z",
+      "blockheight": 856591,
+      "open_interest": 15834969180.03,
+      "timestamp": 1784300400
+    },
+    {
+      "datetime": "2026-07-17T16:00:00Z",
+      "blockheight": 856592,
+      "open_interest": 15092008396.25,
+      "timestamp": 1784304000
+    },
+    {
+      "datetime": "2026-07-17T17:00:00Z",
+      "blockheight": 856593,
+      "open_interest": 14568337348.32,
+      "timestamp": 1784307600
+    },
+    {
+      "datetime": "2026-07-17T18:00:00Z",
+      "blockheight": 856594,
+      "open_interest": 13765998272.38,
+      "timestamp": 1784311200
+    },
+    {
+      "datetime": "2026-07-17T19:00:00Z",
+      "blockheight": 856595,
+      "open_interest": 15691077814.22,
+      "timestamp": 1784314800
+    },
+    {
+      "datetime": "2026-07-17T20:00:00Z",
+      "blockheight": 856596,
+      "open_interest": 15058008006.66,
+      "timestamp": 1784318400
+    },
+    {
+      "datetime": "2026-07-17T21:00:00Z",
+      "blockheight": 856597,
+      "open_interest": 14372652373.9,
+      "timestamp": 1784322000
+    },
+    {
+      "datetime": "2026-07-17T22:00:00Z",
+      "blockheight": 856598,
+      "open_interest": 16385022367.81,
+      "timestamp": 1784325600
+    },
+    {
+      "datetime": "2026-07-17T23:00:00Z",
+      "blockheight": 856599,
+      "open_interest": 15180636559.56,
+      "timestamp": 1784329200
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_open_interest_and_funding_open_interest",
+    "path": "/btc/market-data/open-interest",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/open_interest_and_funding/open_interest/hour_raw.json",
+    "raw_shape": "status_result_data_open_interest",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

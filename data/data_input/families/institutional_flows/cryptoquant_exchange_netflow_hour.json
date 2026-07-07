@@ -1,0 +1,4230 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "institutional_flows",
+  "subtype": "exchange_netflow",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "hour",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-23T00:00:00Z",
+      "blockheight": 856000,
+      "netflow_total": -1972.5034,
+      "netflow_mean": -0.137994,
+      "timestamp": 1782172800
+    },
+    {
+      "datetime": "2026-06-23T01:00:00Z",
+      "blockheight": 856001,
+      "netflow_total": 694.4265,
+      "netflow_mean": 0.258504,
+      "timestamp": 1782176400
+    },
+    {
+      "datetime": "2026-06-23T02:00:00Z",
+      "blockheight": 856002,
+      "netflow_total": -2174.6531,
+      "netflow_mean": -0.421067,
+      "timestamp": 1782180000
+    },
+    {
+      "datetime": "2026-06-23T03:00:00Z",
+      "blockheight": 856003,
+      "netflow_total": -128.1239,
+      "netflow_mean": -0.091843,
+      "timestamp": 1782183600
+    },
+    {
+      "datetime": "2026-06-23T04:00:00Z",
+      "blockheight": 856004,
+      "netflow_total": -782.7768,
+      "netflow_mean": 0.366499,
+      "timestamp": 1782187200
+    },
+    {
+      "datetime": "2026-06-23T05:00:00Z",
+      "blockheight": 856005,
+      "netflow_total": 15.0165,
+      "netflow_mean": -0.359654,
+      "timestamp": 1782190800
+    },
+    {
+      "datetime": "2026-06-23T06:00:00Z",
+      "blockheight": 856006,
+      "netflow_total": 236.971,
+      "netflow_mean": -0.133274,
+      "timestamp": 1782194400
+    },
+    {
+      "datetime": "2026-06-23T07:00:00Z",
+      "blockheight": 856007,
+      "netflow_total": -1052.4351,
+      "netflow_mean": 0.575739,
+      "timestamp": 1782198000
+    },
+    {
+      "datetime": "2026-06-23T08:00:00Z",
+      "blockheight": 856008,
+      "netflow_total": -2236.7808,
+      "netflow_mean": -0.40582,
+      "timestamp": 1782201600
+    },
+    {
+      "datetime": "2026-06-23T09:00:00Z",
+      "blockheight": 856009,
+      "netflow_total": 362.0249,
+      "netflow_mean": -0.281046,
+      "timestamp": 1782205200
+    },
+    {
+      "datetime": "2026-06-23T10:00:00Z",
+      "blockheight": 856010,
+      "netflow_total": -1448.6054,
+      "netflow_mean": 0.64268,
+      "timestamp": 1782208800
+    },
+    {
+      "datetime": "2026-06-23T11:00:00Z",
+      "blockheight": 856011,
+      "netflow_total": 814.0457,
+      "netflow_mean": -0.152057,
+      "timestamp": 1782212400
+    },
+    {
+      "datetime": "2026-06-23T12:00:00Z",
+      "blockheight": 856012,
+      "netflow_total": -176.8189,
+      "netflow_mean": 0.227363,
+      "timestamp": 1782216000
+    },
+    {
+      "datetime": "2026-06-23T13:00:00Z",
+      "blockheight": 856013,
+      "netflow_total": 2026.5932,
+      "netflow_mean": 0.067286,
+      "timestamp": 1782219600
+    },
+    {
+      "datetime": "2026-06-23T14:00:00Z",
+      "blockheight": 856014,
+      "netflow_total": 1041.1859,
+      "netflow_mean": 0.351375,
+      "timestamp": 1782223200
+    },
+    {
+      "datetime": "2026-06-23T15:00:00Z",
+      "blockheight": 856015,
+      "netflow_total": 317.8163,
+      "netflow_mean": -0.292988,
+      "timestamp": 1782226800
+    },
+    {
+      "datetime": "2026-06-23T16:00:00Z",
+      "blockheight": 856016,
+      "netflow_total": 2527.1508,
+      "netflow_mean": -0.230544,
+      "timestamp": 1782230400
+    },
+    {
+      "datetime": "2026-06-23T17:00:00Z",
+      "blockheight": 856017,
+      "netflow_total": -1148.6262,
+      "netflow_mean": 0.343952,
+      "timestamp": 1782234000
+    },
+    {
+      "datetime": "2026-06-23T18:00:00Z",
+      "blockheight": 856018,
+      "netflow_total": -934.7405,
+      "netflow_mean": 0.246684,
+      "timestamp": 1782237600
+    },
+    {
+      "datetime": "2026-06-23T19:00:00Z",
+      "blockheight": 856019,
+      "netflow_total": 1368.4118,
+      "netflow_mean": -0.349838,
+      "timestamp": 1782241200
+    },
+    {
+      "datetime": "2026-06-23T20:00:00Z",
+      "blockheight": 856020,
+      "netflow_total": -828.194,
+      "netflow_mean": 0.009108,
+      "timestamp": 1782244800
+    },
+    {
+      "datetime": "2026-06-23T21:00:00Z",
+      "blockheight": 856021,
+      "netflow_total": -2510.7639,
+      "netflow_mean": -0.071124,
+      "timestamp": 1782248400
+    },
+    {
+      "datetime": "2026-06-23T22:00:00Z",
+      "blockheight": 856022,
+      "netflow_total": 777.3328,
+      "netflow_mean": 0.213914,
+      "timestamp": 1782252000
+    },
+    {
+      "datetime": "2026-06-23T23:00:00Z",
+      "blockheight": 856023,
+      "netflow_total": 1891.2493,
+      "netflow_mean": 0.182107,
+      "timestamp": 1782255600
+    },
+    {
+      "datetime": "2026-06-24T00:00:00Z",
+      "blockheight": 856024,
+      "netflow_total": -382.2586,
+      "netflow_mean": -0.540415,
+      "timestamp": 1782259200
+    },
+    {
+      "datetime": "2026-06-24T01:00:00Z",
+      "blockheight": 856025,
+      "netflow_total": -1213.4928,
+      "netflow_mean": -0.16832,
+      "timestamp": 1782262800
+    },
+    {
+      "datetime": "2026-06-24T02:00:00Z",
+      "blockheight": 856026,
+      "netflow_total": 1845.4295,
+      "netflow_mean": -0.617662,
+      "timestamp": 1782266400
+    },
+    {
+      "datetime": "2026-06-24T03:00:00Z",
+      "blockheight": 856027,
+      "netflow_total": -2059.6156,
+      "netflow_mean": 0.124444,
+      "timestamp": 1782270000
+    },
+    {
+      "datetime": "2026-06-24T04:00:00Z",
+      "blockheight": 856028,
+      "netflow_total": 1489.2971,
+      "netflow_mean": -0.141791,
+      "timestamp": 1782273600
+    },
+    {
+      "datetime": "2026-06-24T05:00:00Z",
+      "blockheight": 856029,
+      "netflow_total": -450.5207,
+      "netflow_mean": 0.269262,
+      "timestamp": 1782277200
+    },
+    {
+      "datetime": "2026-06-24T06:00:00Z",
+      "blockheight": 856030,
+      "netflow_total": -459.8259,
+      "netflow_mean": -0.099048,
+      "timestamp": 1782280800
+    },
+    {
+      "datetime": "2026-06-24T07:00:00Z",
+      "blockheight": 856031,
+      "netflow_total": -2067.5943,
+      "netflow_mean": 0.087387,
+      "timestamp": 1782284400
+    },
+    {
+      "datetime": "2026-06-24T08:00:00Z",
+      "blockheight": 856032,
+      "netflow_total": 1662.2353,
+      "netflow_mean": 0.12946,
+      "timestamp": 1782288000
+    },
+    {
+      "datetime": "2026-06-24T09:00:00Z",
+      "blockheight": 856033,
+      "netflow_total": -939.0359,
+      "netflow_mean": -0.078092,
+      "timestamp": 1782291600
+    },
+    {
+      "datetime": "2026-06-24T10:00:00Z",
+      "blockheight": 856034,
+      "netflow_total": 813.6291,
+      "netflow_mean": 0.199068,
+      "timestamp": 1782295200
+    },
+    {
+      "datetime": "2026-06-24T11:00:00Z",
+      "blockheight": 856035,
+      "netflow_total": 1590.4285,
+      "netflow_mean": -0.658297,
+      "timestamp": 1782298800
+    },
+    {
+      "datetime": "2026-06-24T12:00:00Z",
+      "blockheight": 856036,
+      "netflow_total": 246.3974,
+      "netflow_mean": -0.000976,
+      "timestamp": 1782302400
+    },
+    {
+      "datetime": "2026-06-24T13:00:00Z",
+      "blockheight": 856037,
+      "netflow_total": -2354.6234,
+      "netflow_mean": 0.068891,
+      "timestamp": 1782306000
+    },
+    {
+      "datetime": "2026-06-24T14:00:00Z",
+      "blockheight": 856038,
+      "netflow_total": 1293.7576,
+      "netflow_mean": 0.107576,
+      "timestamp": 1782309600
+    },
+    {
+      "datetime": "2026-06-24T15:00:00Z",
+      "blockheight": 856039,
+      "netflow_total": -1258.5901,
+      "netflow_mean": -0.280469,
+      "timestamp": 1782313200
+    },
+    {
+      "datetime": "2026-06-24T16:00:00Z",
+      "blockheight": 856040,
+      "netflow_total": -1910.4786,
+      "netflow_mean": -0.219645,
+      "timestamp": 1782316800
+    },
+    {
+      "datetime": "2026-06-24T17:00:00Z",
+      "blockheight": 856041,
+      "netflow_total": -1307.3477,
+      "netflow_mean": 0.031588,
+      "timestamp": 1782320400
+    },
+    {
+      "datetime": "2026-06-24T18:00:00Z",
+      "blockheight": 856042,
+      "netflow_total": 937.6515,
+      "netflow_mean": -0.171439,
+      "timestamp": 1782324000
+    },
+    {
+      "datetime": "2026-06-24T19:00:00Z",
+      "blockheight": 856043,
+      "netflow_total": -261.3312,
+      "netflow_mean": 0.006522,
+      "timestamp": 1782327600
+    },
+    {
+      "datetime": "2026-06-24T20:00:00Z",
+      "blockheight": 856044,
+      "netflow_total": 680.8175,
+      "netflow_mean": 0.057914,
+      "timestamp": 1782331200
+    },
+    {
+      "datetime": "2026-06-24T21:00:00Z",
+      "blockheight": 856045,
+      "netflow_total": 366.3798,
+      "netflow_mean": -0.206597,
+      "timestamp": 1782334800
+    },
+    {
+      "datetime": "2026-06-24T22:00:00Z",
+      "blockheight": 856046,
+      "netflow_total": -596.2059,
+      "netflow_mean": 0.185932,
+      "timestamp": 1782338400
+    },
+    {
+      "datetime": "2026-06-24T23:00:00Z",
+      "blockheight": 856047,
+      "netflow_total": -1770.6517,
+      "netflow_mean": 0.206327,
+      "timestamp": 1782342000
+    },
+    {
+      "datetime": "2026-06-25T00:00:00Z",
+      "blockheight": 856048,
+      "netflow_total": 1175.1865,
+      "netflow_mean": -0.229232,
+      "timestamp": 1782345600
+    },
+    {
+      "datetime": "2026-06-25T01:00:00Z",
+      "blockheight": 856049,
+      "netflow_total": 53.9274,
+      "netflow_mean": -0.039408,
+      "timestamp": 1782349200
+    },
+    {
+      "datetime": "2026-06-25T02:00:00Z",
+      "blockheight": 856050,
+      "netflow_total": 21.6105,
+      "netflow_mean": 0.0686,
+      "timestamp": 1782352800
+    },
+    {
+      "datetime": "2026-06-25T03:00:00Z",
+      "blockheight": 856051,
+      "netflow_total": -1128.5342,
+      "netflow_mean": 0.14903,
+      "timestamp": 1782356400
+    },
+    {
+      "datetime": "2026-06-25T04:00:00Z",
+      "blockheight": 856052,
+      "netflow_total": 214.1794,
+      "netflow_mean": -0.153427,
+      "timestamp": 1782360000
+    },
+    {
+      "datetime": "2026-06-25T05:00:00Z",
+      "blockheight": 856053,
+      "netflow_total": 492.2707,
+      "netflow_mean": 0.379929,
+      "timestamp": 1782363600
+    },
+    {
+      "datetime": "2026-06-25T06:00:00Z",
+      "blockheight": 856054,
+      "netflow_total": 2320.7455,
+      "netflow_mean": 0.28104,
+      "timestamp": 1782367200
+    },
+    {
+      "datetime": "2026-06-25T07:00:00Z",
+      "blockheight": 856055,
+      "netflow_total": -837.194,
+      "netflow_mean": -0.251637,
+      "timestamp": 1782370800
+    },
+    {
+      "datetime": "2026-06-25T08:00:00Z",
+      "blockheight": 856056,
+      "netflow_total": 194.7143,
+      "netflow_mean": -0.229642,
+      "timestamp": 1782374400
+    },
+    {
+      "datetime": "2026-06-25T09:00:00Z",
+      "blockheight": 856057,
+      "netflow_total": 1115.4918,
+      "netflow_mean": -0.297686,
+      "timestamp": 1782378000
+    },
+    {
+      "datetime": "2026-06-25T10:00:00Z",
+      "blockheight": 856058,
+      "netflow_total": -524.0227,
+      "netflow_mean": 0.170133,
+      "timestamp": 1782381600
+    },
+    {
+      "datetime": "2026-06-25T11:00:00Z",
+      "blockheight": 856059,
+      "netflow_total": -807.5575,
+      "netflow_mean": 0.212123,
+      "timestamp": 1782385200
+    },
+    {
+      "datetime": "2026-06-25T12:00:00Z",
+      "blockheight": 856060,
+      "netflow_total": 1369.7278,
+      "netflow_mean": -0.162774,
+      "timestamp": 1782388800
+    },
+    {
+      "datetime": "2026-06-25T13:00:00Z",
+      "blockheight": 856061,
+      "netflow_total": -380.732,
+      "netflow_mean": -0.239665,
+      "timestamp": 1782392400
+    },
+    {
+      "datetime": "2026-06-25T14:00:00Z",
+      "blockheight": 856062,
+      "netflow_total": 1544.1133,
+      "netflow_mean": 0.123916,
+      "timestamp": 1782396000
+    },
+    {
+      "datetime": "2026-06-25T15:00:00Z",
+      "blockheight": 856063,
+      "netflow_total": -764.2907,
+      "netflow_mean": -0.17611,
+      "timestamp": 1782399600
+    },
+    {
+      "datetime": "2026-06-25T16:00:00Z",
+      "blockheight": 856064,
+      "netflow_total": -56.2935,
+      "netflow_mean": 0.128328,
+      "timestamp": 1782403200
+    },
+    {
+      "datetime": "2026-06-25T17:00:00Z",
+      "blockheight": 856065,
+      "netflow_total": -50.0303,
+      "netflow_mean": 0.203313,
+      "timestamp": 1782406800
+    },
+    {
+      "datetime": "2026-06-25T18:00:00Z",
+      "blockheight": 856066,
+      "netflow_total": 30.2032,
+      "netflow_mean": -0.505674,
+      "timestamp": 1782410400
+    },
+    {
+      "datetime": "2026-06-25T19:00:00Z",
+      "blockheight": 856067,
+      "netflow_total": -2696.5761,
+      "netflow_mean": -0.585054,
+      "timestamp": 1782414000
+    },
+    {
+      "datetime": "2026-06-25T20:00:00Z",
+      "blockheight": 856068,
+      "netflow_total": 1352.3024,
+      "netflow_mean": -0.143218,
+      "timestamp": 1782417600
+    },
+    {
+      "datetime": "2026-06-25T21:00:00Z",
+      "blockheight": 856069,
+      "netflow_total": -2053.5773,
+      "netflow_mean": -0.099592,
+      "timestamp": 1782421200
+    },
+    {
+      "datetime": "2026-06-25T22:00:00Z",
+      "blockheight": 856070,
+      "netflow_total": -692.3184,
+      "netflow_mean": -0.000574,
+      "timestamp": 1782424800
+    },
+    {
+      "datetime": "2026-06-25T23:00:00Z",
+      "blockheight": 856071,
+      "netflow_total": 427.3876,
+      "netflow_mean": 0.174262,
+      "timestamp": 1782428400
+    },
+    {
+      "datetime": "2026-06-26T00:00:00Z",
+      "blockheight": 856072,
+      "netflow_total": -2577.2285,
+      "netflow_mean": -0.203968,
+      "timestamp": 1782432000
+    },
+    {
+      "datetime": "2026-06-26T01:00:00Z",
+      "blockheight": 856073,
+      "netflow_total": 1674.0893,
+      "netflow_mean": 0.456532,
+      "timestamp": 1782435600
+    },
+    {
+      "datetime": "2026-06-26T02:00:00Z",
+      "blockheight": 856074,
+      "netflow_total": -444.3946,
+      "netflow_mean": -0.065457,
+      "timestamp": 1782439200
+    },
+    {
+      "datetime": "2026-06-26T03:00:00Z",
+      "blockheight": 856075,
+      "netflow_total": -1847.3255,
+      "netflow_mean": -0.103646,
+      "timestamp": 1782442800
+    },
+    {
+      "datetime": "2026-06-26T04:00:00Z",
+      "blockheight": 856076,
+      "netflow_total": -1507.7657,
+      "netflow_mean": 0.287216,
+      "timestamp": 1782446400
+    },
+    {
+      "datetime": "2026-06-26T05:00:00Z",
+      "blockheight": 856077,
+      "netflow_total": -268.4191,
+      "netflow_mean": 0.151827,
+      "timestamp": 1782450000
+    },
+    {
+      "datetime": "2026-06-26T06:00:00Z",
+      "blockheight": 856078,
+      "netflow_total": 365.0768,
+      "netflow_mean": -0.385379,
+      "timestamp": 1782453600
+    },
+    {
+      "datetime": "2026-06-26T07:00:00Z",
+      "blockheight": 856079,
+      "netflow_total": 2350.8667,
+      "netflow_mean": 0.36023,
+      "timestamp": 1782457200
+    },
+    {
+      "datetime": "2026-06-26T08:00:00Z",
+      "blockheight": 856080,
+      "netflow_total": 302.7157,
+      "netflow_mean": -0.38208,
+      "timestamp": 1782460800
+    },
+    {
+      "datetime": "2026-06-26T09:00:00Z",
+      "blockheight": 856081,
+      "netflow_total": -1327.7975,
+      "netflow_mean": 0.061896,
+      "timestamp": 1782464400
+    },
+    {
+      "datetime": "2026-06-26T10:00:00Z",
+      "blockheight": 856082,
+      "netflow_total": -835.0451,
+      "netflow_mean": 0.282759,
+      "timestamp": 1782468000
+    },
+    {
+      "datetime": "2026-06-26T11:00:00Z",
+      "blockheight": 856083,
+      "netflow_total": 284.6796,
+      "netflow_mean": 0.285687,
+      "timestamp": 1782471600
+    },
+    {
+      "datetime": "2026-06-26T12:00:00Z",
+      "blockheight": 856084,
+      "netflow_total": 651.7465,
+      "netflow_mean": -0.174278,
+      "timestamp": 1782475200
+    },
+    {
+      "datetime": "2026-06-26T13:00:00Z",
+      "blockheight": 856085,
+      "netflow_total": 2088.4118,
+      "netflow_mean": -0.059797,
+      "timestamp": 1782478800
+    },
+    {
+      "datetime": "2026-06-26T14:00:00Z",
+      "blockheight": 856086,
+      "netflow_total": 11.7373,
+      "netflow_mean": 0.241003,
+      "timestamp": 1782482400
+    },
+    {
+      "datetime": "2026-06-26T15:00:00Z",
+      "blockheight": 856087,
+      "netflow_total": -2871.9619,
+      "netflow_mean": 0.604421,
+      "timestamp": 1782486000
+    },
+    {
+      "datetime": "2026-06-26T16:00:00Z",
+      "blockheight": 856088,
+      "netflow_total": -1385.3469,
+      "netflow_mean": 0.052366,
+      "timestamp": 1782489600
+    },
+    {
+      "datetime": "2026-06-26T17:00:00Z",
+      "blockheight": 856089,
+      "netflow_total": 357.8867,
+      "netflow_mean": 0.171109,
+      "timestamp": 1782493200
+    },
+    {
+      "datetime": "2026-06-26T18:00:00Z",
+      "blockheight": 856090,
+      "netflow_total": -1156.538,
+      "netflow_mean": 0.620128,
+      "timestamp": 1782496800
+    },
+    {
+      "datetime": "2026-06-26T19:00:00Z",
+      "blockheight": 856091,
+      "netflow_total": -1723.6533,
+      "netflow_mean": 0.68496,
+      "timestamp": 1782500400
+    },
+    {
+      "datetime": "2026-06-26T20:00:00Z",
+      "blockheight": 856092,
+      "netflow_total": -930.0948,
+      "netflow_mean": -0.180056,
+      "timestamp": 1782504000
+    },
+    {
+      "datetime": "2026-06-26T21:00:00Z",
+      "blockheight": 856093,
+      "netflow_total": -507.1021,
+      "netflow_mean": -0.364093,
+      "timestamp": 1782507600
+    },
+    {
+      "datetime": "2026-06-26T22:00:00Z",
+      "blockheight": 856094,
+      "netflow_total": -269.4343,
+      "netflow_mean": 0.012625,
+      "timestamp": 1782511200
+    },
+    {
+      "datetime": "2026-06-26T23:00:00Z",
+      "blockheight": 856095,
+      "netflow_total": -1160.2373,
+      "netflow_mean": 0.169236,
+      "timestamp": 1782514800
+    },
+    {
+      "datetime": "2026-06-27T00:00:00Z",
+      "blockheight": 856096,
+      "netflow_total": 1571.2307,
+      "netflow_mean": 0.302208,
+      "timestamp": 1782518400
+    },
+    {
+      "datetime": "2026-06-27T01:00:00Z",
+      "blockheight": 856097,
+      "netflow_total": -585.8205,
+      "netflow_mean": 0.328226,
+      "timestamp": 1782522000
+    },
+    {
+      "datetime": "2026-06-27T02:00:00Z",
+      "blockheight": 856098,
+      "netflow_total": -193.3162,
+      "netflow_mean": -0.008651,
+      "timestamp": 1782525600
+    },
+    {
+      "datetime": "2026-06-27T03:00:00Z",
+      "blockheight": 856099,
+      "netflow_total": 86.0674,
+      "netflow_mean": -0.126735,
+      "timestamp": 1782529200
+    },
+    {
+      "datetime": "2026-06-27T04:00:00Z",
+      "blockheight": 856100,
+      "netflow_total": 684.3657,
+      "netflow_mean": -0.204092,
+      "timestamp": 1782532800
+    },
+    {
+      "datetime": "2026-06-27T05:00:00Z",
+      "blockheight": 856101,
+      "netflow_total": -93.0915,
+      "netflow_mean": 0.058442,
+      "timestamp": 1782536400
+    },
+    {
+      "datetime": "2026-06-27T06:00:00Z",
+      "blockheight": 856102,
+      "netflow_total": -2102.7299,
+      "netflow_mean": -0.346159,
+      "timestamp": 1782540000
+    },
+    {
+      "datetime": "2026-06-27T07:00:00Z",
+      "blockheight": 856103,
+      "netflow_total": -412.1963,
+      "netflow_mean": -0.521931,
+      "timestamp": 1782543600
+    },
+    {
+      "datetime": "2026-06-27T08:00:00Z",
+      "blockheight": 856104,
+      "netflow_total": 1633.2732,
+      "netflow_mean": -0.441615,
+      "timestamp": 1782547200
+    },
+    {
+      "datetime": "2026-06-27T09:00:00Z",
+      "blockheight": 856105,
+      "netflow_total": -628.3963,
+      "netflow_mean": -0.352952,
+      "timestamp": 1782550800
+    },
+    {
+      "datetime": "2026-06-27T10:00:00Z",
+      "blockheight": 856106,
+      "netflow_total": 998.1325,
+      "netflow_mean": -0.00187,
+      "timestamp": 1782554400
+    },
+    {
+      "datetime": "2026-06-27T11:00:00Z",
+      "blockheight": 856107,
+      "netflow_total": 2917.9272,
+      "netflow_mean": 0.420739,
+      "timestamp": 1782558000
+    },
+    {
+      "datetime": "2026-06-27T12:00:00Z",
+      "blockheight": 856108,
+      "netflow_total": -167.1626,
+      "netflow_mean": -0.076701,
+      "timestamp": 1782561600
+    },
+    {
+      "datetime": "2026-06-27T13:00:00Z",
+      "blockheight": 856109,
+      "netflow_total": -1789.6028,
+      "netflow_mean": -0.123918,
+      "timestamp": 1782565200
+    },
+    {
+      "datetime": "2026-06-27T14:00:00Z",
+      "blockheight": 856110,
+      "netflow_total": 694.8281,
+      "netflow_mean": -0.002723,
+      "timestamp": 1782568800
+    },
+    {
+      "datetime": "2026-06-27T15:00:00Z",
+      "blockheight": 856111,
+      "netflow_total": -632.9151,
+      "netflow_mean": -0.346361,
+      "timestamp": 1782572400
+    },
+    {
+      "datetime": "2026-06-27T16:00:00Z",
+      "blockheight": 856112,
+      "netflow_total": -1996.4714,
+      "netflow_mean": -0.040226,
+      "timestamp": 1782576000
+    },
+    {
+      "datetime": "2026-06-27T17:00:00Z",
+      "blockheight": 856113,
+      "netflow_total": 1294.0983,
+      "netflow_mean": 0.597303,
+      "timestamp": 1782579600
+    },
+    {
+      "datetime": "2026-06-27T18:00:00Z",
+      "blockheight": 856114,
+      "netflow_total": 458.0403,
+      "netflow_mean": -0.006733,
+      "timestamp": 1782583200
+    },
+    {
+      "datetime": "2026-06-27T19:00:00Z",
+      "blockheight": 856115,
+      "netflow_total": 895.399,
+      "netflow_mean": 0.009405,
+      "timestamp": 1782586800
+    },
+    {
+      "datetime": "2026-06-27T20:00:00Z",
+      "blockheight": 856116,
+      "netflow_total": -205.6845,
+      "netflow_mean": 0.400399,
+      "timestamp": 1782590400
+    },
+    {
+      "datetime": "2026-06-27T21:00:00Z",
+      "blockheight": 856117,
+      "netflow_total": -426.5566,
+      "netflow_mean": -0.144412,
+      "timestamp": 1782594000
+    },
+    {
+      "datetime": "2026-06-27T22:00:00Z",
+      "blockheight": 856118,
+      "netflow_total": 730.963,
+      "netflow_mean": -0.119016,
+      "timestamp": 1782597600
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856119,
+      "netflow_total": 204.0218,
+      "netflow_mean": -0.17763,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856120,
+      "netflow_total": -482.0988,
+      "netflow_mean": -0.466248,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856121,
+      "netflow_total": -1165.5895,
+      "netflow_mean": -0.315173,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856122,
+      "netflow_total": 344.682,
+      "netflow_mean": 0.009493,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856123,
+      "netflow_total": -1442.6499,
+      "netflow_mean": -0.314835,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856124,
+      "netflow_total": 470.659,
+      "netflow_mean": 0.237243,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856125,
+      "netflow_total": -508.9375,
+      "netflow_mean": 0.432394,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856126,
+      "netflow_total": 1354.1328,
+      "netflow_mean": -0.108783,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856127,
+      "netflow_total": 932.988,
+      "netflow_mean": 0.12566,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856128,
+      "netflow_total": -371.2415,
+      "netflow_mean": -0.362863,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856129,
+      "netflow_total": 1714.1876,
+      "netflow_mean": 0.063377,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856130,
+      "netflow_total": -762.2328,
+      "netflow_mean": 0.400396,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856131,
+      "netflow_total": -268.3185,
+      "netflow_mean": -0.07633,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856132,
+      "netflow_total": 1332.0916,
+      "netflow_mean": 0.209606,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856133,
+      "netflow_total": 850.1067,
+      "netflow_mean": 0.519072,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856134,
+      "netflow_total": -1750.8757,
+      "netflow_mean": 0.12202,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856135,
+      "netflow_total": -1419.6551,
+      "netflow_mean": 0.097928,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856136,
+      "netflow_total": -306.75,
+      "netflow_mean": -0.43874,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856137,
+      "netflow_total": -673.7198,
+      "netflow_mean": -0.330149,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856138,
+      "netflow_total": 2999.0699,
+      "netflow_mean": 0.404321,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856139,
+      "netflow_total": -1570.7591,
+      "netflow_mean": -0.203807,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856140,
+      "netflow_total": -752.2896,
+      "netflow_mean": -0.143928,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856141,
+      "netflow_total": 330.8419,
+      "netflow_mean": -0.188361,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856142,
+      "netflow_total": 2156.2386,
+      "netflow_mean": -0.167412,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856143,
+      "netflow_total": -1487.0272,
+      "netflow_mean": -0.587959,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856144,
+      "netflow_total": 829.1764,
+      "netflow_mean": -0.092623,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856145,
+      "netflow_total": 1161.1821,
+      "netflow_mean": -0.000818,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856146,
+      "netflow_total": -2231.1818,
+      "netflow_mean": 0.069721,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856147,
+      "netflow_total": -2152.8166,
+      "netflow_mean": 0.041324,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856148,
+      "netflow_total": 2244.146,
+      "netflow_mean": 0.283924,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856149,
+      "netflow_total": -2482.1537,
+      "netflow_mean": -0.069995,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856150,
+      "netflow_total": 837.6671,
+      "netflow_mean": -0.18104,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856151,
+      "netflow_total": -877.0092,
+      "netflow_mean": 0.064536,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856152,
+      "netflow_total": -1777.767,
+      "netflow_mean": -0.000614,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856153,
+      "netflow_total": 912.2121,
+      "netflow_mean": 0.126031,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856154,
+      "netflow_total": -1497.8854,
+      "netflow_mean": 0.126143,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856155,
+      "netflow_total": 1570.831,
+      "netflow_mean": -0.130991,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856156,
+      "netflow_total": -876.2614,
+      "netflow_mean": -0.24967,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856157,
+      "netflow_total": -1474.0,
+      "netflow_mean": -0.229789,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856158,
+      "netflow_total": 603.9452,
+      "netflow_mean": 0.309583,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856159,
+      "netflow_total": -131.4243,
+      "netflow_mean": 0.106099,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856160,
+      "netflow_total": 403.7556,
+      "netflow_mean": 0.166793,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856161,
+      "netflow_total": 831.2511,
+      "netflow_mean": -0.317875,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856162,
+      "netflow_total": -1922.2521,
+      "netflow_mean": 0.163536,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856163,
+      "netflow_total": 1572.211,
+      "netflow_mean": -0.048854,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856164,
+      "netflow_total": -1080.6396,
+      "netflow_mean": 0.016839,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856165,
+      "netflow_total": 135.0775,
+      "netflow_mean": -0.057593,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856166,
+      "netflow_total": 856.6674,
+      "netflow_mean": 0.114907,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856167,
+      "netflow_total": 2112.1321,
+      "netflow_mean": 0.419762,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856168,
+      "netflow_total": 1714.9463,
+      "netflow_mean": -0.408754,
+      "timestamp": 1782777600
+    },
+    {
+      "datetime": "2026-06-30T01:00:00Z",
+      "blockheight": 856169,
+      "netflow_total": -2809.9293,
+      "netflow_mean": -0.200391,
+      "timestamp": 1782781200
+    },
+    {
+      "datetime": "2026-06-30T02:00:00Z",
+      "blockheight": 856170,
+      "netflow_total": 552.3334,
+      "netflow_mean": -0.336892,
+      "timestamp": 1782784800
+    },
+    {
+      "datetime": "2026-06-30T03:00:00Z",
+      "blockheight": 856171,
+      "netflow_total": 1052.3335,
+      "netflow_mean": -0.267508,
+      "timestamp": 1782788400
+    },
+    {
+      "datetime": "2026-06-30T04:00:00Z",
+      "blockheight": 856172,
+      "netflow_total": -1290.9163,
+      "netflow_mean": -0.350021,
+      "timestamp": 1782792000
+    },
+    {
+      "datetime": "2026-06-30T05:00:00Z",
+      "blockheight": 856173,
+      "netflow_total": 1503.0656,
+      "netflow_mean": 0.382972,
+      "timestamp": 1782795600
+    },
+    {
+      "datetime": "2026-06-30T06:00:00Z",
+      "blockheight": 856174,
+      "netflow_total": 1056.4959,
+      "netflow_mean": 0.052503,
+      "timestamp": 1782799200
+    },
+    {
+      "datetime": "2026-06-30T07:00:00Z",
+      "blockheight": 856175,
+      "netflow_total": -143.3104,
+      "netflow_mean": 0.066928,
+      "timestamp": 1782802800
+    },
+    {
+      "datetime": "2026-06-30T08:00:00Z",
+      "blockheight": 856176,
+      "netflow_total": -2724.5833,
+      "netflow_mean": 0.543859,
+      "timestamp": 1782806400
+    },
+    {
+      "datetime": "2026-06-30T09:00:00Z",
+      "blockheight": 856177,
+      "netflow_total": 252.3822,
+      "netflow_mean": -0.505787,
+      "timestamp": 1782810000
+    },
+    {
+      "datetime": "2026-06-30T10:00:00Z",
+      "blockheight": 856178,
+      "netflow_total": 1878.7914,
+      "netflow_mean": -0.402883,
+      "timestamp": 1782813600
+    },
+    {
+      "datetime": "2026-06-30T11:00:00Z",
+      "blockheight": 856179,
+      "netflow_total": 141.9232,
+      "netflow_mean": -0.274062,
+      "timestamp": 1782817200
+    },
+    {
+      "datetime": "2026-06-30T12:00:00Z",
+      "blockheight": 856180,
+      "netflow_total": -703.5876,
+      "netflow_mean": 0.030629,
+      "timestamp": 1782820800
+    },
+    {
+      "datetime": "2026-06-30T13:00:00Z",
+      "blockheight": 856181,
+      "netflow_total": -1969.8202,
+      "netflow_mean": 0.449672,
+      "timestamp": 1782824400
+    },
+    {
+      "datetime": "2026-06-30T14:00:00Z",
+      "blockheight": 856182,
+      "netflow_total": 427.9035,
+      "netflow_mean": 0.059563,
+      "timestamp": 1782828000
+    },
+    {
+      "datetime": "2026-06-30T15:00:00Z",
+      "blockheight": 856183,
+      "netflow_total": 626.5417,
+      "netflow_mean": 0.333405,
+      "timestamp": 1782831600
+    },
+    {
+      "datetime": "2026-06-30T16:00:00Z",
+      "blockheight": 856184,
+      "netflow_total": -500.5317,
+      "netflow_mean": -0.644401,
+      "timestamp": 1782835200
+    },
+    {
+      "datetime": "2026-06-30T17:00:00Z",
+      "blockheight": 856185,
+      "netflow_total": -11.5869,
+      "netflow_mean": -0.013699,
+      "timestamp": 1782838800
+    },
+    {
+      "datetime": "2026-06-30T18:00:00Z",
+      "blockheight": 856186,
+      "netflow_total": 1052.4831,
+      "netflow_mean": 0.210622,
+      "timestamp": 1782842400
+    },
+    {
+      "datetime": "2026-06-30T19:00:00Z",
+      "blockheight": 856187,
+      "netflow_total": -583.2403,
+      "netflow_mean": -0.22973,
+      "timestamp": 1782846000
+    },
+    {
+      "datetime": "2026-06-30T20:00:00Z",
+      "blockheight": 856188,
+      "netflow_total": -994.6966,
+      "netflow_mean": -0.268654,
+      "timestamp": 1782849600
+    },
+    {
+      "datetime": "2026-06-30T21:00:00Z",
+      "blockheight": 856189,
+      "netflow_total": -527.2451,
+      "netflow_mean": 0.29302,
+      "timestamp": 1782853200
+    },
+    {
+      "datetime": "2026-06-30T22:00:00Z",
+      "blockheight": 856190,
+      "netflow_total": 314.8679,
+      "netflow_mean": 0.601454,
+      "timestamp": 1782856800
+    },
+    {
+      "datetime": "2026-06-30T23:00:00Z",
+      "blockheight": 856191,
+      "netflow_total": -1674.7393,
+      "netflow_mean": -0.243602,
+      "timestamp": 1782860400
+    },
+    {
+      "datetime": "2026-07-01T00:00:00Z",
+      "blockheight": 856192,
+      "netflow_total": 334.6677,
+      "netflow_mean": -0.018745,
+      "timestamp": 1782864000
+    },
+    {
+      "datetime": "2026-07-01T01:00:00Z",
+      "blockheight": 856193,
+      "netflow_total": 551.0724,
+      "netflow_mean": -0.086263,
+      "timestamp": 1782867600
+    },
+    {
+      "datetime": "2026-07-01T02:00:00Z",
+      "blockheight": 856194,
+      "netflow_total": -664.3048,
+      "netflow_mean": -0.049027,
+      "timestamp": 1782871200
+    },
+    {
+      "datetime": "2026-07-01T03:00:00Z",
+      "blockheight": 856195,
+      "netflow_total": 770.4981,
+      "netflow_mean": 0.340006,
+      "timestamp": 1782874800
+    },
+    {
+      "datetime": "2026-07-01T04:00:00Z",
+      "blockheight": 856196,
+      "netflow_total": -1897.4745,
+      "netflow_mean": -0.094073,
+      "timestamp": 1782878400
+    },
+    {
+      "datetime": "2026-07-01T05:00:00Z",
+      "blockheight": 856197,
+      "netflow_total": -44.519,
+      "netflow_mean": 0.246691,
+      "timestamp": 1782882000
+    },
+    {
+      "datetime": "2026-07-01T06:00:00Z",
+      "blockheight": 856198,
+      "netflow_total": 851.4979,
+      "netflow_mean": 0.118548,
+      "timestamp": 1782885600
+    },
+    {
+      "datetime": "2026-07-01T07:00:00Z",
+      "blockheight": 856199,
+      "netflow_total": 218.5484,
+      "netflow_mean": -0.215799,
+      "timestamp": 1782889200
+    },
+    {
+      "datetime": "2026-07-01T08:00:00Z",
+      "blockheight": 856200,
+      "netflow_total": -2287.5026,
+      "netflow_mean": -0.636107,
+      "timestamp": 1782892800
+    },
+    {
+      "datetime": "2026-07-01T09:00:00Z",
+      "blockheight": 856201,
+      "netflow_total": 6.5616,
+      "netflow_mean": 0.18451,
+      "timestamp": 1782896400
+    },
+    {
+      "datetime": "2026-07-01T10:00:00Z",
+      "blockheight": 856202,
+      "netflow_total": 1069.3546,
+      "netflow_mean": 0.20674,
+      "timestamp": 1782900000
+    },
+    {
+      "datetime": "2026-07-01T11:00:00Z",
+      "blockheight": 856203,
+      "netflow_total": -2082.9713,
+      "netflow_mean": -0.147134,
+      "timestamp": 1782903600
+    },
+    {
+      "datetime": "2026-07-01T12:00:00Z",
+      "blockheight": 856204,
+      "netflow_total": -1679.1153,
+      "netflow_mean": -0.201763,
+      "timestamp": 1782907200
+    },
+    {
+      "datetime": "2026-07-01T13:00:00Z",
+      "blockheight": 856205,
+      "netflow_total": -185.9326,
+      "netflow_mean": 0.118832,
+      "timestamp": 1782910800
+    },
+    {
+      "datetime": "2026-07-01T14:00:00Z",
+      "blockheight": 856206,
+      "netflow_total": -1100.5651,
+      "netflow_mean": -0.051044,
+      "timestamp": 1782914400
+    },
+    {
+      "datetime": "2026-07-01T15:00:00Z",
+      "blockheight": 856207,
+      "netflow_total": -3097.5245,
+      "netflow_mean": -0.189571,
+      "timestamp": 1782918000
+    },
+    {
+      "datetime": "2026-07-01T16:00:00Z",
+      "blockheight": 856208,
+      "netflow_total": 93.5148,
+      "netflow_mean": 0.074642,
+      "timestamp": 1782921600
+    },
+    {
+      "datetime": "2026-07-01T17:00:00Z",
+      "blockheight": 856209,
+      "netflow_total": 766.0438,
+      "netflow_mean": -0.527476,
+      "timestamp": 1782925200
+    },
+    {
+      "datetime": "2026-07-01T18:00:00Z",
+      "blockheight": 856210,
+      "netflow_total": -813.2158,
+      "netflow_mean": 0.227046,
+      "timestamp": 1782928800
+    },
+    {
+      "datetime": "2026-07-01T19:00:00Z",
+      "blockheight": 856211,
+      "netflow_total": 567.4705,
+      "netflow_mean": 0.139392,
+      "timestamp": 1782932400
+    },
+    {
+      "datetime": "2026-07-01T20:00:00Z",
+      "blockheight": 856212,
+      "netflow_total": 1500.0813,
+      "netflow_mean": 0.083421,
+      "timestamp": 1782936000
+    },
+    {
+      "datetime": "2026-07-01T21:00:00Z",
+      "blockheight": 856213,
+      "netflow_total": -1344.8466,
+      "netflow_mean": 0.252421,
+      "timestamp": 1782939600
+    },
+    {
+      "datetime": "2026-07-01T22:00:00Z",
+      "blockheight": 856214,
+      "netflow_total": 927.0945,
+      "netflow_mean": 0.203668,
+      "timestamp": 1782943200
+    },
+    {
+      "datetime": "2026-07-01T23:00:00Z",
+      "blockheight": 856215,
+      "netflow_total": -149.5617,
+      "netflow_mean": -0.197726,
+      "timestamp": 1782946800
+    },
+    {
+      "datetime": "2026-07-02T00:00:00Z",
+      "blockheight": 856216,
+      "netflow_total": -525.5425,
+      "netflow_mean": 0.364939,
+      "timestamp": 1782950400
+    },
+    {
+      "datetime": "2026-07-02T01:00:00Z",
+      "blockheight": 856217,
+      "netflow_total": -4.7869,
+      "netflow_mean": -0.076286,
+      "timestamp": 1782954000
+    },
+    {
+      "datetime": "2026-07-02T02:00:00Z",
+      "blockheight": 856218,
+      "netflow_total": 57.3141,
+      "netflow_mean": -0.476727,
+      "timestamp": 1782957600
+    },
+    {
+      "datetime": "2026-07-02T03:00:00Z",
+      "blockheight": 856219,
+      "netflow_total": 1405.6736,
+      "netflow_mean": 0.153939,
+      "timestamp": 1782961200
+    },
+    {
+      "datetime": "2026-07-02T04:00:00Z",
+      "blockheight": 856220,
+      "netflow_total": 618.9228,
+      "netflow_mean": 0.207862,
+      "timestamp": 1782964800
+    },
+    {
+      "datetime": "2026-07-02T05:00:00Z",
+      "blockheight": 856221,
+      "netflow_total": 531.254,
+      "netflow_mean": 0.015913,
+      "timestamp": 1782968400
+    },
+    {
+      "datetime": "2026-07-02T06:00:00Z",
+      "blockheight": 856222,
+      "netflow_total": -1596.304,
+      "netflow_mean": -0.124236,
+      "timestamp": 1782972000
+    },
+    {
+      "datetime": "2026-07-02T07:00:00Z",
+      "blockheight": 856223,
+      "netflow_total": -1870.3923,
+      "netflow_mean": -0.013528,
+      "timestamp": 1782975600
+    },
+    {
+      "datetime": "2026-07-02T08:00:00Z",
+      "blockheight": 856224,
+      "netflow_total": -1493.189,
+      "netflow_mean": -0.35687,
+      "timestamp": 1782979200
+    },
+    {
+      "datetime": "2026-07-02T09:00:00Z",
+      "blockheight": 856225,
+      "netflow_total": -1118.1454,
+      "netflow_mean": 0.444047,
+      "timestamp": 1782982800
+    },
+    {
+      "datetime": "2026-07-02T10:00:00Z",
+      "blockheight": 856226,
+      "netflow_total": -682.5623,
+      "netflow_mean": -0.515082,
+      "timestamp": 1782986400
+    },
+    {
+      "datetime": "2026-07-02T11:00:00Z",
+      "blockheight": 856227,
+      "netflow_total": -550.4803,
+      "netflow_mean": 0.263952,
+      "timestamp": 1782990000
+    },
+    {
+      "datetime": "2026-07-02T12:00:00Z",
+      "blockheight": 856228,
+      "netflow_total": 889.0338,
+      "netflow_mean": -0.286128,
+      "timestamp": 1782993600
+    },
+    {
+      "datetime": "2026-07-02T13:00:00Z",
+      "blockheight": 856229,
+      "netflow_total": 1957.1899,
+      "netflow_mean": 0.068398,
+      "timestamp": 1782997200
+    },
+    {
+      "datetime": "2026-07-02T14:00:00Z",
+      "blockheight": 856230,
+      "netflow_total": -1632.1119,
+      "netflow_mean": -0.144398,
+      "timestamp": 1783000800
+    },
+    {
+      "datetime": "2026-07-02T15:00:00Z",
+      "blockheight": 856231,
+      "netflow_total": -1386.1792,
+      "netflow_mean": -0.428496,
+      "timestamp": 1783004400
+    },
+    {
+      "datetime": "2026-07-02T16:00:00Z",
+      "blockheight": 856232,
+      "netflow_total": 1288.8454,
+      "netflow_mean": -0.315682,
+      "timestamp": 1783008000
+    },
+    {
+      "datetime": "2026-07-02T17:00:00Z",
+      "blockheight": 856233,
+      "netflow_total": -25.2751,
+      "netflow_mean": -0.52944,
+      "timestamp": 1783011600
+    },
+    {
+      "datetime": "2026-07-02T18:00:00Z",
+      "blockheight": 856234,
+      "netflow_total": -79.3419,
+      "netflow_mean": -0.303267,
+      "timestamp": 1783015200
+    },
+    {
+      "datetime": "2026-07-02T19:00:00Z",
+      "blockheight": 856235,
+      "netflow_total": -1424.2854,
+      "netflow_mean": -0.380721,
+      "timestamp": 1783018800
+    },
+    {
+      "datetime": "2026-07-02T20:00:00Z",
+      "blockheight": 856236,
+      "netflow_total": -500.7435,
+      "netflow_mean": 0.137477,
+      "timestamp": 1783022400
+    },
+    {
+      "datetime": "2026-07-02T21:00:00Z",
+      "blockheight": 856237,
+      "netflow_total": -308.5856,
+      "netflow_mean": -0.30114,
+      "timestamp": 1783026000
+    },
+    {
+      "datetime": "2026-07-02T22:00:00Z",
+      "blockheight": 856238,
+      "netflow_total": 2.9831,
+      "netflow_mean": -0.471089,
+      "timestamp": 1783029600
+    },
+    {
+      "datetime": "2026-07-02T23:00:00Z",
+      "blockheight": 856239,
+      "netflow_total": 857.0972,
+      "netflow_mean": -0.13966,
+      "timestamp": 1783033200
+    },
+    {
+      "datetime": "2026-07-03T00:00:00Z",
+      "blockheight": 856240,
+      "netflow_total": -824.3457,
+      "netflow_mean": 0.035604,
+      "timestamp": 1783036800
+    },
+    {
+      "datetime": "2026-07-03T01:00:00Z",
+      "blockheight": 856241,
+      "netflow_total": 100.0721,
+      "netflow_mean": -0.368959,
+      "timestamp": 1783040400
+    },
+    {
+      "datetime": "2026-07-03T02:00:00Z",
+      "blockheight": 856242,
+      "netflow_total": -689.7349,
+      "netflow_mean": 0.521312,
+      "timestamp": 1783044000
+    },
+    {
+      "datetime": "2026-07-03T03:00:00Z",
+      "blockheight": 856243,
+      "netflow_total": 1017.3155,
+      "netflow_mean": -0.289555,
+      "timestamp": 1783047600
+    },
+    {
+      "datetime": "2026-07-03T04:00:00Z",
+      "blockheight": 856244,
+      "netflow_total": 515.5259,
+      "netflow_mean": 0.147886,
+      "timestamp": 1783051200
+    },
+    {
+      "datetime": "2026-07-03T05:00:00Z",
+      "blockheight": 856245,
+      "netflow_total": 1606.4112,
+      "netflow_mean": -0.005217,
+      "timestamp": 1783054800
+    },
+    {
+      "datetime": "2026-07-03T06:00:00Z",
+      "blockheight": 856246,
+      "netflow_total": 540.0346,
+      "netflow_mean": -0.140846,
+      "timestamp": 1783058400
+    },
+    {
+      "datetime": "2026-07-03T07:00:00Z",
+      "blockheight": 856247,
+      "netflow_total": 39.4195,
+      "netflow_mean": -0.462303,
+      "timestamp": 1783062000
+    },
+    {
+      "datetime": "2026-07-03T08:00:00Z",
+      "blockheight": 856248,
+      "netflow_total": 866.1894,
+      "netflow_mean": 0.086396,
+      "timestamp": 1783065600
+    },
+    {
+      "datetime": "2026-07-03T09:00:00Z",
+      "blockheight": 856249,
+      "netflow_total": -69.151,
+      "netflow_mean": -0.389036,
+      "timestamp": 1783069200
+    },
+    {
+      "datetime": "2026-07-03T10:00:00Z",
+      "blockheight": 856250,
+      "netflow_total": -642.8668,
+      "netflow_mean": 0.166085,
+      "timestamp": 1783072800
+    },
+    {
+      "datetime": "2026-07-03T11:00:00Z",
+      "blockheight": 856251,
+      "netflow_total": -302.2411,
+      "netflow_mean": -0.283791,
+      "timestamp": 1783076400
+    },
+    {
+      "datetime": "2026-07-03T12:00:00Z",
+      "blockheight": 856252,
+      "netflow_total": 561.2362,
+      "netflow_mean": -0.303292,
+      "timestamp": 1783080000
+    },
+    {
+      "datetime": "2026-07-03T13:00:00Z",
+      "blockheight": 856253,
+      "netflow_total": 2537.8552,
+      "netflow_mean": -0.281892,
+      "timestamp": 1783083600
+    },
+    {
+      "datetime": "2026-07-03T14:00:00Z",
+      "blockheight": 856254,
+      "netflow_total": 326.9641,
+      "netflow_mean": -0.177985,
+      "timestamp": 1783087200
+    },
+    {
+      "datetime": "2026-07-03T15:00:00Z",
+      "blockheight": 856255,
+      "netflow_total": -1020.8724,
+      "netflow_mean": -0.309864,
+      "timestamp": 1783090800
+    },
+    {
+      "datetime": "2026-07-03T16:00:00Z",
+      "blockheight": 856256,
+      "netflow_total": -324.4584,
+      "netflow_mean": 0.00307,
+      "timestamp": 1783094400
+    },
+    {
+      "datetime": "2026-07-03T17:00:00Z",
+      "blockheight": 856257,
+      "netflow_total": -1923.5317,
+      "netflow_mean": -0.29866,
+      "timestamp": 1783098000
+    },
+    {
+      "datetime": "2026-07-03T18:00:00Z",
+      "blockheight": 856258,
+      "netflow_total": -395.044,
+      "netflow_mean": -0.215837,
+      "timestamp": 1783101600
+    },
+    {
+      "datetime": "2026-07-03T19:00:00Z",
+      "blockheight": 856259,
+      "netflow_total": -473.5437,
+      "netflow_mean": 0.008684,
+      "timestamp": 1783105200
+    },
+    {
+      "datetime": "2026-07-03T20:00:00Z",
+      "blockheight": 856260,
+      "netflow_total": -754.8154,
+      "netflow_mean": 0.127187,
+      "timestamp": 1783108800
+    },
+    {
+      "datetime": "2026-07-03T21:00:00Z",
+      "blockheight": 856261,
+      "netflow_total": 1251.5914,
+      "netflow_mean": 0.272888,
+      "timestamp": 1783112400
+    },
+    {
+      "datetime": "2026-07-03T22:00:00Z",
+      "blockheight": 856262,
+      "netflow_total": -634.7585,
+      "netflow_mean": -0.123078,
+      "timestamp": 1783116000
+    },
+    {
+      "datetime": "2026-07-03T23:00:00Z",
+      "blockheight": 856263,
+      "netflow_total": -610.0179,
+      "netflow_mean": -0.125625,
+      "timestamp": 1783119600
+    },
+    {
+      "datetime": "2026-07-04T00:00:00Z",
+      "blockheight": 856264,
+      "netflow_total": -1021.137,
+      "netflow_mean": -0.52371,
+      "timestamp": 1783123200
+    },
+    {
+      "datetime": "2026-07-04T01:00:00Z",
+      "blockheight": 856265,
+      "netflow_total": 1242.7585,
+      "netflow_mean": -0.177928,
+      "timestamp": 1783126800
+    },
+    {
+      "datetime": "2026-07-04T02:00:00Z",
+      "blockheight": 856266,
+      "netflow_total": 1072.7992,
+      "netflow_mean": -0.917516,
+      "timestamp": 1783130400
+    },
+    {
+      "datetime": "2026-07-04T03:00:00Z",
+      "blockheight": 856267,
+      "netflow_total": -619.5864,
+      "netflow_mean": -0.071584,
+      "timestamp": 1783134000
+    },
+    {
+      "datetime": "2026-07-04T04:00:00Z",
+      "blockheight": 856268,
+      "netflow_total": 126.8623,
+      "netflow_mean": -0.600647,
+      "timestamp": 1783137600
+    },
+    {
+      "datetime": "2026-07-04T05:00:00Z",
+      "blockheight": 856269,
+      "netflow_total": -1793.9927,
+      "netflow_mean": -0.389286,
+      "timestamp": 1783141200
+    },
+    {
+      "datetime": "2026-07-04T06:00:00Z",
+      "blockheight": 856270,
+      "netflow_total": 308.9174,
+      "netflow_mean": -0.153253,
+      "timestamp": 1783144800
+    },
+    {
+      "datetime": "2026-07-04T07:00:00Z",
+      "blockheight": 856271,
+      "netflow_total": -25.1754,
+      "netflow_mean": -0.181262,
+      "timestamp": 1783148400
+    },
+    {
+      "datetime": "2026-07-04T08:00:00Z",
+      "blockheight": 856272,
+      "netflow_total": -2201.7535,
+      "netflow_mean": -0.020473,
+      "timestamp": 1783152000
+    },
+    {
+      "datetime": "2026-07-04T09:00:00Z",
+      "blockheight": 856273,
+      "netflow_total": -440.0139,
+      "netflow_mean": -0.200497,
+      "timestamp": 1783155600
+    },
+    {
+      "datetime": "2026-07-04T10:00:00Z",
+      "blockheight": 856274,
+      "netflow_total": 1681.2451,
+      "netflow_mean": 0.411649,
+      "timestamp": 1783159200
+    },
+    {
+      "datetime": "2026-07-04T11:00:00Z",
+      "blockheight": 856275,
+      "netflow_total": -1234.9385,
+      "netflow_mean": 0.043098,
+      "timestamp": 1783162800
+    },
+    {
+      "datetime": "2026-07-04T12:00:00Z",
+      "blockheight": 856276,
+      "netflow_total": 1135.5888,
+      "netflow_mean": -0.130231,
+      "timestamp": 1783166400
+    },
+    {
+      "datetime": "2026-07-04T13:00:00Z",
+      "blockheight": 856277,
+      "netflow_total": -1985.5046,
+      "netflow_mean": 0.147716,
+      "timestamp": 1783170000
+    },
+    {
+      "datetime": "2026-07-04T14:00:00Z",
+      "blockheight": 856278,
+      "netflow_total": 1336.2122,
+      "netflow_mean": -0.291882,
+      "timestamp": 1783173600
+    },
+    {
+      "datetime": "2026-07-04T15:00:00Z",
+      "blockheight": 856279,
+      "netflow_total": -1137.9899,
+      "netflow_mean": -0.536412,
+      "timestamp": 1783177200
+    },
+    {
+      "datetime": "2026-07-04T16:00:00Z",
+      "blockheight": 856280,
+      "netflow_total": -1614.9808,
+      "netflow_mean": 0.037742,
+      "timestamp": 1783180800
+    },
+    {
+      "datetime": "2026-07-04T17:00:00Z",
+      "blockheight": 856281,
+      "netflow_total": 1996.8521,
+      "netflow_mean": -0.27604,
+      "timestamp": 1783184400
+    },
+    {
+      "datetime": "2026-07-04T18:00:00Z",
+      "blockheight": 856282,
+      "netflow_total": -749.6953,
+      "netflow_mean": -0.166515,
+      "timestamp": 1783188000
+    },
+    {
+      "datetime": "2026-07-04T19:00:00Z",
+      "blockheight": 856283,
+      "netflow_total": 33.4613,
+      "netflow_mean": 0.151101,
+      "timestamp": 1783191600
+    },
+    {
+      "datetime": "2026-07-04T20:00:00Z",
+      "blockheight": 856284,
+      "netflow_total": 492.4773,
+      "netflow_mean": -0.030389,
+      "timestamp": 1783195200
+    },
+    {
+      "datetime": "2026-07-04T21:00:00Z",
+      "blockheight": 856285,
+      "netflow_total": -332.1597,
+      "netflow_mean": -0.195319,
+      "timestamp": 1783198800
+    },
+    {
+      "datetime": "2026-07-04T22:00:00Z",
+      "blockheight": 856286,
+      "netflow_total": -771.6074,
+      "netflow_mean": -0.184485,
+      "timestamp": 1783202400
+    },
+    {
+      "datetime": "2026-07-04T23:00:00Z",
+      "blockheight": 856287,
+      "netflow_total": -951.916,
+      "netflow_mean": -0.256517,
+      "timestamp": 1783206000
+    },
+    {
+      "datetime": "2026-07-05T00:00:00Z",
+      "blockheight": 856288,
+      "netflow_total": 498.3046,
+      "netflow_mean": -0.240313,
+      "timestamp": 1783209600
+    },
+    {
+      "datetime": "2026-07-05T01:00:00Z",
+      "blockheight": 856289,
+      "netflow_total": -263.4644,
+      "netflow_mean": -0.621496,
+      "timestamp": 1783213200
+    },
+    {
+      "datetime": "2026-07-05T02:00:00Z",
+      "blockheight": 856290,
+      "netflow_total": -236.1517,
+      "netflow_mean": -0.166989,
+      "timestamp": 1783216800
+    },
+    {
+      "datetime": "2026-07-05T03:00:00Z",
+      "blockheight": 856291,
+      "netflow_total": 1962.8898,
+      "netflow_mean": -0.614835,
+      "timestamp": 1783220400
+    },
+    {
+      "datetime": "2026-07-05T04:00:00Z",
+      "blockheight": 856292,
+      "netflow_total": -1856.7989,
+      "netflow_mean": -0.674056,
+      "timestamp": 1783224000
+    },
+    {
+      "datetime": "2026-07-05T05:00:00Z",
+      "blockheight": 856293,
+      "netflow_total": 1234.9148,
+      "netflow_mean": -0.459692,
+      "timestamp": 1783227600
+    },
+    {
+      "datetime": "2026-07-05T06:00:00Z",
+      "blockheight": 856294,
+      "netflow_total": -1249.1984,
+      "netflow_mean": 0.17192,
+      "timestamp": 1783231200
+    },
+    {
+      "datetime": "2026-07-05T07:00:00Z",
+      "blockheight": 856295,
+      "netflow_total": 1366.4537,
+      "netflow_mean": -0.274289,
+      "timestamp": 1783234800
+    },
+    {
+      "datetime": "2026-07-05T08:00:00Z",
+      "blockheight": 856296,
+      "netflow_total": 1084.724,
+      "netflow_mean": -0.406011,
+      "timestamp": 1783238400
+    },
+    {
+      "datetime": "2026-07-05T09:00:00Z",
+      "blockheight": 856297,
+      "netflow_total": 65.2821,
+      "netflow_mean": 0.075273,
+      "timestamp": 1783242000
+    },
+    {
+      "datetime": "2026-07-05T10:00:00Z",
+      "blockheight": 856298,
+      "netflow_total": -392.3304,
+      "netflow_mean": 0.084307,
+      "timestamp": 1783245600
+    },
+    {
+      "datetime": "2026-07-05T11:00:00Z",
+      "blockheight": 856299,
+      "netflow_total": 1263.7014,
+      "netflow_mean": -0.145945,
+      "timestamp": 1783249200
+    },
+    {
+      "datetime": "2026-07-05T12:00:00Z",
+      "blockheight": 856300,
+      "netflow_total": 588.1852,
+      "netflow_mean": -0.02211,
+      "timestamp": 1783252800
+    },
+    {
+      "datetime": "2026-07-05T13:00:00Z",
+      "blockheight": 856301,
+      "netflow_total": 622.0133,
+      "netflow_mean": -0.477989,
+      "timestamp": 1783256400
+    },
+    {
+      "datetime": "2026-07-05T14:00:00Z",
+      "blockheight": 856302,
+      "netflow_total": -91.9099,
+      "netflow_mean": -0.030758,
+      "timestamp": 1783260000
+    },
+    {
+      "datetime": "2026-07-05T15:00:00Z",
+      "blockheight": 856303,
+      "netflow_total": -211.8441,
+      "netflow_mean": -0.621537,
+      "timestamp": 1783263600
+    },
+    {
+      "datetime": "2026-07-05T16:00:00Z",
+      "blockheight": 856304,
+      "netflow_total": 844.3478,
+      "netflow_mean": 0.519599,
+      "timestamp": 1783267200
+    },
+    {
+      "datetime": "2026-07-05T17:00:00Z",
+      "blockheight": 856305,
+      "netflow_total": 2154.4713,
+      "netflow_mean": -0.112651,
+      "timestamp": 1783270800
+    },
+    {
+      "datetime": "2026-07-05T18:00:00Z",
+      "blockheight": 856306,
+      "netflow_total": -794.8971,
+      "netflow_mean": -0.445519,
+      "timestamp": 1783274400
+    },
+    {
+      "datetime": "2026-07-05T19:00:00Z",
+      "blockheight": 856307,
+      "netflow_total": -492.3515,
+      "netflow_mean": 0.07462,
+      "timestamp": 1783278000
+    },
+    {
+      "datetime": "2026-07-05T20:00:00Z",
+      "blockheight": 856308,
+      "netflow_total": 523.6933,
+      "netflow_mean": -0.20755,
+      "timestamp": 1783281600
+    },
+    {
+      "datetime": "2026-07-05T21:00:00Z",
+      "blockheight": 856309,
+      "netflow_total": -319.9301,
+      "netflow_mean": -0.446013,
+      "timestamp": 1783285200
+    },
+    {
+      "datetime": "2026-07-05T22:00:00Z",
+      "blockheight": 856310,
+      "netflow_total": 615.185,
+      "netflow_mean": -0.053207,
+      "timestamp": 1783288800
+    },
+    {
+      "datetime": "2026-07-05T23:00:00Z",
+      "blockheight": 856311,
+      "netflow_total": 2390.8093,
+      "netflow_mean": -0.217959,
+      "timestamp": 1783292400
+    },
+    {
+      "datetime": "2026-07-06T00:00:00Z",
+      "blockheight": 856312,
+      "netflow_total": 742.3376,
+      "netflow_mean": -0.072723,
+      "timestamp": 1783296000
+    },
+    {
+      "datetime": "2026-07-06T01:00:00Z",
+      "blockheight": 856313,
+      "netflow_total": 1154.0077,
+      "netflow_mean": 0.295216,
+      "timestamp": 1783299600
+    },
+    {
+      "datetime": "2026-07-06T02:00:00Z",
+      "blockheight": 856314,
+      "netflow_total": -509.3564,
+      "netflow_mean": 0.471556,
+      "timestamp": 1783303200
+    },
+    {
+      "datetime": "2026-07-06T03:00:00Z",
+      "blockheight": 856315,
+      "netflow_total": -1514.5182,
+      "netflow_mean": 0.268185,
+      "timestamp": 1783306800
+    },
+    {
+      "datetime": "2026-07-06T04:00:00Z",
+      "blockheight": 856316,
+      "netflow_total": -1486.3377,
+      "netflow_mean": 0.327758,
+      "timestamp": 1783310400
+    },
+    {
+      "datetime": "2026-07-06T05:00:00Z",
+      "blockheight": 856317,
+      "netflow_total": -1090.6497,
+      "netflow_mean": -0.059183,
+      "timestamp": 1783314000
+    },
+    {
+      "datetime": "2026-07-06T06:00:00Z",
+      "blockheight": 856318,
+      "netflow_total": -699.8868,
+      "netflow_mean": -0.293681,
+      "timestamp": 1783317600
+    },
+    {
+      "datetime": "2026-07-06T07:00:00Z",
+      "blockheight": 856319,
+      "netflow_total": -42.8341,
+      "netflow_mean": -0.038427,
+      "timestamp": 1783321200
+    },
+    {
+      "datetime": "2026-07-06T08:00:00Z",
+      "blockheight": 856320,
+      "netflow_total": -547.7358,
+      "netflow_mean": 0.231586,
+      "timestamp": 1783324800
+    },
+    {
+      "datetime": "2026-07-06T09:00:00Z",
+      "blockheight": 856321,
+      "netflow_total": -1929.7572,
+      "netflow_mean": -0.101501,
+      "timestamp": 1783328400
+    },
+    {
+      "datetime": "2026-07-06T10:00:00Z",
+      "blockheight": 856322,
+      "netflow_total": -1130.1033,
+      "netflow_mean": -0.276072,
+      "timestamp": 1783332000
+    },
+    {
+      "datetime": "2026-07-06T11:00:00Z",
+      "blockheight": 856323,
+      "netflow_total": 223.4584,
+      "netflow_mean": -0.309015,
+      "timestamp": 1783335600
+    },
+    {
+      "datetime": "2026-07-06T12:00:00Z",
+      "blockheight": 856324,
+      "netflow_total": 787.8261,
+      "netflow_mean": -0.244719,
+      "timestamp": 1783339200
+    },
+    {
+      "datetime": "2026-07-06T13:00:00Z",
+      "blockheight": 856325,
+      "netflow_total": -1240.2459,
+      "netflow_mean": -0.154943,
+      "timestamp": 1783342800
+    },
+    {
+      "datetime": "2026-07-06T14:00:00Z",
+      "blockheight": 856326,
+      "netflow_total": 563.3796,
+      "netflow_mean": 0.436054,
+      "timestamp": 1783346400
+    },
+    {
+      "datetime": "2026-07-06T15:00:00Z",
+      "blockheight": 856327,
+      "netflow_total": -1533.2358,
+      "netflow_mean": -0.236944,
+      "timestamp": 1783350000
+    },
+    {
+      "datetime": "2026-07-06T16:00:00Z",
+      "blockheight": 856328,
+      "netflow_total": 1920.6264,
+      "netflow_mean": -0.208256,
+      "timestamp": 1783353600
+    },
+    {
+      "datetime": "2026-07-06T17:00:00Z",
+      "blockheight": 856329,
+      "netflow_total": -37.191,
+      "netflow_mean": -0.046159,
+      "timestamp": 1783357200
+    },
+    {
+      "datetime": "2026-07-06T18:00:00Z",
+      "blockheight": 856330,
+      "netflow_total": -2242.8392,
+      "netflow_mean": -0.518295,
+      "timestamp": 1783360800
+    },
+    {
+      "datetime": "2026-07-06T19:00:00Z",
+      "blockheight": 856331,
+      "netflow_total": -655.3554,
+      "netflow_mean": 0.034593,
+      "timestamp": 1783364400
+    },
+    {
+      "datetime": "2026-07-06T20:00:00Z",
+      "blockheight": 856332,
+      "netflow_total": -1017.8064,
+      "netflow_mean": -0.0065,
+      "timestamp": 1783368000
+    },
+    {
+      "datetime": "2026-07-06T21:00:00Z",
+      "blockheight": 856333,
+      "netflow_total": -353.1132,
+      "netflow_mean": -0.058056,
+      "timestamp": 1783371600
+    },
+    {
+      "datetime": "2026-07-06T22:00:00Z",
+      "blockheight": 856334,
+      "netflow_total": 132.4108,
+      "netflow_mean": 0.501705,
+      "timestamp": 1783375200
+    },
+    {
+      "datetime": "2026-07-06T23:00:00Z",
+      "blockheight": 856335,
+      "netflow_total": 314.066,
+      "netflow_mean": -0.007034,
+      "timestamp": 1783378800
+    },
+    {
+      "datetime": "2026-07-07T00:00:00Z",
+      "blockheight": 856336,
+      "netflow_total": 183.7263,
+      "netflow_mean": 0.037356,
+      "timestamp": 1783382400
+    },
+    {
+      "datetime": "2026-07-07T01:00:00Z",
+      "blockheight": 856337,
+      "netflow_total": 755.569,
+      "netflow_mean": 0.088271,
+      "timestamp": 1783386000
+    },
+    {
+      "datetime": "2026-07-07T02:00:00Z",
+      "blockheight": 856338,
+      "netflow_total": 609.7306,
+      "netflow_mean": 0.096001,
+      "timestamp": 1783389600
+    },
+    {
+      "datetime": "2026-07-07T03:00:00Z",
+      "blockheight": 856339,
+      "netflow_total": -870.0824,
+      "netflow_mean": -0.333581,
+      "timestamp": 1783393200
+    },
+    {
+      "datetime": "2026-07-07T04:00:00Z",
+      "blockheight": 856340,
+      "netflow_total": 1593.9467,
+      "netflow_mean": -0.60371,
+      "timestamp": 1783396800
+    },
+    {
+      "datetime": "2026-07-07T05:00:00Z",
+      "blockheight": 856341,
+      "netflow_total": -986.5091,
+      "netflow_mean": 0.194134,
+      "timestamp": 1783400400
+    },
+    {
+      "datetime": "2026-07-07T06:00:00Z",
+      "blockheight": 856342,
+      "netflow_total": 1908.3957,
+      "netflow_mean": 0.118838,
+      "timestamp": 1783404000
+    },
+    {
+      "datetime": "2026-07-07T07:00:00Z",
+      "blockheight": 856343,
+      "netflow_total": -241.7131,
+      "netflow_mean": 0.108244,
+      "timestamp": 1783407600
+    },
+    {
+      "datetime": "2026-07-07T08:00:00Z",
+      "blockheight": 856344,
+      "netflow_total": -512.1641,
+      "netflow_mean": 0.198826,
+      "timestamp": 1783411200
+    },
+    {
+      "datetime": "2026-07-07T09:00:00Z",
+      "blockheight": 856345,
+      "netflow_total": -242.4851,
+      "netflow_mean": -0.415961,
+      "timestamp": 1783414800
+    },
+    {
+      "datetime": "2026-07-07T10:00:00Z",
+      "blockheight": 856346,
+      "netflow_total": -561.0058,
+      "netflow_mean": 0.108929,
+      "timestamp": 1783418400
+    },
+    {
+      "datetime": "2026-07-07T11:00:00Z",
+      "blockheight": 856347,
+      "netflow_total": 868.2208,
+      "netflow_mean": -0.131832,
+      "timestamp": 1783422000
+    },
+    {
+      "datetime": "2026-07-07T12:00:00Z",
+      "blockheight": 856348,
+      "netflow_total": -1447.8097,
+      "netflow_mean": -0.621602,
+      "timestamp": 1783425600
+    },
+    {
+      "datetime": "2026-07-07T13:00:00Z",
+      "blockheight": 856349,
+      "netflow_total": 277.5412,
+      "netflow_mean": -0.009784,
+      "timestamp": 1783429200
+    },
+    {
+      "datetime": "2026-07-07T14:00:00Z",
+      "blockheight": 856350,
+      "netflow_total": -1775.2214,
+      "netflow_mean": 0.112173,
+      "timestamp": 1783432800
+    },
+    {
+      "datetime": "2026-07-07T15:00:00Z",
+      "blockheight": 856351,
+      "netflow_total": -192.2563,
+      "netflow_mean": -0.085892,
+      "timestamp": 1783436400
+    },
+    {
+      "datetime": "2026-07-07T16:00:00Z",
+      "blockheight": 856352,
+      "netflow_total": 459.2049,
+      "netflow_mean": 0.085255,
+      "timestamp": 1783440000
+    },
+    {
+      "datetime": "2026-07-07T17:00:00Z",
+      "blockheight": 856353,
+      "netflow_total": 909.0972,
+      "netflow_mean": 0.309524,
+      "timestamp": 1783443600
+    },
+    {
+      "datetime": "2026-07-07T18:00:00Z",
+      "blockheight": 856354,
+      "netflow_total": 198.5546,
+      "netflow_mean": 0.41985,
+      "timestamp": 1783447200
+    },
+    {
+      "datetime": "2026-07-07T19:00:00Z",
+      "blockheight": 856355,
+      "netflow_total": 684.4111,
+      "netflow_mean": 0.066923,
+      "timestamp": 1783450800
+    },
+    {
+      "datetime": "2026-07-07T20:00:00Z",
+      "blockheight": 856356,
+      "netflow_total": 422.7521,
+      "netflow_mean": -0.315936,
+      "timestamp": 1783454400
+    },
+    {
+      "datetime": "2026-07-07T21:00:00Z",
+      "blockheight": 856357,
+      "netflow_total": 1137.7739,
+      "netflow_mean": 0.574046,
+      "timestamp": 1783458000
+    },
+    {
+      "datetime": "2026-07-07T22:00:00Z",
+      "blockheight": 856358,
+      "netflow_total": -131.5195,
+      "netflow_mean": -0.127298,
+      "timestamp": 1783461600
+    },
+    {
+      "datetime": "2026-07-07T23:00:00Z",
+      "blockheight": 856359,
+      "netflow_total": 1870.8592,
+      "netflow_mean": 0.109991,
+      "timestamp": 1783465200
+    },
+    {
+      "datetime": "2026-07-08T00:00:00Z",
+      "blockheight": 856360,
+      "netflow_total": -133.0853,
+      "netflow_mean": -0.01362,
+      "timestamp": 1783468800
+    },
+    {
+      "datetime": "2026-07-08T01:00:00Z",
+      "blockheight": 856361,
+      "netflow_total": 1577.1338,
+      "netflow_mean": 0.040696,
+      "timestamp": 1783472400
+    },
+    {
+      "datetime": "2026-07-08T02:00:00Z",
+      "blockheight": 856362,
+      "netflow_total": -952.3301,
+      "netflow_mean": 0.197335,
+      "timestamp": 1783476000
+    },
+    {
+      "datetime": "2026-07-08T03:00:00Z",
+      "blockheight": 856363,
+      "netflow_total": 156.0408,
+      "netflow_mean": -0.33272,
+      "timestamp": 1783479600
+    },
+    {
+      "datetime": "2026-07-08T04:00:00Z",
+      "blockheight": 856364,
+      "netflow_total": 616.342,
+      "netflow_mean": 0.439964,
+      "timestamp": 1783483200
+    },
+    {
+      "datetime": "2026-07-08T05:00:00Z",
+      "blockheight": 856365,
+      "netflow_total": 579.8632,
+      "netflow_mean": -0.295411,
+      "timestamp": 1783486800
+    },
+    {
+      "datetime": "2026-07-08T06:00:00Z",
+      "blockheight": 856366,
+      "netflow_total": -1649.7059,
+      "netflow_mean": 0.154173,
+      "timestamp": 1783490400
+    },
+    {
+      "datetime": "2026-07-08T07:00:00Z",
+      "blockheight": 856367,
+      "netflow_total": -1113.2588,
+      "netflow_mean": 0.202806,
+      "timestamp": 1783494000
+    },
+    {
+      "datetime": "2026-07-08T08:00:00Z",
+      "blockheight": 856368,
+      "netflow_total": 3388.1981,
+      "netflow_mean": 0.126676,
+      "timestamp": 1783497600
+    },
+    {
+      "datetime": "2026-07-08T09:00:00Z",
+      "blockheight": 856369,
+      "netflow_total": -709.81,
+      "netflow_mean": -0.176545,
+      "timestamp": 1783501200
+    },
+    {
+      "datetime": "2026-07-08T10:00:00Z",
+      "blockheight": 856370,
+      "netflow_total": -1020.3195,
+      "netflow_mean": 0.0898,
+      "timestamp": 1783504800
+    },
+    {
+      "datetime": "2026-07-08T11:00:00Z",
+      "blockheight": 856371,
+      "netflow_total": 860.5642,
+      "netflow_mean": 0.442345,
+      "timestamp": 1783508400
+    },
+    {
+      "datetime": "2026-07-08T12:00:00Z",
+      "blockheight": 856372,
+      "netflow_total": -2870.5024,
+      "netflow_mean": 0.676403,
+      "timestamp": 1783512000
+    },
+    {
+      "datetime": "2026-07-08T13:00:00Z",
+      "blockheight": 856373,
+      "netflow_total": 773.5311,
+      "netflow_mean": 0.370847,
+      "timestamp": 1783515600
+    },
+    {
+      "datetime": "2026-07-08T14:00:00Z",
+      "blockheight": 856374,
+      "netflow_total": -1226.3967,
+      "netflow_mean": -0.125544,
+      "timestamp": 1783519200
+    },
+    {
+      "datetime": "2026-07-08T15:00:00Z",
+      "blockheight": 856375,
+      "netflow_total": 2107.5705,
+      "netflow_mean": 0.143653,
+      "timestamp": 1783522800
+    },
+    {
+      "datetime": "2026-07-08T16:00:00Z",
+      "blockheight": 856376,
+      "netflow_total": -722.9547,
+      "netflow_mean": 0.342126,
+      "timestamp": 1783526400
+    },
+    {
+      "datetime": "2026-07-08T17:00:00Z",
+      "blockheight": 856377,
+      "netflow_total": -611.1233,
+      "netflow_mean": 0.11284,
+      "timestamp": 1783530000
+    },
+    {
+      "datetime": "2026-07-08T18:00:00Z",
+      "blockheight": 856378,
+      "netflow_total": 1961.136,
+      "netflow_mean": -0.633059,
+      "timestamp": 1783533600
+    },
+    {
+      "datetime": "2026-07-08T19:00:00Z",
+      "blockheight": 856379,
+      "netflow_total": -418.4233,
+      "netflow_mean": 0.298952,
+      "timestamp": 1783537200
+    },
+    {
+      "datetime": "2026-07-08T20:00:00Z",
+      "blockheight": 856380,
+      "netflow_total": 403.62,
+      "netflow_mean": -0.237898,
+      "timestamp": 1783540800
+    },
+    {
+      "datetime": "2026-07-08T21:00:00Z",
+      "blockheight": 856381,
+      "netflow_total": 184.2982,
+      "netflow_mean": 0.29727,
+      "timestamp": 1783544400
+    },
+    {
+      "datetime": "2026-07-08T22:00:00Z",
+      "blockheight": 856382,
+      "netflow_total": -923.5983,
+      "netflow_mean": 0.183562,
+      "timestamp": 1783548000
+    },
+    {
+      "datetime": "2026-07-08T23:00:00Z",
+      "blockheight": 856383,
+      "netflow_total": 766.8642,
+      "netflow_mean": 0.414211,
+      "timestamp": 1783551600
+    },
+    {
+      "datetime": "2026-07-09T00:00:00Z",
+      "blockheight": 856384,
+      "netflow_total": -730.8274,
+      "netflow_mean": -0.165209,
+      "timestamp": 1783555200
+    },
+    {
+      "datetime": "2026-07-09T01:00:00Z",
+      "blockheight": 856385,
+      "netflow_total": -312.5791,
+      "netflow_mean": -0.425361,
+      "timestamp": 1783558800
+    },
+    {
+      "datetime": "2026-07-09T02:00:00Z",
+      "blockheight": 856386,
+      "netflow_total": 1227.2265,
+      "netflow_mean": 0.202803,
+      "timestamp": 1783562400
+    },
+    {
+      "datetime": "2026-07-09T03:00:00Z",
+      "blockheight": 856387,
+      "netflow_total": 524.8992,
+      "netflow_mean": -0.211381,
+      "timestamp": 1783566000
+    },
+    {
+      "datetime": "2026-07-09T04:00:00Z",
+      "blockheight": 856388,
+      "netflow_total": 583.548,
+      "netflow_mean": -0.471939,
+      "timestamp": 1783569600
+    },
+    {
+      "datetime": "2026-07-09T05:00:00Z",
+      "blockheight": 856389,
+      "netflow_total": -202.3331,
+      "netflow_mean": 0.226321,
+      "timestamp": 1783573200
+    },
+    {
+      "datetime": "2026-07-09T06:00:00Z",
+      "blockheight": 856390,
+      "netflow_total": 1200.724,
+      "netflow_mean": -0.006492,
+      "timestamp": 1783576800
+    },
+    {
+      "datetime": "2026-07-09T07:00:00Z",
+      "blockheight": 856391,
+      "netflow_total": -871.8053,
+      "netflow_mean": 0.167865,
+      "timestamp": 1783580400
+    },
+    {
+      "datetime": "2026-07-09T08:00:00Z",
+      "blockheight": 856392,
+      "netflow_total": 2920.1903,
+      "netflow_mean": 0.050313,
+      "timestamp": 1783584000
+    },
+    {
+      "datetime": "2026-07-09T09:00:00Z",
+      "blockheight": 856393,
+      "netflow_total": -492.6973,
+      "netflow_mean": 0.192824,
+      "timestamp": 1783587600
+    },
+    {
+      "datetime": "2026-07-09T10:00:00Z",
+      "blockheight": 856394,
+      "netflow_total": -517.9695,
+      "netflow_mean": 0.409319,
+      "timestamp": 1783591200
+    },
+    {
+      "datetime": "2026-07-09T11:00:00Z",
+      "blockheight": 856395,
+      "netflow_total": -1308.274,
+      "netflow_mean": 0.05638,
+      "timestamp": 1783594800
+    },
+    {
+      "datetime": "2026-07-09T12:00:00Z",
+      "blockheight": 856396,
+      "netflow_total": -2168.8552,
+      "netflow_mean": 0.651887,
+      "timestamp": 1783598400
+    },
+    {
+      "datetime": "2026-07-09T13:00:00Z",
+      "blockheight": 856397,
+      "netflow_total": -932.8678,
+      "netflow_mean": 0.622491,
+      "timestamp": 1783602000
+    },
+    {
+      "datetime": "2026-07-09T14:00:00Z",
+      "blockheight": 856398,
+      "netflow_total": 153.066,
+      "netflow_mean": -0.239963,
+      "timestamp": 1783605600
+    },
+    {
+      "datetime": "2026-07-09T15:00:00Z",
+      "blockheight": 856399,
+      "netflow_total": -928.0645,
+      "netflow_mean": -0.15488,
+      "timestamp": 1783609200
+    },
+    {
+      "datetime": "2026-07-09T16:00:00Z",
+      "blockheight": 856400,
+      "netflow_total": -657.527,
+      "netflow_mean": -0.624945,
+      "timestamp": 1783612800
+    },
+    {
+      "datetime": "2026-07-09T17:00:00Z",
+      "blockheight": 856401,
+      "netflow_total": -648.0864,
+      "netflow_mean": -0.510256,
+      "timestamp": 1783616400
+    },
+    {
+      "datetime": "2026-07-09T18:00:00Z",
+      "blockheight": 856402,
+      "netflow_total": -225.6424,
+      "netflow_mean": -0.232536,
+      "timestamp": 1783620000
+    },
+    {
+      "datetime": "2026-07-09T19:00:00Z",
+      "blockheight": 856403,
+      "netflow_total": 1155.7044,
+      "netflow_mean": -0.382187,
+      "timestamp": 1783623600
+    },
+    {
+      "datetime": "2026-07-09T20:00:00Z",
+      "blockheight": 856404,
+      "netflow_total": 1033.4791,
+      "netflow_mean": -0.171593,
+      "timestamp": 1783627200
+    },
+    {
+      "datetime": "2026-07-09T21:00:00Z",
+      "blockheight": 856405,
+      "netflow_total": -875.9074,
+      "netflow_mean": -0.33378,
+      "timestamp": 1783630800
+    },
+    {
+      "datetime": "2026-07-09T22:00:00Z",
+      "blockheight": 856406,
+      "netflow_total": -576.6329,
+      "netflow_mean": 0.278621,
+      "timestamp": 1783634400
+    },
+    {
+      "datetime": "2026-07-09T23:00:00Z",
+      "blockheight": 856407,
+      "netflow_total": 1214.791,
+      "netflow_mean": 0.015717,
+      "timestamp": 1783638000
+    },
+    {
+      "datetime": "2026-07-10T00:00:00Z",
+      "blockheight": 856408,
+      "netflow_total": 116.1324,
+      "netflow_mean": -0.552859,
+      "timestamp": 1783641600
+    },
+    {
+      "datetime": "2026-07-10T01:00:00Z",
+      "blockheight": 856409,
+      "netflow_total": -1070.7646,
+      "netflow_mean": -0.114212,
+      "timestamp": 1783645200
+    },
+    {
+      "datetime": "2026-07-10T02:00:00Z",
+      "blockheight": 856410,
+      "netflow_total": 735.6263,
+      "netflow_mean": -0.191338,
+      "timestamp": 1783648800
+    },
+    {
+      "datetime": "2026-07-10T03:00:00Z",
+      "blockheight": 856411,
+      "netflow_total": -842.2826,
+      "netflow_mean": -0.257977,
+      "timestamp": 1783652400
+    },
+    {
+      "datetime": "2026-07-10T04:00:00Z",
+      "blockheight": 856412,
+      "netflow_total": -1020.9832,
+      "netflow_mean": 0.503984,
+      "timestamp": 1783656000
+    },
+    {
+      "datetime": "2026-07-10T05:00:00Z",
+      "blockheight": 856413,
+      "netflow_total": 1126.3901,
+      "netflow_mean": -0.255443,
+      "timestamp": 1783659600
+    },
+    {
+      "datetime": "2026-07-10T06:00:00Z",
+      "blockheight": 856414,
+      "netflow_total": 1616.6637,
+      "netflow_mean": -0.118785,
+      "timestamp": 1783663200
+    },
+    {
+      "datetime": "2026-07-10T07:00:00Z",
+      "blockheight": 856415,
+      "netflow_total": -169.5104,
+      "netflow_mean": -0.071716,
+      "timestamp": 1783666800
+    },
+    {
+      "datetime": "2026-07-10T08:00:00Z",
+      "blockheight": 856416,
+      "netflow_total": 267.1944,
+      "netflow_mean": 0.251151,
+      "timestamp": 1783670400
+    },
+    {
+      "datetime": "2026-07-10T09:00:00Z",
+      "blockheight": 856417,
+      "netflow_total": -631.5925,
+      "netflow_mean": -0.079888,
+      "timestamp": 1783674000
+    },
+    {
+      "datetime": "2026-07-10T10:00:00Z",
+      "blockheight": 856418,
+      "netflow_total": 592.4141,
+      "netflow_mean": 0.082087,
+      "timestamp": 1783677600
+    },
+    {
+      "datetime": "2026-07-10T11:00:00Z",
+      "blockheight": 856419,
+      "netflow_total": -891.0224,
+      "netflow_mean": -0.319983,
+      "timestamp": 1783681200
+    },
+    {
+      "datetime": "2026-07-10T12:00:00Z",
+      "blockheight": 856420,
+      "netflow_total": -1478.0038,
+      "netflow_mean": 0.039781,
+      "timestamp": 1783684800
+    },
+    {
+      "datetime": "2026-07-10T13:00:00Z",
+      "blockheight": 856421,
+      "netflow_total": -379.5908,
+      "netflow_mean": 0.152562,
+      "timestamp": 1783688400
+    },
+    {
+      "datetime": "2026-07-10T14:00:00Z",
+      "blockheight": 856422,
+      "netflow_total": -32.726,
+      "netflow_mean": -0.262539,
+      "timestamp": 1783692000
+    },
+    {
+      "datetime": "2026-07-10T15:00:00Z",
+      "blockheight": 856423,
+      "netflow_total": 713.5105,
+      "netflow_mean": -0.071968,
+      "timestamp": 1783695600
+    },
+    {
+      "datetime": "2026-07-10T16:00:00Z",
+      "blockheight": 856424,
+      "netflow_total": 1163.4466,
+      "netflow_mean": -0.082338,
+      "timestamp": 1783699200
+    },
+    {
+      "datetime": "2026-07-10T17:00:00Z",
+      "blockheight": 856425,
+      "netflow_total": -323.9325,
+      "netflow_mean": 0.548921,
+      "timestamp": 1783702800
+    },
+    {
+      "datetime": "2026-07-10T18:00:00Z",
+      "blockheight": 856426,
+      "netflow_total": -118.1979,
+      "netflow_mean": 0.437595,
+      "timestamp": 1783706400
+    },
+    {
+      "datetime": "2026-07-10T19:00:00Z",
+      "blockheight": 856427,
+      "netflow_total": 1226.46,
+      "netflow_mean": -0.149102,
+      "timestamp": 1783710000
+    },
+    {
+      "datetime": "2026-07-10T20:00:00Z",
+      "blockheight": 856428,
+      "netflow_total": -2283.5067,
+      "netflow_mean": 0.377651,
+      "timestamp": 1783713600
+    },
+    {
+      "datetime": "2026-07-10T21:00:00Z",
+      "blockheight": 856429,
+      "netflow_total": -1699.9905,
+      "netflow_mean": -0.081096,
+      "timestamp": 1783717200
+    },
+    {
+      "datetime": "2026-07-10T22:00:00Z",
+      "blockheight": 856430,
+      "netflow_total": -165.3318,
+      "netflow_mean": -0.151004,
+      "timestamp": 1783720800
+    },
+    {
+      "datetime": "2026-07-10T23:00:00Z",
+      "blockheight": 856431,
+      "netflow_total": 1553.1282,
+      "netflow_mean": 0.146105,
+      "timestamp": 1783724400
+    },
+    {
+      "datetime": "2026-07-11T00:00:00Z",
+      "blockheight": 856432,
+      "netflow_total": -203.5999,
+      "netflow_mean": 0.19529,
+      "timestamp": 1783728000
+    },
+    {
+      "datetime": "2026-07-11T01:00:00Z",
+      "blockheight": 856433,
+      "netflow_total": 1012.5304,
+      "netflow_mean": -0.268954,
+      "timestamp": 1783731600
+    },
+    {
+      "datetime": "2026-07-11T02:00:00Z",
+      "blockheight": 856434,
+      "netflow_total": 811.1771,
+      "netflow_mean": 0.566971,
+      "timestamp": 1783735200
+    },
+    {
+      "datetime": "2026-07-11T03:00:00Z",
+      "blockheight": 856435,
+      "netflow_total": 1288.3402,
+      "netflow_mean": -0.226731,
+      "timestamp": 1783738800
+    },
+    {
+      "datetime": "2026-07-11T04:00:00Z",
+      "blockheight": 856436,
+      "netflow_total": -381.9047,
+      "netflow_mean": -0.087283,
+      "timestamp": 1783742400
+    },
+    {
+      "datetime": "2026-07-11T05:00:00Z",
+      "blockheight": 856437,
+      "netflow_total": -423.0698,
+      "netflow_mean": -0.489953,
+      "timestamp": 1783746000
+    },
+    {
+      "datetime": "2026-07-11T06:00:00Z",
+      "blockheight": 856438,
+      "netflow_total": -1045.94,
+      "netflow_mean": 0.114112,
+      "timestamp": 1783749600
+    },
+    {
+      "datetime": "2026-07-11T07:00:00Z",
+      "blockheight": 856439,
+      "netflow_total": 1263.2613,
+      "netflow_mean": -0.241656,
+      "timestamp": 1783753200
+    },
+    {
+      "datetime": "2026-07-11T08:00:00Z",
+      "blockheight": 856440,
+      "netflow_total": -1059.6694,
+      "netflow_mean": 0.313747,
+      "timestamp": 1783756800
+    },
+    {
+      "datetime": "2026-07-11T09:00:00Z",
+      "blockheight": 856441,
+      "netflow_total": 1727.5156,
+      "netflow_mean": 0.322025,
+      "timestamp": 1783760400
+    },
+    {
+      "datetime": "2026-07-11T10:00:00Z",
+      "blockheight": 856442,
+      "netflow_total": -606.1365,
+      "netflow_mean": 0.001689,
+      "timestamp": 1783764000
+    },
+    {
+      "datetime": "2026-07-11T11:00:00Z",
+      "blockheight": 856443,
+      "netflow_total": -2523.6347,
+      "netflow_mean": -0.106197,
+      "timestamp": 1783767600
+    },
+    {
+      "datetime": "2026-07-11T12:00:00Z",
+      "blockheight": 856444,
+      "netflow_total": -776.565,
+      "netflow_mean": -0.172679,
+      "timestamp": 1783771200
+    },
+    {
+      "datetime": "2026-07-11T13:00:00Z",
+      "blockheight": 856445,
+      "netflow_total": -1427.0953,
+      "netflow_mean": 0.52411,
+      "timestamp": 1783774800
+    },
+    {
+      "datetime": "2026-07-11T14:00:00Z",
+      "blockheight": 856446,
+      "netflow_total": -1226.7462,
+      "netflow_mean": -0.086873,
+      "timestamp": 1783778400
+    },
+    {
+      "datetime": "2026-07-11T15:00:00Z",
+      "blockheight": 856447,
+      "netflow_total": -1304.4722,
+      "netflow_mean": -0.084082,
+      "timestamp": 1783782000
+    },
+    {
+      "datetime": "2026-07-11T16:00:00Z",
+      "blockheight": 856448,
+      "netflow_total": 677.2129,
+      "netflow_mean": -0.469431,
+      "timestamp": 1783785600
+    },
+    {
+      "datetime": "2026-07-11T17:00:00Z",
+      "blockheight": 856449,
+      "netflow_total": -1408.8835,
+      "netflow_mean": 0.054344,
+      "timestamp": 1783789200
+    },
+    {
+      "datetime": "2026-07-11T18:00:00Z",
+      "blockheight": 856450,
+      "netflow_total": 209.9866,
+      "netflow_mean": -0.173414,
+      "timestamp": 1783792800
+    },
+    {
+      "datetime": "2026-07-11T19:00:00Z",
+      "blockheight": 856451,
+      "netflow_total": 638.9801,
+      "netflow_mean": -0.301889,
+      "timestamp": 1783796400
+    },
+    {
+      "datetime": "2026-07-11T20:00:00Z",
+      "blockheight": 856452,
+      "netflow_total": -968.8576,
+      "netflow_mean": 0.302504,
+      "timestamp": 1783800000
+    },
+    {
+      "datetime": "2026-07-11T21:00:00Z",
+      "blockheight": 856453,
+      "netflow_total": 78.2126,
+      "netflow_mean": -0.409793,
+      "timestamp": 1783803600
+    },
+    {
+      "datetime": "2026-07-11T22:00:00Z",
+      "blockheight": 856454,
+      "netflow_total": 1607.9243,
+      "netflow_mean": 0.345501,
+      "timestamp": 1783807200
+    },
+    {
+      "datetime": "2026-07-11T23:00:00Z",
+      "blockheight": 856455,
+      "netflow_total": -1779.7311,
+      "netflow_mean": -0.190129,
+      "timestamp": 1783810800
+    },
+    {
+      "datetime": "2026-07-12T00:00:00Z",
+      "blockheight": 856456,
+      "netflow_total": -1454.4841,
+      "netflow_mean": -0.095926,
+      "timestamp": 1783814400
+    },
+    {
+      "datetime": "2026-07-12T01:00:00Z",
+      "blockheight": 856457,
+      "netflow_total": -2394.0884,
+      "netflow_mean": -0.0696,
+      "timestamp": 1783818000
+    },
+    {
+      "datetime": "2026-07-12T02:00:00Z",
+      "blockheight": 856458,
+      "netflow_total": -2590.4774,
+      "netflow_mean": 0.099783,
+      "timestamp": 1783821600
+    },
+    {
+      "datetime": "2026-07-12T03:00:00Z",
+      "blockheight": 856459,
+      "netflow_total": -546.4424,
+      "netflow_mean": 0.113765,
+      "timestamp": 1783825200
+    },
+    {
+      "datetime": "2026-07-12T04:00:00Z",
+      "blockheight": 856460,
+      "netflow_total": 1129.6248,
+      "netflow_mean": -0.365312,
+      "timestamp": 1783828800
+    },
+    {
+      "datetime": "2026-07-12T05:00:00Z",
+      "blockheight": 856461,
+      "netflow_total": -824.8615,
+      "netflow_mean": -0.179812,
+      "timestamp": 1783832400
+    },
+    {
+      "datetime": "2026-07-12T06:00:00Z",
+      "blockheight": 856462,
+      "netflow_total": -495.787,
+      "netflow_mean": 0.204848,
+      "timestamp": 1783836000
+    },
+    {
+      "datetime": "2026-07-12T07:00:00Z",
+      "blockheight": 856463,
+      "netflow_total": 369.1637,
+      "netflow_mean": -0.413877,
+      "timestamp": 1783839600
+    },
+    {
+      "datetime": "2026-07-12T08:00:00Z",
+      "blockheight": 856464,
+      "netflow_total": 475.942,
+      "netflow_mean": 0.058233,
+      "timestamp": 1783843200
+    },
+    {
+      "datetime": "2026-07-12T09:00:00Z",
+      "blockheight": 856465,
+      "netflow_total": -824.7526,
+      "netflow_mean": 0.647883,
+      "timestamp": 1783846800
+    },
+    {
+      "datetime": "2026-07-12T10:00:00Z",
+      "blockheight": 856466,
+      "netflow_total": -273.5437,
+      "netflow_mean": 0.26963,
+      "timestamp": 1783850400
+    },
+    {
+      "datetime": "2026-07-12T11:00:00Z",
+      "blockheight": 856467,
+      "netflow_total": 1343.0318,
+      "netflow_mean": 0.000342,
+      "timestamp": 1783854000
+    },
+    {
+      "datetime": "2026-07-12T12:00:00Z",
+      "blockheight": 856468,
+      "netflow_total": -4029.4662,
+      "netflow_mean": -0.011354,
+      "timestamp": 1783857600
+    },
+    {
+      "datetime": "2026-07-12T13:00:00Z",
+      "blockheight": 856469,
+      "netflow_total": -571.0178,
+      "netflow_mean": -0.375749,
+      "timestamp": 1783861200
+    },
+    {
+      "datetime": "2026-07-12T14:00:00Z",
+      "blockheight": 856470,
+      "netflow_total": 344.3635,
+      "netflow_mean": 0.531739,
+      "timestamp": 1783864800
+    },
+    {
+      "datetime": "2026-07-12T15:00:00Z",
+      "blockheight": 856471,
+      "netflow_total": -1235.2532,
+      "netflow_mean": 0.05909,
+      "timestamp": 1783868400
+    },
+    {
+      "datetime": "2026-07-12T16:00:00Z",
+      "blockheight": 856472,
+      "netflow_total": 3019.9678,
+      "netflow_mean": 0.189682,
+      "timestamp": 1783872000
+    },
+    {
+      "datetime": "2026-07-12T17:00:00Z",
+      "blockheight": 856473,
+      "netflow_total": -883.5853,
+      "netflow_mean": -0.102816,
+      "timestamp": 1783875600
+    },
+    {
+      "datetime": "2026-07-12T18:00:00Z",
+      "blockheight": 856474,
+      "netflow_total": -648.4427,
+      "netflow_mean": 0.238229,
+      "timestamp": 1783879200
+    },
+    {
+      "datetime": "2026-07-12T19:00:00Z",
+      "blockheight": 856475,
+      "netflow_total": -5.0029,
+      "netflow_mean": -0.001976,
+      "timestamp": 1783882800
+    },
+    {
+      "datetime": "2026-07-12T20:00:00Z",
+      "blockheight": 856476,
+      "netflow_total": 616.7471,
+      "netflow_mean": 0.456832,
+      "timestamp": 1783886400
+    },
+    {
+      "datetime": "2026-07-12T21:00:00Z",
+      "blockheight": 856477,
+      "netflow_total": 617.0156,
+      "netflow_mean": 0.162717,
+      "timestamp": 1783890000
+    },
+    {
+      "datetime": "2026-07-12T22:00:00Z",
+      "blockheight": 856478,
+      "netflow_total": -565.7544,
+      "netflow_mean": -0.147893,
+      "timestamp": 1783893600
+    },
+    {
+      "datetime": "2026-07-12T23:00:00Z",
+      "blockheight": 856479,
+      "netflow_total": 429.4522,
+      "netflow_mean": 0.338641,
+      "timestamp": 1783897200
+    },
+    {
+      "datetime": "2026-07-13T00:00:00Z",
+      "blockheight": 856480,
+      "netflow_total": 52.6809,
+      "netflow_mean": 0.10131,
+      "timestamp": 1783900800
+    },
+    {
+      "datetime": "2026-07-13T01:00:00Z",
+      "blockheight": 856481,
+      "netflow_total": -636.8328,
+      "netflow_mean": -0.011423,
+      "timestamp": 1783904400
+    },
+    {
+      "datetime": "2026-07-13T02:00:00Z",
+      "blockheight": 856482,
+      "netflow_total": -805.355,
+      "netflow_mean": -0.590036,
+      "timestamp": 1783908000
+    },
+    {
+      "datetime": "2026-07-13T03:00:00Z",
+      "blockheight": 856483,
+      "netflow_total": -1109.8104,
+      "netflow_mean": 0.112479,
+      "timestamp": 1783911600
+    },
+    {
+      "datetime": "2026-07-13T04:00:00Z",
+      "blockheight": 856484,
+      "netflow_total": -133.8201,
+      "netflow_mean": -0.349778,
+      "timestamp": 1783915200
+    },
+    {
+      "datetime": "2026-07-13T05:00:00Z",
+      "blockheight": 856485,
+      "netflow_total": -1516.955,
+      "netflow_mean": -0.117855,
+      "timestamp": 1783918800
+    },
+    {
+      "datetime": "2026-07-13T06:00:00Z",
+      "blockheight": 856486,
+      "netflow_total": -362.5584,
+      "netflow_mean": 0.188708,
+      "timestamp": 1783922400
+    },
+    {
+      "datetime": "2026-07-13T07:00:00Z",
+      "blockheight": 856487,
+      "netflow_total": -1262.5719,
+      "netflow_mean": 0.198113,
+      "timestamp": 1783926000
+    },
+    {
+      "datetime": "2026-07-13T08:00:00Z",
+      "blockheight": 856488,
+      "netflow_total": 86.1086,
+      "netflow_mean": -0.063211,
+      "timestamp": 1783929600
+    },
+    {
+      "datetime": "2026-07-13T09:00:00Z",
+      "blockheight": 856489,
+      "netflow_total": -237.4453,
+      "netflow_mean": 0.094076,
+      "timestamp": 1783933200
+    },
+    {
+      "datetime": "2026-07-13T10:00:00Z",
+      "blockheight": 856490,
+      "netflow_total": 943.158,
+      "netflow_mean": -0.286031,
+      "timestamp": 1783936800
+    },
+    {
+      "datetime": "2026-07-13T11:00:00Z",
+      "blockheight": 856491,
+      "netflow_total": 1668.6648,
+      "netflow_mean": -0.557668,
+      "timestamp": 1783940400
+    },
+    {
+      "datetime": "2026-07-13T12:00:00Z",
+      "blockheight": 856492,
+      "netflow_total": -453.0761,
+      "netflow_mean": -0.012453,
+      "timestamp": 1783944000
+    },
+    {
+      "datetime": "2026-07-13T13:00:00Z",
+      "blockheight": 856493,
+      "netflow_total": -1250.5902,
+      "netflow_mean": -0.32792,
+      "timestamp": 1783947600
+    },
+    {
+      "datetime": "2026-07-13T14:00:00Z",
+      "blockheight": 856494,
+      "netflow_total": 208.4053,
+      "netflow_mean": -0.018682,
+      "timestamp": 1783951200
+    },
+    {
+      "datetime": "2026-07-13T15:00:00Z",
+      "blockheight": 856495,
+      "netflow_total": -335.9038,
+      "netflow_mean": 0.270801,
+      "timestamp": 1783954800
+    },
+    {
+      "datetime": "2026-07-13T16:00:00Z",
+      "blockheight": 856496,
+      "netflow_total": -899.5996,
+      "netflow_mean": 0.082163,
+      "timestamp": 1783958400
+    },
+    {
+      "datetime": "2026-07-13T17:00:00Z",
+      "blockheight": 856497,
+      "netflow_total": -13.8875,
+      "netflow_mean": 0.270662,
+      "timestamp": 1783962000
+    },
+    {
+      "datetime": "2026-07-13T18:00:00Z",
+      "blockheight": 856498,
+      "netflow_total": 90.1684,
+      "netflow_mean": -0.075593,
+      "timestamp": 1783965600
+    },
+    {
+      "datetime": "2026-07-13T19:00:00Z",
+      "blockheight": 856499,
+      "netflow_total": -1699.2233,
+      "netflow_mean": 0.070922,
+      "timestamp": 1783969200
+    },
+    {
+      "datetime": "2026-07-13T20:00:00Z",
+      "blockheight": 856500,
+      "netflow_total": 73.6814,
+      "netflow_mean": -0.06847,
+      "timestamp": 1783972800
+    },
+    {
+      "datetime": "2026-07-13T21:00:00Z",
+      "blockheight": 856501,
+      "netflow_total": -1375.2019,
+      "netflow_mean": 0.001067,
+      "timestamp": 1783976400
+    },
+    {
+      "datetime": "2026-07-13T22:00:00Z",
+      "blockheight": 856502,
+      "netflow_total": -1583.9249,
+      "netflow_mean": -0.509524,
+      "timestamp": 1783980000
+    },
+    {
+      "datetime": "2026-07-13T23:00:00Z",
+      "blockheight": 856503,
+      "netflow_total": 129.1917,
+      "netflow_mean": -0.192115,
+      "timestamp": 1783983600
+    },
+    {
+      "datetime": "2026-07-14T00:00:00Z",
+      "blockheight": 856504,
+      "netflow_total": -300.498,
+      "netflow_mean": 0.382301,
+      "timestamp": 1783987200
+    },
+    {
+      "datetime": "2026-07-14T01:00:00Z",
+      "blockheight": 856505,
+      "netflow_total": -175.104,
+      "netflow_mean": -0.108295,
+      "timestamp": 1783990800
+    },
+    {
+      "datetime": "2026-07-14T02:00:00Z",
+      "blockheight": 856506,
+      "netflow_total": 602.3373,
+      "netflow_mean": -0.157234,
+      "timestamp": 1783994400
+    },
+    {
+      "datetime": "2026-07-14T03:00:00Z",
+      "blockheight": 856507,
+      "netflow_total": 589.7105,
+      "netflow_mean": -0.296206,
+      "timestamp": 1783998000
+    },
+    {
+      "datetime": "2026-07-14T04:00:00Z",
+      "blockheight": 856508,
+      "netflow_total": -1444.4131,
+      "netflow_mean": 0.273437,
+      "timestamp": 1784001600
+    },
+    {
+      "datetime": "2026-07-14T05:00:00Z",
+      "blockheight": 856509,
+      "netflow_total": 222.075,
+      "netflow_mean": 0.371486,
+      "timestamp": 1784005200
+    },
+    {
+      "datetime": "2026-07-14T06:00:00Z",
+      "blockheight": 856510,
+      "netflow_total": -10.2706,
+      "netflow_mean": -0.545422,
+      "timestamp": 1784008800
+    },
+    {
+      "datetime": "2026-07-14T07:00:00Z",
+      "blockheight": 856511,
+      "netflow_total": -1383.0844,
+      "netflow_mean": -0.068718,
+      "timestamp": 1784012400
+    },
+    {
+      "datetime": "2026-07-14T08:00:00Z",
+      "blockheight": 856512,
+      "netflow_total": -606.8502,
+      "netflow_mean": 0.054999,
+      "timestamp": 1784016000
+    },
+    {
+      "datetime": "2026-07-14T09:00:00Z",
+      "blockheight": 856513,
+      "netflow_total": -288.2911,
+      "netflow_mean": 0.680588,
+      "timestamp": 1784019600
+    },
+    {
+      "datetime": "2026-07-14T10:00:00Z",
+      "blockheight": 856514,
+      "netflow_total": -151.021,
+      "netflow_mean": -0.271169,
+      "timestamp": 1784023200
+    },
+    {
+      "datetime": "2026-07-14T11:00:00Z",
+      "blockheight": 856515,
+      "netflow_total": 153.2579,
+      "netflow_mean": -0.150284,
+      "timestamp": 1784026800
+    },
+    {
+      "datetime": "2026-07-14T12:00:00Z",
+      "blockheight": 856516,
+      "netflow_total": 410.6827,
+      "netflow_mean": 0.15486,
+      "timestamp": 1784030400
+    },
+    {
+      "datetime": "2026-07-14T13:00:00Z",
+      "blockheight": 856517,
+      "netflow_total": -2488.3436,
+      "netflow_mean": -0.432284,
+      "timestamp": 1784034000
+    },
+    {
+      "datetime": "2026-07-14T14:00:00Z",
+      "blockheight": 856518,
+      "netflow_total": -262.6408,
+      "netflow_mean": -0.32357,
+      "timestamp": 1784037600
+    },
+    {
+      "datetime": "2026-07-14T15:00:00Z",
+      "blockheight": 856519,
+      "netflow_total": 1054.8607,
+      "netflow_mean": -0.060891,
+      "timestamp": 1784041200
+    },
+    {
+      "datetime": "2026-07-14T16:00:00Z",
+      "blockheight": 856520,
+      "netflow_total": -938.7886,
+      "netflow_mean": 0.307715,
+      "timestamp": 1784044800
+    },
+    {
+      "datetime": "2026-07-14T17:00:00Z",
+      "blockheight": 856521,
+      "netflow_total": -1512.1788,
+      "netflow_mean": 0.189167,
+      "timestamp": 1784048400
+    },
+    {
+      "datetime": "2026-07-14T18:00:00Z",
+      "blockheight": 856522,
+      "netflow_total": -344.1934,
+      "netflow_mean": -0.357148,
+      "timestamp": 1784052000
+    },
+    {
+      "datetime": "2026-07-14T19:00:00Z",
+      "blockheight": 856523,
+      "netflow_total": 974.6971,
+      "netflow_mean": 0.521126,
+      "timestamp": 1784055600
+    },
+    {
+      "datetime": "2026-07-14T20:00:00Z",
+      "blockheight": 856524,
+      "netflow_total": -576.4544,
+      "netflow_mean": -0.273176,
+      "timestamp": 1784059200
+    },
+    {
+      "datetime": "2026-07-14T21:00:00Z",
+      "blockheight": 856525,
+      "netflow_total": -2370.6258,
+      "netflow_mean": 0.13073,
+      "timestamp": 1784062800
+    },
+    {
+      "datetime": "2026-07-14T22:00:00Z",
+      "blockheight": 856526,
+      "netflow_total": -349.0525,
+      "netflow_mean": 0.067964,
+      "timestamp": 1784066400
+    },
+    {
+      "datetime": "2026-07-14T23:00:00Z",
+      "blockheight": 856527,
+      "netflow_total": -2104.4425,
+      "netflow_mean": -0.331662,
+      "timestamp": 1784070000
+    },
+    {
+      "datetime": "2026-07-15T00:00:00Z",
+      "blockheight": 856528,
+      "netflow_total": -1647.9034,
+      "netflow_mean": 0.572383,
+      "timestamp": 1784073600
+    },
+    {
+      "datetime": "2026-07-15T01:00:00Z",
+      "blockheight": 856529,
+      "netflow_total": 459.8138,
+      "netflow_mean": -0.745476,
+      "timestamp": 1784077200
+    },
+    {
+      "datetime": "2026-07-15T02:00:00Z",
+      "blockheight": 856530,
+      "netflow_total": 641.7204,
+      "netflow_mean": 0.017878,
+      "timestamp": 1784080800
+    },
+    {
+      "datetime": "2026-07-15T03:00:00Z",
+      "blockheight": 856531,
+      "netflow_total": 458.0602,
+      "netflow_mean": 0.004627,
+      "timestamp": 1784084400
+    },
+    {
+      "datetime": "2026-07-15T04:00:00Z",
+      "blockheight": 856532,
+      "netflow_total": -1775.3234,
+      "netflow_mean": -0.660622,
+      "timestamp": 1784088000
+    },
+    {
+      "datetime": "2026-07-15T05:00:00Z",
+      "blockheight": 856533,
+      "netflow_total": -784.0446,
+      "netflow_mean": 0.223704,
+      "timestamp": 1784091600
+    },
+    {
+      "datetime": "2026-07-15T06:00:00Z",
+      "blockheight": 856534,
+      "netflow_total": 1253.2267,
+      "netflow_mean": 0.139808,
+      "timestamp": 1784095200
+    },
+    {
+      "datetime": "2026-07-15T07:00:00Z",
+      "blockheight": 856535,
+      "netflow_total": 383.4043,
+      "netflow_mean": -0.380232,
+      "timestamp": 1784098800
+    },
+    {
+      "datetime": "2026-07-15T08:00:00Z",
+      "blockheight": 856536,
+      "netflow_total": -323.7269,
+      "netflow_mean": -0.224249,
+      "timestamp": 1784102400
+    },
+    {
+      "datetime": "2026-07-15T09:00:00Z",
+      "blockheight": 856537,
+      "netflow_total": 353.3703,
+      "netflow_mean": -0.174135,
+      "timestamp": 1784106000
+    },
+    {
+      "datetime": "2026-07-15T10:00:00Z",
+      "blockheight": 856538,
+      "netflow_total": -840.6081,
+      "netflow_mean": 0.086256,
+      "timestamp": 1784109600
+    },
+    {
+      "datetime": "2026-07-15T11:00:00Z",
+      "blockheight": 856539,
+      "netflow_total": 110.4229,
+      "netflow_mean": -0.304215,
+      "timestamp": 1784113200
+    },
+    {
+      "datetime": "2026-07-15T12:00:00Z",
+      "blockheight": 856540,
+      "netflow_total": 189.951,
+      "netflow_mean": -0.044525,
+      "timestamp": 1784116800
+    },
+    {
+      "datetime": "2026-07-15T13:00:00Z",
+      "blockheight": 856541,
+      "netflow_total": -444.8444,
+      "netflow_mean": 0.075694,
+      "timestamp": 1784120400
+    },
+    {
+      "datetime": "2026-07-15T14:00:00Z",
+      "blockheight": 856542,
+      "netflow_total": 37.645,
+      "netflow_mean": 0.322663,
+      "timestamp": 1784124000
+    },
+    {
+      "datetime": "2026-07-15T15:00:00Z",
+      "blockheight": 856543,
+      "netflow_total": -838.861,
+      "netflow_mean": -0.266149,
+      "timestamp": 1784127600
+    },
+    {
+      "datetime": "2026-07-15T16:00:00Z",
+      "blockheight": 856544,
+      "netflow_total": 2353.0887,
+      "netflow_mean": 0.342433,
+      "timestamp": 1784131200
+    },
+    {
+      "datetime": "2026-07-15T17:00:00Z",
+      "blockheight": 856545,
+      "netflow_total": 2042.898,
+      "netflow_mean": -0.317231,
+      "timestamp": 1784134800
+    },
+    {
+      "datetime": "2026-07-15T18:00:00Z",
+      "blockheight": 856546,
+      "netflow_total": 297.4756,
+      "netflow_mean": 0.1365,
+      "timestamp": 1784138400
+    },
+    {
+      "datetime": "2026-07-15T19:00:00Z",
+      "blockheight": 856547,
+      "netflow_total": -1669.2643,
+      "netflow_mean": 0.202575,
+      "timestamp": 1784142000
+    },
+    {
+      "datetime": "2026-07-15T20:00:00Z",
+      "blockheight": 856548,
+      "netflow_total": -1124.6419,
+      "netflow_mean": 0.632159,
+      "timestamp": 1784145600
+    },
+    {
+      "datetime": "2026-07-15T21:00:00Z",
+      "blockheight": 856549,
+      "netflow_total": -1352.7801,
+      "netflow_mean": -0.220803,
+      "timestamp": 1784149200
+    },
+    {
+      "datetime": "2026-07-15T22:00:00Z",
+      "blockheight": 856550,
+      "netflow_total": 230.3513,
+      "netflow_mean": 0.342265,
+      "timestamp": 1784152800
+    },
+    {
+      "datetime": "2026-07-15T23:00:00Z",
+      "blockheight": 856551,
+      "netflow_total": 202.7597,
+      "netflow_mean": -0.023321,
+      "timestamp": 1784156400
+    },
+    {
+      "datetime": "2026-07-16T00:00:00Z",
+      "blockheight": 856552,
+      "netflow_total": 427.9129,
+      "netflow_mean": 0.220521,
+      "timestamp": 1784160000
+    },
+    {
+      "datetime": "2026-07-16T01:00:00Z",
+      "blockheight": 856553,
+      "netflow_total": -1099.4977,
+      "netflow_mean": 0.011864,
+      "timestamp": 1784163600
+    },
+    {
+      "datetime": "2026-07-16T02:00:00Z",
+      "blockheight": 856554,
+      "netflow_total": -1386.1747,
+      "netflow_mean": -0.518728,
+      "timestamp": 1784167200
+    },
+    {
+      "datetime": "2026-07-16T03:00:00Z",
+      "blockheight": 856555,
+      "netflow_total": 177.4292,
+      "netflow_mean": -0.296456,
+      "timestamp": 1784170800
+    },
+    {
+      "datetime": "2026-07-16T04:00:00Z",
+      "blockheight": 856556,
+      "netflow_total": 1972.354,
+      "netflow_mean": 0.153709,
+      "timestamp": 1784174400
+    },
+    {
+      "datetime": "2026-07-16T05:00:00Z",
+      "blockheight": 856557,
+      "netflow_total": -709.0304,
+      "netflow_mean": -0.194587,
+      "timestamp": 1784178000
+    },
+    {
+      "datetime": "2026-07-16T06:00:00Z",
+      "blockheight": 856558,
+      "netflow_total": 1518.1283,
+      "netflow_mean": 0.024514,
+      "timestamp": 1784181600
+    },
+    {
+      "datetime": "2026-07-16T07:00:00Z",
+      "blockheight": 856559,
+      "netflow_total": 154.069,
+      "netflow_mean": -0.287566,
+      "timestamp": 1784185200
+    },
+    {
+      "datetime": "2026-07-16T08:00:00Z",
+      "blockheight": 856560,
+      "netflow_total": -1712.1009,
+      "netflow_mean": 0.300401,
+      "timestamp": 1784188800
+    },
+    {
+      "datetime": "2026-07-16T09:00:00Z",
+      "blockheight": 856561,
+      "netflow_total": 1087.5694,
+      "netflow_mean": -0.224322,
+      "timestamp": 1784192400
+    },
+    {
+      "datetime": "2026-07-16T10:00:00Z",
+      "blockheight": 856562,
+      "netflow_total": 874.7154,
+      "netflow_mean": 0.509504,
+      "timestamp": 1784196000
+    },
+    {
+      "datetime": "2026-07-16T11:00:00Z",
+      "blockheight": 856563,
+      "netflow_total": -1638.5527,
+      "netflow_mean": -0.016727,
+      "timestamp": 1784199600
+    },
+    {
+      "datetime": "2026-07-16T12:00:00Z",
+      "blockheight": 856564,
+      "netflow_total": 992.8533,
+      "netflow_mean": -0.062051,
+      "timestamp": 1784203200
+    },
+    {
+      "datetime": "2026-07-16T13:00:00Z",
+      "blockheight": 856565,
+      "netflow_total": 2553.5526,
+      "netflow_mean": -0.020828,
+      "timestamp": 1784206800
+    },
+    {
+      "datetime": "2026-07-16T14:00:00Z",
+      "blockheight": 856566,
+      "netflow_total": -1706.9994,
+      "netflow_mean": -0.058535,
+      "timestamp": 1784210400
+    },
+    {
+      "datetime": "2026-07-16T15:00:00Z",
+      "blockheight": 856567,
+      "netflow_total": 544.2658,
+      "netflow_mean": -0.172668,
+      "timestamp": 1784214000
+    },
+    {
+      "datetime": "2026-07-16T16:00:00Z",
+      "blockheight": 856568,
+      "netflow_total": -31.6587,
+      "netflow_mean": -0.165101,
+      "timestamp": 1784217600
+    },
+    {
+      "datetime": "2026-07-16T17:00:00Z",
+      "blockheight": 856569,
+      "netflow_total": 1299.7339,
+      "netflow_mean": 0.064407,
+      "timestamp": 1784221200
+    },
+    {
+      "datetime": "2026-07-16T18:00:00Z",
+      "blockheight": 856570,
+      "netflow_total": -48.1304,
+      "netflow_mean": -0.310944,
+      "timestamp": 1784224800
+    },
+    {
+      "datetime": "2026-07-16T19:00:00Z",
+      "blockheight": 856571,
+      "netflow_total": 916.8082,
+      "netflow_mean": -0.373158,
+      "timestamp": 1784228400
+    },
+    {
+      "datetime": "2026-07-16T20:00:00Z",
+      "blockheight": 856572,
+      "netflow_total": -337.4255,
+      "netflow_mean": 0.172245,
+      "timestamp": 1784232000
+    },
+    {
+      "datetime": "2026-07-16T21:00:00Z",
+      "blockheight": 856573,
+      "netflow_total": 1464.5286,
+      "netflow_mean": -0.198088,
+      "timestamp": 1784235600
+    },
+    {
+      "datetime": "2026-07-16T22:00:00Z",
+      "blockheight": 856574,
+      "netflow_total": 533.0351,
+      "netflow_mean": 0.668422,
+      "timestamp": 1784239200
+    },
+    {
+      "datetime": "2026-07-16T23:00:00Z",
+      "blockheight": 856575,
+      "netflow_total": -1894.7467,
+      "netflow_mean": -0.304647,
+      "timestamp": 1784242800
+    },
+    {
+      "datetime": "2026-07-17T00:00:00Z",
+      "blockheight": 856576,
+      "netflow_total": -1135.7831,
+      "netflow_mean": -0.270409,
+      "timestamp": 1784246400
+    },
+    {
+      "datetime": "2026-07-17T01:00:00Z",
+      "blockheight": 856577,
+      "netflow_total": -480.1892,
+      "netflow_mean": -0.24549,
+      "timestamp": 1784250000
+    },
+    {
+      "datetime": "2026-07-17T02:00:00Z",
+      "blockheight": 856578,
+      "netflow_total": 657.7654,
+      "netflow_mean": 0.2969,
+      "timestamp": 1784253600
+    },
+    {
+      "datetime": "2026-07-17T03:00:00Z",
+      "blockheight": 856579,
+      "netflow_total": -2780.0335,
+      "netflow_mean": 0.234864,
+      "timestamp": 1784257200
+    },
+    {
+      "datetime": "2026-07-17T04:00:00Z",
+      "blockheight": 856580,
+      "netflow_total": -843.4731,
+      "netflow_mean": -0.321736,
+      "timestamp": 1784260800
+    },
+    {
+      "datetime": "2026-07-17T05:00:00Z",
+      "blockheight": 856581,
+      "netflow_total": -51.043,
+      "netflow_mean": -0.097752,
+      "timestamp": 1784264400
+    },
+    {
+      "datetime": "2026-07-17T06:00:00Z",
+      "blockheight": 856582,
+      "netflow_total": 2319.8967,
+      "netflow_mean": -0.001461,
+      "timestamp": 1784268000
+    },
+    {
+      "datetime": "2026-07-17T07:00:00Z",
+      "blockheight": 856583,
+      "netflow_total": -165.3909,
+      "netflow_mean": 0.404285,
+      "timestamp": 1784271600
+    },
+    {
+      "datetime": "2026-07-17T08:00:00Z",
+      "blockheight": 856584,
+      "netflow_total": 2038.2594,
+      "netflow_mean": 0.146392,
+      "timestamp": 1784275200
+    },
+    {
+      "datetime": "2026-07-17T09:00:00Z",
+      "blockheight": 856585,
+      "netflow_total": 519.2779,
+      "netflow_mean": -0.349167,
+      "timestamp": 1784278800
+    },
+    {
+      "datetime": "2026-07-17T10:00:00Z",
+      "blockheight": 856586,
+      "netflow_total": -1269.6533,
+      "netflow_mean": 0.364988,
+      "timestamp": 1784282400
+    },
+    {
+      "datetime": "2026-07-17T11:00:00Z",
+      "blockheight": 856587,
+      "netflow_total": -2367.9892,
+      "netflow_mean": -0.173609,
+      "timestamp": 1784286000
+    },
+    {
+      "datetime": "2026-07-17T12:00:00Z",
+      "blockheight": 856588,
+      "netflow_total": 643.8343,
+      "netflow_mean": -0.107258,
+      "timestamp": 1784289600
+    },
+    {
+      "datetime": "2026-07-17T13:00:00Z",
+      "blockheight": 856589,
+      "netflow_total": 560.746,
+      "netflow_mean": 0.010357,
+      "timestamp": 1784293200
+    },
+    {
+      "datetime": "2026-07-17T14:00:00Z",
+      "blockheight": 856590,
+      "netflow_total": 349.2163,
+      "netflow_mean": -0.245129,
+      "timestamp": 1784296800
+    },
+    {
+      "datetime": "2026-07-17T15:00:00Z",
+      "blockheight": 856591,
+      "netflow_total": -2455.4604,
+      "netflow_mean": 0.237937,
+      "timestamp": 1784300400
+    },
+    {
+      "datetime": "2026-07-17T16:00:00Z",
+      "blockheight": 856592,
+      "netflow_total": -1568.7344,
+      "netflow_mean": 0.307783,
+      "timestamp": 1784304000
+    },
+    {
+      "datetime": "2026-07-17T17:00:00Z",
+      "blockheight": 856593,
+      "netflow_total": -1317.1374,
+      "netflow_mean": 0.052276,
+      "timestamp": 1784307600
+    },
+    {
+      "datetime": "2026-07-17T18:00:00Z",
+      "blockheight": 856594,
+      "netflow_total": 152.8807,
+      "netflow_mean": 0.273387,
+      "timestamp": 1784311200
+    },
+    {
+      "datetime": "2026-07-17T19:00:00Z",
+      "blockheight": 856595,
+      "netflow_total": 694.001,
+      "netflow_mean": -0.137812,
+      "timestamp": 1784314800
+    },
+    {
+      "datetime": "2026-07-17T20:00:00Z",
+      "blockheight": 856596,
+      "netflow_total": -1146.238,
+      "netflow_mean": 0.304165,
+      "timestamp": 1784318400
+    },
+    {
+      "datetime": "2026-07-17T21:00:00Z",
+      "blockheight": 856597,
+      "netflow_total": -874.4556,
+      "netflow_mean": 0.39935,
+      "timestamp": 1784322000
+    },
+    {
+      "datetime": "2026-07-17T22:00:00Z",
+      "blockheight": 856598,
+      "netflow_total": 526.8212,
+      "netflow_mean": 0.067741,
+      "timestamp": 1784325600
+    },
+    {
+      "datetime": "2026-07-17T23:00:00Z",
+      "blockheight": 856599,
+      "netflow_total": 1402.1409,
+      "netflow_mean": 0.492323,
+      "timestamp": 1784329200
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_institutional_flows_exchange_netflow",
+    "path": "/btc/exchange-flows/netflow",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/institutional_flows/exchange_netflow/hour_raw.json",
+    "raw_shape": "status_result_data_exchange_netflow",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

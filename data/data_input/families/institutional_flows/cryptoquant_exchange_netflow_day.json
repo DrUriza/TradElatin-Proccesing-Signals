@@ -1,0 +1,2220 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "institutional_flows",
+  "subtype": "exchange_netflow",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "day",
+  "extraction_window": null,
+  "records": [
+    {
+      "date": "2026-06-23",
+      "netflow_total": 903.7437,
+      "netflow_mean": 0.16957,
+      "timestamp": 1782194400
+    },
+    {
+      "date": "2026-06-24",
+      "netflow_total": 1054.2717,
+      "netflow_mean": -0.065714,
+      "timestamp": 1782280800
+    },
+    {
+      "date": "2026-06-25",
+      "netflow_total": -658.6761,
+      "netflow_mean": 0.260469,
+      "timestamp": 1782367200
+    },
+    {
+      "date": "2026-06-26",
+      "netflow_total": 900.1728,
+      "netflow_mean": -0.121184,
+      "timestamp": 1782453600
+    },
+    {
+      "date": "2026-06-27",
+      "netflow_total": -195.4241,
+      "netflow_mean": 0.409912,
+      "timestamp": 1782540000
+    },
+    {
+      "date": "2026-06-28",
+      "netflow_total": -171.4356,
+      "netflow_mean": 0.061704,
+      "timestamp": 1782626400
+    },
+    {
+      "date": "2026-06-29",
+      "netflow_total": -967.8767,
+      "netflow_mean": -0.053089,
+      "timestamp": 1782712800
+    },
+    {
+      "date": "2026-06-30",
+      "netflow_total": -2276.9708,
+      "netflow_mean": -0.101444,
+      "timestamp": 1782799200
+    },
+    {
+      "date": "2026-07-01",
+      "netflow_total": -836.0934,
+      "netflow_mean": -0.106027,
+      "timestamp": 1782885600
+    },
+    {
+      "date": "2026-07-02",
+      "netflow_total": -974.811,
+      "netflow_mean": -0.402424,
+      "timestamp": 1782972000
+    },
+    {
+      "date": "2026-07-03",
+      "netflow_total": 1335.9816,
+      "netflow_mean": -0.411226,
+      "timestamp": 1783058400
+    },
+    {
+      "date": "2026-07-04",
+      "netflow_total": 463.8745,
+      "netflow_mean": 0.054457,
+      "timestamp": 1783144800
+    },
+    {
+      "date": "2026-07-05",
+      "netflow_total": 655.0602,
+      "netflow_mean": 0.22381,
+      "timestamp": 1783231200
+    },
+    {
+      "date": "2026-07-06",
+      "netflow_total": -2887.5665,
+      "netflow_mean": -0.232441,
+      "timestamp": 1783317600
+    },
+    {
+      "date": "2026-07-07",
+      "netflow_total": -31.7936,
+      "netflow_mean": 0.378869,
+      "timestamp": 1783404000
+    },
+    {
+      "date": "2026-07-08",
+      "netflow_total": 1268.7383,
+      "netflow_mean": 0.09216,
+      "timestamp": 1783490400
+    },
+    {
+      "date": "2026-07-09",
+      "netflow_total": -464.5592,
+      "netflow_mean": -0.14435,
+      "timestamp": 1783576800
+    },
+    {
+      "date": "2026-07-10",
+      "netflow_total": -371.4269,
+      "netflow_mean": 0.051512,
+      "timestamp": 1783663200
+    },
+    {
+      "date": "2026-07-11",
+      "netflow_total": -29.6468,
+      "netflow_mean": -0.321349,
+      "timestamp": 1783749600
+    },
+    {
+      "date": "2026-07-12",
+      "netflow_total": 563.5375,
+      "netflow_mean": 0.178929,
+      "timestamp": 1783836000
+    },
+    {
+      "date": "2026-07-13",
+      "netflow_total": -573.6136,
+      "netflow_mean": 0.208993,
+      "timestamp": 1783922400
+    },
+    {
+      "date": "2026-07-14",
+      "netflow_total": -74.8472,
+      "netflow_mean": -0.325253,
+      "timestamp": 1784008800
+    },
+    {
+      "date": "2026-07-15",
+      "netflow_total": 41.4763,
+      "netflow_mean": 0.069041,
+      "timestamp": 1784095200
+    },
+    {
+      "date": "2026-07-16",
+      "netflow_total": -1270.0941,
+      "netflow_mean": 0.204459,
+      "timestamp": 1784181600
+    },
+    {
+      "date": "2026-07-17",
+      "netflow_total": -1404.1045,
+      "netflow_mean": -0.550863,
+      "timestamp": 1784268000
+    },
+    {
+      "date": "2026-07-18",
+      "netflow_total": 499.3078,
+      "netflow_mean": -0.111335,
+      "timestamp": 1784354400
+    },
+    {
+      "date": "2026-07-19",
+      "netflow_total": -407.7992,
+      "netflow_mean": 0.259138,
+      "timestamp": 1784440800
+    },
+    {
+      "date": "2026-07-20",
+      "netflow_total": 441.885,
+      "netflow_mean": -0.408123,
+      "timestamp": 1784527200
+    },
+    {
+      "date": "2026-07-21",
+      "netflow_total": 1739.2625,
+      "netflow_mean": 0.10099,
+      "timestamp": 1784613600
+    },
+    {
+      "date": "2026-07-22",
+      "netflow_total": -1224.0675,
+      "netflow_mean": -0.306956,
+      "timestamp": 1784700000
+    },
+    {
+      "date": "2026-07-23",
+      "netflow_total": 1248.4191,
+      "netflow_mean": 0.187699,
+      "timestamp": 1784786400
+    },
+    {
+      "date": "2026-07-24",
+      "netflow_total": -784.1306,
+      "netflow_mean": 0.370135,
+      "timestamp": 1784872800
+    },
+    {
+      "date": "2026-07-25",
+      "netflow_total": -12.7222,
+      "netflow_mean": -0.541739,
+      "timestamp": 1784959200
+    },
+    {
+      "date": "2026-07-26",
+      "netflow_total": 1067.4446,
+      "netflow_mean": -0.012637,
+      "timestamp": 1785045600
+    },
+    {
+      "date": "2026-07-27",
+      "netflow_total": -925.7378,
+      "netflow_mean": -0.419727,
+      "timestamp": 1785132000
+    },
+    {
+      "date": "2026-07-28",
+      "netflow_total": 2105.9475,
+      "netflow_mean": 0.000578,
+      "timestamp": 1785218400
+    },
+    {
+      "date": "2026-07-29",
+      "netflow_total": -1387.9564,
+      "netflow_mean": 0.123897,
+      "timestamp": 1785304800
+    },
+    {
+      "date": "2026-07-30",
+      "netflow_total": -1054.6318,
+      "netflow_mean": -0.08295,
+      "timestamp": 1785391200
+    },
+    {
+      "date": "2026-07-31",
+      "netflow_total": -593.5815,
+      "netflow_mean": -0.200406,
+      "timestamp": 1785477600
+    },
+    {
+      "date": "2026-08-01",
+      "netflow_total": -2289.7702,
+      "netflow_mean": 0.206985,
+      "timestamp": 1785564000
+    },
+    {
+      "date": "2026-08-02",
+      "netflow_total": 785.7508,
+      "netflow_mean": 0.297714,
+      "timestamp": 1785650400
+    },
+    {
+      "date": "2026-08-03",
+      "netflow_total": -1140.3999,
+      "netflow_mean": -0.391276,
+      "timestamp": 1785736800
+    },
+    {
+      "date": "2026-08-04",
+      "netflow_total": 838.432,
+      "netflow_mean": -0.344963,
+      "timestamp": 1785823200
+    },
+    {
+      "date": "2026-08-05",
+      "netflow_total": 1167.7727,
+      "netflow_mean": 0.170778,
+      "timestamp": 1785909600
+    },
+    {
+      "date": "2026-08-06",
+      "netflow_total": -239.2332,
+      "netflow_mean": -0.338666,
+      "timestamp": 1785996000
+    },
+    {
+      "date": "2026-08-07",
+      "netflow_total": -181.1835,
+      "netflow_mean": -0.145718,
+      "timestamp": 1786082400
+    },
+    {
+      "date": "2026-08-08",
+      "netflow_total": -489.2734,
+      "netflow_mean": -0.172166,
+      "timestamp": 1786168800
+    },
+    {
+      "date": "2026-08-09",
+      "netflow_total": -797.4045,
+      "netflow_mean": 0.300403,
+      "timestamp": 1786255200
+    },
+    {
+      "date": "2026-08-10",
+      "netflow_total": -3232.719,
+      "netflow_mean": 0.398109,
+      "timestamp": 1786341600
+    },
+    {
+      "date": "2026-08-11",
+      "netflow_total": -106.2922,
+      "netflow_mean": 0.480642,
+      "timestamp": 1786428000
+    },
+    {
+      "date": "2026-08-12",
+      "netflow_total": 769.2945,
+      "netflow_mean": 0.053909,
+      "timestamp": 1786514400
+    },
+    {
+      "date": "2026-08-13",
+      "netflow_total": -1109.5218,
+      "netflow_mean": 0.157274,
+      "timestamp": 1786600800
+    },
+    {
+      "date": "2026-08-14",
+      "netflow_total": 1750.3284,
+      "netflow_mean": -0.150563,
+      "timestamp": 1786687200
+    },
+    {
+      "date": "2026-08-15",
+      "netflow_total": 847.7917,
+      "netflow_mean": -0.575514,
+      "timestamp": 1786773600
+    },
+    {
+      "date": "2026-08-16",
+      "netflow_total": 778.8966,
+      "netflow_mean": 0.821813,
+      "timestamp": 1786860000
+    },
+    {
+      "date": "2026-08-17",
+      "netflow_total": -200.134,
+      "netflow_mean": -0.078322,
+      "timestamp": 1786946400
+    },
+    {
+      "date": "2026-08-18",
+      "netflow_total": -1734.6121,
+      "netflow_mean": -0.309943,
+      "timestamp": 1787032800
+    },
+    {
+      "date": "2026-08-19",
+      "netflow_total": -1386.9877,
+      "netflow_mean": 0.337423,
+      "timestamp": 1787119200
+    },
+    {
+      "date": "2026-08-20",
+      "netflow_total": -764.4341,
+      "netflow_mean": -0.639973,
+      "timestamp": 1787205600
+    },
+    {
+      "date": "2026-08-21",
+      "netflow_total": 1291.2277,
+      "netflow_mean": -0.36437,
+      "timestamp": 1787292000
+    },
+    {
+      "date": "2026-08-22",
+      "netflow_total": -1342.8149,
+      "netflow_mean": -0.080573,
+      "timestamp": 1787378400
+    },
+    {
+      "date": "2026-08-23",
+      "netflow_total": -425.4456,
+      "netflow_mean": -0.686052,
+      "timestamp": 1787464800
+    },
+    {
+      "date": "2026-08-24",
+      "netflow_total": -1321.5946,
+      "netflow_mean": 0.204057,
+      "timestamp": 1787551200
+    },
+    {
+      "date": "2026-08-25",
+      "netflow_total": -1274.6839,
+      "netflow_mean": -0.365679,
+      "timestamp": 1787637600
+    },
+    {
+      "date": "2026-08-26",
+      "netflow_total": -1450.26,
+      "netflow_mean": -0.207743,
+      "timestamp": 1787724000
+    },
+    {
+      "date": "2026-08-27",
+      "netflow_total": 577.5477,
+      "netflow_mean": -0.419216,
+      "timestamp": 1787810400
+    },
+    {
+      "date": "2026-08-28",
+      "netflow_total": 650.2658,
+      "netflow_mean": -0.223446,
+      "timestamp": 1787896800
+    },
+    {
+      "date": "2026-08-29",
+      "netflow_total": 1521.6506,
+      "netflow_mean": 0.37868,
+      "timestamp": 1787983200
+    },
+    {
+      "date": "2026-08-30",
+      "netflow_total": 283.5472,
+      "netflow_mean": -0.221061,
+      "timestamp": 1788069600
+    },
+    {
+      "date": "2026-08-31",
+      "netflow_total": 1753.7689,
+      "netflow_mean": -0.097235,
+      "timestamp": 1788156000
+    },
+    {
+      "date": "2026-09-01",
+      "netflow_total": 1025.47,
+      "netflow_mean": -0.071634,
+      "timestamp": 1788242400
+    },
+    {
+      "date": "2026-09-02",
+      "netflow_total": -1244.1915,
+      "netflow_mean": 0.387717,
+      "timestamp": 1788328800
+    },
+    {
+      "date": "2026-09-03",
+      "netflow_total": -764.5931,
+      "netflow_mean": 0.269693,
+      "timestamp": 1788415200
+    },
+    {
+      "date": "2026-09-04",
+      "netflow_total": -1535.4551,
+      "netflow_mean": -0.044775,
+      "timestamp": 1788501600
+    },
+    {
+      "date": "2026-09-05",
+      "netflow_total": 678.3788,
+      "netflow_mean": 0.215752,
+      "timestamp": 1788588000
+    },
+    {
+      "date": "2026-09-06",
+      "netflow_total": -1218.3922,
+      "netflow_mean": -0.691513,
+      "timestamp": 1788674400
+    },
+    {
+      "date": "2026-09-07",
+      "netflow_total": -1634.9789,
+      "netflow_mean": 0.038306,
+      "timestamp": 1788760800
+    },
+    {
+      "date": "2026-09-08",
+      "netflow_total": -1370.3084,
+      "netflow_mean": -0.266386,
+      "timestamp": 1788847200
+    },
+    {
+      "date": "2026-09-09",
+      "netflow_total": 2217.258,
+      "netflow_mean": -0.357997,
+      "timestamp": 1788933600
+    },
+    {
+      "date": "2026-09-10",
+      "netflow_total": -221.5719,
+      "netflow_mean": 0.233002,
+      "timestamp": 1789020000
+    },
+    {
+      "date": "2026-09-11",
+      "netflow_total": -57.1891,
+      "netflow_mean": -0.133313,
+      "timestamp": 1789106400
+    },
+    {
+      "date": "2026-09-12",
+      "netflow_total": -765.2202,
+      "netflow_mean": 0.524298,
+      "timestamp": 1789192800
+    },
+    {
+      "date": "2026-09-13",
+      "netflow_total": 446.2489,
+      "netflow_mean": -0.364642,
+      "timestamp": 1789279200
+    },
+    {
+      "date": "2026-09-14",
+      "netflow_total": -633.4025,
+      "netflow_mean": -0.369172,
+      "timestamp": 1789365600
+    },
+    {
+      "date": "2026-09-15",
+      "netflow_total": 356.8116,
+      "netflow_mean": 0.177557,
+      "timestamp": 1789452000
+    },
+    {
+      "date": "2026-09-16",
+      "netflow_total": 388.982,
+      "netflow_mean": -0.049662,
+      "timestamp": 1789538400
+    },
+    {
+      "date": "2026-09-17",
+      "netflow_total": 205.8789,
+      "netflow_mean": 0.114134,
+      "timestamp": 1789624800
+    },
+    {
+      "date": "2026-09-18",
+      "netflow_total": 596.8162,
+      "netflow_mean": -0.56495,
+      "timestamp": 1789711200
+    },
+    {
+      "date": "2026-09-19",
+      "netflow_total": 81.4831,
+      "netflow_mean": 0.235571,
+      "timestamp": 1789797600
+    },
+    {
+      "date": "2026-09-20",
+      "netflow_total": -1873.3789,
+      "netflow_mean": -0.129388,
+      "timestamp": 1789884000
+    },
+    {
+      "date": "2026-09-21",
+      "netflow_total": -2323.7199,
+      "netflow_mean": 0.200042,
+      "timestamp": 1789970400
+    },
+    {
+      "date": "2026-09-22",
+      "netflow_total": -137.7762,
+      "netflow_mean": -0.141716,
+      "timestamp": 1790056800
+    },
+    {
+      "date": "2026-09-23",
+      "netflow_total": -1091.7308,
+      "netflow_mean": -0.17901,
+      "timestamp": 1790143200
+    },
+    {
+      "date": "2026-09-24",
+      "netflow_total": -2041.8288,
+      "netflow_mean": -0.355193,
+      "timestamp": 1790229600
+    },
+    {
+      "date": "2026-09-25",
+      "netflow_total": 562.3293,
+      "netflow_mean": 0.262911,
+      "timestamp": 1790316000
+    },
+    {
+      "date": "2026-09-26",
+      "netflow_total": -505.4031,
+      "netflow_mean": -0.427884,
+      "timestamp": 1790402400
+    },
+    {
+      "date": "2026-09-27",
+      "netflow_total": 1601.5419,
+      "netflow_mean": 0.39116,
+      "timestamp": 1790488800
+    },
+    {
+      "date": "2026-09-28",
+      "netflow_total": 410.6433,
+      "netflow_mean": -0.219881,
+      "timestamp": 1790575200
+    },
+    {
+      "date": "2026-09-29",
+      "netflow_total": -2076.0437,
+      "netflow_mean": 0.043002,
+      "timestamp": 1790661600
+    },
+    {
+      "date": "2026-09-30",
+      "netflow_total": 532.7778,
+      "netflow_mean": -0.181351,
+      "timestamp": 1790748000
+    },
+    {
+      "date": "2026-10-01",
+      "netflow_total": 1207.0038,
+      "netflow_mean": 0.101363,
+      "timestamp": 1790834400
+    },
+    {
+      "date": "2026-10-02",
+      "netflow_total": -131.979,
+      "netflow_mean": 0.317998,
+      "timestamp": 1790920800
+    },
+    {
+      "date": "2026-10-03",
+      "netflow_total": 703.003,
+      "netflow_mean": 0.03172,
+      "timestamp": 1791007200
+    },
+    {
+      "date": "2026-10-04",
+      "netflow_total": 277.4389,
+      "netflow_mean": -0.14248,
+      "timestamp": 1791093600
+    },
+    {
+      "date": "2026-10-05",
+      "netflow_total": 4.9291,
+      "netflow_mean": -0.225303,
+      "timestamp": 1791180000
+    },
+    {
+      "date": "2026-10-06",
+      "netflow_total": -661.0254,
+      "netflow_mean": -0.096779,
+      "timestamp": 1791266400
+    },
+    {
+      "date": "2026-10-07",
+      "netflow_total": -1305.9233,
+      "netflow_mean": -0.530754,
+      "timestamp": 1791352800
+    },
+    {
+      "date": "2026-10-08",
+      "netflow_total": -749.1158,
+      "netflow_mean": -0.016473,
+      "timestamp": 1791439200
+    },
+    {
+      "date": "2026-10-09",
+      "netflow_total": -612.6541,
+      "netflow_mean": 0.177905,
+      "timestamp": 1791525600
+    },
+    {
+      "date": "2026-10-10",
+      "netflow_total": -1341.8868,
+      "netflow_mean": -0.110405,
+      "timestamp": 1791612000
+    },
+    {
+      "date": "2026-10-11",
+      "netflow_total": 2224.6568,
+      "netflow_mean": -0.062037,
+      "timestamp": 1791698400
+    },
+    {
+      "date": "2026-10-12",
+      "netflow_total": 857.3981,
+      "netflow_mean": -0.269451,
+      "timestamp": 1791784800
+    },
+    {
+      "date": "2026-10-13",
+      "netflow_total": -1652.4011,
+      "netflow_mean": -0.216302,
+      "timestamp": 1791871200
+    },
+    {
+      "date": "2026-10-14",
+      "netflow_total": 223.1543,
+      "netflow_mean": -0.249895,
+      "timestamp": 1791957600
+    },
+    {
+      "date": "2026-10-15",
+      "netflow_total": 1305.6192,
+      "netflow_mean": 0.232441,
+      "timestamp": 1792044000
+    },
+    {
+      "date": "2026-10-16",
+      "netflow_total": 905.2205,
+      "netflow_mean": 0.026361,
+      "timestamp": 1792130400
+    },
+    {
+      "date": "2026-10-17",
+      "netflow_total": -1105.7094,
+      "netflow_mean": -0.294376,
+      "timestamp": 1792216800
+    },
+    {
+      "date": "2026-10-18",
+      "netflow_total": -279.4387,
+      "netflow_mean": -0.199878,
+      "timestamp": 1792303200
+    },
+    {
+      "date": "2026-10-19",
+      "netflow_total": 455.4748,
+      "netflow_mean": -0.295782,
+      "timestamp": 1792389600
+    },
+    {
+      "date": "2026-10-20",
+      "netflow_total": 232.73,
+      "netflow_mean": 0.113332,
+      "timestamp": 1792476000
+    },
+    {
+      "date": "2026-10-21",
+      "netflow_total": 676.3099,
+      "netflow_mean": -0.543119,
+      "timestamp": 1792562400
+    },
+    {
+      "date": "2026-10-22",
+      "netflow_total": 710.5959,
+      "netflow_mean": -0.357247,
+      "timestamp": 1792648800
+    },
+    {
+      "date": "2026-10-23",
+      "netflow_total": 282.9199,
+      "netflow_mean": 0.295703,
+      "timestamp": 1792735200
+    },
+    {
+      "date": "2026-10-24",
+      "netflow_total": -458.8038,
+      "netflow_mean": 0.041793,
+      "timestamp": 1792821600
+    },
+    {
+      "date": "2026-10-25",
+      "netflow_total": 736.301,
+      "netflow_mean": 0.183216,
+      "timestamp": 1792908000
+    },
+    {
+      "date": "2026-10-26",
+      "netflow_total": 1093.1757,
+      "netflow_mean": 0.333504,
+      "timestamp": 1792994400
+    },
+    {
+      "date": "2026-10-27",
+      "netflow_total": 888.0181,
+      "netflow_mean": 0.281168,
+      "timestamp": 1793080800
+    },
+    {
+      "date": "2026-10-28",
+      "netflow_total": -842.8191,
+      "netflow_mean": -0.146984,
+      "timestamp": 1793167200
+    },
+    {
+      "date": "2026-10-29",
+      "netflow_total": -353.9111,
+      "netflow_mean": 0.373337,
+      "timestamp": 1793253600
+    },
+    {
+      "date": "2026-10-30",
+      "netflow_total": 714.4265,
+      "netflow_mean": -0.136666,
+      "timestamp": 1793340000
+    },
+    {
+      "date": "2026-10-31",
+      "netflow_total": 293.3245,
+      "netflow_mean": -0.314284,
+      "timestamp": 1793426400
+    },
+    {
+      "date": "2026-11-01",
+      "netflow_total": 195.2078,
+      "netflow_mean": -0.009455,
+      "timestamp": 1793512800
+    },
+    {
+      "date": "2026-11-02",
+      "netflow_total": -741.2022,
+      "netflow_mean": -0.163362,
+      "timestamp": 1793599200
+    },
+    {
+      "date": "2026-11-03",
+      "netflow_total": -1564.7434,
+      "netflow_mean": -0.000938,
+      "timestamp": 1793685600
+    },
+    {
+      "date": "2026-11-04",
+      "netflow_total": -592.4732,
+      "netflow_mean": 0.141602,
+      "timestamp": 1793772000
+    },
+    {
+      "date": "2026-11-05",
+      "netflow_total": -1690.9474,
+      "netflow_mean": -0.042293,
+      "timestamp": 1793858400
+    },
+    {
+      "date": "2026-11-06",
+      "netflow_total": 957.3694,
+      "netflow_mean": 0.036967,
+      "timestamp": 1793944800
+    },
+    {
+      "date": "2026-11-07",
+      "netflow_total": -987.3383,
+      "netflow_mean": -0.022319,
+      "timestamp": 1794031200
+    },
+    {
+      "date": "2026-11-08",
+      "netflow_total": -130.1075,
+      "netflow_mean": 0.19494,
+      "timestamp": 1794117600
+    },
+    {
+      "date": "2026-11-09",
+      "netflow_total": 442.4478,
+      "netflow_mean": -0.149664,
+      "timestamp": 1794204000
+    },
+    {
+      "date": "2026-11-10",
+      "netflow_total": 712.438,
+      "netflow_mean": 0.254606,
+      "timestamp": 1794290400
+    },
+    {
+      "date": "2026-11-11",
+      "netflow_total": -1278.7652,
+      "netflow_mean": -0.255159,
+      "timestamp": 1794376800
+    },
+    {
+      "date": "2026-11-12",
+      "netflow_total": 3.38,
+      "netflow_mean": -0.391227,
+      "timestamp": 1794463200
+    },
+    {
+      "date": "2026-11-13",
+      "netflow_total": -1090.9226,
+      "netflow_mean": 0.063518,
+      "timestamp": 1794549600
+    },
+    {
+      "date": "2026-11-14",
+      "netflow_total": -164.9137,
+      "netflow_mean": 0.030842,
+      "timestamp": 1794636000
+    },
+    {
+      "date": "2026-11-15",
+      "netflow_total": -438.2048,
+      "netflow_mean": 0.089078,
+      "timestamp": 1794722400
+    },
+    {
+      "date": "2026-11-16",
+      "netflow_total": 995.492,
+      "netflow_mean": -0.183731,
+      "timestamp": 1794808800
+    },
+    {
+      "date": "2026-11-17",
+      "netflow_total": 401.7303,
+      "netflow_mean": 0.307807,
+      "timestamp": 1794895200
+    },
+    {
+      "date": "2026-11-18",
+      "netflow_total": -1228.1469,
+      "netflow_mean": -0.009024,
+      "timestamp": 1794981600
+    },
+    {
+      "date": "2026-11-19",
+      "netflow_total": -659.8596,
+      "netflow_mean": -0.151216,
+      "timestamp": 1795068000
+    },
+    {
+      "date": "2026-11-20",
+      "netflow_total": 30.3281,
+      "netflow_mean": -0.236485,
+      "timestamp": 1795154400
+    },
+    {
+      "date": "2026-11-21",
+      "netflow_total": -376.5941,
+      "netflow_mean": -0.07678,
+      "timestamp": 1795240800
+    },
+    {
+      "date": "2026-11-22",
+      "netflow_total": -867.8759,
+      "netflow_mean": 0.021297,
+      "timestamp": 1795327200
+    },
+    {
+      "date": "2026-11-23",
+      "netflow_total": 1026.6023,
+      "netflow_mean": -0.271412,
+      "timestamp": 1795413600
+    },
+    {
+      "date": "2026-11-24",
+      "netflow_total": 494.1182,
+      "netflow_mean": 0.386184,
+      "timestamp": 1795500000
+    },
+    {
+      "date": "2026-11-25",
+      "netflow_total": -664.2996,
+      "netflow_mean": -0.007162,
+      "timestamp": 1795586400
+    },
+    {
+      "date": "2026-11-26",
+      "netflow_total": -1155.0088,
+      "netflow_mean": 0.410938,
+      "timestamp": 1795672800
+    },
+    {
+      "date": "2026-11-27",
+      "netflow_total": -2495.1074,
+      "netflow_mean": 0.343358,
+      "timestamp": 1795759200
+    },
+    {
+      "date": "2026-11-28",
+      "netflow_total": 1261.5197,
+      "netflow_mean": 0.179433,
+      "timestamp": 1795845600
+    },
+    {
+      "date": "2026-11-29",
+      "netflow_total": -1939.5882,
+      "netflow_mean": 0.044568,
+      "timestamp": 1795932000
+    },
+    {
+      "date": "2026-11-30",
+      "netflow_total": -678.9938,
+      "netflow_mean": -0.030758,
+      "timestamp": 1796018400
+    },
+    {
+      "date": "2026-12-01",
+      "netflow_total": 45.3225,
+      "netflow_mean": -0.004467,
+      "timestamp": 1796104800
+    },
+    {
+      "date": "2026-12-02",
+      "netflow_total": -1973.4311,
+      "netflow_mean": 0.149341,
+      "timestamp": 1796191200
+    },
+    {
+      "date": "2026-12-03",
+      "netflow_total": -1212.4147,
+      "netflow_mean": -0.240552,
+      "timestamp": 1796277600
+    },
+    {
+      "date": "2026-12-04",
+      "netflow_total": 706.5567,
+      "netflow_mean": -0.064448,
+      "timestamp": 1796364000
+    },
+    {
+      "date": "2026-12-05",
+      "netflow_total": -2225.8409,
+      "netflow_mean": 0.172574,
+      "timestamp": 1796450400
+    },
+    {
+      "date": "2026-12-06",
+      "netflow_total": 1084.3736,
+      "netflow_mean": 0.206001,
+      "timestamp": 1796536800
+    },
+    {
+      "date": "2026-12-07",
+      "netflow_total": 460.8643,
+      "netflow_mean": -0.615402,
+      "timestamp": 1796623200
+    },
+    {
+      "date": "2026-12-08",
+      "netflow_total": 43.0949,
+      "netflow_mean": 0.08534,
+      "timestamp": 1796709600
+    },
+    {
+      "date": "2026-12-09",
+      "netflow_total": 456.4105,
+      "netflow_mean": 0.05472,
+      "timestamp": 1796796000
+    },
+    {
+      "date": "2026-12-10",
+      "netflow_total": -4142.9457,
+      "netflow_mean": -0.140352,
+      "timestamp": 1796882400
+    },
+    {
+      "date": "2026-12-11",
+      "netflow_total": 1361.6573,
+      "netflow_mean": -0.380445,
+      "timestamp": 1796968800
+    },
+    {
+      "date": "2026-12-12",
+      "netflow_total": 128.2067,
+      "netflow_mean": -0.516454,
+      "timestamp": 1797055200
+    },
+    {
+      "date": "2026-12-13",
+      "netflow_total": -874.8385,
+      "netflow_mean": 0.332436,
+      "timestamp": 1797141600
+    },
+    {
+      "date": "2026-12-14",
+      "netflow_total": -350.3367,
+      "netflow_mean": 0.446448,
+      "timestamp": 1797228000
+    },
+    {
+      "date": "2026-12-15",
+      "netflow_total": -280.1681,
+      "netflow_mean": 0.110226,
+      "timestamp": 1797314400
+    },
+    {
+      "date": "2026-12-16",
+      "netflow_total": -412.4598,
+      "netflow_mean": 0.25601,
+      "timestamp": 1797400800
+    },
+    {
+      "date": "2026-12-17",
+      "netflow_total": -841.1583,
+      "netflow_mean": 0.480321,
+      "timestamp": 1797487200
+    },
+    {
+      "date": "2026-12-18",
+      "netflow_total": 1268.74,
+      "netflow_mean": -0.270756,
+      "timestamp": 1797573600
+    },
+    {
+      "date": "2026-12-19",
+      "netflow_total": 9.7435,
+      "netflow_mean": -0.135869,
+      "timestamp": 1797660000
+    },
+    {
+      "date": "2026-12-20",
+      "netflow_total": 381.5902,
+      "netflow_mean": 0.132296,
+      "timestamp": 1797746400
+    },
+    {
+      "date": "2026-12-21",
+      "netflow_total": 1192.9628,
+      "netflow_mean": 0.411093,
+      "timestamp": 1797832800
+    },
+    {
+      "date": "2026-12-22",
+      "netflow_total": 561.6024,
+      "netflow_mean": -0.289566,
+      "timestamp": 1797919200
+    },
+    {
+      "date": "2026-12-23",
+      "netflow_total": -1053.474,
+      "netflow_mean": -0.060834,
+      "timestamp": 1798005600
+    },
+    {
+      "date": "2026-12-24",
+      "netflow_total": -1520.6132,
+      "netflow_mean": -0.787899,
+      "timestamp": 1798092000
+    },
+    {
+      "date": "2026-12-25",
+      "netflow_total": 1163.4453,
+      "netflow_mean": -0.330947,
+      "timestamp": 1798178400
+    },
+    {
+      "date": "2026-12-26",
+      "netflow_total": 2135.7696,
+      "netflow_mean": 0.252206,
+      "timestamp": 1798264800
+    },
+    {
+      "date": "2026-12-27",
+      "netflow_total": -1425.8692,
+      "netflow_mean": -0.429379,
+      "timestamp": 1798351200
+    },
+    {
+      "date": "2026-12-28",
+      "netflow_total": -2078.1425,
+      "netflow_mean": -0.137265,
+      "timestamp": 1798437600
+    },
+    {
+      "date": "2026-12-29",
+      "netflow_total": 812.6971,
+      "netflow_mean": 0.251908,
+      "timestamp": 1798524000
+    },
+    {
+      "date": "2026-12-30",
+      "netflow_total": -492.6517,
+      "netflow_mean": -0.347139,
+      "timestamp": 1798610400
+    },
+    {
+      "date": "2026-12-31",
+      "netflow_total": -558.9544,
+      "netflow_mean": 0.210711,
+      "timestamp": 1798696800
+    },
+    {
+      "date": "2027-01-01",
+      "netflow_total": -526.9686,
+      "netflow_mean": 0.067708,
+      "timestamp": 1798783200
+    },
+    {
+      "date": "2027-01-02",
+      "netflow_total": -1792.6932,
+      "netflow_mean": 0.074747,
+      "timestamp": 1798869600
+    },
+    {
+      "date": "2027-01-03",
+      "netflow_total": -1588.5257,
+      "netflow_mean": -0.014453,
+      "timestamp": 1798956000
+    },
+    {
+      "date": "2027-01-04",
+      "netflow_total": -1254.5589,
+      "netflow_mean": 0.065533,
+      "timestamp": 1799042400
+    },
+    {
+      "date": "2027-01-05",
+      "netflow_total": -488.9041,
+      "netflow_mean": -0.152618,
+      "timestamp": 1799128800
+    },
+    {
+      "date": "2027-01-06",
+      "netflow_total": -2833.165,
+      "netflow_mean": -0.00779,
+      "timestamp": 1799215200
+    },
+    {
+      "date": "2027-01-07",
+      "netflow_total": -1077.9755,
+      "netflow_mean": 0.146997,
+      "timestamp": 1799301600
+    },
+    {
+      "date": "2027-01-08",
+      "netflow_total": 1350.9146,
+      "netflow_mean": -0.222511,
+      "timestamp": 1799388000
+    },
+    {
+      "date": "2027-01-09",
+      "netflow_total": 657.2972,
+      "netflow_mean": -0.359913,
+      "timestamp": 1799474400
+    },
+    {
+      "date": "2027-01-10",
+      "netflow_total": -1160.7358,
+      "netflow_mean": -0.012316,
+      "timestamp": 1799560800
+    },
+    {
+      "date": "2027-01-11",
+      "netflow_total": -1055.585,
+      "netflow_mean": 0.695625,
+      "timestamp": 1799647200
+    },
+    {
+      "date": "2027-01-12",
+      "netflow_total": 61.8926,
+      "netflow_mean": -0.268956,
+      "timestamp": 1799733600
+    },
+    {
+      "date": "2027-01-13",
+      "netflow_total": 970.2374,
+      "netflow_mean": -0.305118,
+      "timestamp": 1799820000
+    },
+    {
+      "date": "2027-01-14",
+      "netflow_total": -1933.4354,
+      "netflow_mean": -0.224796,
+      "timestamp": 1799906400
+    },
+    {
+      "date": "2027-01-15",
+      "netflow_total": -1480.6064,
+      "netflow_mean": 0.306462,
+      "timestamp": 1799992800
+    },
+    {
+      "date": "2027-01-16",
+      "netflow_total": -670.2972,
+      "netflow_mean": 0.055333,
+      "timestamp": 1800079200
+    },
+    {
+      "date": "2027-01-17",
+      "netflow_total": -1496.661,
+      "netflow_mean": -0.254365,
+      "timestamp": 1800165600
+    },
+    {
+      "date": "2027-01-18",
+      "netflow_total": 892.7381,
+      "netflow_mean": 0.149185,
+      "timestamp": 1800252000
+    },
+    {
+      "date": "2027-01-19",
+      "netflow_total": -1171.4917,
+      "netflow_mean": -0.166984,
+      "timestamp": 1800338400
+    },
+    {
+      "date": "2027-01-20",
+      "netflow_total": -961.2543,
+      "netflow_mean": -0.593812,
+      "timestamp": 1800424800
+    },
+    {
+      "date": "2027-01-21",
+      "netflow_total": 712.1134,
+      "netflow_mean": -0.138744,
+      "timestamp": 1800511200
+    },
+    {
+      "date": "2027-01-22",
+      "netflow_total": -982.9,
+      "netflow_mean": -0.385631,
+      "timestamp": 1800597600
+    },
+    {
+      "date": "2027-01-23",
+      "netflow_total": 1003.6421,
+      "netflow_mean": -0.149303,
+      "timestamp": 1800684000
+    },
+    {
+      "date": "2027-01-24",
+      "netflow_total": 1148.1108,
+      "netflow_mean": 0.14006,
+      "timestamp": 1800770400
+    },
+    {
+      "date": "2027-01-25",
+      "netflow_total": 68.3476,
+      "netflow_mean": -0.410324,
+      "timestamp": 1800856800
+    },
+    {
+      "date": "2027-01-26",
+      "netflow_total": 1560.0952,
+      "netflow_mean": 0.040155,
+      "timestamp": 1800943200
+    },
+    {
+      "date": "2027-01-27",
+      "netflow_total": -1674.3778,
+      "netflow_mean": 0.356425,
+      "timestamp": 1801029600
+    },
+    {
+      "date": "2027-01-28",
+      "netflow_total": -854.1564,
+      "netflow_mean": -0.049537,
+      "timestamp": 1801116000
+    },
+    {
+      "date": "2027-01-29",
+      "netflow_total": 384.8832,
+      "netflow_mean": -0.617801,
+      "timestamp": 1801202400
+    },
+    {
+      "date": "2027-01-30",
+      "netflow_total": 244.7382,
+      "netflow_mean": -0.001103,
+      "timestamp": 1801288800
+    },
+    {
+      "date": "2027-01-31",
+      "netflow_total": -964.2883,
+      "netflow_mean": -0.240929,
+      "timestamp": 1801375200
+    },
+    {
+      "date": "2027-02-01",
+      "netflow_total": 259.8941,
+      "netflow_mean": -0.133422,
+      "timestamp": 1801461600
+    },
+    {
+      "date": "2027-02-02",
+      "netflow_total": -1217.6491,
+      "netflow_mean": 0.266485,
+      "timestamp": 1801548000
+    },
+    {
+      "date": "2027-02-03",
+      "netflow_total": 1967.4572,
+      "netflow_mean": -0.473329,
+      "timestamp": 1801634400
+    },
+    {
+      "date": "2027-02-04",
+      "netflow_total": -1632.2977,
+      "netflow_mean": -0.390819,
+      "timestamp": 1801720800
+    },
+    {
+      "date": "2027-02-05",
+      "netflow_total": -1207.5863,
+      "netflow_mean": 0.060925,
+      "timestamp": 1801807200
+    },
+    {
+      "date": "2027-02-06",
+      "netflow_total": 350.3384,
+      "netflow_mean": 0.041423,
+      "timestamp": 1801893600
+    },
+    {
+      "date": "2027-02-07",
+      "netflow_total": 1264.998,
+      "netflow_mean": -0.107635,
+      "timestamp": 1801980000
+    },
+    {
+      "date": "2027-02-08",
+      "netflow_total": -1077.0468,
+      "netflow_mean": -0.475599,
+      "timestamp": 1802066400
+    },
+    {
+      "date": "2027-02-09",
+      "netflow_total": -1076.2601,
+      "netflow_mean": -0.325953,
+      "timestamp": 1802152800
+    },
+    {
+      "date": "2027-02-10",
+      "netflow_total": 812.1962,
+      "netflow_mean": -0.550372,
+      "timestamp": 1802239200
+    },
+    {
+      "date": "2027-02-11",
+      "netflow_total": -377.3524,
+      "netflow_mean": 0.102859,
+      "timestamp": 1802325600
+    },
+    {
+      "date": "2027-02-12",
+      "netflow_total": -1659.1595,
+      "netflow_mean": -0.248357,
+      "timestamp": 1802412000
+    },
+    {
+      "date": "2027-02-13",
+      "netflow_total": -153.4161,
+      "netflow_mean": -0.066063,
+      "timestamp": 1802498400
+    },
+    {
+      "date": "2027-02-14",
+      "netflow_total": 2357.3419,
+      "netflow_mean": 0.204389,
+      "timestamp": 1802584800
+    },
+    {
+      "date": "2027-02-15",
+      "netflow_total": -1837.4071,
+      "netflow_mean": -0.241247,
+      "timestamp": 1802671200
+    },
+    {
+      "date": "2027-02-16",
+      "netflow_total": 785.261,
+      "netflow_mean": 0.136649,
+      "timestamp": 1802757600
+    },
+    {
+      "date": "2027-02-17",
+      "netflow_total": -728.2177,
+      "netflow_mean": -0.006917,
+      "timestamp": 1802844000
+    },
+    {
+      "date": "2027-02-18",
+      "netflow_total": -851.5064,
+      "netflow_mean": -0.403531,
+      "timestamp": 1802930400
+    },
+    {
+      "date": "2027-02-19",
+      "netflow_total": -2300.4735,
+      "netflow_mean": -0.086213,
+      "timestamp": 1803016800
+    },
+    {
+      "date": "2027-02-20",
+      "netflow_total": -2492.9573,
+      "netflow_mean": -0.292644,
+      "timestamp": 1803103200
+    },
+    {
+      "date": "2027-02-21",
+      "netflow_total": 32.8388,
+      "netflow_mean": 0.16837,
+      "timestamp": 1803189600
+    },
+    {
+      "date": "2027-02-22",
+      "netflow_total": 66.2129,
+      "netflow_mean": 0.07591,
+      "timestamp": 1803276000
+    },
+    {
+      "date": "2027-02-23",
+      "netflow_total": -1076.1251,
+      "netflow_mean": 0.004996,
+      "timestamp": 1803362400
+    },
+    {
+      "date": "2027-02-24",
+      "netflow_total": -1057.2508,
+      "netflow_mean": 0.053731,
+      "timestamp": 1803448800
+    },
+    {
+      "date": "2027-02-25",
+      "netflow_total": -1128.7903,
+      "netflow_mean": 0.050124,
+      "timestamp": 1803535200
+    },
+    {
+      "date": "2027-02-26",
+      "netflow_total": 1745.401,
+      "netflow_mean": 0.243654,
+      "timestamp": 1803621600
+    },
+    {
+      "date": "2027-02-27",
+      "netflow_total": 1206.4601,
+      "netflow_mean": 0.026574,
+      "timestamp": 1803708000
+    },
+    {
+      "date": "2027-02-28",
+      "netflow_total": 424.6829,
+      "netflow_mean": 0.094471,
+      "timestamp": 1803794400
+    },
+    {
+      "date": "2027-03-01",
+      "netflow_total": -909.7803,
+      "netflow_mean": -0.601739,
+      "timestamp": 1803880800
+    },
+    {
+      "date": "2027-03-02",
+      "netflow_total": 74.773,
+      "netflow_mean": 0.290146,
+      "timestamp": 1803967200
+    },
+    {
+      "date": "2027-03-03",
+      "netflow_total": -2476.7133,
+      "netflow_mean": -0.280001,
+      "timestamp": 1804053600
+    },
+    {
+      "date": "2027-03-04",
+      "netflow_total": 441.1195,
+      "netflow_mean": -0.032017,
+      "timestamp": 1804140000
+    },
+    {
+      "date": "2027-03-05",
+      "netflow_total": 429.9245,
+      "netflow_mean": 0.118562,
+      "timestamp": 1804226400
+    },
+    {
+      "date": "2027-03-06",
+      "netflow_total": -644.5583,
+      "netflow_mean": 0.328217,
+      "timestamp": 1804312800
+    },
+    {
+      "date": "2027-03-07",
+      "netflow_total": -1039.3442,
+      "netflow_mean": 0.391962,
+      "timestamp": 1804399200
+    },
+    {
+      "date": "2027-03-08",
+      "netflow_total": 83.2985,
+      "netflow_mean": 0.19172,
+      "timestamp": 1804485600
+    },
+    {
+      "date": "2027-03-09",
+      "netflow_total": 62.0704,
+      "netflow_mean": 0.110824,
+      "timestamp": 1804572000
+    },
+    {
+      "date": "2027-03-10",
+      "netflow_total": 418.0932,
+      "netflow_mean": -0.081041,
+      "timestamp": 1804658400
+    },
+    {
+      "date": "2027-03-11",
+      "netflow_total": 292.9662,
+      "netflow_mean": 0.161795,
+      "timestamp": 1804744800
+    },
+    {
+      "date": "2027-03-12",
+      "netflow_total": -3957.0513,
+      "netflow_mean": 0.537243,
+      "timestamp": 1804831200
+    },
+    {
+      "date": "2027-03-13",
+      "netflow_total": -1463.4664,
+      "netflow_mean": -0.074426,
+      "timestamp": 1804917600
+    },
+    {
+      "date": "2027-03-14",
+      "netflow_total": -364.4985,
+      "netflow_mean": 0.31043,
+      "timestamp": 1805004000
+    },
+    {
+      "date": "2027-03-15",
+      "netflow_total": 2409.125,
+      "netflow_mean": -0.074051,
+      "timestamp": 1805090400
+    },
+    {
+      "date": "2027-03-16",
+      "netflow_total": 767.025,
+      "netflow_mean": -0.321576,
+      "timestamp": 1805176800
+    },
+    {
+      "date": "2027-03-17",
+      "netflow_total": 254.7031,
+      "netflow_mean": -0.026201,
+      "timestamp": 1805263200
+    },
+    {
+      "date": "2027-03-18",
+      "netflow_total": -2585.2717,
+      "netflow_mean": 0.166027,
+      "timestamp": 1805349600
+    },
+    {
+      "date": "2027-03-19",
+      "netflow_total": -4138.281,
+      "netflow_mean": -0.139552,
+      "timestamp": 1805436000
+    },
+    {
+      "date": "2027-03-20",
+      "netflow_total": 315.4191,
+      "netflow_mean": -0.381418,
+      "timestamp": 1805522400
+    },
+    {
+      "date": "2027-03-21",
+      "netflow_total": -991.6765,
+      "netflow_mean": -0.469284,
+      "timestamp": 1805608800
+    },
+    {
+      "date": "2027-03-22",
+      "netflow_total": -1060.5827,
+      "netflow_mean": -0.696646,
+      "timestamp": 1805695200
+    },
+    {
+      "date": "2027-03-23",
+      "netflow_total": 280.4525,
+      "netflow_mean": -0.014949,
+      "timestamp": 1805781600
+    },
+    {
+      "date": "2027-03-24",
+      "netflow_total": -1369.7401,
+      "netflow_mean": 0.659502,
+      "timestamp": 1805868000
+    },
+    {
+      "date": "2027-03-25",
+      "netflow_total": 885.6981,
+      "netflow_mean": 0.143857,
+      "timestamp": 1805954400
+    },
+    {
+      "date": "2027-03-26",
+      "netflow_total": 1590.6017,
+      "netflow_mean": 0.382819,
+      "timestamp": 1806040800
+    },
+    {
+      "date": "2027-03-27",
+      "netflow_total": -2459.4715,
+      "netflow_mean": -0.362666,
+      "timestamp": 1806127200
+    },
+    {
+      "date": "2027-03-28",
+      "netflow_total": 1252.9065,
+      "netflow_mean": 0.811958,
+      "timestamp": 1806213600
+    },
+    {
+      "date": "2027-03-29",
+      "netflow_total": -1201.2294,
+      "netflow_mean": -0.593797,
+      "timestamp": 1806300000
+    },
+    {
+      "date": "2027-03-30",
+      "netflow_total": 81.4342,
+      "netflow_mean": 0.065891,
+      "timestamp": 1806386400
+    },
+    {
+      "date": "2027-03-31",
+      "netflow_total": -348.8457,
+      "netflow_mean": 0.453159,
+      "timestamp": 1806472800
+    },
+    {
+      "date": "2027-04-01",
+      "netflow_total": -556.6046,
+      "netflow_mean": -0.512675,
+      "timestamp": 1806559200
+    },
+    {
+      "date": "2027-04-02",
+      "netflow_total": 769.7352,
+      "netflow_mean": -0.00664,
+      "timestamp": 1806645600
+    },
+    {
+      "date": "2027-04-03",
+      "netflow_total": -456.8595,
+      "netflow_mean": -0.138965,
+      "timestamp": 1806732000
+    },
+    {
+      "date": "2027-04-04",
+      "netflow_total": 1340.8543,
+      "netflow_mean": -0.56679,
+      "timestamp": 1806818400
+    },
+    {
+      "date": "2027-04-05",
+      "netflow_total": 683.1707,
+      "netflow_mean": 0.018936,
+      "timestamp": 1806904800
+    },
+    {
+      "date": "2027-04-06",
+      "netflow_total": 403.4458,
+      "netflow_mean": -0.285519,
+      "timestamp": 1806991200
+    },
+    {
+      "date": "2027-04-07",
+      "netflow_total": -624.4861,
+      "netflow_mean": 0.27684,
+      "timestamp": 1807077600
+    },
+    {
+      "date": "2027-04-08",
+      "netflow_total": 523.0013,
+      "netflow_mean": -0.056272,
+      "timestamp": 1807164000
+    },
+    {
+      "date": "2027-04-09",
+      "netflow_total": 297.6954,
+      "netflow_mean": 0.11409,
+      "timestamp": 1807250400
+    },
+    {
+      "date": "2027-04-10",
+      "netflow_total": 371.2198,
+      "netflow_mean": -0.299209,
+      "timestamp": 1807336800
+    },
+    {
+      "date": "2027-04-11",
+      "netflow_total": 252.4922,
+      "netflow_mean": -0.547568,
+      "timestamp": 1807423200
+    },
+    {
+      "date": "2027-04-12",
+      "netflow_total": -1583.3505,
+      "netflow_mean": -0.076332,
+      "timestamp": 1807509600
+    },
+    {
+      "date": "2027-04-13",
+      "netflow_total": -910.8301,
+      "netflow_mean": -0.2717,
+      "timestamp": 1807596000
+    },
+    {
+      "date": "2027-04-14",
+      "netflow_total": 438.7303,
+      "netflow_mean": -0.074074,
+      "timestamp": 1807682400
+    },
+    {
+      "date": "2027-04-15",
+      "netflow_total": 1235.1136,
+      "netflow_mean": -0.222247,
+      "timestamp": 1807768800
+    },
+    {
+      "date": "2027-04-16",
+      "netflow_total": -872.9867,
+      "netflow_mean": 0.080461,
+      "timestamp": 1807855200
+    },
+    {
+      "date": "2027-04-17",
+      "netflow_total": 860.8925,
+      "netflow_mean": -0.156279,
+      "timestamp": 1807941600
+    },
+    {
+      "date": "2027-04-18",
+      "netflow_total": 504.7017,
+      "netflow_mean": 0.365611,
+      "timestamp": 1808028000
+    },
+    {
+      "date": "2027-04-19",
+      "netflow_total": -1234.0175,
+      "netflow_mean": 0.380347,
+      "timestamp": 1808114400
+    },
+    {
+      "date": "2027-04-20",
+      "netflow_total": -702.9046,
+      "netflow_mean": 0.410289,
+      "timestamp": 1808200800
+    },
+    {
+      "date": "2027-04-21",
+      "netflow_total": 2076.67,
+      "netflow_mean": 0.339524,
+      "timestamp": 1808287200
+    },
+    {
+      "date": "2027-04-22",
+      "netflow_total": 580.6289,
+      "netflow_mean": -0.242236,
+      "timestamp": 1808373600
+    },
+    {
+      "date": "2027-04-23",
+      "netflow_total": -101.9386,
+      "netflow_mean": -0.172159,
+      "timestamp": 1808460000
+    },
+    {
+      "date": "2027-04-24",
+      "netflow_total": 2763.1092,
+      "netflow_mean": -0.031584,
+      "timestamp": 1808546400
+    },
+    {
+      "date": "2027-04-25",
+      "netflow_total": -843.2188,
+      "netflow_mean": 0.006587,
+      "timestamp": 1808632800
+    },
+    {
+      "date": "2027-04-26",
+      "netflow_total": -631.772,
+      "netflow_mean": 0.009686,
+      "timestamp": 1808719200
+    },
+    {
+      "date": "2027-04-27",
+      "netflow_total": -1593.1947,
+      "netflow_mean": -0.12693,
+      "timestamp": 1808805600
+    },
+    {
+      "date": "2027-04-28",
+      "netflow_total": -1269.1066,
+      "netflow_mean": 0.017157,
+      "timestamp": 1808892000
+    },
+    {
+      "date": "2027-04-29",
+      "netflow_total": 408.8106,
+      "netflow_mean": 0.533271,
+      "timestamp": 1808978400
+    },
+    {
+      "date": "2027-04-30",
+      "netflow_total": -1120.3932,
+      "netflow_mean": -0.496446,
+      "timestamp": 1809064800
+    },
+    {
+      "date": "2027-05-01",
+      "netflow_total": 381.7491,
+      "netflow_mean": 0.468555,
+      "timestamp": 1809151200
+    },
+    {
+      "date": "2027-05-02",
+      "netflow_total": -551.8507,
+      "netflow_mean": 0.152513,
+      "timestamp": 1809237600
+    },
+    {
+      "date": "2027-05-03",
+      "netflow_total": 1759.9907,
+      "netflow_mean": 0.015697,
+      "timestamp": 1809324000
+    },
+    {
+      "date": "2027-05-04",
+      "netflow_total": 1115.6357,
+      "netflow_mean": -0.002068,
+      "timestamp": 1809410400
+    },
+    {
+      "date": "2027-05-05",
+      "netflow_total": 1.4335,
+      "netflow_mean": 0.244535,
+      "timestamp": 1809496800
+    },
+    {
+      "date": "2027-05-06",
+      "netflow_total": -1446.3852,
+      "netflow_mean": -0.53445,
+      "timestamp": 1809583200
+    },
+    {
+      "date": "2027-05-07",
+      "netflow_total": 897.6365,
+      "netflow_mean": 0.027397,
+      "timestamp": 1809669600
+    },
+    {
+      "date": "2027-05-08",
+      "netflow_total": -191.4873,
+      "netflow_mean": -0.291841,
+      "timestamp": 1809756000
+    },
+    {
+      "date": "2027-05-09",
+      "netflow_total": 1957.8528,
+      "netflow_mean": 0.066959,
+      "timestamp": 1809842400
+    },
+    {
+      "date": "2027-05-10",
+      "netflow_total": -1990.7229,
+      "netflow_mean": -0.164736,
+      "timestamp": 1809928800
+    },
+    {
+      "date": "2027-05-11",
+      "netflow_total": -1801.6546,
+      "netflow_mean": -0.144673,
+      "timestamp": 1810015200
+    },
+    {
+      "date": "2027-05-12",
+      "netflow_total": 1999.1605,
+      "netflow_mean": 0.357817,
+      "timestamp": 1810101600
+    },
+    {
+      "date": "2027-05-13",
+      "netflow_total": 322.12,
+      "netflow_mean": -0.470714,
+      "timestamp": 1810188000
+    },
+    {
+      "date": "2027-05-14",
+      "netflow_total": 1147.3157,
+      "netflow_mean": 0.282037,
+      "timestamp": 1810274400
+    },
+    {
+      "date": "2027-05-15",
+      "netflow_total": 187.7972,
+      "netflow_mean": -0.147719,
+      "timestamp": 1810360800
+    },
+    {
+      "date": "2027-05-16",
+      "netflow_total": -1046.8196,
+      "netflow_mean": -0.344411,
+      "timestamp": 1810447200
+    },
+    {
+      "date": "2027-05-17",
+      "netflow_total": -786.8346,
+      "netflow_mean": 0.468468,
+      "timestamp": 1810533600
+    },
+    {
+      "date": "2027-05-18",
+      "netflow_total": 741.8146,
+      "netflow_mean": 0.589591,
+      "timestamp": 1810620000
+    },
+    {
+      "date": "2027-05-19",
+      "netflow_total": 22.5483,
+      "netflow_mean": -0.369218,
+      "timestamp": 1810706400
+    },
+    {
+      "date": "2027-05-20",
+      "netflow_total": -127.987,
+      "netflow_mean": -0.381566,
+      "timestamp": 1810792800
+    },
+    {
+      "date": "2027-05-21",
+      "netflow_total": -1260.1867,
+      "netflow_mean": 0.000614,
+      "timestamp": 1810879200
+    },
+    {
+      "date": "2027-05-22",
+      "netflow_total": 343.9468,
+      "netflow_mean": 0.064173,
+      "timestamp": 1810965600
+    },
+    {
+      "date": "2027-05-23",
+      "netflow_total": -852.1255,
+      "netflow_mean": -0.209516,
+      "timestamp": 1811052000
+    },
+    {
+      "date": "2027-05-24",
+      "netflow_total": -1186.812,
+      "netflow_mean": 0.298165,
+      "timestamp": 1811138400
+    },
+    {
+      "date": "2027-05-25",
+      "netflow_total": -417.4867,
+      "netflow_mean": -0.028294,
+      "timestamp": 1811224800
+    },
+    {
+      "date": "2027-05-26",
+      "netflow_total": -385.2284,
+      "netflow_mean": 0.077688,
+      "timestamp": 1811311200
+    },
+    {
+      "date": "2027-05-27",
+      "netflow_total": -288.4404,
+      "netflow_mean": 0.363588,
+      "timestamp": 1811397600
+    },
+    {
+      "date": "2027-05-28",
+      "netflow_total": -1059.443,
+      "netflow_mean": -0.377305,
+      "timestamp": 1811484000
+    },
+    {
+      "date": "2027-05-29",
+      "netflow_total": 178.766,
+      "netflow_mean": 0.146525,
+      "timestamp": 1811570400
+    },
+    {
+      "date": "2027-05-30",
+      "netflow_total": 744.0217,
+      "netflow_mean": -0.531571,
+      "timestamp": 1811656800
+    },
+    {
+      "date": "2027-05-31",
+      "netflow_total": 50.4751,
+      "netflow_mean": -0.143971,
+      "timestamp": 1811743200
+    },
+    {
+      "date": "2027-06-01",
+      "netflow_total": -305.7306,
+      "netflow_mean": -0.257137,
+      "timestamp": 1811829600
+    },
+    {
+      "date": "2027-06-02",
+      "netflow_total": 1267.5268,
+      "netflow_mean": 0.714678,
+      "timestamp": 1811916000
+    },
+    {
+      "date": "2027-06-03",
+      "netflow_total": -807.7716,
+      "netflow_mean": -0.337117,
+      "timestamp": 1812002400
+    },
+    {
+      "date": "2027-06-04",
+      "netflow_total": 522.6014,
+      "netflow_mean": -0.38935,
+      "timestamp": 1812088800
+    },
+    {
+      "date": "2027-06-05",
+      "netflow_total": 1312.9453,
+      "netflow_mean": 0.142394,
+      "timestamp": 1812175200
+    },
+    {
+      "date": "2027-06-06",
+      "netflow_total": 2061.9687,
+      "netflow_mean": 0.333488,
+      "timestamp": 1812261600
+    },
+    {
+      "date": "2027-06-07",
+      "netflow_total": 522.3639,
+      "netflow_mean": 0.367075,
+      "timestamp": 1812348000
+    },
+    {
+      "date": "2027-06-08",
+      "netflow_total": -2367.0553,
+      "netflow_mean": 0.615236,
+      "timestamp": 1812434400
+    },
+    {
+      "date": "2027-06-09",
+      "netflow_total": -2418.2621,
+      "netflow_mean": -0.051369,
+      "timestamp": 1812520800
+    },
+    {
+      "date": "2027-06-10",
+      "netflow_total": -1011.3949,
+      "netflow_mean": -0.438432,
+      "timestamp": 1812607200
+    },
+    {
+      "date": "2027-06-11",
+      "netflow_total": 627.8769,
+      "netflow_mean": -0.302546,
+      "timestamp": 1812693600
+    },
+    {
+      "date": "2027-06-12",
+      "netflow_total": 1781.4412,
+      "netflow_mean": -0.153808,
+      "timestamp": 1812780000
+    },
+    {
+      "date": "2027-06-13",
+      "netflow_total": -528.0583,
+      "netflow_mean": 0.070394,
+      "timestamp": 1812866400
+    },
+    {
+      "date": "2027-06-14",
+      "netflow_total": 1717.3023,
+      "netflow_mean": 0.153644,
+      "timestamp": 1812952800
+    },
+    {
+      "date": "2027-06-15",
+      "netflow_total": 1900.1764,
+      "netflow_mean": -0.2903,
+      "timestamp": 1813039200
+    },
+    {
+      "date": "2027-06-16",
+      "netflow_total": -2412.3398,
+      "netflow_mean": -0.062004,
+      "timestamp": 1813125600
+    },
+    {
+      "date": "2027-06-17",
+      "netflow_total": -292.1114,
+      "netflow_mean": 0.461488,
+      "timestamp": 1813212000
+    },
+    {
+      "date": "2027-06-18",
+      "netflow_total": 398.1317,
+      "netflow_mean": -0.02855,
+      "timestamp": 1813298400
+    },
+    {
+      "date": "2027-06-19",
+      "netflow_total": 625.7175,
+      "netflow_mean": 0.056041,
+      "timestamp": 1813384800
+    },
+    {
+      "date": "2027-06-20",
+      "netflow_total": -1444.0225,
+      "netflow_mean": -0.32473,
+      "timestamp": 1813471200
+    },
+    {
+      "date": "2027-06-21",
+      "netflow_total": 1374.4902,
+      "netflow_mean": 0.096325,
+      "timestamp": 1813557600
+    },
+    {
+      "date": "2027-06-22",
+      "netflow_total": -3734.7686,
+      "netflow_mean": -0.378243,
+      "timestamp": 1813644000
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_institutional_flows_exchange_netflow",
+    "path": "/btc/exchange-flows/netflow",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/institutional_flows/exchange_netflow/day_raw.json",
+    "raw_shape": "status_result_data_exchange_netflow",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 365,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

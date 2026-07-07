@@ -304,7 +304,8 @@ def _write_zip(root: Path, zip_path: Path) -> None:
 
 
 def _load_endpoints(provider: str) -> list[dict[str, Any]]:
-    module = import_module(f"processing_signals.input.apis.{provider}.endpoint_registry")
+    module_name = "endpoint_registry" if provider == "external_indices" else f"endpoint_registry_{provider}"
+    module = import_module(f"processing_signals.input.apis.{provider}.{module_name}")
     return list(getattr(module, "ENDPOINTS"))
 
 

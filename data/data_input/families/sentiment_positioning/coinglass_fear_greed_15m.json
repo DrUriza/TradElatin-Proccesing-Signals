@@ -1,0 +1,3630 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "coinglass",
+  "family": "sentiment_positioning",
+  "subtype": "fear_greed",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "15m",
+  "extraction_window": null,
+  "records": [
+    {
+      "time": 1782172800000,
+      "value": 65.23,
+      "classification": "greed",
+      "timestamp": 1782172800
+    },
+    {
+      "time": 1782173700000,
+      "value": 49.6,
+      "classification": "neutral",
+      "timestamp": 1782173700
+    },
+    {
+      "time": 1782174600000,
+      "value": 52.91,
+      "classification": "neutral",
+      "timestamp": 1782174600
+    },
+    {
+      "time": 1782175500000,
+      "value": 59.81,
+      "classification": "neutral",
+      "timestamp": 1782175500
+    },
+    {
+      "time": 1782176400000,
+      "value": 40.89,
+      "classification": "neutral",
+      "timestamp": 1782176400
+    },
+    {
+      "time": 1782177300000,
+      "value": 58.19,
+      "classification": "neutral",
+      "timestamp": 1782177300
+    },
+    {
+      "time": 1782178200000,
+      "value": 57.95,
+      "classification": "neutral",
+      "timestamp": 1782178200
+    },
+    {
+      "time": 1782179100000,
+      "value": 63.75,
+      "classification": "greed",
+      "timestamp": 1782179100
+    },
+    {
+      "time": 1782180000000,
+      "value": 57.08,
+      "classification": "neutral",
+      "timestamp": 1782180000
+    },
+    {
+      "time": 1782180900000,
+      "value": 54.96,
+      "classification": "neutral",
+      "timestamp": 1782180900
+    },
+    {
+      "time": 1782181800000,
+      "value": 57.15,
+      "classification": "neutral",
+      "timestamp": 1782181800
+    },
+    {
+      "time": 1782182700000,
+      "value": 62.28,
+      "classification": "greed",
+      "timestamp": 1782182700
+    },
+    {
+      "time": 1782183600000,
+      "value": 66.96,
+      "classification": "greed",
+      "timestamp": 1782183600
+    },
+    {
+      "time": 1782184500000,
+      "value": 75.14,
+      "classification": "greed",
+      "timestamp": 1782184500
+    },
+    {
+      "time": 1782185400000,
+      "value": 51.95,
+      "classification": "neutral",
+      "timestamp": 1782185400
+    },
+    {
+      "time": 1782186300000,
+      "value": 69.14,
+      "classification": "greed",
+      "timestamp": 1782186300
+    },
+    {
+      "time": 1782187200000,
+      "value": 65.53,
+      "classification": "greed",
+      "timestamp": 1782187200
+    },
+    {
+      "time": 1782188100000,
+      "value": 57.31,
+      "classification": "neutral",
+      "timestamp": 1782188100
+    },
+    {
+      "time": 1782189000000,
+      "value": 71.35,
+      "classification": "greed",
+      "timestamp": 1782189000
+    },
+    {
+      "time": 1782189900000,
+      "value": 70.79,
+      "classification": "greed",
+      "timestamp": 1782189900
+    },
+    {
+      "time": 1782190800000,
+      "value": 61.47,
+      "classification": "greed",
+      "timestamp": 1782190800
+    },
+    {
+      "time": 1782191700000,
+      "value": 65.03,
+      "classification": "greed",
+      "timestamp": 1782191700
+    },
+    {
+      "time": 1782192600000,
+      "value": 60.54,
+      "classification": "greed",
+      "timestamp": 1782192600
+    },
+    {
+      "time": 1782193500000,
+      "value": 67.11,
+      "classification": "greed",
+      "timestamp": 1782193500
+    },
+    {
+      "time": 1782194400000,
+      "value": 70.7,
+      "classification": "greed",
+      "timestamp": 1782194400
+    },
+    {
+      "time": 1782195300000,
+      "value": 76.24,
+      "classification": "greed",
+      "timestamp": 1782195300
+    },
+    {
+      "time": 1782196200000,
+      "value": 70.41,
+      "classification": "greed",
+      "timestamp": 1782196200
+    },
+    {
+      "time": 1782197100000,
+      "value": 72.08,
+      "classification": "greed",
+      "timestamp": 1782197100
+    },
+    {
+      "time": 1782198000000,
+      "value": 69.05,
+      "classification": "greed",
+      "timestamp": 1782198000
+    },
+    {
+      "time": 1782198900000,
+      "value": 70.75,
+      "classification": "greed",
+      "timestamp": 1782198900
+    },
+    {
+      "time": 1782199800000,
+      "value": 66.43,
+      "classification": "greed",
+      "timestamp": 1782199800
+    },
+    {
+      "time": 1782200700000,
+      "value": 74.19,
+      "classification": "greed",
+      "timestamp": 1782200700
+    },
+    {
+      "time": 1782201600000,
+      "value": 76.56,
+      "classification": "greed",
+      "timestamp": 1782201600
+    },
+    {
+      "time": 1782202500000,
+      "value": 63.05,
+      "classification": "greed",
+      "timestamp": 1782202500
+    },
+    {
+      "time": 1782203400000,
+      "value": 74.29,
+      "classification": "greed",
+      "timestamp": 1782203400
+    },
+    {
+      "time": 1782204300000,
+      "value": 79.36,
+      "classification": "greed",
+      "timestamp": 1782204300
+    },
+    {
+      "time": 1782205200000,
+      "value": 70.37,
+      "classification": "greed",
+      "timestamp": 1782205200
+    },
+    {
+      "time": 1782206100000,
+      "value": 74.71,
+      "classification": "greed",
+      "timestamp": 1782206100
+    },
+    {
+      "time": 1782207000000,
+      "value": 76.04,
+      "classification": "greed",
+      "timestamp": 1782207000
+    },
+    {
+      "time": 1782207900000,
+      "value": 81.99,
+      "classification": "greed",
+      "timestamp": 1782207900
+    },
+    {
+      "time": 1782208800000,
+      "value": 76.95,
+      "classification": "greed",
+      "timestamp": 1782208800
+    },
+    {
+      "time": 1782209700000,
+      "value": 82.17,
+      "classification": "greed",
+      "timestamp": 1782209700
+    },
+    {
+      "time": 1782210600000,
+      "value": 72.11,
+      "classification": "greed",
+      "timestamp": 1782210600
+    },
+    {
+      "time": 1782211500000,
+      "value": 74.47,
+      "classification": "greed",
+      "timestamp": 1782211500
+    },
+    {
+      "time": 1782212400000,
+      "value": 75.25,
+      "classification": "greed",
+      "timestamp": 1782212400
+    },
+    {
+      "time": 1782213300000,
+      "value": 89.48,
+      "classification": "greed",
+      "timestamp": 1782213300
+    },
+    {
+      "time": 1782214200000,
+      "value": 78.27,
+      "classification": "greed",
+      "timestamp": 1782214200
+    },
+    {
+      "time": 1782215100000,
+      "value": 78.31,
+      "classification": "greed",
+      "timestamp": 1782215100
+    },
+    {
+      "time": 1782216000000,
+      "value": 77.63,
+      "classification": "greed",
+      "timestamp": 1782216000
+    },
+    {
+      "time": 1782216900000,
+      "value": 76.63,
+      "classification": "greed",
+      "timestamp": 1782216900
+    },
+    {
+      "time": 1782217800000,
+      "value": 80.66,
+      "classification": "greed",
+      "timestamp": 1782217800
+    },
+    {
+      "time": 1782218700000,
+      "value": 80.03,
+      "classification": "greed",
+      "timestamp": 1782218700
+    },
+    {
+      "time": 1782219600000,
+      "value": 80.38,
+      "classification": "greed",
+      "timestamp": 1782219600
+    },
+    {
+      "time": 1782220500000,
+      "value": 74.78,
+      "classification": "greed",
+      "timestamp": 1782220500
+    },
+    {
+      "time": 1782221400000,
+      "value": 83.64,
+      "classification": "greed",
+      "timestamp": 1782221400
+    },
+    {
+      "time": 1782222300000,
+      "value": 72.73,
+      "classification": "greed",
+      "timestamp": 1782222300
+    },
+    {
+      "time": 1782223200000,
+      "value": 74.69,
+      "classification": "greed",
+      "timestamp": 1782223200
+    },
+    {
+      "time": 1782224100000,
+      "value": 80.14,
+      "classification": "greed",
+      "timestamp": 1782224100
+    },
+    {
+      "time": 1782225000000,
+      "value": 76.04,
+      "classification": "greed",
+      "timestamp": 1782225000
+    },
+    {
+      "time": 1782225900000,
+      "value": 71.67,
+      "classification": "greed",
+      "timestamp": 1782225900
+    },
+    {
+      "time": 1782226800000,
+      "value": 76.26,
+      "classification": "greed",
+      "timestamp": 1782226800
+    },
+    {
+      "time": 1782227700000,
+      "value": 75.03,
+      "classification": "greed",
+      "timestamp": 1782227700
+    },
+    {
+      "time": 1782228600000,
+      "value": 71.98,
+      "classification": "greed",
+      "timestamp": 1782228600
+    },
+    {
+      "time": 1782229500000,
+      "value": 71.14,
+      "classification": "greed",
+      "timestamp": 1782229500
+    },
+    {
+      "time": 1782230400000,
+      "value": 71.63,
+      "classification": "greed",
+      "timestamp": 1782230400
+    },
+    {
+      "time": 1782231300000,
+      "value": 72.66,
+      "classification": "greed",
+      "timestamp": 1782231300
+    },
+    {
+      "time": 1782232200000,
+      "value": 87.01,
+      "classification": "greed",
+      "timestamp": 1782232200
+    },
+    {
+      "time": 1782233100000,
+      "value": 72.08,
+      "classification": "greed",
+      "timestamp": 1782233100
+    },
+    {
+      "time": 1782234000000,
+      "value": 70.25,
+      "classification": "greed",
+      "timestamp": 1782234000
+    },
+    {
+      "time": 1782234900000,
+      "value": 67.74,
+      "classification": "greed",
+      "timestamp": 1782234900
+    },
+    {
+      "time": 1782235800000,
+      "value": 78.97,
+      "classification": "greed",
+      "timestamp": 1782235800
+    },
+    {
+      "time": 1782236700000,
+      "value": 75.47,
+      "classification": "greed",
+      "timestamp": 1782236700
+    },
+    {
+      "time": 1782237600000,
+      "value": 74.21,
+      "classification": "greed",
+      "timestamp": 1782237600
+    },
+    {
+      "time": 1782238500000,
+      "value": 63.71,
+      "classification": "greed",
+      "timestamp": 1782238500
+    },
+    {
+      "time": 1782239400000,
+      "value": 80.53,
+      "classification": "greed",
+      "timestamp": 1782239400
+    },
+    {
+      "time": 1782240300000,
+      "value": 74.53,
+      "classification": "greed",
+      "timestamp": 1782240300
+    },
+    {
+      "time": 1782241200000,
+      "value": 75.96,
+      "classification": "greed",
+      "timestamp": 1782241200
+    },
+    {
+      "time": 1782242100000,
+      "value": 73.76,
+      "classification": "greed",
+      "timestamp": 1782242100
+    },
+    {
+      "time": 1782243000000,
+      "value": 75.9,
+      "classification": "greed",
+      "timestamp": 1782243000
+    },
+    {
+      "time": 1782243900000,
+      "value": 77.27,
+      "classification": "greed",
+      "timestamp": 1782243900
+    },
+    {
+      "time": 1782244800000,
+      "value": 82.69,
+      "classification": "greed",
+      "timestamp": 1782244800
+    },
+    {
+      "time": 1782245700000,
+      "value": 61.22,
+      "classification": "greed",
+      "timestamp": 1782245700
+    },
+    {
+      "time": 1782246600000,
+      "value": 67.59,
+      "classification": "greed",
+      "timestamp": 1782246600
+    },
+    {
+      "time": 1782247500000,
+      "value": 79.88,
+      "classification": "greed",
+      "timestamp": 1782247500
+    },
+    {
+      "time": 1782248400000,
+      "value": 64.1,
+      "classification": "greed",
+      "timestamp": 1782248400
+    },
+    {
+      "time": 1782249300000,
+      "value": 66.16,
+      "classification": "greed",
+      "timestamp": 1782249300
+    },
+    {
+      "time": 1782250200000,
+      "value": 74.98,
+      "classification": "greed",
+      "timestamp": 1782250200
+    },
+    {
+      "time": 1782251100000,
+      "value": 56.31,
+      "classification": "neutral",
+      "timestamp": 1782251100
+    },
+    {
+      "time": 1782252000000,
+      "value": 75.06,
+      "classification": "greed",
+      "timestamp": 1782252000
+    },
+    {
+      "time": 1782252900000,
+      "value": 80.9,
+      "classification": "greed",
+      "timestamp": 1782252900
+    },
+    {
+      "time": 1782253800000,
+      "value": 63.04,
+      "classification": "greed",
+      "timestamp": 1782253800
+    },
+    {
+      "time": 1782254700000,
+      "value": 68.65,
+      "classification": "greed",
+      "timestamp": 1782254700
+    },
+    {
+      "time": 1782255600000,
+      "value": 52.22,
+      "classification": "neutral",
+      "timestamp": 1782255600
+    },
+    {
+      "time": 1782256500000,
+      "value": 72.93,
+      "classification": "greed",
+      "timestamp": 1782256500
+    },
+    {
+      "time": 1782257400000,
+      "value": 70.48,
+      "classification": "greed",
+      "timestamp": 1782257400
+    },
+    {
+      "time": 1782258300000,
+      "value": 67.14,
+      "classification": "greed",
+      "timestamp": 1782258300
+    },
+    {
+      "time": 1782259200000,
+      "value": 58.88,
+      "classification": "neutral",
+      "timestamp": 1782259200
+    },
+    {
+      "time": 1782260100000,
+      "value": 62.57,
+      "classification": "greed",
+      "timestamp": 1782260100
+    },
+    {
+      "time": 1782261000000,
+      "value": 57.89,
+      "classification": "neutral",
+      "timestamp": 1782261000
+    },
+    {
+      "time": 1782261900000,
+      "value": 68.23,
+      "classification": "greed",
+      "timestamp": 1782261900
+    },
+    {
+      "time": 1782262800000,
+      "value": 56.94,
+      "classification": "neutral",
+      "timestamp": 1782262800
+    },
+    {
+      "time": 1782263700000,
+      "value": 57.84,
+      "classification": "neutral",
+      "timestamp": 1782263700
+    },
+    {
+      "time": 1782264600000,
+      "value": 61.04,
+      "classification": "greed",
+      "timestamp": 1782264600
+    },
+    {
+      "time": 1782265500000,
+      "value": 55.35,
+      "classification": "neutral",
+      "timestamp": 1782265500
+    },
+    {
+      "time": 1782266400000,
+      "value": 57.1,
+      "classification": "neutral",
+      "timestamp": 1782266400
+    },
+    {
+      "time": 1782267300000,
+      "value": 51.82,
+      "classification": "neutral",
+      "timestamp": 1782267300
+    },
+    {
+      "time": 1782268200000,
+      "value": 57.17,
+      "classification": "neutral",
+      "timestamp": 1782268200
+    },
+    {
+      "time": 1782269100000,
+      "value": 54.82,
+      "classification": "neutral",
+      "timestamp": 1782269100
+    },
+    {
+      "time": 1782270000000,
+      "value": 66.22,
+      "classification": "greed",
+      "timestamp": 1782270000
+    },
+    {
+      "time": 1782270900000,
+      "value": 61.4,
+      "classification": "greed",
+      "timestamp": 1782270900
+    },
+    {
+      "time": 1782271800000,
+      "value": 62.11,
+      "classification": "greed",
+      "timestamp": 1782271800
+    },
+    {
+      "time": 1782272700000,
+      "value": 49.44,
+      "classification": "neutral",
+      "timestamp": 1782272700
+    },
+    {
+      "time": 1782273600000,
+      "value": 46.53,
+      "classification": "neutral",
+      "timestamp": 1782273600
+    },
+    {
+      "time": 1782274500000,
+      "value": 51.76,
+      "classification": "neutral",
+      "timestamp": 1782274500
+    },
+    {
+      "time": 1782275400000,
+      "value": 43.53,
+      "classification": "neutral",
+      "timestamp": 1782275400
+    },
+    {
+      "time": 1782276300000,
+      "value": 56.78,
+      "classification": "neutral",
+      "timestamp": 1782276300
+    },
+    {
+      "time": 1782277200000,
+      "value": 50.18,
+      "classification": "neutral",
+      "timestamp": 1782277200
+    },
+    {
+      "time": 1782278100000,
+      "value": 44.61,
+      "classification": "neutral",
+      "timestamp": 1782278100
+    },
+    {
+      "time": 1782279000000,
+      "value": 56.47,
+      "classification": "neutral",
+      "timestamp": 1782279000
+    },
+    {
+      "time": 1782279900000,
+      "value": 48.08,
+      "classification": "neutral",
+      "timestamp": 1782279900
+    },
+    {
+      "time": 1782280800000,
+      "value": 47.33,
+      "classification": "neutral",
+      "timestamp": 1782280800
+    },
+    {
+      "time": 1782281700000,
+      "value": 51.78,
+      "classification": "neutral",
+      "timestamp": 1782281700
+    },
+    {
+      "time": 1782282600000,
+      "value": 50.33,
+      "classification": "neutral",
+      "timestamp": 1782282600
+    },
+    {
+      "time": 1782283500000,
+      "value": 42.72,
+      "classification": "neutral",
+      "timestamp": 1782283500
+    },
+    {
+      "time": 1782284400000,
+      "value": 46.17,
+      "classification": "neutral",
+      "timestamp": 1782284400
+    },
+    {
+      "time": 1782285300000,
+      "value": 51.33,
+      "classification": "neutral",
+      "timestamp": 1782285300
+    },
+    {
+      "time": 1782286200000,
+      "value": 47.92,
+      "classification": "neutral",
+      "timestamp": 1782286200
+    },
+    {
+      "time": 1782287100000,
+      "value": 39.11,
+      "classification": "fear",
+      "timestamp": 1782287100
+    },
+    {
+      "time": 1782288000000,
+      "value": 38.87,
+      "classification": "fear",
+      "timestamp": 1782288000
+    },
+    {
+      "time": 1782288900000,
+      "value": 44.54,
+      "classification": "neutral",
+      "timestamp": 1782288900
+    },
+    {
+      "time": 1782289800000,
+      "value": 46.22,
+      "classification": "neutral",
+      "timestamp": 1782289800
+    },
+    {
+      "time": 1782290700000,
+      "value": 29.9,
+      "classification": "fear",
+      "timestamp": 1782290700
+    },
+    {
+      "time": 1782291600000,
+      "value": 45.97,
+      "classification": "neutral",
+      "timestamp": 1782291600
+    },
+    {
+      "time": 1782292500000,
+      "value": 48.94,
+      "classification": "neutral",
+      "timestamp": 1782292500
+    },
+    {
+      "time": 1782293400000,
+      "value": 42.51,
+      "classification": "neutral",
+      "timestamp": 1782293400
+    },
+    {
+      "time": 1782294300000,
+      "value": 46.11,
+      "classification": "neutral",
+      "timestamp": 1782294300
+    },
+    {
+      "time": 1782295200000,
+      "value": 31.5,
+      "classification": "fear",
+      "timestamp": 1782295200
+    },
+    {
+      "time": 1782296100000,
+      "value": 28.02,
+      "classification": "fear",
+      "timestamp": 1782296100
+    },
+    {
+      "time": 1782297000000,
+      "value": 47.26,
+      "classification": "neutral",
+      "timestamp": 1782297000
+    },
+    {
+      "time": 1782297900000,
+      "value": 36.87,
+      "classification": "fear",
+      "timestamp": 1782297900
+    },
+    {
+      "time": 1782298800000,
+      "value": 38.99,
+      "classification": "fear",
+      "timestamp": 1782298800
+    },
+    {
+      "time": 1782299700000,
+      "value": 27.31,
+      "classification": "fear",
+      "timestamp": 1782299700
+    },
+    {
+      "time": 1782300600000,
+      "value": 34.69,
+      "classification": "fear",
+      "timestamp": 1782300600
+    },
+    {
+      "time": 1782301500000,
+      "value": 43.81,
+      "classification": "neutral",
+      "timestamp": 1782301500
+    },
+    {
+      "time": 1782302400000,
+      "value": 41.69,
+      "classification": "neutral",
+      "timestamp": 1782302400
+    },
+    {
+      "time": 1782303300000,
+      "value": 36.68,
+      "classification": "fear",
+      "timestamp": 1782303300
+    },
+    {
+      "time": 1782304200000,
+      "value": 35.27,
+      "classification": "fear",
+      "timestamp": 1782304200
+    },
+    {
+      "time": 1782305100000,
+      "value": 37.99,
+      "classification": "fear",
+      "timestamp": 1782305100
+    },
+    {
+      "time": 1782306000000,
+      "value": 34.69,
+      "classification": "fear",
+      "timestamp": 1782306000
+    },
+    {
+      "time": 1782306900000,
+      "value": 31.74,
+      "classification": "fear",
+      "timestamp": 1782306900
+    },
+    {
+      "time": 1782307800000,
+      "value": 38.34,
+      "classification": "fear",
+      "timestamp": 1782307800
+    },
+    {
+      "time": 1782308700000,
+      "value": 19.8,
+      "classification": "fear",
+      "timestamp": 1782308700
+    },
+    {
+      "time": 1782309600000,
+      "value": 32.71,
+      "classification": "fear",
+      "timestamp": 1782309600
+    },
+    {
+      "time": 1782310500000,
+      "value": 31.57,
+      "classification": "fear",
+      "timestamp": 1782310500
+    },
+    {
+      "time": 1782311400000,
+      "value": 35.84,
+      "classification": "fear",
+      "timestamp": 1782311400
+    },
+    {
+      "time": 1782312300000,
+      "value": 43.16,
+      "classification": "neutral",
+      "timestamp": 1782312300
+    },
+    {
+      "time": 1782313200000,
+      "value": 38.24,
+      "classification": "fear",
+      "timestamp": 1782313200
+    },
+    {
+      "time": 1782314100000,
+      "value": 26.27,
+      "classification": "fear",
+      "timestamp": 1782314100
+    },
+    {
+      "time": 1782315000000,
+      "value": 37.07,
+      "classification": "fear",
+      "timestamp": 1782315000
+    },
+    {
+      "time": 1782315900000,
+      "value": 27.88,
+      "classification": "fear",
+      "timestamp": 1782315900
+    },
+    {
+      "time": 1782316800000,
+      "value": 33.65,
+      "classification": "fear",
+      "timestamp": 1782316800
+    },
+    {
+      "time": 1782317700000,
+      "value": 26.51,
+      "classification": "fear",
+      "timestamp": 1782317700
+    },
+    {
+      "time": 1782318600000,
+      "value": 50.24,
+      "classification": "neutral",
+      "timestamp": 1782318600
+    },
+    {
+      "time": 1782319500000,
+      "value": 34.48,
+      "classification": "fear",
+      "timestamp": 1782319500
+    },
+    {
+      "time": 1782320400000,
+      "value": 39.23,
+      "classification": "fear",
+      "timestamp": 1782320400
+    },
+    {
+      "time": 1782321300000,
+      "value": 27.32,
+      "classification": "fear",
+      "timestamp": 1782321300
+    },
+    {
+      "time": 1782322200000,
+      "value": 31.75,
+      "classification": "fear",
+      "timestamp": 1782322200
+    },
+    {
+      "time": 1782323100000,
+      "value": 24.85,
+      "classification": "fear",
+      "timestamp": 1782323100
+    },
+    {
+      "time": 1782324000000,
+      "value": 37.52,
+      "classification": "fear",
+      "timestamp": 1782324000
+    },
+    {
+      "time": 1782324900000,
+      "value": 39.55,
+      "classification": "fear",
+      "timestamp": 1782324900
+    },
+    {
+      "time": 1782325800000,
+      "value": 35.62,
+      "classification": "fear",
+      "timestamp": 1782325800
+    },
+    {
+      "time": 1782326700000,
+      "value": 41.26,
+      "classification": "neutral",
+      "timestamp": 1782326700
+    },
+    {
+      "time": 1782327600000,
+      "value": 36.41,
+      "classification": "fear",
+      "timestamp": 1782327600
+    },
+    {
+      "time": 1782328500000,
+      "value": 22.3,
+      "classification": "fear",
+      "timestamp": 1782328500
+    },
+    {
+      "time": 1782329400000,
+      "value": 39.22,
+      "classification": "fear",
+      "timestamp": 1782329400
+    },
+    {
+      "time": 1782330300000,
+      "value": 37.2,
+      "classification": "fear",
+      "timestamp": 1782330300
+    },
+    {
+      "time": 1782331200000,
+      "value": 39.67,
+      "classification": "fear",
+      "timestamp": 1782331200
+    },
+    {
+      "time": 1782332100000,
+      "value": 29.97,
+      "classification": "fear",
+      "timestamp": 1782332100
+    },
+    {
+      "time": 1782333000000,
+      "value": 26.25,
+      "classification": "fear",
+      "timestamp": 1782333000
+    },
+    {
+      "time": 1782333900000,
+      "value": 39.63,
+      "classification": "fear",
+      "timestamp": 1782333900
+    },
+    {
+      "time": 1782334800000,
+      "value": 29.82,
+      "classification": "fear",
+      "timestamp": 1782334800
+    },
+    {
+      "time": 1782335700000,
+      "value": 30.33,
+      "classification": "fear",
+      "timestamp": 1782335700
+    },
+    {
+      "time": 1782336600000,
+      "value": 27.35,
+      "classification": "fear",
+      "timestamp": 1782336600
+    },
+    {
+      "time": 1782337500000,
+      "value": 32.67,
+      "classification": "fear",
+      "timestamp": 1782337500
+    },
+    {
+      "time": 1782338400000,
+      "value": 38.4,
+      "classification": "fear",
+      "timestamp": 1782338400
+    },
+    {
+      "time": 1782339300000,
+      "value": 45.17,
+      "classification": "neutral",
+      "timestamp": 1782339300
+    },
+    {
+      "time": 1782340200000,
+      "value": 38.07,
+      "classification": "fear",
+      "timestamp": 1782340200
+    },
+    {
+      "time": 1782341100000,
+      "value": 43.65,
+      "classification": "neutral",
+      "timestamp": 1782341100
+    },
+    {
+      "time": 1782342000000,
+      "value": 31.91,
+      "classification": "fear",
+      "timestamp": 1782342000
+    },
+    {
+      "time": 1782342900000,
+      "value": 39.95,
+      "classification": "fear",
+      "timestamp": 1782342900
+    },
+    {
+      "time": 1782343800000,
+      "value": 44.85,
+      "classification": "neutral",
+      "timestamp": 1782343800
+    },
+    {
+      "time": 1782344700000,
+      "value": 42.31,
+      "classification": "neutral",
+      "timestamp": 1782344700
+    },
+    {
+      "time": 1782345600000,
+      "value": 32.94,
+      "classification": "fear",
+      "timestamp": 1782345600
+    },
+    {
+      "time": 1782346500000,
+      "value": 33.24,
+      "classification": "fear",
+      "timestamp": 1782346500
+    },
+    {
+      "time": 1782347400000,
+      "value": 48.07,
+      "classification": "neutral",
+      "timestamp": 1782347400
+    },
+    {
+      "time": 1782348300000,
+      "value": 36.58,
+      "classification": "fear",
+      "timestamp": 1782348300
+    },
+    {
+      "time": 1782349200000,
+      "value": 35.87,
+      "classification": "fear",
+      "timestamp": 1782349200
+    },
+    {
+      "time": 1782350100000,
+      "value": 36.92,
+      "classification": "fear",
+      "timestamp": 1782350100
+    },
+    {
+      "time": 1782351000000,
+      "value": 36.89,
+      "classification": "fear",
+      "timestamp": 1782351000
+    },
+    {
+      "time": 1782351900000,
+      "value": 42.39,
+      "classification": "neutral",
+      "timestamp": 1782351900
+    },
+    {
+      "time": 1782352800000,
+      "value": 44.91,
+      "classification": "neutral",
+      "timestamp": 1782352800
+    },
+    {
+      "time": 1782353700000,
+      "value": 39.81,
+      "classification": "fear",
+      "timestamp": 1782353700
+    },
+    {
+      "time": 1782354600000,
+      "value": 34.2,
+      "classification": "fear",
+      "timestamp": 1782354600
+    },
+    {
+      "time": 1782355500000,
+      "value": 44.26,
+      "classification": "neutral",
+      "timestamp": 1782355500
+    },
+    {
+      "time": 1782356400000,
+      "value": 50.84,
+      "classification": "neutral",
+      "timestamp": 1782356400
+    },
+    {
+      "time": 1782357300000,
+      "value": 55.71,
+      "classification": "neutral",
+      "timestamp": 1782357300
+    },
+    {
+      "time": 1782358200000,
+      "value": 49.64,
+      "classification": "neutral",
+      "timestamp": 1782358200
+    },
+    {
+      "time": 1782359100000,
+      "value": 44.17,
+      "classification": "neutral",
+      "timestamp": 1782359100
+    },
+    {
+      "time": 1782360000000,
+      "value": 47.4,
+      "classification": "neutral",
+      "timestamp": 1782360000
+    },
+    {
+      "time": 1782360900000,
+      "value": 54.39,
+      "classification": "neutral",
+      "timestamp": 1782360900
+    },
+    {
+      "time": 1782361800000,
+      "value": 55.64,
+      "classification": "neutral",
+      "timestamp": 1782361800
+    },
+    {
+      "time": 1782362700000,
+      "value": 44.34,
+      "classification": "neutral",
+      "timestamp": 1782362700
+    },
+    {
+      "time": 1782363600000,
+      "value": 48.76,
+      "classification": "neutral",
+      "timestamp": 1782363600
+    },
+    {
+      "time": 1782364500000,
+      "value": 49.84,
+      "classification": "neutral",
+      "timestamp": 1782364500
+    },
+    {
+      "time": 1782365400000,
+      "value": 45.51,
+      "classification": "neutral",
+      "timestamp": 1782365400
+    },
+    {
+      "time": 1782366300000,
+      "value": 61.25,
+      "classification": "greed",
+      "timestamp": 1782366300
+    },
+    {
+      "time": 1782367200000,
+      "value": 57.97,
+      "classification": "neutral",
+      "timestamp": 1782367200
+    },
+    {
+      "time": 1782368100000,
+      "value": 53.59,
+      "classification": "neutral",
+      "timestamp": 1782368100
+    },
+    {
+      "time": 1782369000000,
+      "value": 67.04,
+      "classification": "greed",
+      "timestamp": 1782369000
+    },
+    {
+      "time": 1782369900000,
+      "value": 43.2,
+      "classification": "neutral",
+      "timestamp": 1782369900
+    },
+    {
+      "time": 1782370800000,
+      "value": 50.17,
+      "classification": "neutral",
+      "timestamp": 1782370800
+    },
+    {
+      "time": 1782371700000,
+      "value": 61.9,
+      "classification": "greed",
+      "timestamp": 1782371700
+    },
+    {
+      "time": 1782372600000,
+      "value": 51.58,
+      "classification": "neutral",
+      "timestamp": 1782372600
+    },
+    {
+      "time": 1782373500000,
+      "value": 58.28,
+      "classification": "neutral",
+      "timestamp": 1782373500
+    },
+    {
+      "time": 1782374400000,
+      "value": 55.04,
+      "classification": "neutral",
+      "timestamp": 1782374400
+    },
+    {
+      "time": 1782375300000,
+      "value": 58.1,
+      "classification": "neutral",
+      "timestamp": 1782375300
+    },
+    {
+      "time": 1782376200000,
+      "value": 55.46,
+      "classification": "neutral",
+      "timestamp": 1782376200
+    },
+    {
+      "time": 1782377100000,
+      "value": 62.33,
+      "classification": "greed",
+      "timestamp": 1782377100
+    },
+    {
+      "time": 1782378000000,
+      "value": 62.87,
+      "classification": "greed",
+      "timestamp": 1782378000
+    },
+    {
+      "time": 1782378900000,
+      "value": 62.59,
+      "classification": "greed",
+      "timestamp": 1782378900
+    },
+    {
+      "time": 1782379800000,
+      "value": 51.52,
+      "classification": "neutral",
+      "timestamp": 1782379800
+    },
+    {
+      "time": 1782380700000,
+      "value": 55.75,
+      "classification": "neutral",
+      "timestamp": 1782380700
+    },
+    {
+      "time": 1782381600000,
+      "value": 72.64,
+      "classification": "greed",
+      "timestamp": 1782381600
+    },
+    {
+      "time": 1782382500000,
+      "value": 68.06,
+      "classification": "greed",
+      "timestamp": 1782382500
+    },
+    {
+      "time": 1782383400000,
+      "value": 68.44,
+      "classification": "greed",
+      "timestamp": 1782383400
+    },
+    {
+      "time": 1782384300000,
+      "value": 61.4,
+      "classification": "greed",
+      "timestamp": 1782384300
+    },
+    {
+      "time": 1782385200000,
+      "value": 56.36,
+      "classification": "neutral",
+      "timestamp": 1782385200
+    },
+    {
+      "time": 1782386100000,
+      "value": 56.49,
+      "classification": "neutral",
+      "timestamp": 1782386100
+    },
+    {
+      "time": 1782387000000,
+      "value": 59.19,
+      "classification": "neutral",
+      "timestamp": 1782387000
+    },
+    {
+      "time": 1782387900000,
+      "value": 61.44,
+      "classification": "greed",
+      "timestamp": 1782387900
+    },
+    {
+      "time": 1782388800000,
+      "value": 65.55,
+      "classification": "greed",
+      "timestamp": 1782388800
+    },
+    {
+      "time": 1782389700000,
+      "value": 62.56,
+      "classification": "greed",
+      "timestamp": 1782389700
+    },
+    {
+      "time": 1782390600000,
+      "value": 62.76,
+      "classification": "greed",
+      "timestamp": 1782390600
+    },
+    {
+      "time": 1782391500000,
+      "value": 81.97,
+      "classification": "greed",
+      "timestamp": 1782391500
+    },
+    {
+      "time": 1782392400000,
+      "value": 64.39,
+      "classification": "greed",
+      "timestamp": 1782392400
+    },
+    {
+      "time": 1782393300000,
+      "value": 70.11,
+      "classification": "greed",
+      "timestamp": 1782393300
+    },
+    {
+      "time": 1782394200000,
+      "value": 71.3,
+      "classification": "greed",
+      "timestamp": 1782394200
+    },
+    {
+      "time": 1782395100000,
+      "value": 74.96,
+      "classification": "greed",
+      "timestamp": 1782395100
+    },
+    {
+      "time": 1782396000000,
+      "value": 65.89,
+      "classification": "greed",
+      "timestamp": 1782396000
+    },
+    {
+      "time": 1782396900000,
+      "value": 70.72,
+      "classification": "greed",
+      "timestamp": 1782396900
+    },
+    {
+      "time": 1782397800000,
+      "value": 71.31,
+      "classification": "greed",
+      "timestamp": 1782397800
+    },
+    {
+      "time": 1782398700000,
+      "value": 75.22,
+      "classification": "greed",
+      "timestamp": 1782398700
+    },
+    {
+      "time": 1782399600000,
+      "value": 73.56,
+      "classification": "greed",
+      "timestamp": 1782399600
+    },
+    {
+      "time": 1782400500000,
+      "value": 72.04,
+      "classification": "greed",
+      "timestamp": 1782400500
+    },
+    {
+      "time": 1782401400000,
+      "value": 69.16,
+      "classification": "greed",
+      "timestamp": 1782401400
+    },
+    {
+      "time": 1782402300000,
+      "value": 63.68,
+      "classification": "greed",
+      "timestamp": 1782402300
+    },
+    {
+      "time": 1782403200000,
+      "value": 66.78,
+      "classification": "greed",
+      "timestamp": 1782403200
+    },
+    {
+      "time": 1782404100000,
+      "value": 74.78,
+      "classification": "greed",
+      "timestamp": 1782404100
+    },
+    {
+      "time": 1782405000000,
+      "value": 79.45,
+      "classification": "greed",
+      "timestamp": 1782405000
+    },
+    {
+      "time": 1782405900000,
+      "value": 82.19,
+      "classification": "greed",
+      "timestamp": 1782405900
+    },
+    {
+      "time": 1782406800000,
+      "value": 88.64,
+      "classification": "greed",
+      "timestamp": 1782406800
+    },
+    {
+      "time": 1782407700000,
+      "value": 71.51,
+      "classification": "greed",
+      "timestamp": 1782407700
+    },
+    {
+      "time": 1782408600000,
+      "value": 68.42,
+      "classification": "greed",
+      "timestamp": 1782408600
+    },
+    {
+      "time": 1782409500000,
+      "value": 78.92,
+      "classification": "greed",
+      "timestamp": 1782409500
+    },
+    {
+      "time": 1782410400000,
+      "value": 78.79,
+      "classification": "greed",
+      "timestamp": 1782410400
+    },
+    {
+      "time": 1782411300000,
+      "value": 80.2,
+      "classification": "greed",
+      "timestamp": 1782411300
+    },
+    {
+      "time": 1782412200000,
+      "value": 68.82,
+      "classification": "greed",
+      "timestamp": 1782412200
+    },
+    {
+      "time": 1782413100000,
+      "value": 72.68,
+      "classification": "greed",
+      "timestamp": 1782413100
+    },
+    {
+      "time": 1782414000000,
+      "value": 78.17,
+      "classification": "greed",
+      "timestamp": 1782414000
+    },
+    {
+      "time": 1782414900000,
+      "value": 74.96,
+      "classification": "greed",
+      "timestamp": 1782414900
+    },
+    {
+      "time": 1782415800000,
+      "value": 73.77,
+      "classification": "greed",
+      "timestamp": 1782415800
+    },
+    {
+      "time": 1782416700000,
+      "value": 87.45,
+      "classification": "greed",
+      "timestamp": 1782416700
+    },
+    {
+      "time": 1782417600000,
+      "value": 79.5,
+      "classification": "greed",
+      "timestamp": 1782417600
+    },
+    {
+      "time": 1782418500000,
+      "value": 90.25,
+      "classification": "greed",
+      "timestamp": 1782418500
+    },
+    {
+      "time": 1782419400000,
+      "value": 81.48,
+      "classification": "greed",
+      "timestamp": 1782419400
+    },
+    {
+      "time": 1782420300000,
+      "value": 73.72,
+      "classification": "greed",
+      "timestamp": 1782420300
+    },
+    {
+      "time": 1782421200000,
+      "value": 68.07,
+      "classification": "greed",
+      "timestamp": 1782421200
+    },
+    {
+      "time": 1782422100000,
+      "value": 77.03,
+      "classification": "greed",
+      "timestamp": 1782422100
+    },
+    {
+      "time": 1782423000000,
+      "value": 82.04,
+      "classification": "greed",
+      "timestamp": 1782423000
+    },
+    {
+      "time": 1782423900000,
+      "value": 83.23,
+      "classification": "greed",
+      "timestamp": 1782423900
+    },
+    {
+      "time": 1782424800000,
+      "value": 80.32,
+      "classification": "greed",
+      "timestamp": 1782424800
+    },
+    {
+      "time": 1782425700000,
+      "value": 70.39,
+      "classification": "greed",
+      "timestamp": 1782425700
+    },
+    {
+      "time": 1782426600000,
+      "value": 78.94,
+      "classification": "greed",
+      "timestamp": 1782426600
+    },
+    {
+      "time": 1782427500000,
+      "value": 81.62,
+      "classification": "greed",
+      "timestamp": 1782427500
+    },
+    {
+      "time": 1782428400000,
+      "value": 69.23,
+      "classification": "greed",
+      "timestamp": 1782428400
+    },
+    {
+      "time": 1782429300000,
+      "value": 77.7,
+      "classification": "greed",
+      "timestamp": 1782429300
+    },
+    {
+      "time": 1782430200000,
+      "value": 78.42,
+      "classification": "greed",
+      "timestamp": 1782430200
+    },
+    {
+      "time": 1782431100000,
+      "value": 70.43,
+      "classification": "greed",
+      "timestamp": 1782431100
+    },
+    {
+      "time": 1782432000000,
+      "value": 83.34,
+      "classification": "greed",
+      "timestamp": 1782432000
+    },
+    {
+      "time": 1782432900000,
+      "value": 85.87,
+      "classification": "greed",
+      "timestamp": 1782432900
+    },
+    {
+      "time": 1782433800000,
+      "value": 82.92,
+      "classification": "greed",
+      "timestamp": 1782433800
+    },
+    {
+      "time": 1782434700000,
+      "value": 72.72,
+      "classification": "greed",
+      "timestamp": 1782434700
+    },
+    {
+      "time": 1782435600000,
+      "value": 70.7,
+      "classification": "greed",
+      "timestamp": 1782435600
+    },
+    {
+      "time": 1782436500000,
+      "value": 80.66,
+      "classification": "greed",
+      "timestamp": 1782436500
+    },
+    {
+      "time": 1782437400000,
+      "value": 73.36,
+      "classification": "greed",
+      "timestamp": 1782437400
+    },
+    {
+      "time": 1782438300000,
+      "value": 85.06,
+      "classification": "greed",
+      "timestamp": 1782438300
+    },
+    {
+      "time": 1782439200000,
+      "value": 67.99,
+      "classification": "greed",
+      "timestamp": 1782439200
+    },
+    {
+      "time": 1782440100000,
+      "value": 69.75,
+      "classification": "greed",
+      "timestamp": 1782440100
+    },
+    {
+      "time": 1782441000000,
+      "value": 61.22,
+      "classification": "greed",
+      "timestamp": 1782441000
+    },
+    {
+      "time": 1782441900000,
+      "value": 67.52,
+      "classification": "greed",
+      "timestamp": 1782441900
+    },
+    {
+      "time": 1782442800000,
+      "value": 69.1,
+      "classification": "greed",
+      "timestamp": 1782442800
+    },
+    {
+      "time": 1782443700000,
+      "value": 70.49,
+      "classification": "greed",
+      "timestamp": 1782443700
+    },
+    {
+      "time": 1782444600000,
+      "value": 78.45,
+      "classification": "greed",
+      "timestamp": 1782444600
+    },
+    {
+      "time": 1782445500000,
+      "value": 69.84,
+      "classification": "greed",
+      "timestamp": 1782445500
+    },
+    {
+      "time": 1782446400000,
+      "value": 77.96,
+      "classification": "greed",
+      "timestamp": 1782446400
+    },
+    {
+      "time": 1782447300000,
+      "value": 71.77,
+      "classification": "greed",
+      "timestamp": 1782447300
+    },
+    {
+      "time": 1782448200000,
+      "value": 72.11,
+      "classification": "greed",
+      "timestamp": 1782448200
+    },
+    {
+      "time": 1782449100000,
+      "value": 66.3,
+      "classification": "greed",
+      "timestamp": 1782449100
+    },
+    {
+      "time": 1782450000000,
+      "value": 66.26,
+      "classification": "greed",
+      "timestamp": 1782450000
+    },
+    {
+      "time": 1782450900000,
+      "value": 59.93,
+      "classification": "neutral",
+      "timestamp": 1782450900
+    },
+    {
+      "time": 1782451800000,
+      "value": 73.49,
+      "classification": "greed",
+      "timestamp": 1782451800
+    },
+    {
+      "time": 1782452700000,
+      "value": 66.73,
+      "classification": "greed",
+      "timestamp": 1782452700
+    },
+    {
+      "time": 1782453600000,
+      "value": 68.8,
+      "classification": "greed",
+      "timestamp": 1782453600
+    },
+    {
+      "time": 1782454500000,
+      "value": 62.81,
+      "classification": "greed",
+      "timestamp": 1782454500
+    },
+    {
+      "time": 1782455400000,
+      "value": 61.89,
+      "classification": "greed",
+      "timestamp": 1782455400
+    },
+    {
+      "time": 1782456300000,
+      "value": 69.78,
+      "classification": "greed",
+      "timestamp": 1782456300
+    },
+    {
+      "time": 1782457200000,
+      "value": 66.22,
+      "classification": "greed",
+      "timestamp": 1782457200
+    },
+    {
+      "time": 1782458100000,
+      "value": 70.14,
+      "classification": "greed",
+      "timestamp": 1782458100
+    },
+    {
+      "time": 1782459000000,
+      "value": 52.55,
+      "classification": "neutral",
+      "timestamp": 1782459000
+    },
+    {
+      "time": 1782459900000,
+      "value": 58.97,
+      "classification": "neutral",
+      "timestamp": 1782459900
+    },
+    {
+      "time": 1782460800000,
+      "value": 54.01,
+      "classification": "neutral",
+      "timestamp": 1782460800
+    },
+    {
+      "time": 1782461700000,
+      "value": 64.22,
+      "classification": "greed",
+      "timestamp": 1782461700
+    },
+    {
+      "time": 1782462600000,
+      "value": 59.85,
+      "classification": "neutral",
+      "timestamp": 1782462600
+    },
+    {
+      "time": 1782463500000,
+      "value": 57.37,
+      "classification": "neutral",
+      "timestamp": 1782463500
+    },
+    {
+      "time": 1782464400000,
+      "value": 55.62,
+      "classification": "neutral",
+      "timestamp": 1782464400
+    },
+    {
+      "time": 1782465300000,
+      "value": 57.53,
+      "classification": "neutral",
+      "timestamp": 1782465300
+    },
+    {
+      "time": 1782466200000,
+      "value": 64.08,
+      "classification": "greed",
+      "timestamp": 1782466200
+    },
+    {
+      "time": 1782467100000,
+      "value": 54.92,
+      "classification": "neutral",
+      "timestamp": 1782467100
+    },
+    {
+      "time": 1782468000000,
+      "value": 52.93,
+      "classification": "neutral",
+      "timestamp": 1782468000
+    },
+    {
+      "time": 1782468900000,
+      "value": 37.16,
+      "classification": "fear",
+      "timestamp": 1782468900
+    },
+    {
+      "time": 1782469800000,
+      "value": 54.78,
+      "classification": "neutral",
+      "timestamp": 1782469800
+    },
+    {
+      "time": 1782470700000,
+      "value": 55.56,
+      "classification": "neutral",
+      "timestamp": 1782470700
+    },
+    {
+      "time": 1782471600000,
+      "value": 58.16,
+      "classification": "neutral",
+      "timestamp": 1782471600
+    },
+    {
+      "time": 1782472500000,
+      "value": 52.34,
+      "classification": "neutral",
+      "timestamp": 1782472500
+    },
+    {
+      "time": 1782473400000,
+      "value": 59.77,
+      "classification": "neutral",
+      "timestamp": 1782473400
+    },
+    {
+      "time": 1782474300000,
+      "value": 57.38,
+      "classification": "neutral",
+      "timestamp": 1782474300
+    },
+    {
+      "time": 1782475200000,
+      "value": 56.61,
+      "classification": "neutral",
+      "timestamp": 1782475200
+    },
+    {
+      "time": 1782476100000,
+      "value": 44.4,
+      "classification": "neutral",
+      "timestamp": 1782476100
+    },
+    {
+      "time": 1782477000000,
+      "value": 64.35,
+      "classification": "greed",
+      "timestamp": 1782477000
+    },
+    {
+      "time": 1782477900000,
+      "value": 55.3,
+      "classification": "neutral",
+      "timestamp": 1782477900
+    },
+    {
+      "time": 1782478800000,
+      "value": 45.28,
+      "classification": "neutral",
+      "timestamp": 1782478800
+    },
+    {
+      "time": 1782479700000,
+      "value": 38.55,
+      "classification": "fear",
+      "timestamp": 1782479700
+    },
+    {
+      "time": 1782480600000,
+      "value": 61.93,
+      "classification": "greed",
+      "timestamp": 1782480600
+    },
+    {
+      "time": 1782481500000,
+      "value": 48.46,
+      "classification": "neutral",
+      "timestamp": 1782481500
+    },
+    {
+      "time": 1782482400000,
+      "value": 43.56,
+      "classification": "neutral",
+      "timestamp": 1782482400
+    },
+    {
+      "time": 1782483300000,
+      "value": 42.56,
+      "classification": "neutral",
+      "timestamp": 1782483300
+    },
+    {
+      "time": 1782484200000,
+      "value": 42.93,
+      "classification": "neutral",
+      "timestamp": 1782484200
+    },
+    {
+      "time": 1782485100000,
+      "value": 28.47,
+      "classification": "fear",
+      "timestamp": 1782485100
+    },
+    {
+      "time": 1782486000000,
+      "value": 38.04,
+      "classification": "fear",
+      "timestamp": 1782486000
+    },
+    {
+      "time": 1782486900000,
+      "value": 40.78,
+      "classification": "neutral",
+      "timestamp": 1782486900
+    },
+    {
+      "time": 1782487800000,
+      "value": 45.82,
+      "classification": "neutral",
+      "timestamp": 1782487800
+    },
+    {
+      "time": 1782488700000,
+      "value": 47.91,
+      "classification": "neutral",
+      "timestamp": 1782488700
+    },
+    {
+      "time": 1782489600000,
+      "value": 39.65,
+      "classification": "fear",
+      "timestamp": 1782489600
+    },
+    {
+      "time": 1782490500000,
+      "value": 44.91,
+      "classification": "neutral",
+      "timestamp": 1782490500
+    },
+    {
+      "time": 1782491400000,
+      "value": 38.67,
+      "classification": "fear",
+      "timestamp": 1782491400
+    },
+    {
+      "time": 1782492300000,
+      "value": 40.82,
+      "classification": "neutral",
+      "timestamp": 1782492300
+    },
+    {
+      "time": 1782493200000,
+      "value": 38.16,
+      "classification": "fear",
+      "timestamp": 1782493200
+    },
+    {
+      "time": 1782494100000,
+      "value": 40.01,
+      "classification": "neutral",
+      "timestamp": 1782494100
+    },
+    {
+      "time": 1782495000000,
+      "value": 40.03,
+      "classification": "neutral",
+      "timestamp": 1782495000
+    },
+    {
+      "time": 1782495900000,
+      "value": 34.74,
+      "classification": "fear",
+      "timestamp": 1782495900
+    },
+    {
+      "time": 1782496800000,
+      "value": 34.69,
+      "classification": "fear",
+      "timestamp": 1782496800
+    },
+    {
+      "time": 1782497700000,
+      "value": 35.96,
+      "classification": "fear",
+      "timestamp": 1782497700
+    },
+    {
+      "time": 1782498600000,
+      "value": 27.65,
+      "classification": "fear",
+      "timestamp": 1782498600
+    },
+    {
+      "time": 1782499500000,
+      "value": 37.55,
+      "classification": "fear",
+      "timestamp": 1782499500
+    },
+    {
+      "time": 1782500400000,
+      "value": 44.02,
+      "classification": "neutral",
+      "timestamp": 1782500400
+    },
+    {
+      "time": 1782501300000,
+      "value": 43.94,
+      "classification": "neutral",
+      "timestamp": 1782501300
+    },
+    {
+      "time": 1782502200000,
+      "value": 35.04,
+      "classification": "fear",
+      "timestamp": 1782502200
+    },
+    {
+      "time": 1782503100000,
+      "value": 46.2,
+      "classification": "neutral",
+      "timestamp": 1782503100
+    },
+    {
+      "time": 1782504000000,
+      "value": 31.29,
+      "classification": "fear",
+      "timestamp": 1782504000
+    },
+    {
+      "time": 1782504900000,
+      "value": 43.1,
+      "classification": "neutral",
+      "timestamp": 1782504900
+    },
+    {
+      "time": 1782505800000,
+      "value": 35.71,
+      "classification": "fear",
+      "timestamp": 1782505800
+    },
+    {
+      "time": 1782506700000,
+      "value": 38.84,
+      "classification": "fear",
+      "timestamp": 1782506700
+    },
+    {
+      "time": 1782507600000,
+      "value": 47.02,
+      "classification": "neutral",
+      "timestamp": 1782507600
+    },
+    {
+      "time": 1782508500000,
+      "value": 45.47,
+      "classification": "neutral",
+      "timestamp": 1782508500
+    },
+    {
+      "time": 1782509400000,
+      "value": 37.71,
+      "classification": "fear",
+      "timestamp": 1782509400
+    },
+    {
+      "time": 1782510300000,
+      "value": 33.9,
+      "classification": "fear",
+      "timestamp": 1782510300
+    },
+    {
+      "time": 1782511200000,
+      "value": 40.57,
+      "classification": "neutral",
+      "timestamp": 1782511200
+    },
+    {
+      "time": 1782512100000,
+      "value": 42.82,
+      "classification": "neutral",
+      "timestamp": 1782512100
+    },
+    {
+      "time": 1782513000000,
+      "value": 37.52,
+      "classification": "fear",
+      "timestamp": 1782513000
+    },
+    {
+      "time": 1782513900000,
+      "value": 23.0,
+      "classification": "fear",
+      "timestamp": 1782513900
+    },
+    {
+      "time": 1782514800000,
+      "value": 37.39,
+      "classification": "fear",
+      "timestamp": 1782514800
+    },
+    {
+      "time": 1782515700000,
+      "value": 25.8,
+      "classification": "fear",
+      "timestamp": 1782515700
+    },
+    {
+      "time": 1782516600000,
+      "value": 37.55,
+      "classification": "fear",
+      "timestamp": 1782516600
+    },
+    {
+      "time": 1782517500000,
+      "value": 21.6,
+      "classification": "fear",
+      "timestamp": 1782517500
+    },
+    {
+      "time": 1782518400000,
+      "value": 39.56,
+      "classification": "fear",
+      "timestamp": 1782518400
+    },
+    {
+      "time": 1782519300000,
+      "value": 37.12,
+      "classification": "fear",
+      "timestamp": 1782519300
+    },
+    {
+      "time": 1782520200000,
+      "value": 28.66,
+      "classification": "fear",
+      "timestamp": 1782520200
+    },
+    {
+      "time": 1782521100000,
+      "value": 42.13,
+      "classification": "neutral",
+      "timestamp": 1782521100
+    },
+    {
+      "time": 1782522000000,
+      "value": 33.6,
+      "classification": "fear",
+      "timestamp": 1782522000
+    },
+    {
+      "time": 1782522900000,
+      "value": 37.46,
+      "classification": "fear",
+      "timestamp": 1782522900
+    },
+    {
+      "time": 1782523800000,
+      "value": 31.4,
+      "classification": "fear",
+      "timestamp": 1782523800
+    },
+    {
+      "time": 1782524700000,
+      "value": 28.49,
+      "classification": "fear",
+      "timestamp": 1782524700
+    },
+    {
+      "time": 1782525600000,
+      "value": 38.08,
+      "classification": "fear",
+      "timestamp": 1782525600
+    },
+    {
+      "time": 1782526500000,
+      "value": 28.51,
+      "classification": "fear",
+      "timestamp": 1782526500
+    },
+    {
+      "time": 1782527400000,
+      "value": 37.16,
+      "classification": "fear",
+      "timestamp": 1782527400
+    },
+    {
+      "time": 1782528300000,
+      "value": 30.99,
+      "classification": "fear",
+      "timestamp": 1782528300
+    },
+    {
+      "time": 1782529200000,
+      "value": 32.57,
+      "classification": "fear",
+      "timestamp": 1782529200
+    },
+    {
+      "time": 1782530100000,
+      "value": 25.99,
+      "classification": "fear",
+      "timestamp": 1782530100
+    },
+    {
+      "time": 1782531000000,
+      "value": 34.43,
+      "classification": "fear",
+      "timestamp": 1782531000
+    },
+    {
+      "time": 1782531900000,
+      "value": 41.6,
+      "classification": "neutral",
+      "timestamp": 1782531900
+    },
+    {
+      "time": 1782532800000,
+      "value": 38.51,
+      "classification": "fear",
+      "timestamp": 1782532800
+    },
+    {
+      "time": 1782533700000,
+      "value": 29.4,
+      "classification": "fear",
+      "timestamp": 1782533700
+    },
+    {
+      "time": 1782534600000,
+      "value": 46.03,
+      "classification": "neutral",
+      "timestamp": 1782534600
+    },
+    {
+      "time": 1782535500000,
+      "value": 43.27,
+      "classification": "neutral",
+      "timestamp": 1782535500
+    },
+    {
+      "time": 1782536400000,
+      "value": 39.18,
+      "classification": "fear",
+      "timestamp": 1782536400
+    },
+    {
+      "time": 1782537300000,
+      "value": 34.21,
+      "classification": "fear",
+      "timestamp": 1782537300
+    },
+    {
+      "time": 1782538200000,
+      "value": 30.33,
+      "classification": "fear",
+      "timestamp": 1782538200
+    },
+    {
+      "time": 1782539100000,
+      "value": 36.32,
+      "classification": "fear",
+      "timestamp": 1782539100
+    },
+    {
+      "time": 1782540000000,
+      "value": 38.28,
+      "classification": "fear",
+      "timestamp": 1782540000
+    },
+    {
+      "time": 1782540900000,
+      "value": 24.96,
+      "classification": "fear",
+      "timestamp": 1782540900
+    },
+    {
+      "time": 1782541800000,
+      "value": 33.7,
+      "classification": "fear",
+      "timestamp": 1782541800
+    },
+    {
+      "time": 1782542700000,
+      "value": 37.62,
+      "classification": "fear",
+      "timestamp": 1782542700
+    },
+    {
+      "time": 1782543600000,
+      "value": 28.18,
+      "classification": "fear",
+      "timestamp": 1782543600
+    },
+    {
+      "time": 1782544500000,
+      "value": 43.78,
+      "classification": "neutral",
+      "timestamp": 1782544500
+    },
+    {
+      "time": 1782545400000,
+      "value": 41.19,
+      "classification": "neutral",
+      "timestamp": 1782545400
+    },
+    {
+      "time": 1782546300000,
+      "value": 44.07,
+      "classification": "neutral",
+      "timestamp": 1782546300
+    },
+    {
+      "time": 1782547200000,
+      "value": 33.51,
+      "classification": "fear",
+      "timestamp": 1782547200
+    },
+    {
+      "time": 1782548100000,
+      "value": 34.85,
+      "classification": "fear",
+      "timestamp": 1782548100
+    },
+    {
+      "time": 1782549000000,
+      "value": 45.05,
+      "classification": "neutral",
+      "timestamp": 1782549000
+    },
+    {
+      "time": 1782549900000,
+      "value": 42.86,
+      "classification": "neutral",
+      "timestamp": 1782549900
+    },
+    {
+      "time": 1782550800000,
+      "value": 40.67,
+      "classification": "neutral",
+      "timestamp": 1782550800
+    },
+    {
+      "time": 1782551700000,
+      "value": 44.36,
+      "classification": "neutral",
+      "timestamp": 1782551700
+    },
+    {
+      "time": 1782552600000,
+      "value": 41.4,
+      "classification": "neutral",
+      "timestamp": 1782552600
+    },
+    {
+      "time": 1782553500000,
+      "value": 38.6,
+      "classification": "fear",
+      "timestamp": 1782553500
+    },
+    {
+      "time": 1782554400000,
+      "value": 51.94,
+      "classification": "neutral",
+      "timestamp": 1782554400
+    },
+    {
+      "time": 1782555300000,
+      "value": 42.45,
+      "classification": "neutral",
+      "timestamp": 1782555300
+    },
+    {
+      "time": 1782556200000,
+      "value": 49.05,
+      "classification": "neutral",
+      "timestamp": 1782556200
+    },
+    {
+      "time": 1782557100000,
+      "value": 33.83,
+      "classification": "fear",
+      "timestamp": 1782557100
+    },
+    {
+      "time": 1782558000000,
+      "value": 43.84,
+      "classification": "neutral",
+      "timestamp": 1782558000
+    },
+    {
+      "time": 1782558900000,
+      "value": 48.73,
+      "classification": "neutral",
+      "timestamp": 1782558900
+    },
+    {
+      "time": 1782559800000,
+      "value": 46.2,
+      "classification": "neutral",
+      "timestamp": 1782559800
+    },
+    {
+      "time": 1782560700000,
+      "value": 47.71,
+      "classification": "neutral",
+      "timestamp": 1782560700
+    },
+    {
+      "time": 1782561600000,
+      "value": 45.33,
+      "classification": "neutral",
+      "timestamp": 1782561600
+    },
+    {
+      "time": 1782562500000,
+      "value": 60.91,
+      "classification": "greed",
+      "timestamp": 1782562500
+    },
+    {
+      "time": 1782563400000,
+      "value": 56.69,
+      "classification": "neutral",
+      "timestamp": 1782563400
+    },
+    {
+      "time": 1782564300000,
+      "value": 60.19,
+      "classification": "greed",
+      "timestamp": 1782564300
+    },
+    {
+      "time": 1782565200000,
+      "value": 53.18,
+      "classification": "neutral",
+      "timestamp": 1782565200
+    },
+    {
+      "time": 1782566100000,
+      "value": 55.08,
+      "classification": "neutral",
+      "timestamp": 1782566100
+    },
+    {
+      "time": 1782567000000,
+      "value": 48.99,
+      "classification": "neutral",
+      "timestamp": 1782567000
+    },
+    {
+      "time": 1782567900000,
+      "value": 53.72,
+      "classification": "neutral",
+      "timestamp": 1782567900
+    },
+    {
+      "time": 1782568800000,
+      "value": 50.85,
+      "classification": "neutral",
+      "timestamp": 1782568800
+    },
+    {
+      "time": 1782569700000,
+      "value": 63.06,
+      "classification": "greed",
+      "timestamp": 1782569700
+    },
+    {
+      "time": 1782570600000,
+      "value": 65.09,
+      "classification": "greed",
+      "timestamp": 1782570600
+    },
+    {
+      "time": 1782571500000,
+      "value": 53.74,
+      "classification": "neutral",
+      "timestamp": 1782571500
+    },
+    {
+      "time": 1782572400000,
+      "value": 55.09,
+      "classification": "neutral",
+      "timestamp": 1782572400
+    },
+    {
+      "time": 1782573300000,
+      "value": 61.42,
+      "classification": "greed",
+      "timestamp": 1782573300
+    },
+    {
+      "time": 1782574200000,
+      "value": 60.32,
+      "classification": "greed",
+      "timestamp": 1782574200
+    },
+    {
+      "time": 1782575100000,
+      "value": 63.3,
+      "classification": "greed",
+      "timestamp": 1782575100
+    },
+    {
+      "time": 1782576000000,
+      "value": 57.84,
+      "classification": "neutral",
+      "timestamp": 1782576000
+    },
+    {
+      "time": 1782576900000,
+      "value": 58.29,
+      "classification": "neutral",
+      "timestamp": 1782576900
+    },
+    {
+      "time": 1782577800000,
+      "value": 64.68,
+      "classification": "greed",
+      "timestamp": 1782577800
+    },
+    {
+      "time": 1782578700000,
+      "value": 55.49,
+      "classification": "neutral",
+      "timestamp": 1782578700
+    },
+    {
+      "time": 1782579600000,
+      "value": 61.58,
+      "classification": "greed",
+      "timestamp": 1782579600
+    },
+    {
+      "time": 1782580500000,
+      "value": 78.31,
+      "classification": "greed",
+      "timestamp": 1782580500
+    },
+    {
+      "time": 1782581400000,
+      "value": 56.29,
+      "classification": "neutral",
+      "timestamp": 1782581400
+    },
+    {
+      "time": 1782582300000,
+      "value": 57.59,
+      "classification": "neutral",
+      "timestamp": 1782582300
+    },
+    {
+      "time": 1782583200000,
+      "value": 58.66,
+      "classification": "neutral",
+      "timestamp": 1782583200
+    },
+    {
+      "time": 1782584100000,
+      "value": 65.96,
+      "classification": "greed",
+      "timestamp": 1782584100
+    },
+    {
+      "time": 1782585000000,
+      "value": 74.16,
+      "classification": "greed",
+      "timestamp": 1782585000
+    },
+    {
+      "time": 1782585900000,
+      "value": 61.23,
+      "classification": "greed",
+      "timestamp": 1782585900
+    },
+    {
+      "time": 1782586800000,
+      "value": 67.19,
+      "classification": "greed",
+      "timestamp": 1782586800
+    },
+    {
+      "time": 1782587700000,
+      "value": 72.7,
+      "classification": "greed",
+      "timestamp": 1782587700
+    },
+    {
+      "time": 1782588600000,
+      "value": 66.72,
+      "classification": "greed",
+      "timestamp": 1782588600
+    },
+    {
+      "time": 1782589500000,
+      "value": 75.86,
+      "classification": "greed",
+      "timestamp": 1782589500
+    },
+    {
+      "time": 1782590400000,
+      "value": 66.21,
+      "classification": "greed",
+      "timestamp": 1782590400
+    },
+    {
+      "time": 1782591300000,
+      "value": 60.45,
+      "classification": "greed",
+      "timestamp": 1782591300
+    },
+    {
+      "time": 1782592200000,
+      "value": 71.1,
+      "classification": "greed",
+      "timestamp": 1782592200
+    },
+    {
+      "time": 1782593100000,
+      "value": 61.66,
+      "classification": "greed",
+      "timestamp": 1782593100
+    },
+    {
+      "time": 1782594000000,
+      "value": 76.81,
+      "classification": "greed",
+      "timestamp": 1782594000
+    },
+    {
+      "time": 1782594900000,
+      "value": 78.23,
+      "classification": "greed",
+      "timestamp": 1782594900
+    },
+    {
+      "time": 1782595800000,
+      "value": 65.44,
+      "classification": "greed",
+      "timestamp": 1782595800
+    },
+    {
+      "time": 1782596700000,
+      "value": 72.49,
+      "classification": "greed",
+      "timestamp": 1782596700
+    },
+    {
+      "time": 1782597600000,
+      "value": 67.68,
+      "classification": "greed",
+      "timestamp": 1782597600
+    },
+    {
+      "time": 1782598500000,
+      "value": 53.2,
+      "classification": "neutral",
+      "timestamp": 1782598500
+    },
+    {
+      "time": 1782599400000,
+      "value": 62.16,
+      "classification": "greed",
+      "timestamp": 1782599400
+    },
+    {
+      "time": 1782600300000,
+      "value": 74.69,
+      "classification": "greed",
+      "timestamp": 1782600300
+    },
+    {
+      "time": 1782601200000,
+      "value": 78.26,
+      "classification": "greed",
+      "timestamp": 1782601200
+    },
+    {
+      "time": 1782602100000,
+      "value": 70.56,
+      "classification": "greed",
+      "timestamp": 1782602100
+    },
+    {
+      "time": 1782603000000,
+      "value": 76.66,
+      "classification": "greed",
+      "timestamp": 1782603000
+    },
+    {
+      "time": 1782603900000,
+      "value": 75.78,
+      "classification": "greed",
+      "timestamp": 1782603900
+    },
+    {
+      "time": 1782604800000,
+      "value": 83.22,
+      "classification": "greed",
+      "timestamp": 1782604800
+    },
+    {
+      "time": 1782605700000,
+      "value": 81.27,
+      "classification": "greed",
+      "timestamp": 1782605700
+    },
+    {
+      "time": 1782606600000,
+      "value": 78.04,
+      "classification": "greed",
+      "timestamp": 1782606600
+    },
+    {
+      "time": 1782607500000,
+      "value": 69.31,
+      "classification": "greed",
+      "timestamp": 1782607500
+    },
+    {
+      "time": 1782608400000,
+      "value": 78.03,
+      "classification": "greed",
+      "timestamp": 1782608400
+    },
+    {
+      "time": 1782609300000,
+      "value": 76.46,
+      "classification": "greed",
+      "timestamp": 1782609300
+    },
+    {
+      "time": 1782610200000,
+      "value": 77.68,
+      "classification": "greed",
+      "timestamp": 1782610200
+    },
+    {
+      "time": 1782611100000,
+      "value": 70.0,
+      "classification": "greed",
+      "timestamp": 1782611100
+    },
+    {
+      "time": 1782612000000,
+      "value": 81.33,
+      "classification": "greed",
+      "timestamp": 1782612000
+    },
+    {
+      "time": 1782612900000,
+      "value": 75.35,
+      "classification": "greed",
+      "timestamp": 1782612900
+    },
+    {
+      "time": 1782613800000,
+      "value": 83.99,
+      "classification": "greed",
+      "timestamp": 1782613800
+    },
+    {
+      "time": 1782614700000,
+      "value": 69.09,
+      "classification": "greed",
+      "timestamp": 1782614700
+    },
+    {
+      "time": 1782615600000,
+      "value": 83.87,
+      "classification": "greed",
+      "timestamp": 1782615600
+    },
+    {
+      "time": 1782616500000,
+      "value": 82.62,
+      "classification": "greed",
+      "timestamp": 1782616500
+    },
+    {
+      "time": 1782617400000,
+      "value": 84.81,
+      "classification": "greed",
+      "timestamp": 1782617400
+    },
+    {
+      "time": 1782618300000,
+      "value": 69.66,
+      "classification": "greed",
+      "timestamp": 1782618300
+    },
+    {
+      "time": 1782619200000,
+      "value": 68.43,
+      "classification": "greed",
+      "timestamp": 1782619200
+    },
+    {
+      "time": 1782620100000,
+      "value": 74.09,
+      "classification": "greed",
+      "timestamp": 1782620100
+    },
+    {
+      "time": 1782621000000,
+      "value": 67.14,
+      "classification": "greed",
+      "timestamp": 1782621000
+    },
+    {
+      "time": 1782621900000,
+      "value": 72.24,
+      "classification": "greed",
+      "timestamp": 1782621900
+    },
+    {
+      "time": 1782622800000,
+      "value": 69.15,
+      "classification": "greed",
+      "timestamp": 1782622800
+    },
+    {
+      "time": 1782623700000,
+      "value": 82.43,
+      "classification": "greed",
+      "timestamp": 1782623700
+    },
+    {
+      "time": 1782624600000,
+      "value": 63.88,
+      "classification": "greed",
+      "timestamp": 1782624600
+    },
+    {
+      "time": 1782625500000,
+      "value": 64.48,
+      "classification": "greed",
+      "timestamp": 1782625500
+    },
+    {
+      "time": 1782626400000,
+      "value": 92.61,
+      "classification": "greed",
+      "timestamp": 1782626400
+    },
+    {
+      "time": 1782627300000,
+      "value": 76.53,
+      "classification": "greed",
+      "timestamp": 1782627300
+    },
+    {
+      "time": 1782628200000,
+      "value": 74.88,
+      "classification": "greed",
+      "timestamp": 1782628200
+    },
+    {
+      "time": 1782629100000,
+      "value": 77.62,
+      "classification": "greed",
+      "timestamp": 1782629100
+    },
+    {
+      "time": 1782630000000,
+      "value": 80.16,
+      "classification": "greed",
+      "timestamp": 1782630000
+    },
+    {
+      "time": 1782630900000,
+      "value": 83.22,
+      "classification": "greed",
+      "timestamp": 1782630900
+    },
+    {
+      "time": 1782631800000,
+      "value": 70.39,
+      "classification": "greed",
+      "timestamp": 1782631800
+    },
+    {
+      "time": 1782632700000,
+      "value": 65.71,
+      "classification": "greed",
+      "timestamp": 1782632700
+    },
+    {
+      "time": 1782633600000,
+      "value": 70.2,
+      "classification": "greed",
+      "timestamp": 1782633600
+    },
+    {
+      "time": 1782634500000,
+      "value": 70.7,
+      "classification": "greed",
+      "timestamp": 1782634500
+    },
+    {
+      "time": 1782635400000,
+      "value": 80.7,
+      "classification": "greed",
+      "timestamp": 1782635400
+    },
+    {
+      "time": 1782636300000,
+      "value": 67.05,
+      "classification": "greed",
+      "timestamp": 1782636300
+    },
+    {
+      "time": 1782637200000,
+      "value": 75.04,
+      "classification": "greed",
+      "timestamp": 1782637200
+    },
+    {
+      "time": 1782638100000,
+      "value": 62.07,
+      "classification": "greed",
+      "timestamp": 1782638100
+    },
+    {
+      "time": 1782639000000,
+      "value": 65.47,
+      "classification": "greed",
+      "timestamp": 1782639000
+    },
+    {
+      "time": 1782639900000,
+      "value": 71.51,
+      "classification": "greed",
+      "timestamp": 1782639900
+    },
+    {
+      "time": 1782640800000,
+      "value": 78.98,
+      "classification": "greed",
+      "timestamp": 1782640800
+    },
+    {
+      "time": 1782641700000,
+      "value": 73.9,
+      "classification": "greed",
+      "timestamp": 1782641700
+    },
+    {
+      "time": 1782642600000,
+      "value": 65.54,
+      "classification": "greed",
+      "timestamp": 1782642600
+    },
+    {
+      "time": 1782643500000,
+      "value": 70.49,
+      "classification": "greed",
+      "timestamp": 1782643500
+    },
+    {
+      "time": 1782644400000,
+      "value": 64.51,
+      "classification": "greed",
+      "timestamp": 1782644400
+    },
+    {
+      "time": 1782645300000,
+      "value": 69.24,
+      "classification": "greed",
+      "timestamp": 1782645300
+    },
+    {
+      "time": 1782646200000,
+      "value": 68.4,
+      "classification": "greed",
+      "timestamp": 1782646200
+    },
+    {
+      "time": 1782647100000,
+      "value": 68.98,
+      "classification": "greed",
+      "timestamp": 1782647100
+    },
+    {
+      "time": 1782648000000,
+      "value": 67.89,
+      "classification": "greed",
+      "timestamp": 1782648000
+    },
+    {
+      "time": 1782648900000,
+      "value": 64.44,
+      "classification": "greed",
+      "timestamp": 1782648900
+    },
+    {
+      "time": 1782649800000,
+      "value": 86.57,
+      "classification": "greed",
+      "timestamp": 1782649800
+    },
+    {
+      "time": 1782650700000,
+      "value": 72.16,
+      "classification": "greed",
+      "timestamp": 1782650700
+    },
+    {
+      "time": 1782651600000,
+      "value": 62.47,
+      "classification": "greed",
+      "timestamp": 1782651600
+    },
+    {
+      "time": 1782652500000,
+      "value": 60.88,
+      "classification": "greed",
+      "timestamp": 1782652500
+    },
+    {
+      "time": 1782653400000,
+      "value": 60.17,
+      "classification": "greed",
+      "timestamp": 1782653400
+    },
+    {
+      "time": 1782654300000,
+      "value": 61.69,
+      "classification": "greed",
+      "timestamp": 1782654300
+    },
+    {
+      "time": 1782655200000,
+      "value": 54.29,
+      "classification": "neutral",
+      "timestamp": 1782655200
+    },
+    {
+      "time": 1782656100000,
+      "value": 55.1,
+      "classification": "neutral",
+      "timestamp": 1782656100
+    },
+    {
+      "time": 1782657000000,
+      "value": 56.84,
+      "classification": "neutral",
+      "timestamp": 1782657000
+    },
+    {
+      "time": 1782657900000,
+      "value": 66.5,
+      "classification": "greed",
+      "timestamp": 1782657900
+    },
+    {
+      "time": 1782658800000,
+      "value": 67.54,
+      "classification": "greed",
+      "timestamp": 1782658800
+    },
+    {
+      "time": 1782659700000,
+      "value": 59.81,
+      "classification": "neutral",
+      "timestamp": 1782659700
+    },
+    {
+      "time": 1782660600000,
+      "value": 55.12,
+      "classification": "neutral",
+      "timestamp": 1782660600
+    },
+    {
+      "time": 1782661500000,
+      "value": 62.41,
+      "classification": "greed",
+      "timestamp": 1782661500
+    },
+    {
+      "time": 1782662400000,
+      "value": 50.26,
+      "classification": "neutral",
+      "timestamp": 1782662400
+    },
+    {
+      "time": 1782663300000,
+      "value": 70.32,
+      "classification": "greed",
+      "timestamp": 1782663300
+    },
+    {
+      "time": 1782664200000,
+      "value": 63.18,
+      "classification": "greed",
+      "timestamp": 1782664200
+    },
+    {
+      "time": 1782665100000,
+      "value": 60.94,
+      "classification": "greed",
+      "timestamp": 1782665100
+    },
+    {
+      "time": 1782666000000,
+      "value": 62.6,
+      "classification": "greed",
+      "timestamp": 1782666000
+    },
+    {
+      "time": 1782666900000,
+      "value": 56.84,
+      "classification": "neutral",
+      "timestamp": 1782666900
+    },
+    {
+      "time": 1782667800000,
+      "value": 50.09,
+      "classification": "neutral",
+      "timestamp": 1782667800
+    },
+    {
+      "time": 1782668700000,
+      "value": 50.83,
+      "classification": "neutral",
+      "timestamp": 1782668700
+    },
+    {
+      "time": 1782669600000,
+      "value": 67.02,
+      "classification": "greed",
+      "timestamp": 1782669600
+    },
+    {
+      "time": 1782670500000,
+      "value": 62.54,
+      "classification": "greed",
+      "timestamp": 1782670500
+    },
+    {
+      "time": 1782671400000,
+      "value": 48.96,
+      "classification": "neutral",
+      "timestamp": 1782671400
+    },
+    {
+      "time": 1782672300000,
+      "value": 43.34,
+      "classification": "neutral",
+      "timestamp": 1782672300
+    },
+    {
+      "time": 1782673200000,
+      "value": 50.89,
+      "classification": "neutral",
+      "timestamp": 1782673200
+    },
+    {
+      "time": 1782674100000,
+      "value": 42.33,
+      "classification": "neutral",
+      "timestamp": 1782674100
+    },
+    {
+      "time": 1782675000000,
+      "value": 34.89,
+      "classification": "fear",
+      "timestamp": 1782675000
+    },
+    {
+      "time": 1782675900000,
+      "value": 47.39,
+      "classification": "neutral",
+      "timestamp": 1782675900
+    },
+    {
+      "time": 1782676800000,
+      "value": 48.4,
+      "classification": "neutral",
+      "timestamp": 1782676800
+    },
+    {
+      "time": 1782677700000,
+      "value": 43.1,
+      "classification": "neutral",
+      "timestamp": 1782677700
+    },
+    {
+      "time": 1782678600000,
+      "value": 50.78,
+      "classification": "neutral",
+      "timestamp": 1782678600
+    },
+    {
+      "time": 1782679500000,
+      "value": 46.13,
+      "classification": "neutral",
+      "timestamp": 1782679500
+    },
+    {
+      "time": 1782680400000,
+      "value": 44.04,
+      "classification": "neutral",
+      "timestamp": 1782680400
+    },
+    {
+      "time": 1782681300000,
+      "value": 40.59,
+      "classification": "neutral",
+      "timestamp": 1782681300
+    },
+    {
+      "time": 1782682200000,
+      "value": 48.96,
+      "classification": "neutral",
+      "timestamp": 1782682200
+    },
+    {
+      "time": 1782683100000,
+      "value": 36.66,
+      "classification": "fear",
+      "timestamp": 1782683100
+    },
+    {
+      "time": 1782684000000,
+      "value": 41.07,
+      "classification": "neutral",
+      "timestamp": 1782684000
+    },
+    {
+      "time": 1782684900000,
+      "value": 47.87,
+      "classification": "neutral",
+      "timestamp": 1782684900
+    },
+    {
+      "time": 1782685800000,
+      "value": 38.21,
+      "classification": "fear",
+      "timestamp": 1782685800
+    },
+    {
+      "time": 1782686700000,
+      "value": 41.38,
+      "classification": "neutral",
+      "timestamp": 1782686700
+    },
+    {
+      "time": 1782687600000,
+      "value": 55.22,
+      "classification": "neutral",
+      "timestamp": 1782687600
+    },
+    {
+      "time": 1782688500000,
+      "value": 43.22,
+      "classification": "neutral",
+      "timestamp": 1782688500
+    },
+    {
+      "time": 1782689400000,
+      "value": 44.08,
+      "classification": "neutral",
+      "timestamp": 1782689400
+    },
+    {
+      "time": 1782690300000,
+      "value": 28.16,
+      "classification": "fear",
+      "timestamp": 1782690300
+    },
+    {
+      "time": 1782691200000,
+      "value": 38.19,
+      "classification": "fear",
+      "timestamp": 1782691200
+    },
+    {
+      "time": 1782692100000,
+      "value": 31.16,
+      "classification": "fear",
+      "timestamp": 1782692100
+    },
+    {
+      "time": 1782693000000,
+      "value": 39.89,
+      "classification": "fear",
+      "timestamp": 1782693000
+    },
+    {
+      "time": 1782693900000,
+      "value": 57.62,
+      "classification": "neutral",
+      "timestamp": 1782693900
+    },
+    {
+      "time": 1782694800000,
+      "value": 34.22,
+      "classification": "fear",
+      "timestamp": 1782694800
+    },
+    {
+      "time": 1782695700000,
+      "value": 39.25,
+      "classification": "fear",
+      "timestamp": 1782695700
+    },
+    {
+      "time": 1782696600000,
+      "value": 31.63,
+      "classification": "fear",
+      "timestamp": 1782696600
+    },
+    {
+      "time": 1782697500000,
+      "value": 36.28,
+      "classification": "fear",
+      "timestamp": 1782697500
+    },
+    {
+      "time": 1782698400000,
+      "value": 38.56,
+      "classification": "fear",
+      "timestamp": 1782698400
+    },
+    {
+      "time": 1782699300000,
+      "value": 38.67,
+      "classification": "fear",
+      "timestamp": 1782699300
+    },
+    {
+      "time": 1782700200000,
+      "value": 32.81,
+      "classification": "fear",
+      "timestamp": 1782700200
+    },
+    {
+      "time": 1782701100000,
+      "value": 41.04,
+      "classification": "neutral",
+      "timestamp": 1782701100
+    },
+    {
+      "time": 1782702000000,
+      "value": 26.82,
+      "classification": "fear",
+      "timestamp": 1782702000
+    },
+    {
+      "time": 1782702900000,
+      "value": 28.73,
+      "classification": "fear",
+      "timestamp": 1782702900
+    },
+    {
+      "time": 1782703800000,
+      "value": 36.26,
+      "classification": "fear",
+      "timestamp": 1782703800
+    },
+    {
+      "time": 1782704700000,
+      "value": 39.16,
+      "classification": "fear",
+      "timestamp": 1782704700
+    },
+    {
+      "time": 1782705600000,
+      "value": 35.09,
+      "classification": "fear",
+      "timestamp": 1782705600
+    },
+    {
+      "time": 1782706500000,
+      "value": 29.42,
+      "classification": "fear",
+      "timestamp": 1782706500
+    },
+    {
+      "time": 1782707400000,
+      "value": 44.02,
+      "classification": "neutral",
+      "timestamp": 1782707400
+    },
+    {
+      "time": 1782708300000,
+      "value": 34.9,
+      "classification": "fear",
+      "timestamp": 1782708300
+    },
+    {
+      "time": 1782709200000,
+      "value": 38.3,
+      "classification": "fear",
+      "timestamp": 1782709200
+    },
+    {
+      "time": 1782710100000,
+      "value": 25.86,
+      "classification": "fear",
+      "timestamp": 1782710100
+    },
+    {
+      "time": 1782711000000,
+      "value": 34.38,
+      "classification": "fear",
+      "timestamp": 1782711000
+    },
+    {
+      "time": 1782711900000,
+      "value": 33.1,
+      "classification": "fear",
+      "timestamp": 1782711900
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "coinglass_sentiment_positioning_fear_greed",
+    "path": "/api/index/fear-greed-history",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/coinglass/extracted_raw/20260704T154952Z/sentiment_positioning/fear_greed/15m_raw.json",
+    "raw_shape": "code_msg_data_list_fear_greed",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}

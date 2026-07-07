@@ -1,0 +1,284 @@
+{
+  "pipeline": "Processing-Signals ProcessingPipeline",
+  "version": "0.1.0",
+  "summary": {
+    "records_processed": 124,
+    "data_types": {
+      "cvd": 4,
+      "footprint_order_volume": 4,
+      "taker_buy_sell_volume": 4,
+      "taker_buy_sell_stats": 3,
+      "bitcoin_etf_flows": 1,
+      "exchange_inflow": 2,
+      "exchange_netflow": 2,
+      "exchange_outflow": 2,
+      "exchange_reserve": 2,
+      "stablecoins_ratio": 1,
+      "exchange_balance": 2,
+      "exchange_net_position_change": 2,
+      "aggregated_liquidation_history": 1,
+      "liquidation_heatmap": 1,
+      "liquidation_map": 1,
+      "liquidation_order_events": 1,
+      "liquidations": 3,
+      "market_depth": 1,
+      "orderbook_conventional": 2,
+      "orderbook_large_trades": 1,
+      "miner_inflow": 1,
+      "miner_outflow": 1,
+      "miner_reserve": 1,
+      "miner_supply_ratio": 1,
+      "mpi": 1,
+      "difficulty_latest": 2,
+      "hash_rate_mean": 2,
+      "miner_outflow_multiple": 1,
+      "miner_revenue_sum": 1,
+      "aggregated_open_interest_ohlc": 4,
+      "basis": 4,
+      "funding_rate_ohlc": 4,
+      "oi_weighted_funding_rate_ohlc": 4,
+      "open_interest_ohlc": 4,
+      "estimated_leverage_ratio": 2,
+      "funding_rates": 3,
+      "open_interest": 3,
+      "futures_funding_rate_perpetual": 2,
+      "futures_open_interest_sum": 2,
+      "max_pain": 3,
+      "options_open_interest_by_exchange": 2,
+      "options_volume_by_exchange": 2,
+      "implied_volatility_atm": 2,
+      "options_open_interest": 2,
+      "options_volume": 2,
+      "realized_volatility": 2,
+      "skew_25_delta": 2,
+      "futures_ohlcv": 4,
+      "spot_ohlcv": 4,
+      "fear_greed": 4,
+      "global_account_long_short_ratio": 4,
+      "top_account_long_short_ratio": 4,
+      "top_position_long_short_ratio": 4
+    }
+  },
+  "records_processed": 124,
+  "data_types": {
+    "cvd": 4,
+    "footprint_order_volume": 4,
+    "taker_buy_sell_volume": 4,
+    "taker_buy_sell_stats": 3,
+    "bitcoin_etf_flows": 1,
+    "exchange_inflow": 2,
+    "exchange_netflow": 2,
+    "exchange_outflow": 2,
+    "exchange_reserve": 2,
+    "stablecoins_ratio": 1,
+    "exchange_balance": 2,
+    "exchange_net_position_change": 2,
+    "aggregated_liquidation_history": 1,
+    "liquidation_heatmap": 1,
+    "liquidation_map": 1,
+    "liquidation_order_events": 1,
+    "liquidations": 3,
+    "market_depth": 1,
+    "orderbook_conventional": 2,
+    "orderbook_large_trades": 1,
+    "miner_inflow": 1,
+    "miner_outflow": 1,
+    "miner_reserve": 1,
+    "miner_supply_ratio": 1,
+    "mpi": 1,
+    "difficulty_latest": 2,
+    "hash_rate_mean": 2,
+    "miner_outflow_multiple": 1,
+    "miner_revenue_sum": 1,
+    "aggregated_open_interest_ohlc": 4,
+    "basis": 4,
+    "funding_rate_ohlc": 4,
+    "oi_weighted_funding_rate_ohlc": 4,
+    "open_interest_ohlc": 4,
+    "estimated_leverage_ratio": 2,
+    "funding_rates": 3,
+    "open_interest": 3,
+    "futures_funding_rate_perpetual": 2,
+    "futures_open_interest_sum": 2,
+    "max_pain": 3,
+    "options_open_interest_by_exchange": 2,
+    "options_volume_by_exchange": 2,
+    "implied_volatility_atm": 2,
+    "options_open_interest": 2,
+    "options_volume": 2,
+    "realized_volatility": 2,
+    "skew_25_delta": 2,
+    "futures_ohlcv": 4,
+    "spot_ohlcv": 4,
+    "fear_greed": 4,
+    "global_account_long_short_ratio": 4,
+    "top_account_long_short_ratio": 4,
+    "top_position_long_short_ratio": 4
+  },
+  "family_outputs": {
+    "root": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families",
+    "official_families": [
+      "cvd_volume_orderflow",
+      "institutional_flows",
+      "liquidations",
+      "liquidity_microstructure",
+      "onchain_miners",
+      "open_interest_and_funding",
+      "options_volatility",
+      "prices_ohlcv",
+      "sentiment_positioning"
+    ],
+    "active_families": [
+      "cvd_volume_orderflow",
+      "institutional_flows",
+      "liquidations",
+      "liquidity_microstructure",
+      "onchain_miners",
+      "open_interest_and_funding",
+      "options_volatility",
+      "prices_ohlcv",
+      "sentiment_positioning"
+    ],
+    "inactive_families": [],
+    "families": [
+      {
+        "family_key": "cvd_volume_orderflow",
+        "records_processed": 15,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\cvd_volume_orderflow.json",
+            "records_processed": 15
+          }
+        ]
+      },
+      {
+        "family_key": "institutional_flows",
+        "records_processed": 14,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\institutional_flows.json",
+            "records_processed": 14
+          }
+        ]
+      },
+      {
+        "family_key": "liquidations",
+        "records_processed": 7,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\liquidations.json",
+            "records_processed": 7
+          }
+        ]
+      },
+      {
+        "family_key": "liquidity_microstructure",
+        "records_processed": 4,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\liquidity_microstructure.json",
+            "records_processed": 4
+          }
+        ]
+      },
+      {
+        "family_key": "onchain_miners",
+        "records_processed": 11,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\onchain_miners.json",
+            "records_processed": 11
+          }
+        ]
+      },
+      {
+        "family_key": "open_interest_and_funding",
+        "records_processed": 32,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\open_interest_and_funding.json",
+            "records_processed": 32
+          }
+        ]
+      },
+      {
+        "family_key": "options_volatility",
+        "records_processed": 17,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\options_volatility.json",
+            "records_processed": 17
+          }
+        ]
+      },
+      {
+        "family_key": "prices_ohlcv",
+        "records_processed": 8,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\prices_ohlcv.json",
+            "records_processed": 8
+          }
+        ]
+      },
+      {
+        "family_key": "sentiment_positioning",
+        "records_processed": 16,
+        "outputs": [
+          {
+            "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\families\\sentiment_positioning.json",
+            "records_processed": 16
+          }
+        ]
+      }
+    ]
+  },
+  "official_families": [
+    "cvd_volume_orderflow",
+    "institutional_flows",
+    "liquidations",
+    "liquidity_microstructure",
+    "onchain_miners",
+    "open_interest_and_funding",
+    "options_volatility",
+    "prices_ohlcv",
+    "sentiment_positioning"
+  ],
+  "active_families": [
+    "cvd_volume_orderflow",
+    "institutional_flows",
+    "liquidations",
+    "liquidity_microstructure",
+    "onchain_miners",
+    "open_interest_and_funding",
+    "options_volatility",
+    "prices_ohlcv",
+    "sentiment_positioning"
+  ],
+  "inactive_families": [],
+  "manifest_summary": {
+    "output_shape": "manifest",
+    "records_processed": 124,
+    "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\manifest.json"
+  },
+  "processing_flow": [
+    "extraction",
+    "classification_input",
+    "transforms",
+    "technical_indicators_on_classified_views",
+    "math_statistics_microstructure_patterns",
+    "classification_output",
+    "union_manifest"
+  ],
+  "input_timeframe_issues": [],
+  "validation_status": "ok",
+  "errors": [],
+  "warnings": [],
+  "metaoutputs": [
+    {
+      "output_shape": "manifest",
+      "path": "C:\\Users\\Ottmar\\Desktop\\TradElatin-Processing\\processing-signals\\data\\data_processing\\manifest.json",
+      "records_processed": 124
+    }
+  ]
+}

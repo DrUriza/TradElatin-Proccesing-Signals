@@ -1,0 +1,4830 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260704T154952Z",
+  "provider": "cryptoquant",
+  "family": "institutional_flows",
+  "subtype": "exchange_inflow",
+  "data_type": "time_series",
+  "asset": "BTC",
+  "symbol": "BTCUSDT",
+  "exchange": null,
+  "timeframe": "hour",
+  "extraction_window": null,
+  "records": [
+    {
+      "datetime": "2026-06-23T00:00:00Z",
+      "blockheight": 856000,
+      "inflow_total": 3709.7637,
+      "inflow_mean": 2.094394,
+      "inflow_top10": 1336.6289,
+      "timestamp": 1782172800
+    },
+    {
+      "datetime": "2026-06-23T01:00:00Z",
+      "blockheight": 856001,
+      "inflow_total": 4159.4379,
+      "inflow_mean": 2.012683,
+      "inflow_top10": 1368.5192,
+      "timestamp": 1782176400
+    },
+    {
+      "datetime": "2026-06-23T02:00:00Z",
+      "blockheight": 856002,
+      "inflow_total": 4647.875,
+      "inflow_mean": 1.8226,
+      "inflow_top10": 1461.8375,
+      "timestamp": 1782180000
+    },
+    {
+      "datetime": "2026-06-23T03:00:00Z",
+      "blockheight": 856003,
+      "inflow_total": 5563.9665,
+      "inflow_mean": 2.149624,
+      "inflow_top10": 284.186,
+      "timestamp": 1782183600
+    },
+    {
+      "datetime": "2026-06-23T04:00:00Z",
+      "blockheight": 856004,
+      "inflow_total": 3656.5051,
+      "inflow_mean": 2.780422,
+      "inflow_top10": 1488.3874,
+      "timestamp": 1782187200
+    },
+    {
+      "datetime": "2026-06-23T05:00:00Z",
+      "blockheight": 856005,
+      "inflow_total": 3590.8327,
+      "inflow_mean": 0.982014,
+      "inflow_top10": 1188.7052,
+      "timestamp": 1782190800
+    },
+    {
+      "datetime": "2026-06-23T06:00:00Z",
+      "blockheight": 856006,
+      "inflow_total": 5020.118,
+      "inflow_mean": 1.652832,
+      "inflow_top10": 1386.0365,
+      "timestamp": 1782194400
+    },
+    {
+      "datetime": "2026-06-23T07:00:00Z",
+      "blockheight": 856007,
+      "inflow_total": 3873.8661,
+      "inflow_mean": 3.031354,
+      "inflow_top10": 1640.28,
+      "timestamp": 1782198000
+    },
+    {
+      "datetime": "2026-06-23T08:00:00Z",
+      "blockheight": 856008,
+      "inflow_total": 4716.5496,
+      "inflow_mean": 1.620586,
+      "inflow_top10": 1533.2416,
+      "timestamp": 1782201600
+    },
+    {
+      "datetime": "2026-06-23T09:00:00Z",
+      "blockheight": 856009,
+      "inflow_total": 4406.6886,
+      "inflow_mean": 1.359662,
+      "inflow_top10": 1142.2905,
+      "timestamp": 1782205200
+    },
+    {
+      "datetime": "2026-06-23T10:00:00Z",
+      "blockheight": 856010,
+      "inflow_total": 2699.6077,
+      "inflow_mean": 2.048831,
+      "inflow_top10": 1509.9814,
+      "timestamp": 1782208800
+    },
+    {
+      "datetime": "2026-06-23T11:00:00Z",
+      "blockheight": 856011,
+      "inflow_total": 3708.4908,
+      "inflow_mean": 2.105587,
+      "inflow_top10": 1464.613,
+      "timestamp": 1782212400
+    },
+    {
+      "datetime": "2026-06-23T12:00:00Z",
+      "blockheight": 856012,
+      "inflow_total": 4090.5219,
+      "inflow_mean": 1.956565,
+      "inflow_top10": 1919.137,
+      "timestamp": 1782216000
+    },
+    {
+      "datetime": "2026-06-23T13:00:00Z",
+      "blockheight": 856013,
+      "inflow_total": 3856.9031,
+      "inflow_mean": 1.198207,
+      "inflow_top10": 845.8526,
+      "timestamp": 1782219600
+    },
+    {
+      "datetime": "2026-06-23T14:00:00Z",
+      "blockheight": 856014,
+      "inflow_total": 5116.1068,
+      "inflow_mean": 1.773908,
+      "inflow_top10": 960.0068,
+      "timestamp": 1782223200
+    },
+    {
+      "datetime": "2026-06-23T15:00:00Z",
+      "blockheight": 856015,
+      "inflow_total": 2561.5606,
+      "inflow_mean": 1.774053,
+      "inflow_top10": 1529.9477,
+      "timestamp": 1782226800
+    },
+    {
+      "datetime": "2026-06-23T16:00:00Z",
+      "blockheight": 856016,
+      "inflow_total": 3619.2151,
+      "inflow_mean": 1.625905,
+      "inflow_top10": 1182.4335,
+      "timestamp": 1782230400
+    },
+    {
+      "datetime": "2026-06-23T17:00:00Z",
+      "blockheight": 856017,
+      "inflow_total": 3638.5566,
+      "inflow_mean": 1.592477,
+      "inflow_top10": 1444.7544,
+      "timestamp": 1782234000
+    },
+    {
+      "datetime": "2026-06-23T18:00:00Z",
+      "blockheight": 856018,
+      "inflow_total": 3206.8223,
+      "inflow_mean": 1.359846,
+      "inflow_top10": 1460.3842,
+      "timestamp": 1782237600
+    },
+    {
+      "datetime": "2026-06-23T19:00:00Z",
+      "blockheight": 856019,
+      "inflow_total": 3378.4127,
+      "inflow_mean": 2.207505,
+      "inflow_top10": 1306.2333,
+      "timestamp": 1782241200
+    },
+    {
+      "datetime": "2026-06-23T20:00:00Z",
+      "blockheight": 856020,
+      "inflow_total": 4113.8082,
+      "inflow_mean": 1.281358,
+      "inflow_top10": 1235.1705,
+      "timestamp": 1782244800
+    },
+    {
+      "datetime": "2026-06-23T21:00:00Z",
+      "blockheight": 856021,
+      "inflow_total": 4538.5037,
+      "inflow_mean": 1.83116,
+      "inflow_top10": 1806.9231,
+      "timestamp": 1782248400
+    },
+    {
+      "datetime": "2026-06-23T22:00:00Z",
+      "blockheight": 856022,
+      "inflow_total": 5591.3935,
+      "inflow_mean": 1.398233,
+      "inflow_top10": 1572.3599,
+      "timestamp": 1782252000
+    },
+    {
+      "datetime": "2026-06-23T23:00:00Z",
+      "blockheight": 856023,
+      "inflow_total": 4489.1243,
+      "inflow_mean": 2.015731,
+      "inflow_top10": 1341.8632,
+      "timestamp": 1782255600
+    },
+    {
+      "datetime": "2026-06-24T00:00:00Z",
+      "blockheight": 856024,
+      "inflow_total": 5375.2414,
+      "inflow_mean": 1.80575,
+      "inflow_top10": 1173.4435,
+      "timestamp": 1782259200
+    },
+    {
+      "datetime": "2026-06-24T01:00:00Z",
+      "blockheight": 856025,
+      "inflow_total": 5671.248,
+      "inflow_mean": 2.196094,
+      "inflow_top10": 982.81,
+      "timestamp": 1782262800
+    },
+    {
+      "datetime": "2026-06-24T02:00:00Z",
+      "blockheight": 856026,
+      "inflow_total": 3408.1643,
+      "inflow_mean": 2.149895,
+      "inflow_top10": 1569.5225,
+      "timestamp": 1782266400
+    },
+    {
+      "datetime": "2026-06-24T03:00:00Z",
+      "blockheight": 856027,
+      "inflow_total": 4080.8846,
+      "inflow_mean": 1.675998,
+      "inflow_top10": 786.6529,
+      "timestamp": 1782270000
+    },
+    {
+      "datetime": "2026-06-24T04:00:00Z",
+      "blockheight": 856028,
+      "inflow_total": 5413.0748,
+      "inflow_mean": 1.493683,
+      "inflow_top10": 2125.4264,
+      "timestamp": 1782273600
+    },
+    {
+      "datetime": "2026-06-24T05:00:00Z",
+      "blockheight": 856029,
+      "inflow_total": 4138.9987,
+      "inflow_mean": 2.817779,
+      "inflow_top10": 1845.2063,
+      "timestamp": 1782277200
+    },
+    {
+      "datetime": "2026-06-24T06:00:00Z",
+      "blockheight": 856030,
+      "inflow_total": 2762.0814,
+      "inflow_mean": 0.390123,
+      "inflow_top10": 1391.6809,
+      "timestamp": 1782280800
+    },
+    {
+      "datetime": "2026-06-24T07:00:00Z",
+      "blockheight": 856031,
+      "inflow_total": 4980.2601,
+      "inflow_mean": 1.84703,
+      "inflow_top10": 1901.8286,
+      "timestamp": 1782284400
+    },
+    {
+      "datetime": "2026-06-24T08:00:00Z",
+      "blockheight": 856032,
+      "inflow_total": 3871.7452,
+      "inflow_mean": 1.927229,
+      "inflow_top10": 1892.9936,
+      "timestamp": 1782288000
+    },
+    {
+      "datetime": "2026-06-24T09:00:00Z",
+      "blockheight": 856033,
+      "inflow_total": 5382.4664,
+      "inflow_mean": 2.464472,
+      "inflow_top10": 1493.3042,
+      "timestamp": 1782291600
+    },
+    {
+      "datetime": "2026-06-24T10:00:00Z",
+      "blockheight": 856034,
+      "inflow_total": 3625.5923,
+      "inflow_mean": 1.756273,
+      "inflow_top10": 1570.1861,
+      "timestamp": 1782295200
+    },
+    {
+      "datetime": "2026-06-24T11:00:00Z",
+      "blockheight": 856035,
+      "inflow_total": 4271.0062,
+      "inflow_mean": 1.318273,
+      "inflow_top10": 1047.2326,
+      "timestamp": 1782298800
+    },
+    {
+      "datetime": "2026-06-24T12:00:00Z",
+      "blockheight": 856036,
+      "inflow_total": 4200.468,
+      "inflow_mean": 1.164944,
+      "inflow_top10": 956.5157,
+      "timestamp": 1782302400
+    },
+    {
+      "datetime": "2026-06-24T13:00:00Z",
+      "blockheight": 856037,
+      "inflow_total": 4287.1736,
+      "inflow_mean": 1.690315,
+      "inflow_top10": 1905.896,
+      "timestamp": 1782306000
+    },
+    {
+      "datetime": "2026-06-24T14:00:00Z",
+      "blockheight": 856038,
+      "inflow_total": 4993.6828,
+      "inflow_mean": 1.576048,
+      "inflow_top10": 944.0006,
+      "timestamp": 1782309600
+    },
+    {
+      "datetime": "2026-06-24T15:00:00Z",
+      "blockheight": 856039,
+      "inflow_total": 3709.0585,
+      "inflow_mean": 0.411631,
+      "inflow_top10": 689.5661,
+      "timestamp": 1782313200
+    },
+    {
+      "datetime": "2026-06-24T16:00:00Z",
+      "blockheight": 856040,
+      "inflow_total": 4673.3462,
+      "inflow_mean": 1.335985,
+      "inflow_top10": 766.6778,
+      "timestamp": 1782316800
+    },
+    {
+      "datetime": "2026-06-24T17:00:00Z",
+      "blockheight": 856041,
+      "inflow_total": 1836.1045,
+      "inflow_mean": 2.496037,
+      "inflow_top10": 1326.0486,
+      "timestamp": 1782320400
+    },
+    {
+      "datetime": "2026-06-24T18:00:00Z",
+      "blockheight": 856042,
+      "inflow_total": 5690.2246,
+      "inflow_mean": 2.013587,
+      "inflow_top10": 2149.1621,
+      "timestamp": 1782324000
+    },
+    {
+      "datetime": "2026-06-24T19:00:00Z",
+      "blockheight": 856043,
+      "inflow_total": 3353.6993,
+      "inflow_mean": 2.21682,
+      "inflow_top10": 1436.7783,
+      "timestamp": 1782327600
+    },
+    {
+      "datetime": "2026-06-24T20:00:00Z",
+      "blockheight": 856044,
+      "inflow_total": 4302.4966,
+      "inflow_mean": 1.810946,
+      "inflow_top10": 1331.61,
+      "timestamp": 1782331200
+    },
+    {
+      "datetime": "2026-06-24T21:00:00Z",
+      "blockheight": 856045,
+      "inflow_total": 4303.986,
+      "inflow_mean": 1.245142,
+      "inflow_top10": 1483.1751,
+      "timestamp": 1782334800
+    },
+    {
+      "datetime": "2026-06-24T22:00:00Z",
+      "blockheight": 856046,
+      "inflow_total": 4191.1653,
+      "inflow_mean": 1.340439,
+      "inflow_top10": 1171.4897,
+      "timestamp": 1782338400
+    },
+    {
+      "datetime": "2026-06-24T23:00:00Z",
+      "blockheight": 856047,
+      "inflow_total": 4976.6762,
+      "inflow_mean": 2.396021,
+      "inflow_top10": 1267.5711,
+      "timestamp": 1782342000
+    },
+    {
+      "datetime": "2026-06-25T00:00:00Z",
+      "blockheight": 856048,
+      "inflow_total": 3909.2002,
+      "inflow_mean": 1.612273,
+      "inflow_top10": 1511.7624,
+      "timestamp": 1782345600
+    },
+    {
+      "datetime": "2026-06-25T01:00:00Z",
+      "blockheight": 856049,
+      "inflow_total": 4187.0069,
+      "inflow_mean": 1.629383,
+      "inflow_top10": 2240.9033,
+      "timestamp": 1782349200
+    },
+    {
+      "datetime": "2026-06-25T02:00:00Z",
+      "blockheight": 856050,
+      "inflow_total": 5610.5784,
+      "inflow_mean": 2.37871,
+      "inflow_top10": 1245.2769,
+      "timestamp": 1782352800
+    },
+    {
+      "datetime": "2026-06-25T03:00:00Z",
+      "blockheight": 856051,
+      "inflow_total": 3351.1678,
+      "inflow_mean": 1.8816,
+      "inflow_top10": 1672.3753,
+      "timestamp": 1782356400
+    },
+    {
+      "datetime": "2026-06-25T04:00:00Z",
+      "blockheight": 856052,
+      "inflow_total": 5431.0115,
+      "inflow_mean": 1.450637,
+      "inflow_top10": 793.0299,
+      "timestamp": 1782360000
+    },
+    {
+      "datetime": "2026-06-25T05:00:00Z",
+      "blockheight": 856053,
+      "inflow_total": 3412.3919,
+      "inflow_mean": 1.378959,
+      "inflow_top10": 750.3999,
+      "timestamp": 1782363600
+    },
+    {
+      "datetime": "2026-06-25T06:00:00Z",
+      "blockheight": 856054,
+      "inflow_total": 4224.5568,
+      "inflow_mean": 1.456694,
+      "inflow_top10": 1967.8295,
+      "timestamp": 1782367200
+    },
+    {
+      "datetime": "2026-06-25T07:00:00Z",
+      "blockheight": 856055,
+      "inflow_total": 4168.7633,
+      "inflow_mean": 0.578608,
+      "inflow_top10": 1749.0759,
+      "timestamp": 1782370800
+    },
+    {
+      "datetime": "2026-06-25T08:00:00Z",
+      "blockheight": 856056,
+      "inflow_total": 3164.2625,
+      "inflow_mean": 1.836548,
+      "inflow_top10": 1692.2964,
+      "timestamp": 1782374400
+    },
+    {
+      "datetime": "2026-06-25T09:00:00Z",
+      "blockheight": 856057,
+      "inflow_total": 4627.8663,
+      "inflow_mean": 1.488318,
+      "inflow_top10": 1558.198,
+      "timestamp": 1782378000
+    },
+    {
+      "datetime": "2026-06-25T10:00:00Z",
+      "blockheight": 856058,
+      "inflow_total": 3427.7724,
+      "inflow_mean": 1.867506,
+      "inflow_top10": 1887.1497,
+      "timestamp": 1782381600
+    },
+    {
+      "datetime": "2026-06-25T11:00:00Z",
+      "blockheight": 856059,
+      "inflow_total": 3709.3258,
+      "inflow_mean": 2.233591,
+      "inflow_top10": 1800.0452,
+      "timestamp": 1782385200
+    },
+    {
+      "datetime": "2026-06-25T12:00:00Z",
+      "blockheight": 856060,
+      "inflow_total": 4594.9958,
+      "inflow_mean": 1.374822,
+      "inflow_top10": 800.1337,
+      "timestamp": 1782388800
+    },
+    {
+      "datetime": "2026-06-25T13:00:00Z",
+      "blockheight": 856061,
+      "inflow_total": 3977.3613,
+      "inflow_mean": 1.844279,
+      "inflow_top10": 619.721,
+      "timestamp": 1782392400
+    },
+    {
+      "datetime": "2026-06-25T14:00:00Z",
+      "blockheight": 856062,
+      "inflow_total": 4786.7079,
+      "inflow_mean": 2.183496,
+      "inflow_top10": 1162.8479,
+      "timestamp": 1782396000
+    },
+    {
+      "datetime": "2026-06-25T15:00:00Z",
+      "blockheight": 856063,
+      "inflow_total": 4177.8934,
+      "inflow_mean": 1.470374,
+      "inflow_top10": 1901.896,
+      "timestamp": 1782399600
+    },
+    {
+      "datetime": "2026-06-25T16:00:00Z",
+      "blockheight": 856064,
+      "inflow_total": 4330.6983,
+      "inflow_mean": 2.472223,
+      "inflow_top10": 2032.109,
+      "timestamp": 1782403200
+    },
+    {
+      "datetime": "2026-06-25T17:00:00Z",
+      "blockheight": 856065,
+      "inflow_total": 3542.3236,
+      "inflow_mean": 1.464113,
+      "inflow_top10": 1408.8153,
+      "timestamp": 1782406800
+    },
+    {
+      "datetime": "2026-06-25T18:00:00Z",
+      "blockheight": 856066,
+      "inflow_total": 3160.3228,
+      "inflow_mean": 1.950287,
+      "inflow_top10": 1121.2654,
+      "timestamp": 1782410400
+    },
+    {
+      "datetime": "2026-06-25T19:00:00Z",
+      "blockheight": 856067,
+      "inflow_total": 2936.1963,
+      "inflow_mean": 1.810654,
+      "inflow_top10": 1793.9578,
+      "timestamp": 1782414000
+    },
+    {
+      "datetime": "2026-06-25T20:00:00Z",
+      "blockheight": 856068,
+      "inflow_total": 4295.7735,
+      "inflow_mean": 1.582887,
+      "inflow_top10": 1509.2421,
+      "timestamp": 1782417600
+    },
+    {
+      "datetime": "2026-06-25T21:00:00Z",
+      "blockheight": 856069,
+      "inflow_total": 4391.2337,
+      "inflow_mean": 1.695266,
+      "inflow_top10": 1370.4064,
+      "timestamp": 1782421200
+    },
+    {
+      "datetime": "2026-06-25T22:00:00Z",
+      "blockheight": 856070,
+      "inflow_total": 5198.0547,
+      "inflow_mean": 2.268002,
+      "inflow_top10": 1582.7762,
+      "timestamp": 1782424800
+    },
+    {
+      "datetime": "2026-06-25T23:00:00Z",
+      "blockheight": 856071,
+      "inflow_total": 3725.6441,
+      "inflow_mean": 1.536647,
+      "inflow_top10": 1899.1658,
+      "timestamp": 1782428400
+    },
+    {
+      "datetime": "2026-06-26T00:00:00Z",
+      "blockheight": 856072,
+      "inflow_total": 4823.9163,
+      "inflow_mean": 0.729125,
+      "inflow_top10": 1772.6249,
+      "timestamp": 1782432000
+    },
+    {
+      "datetime": "2026-06-26T01:00:00Z",
+      "blockheight": 856073,
+      "inflow_total": 4788.6844,
+      "inflow_mean": 2.221539,
+      "inflow_top10": 1911.1448,
+      "timestamp": 1782435600
+    },
+    {
+      "datetime": "2026-06-26T02:00:00Z",
+      "blockheight": 856074,
+      "inflow_total": 3926.3324,
+      "inflow_mean": 1.511573,
+      "inflow_top10": 1324.0046,
+      "timestamp": 1782439200
+    },
+    {
+      "datetime": "2026-06-26T03:00:00Z",
+      "blockheight": 856075,
+      "inflow_total": 4662.3814,
+      "inflow_mean": 1.611841,
+      "inflow_top10": 1007.3619,
+      "timestamp": 1782442800
+    },
+    {
+      "datetime": "2026-06-26T04:00:00Z",
+      "blockheight": 856076,
+      "inflow_total": 2651.2678,
+      "inflow_mean": 1.621792,
+      "inflow_top10": 1461.6367,
+      "timestamp": 1782446400
+    },
+    {
+      "datetime": "2026-06-26T05:00:00Z",
+      "blockheight": 856077,
+      "inflow_total": 3622.9864,
+      "inflow_mean": 1.26329,
+      "inflow_top10": 9.278,
+      "timestamp": 1782450000
+    },
+    {
+      "datetime": "2026-06-26T06:00:00Z",
+      "blockheight": 856078,
+      "inflow_total": 3512.0875,
+      "inflow_mean": 1.859556,
+      "inflow_top10": 1011.1066,
+      "timestamp": 1782453600
+    },
+    {
+      "datetime": "2026-06-26T07:00:00Z",
+      "blockheight": 856079,
+      "inflow_total": 4721.409,
+      "inflow_mean": 2.493705,
+      "inflow_top10": 851.1439,
+      "timestamp": 1782457200
+    },
+    {
+      "datetime": "2026-06-26T08:00:00Z",
+      "blockheight": 856080,
+      "inflow_total": 5075.7579,
+      "inflow_mean": 0.622636,
+      "inflow_top10": 1010.2359,
+      "timestamp": 1782460800
+    },
+    {
+      "datetime": "2026-06-26T09:00:00Z",
+      "blockheight": 856081,
+      "inflow_total": 5039.4641,
+      "inflow_mean": 1.569635,
+      "inflow_top10": 895.0981,
+      "timestamp": 1782464400
+    },
+    {
+      "datetime": "2026-06-26T10:00:00Z",
+      "blockheight": 856082,
+      "inflow_total": 3408.3648,
+      "inflow_mean": 1.329767,
+      "inflow_top10": 1477.5811,
+      "timestamp": 1782468000
+    },
+    {
+      "datetime": "2026-06-26T11:00:00Z",
+      "blockheight": 856083,
+      "inflow_total": 2916.5089,
+      "inflow_mean": 2.120225,
+      "inflow_top10": 1372.5322,
+      "timestamp": 1782471600
+    },
+    {
+      "datetime": "2026-06-26T12:00:00Z",
+      "blockheight": 856084,
+      "inflow_total": 3911.0127,
+      "inflow_mean": 1.122946,
+      "inflow_top10": 978.9522,
+      "timestamp": 1782475200
+    },
+    {
+      "datetime": "2026-06-26T13:00:00Z",
+      "blockheight": 856085,
+      "inflow_total": 3260.8039,
+      "inflow_mean": 1.723633,
+      "inflow_top10": 1285.2681,
+      "timestamp": 1782478800
+    },
+    {
+      "datetime": "2026-06-26T14:00:00Z",
+      "blockheight": 856086,
+      "inflow_total": 4354.9536,
+      "inflow_mean": 1.34827,
+      "inflow_top10": 1321.9858,
+      "timestamp": 1782482400
+    },
+    {
+      "datetime": "2026-06-26T15:00:00Z",
+      "blockheight": 856087,
+      "inflow_total": 4413.6499,
+      "inflow_mean": 2.141129,
+      "inflow_top10": 2082.2317,
+      "timestamp": 1782486000
+    },
+    {
+      "datetime": "2026-06-26T16:00:00Z",
+      "blockheight": 856088,
+      "inflow_total": 3978.3554,
+      "inflow_mean": 2.230036,
+      "inflow_top10": 1030.5126,
+      "timestamp": 1782489600
+    },
+    {
+      "datetime": "2026-06-26T17:00:00Z",
+      "blockheight": 856089,
+      "inflow_total": 3591.6561,
+      "inflow_mean": 0.828751,
+      "inflow_top10": 1283.1556,
+      "timestamp": 1782493200
+    },
+    {
+      "datetime": "2026-06-26T18:00:00Z",
+      "blockheight": 856090,
+      "inflow_total": 4312.0669,
+      "inflow_mean": 1.828509,
+      "inflow_top10": 1446.9726,
+      "timestamp": 1782496800
+    },
+    {
+      "datetime": "2026-06-26T19:00:00Z",
+      "blockheight": 856091,
+      "inflow_total": 4411.2583,
+      "inflow_mean": 1.745695,
+      "inflow_top10": 1734.8326,
+      "timestamp": 1782500400
+    },
+    {
+      "datetime": "2026-06-26T20:00:00Z",
+      "blockheight": 856092,
+      "inflow_total": 2745.4719,
+      "inflow_mean": 3.005656,
+      "inflow_top10": 1439.9037,
+      "timestamp": 1782504000
+    },
+    {
+      "datetime": "2026-06-26T21:00:00Z",
+      "blockheight": 856093,
+      "inflow_total": 3565.7448,
+      "inflow_mean": 1.92832,
+      "inflow_top10": 1153.9996,
+      "timestamp": 1782507600
+    },
+    {
+      "datetime": "2026-06-26T22:00:00Z",
+      "blockheight": 856094,
+      "inflow_total": 5225.4244,
+      "inflow_mean": 1.809575,
+      "inflow_top10": 1846.9938,
+      "timestamp": 1782511200
+    },
+    {
+      "datetime": "2026-06-26T23:00:00Z",
+      "blockheight": 856095,
+      "inflow_total": 4616.0273,
+      "inflow_mean": 1.793056,
+      "inflow_top10": 684.5957,
+      "timestamp": 1782514800
+    },
+    {
+      "datetime": "2026-06-27T00:00:00Z",
+      "blockheight": 856096,
+      "inflow_total": 4417.4375,
+      "inflow_mean": 1.414691,
+      "inflow_top10": 928.6001,
+      "timestamp": 1782518400
+    },
+    {
+      "datetime": "2026-06-27T01:00:00Z",
+      "blockheight": 856097,
+      "inflow_total": 3529.1591,
+      "inflow_mean": 0.804397,
+      "inflow_top10": 1635.7902,
+      "timestamp": 1782522000
+    },
+    {
+      "datetime": "2026-06-27T02:00:00Z",
+      "blockheight": 856098,
+      "inflow_total": 3676.3668,
+      "inflow_mean": 1.048911,
+      "inflow_top10": 1443.8672,
+      "timestamp": 1782525600
+    },
+    {
+      "datetime": "2026-06-27T03:00:00Z",
+      "blockheight": 856099,
+      "inflow_total": 4703.3388,
+      "inflow_mean": 0.980187,
+      "inflow_top10": 1595.1164,
+      "timestamp": 1782529200
+    },
+    {
+      "datetime": "2026-06-27T04:00:00Z",
+      "blockheight": 856100,
+      "inflow_total": 3516.0632,
+      "inflow_mean": 1.914918,
+      "inflow_top10": 2305.0054,
+      "timestamp": 1782532800
+    },
+    {
+      "datetime": "2026-06-27T05:00:00Z",
+      "blockheight": 856101,
+      "inflow_total": 3704.09,
+      "inflow_mean": 2.58555,
+      "inflow_top10": 1276.3307,
+      "timestamp": 1782536400
+    },
+    {
+      "datetime": "2026-06-27T06:00:00Z",
+      "blockheight": 856102,
+      "inflow_total": 3473.3109,
+      "inflow_mean": 1.932878,
+      "inflow_top10": 2042.1409,
+      "timestamp": 1782540000
+    },
+    {
+      "datetime": "2026-06-27T07:00:00Z",
+      "blockheight": 856103,
+      "inflow_total": 4210.4538,
+      "inflow_mean": 1.657075,
+      "inflow_top10": 1057.3477,
+      "timestamp": 1782543600
+    },
+    {
+      "datetime": "2026-06-27T08:00:00Z",
+      "blockheight": 856104,
+      "inflow_total": 3770.069,
+      "inflow_mean": 2.158515,
+      "inflow_top10": 1173.1776,
+      "timestamp": 1782547200
+    },
+    {
+      "datetime": "2026-06-27T09:00:00Z",
+      "blockheight": 856105,
+      "inflow_total": 3598.3064,
+      "inflow_mean": 1.547712,
+      "inflow_top10": 1256.5157,
+      "timestamp": 1782550800
+    },
+    {
+      "datetime": "2026-06-27T10:00:00Z",
+      "blockheight": 856106,
+      "inflow_total": 3706.5305,
+      "inflow_mean": 2.888661,
+      "inflow_top10": 1127.3227,
+      "timestamp": 1782554400
+    },
+    {
+      "datetime": "2026-06-27T11:00:00Z",
+      "blockheight": 856107,
+      "inflow_total": 2550.7265,
+      "inflow_mean": 1.266099,
+      "inflow_top10": 902.1132,
+      "timestamp": 1782558000
+    },
+    {
+      "datetime": "2026-06-27T12:00:00Z",
+      "blockheight": 856108,
+      "inflow_total": 4758.4857,
+      "inflow_mean": 1.273373,
+      "inflow_top10": 1291.9178,
+      "timestamp": 1782561600
+    },
+    {
+      "datetime": "2026-06-27T13:00:00Z",
+      "blockheight": 856109,
+      "inflow_total": 5811.6094,
+      "inflow_mean": 1.641225,
+      "inflow_top10": 441.9333,
+      "timestamp": 1782565200
+    },
+    {
+      "datetime": "2026-06-27T14:00:00Z",
+      "blockheight": 856110,
+      "inflow_total": 4314.3348,
+      "inflow_mean": 1.991392,
+      "inflow_top10": 961.1458,
+      "timestamp": 1782568800
+    },
+    {
+      "datetime": "2026-06-27T15:00:00Z",
+      "blockheight": 856111,
+      "inflow_total": 4406.1065,
+      "inflow_mean": 2.614393,
+      "inflow_top10": 1678.5411,
+      "timestamp": 1782572400
+    },
+    {
+      "datetime": "2026-06-27T16:00:00Z",
+      "blockheight": 856112,
+      "inflow_total": 3276.2894,
+      "inflow_mean": 1.656152,
+      "inflow_top10": 1969.7754,
+      "timestamp": 1782576000
+    },
+    {
+      "datetime": "2026-06-27T17:00:00Z",
+      "blockheight": 856113,
+      "inflow_total": 3862.1664,
+      "inflow_mean": 1.785009,
+      "inflow_top10": 1457.7101,
+      "timestamp": 1782579600
+    },
+    {
+      "datetime": "2026-06-27T18:00:00Z",
+      "blockheight": 856114,
+      "inflow_total": 5168.8319,
+      "inflow_mean": 1.17528,
+      "inflow_top10": 1035.9521,
+      "timestamp": 1782583200
+    },
+    {
+      "datetime": "2026-06-27T19:00:00Z",
+      "blockheight": 856115,
+      "inflow_total": 2772.1639,
+      "inflow_mean": 1.474907,
+      "inflow_top10": 1497.5667,
+      "timestamp": 1782586800
+    },
+    {
+      "datetime": "2026-06-27T20:00:00Z",
+      "blockheight": 856116,
+      "inflow_total": 4464.4995,
+      "inflow_mean": 1.030247,
+      "inflow_top10": 1718.6935,
+      "timestamp": 1782590400
+    },
+    {
+      "datetime": "2026-06-27T21:00:00Z",
+      "blockheight": 856117,
+      "inflow_total": 3240.1428,
+      "inflow_mean": 2.235,
+      "inflow_top10": 1271.8544,
+      "timestamp": 1782594000
+    },
+    {
+      "datetime": "2026-06-27T22:00:00Z",
+      "blockheight": 856118,
+      "inflow_total": 3817.7497,
+      "inflow_mean": 1.514861,
+      "inflow_top10": 2028.0557,
+      "timestamp": 1782597600
+    },
+    {
+      "datetime": "2026-06-27T23:00:00Z",
+      "blockheight": 856119,
+      "inflow_total": 4262.578,
+      "inflow_mean": 0.959328,
+      "inflow_top10": 1785.8393,
+      "timestamp": 1782601200
+    },
+    {
+      "datetime": "2026-06-28T00:00:00Z",
+      "blockheight": 856120,
+      "inflow_total": 4195.0687,
+      "inflow_mean": 1.655209,
+      "inflow_top10": 795.1016,
+      "timestamp": 1782604800
+    },
+    {
+      "datetime": "2026-06-28T01:00:00Z",
+      "blockheight": 856121,
+      "inflow_total": 4616.6224,
+      "inflow_mean": 1.925803,
+      "inflow_top10": 1241.427,
+      "timestamp": 1782608400
+    },
+    {
+      "datetime": "2026-06-28T02:00:00Z",
+      "blockheight": 856122,
+      "inflow_total": 4073.657,
+      "inflow_mean": 1.521188,
+      "inflow_top10": 1622.1805,
+      "timestamp": 1782612000
+    },
+    {
+      "datetime": "2026-06-28T03:00:00Z",
+      "blockheight": 856123,
+      "inflow_total": 3228.2629,
+      "inflow_mean": 0.83057,
+      "inflow_top10": 1527.0318,
+      "timestamp": 1782615600
+    },
+    {
+      "datetime": "2026-06-28T04:00:00Z",
+      "blockheight": 856124,
+      "inflow_total": 4494.5545,
+      "inflow_mean": 0.926949,
+      "inflow_top10": 1517.8015,
+      "timestamp": 1782619200
+    },
+    {
+      "datetime": "2026-06-28T05:00:00Z",
+      "blockheight": 856125,
+      "inflow_total": 3599.4616,
+      "inflow_mean": 0.59615,
+      "inflow_top10": 1221.6646,
+      "timestamp": 1782622800
+    },
+    {
+      "datetime": "2026-06-28T06:00:00Z",
+      "blockheight": 856126,
+      "inflow_total": 4324.1962,
+      "inflow_mean": 2.793643,
+      "inflow_top10": 1260.0353,
+      "timestamp": 1782626400
+    },
+    {
+      "datetime": "2026-06-28T07:00:00Z",
+      "blockheight": 856127,
+      "inflow_total": 5367.766,
+      "inflow_mean": 2.310019,
+      "inflow_top10": 1388.6602,
+      "timestamp": 1782630000
+    },
+    {
+      "datetime": "2026-06-28T08:00:00Z",
+      "blockheight": 856128,
+      "inflow_total": 4832.9957,
+      "inflow_mean": 1.303008,
+      "inflow_top10": 1728.6002,
+      "timestamp": 1782633600
+    },
+    {
+      "datetime": "2026-06-28T09:00:00Z",
+      "blockheight": 856129,
+      "inflow_total": 3898.8085,
+      "inflow_mean": 1.257345,
+      "inflow_top10": 1481.9082,
+      "timestamp": 1782637200
+    },
+    {
+      "datetime": "2026-06-28T10:00:00Z",
+      "blockheight": 856130,
+      "inflow_total": 4793.5821,
+      "inflow_mean": 0.633251,
+      "inflow_top10": 1499.2805,
+      "timestamp": 1782640800
+    },
+    {
+      "datetime": "2026-06-28T11:00:00Z",
+      "blockheight": 856131,
+      "inflow_total": 4680.3315,
+      "inflow_mean": 1.720784,
+      "inflow_top10": 1416.5294,
+      "timestamp": 1782644400
+    },
+    {
+      "datetime": "2026-06-28T12:00:00Z",
+      "blockheight": 856132,
+      "inflow_total": 4488.5861,
+      "inflow_mean": 1.332502,
+      "inflow_top10": 1380.4944,
+      "timestamp": 1782648000
+    },
+    {
+      "datetime": "2026-06-28T13:00:00Z",
+      "blockheight": 856133,
+      "inflow_total": 4302.62,
+      "inflow_mean": 1.610691,
+      "inflow_top10": 1383.1262,
+      "timestamp": 1782651600
+    },
+    {
+      "datetime": "2026-06-28T14:00:00Z",
+      "blockheight": 856134,
+      "inflow_total": 4499.8708,
+      "inflow_mean": 1.162155,
+      "inflow_top10": 2006.1748,
+      "timestamp": 1782655200
+    },
+    {
+      "datetime": "2026-06-28T15:00:00Z",
+      "blockheight": 856135,
+      "inflow_total": 3735.6804,
+      "inflow_mean": 1.372619,
+      "inflow_top10": 885.7446,
+      "timestamp": 1782658800
+    },
+    {
+      "datetime": "2026-06-28T16:00:00Z",
+      "blockheight": 856136,
+      "inflow_total": 4144.168,
+      "inflow_mean": 1.360765,
+      "inflow_top10": 1086.3287,
+      "timestamp": 1782662400
+    },
+    {
+      "datetime": "2026-06-28T17:00:00Z",
+      "blockheight": 856137,
+      "inflow_total": 5889.8139,
+      "inflow_mean": 1.442344,
+      "inflow_top10": 1992.9287,
+      "timestamp": 1782666000
+    },
+    {
+      "datetime": "2026-06-28T18:00:00Z",
+      "blockheight": 856138,
+      "inflow_total": 4164.1026,
+      "inflow_mean": 2.192791,
+      "inflow_top10": 751.3217,
+      "timestamp": 1782669600
+    },
+    {
+      "datetime": "2026-06-28T19:00:00Z",
+      "blockheight": 856139,
+      "inflow_total": 5361.5745,
+      "inflow_mean": 1.578,
+      "inflow_top10": 2112.0363,
+      "timestamp": 1782673200
+    },
+    {
+      "datetime": "2026-06-28T20:00:00Z",
+      "blockheight": 856140,
+      "inflow_total": 3997.1324,
+      "inflow_mean": 1.708947,
+      "inflow_top10": 2032.9924,
+      "timestamp": 1782676800
+    },
+    {
+      "datetime": "2026-06-28T21:00:00Z",
+      "blockheight": 856141,
+      "inflow_total": 3622.7961,
+      "inflow_mean": 1.168408,
+      "inflow_top10": 1808.6273,
+      "timestamp": 1782680400
+    },
+    {
+      "datetime": "2026-06-28T22:00:00Z",
+      "blockheight": 856142,
+      "inflow_total": 4749.4358,
+      "inflow_mean": 0.964962,
+      "inflow_top10": 1600.6169,
+      "timestamp": 1782684000
+    },
+    {
+      "datetime": "2026-06-28T23:00:00Z",
+      "blockheight": 856143,
+      "inflow_total": 4843.4108,
+      "inflow_mean": 1.402152,
+      "inflow_top10": 1404.6003,
+      "timestamp": 1782687600
+    },
+    {
+      "datetime": "2026-06-29T00:00:00Z",
+      "blockheight": 856144,
+      "inflow_total": 3677.8749,
+      "inflow_mean": 2.630973,
+      "inflow_top10": 1249.8023,
+      "timestamp": 1782691200
+    },
+    {
+      "datetime": "2026-06-29T01:00:00Z",
+      "blockheight": 856145,
+      "inflow_total": 3294.1145,
+      "inflow_mean": 1.567998,
+      "inflow_top10": 873.7593,
+      "timestamp": 1782694800
+    },
+    {
+      "datetime": "2026-06-29T02:00:00Z",
+      "blockheight": 856146,
+      "inflow_total": 3715.9488,
+      "inflow_mean": 1.805956,
+      "inflow_top10": 1873.6635,
+      "timestamp": 1782698400
+    },
+    {
+      "datetime": "2026-06-29T03:00:00Z",
+      "blockheight": 856147,
+      "inflow_total": 3564.9133,
+      "inflow_mean": 1.805117,
+      "inflow_top10": 1418.3594,
+      "timestamp": 1782702000
+    },
+    {
+      "datetime": "2026-06-29T04:00:00Z",
+      "blockheight": 856148,
+      "inflow_total": 4935.4004,
+      "inflow_mean": 1.653328,
+      "inflow_top10": 1291.6445,
+      "timestamp": 1782705600
+    },
+    {
+      "datetime": "2026-06-29T05:00:00Z",
+      "blockheight": 856149,
+      "inflow_total": 4079.9884,
+      "inflow_mean": 2.131486,
+      "inflow_top10": 1317.7155,
+      "timestamp": 1782709200
+    },
+    {
+      "datetime": "2026-06-29T06:00:00Z",
+      "blockheight": 856150,
+      "inflow_total": 5367.3138,
+      "inflow_mean": 1.696027,
+      "inflow_top10": 1458.695,
+      "timestamp": 1782712800
+    },
+    {
+      "datetime": "2026-06-29T07:00:00Z",
+      "blockheight": 856151,
+      "inflow_total": 3928.3644,
+      "inflow_mean": 1.652546,
+      "inflow_top10": 1448.8554,
+      "timestamp": 1782716400
+    },
+    {
+      "datetime": "2026-06-29T08:00:00Z",
+      "blockheight": 856152,
+      "inflow_total": 3510.1112,
+      "inflow_mean": 1.195917,
+      "inflow_top10": 1590.0846,
+      "timestamp": 1782720000
+    },
+    {
+      "datetime": "2026-06-29T09:00:00Z",
+      "blockheight": 856153,
+      "inflow_total": 4753.9926,
+      "inflow_mean": 0.848482,
+      "inflow_top10": 1332.5121,
+      "timestamp": 1782723600
+    },
+    {
+      "datetime": "2026-06-29T10:00:00Z",
+      "blockheight": 856154,
+      "inflow_total": 3620.9907,
+      "inflow_mean": 1.506995,
+      "inflow_top10": 977.6624,
+      "timestamp": 1782727200
+    },
+    {
+      "datetime": "2026-06-29T11:00:00Z",
+      "blockheight": 856155,
+      "inflow_total": 4295.0855,
+      "inflow_mean": 1.826499,
+      "inflow_top10": 1263.4602,
+      "timestamp": 1782730800
+    },
+    {
+      "datetime": "2026-06-29T12:00:00Z",
+      "blockheight": 856156,
+      "inflow_total": 3895.2122,
+      "inflow_mean": 1.743539,
+      "inflow_top10": 1203.6742,
+      "timestamp": 1782734400
+    },
+    {
+      "datetime": "2026-06-29T13:00:00Z",
+      "blockheight": 856157,
+      "inflow_total": 5192.9355,
+      "inflow_mean": 2.513612,
+      "inflow_top10": 1452.1209,
+      "timestamp": 1782738000
+    },
+    {
+      "datetime": "2026-06-29T14:00:00Z",
+      "blockheight": 856158,
+      "inflow_total": 4618.4012,
+      "inflow_mean": 1.434233,
+      "inflow_top10": 1251.9804,
+      "timestamp": 1782741600
+    },
+    {
+      "datetime": "2026-06-29T15:00:00Z",
+      "blockheight": 856159,
+      "inflow_total": 5287.1625,
+      "inflow_mean": 1.500822,
+      "inflow_top10": 1473.0379,
+      "timestamp": 1782745200
+    },
+    {
+      "datetime": "2026-06-29T16:00:00Z",
+      "blockheight": 856160,
+      "inflow_total": 3614.3198,
+      "inflow_mean": 2.017734,
+      "inflow_top10": 1417.4727,
+      "timestamp": 1782748800
+    },
+    {
+      "datetime": "2026-06-29T17:00:00Z",
+      "blockheight": 856161,
+      "inflow_total": 4201.0437,
+      "inflow_mean": 1.143339,
+      "inflow_top10": 1708.8322,
+      "timestamp": 1782752400
+    },
+    {
+      "datetime": "2026-06-29T18:00:00Z",
+      "blockheight": 856162,
+      "inflow_total": 3875.4757,
+      "inflow_mean": 1.453608,
+      "inflow_top10": 845.1932,
+      "timestamp": 1782756000
+    },
+    {
+      "datetime": "2026-06-29T19:00:00Z",
+      "blockheight": 856163,
+      "inflow_total": 6561.6614,
+      "inflow_mean": 1.833166,
+      "inflow_top10": 1780.2574,
+      "timestamp": 1782759600
+    },
+    {
+      "datetime": "2026-06-29T20:00:00Z",
+      "blockheight": 856164,
+      "inflow_total": 3694.6961,
+      "inflow_mean": 1.78394,
+      "inflow_top10": 1279.0906,
+      "timestamp": 1782763200
+    },
+    {
+      "datetime": "2026-06-29T21:00:00Z",
+      "blockheight": 856165,
+      "inflow_total": 2768.2018,
+      "inflow_mean": 1.275427,
+      "inflow_top10": 1234.2342,
+      "timestamp": 1782766800
+    },
+    {
+      "datetime": "2026-06-29T22:00:00Z",
+      "blockheight": 856166,
+      "inflow_total": 4135.8578,
+      "inflow_mean": 1.76081,
+      "inflow_top10": 1413.8476,
+      "timestamp": 1782770400
+    },
+    {
+      "datetime": "2026-06-29T23:00:00Z",
+      "blockheight": 856167,
+      "inflow_total": 5338.6056,
+      "inflow_mean": 1.635299,
+      "inflow_top10": 1300.4536,
+      "timestamp": 1782774000
+    },
+    {
+      "datetime": "2026-06-30T00:00:00Z",
+      "blockheight": 856168,
+      "inflow_total": 4368.3688,
+      "inflow_mean": 2.055913,
+      "inflow_top10": 1557.436,
+      "timestamp": 1782777600
+    },
+    {
+      "datetime": "2026-06-30T01:00:00Z",
+      "blockheight": 856169,
+      "inflow_total": 4648.1687,
+      "inflow_mean": 0.757379,
+      "inflow_top10": 1023.0604,
+      "timestamp": 1782781200
+    },
+    {
+      "datetime": "2026-06-30T02:00:00Z",
+      "blockheight": 856170,
+      "inflow_total": 3403.2317,
+      "inflow_mean": 1.437529,
+      "inflow_top10": 1643.881,
+      "timestamp": 1782784800
+    },
+    {
+      "datetime": "2026-06-30T03:00:00Z",
+      "blockheight": 856171,
+      "inflow_total": 5224.8227,
+      "inflow_mean": 1.855443,
+      "inflow_top10": 1368.4704,
+      "timestamp": 1782788400
+    },
+    {
+      "datetime": "2026-06-30T04:00:00Z",
+      "blockheight": 856172,
+      "inflow_total": 3207.2632,
+      "inflow_mean": 1.789697,
+      "inflow_top10": 886.0498,
+      "timestamp": 1782792000
+    },
+    {
+      "datetime": "2026-06-30T05:00:00Z",
+      "blockheight": 856173,
+      "inflow_total": 3418.7443,
+      "inflow_mean": 1.99419,
+      "inflow_top10": 1105.9734,
+      "timestamp": 1782795600
+    },
+    {
+      "datetime": "2026-06-30T06:00:00Z",
+      "blockheight": 856174,
+      "inflow_total": 4221.9814,
+      "inflow_mean": 2.060418,
+      "inflow_top10": 999.5053,
+      "timestamp": 1782799200
+    },
+    {
+      "datetime": "2026-06-30T07:00:00Z",
+      "blockheight": 856175,
+      "inflow_total": 4681.7917,
+      "inflow_mean": 0.875373,
+      "inflow_top10": 1306.3198,
+      "timestamp": 1782802800
+    },
+    {
+      "datetime": "2026-06-30T08:00:00Z",
+      "blockheight": 856176,
+      "inflow_total": 5084.379,
+      "inflow_mean": 1.402137,
+      "inflow_top10": 1358.5807,
+      "timestamp": 1782806400
+    },
+    {
+      "datetime": "2026-06-30T09:00:00Z",
+      "blockheight": 856177,
+      "inflow_total": 3481.7633,
+      "inflow_mean": 2.571328,
+      "inflow_top10": 1468.7552,
+      "timestamp": 1782810000
+    },
+    {
+      "datetime": "2026-06-30T10:00:00Z",
+      "blockheight": 856178,
+      "inflow_total": 4434.5997,
+      "inflow_mean": 1.061913,
+      "inflow_top10": 1918.8977,
+      "timestamp": 1782813600
+    },
+    {
+      "datetime": "2026-06-30T11:00:00Z",
+      "blockheight": 856179,
+      "inflow_total": 4318.4817,
+      "inflow_mean": 1.958753,
+      "inflow_top10": 1634.8036,
+      "timestamp": 1782817200
+    },
+    {
+      "datetime": "2026-06-30T12:00:00Z",
+      "blockheight": 856180,
+      "inflow_total": 4929.6011,
+      "inflow_mean": 2.37591,
+      "inflow_top10": 1835.6682,
+      "timestamp": 1782820800
+    },
+    {
+      "datetime": "2026-06-30T13:00:00Z",
+      "blockheight": 856181,
+      "inflow_total": 4636.2458,
+      "inflow_mean": 1.887542,
+      "inflow_top10": 1135.3164,
+      "timestamp": 1782824400
+    },
+    {
+      "datetime": "2026-06-30T14:00:00Z",
+      "blockheight": 856182,
+      "inflow_total": 3784.416,
+      "inflow_mean": 2.210312,
+      "inflow_top10": 1389.5193,
+      "timestamp": 1782828000
+    },
+    {
+      "datetime": "2026-06-30T15:00:00Z",
+      "blockheight": 856183,
+      "inflow_total": 5991.3419,
+      "inflow_mean": 2.013091,
+      "inflow_top10": 847.4834,
+      "timestamp": 1782831600
+    },
+    {
+      "datetime": "2026-06-30T16:00:00Z",
+      "blockheight": 856184,
+      "inflow_total": 4826.9238,
+      "inflow_mean": 1.52583,
+      "inflow_top10": 766.3587,
+      "timestamp": 1782835200
+    },
+    {
+      "datetime": "2026-06-30T17:00:00Z",
+      "blockheight": 856185,
+      "inflow_total": 5367.9115,
+      "inflow_mean": 2.254882,
+      "inflow_top10": 1591.1948,
+      "timestamp": 1782838800
+    },
+    {
+      "datetime": "2026-06-30T18:00:00Z",
+      "blockheight": 856186,
+      "inflow_total": 4857.7142,
+      "inflow_mean": 1.837472,
+      "inflow_top10": 969.4716,
+      "timestamp": 1782842400
+    },
+    {
+      "datetime": "2026-06-30T19:00:00Z",
+      "blockheight": 856187,
+      "inflow_total": 4100.3696,
+      "inflow_mean": 1.437762,
+      "inflow_top10": 926.0215,
+      "timestamp": 1782846000
+    },
+    {
+      "datetime": "2026-06-30T20:00:00Z",
+      "blockheight": 856188,
+      "inflow_total": 5400.1892,
+      "inflow_mean": 1.29992,
+      "inflow_top10": 1468.0409,
+      "timestamp": 1782849600
+    },
+    {
+      "datetime": "2026-06-30T21:00:00Z",
+      "blockheight": 856189,
+      "inflow_total": 2789.0469,
+      "inflow_mean": 1.738464,
+      "inflow_top10": 833.745,
+      "timestamp": 1782853200
+    },
+    {
+      "datetime": "2026-06-30T22:00:00Z",
+      "blockheight": 856190,
+      "inflow_total": 4760.3601,
+      "inflow_mean": 2.320271,
+      "inflow_top10": 1811.7095,
+      "timestamp": 1782856800
+    },
+    {
+      "datetime": "2026-06-30T23:00:00Z",
+      "blockheight": 856191,
+      "inflow_total": 3486.2876,
+      "inflow_mean": 2.299304,
+      "inflow_top10": 1210.58,
+      "timestamp": 1782860400
+    },
+    {
+      "datetime": "2026-07-01T00:00:00Z",
+      "blockheight": 856192,
+      "inflow_total": 4761.9507,
+      "inflow_mean": 0.923467,
+      "inflow_top10": 1378.8207,
+      "timestamp": 1782864000
+    },
+    {
+      "datetime": "2026-07-01T01:00:00Z",
+      "blockheight": 856193,
+      "inflow_total": 4625.2974,
+      "inflow_mean": 1.698708,
+      "inflow_top10": 1435.3012,
+      "timestamp": 1782867600
+    },
+    {
+      "datetime": "2026-07-01T02:00:00Z",
+      "blockheight": 856194,
+      "inflow_total": 3870.8023,
+      "inflow_mean": 2.557677,
+      "inflow_top10": 1979.3443,
+      "timestamp": 1782871200
+    },
+    {
+      "datetime": "2026-07-01T03:00:00Z",
+      "blockheight": 856195,
+      "inflow_total": 3543.1533,
+      "inflow_mean": 1.936879,
+      "inflow_top10": 1431.4291,
+      "timestamp": 1782874800
+    },
+    {
+      "datetime": "2026-07-01T04:00:00Z",
+      "blockheight": 856196,
+      "inflow_total": 4759.6431,
+      "inflow_mean": 1.704583,
+      "inflow_top10": 1177.4536,
+      "timestamp": 1782878400
+    },
+    {
+      "datetime": "2026-07-01T05:00:00Z",
+      "blockheight": 856197,
+      "inflow_total": 3375.2963,
+      "inflow_mean": 1.135663,
+      "inflow_top10": 1038.2742,
+      "timestamp": 1782882000
+    },
+    {
+      "datetime": "2026-07-01T06:00:00Z",
+      "blockheight": 856198,
+      "inflow_total": 5066.1189,
+      "inflow_mean": 1.541525,
+      "inflow_top10": 1331.3199,
+      "timestamp": 1782885600
+    },
+    {
+      "datetime": "2026-07-01T07:00:00Z",
+      "blockheight": 856199,
+      "inflow_total": 3693.8227,
+      "inflow_mean": 2.427302,
+      "inflow_top10": 1297.6949,
+      "timestamp": 1782889200
+    },
+    {
+      "datetime": "2026-07-01T08:00:00Z",
+      "blockheight": 856200,
+      "inflow_total": 3442.9202,
+      "inflow_mean": 2.137523,
+      "inflow_top10": 1623.9887,
+      "timestamp": 1782892800
+    },
+    {
+      "datetime": "2026-07-01T09:00:00Z",
+      "blockheight": 856201,
+      "inflow_total": 4854.2059,
+      "inflow_mean": 1.874698,
+      "inflow_top10": 1326.9679,
+      "timestamp": 1782896400
+    },
+    {
+      "datetime": "2026-07-01T10:00:00Z",
+      "blockheight": 856202,
+      "inflow_total": 3925.9327,
+      "inflow_mean": 1.258612,
+      "inflow_top10": 599.3586,
+      "timestamp": 1782900000
+    },
+    {
+      "datetime": "2026-07-01T11:00:00Z",
+      "blockheight": 856203,
+      "inflow_total": 3837.4192,
+      "inflow_mean": 1.323025,
+      "inflow_top10": 1332.1984,
+      "timestamp": 1782903600
+    },
+    {
+      "datetime": "2026-07-01T12:00:00Z",
+      "blockheight": 856204,
+      "inflow_total": 4721.7918,
+      "inflow_mean": 1.292188,
+      "inflow_top10": 1293.1511,
+      "timestamp": 1782907200
+    },
+    {
+      "datetime": "2026-07-01T13:00:00Z",
+      "blockheight": 856205,
+      "inflow_total": 4300.2633,
+      "inflow_mean": 1.517039,
+      "inflow_top10": 1442.2033,
+      "timestamp": 1782910800
+    },
+    {
+      "datetime": "2026-07-01T14:00:00Z",
+      "blockheight": 856206,
+      "inflow_total": 4378.4229,
+      "inflow_mean": 1.767825,
+      "inflow_top10": 1762.1975,
+      "timestamp": 1782914400
+    },
+    {
+      "datetime": "2026-07-01T15:00:00Z",
+      "blockheight": 856207,
+      "inflow_total": 4191.9916,
+      "inflow_mean": 1.992253,
+      "inflow_top10": 1925.4413,
+      "timestamp": 1782918000
+    },
+    {
+      "datetime": "2026-07-01T16:00:00Z",
+      "blockheight": 856208,
+      "inflow_total": 4479.9205,
+      "inflow_mean": 1.269839,
+      "inflow_top10": 1662.9888,
+      "timestamp": 1782921600
+    },
+    {
+      "datetime": "2026-07-01T17:00:00Z",
+      "blockheight": 856209,
+      "inflow_total": 3239.5601,
+      "inflow_mean": 2.423208,
+      "inflow_top10": 1199.9492,
+      "timestamp": 1782925200
+    },
+    {
+      "datetime": "2026-07-01T18:00:00Z",
+      "blockheight": 856210,
+      "inflow_total": 4744.8692,
+      "inflow_mean": 1.785662,
+      "inflow_top10": 1505.0627,
+      "timestamp": 1782928800
+    },
+    {
+      "datetime": "2026-07-01T19:00:00Z",
+      "blockheight": 856211,
+      "inflow_total": 4588.7555,
+      "inflow_mean": 1.944003,
+      "inflow_top10": 1781.5734,
+      "timestamp": 1782932400
+    },
+    {
+      "datetime": "2026-07-01T20:00:00Z",
+      "blockheight": 856212,
+      "inflow_total": 4268.0122,
+      "inflow_mean": 2.757692,
+      "inflow_top10": 1963.6326,
+      "timestamp": 1782936000
+    },
+    {
+      "datetime": "2026-07-01T21:00:00Z",
+      "blockheight": 856213,
+      "inflow_total": 4482.8438,
+      "inflow_mean": 2.675163,
+      "inflow_top10": 1551.3888,
+      "timestamp": 1782939600
+    },
+    {
+      "datetime": "2026-07-01T22:00:00Z",
+      "blockheight": 856214,
+      "inflow_total": 4658.2194,
+      "inflow_mean": 1.018894,
+      "inflow_top10": 1258.3899,
+      "timestamp": 1782943200
+    },
+    {
+      "datetime": "2026-07-01T23:00:00Z",
+      "blockheight": 856215,
+      "inflow_total": 6049.7976,
+      "inflow_mean": 2.256788,
+      "inflow_top10": 1213.5456,
+      "timestamp": 1782946800
+    },
+    {
+      "datetime": "2026-07-02T00:00:00Z",
+      "blockheight": 856216,
+      "inflow_total": 4195.2976,
+      "inflow_mean": 1.838843,
+      "inflow_top10": 1643.2561,
+      "timestamp": 1782950400
+    },
+    {
+      "datetime": "2026-07-02T01:00:00Z",
+      "blockheight": 856217,
+      "inflow_total": 3663.4162,
+      "inflow_mean": 2.110114,
+      "inflow_top10": 1207.784,
+      "timestamp": 1782954000
+    },
+    {
+      "datetime": "2026-07-02T02:00:00Z",
+      "blockheight": 856218,
+      "inflow_total": 4136.6515,
+      "inflow_mean": 2.763803,
+      "inflow_top10": 1493.3926,
+      "timestamp": 1782957600
+    },
+    {
+      "datetime": "2026-07-02T03:00:00Z",
+      "blockheight": 856219,
+      "inflow_total": 5431.278,
+      "inflow_mean": 1.510288,
+      "inflow_top10": 802.1112,
+      "timestamp": 1782961200
+    },
+    {
+      "datetime": "2026-07-02T04:00:00Z",
+      "blockheight": 856220,
+      "inflow_total": 4747.4446,
+      "inflow_mean": 2.187963,
+      "inflow_top10": 1563.8168,
+      "timestamp": 1782964800
+    },
+    {
+      "datetime": "2026-07-02T05:00:00Z",
+      "blockheight": 856221,
+      "inflow_total": 3799.6115,
+      "inflow_mean": 1.28128,
+      "inflow_top10": 1483.903,
+      "timestamp": 1782968400
+    },
+    {
+      "datetime": "2026-07-02T06:00:00Z",
+      "blockheight": 856222,
+      "inflow_total": 4919.4756,
+      "inflow_mean": 1.176229,
+      "inflow_top10": 1630.0634,
+      "timestamp": 1782972000
+    },
+    {
+      "datetime": "2026-07-02T07:00:00Z",
+      "blockheight": 856223,
+      "inflow_total": 4980.1768,
+      "inflow_mean": 2.039434,
+      "inflow_top10": 1005.9389,
+      "timestamp": 1782975600
+    },
+    {
+      "datetime": "2026-07-02T08:00:00Z",
+      "blockheight": 856224,
+      "inflow_total": 3309.124,
+      "inflow_mean": 1.739319,
+      "inflow_top10": 1569.9228,
+      "timestamp": 1782979200
+    },
+    {
+      "datetime": "2026-07-02T09:00:00Z",
+      "blockheight": 856225,
+      "inflow_total": 3903.1673,
+      "inflow_mean": 1.134461,
+      "inflow_top10": 1412.6738,
+      "timestamp": 1782982800
+    },
+    {
+      "datetime": "2026-07-02T10:00:00Z",
+      "blockheight": 856226,
+      "inflow_total": 4804.8708,
+      "inflow_mean": 0.927583,
+      "inflow_top10": 1345.4557,
+      "timestamp": 1782986400
+    },
+    {
+      "datetime": "2026-07-02T11:00:00Z",
+      "blockheight": 856227,
+      "inflow_total": 5025.1729,
+      "inflow_mean": 1.09874,
+      "inflow_top10": 1593.4346,
+      "timestamp": 1782990000
+    },
+    {
+      "datetime": "2026-07-02T12:00:00Z",
+      "blockheight": 856228,
+      "inflow_total": 4649.0089,
+      "inflow_mean": 1.378839,
+      "inflow_top10": 1763.4689,
+      "timestamp": 1782993600
+    },
+    {
+      "datetime": "2026-07-02T13:00:00Z",
+      "blockheight": 856229,
+      "inflow_total": 4568.7614,
+      "inflow_mean": 1.667895,
+      "inflow_top10": 1443.0779,
+      "timestamp": 1782997200
+    },
+    {
+      "datetime": "2026-07-02T14:00:00Z",
+      "blockheight": 856230,
+      "inflow_total": 4514.0908,
+      "inflow_mean": 2.666431,
+      "inflow_top10": 858.2785,
+      "timestamp": 1783000800
+    },
+    {
+      "datetime": "2026-07-02T15:00:00Z",
+      "blockheight": 856231,
+      "inflow_total": 5281.5536,
+      "inflow_mean": 1.759134,
+      "inflow_top10": 1513.05,
+      "timestamp": 1783004400
+    },
+    {
+      "datetime": "2026-07-02T16:00:00Z",
+      "blockheight": 856232,
+      "inflow_total": 4839.6654,
+      "inflow_mean": 1.285382,
+      "inflow_top10": 1453.6438,
+      "timestamp": 1783008000
+    },
+    {
+      "datetime": "2026-07-02T17:00:00Z",
+      "blockheight": 856233,
+      "inflow_total": 4027.6881,
+      "inflow_mean": 1.208031,
+      "inflow_top10": 1181.4051,
+      "timestamp": 1783011600
+    },
+    {
+      "datetime": "2026-07-02T18:00:00Z",
+      "blockheight": 856234,
+      "inflow_total": 3980.5579,
+      "inflow_mean": 0.753257,
+      "inflow_top10": 1286.0917,
+      "timestamp": 1783015200
+    },
+    {
+      "datetime": "2026-07-02T19:00:00Z",
+      "blockheight": 856235,
+      "inflow_total": 2473.9662,
+      "inflow_mean": 0.99478,
+      "inflow_top10": 1711.0746,
+      "timestamp": 1783018800
+    },
+    {
+      "datetime": "2026-07-02T20:00:00Z",
+      "blockheight": 856236,
+      "inflow_total": 5751.8849,
+      "inflow_mean": 1.994766,
+      "inflow_top10": 1500.4647,
+      "timestamp": 1783022400
+    },
+    {
+      "datetime": "2026-07-02T21:00:00Z",
+      "blockheight": 856237,
+      "inflow_total": 5675.1731,
+      "inflow_mean": 2.203011,
+      "inflow_top10": 1146.9829,
+      "timestamp": 1783026000
+    },
+    {
+      "datetime": "2026-07-02T22:00:00Z",
+      "blockheight": 856238,
+      "inflow_total": 4900.4764,
+      "inflow_mean": 1.900824,
+      "inflow_top10": 1773.8161,
+      "timestamp": 1783029600
+    },
+    {
+      "datetime": "2026-07-02T23:00:00Z",
+      "blockheight": 856239,
+      "inflow_total": 5147.7057,
+      "inflow_mean": 2.311521,
+      "inflow_top10": 1297.0533,
+      "timestamp": 1783033200
+    },
+    {
+      "datetime": "2026-07-03T00:00:00Z",
+      "blockheight": 856240,
+      "inflow_total": 4677.1573,
+      "inflow_mean": 1.048062,
+      "inflow_top10": 1340.4742,
+      "timestamp": 1783036800
+    },
+    {
+      "datetime": "2026-07-03T01:00:00Z",
+      "blockheight": 856241,
+      "inflow_total": 3084.4045,
+      "inflow_mean": 1.467984,
+      "inflow_top10": 1128.2774,
+      "timestamp": 1783040400
+    },
+    {
+      "datetime": "2026-07-03T02:00:00Z",
+      "blockheight": 856242,
+      "inflow_total": 4118.7951,
+      "inflow_mean": 1.7912,
+      "inflow_top10": 1649.5156,
+      "timestamp": 1783044000
+    },
+    {
+      "datetime": "2026-07-03T03:00:00Z",
+      "blockheight": 856243,
+      "inflow_total": 4272.6295,
+      "inflow_mean": 1.459308,
+      "inflow_top10": 1406.7834,
+      "timestamp": 1783047600
+    },
+    {
+      "datetime": "2026-07-03T04:00:00Z",
+      "blockheight": 856244,
+      "inflow_total": 3503.5569,
+      "inflow_mean": 2.08467,
+      "inflow_top10": 1001.965,
+      "timestamp": 1783051200
+    },
+    {
+      "datetime": "2026-07-03T05:00:00Z",
+      "blockheight": 856245,
+      "inflow_total": 5574.1796,
+      "inflow_mean": 1.49949,
+      "inflow_top10": 2006.251,
+      "timestamp": 1783054800
+    },
+    {
+      "datetime": "2026-07-03T06:00:00Z",
+      "blockheight": 856246,
+      "inflow_total": 5281.3632,
+      "inflow_mean": 2.13319,
+      "inflow_top10": 1708.2786,
+      "timestamp": 1783058400
+    },
+    {
+      "datetime": "2026-07-03T07:00:00Z",
+      "blockheight": 856247,
+      "inflow_total": 3974.1217,
+      "inflow_mean": 1.50922,
+      "inflow_top10": 1199.9855,
+      "timestamp": 1783062000
+    },
+    {
+      "datetime": "2026-07-03T08:00:00Z",
+      "blockheight": 856248,
+      "inflow_total": 3071.2416,
+      "inflow_mean": 2.217559,
+      "inflow_top10": 1764.0169,
+      "timestamp": 1783065600
+    },
+    {
+      "datetime": "2026-07-03T09:00:00Z",
+      "blockheight": 856249,
+      "inflow_total": 3735.8598,
+      "inflow_mean": 2.0809,
+      "inflow_top10": 1804.8923,
+      "timestamp": 1783069200
+    },
+    {
+      "datetime": "2026-07-03T10:00:00Z",
+      "blockheight": 856250,
+      "inflow_total": 3461.9055,
+      "inflow_mean": 1.693525,
+      "inflow_top10": 1174.1235,
+      "timestamp": 1783072800
+    },
+    {
+      "datetime": "2026-07-03T11:00:00Z",
+      "blockheight": 856251,
+      "inflow_total": 3448.368,
+      "inflow_mean": 1.788844,
+      "inflow_top10": 1648.5501,
+      "timestamp": 1783076400
+    },
+    {
+      "datetime": "2026-07-03T12:00:00Z",
+      "blockheight": 856252,
+      "inflow_total": 4735.6073,
+      "inflow_mean": 1.737401,
+      "inflow_top10": 1906.7234,
+      "timestamp": 1783080000
+    },
+    {
+      "datetime": "2026-07-03T13:00:00Z",
+      "blockheight": 856253,
+      "inflow_total": 4115.2409,
+      "inflow_mean": 2.705074,
+      "inflow_top10": 1216.8926,
+      "timestamp": 1783083600
+    },
+    {
+      "datetime": "2026-07-03T14:00:00Z",
+      "blockheight": 856254,
+      "inflow_total": 3877.5488,
+      "inflow_mean": 2.440123,
+      "inflow_top10": 1474.3495,
+      "timestamp": 1783087200
+    },
+    {
+      "datetime": "2026-07-03T15:00:00Z",
+      "blockheight": 856255,
+      "inflow_total": 4411.1344,
+      "inflow_mean": 1.445017,
+      "inflow_top10": 1717.9357,
+      "timestamp": 1783090800
+    },
+    {
+      "datetime": "2026-07-03T16:00:00Z",
+      "blockheight": 856256,
+      "inflow_total": 4452.2388,
+      "inflow_mean": 1.593542,
+      "inflow_top10": 1115.8995,
+      "timestamp": 1783094400
+    },
+    {
+      "datetime": "2026-07-03T17:00:00Z",
+      "blockheight": 856257,
+      "inflow_total": 3707.8836,
+      "inflow_mean": 2.127165,
+      "inflow_top10": 1219.6347,
+      "timestamp": 1783098000
+    },
+    {
+      "datetime": "2026-07-03T18:00:00Z",
+      "blockheight": 856258,
+      "inflow_total": 5314.1969,
+      "inflow_mean": 2.003158,
+      "inflow_top10": 949.8421,
+      "timestamp": 1783101600
+    },
+    {
+      "datetime": "2026-07-03T19:00:00Z",
+      "blockheight": 856259,
+      "inflow_total": 5122.7988,
+      "inflow_mean": 1.412943,
+      "inflow_top10": 1132.8935,
+      "timestamp": 1783105200
+    },
+    {
+      "datetime": "2026-07-03T20:00:00Z",
+      "blockheight": 856260,
+      "inflow_total": 3827.5426,
+      "inflow_mean": 1.874497,
+      "inflow_top10": 1365.1316,
+      "timestamp": 1783108800
+    },
+    {
+      "datetime": "2026-07-03T21:00:00Z",
+      "blockheight": 856261,
+      "inflow_total": 5531.8946,
+      "inflow_mean": 1.979899,
+      "inflow_top10": 1312.0846,
+      "timestamp": 1783112400
+    },
+    {
+      "datetime": "2026-07-03T22:00:00Z",
+      "blockheight": 856262,
+      "inflow_total": 4420.7221,
+      "inflow_mean": 1.009471,
+      "inflow_top10": 1056.67,
+      "timestamp": 1783116000
+    },
+    {
+      "datetime": "2026-07-03T23:00:00Z",
+      "blockheight": 856263,
+      "inflow_total": 4649.6099,
+      "inflow_mean": 2.193227,
+      "inflow_top10": 1043.9791,
+      "timestamp": 1783119600
+    },
+    {
+      "datetime": "2026-07-04T00:00:00Z",
+      "blockheight": 856264,
+      "inflow_total": 2801.3906,
+      "inflow_mean": 1.6749,
+      "inflow_top10": 885.9947,
+      "timestamp": 1783123200
+    },
+    {
+      "datetime": "2026-07-04T01:00:00Z",
+      "blockheight": 856265,
+      "inflow_total": 3353.729,
+      "inflow_mean": 1.540078,
+      "inflow_top10": 1542.9384,
+      "timestamp": 1783126800
+    },
+    {
+      "datetime": "2026-07-04T02:00:00Z",
+      "blockheight": 856266,
+      "inflow_total": 5651.3063,
+      "inflow_mean": 1.817589,
+      "inflow_top10": 1545.0854,
+      "timestamp": 1783130400
+    },
+    {
+      "datetime": "2026-07-04T03:00:00Z",
+      "blockheight": 856267,
+      "inflow_total": 4187.2804,
+      "inflow_mean": 2.348828,
+      "inflow_top10": 490.3299,
+      "timestamp": 1783134000
+    },
+    {
+      "datetime": "2026-07-04T04:00:00Z",
+      "blockheight": 856268,
+      "inflow_total": 5058.9199,
+      "inflow_mean": 1.374932,
+      "inflow_top10": 1857.0293,
+      "timestamp": 1783137600
+    },
+    {
+      "datetime": "2026-07-04T05:00:00Z",
+      "blockheight": 856269,
+      "inflow_total": 3949.2962,
+      "inflow_mean": 1.194372,
+      "inflow_top10": 1644.7187,
+      "timestamp": 1783141200
+    },
+    {
+      "datetime": "2026-07-04T06:00:00Z",
+      "blockheight": 856270,
+      "inflow_total": 3599.0154,
+      "inflow_mean": 1.807948,
+      "inflow_top10": 1182.4045,
+      "timestamp": 1783144800
+    },
+    {
+      "datetime": "2026-07-04T07:00:00Z",
+      "blockheight": 856271,
+      "inflow_total": 4171.0364,
+      "inflow_mean": 1.804369,
+      "inflow_top10": 914.4813,
+      "timestamp": 1783148400
+    },
+    {
+      "datetime": "2026-07-04T08:00:00Z",
+      "blockheight": 856272,
+      "inflow_total": 4770.4625,
+      "inflow_mean": 0.213605,
+      "inflow_top10": 2075.7455,
+      "timestamp": 1783152000
+    },
+    {
+      "datetime": "2026-07-04T09:00:00Z",
+      "blockheight": 856273,
+      "inflow_total": 3855.1997,
+      "inflow_mean": 0.981279,
+      "inflow_top10": 840.0111,
+      "timestamp": 1783155600
+    },
+    {
+      "datetime": "2026-07-04T10:00:00Z",
+      "blockheight": 856274,
+      "inflow_total": 4817.6826,
+      "inflow_mean": 1.380164,
+      "inflow_top10": 1178.1535,
+      "timestamp": 1783159200
+    },
+    {
+      "datetime": "2026-07-04T11:00:00Z",
+      "blockheight": 856275,
+      "inflow_total": 3313.351,
+      "inflow_mean": 2.226507,
+      "inflow_top10": 2047.8356,
+      "timestamp": 1783162800
+    },
+    {
+      "datetime": "2026-07-04T12:00:00Z",
+      "blockheight": 856276,
+      "inflow_total": 5073.1433,
+      "inflow_mean": 1.744712,
+      "inflow_top10": 1567.3129,
+      "timestamp": 1783166400
+    },
+    {
+      "datetime": "2026-07-04T13:00:00Z",
+      "blockheight": 856277,
+      "inflow_total": 3629.6376,
+      "inflow_mean": 1.75162,
+      "inflow_top10": 1609.8813,
+      "timestamp": 1783170000
+    },
+    {
+      "datetime": "2026-07-04T14:00:00Z",
+      "blockheight": 856278,
+      "inflow_total": 3779.0607,
+      "inflow_mean": 1.630894,
+      "inflow_top10": 1592.0861,
+      "timestamp": 1783173600
+    },
+    {
+      "datetime": "2026-07-04T15:00:00Z",
+      "blockheight": 856279,
+      "inflow_total": 4190.5804,
+      "inflow_mean": 1.708596,
+      "inflow_top10": 1566.8182,
+      "timestamp": 1783177200
+    },
+    {
+      "datetime": "2026-07-04T16:00:00Z",
+      "blockheight": 856280,
+      "inflow_total": 4091.5632,
+      "inflow_mean": 2.773914,
+      "inflow_top10": 1154.1859,
+      "timestamp": 1783180800
+    },
+    {
+      "datetime": "2026-07-04T17:00:00Z",
+      "blockheight": 856281,
+      "inflow_total": 4306.375,
+      "inflow_mean": 1.922365,
+      "inflow_top10": 2328.4795,
+      "timestamp": 1783184400
+    },
+    {
+      "datetime": "2026-07-04T18:00:00Z",
+      "blockheight": 856282,
+      "inflow_total": 4054.8973,
+      "inflow_mean": 1.427836,
+      "inflow_top10": 1261.6409,
+      "timestamp": 1783188000
+    },
+    {
+      "datetime": "2026-07-04T19:00:00Z",
+      "blockheight": 856283,
+      "inflow_total": 4417.2618,
+      "inflow_mean": 1.588395,
+      "inflow_top10": 1249.2703,
+      "timestamp": 1783191600
+    },
+    {
+      "datetime": "2026-07-04T20:00:00Z",
+      "blockheight": 856284,
+      "inflow_total": 3831.4336,
+      "inflow_mean": 2.241919,
+      "inflow_top10": 1251.8103,
+      "timestamp": 1783195200
+    },
+    {
+      "datetime": "2026-07-04T21:00:00Z",
+      "blockheight": 856285,
+      "inflow_total": 3240.6316,
+      "inflow_mean": 2.899131,
+      "inflow_top10": 860.1024,
+      "timestamp": 1783198800
+    },
+    {
+      "datetime": "2026-07-04T22:00:00Z",
+      "blockheight": 856286,
+      "inflow_total": 3264.4305,
+      "inflow_mean": 2.542184,
+      "inflow_top10": 1601.3251,
+      "timestamp": 1783202400
+    },
+    {
+      "datetime": "2026-07-04T23:00:00Z",
+      "blockheight": 856287,
+      "inflow_total": 4482.5507,
+      "inflow_mean": 0.716743,
+      "inflow_top10": 1235.7588,
+      "timestamp": 1783206000
+    },
+    {
+      "datetime": "2026-07-05T00:00:00Z",
+      "blockheight": 856288,
+      "inflow_total": 5071.1199,
+      "inflow_mean": 2.721564,
+      "inflow_top10": 1583.5952,
+      "timestamp": 1783209600
+    },
+    {
+      "datetime": "2026-07-05T01:00:00Z",
+      "blockheight": 856289,
+      "inflow_total": 5563.7986,
+      "inflow_mean": 1.540743,
+      "inflow_top10": 1542.5778,
+      "timestamp": 1783213200
+    },
+    {
+      "datetime": "2026-07-05T02:00:00Z",
+      "blockheight": 856290,
+      "inflow_total": 4981.9171,
+      "inflow_mean": 1.17621,
+      "inflow_top10": 1385.6394,
+      "timestamp": 1783216800
+    },
+    {
+      "datetime": "2026-07-05T03:00:00Z",
+      "blockheight": 856291,
+      "inflow_total": 3985.1652,
+      "inflow_mean": 1.150065,
+      "inflow_top10": 1031.0733,
+      "timestamp": 1783220400
+    },
+    {
+      "datetime": "2026-07-05T04:00:00Z",
+      "blockheight": 856292,
+      "inflow_total": 3522.2747,
+      "inflow_mean": 1.018847,
+      "inflow_top10": 1485.8447,
+      "timestamp": 1783224000
+    },
+    {
+      "datetime": "2026-07-05T05:00:00Z",
+      "blockheight": 856293,
+      "inflow_total": 4437.4911,
+      "inflow_mean": 1.668393,
+      "inflow_top10": 1894.3029,
+      "timestamp": 1783227600
+    },
+    {
+      "datetime": "2026-07-05T06:00:00Z",
+      "blockheight": 856294,
+      "inflow_total": 4262.1608,
+      "inflow_mean": 1.854442,
+      "inflow_top10": 1518.5541,
+      "timestamp": 1783231200
+    },
+    {
+      "datetime": "2026-07-05T07:00:00Z",
+      "blockheight": 856295,
+      "inflow_total": 4437.7363,
+      "inflow_mean": 1.498823,
+      "inflow_top10": 1420.4292,
+      "timestamp": 1783234800
+    },
+    {
+      "datetime": "2026-07-05T08:00:00Z",
+      "blockheight": 856296,
+      "inflow_total": 4751.0246,
+      "inflow_mean": 0.909651,
+      "inflow_top10": 2057.7461,
+      "timestamp": 1783238400
+    },
+    {
+      "datetime": "2026-07-05T09:00:00Z",
+      "blockheight": 856297,
+      "inflow_total": 1732.5109,
+      "inflow_mean": 2.695277,
+      "inflow_top10": 1887.6464,
+      "timestamp": 1783242000
+    },
+    {
+      "datetime": "2026-07-05T10:00:00Z",
+      "blockheight": 856298,
+      "inflow_total": 3875.1695,
+      "inflow_mean": 2.039879,
+      "inflow_top10": 1540.4235,
+      "timestamp": 1783245600
+    },
+    {
+      "datetime": "2026-07-05T11:00:00Z",
+      "blockheight": 856299,
+      "inflow_total": 4200.5954,
+      "inflow_mean": 1.997856,
+      "inflow_top10": 1364.3351,
+      "timestamp": 1783249200
+    },
+    {
+      "datetime": "2026-07-05T12:00:00Z",
+      "blockheight": 856300,
+      "inflow_total": 4360.0302,
+      "inflow_mean": 1.039349,
+      "inflow_top10": 1464.6387,
+      "timestamp": 1783252800
+    },
+    {
+      "datetime": "2026-07-05T13:00:00Z",
+      "blockheight": 856301,
+      "inflow_total": 5302.1945,
+      "inflow_mean": 1.968933,
+      "inflow_top10": 921.3366,
+      "timestamp": 1783256400
+    },
+    {
+      "datetime": "2026-07-05T14:00:00Z",
+      "blockheight": 856302,
+      "inflow_total": 4472.2092,
+      "inflow_mean": 1.628632,
+      "inflow_top10": 1510.0583,
+      "timestamp": 1783260000
+    },
+    {
+      "datetime": "2026-07-05T15:00:00Z",
+      "blockheight": 856303,
+      "inflow_total": 5905.8954,
+      "inflow_mean": 2.070391,
+      "inflow_top10": 1984.6948,
+      "timestamp": 1783263600
+    },
+    {
+      "datetime": "2026-07-05T16:00:00Z",
+      "blockheight": 856304,
+      "inflow_total": 3237.359,
+      "inflow_mean": 0.933922,
+      "inflow_top10": 1482.4514,
+      "timestamp": 1783267200
+    },
+    {
+      "datetime": "2026-07-05T17:00:00Z",
+      "blockheight": 856305,
+      "inflow_total": 3781.8915,
+      "inflow_mean": 2.121929,
+      "inflow_top10": 1115.2473,
+      "timestamp": 1783270800
+    },
+    {
+      "datetime": "2026-07-05T18:00:00Z",
+      "blockheight": 856306,
+      "inflow_total": 5615.3443,
+      "inflow_mean": 1.558703,
+      "inflow_top10": 1716.7178,
+      "timestamp": 1783274400
+    },
+    {
+      "datetime": "2026-07-05T19:00:00Z",
+      "blockheight": 856307,
+      "inflow_total": 3488.9464,
+      "inflow_mean": 0.703282,
+      "inflow_top10": 1225.0613,
+      "timestamp": 1783278000
+    },
+    {
+      "datetime": "2026-07-05T20:00:00Z",
+      "blockheight": 856308,
+      "inflow_total": 3885.588,
+      "inflow_mean": 1.683777,
+      "inflow_top10": 1386.218,
+      "timestamp": 1783281600
+    },
+    {
+      "datetime": "2026-07-05T21:00:00Z",
+      "blockheight": 856309,
+      "inflow_total": 5503.8196,
+      "inflow_mean": 1.474499,
+      "inflow_top10": 741.7479,
+      "timestamp": 1783285200
+    },
+    {
+      "datetime": "2026-07-05T22:00:00Z",
+      "blockheight": 856310,
+      "inflow_total": 4601.2741,
+      "inflow_mean": 1.328648,
+      "inflow_top10": 2135.869,
+      "timestamp": 1783288800
+    },
+    {
+      "datetime": "2026-07-05T23:00:00Z",
+      "blockheight": 856311,
+      "inflow_total": 3447.8392,
+      "inflow_mean": 1.882832,
+      "inflow_top10": 1444.8065,
+      "timestamp": 1783292400
+    },
+    {
+      "datetime": "2026-07-06T00:00:00Z",
+      "blockheight": 856312,
+      "inflow_total": 3775.8296,
+      "inflow_mean": 1.679155,
+      "inflow_top10": 893.5121,
+      "timestamp": 1783296000
+    },
+    {
+      "datetime": "2026-07-06T01:00:00Z",
+      "blockheight": 856313,
+      "inflow_total": 3587.0825,
+      "inflow_mean": 2.416473,
+      "inflow_top10": 2150.7783,
+      "timestamp": 1783299600
+    },
+    {
+      "datetime": "2026-07-06T02:00:00Z",
+      "blockheight": 856314,
+      "inflow_total": 5310.3557,
+      "inflow_mean": 2.65303,
+      "inflow_top10": 1513.3555,
+      "timestamp": 1783303200
+    },
+    {
+      "datetime": "2026-07-06T03:00:00Z",
+      "blockheight": 856315,
+      "inflow_total": 3639.6745,
+      "inflow_mean": 1.915863,
+      "inflow_top10": 1254.6755,
+      "timestamp": 1783306800
+    },
+    {
+      "datetime": "2026-07-06T04:00:00Z",
+      "blockheight": 856316,
+      "inflow_total": 4931.2502,
+      "inflow_mean": 2.194872,
+      "inflow_top10": 1383.5307,
+      "timestamp": 1783310400
+    },
+    {
+      "datetime": "2026-07-06T05:00:00Z",
+      "blockheight": 856317,
+      "inflow_total": 3095.805,
+      "inflow_mean": 1.880275,
+      "inflow_top10": 1218.4347,
+      "timestamp": 1783314000
+    },
+    {
+      "datetime": "2026-07-06T06:00:00Z",
+      "blockheight": 856318,
+      "inflow_total": 3301.2859,
+      "inflow_mean": 1.020963,
+      "inflow_top10": 1339.9372,
+      "timestamp": 1783317600
+    },
+    {
+      "datetime": "2026-07-06T07:00:00Z",
+      "blockheight": 856319,
+      "inflow_total": 4210.1995,
+      "inflow_mean": 2.554426,
+      "inflow_top10": 1675.5355,
+      "timestamp": 1783321200
+    },
+    {
+      "datetime": "2026-07-06T08:00:00Z",
+      "blockheight": 856320,
+      "inflow_total": 4215.7561,
+      "inflow_mean": 2.015628,
+      "inflow_top10": 1678.1647,
+      "timestamp": 1783324800
+    },
+    {
+      "datetime": "2026-07-06T09:00:00Z",
+      "blockheight": 856321,
+      "inflow_total": 3271.0793,
+      "inflow_mean": 1.378396,
+      "inflow_top10": 2524.073,
+      "timestamp": 1783328400
+    },
+    {
+      "datetime": "2026-07-06T10:00:00Z",
+      "blockheight": 856322,
+      "inflow_total": 4207.8388,
+      "inflow_mean": 1.729677,
+      "inflow_top10": 1553.3396,
+      "timestamp": 1783332000
+    },
+    {
+      "datetime": "2026-07-06T11:00:00Z",
+      "blockheight": 856323,
+      "inflow_total": 4782.3424,
+      "inflow_mean": 1.200755,
+      "inflow_top10": 1368.3756,
+      "timestamp": 1783335600
+    },
+    {
+      "datetime": "2026-07-06T12:00:00Z",
+      "blockheight": 856324,
+      "inflow_total": 4901.453,
+      "inflow_mean": 2.73954,
+      "inflow_top10": 930.1031,
+      "timestamp": 1783339200
+    },
+    {
+      "datetime": "2026-07-06T13:00:00Z",
+      "blockheight": 856325,
+      "inflow_total": 5606.154,
+      "inflow_mean": 2.088719,
+      "inflow_top10": 2191.7978,
+      "timestamp": 1783342800
+    },
+    {
+      "datetime": "2026-07-06T14:00:00Z",
+      "blockheight": 856326,
+      "inflow_total": 3940.6913,
+      "inflow_mean": 1.59897,
+      "inflow_top10": 1125.2334,
+      "timestamp": 1783346400
+    },
+    {
+      "datetime": "2026-07-06T15:00:00Z",
+      "blockheight": 856327,
+      "inflow_total": 4631.8701,
+      "inflow_mean": 1.389575,
+      "inflow_top10": 1665.7689,
+      "timestamp": 1783350000
+    },
+    {
+      "datetime": "2026-07-06T16:00:00Z",
+      "blockheight": 856328,
+      "inflow_total": 3711.304,
+      "inflow_mean": 0.815601,
+      "inflow_top10": 1206.6197,
+      "timestamp": 1783353600
+    },
+    {
+      "datetime": "2026-07-06T17:00:00Z",
+      "blockheight": 856329,
+      "inflow_total": 2272.1656,
+      "inflow_mean": 1.638926,
+      "inflow_top10": 1615.4252,
+      "timestamp": 1783357200
+    },
+    {
+      "datetime": "2026-07-06T18:00:00Z",
+      "blockheight": 856330,
+      "inflow_total": 4011.9566,
+      "inflow_mean": 2.177403,
+      "inflow_top10": 1381.0089,
+      "timestamp": 1783360800
+    },
+    {
+      "datetime": "2026-07-06T19:00:00Z",
+      "blockheight": 856331,
+      "inflow_total": 3219.3388,
+      "inflow_mean": 1.067704,
+      "inflow_top10": 1070.4357,
+      "timestamp": 1783364400
+    },
+    {
+      "datetime": "2026-07-06T20:00:00Z",
+      "blockheight": 856332,
+      "inflow_total": 4119.9996,
+      "inflow_mean": 1.808222,
+      "inflow_top10": 1157.3303,
+      "timestamp": 1783368000
+    },
+    {
+      "datetime": "2026-07-06T21:00:00Z",
+      "blockheight": 856333,
+      "inflow_total": 3501.7892,
+      "inflow_mean": 1.476712,
+      "inflow_top10": 1285.0066,
+      "timestamp": 1783371600
+    },
+    {
+      "datetime": "2026-07-06T22:00:00Z",
+      "blockheight": 856334,
+      "inflow_total": 5320.4457,
+      "inflow_mean": 1.803553,
+      "inflow_top10": 1194.3927,
+      "timestamp": 1783375200
+    },
+    {
+      "datetime": "2026-07-06T23:00:00Z",
+      "blockheight": 856335,
+      "inflow_total": 4393.2683,
+      "inflow_mean": 1.901593,
+      "inflow_top10": 1449.9272,
+      "timestamp": 1783378800
+    },
+    {
+      "datetime": "2026-07-07T00:00:00Z",
+      "blockheight": 856336,
+      "inflow_total": 4127.0963,
+      "inflow_mean": 1.802915,
+      "inflow_top10": 1476.6587,
+      "timestamp": 1783382400
+    },
+    {
+      "datetime": "2026-07-07T01:00:00Z",
+      "blockheight": 856337,
+      "inflow_total": 4875.6277,
+      "inflow_mean": 1.8829,
+      "inflow_top10": 1405.0871,
+      "timestamp": 1783386000
+    },
+    {
+      "datetime": "2026-07-07T02:00:00Z",
+      "blockheight": 856338,
+      "inflow_total": 3007.9761,
+      "inflow_mean": 2.04204,
+      "inflow_top10": 1820.4386,
+      "timestamp": 1783389600
+    },
+    {
+      "datetime": "2026-07-07T03:00:00Z",
+      "blockheight": 856339,
+      "inflow_total": 4640.2168,
+      "inflow_mean": 2.015939,
+      "inflow_top10": 1833.4979,
+      "timestamp": 1783393200
+    },
+    {
+      "datetime": "2026-07-07T04:00:00Z",
+      "blockheight": 856340,
+      "inflow_total": 3994.4862,
+      "inflow_mean": 1.745345,
+      "inflow_top10": 2090.1714,
+      "timestamp": 1783396800
+    },
+    {
+      "datetime": "2026-07-07T05:00:00Z",
+      "blockheight": 856341,
+      "inflow_total": 5070.5451,
+      "inflow_mean": 1.783102,
+      "inflow_top10": 1521.3058,
+      "timestamp": 1783400400
+    },
+    {
+      "datetime": "2026-07-07T06:00:00Z",
+      "blockheight": 856342,
+      "inflow_total": 5044.1871,
+      "inflow_mean": 2.131449,
+      "inflow_top10": 828.188,
+      "timestamp": 1783404000
+    },
+    {
+      "datetime": "2026-07-07T07:00:00Z",
+      "blockheight": 856343,
+      "inflow_total": 4444.9305,
+      "inflow_mean": 0.214944,
+      "inflow_top10": 1875.4284,
+      "timestamp": 1783407600
+    },
+    {
+      "datetime": "2026-07-07T08:00:00Z",
+      "blockheight": 856344,
+      "inflow_total": 3197.3677,
+      "inflow_mean": 1.56356,
+      "inflow_top10": 1089.4713,
+      "timestamp": 1783411200
+    },
+    {
+      "datetime": "2026-07-07T09:00:00Z",
+      "blockheight": 856345,
+      "inflow_total": 4564.1827,
+      "inflow_mean": 1.542738,
+      "inflow_top10": 2008.8563,
+      "timestamp": 1783414800
+    },
+    {
+      "datetime": "2026-07-07T10:00:00Z",
+      "blockheight": 856346,
+      "inflow_total": 5010.9975,
+      "inflow_mean": 0.856605,
+      "inflow_top10": 1865.4485,
+      "timestamp": 1783418400
+    },
+    {
+      "datetime": "2026-07-07T11:00:00Z",
+      "blockheight": 856347,
+      "inflow_total": 5017.1974,
+      "inflow_mean": 1.755112,
+      "inflow_top10": 1292.6555,
+      "timestamp": 1783422000
+    },
+    {
+      "datetime": "2026-07-07T12:00:00Z",
+      "blockheight": 856348,
+      "inflow_total": 4677.0686,
+      "inflow_mean": 1.673253,
+      "inflow_top10": 1767.3363,
+      "timestamp": 1783425600
+    },
+    {
+      "datetime": "2026-07-07T13:00:00Z",
+      "blockheight": 856349,
+      "inflow_total": 3245.6447,
+      "inflow_mean": 1.343009,
+      "inflow_top10": 1039.0231,
+      "timestamp": 1783429200
+    },
+    {
+      "datetime": "2026-07-07T14:00:00Z",
+      "blockheight": 856350,
+      "inflow_total": 1623.8889,
+      "inflow_mean": 2.006065,
+      "inflow_top10": 1654.1458,
+      "timestamp": 1783432800
+    },
+    {
+      "datetime": "2026-07-07T15:00:00Z",
+      "blockheight": 856351,
+      "inflow_total": 5607.6387,
+      "inflow_mean": 1.289639,
+      "inflow_top10": 1579.5583,
+      "timestamp": 1783436400
+    },
+    {
+      "datetime": "2026-07-07T16:00:00Z",
+      "blockheight": 856352,
+      "inflow_total": 4624.8959,
+      "inflow_mean": 1.26107,
+      "inflow_top10": 803.6347,
+      "timestamp": 1783440000
+    },
+    {
+      "datetime": "2026-07-07T17:00:00Z",
+      "blockheight": 856353,
+      "inflow_total": 3833.7727,
+      "inflow_mean": 2.404902,
+      "inflow_top10": 1645.2104,
+      "timestamp": 1783443600
+    },
+    {
+      "datetime": "2026-07-07T18:00:00Z",
+      "blockheight": 856354,
+      "inflow_total": 3539.0823,
+      "inflow_mean": 2.046113,
+      "inflow_top10": 983.4192,
+      "timestamp": 1783447200
+    },
+    {
+      "datetime": "2026-07-07T19:00:00Z",
+      "blockheight": 856355,
+      "inflow_total": 4573.6873,
+      "inflow_mean": 2.576285,
+      "inflow_top10": 1184.0519,
+      "timestamp": 1783450800
+    },
+    {
+      "datetime": "2026-07-07T20:00:00Z",
+      "blockheight": 856356,
+      "inflow_total": 3920.3327,
+      "inflow_mean": 2.442343,
+      "inflow_top10": 1284.7333,
+      "timestamp": 1783454400
+    },
+    {
+      "datetime": "2026-07-07T21:00:00Z",
+      "blockheight": 856357,
+      "inflow_total": 4421.31,
+      "inflow_mean": 2.400431,
+      "inflow_top10": 970.6154,
+      "timestamp": 1783458000
+    },
+    {
+      "datetime": "2026-07-07T22:00:00Z",
+      "blockheight": 856358,
+      "inflow_total": 3547.1568,
+      "inflow_mean": 2.11249,
+      "inflow_top10": 1154.2878,
+      "timestamp": 1783461600
+    },
+    {
+      "datetime": "2026-07-07T23:00:00Z",
+      "blockheight": 856359,
+      "inflow_total": 5082.4406,
+      "inflow_mean": 1.056322,
+      "inflow_top10": 1361.6652,
+      "timestamp": 1783465200
+    },
+    {
+      "datetime": "2026-07-08T00:00:00Z",
+      "blockheight": 856360,
+      "inflow_total": 4354.3636,
+      "inflow_mean": 1.304378,
+      "inflow_top10": 1493.451,
+      "timestamp": 1783468800
+    },
+    {
+      "datetime": "2026-07-08T01:00:00Z",
+      "blockheight": 856361,
+      "inflow_total": 3296.9471,
+      "inflow_mean": 1.692316,
+      "inflow_top10": 1544.4979,
+      "timestamp": 1783472400
+    },
+    {
+      "datetime": "2026-07-08T02:00:00Z",
+      "blockheight": 856362,
+      "inflow_total": 3711.8194,
+      "inflow_mean": 2.097137,
+      "inflow_top10": 1263.466,
+      "timestamp": 1783476000
+    },
+    {
+      "datetime": "2026-07-08T03:00:00Z",
+      "blockheight": 856363,
+      "inflow_total": 4996.5602,
+      "inflow_mean": 1.458436,
+      "inflow_top10": 1280.4087,
+      "timestamp": 1783479600
+    },
+    {
+      "datetime": "2026-07-08T04:00:00Z",
+      "blockheight": 856364,
+      "inflow_total": 5718.9169,
+      "inflow_mean": 1.55325,
+      "inflow_top10": 1395.4225,
+      "timestamp": 1783483200
+    },
+    {
+      "datetime": "2026-07-08T05:00:00Z",
+      "blockheight": 856365,
+      "inflow_total": 4553.1821,
+      "inflow_mean": 2.294153,
+      "inflow_top10": 1846.8321,
+      "timestamp": 1783486800
+    },
+    {
+      "datetime": "2026-07-08T06:00:00Z",
+      "blockheight": 856366,
+      "inflow_total": 4272.2845,
+      "inflow_mean": 0.945209,
+      "inflow_top10": 1053.3207,
+      "timestamp": 1783490400
+    },
+    {
+      "datetime": "2026-07-08T07:00:00Z",
+      "blockheight": 856367,
+      "inflow_total": 3991.6492,
+      "inflow_mean": 2.338674,
+      "inflow_top10": 831.0982,
+      "timestamp": 1783494000
+    },
+    {
+      "datetime": "2026-07-08T08:00:00Z",
+      "blockheight": 856368,
+      "inflow_total": 3853.5363,
+      "inflow_mean": 2.470798,
+      "inflow_top10": 1760.4552,
+      "timestamp": 1783497600
+    },
+    {
+      "datetime": "2026-07-08T09:00:00Z",
+      "blockheight": 856369,
+      "inflow_total": 3616.5164,
+      "inflow_mean": 1.872901,
+      "inflow_top10": 1571.4984,
+      "timestamp": 1783501200
+    },
+    {
+      "datetime": "2026-07-08T10:00:00Z",
+      "blockheight": 856370,
+      "inflow_total": 5309.3822,
+      "inflow_mean": 2.008241,
+      "inflow_top10": 1089.6091,
+      "timestamp": 1783504800
+    },
+    {
+      "datetime": "2026-07-08T11:00:00Z",
+      "blockheight": 856371,
+      "inflow_total": 3532.0281,
+      "inflow_mean": 0.94087,
+      "inflow_top10": 1543.7671,
+      "timestamp": 1783508400
+    },
+    {
+      "datetime": "2026-07-08T12:00:00Z",
+      "blockheight": 856372,
+      "inflow_total": 3524.8594,
+      "inflow_mean": 2.443804,
+      "inflow_top10": 1106.1192,
+      "timestamp": 1783512000
+    },
+    {
+      "datetime": "2026-07-08T13:00:00Z",
+      "blockheight": 856373,
+      "inflow_total": 4334.0121,
+      "inflow_mean": 1.772077,
+      "inflow_top10": 1939.4243,
+      "timestamp": 1783515600
+    },
+    {
+      "datetime": "2026-07-08T14:00:00Z",
+      "blockheight": 856374,
+      "inflow_total": 4098.3707,
+      "inflow_mean": 0.457304,
+      "inflow_top10": 1255.1777,
+      "timestamp": 1783519200
+    },
+    {
+      "datetime": "2026-07-08T15:00:00Z",
+      "blockheight": 856375,
+      "inflow_total": 3099.3331,
+      "inflow_mean": 1.939537,
+      "inflow_top10": 1445.1417,
+      "timestamp": 1783522800
+    },
+    {
+      "datetime": "2026-07-08T16:00:00Z",
+      "blockheight": 856376,
+      "inflow_total": 4834.8228,
+      "inflow_mean": 1.357884,
+      "inflow_top10": 1215.4527,
+      "timestamp": 1783526400
+    },
+    {
+      "datetime": "2026-07-08T17:00:00Z",
+      "blockheight": 856377,
+      "inflow_total": 2730.1642,
+      "inflow_mean": 2.080063,
+      "inflow_top10": 1389.377,
+      "timestamp": 1783530000
+    },
+    {
+      "datetime": "2026-07-08T18:00:00Z",
+      "blockheight": 856378,
+      "inflow_total": 4182.7169,
+      "inflow_mean": 1.664855,
+      "inflow_top10": 1089.7621,
+      "timestamp": 1783533600
+    },
+    {
+      "datetime": "2026-07-08T19:00:00Z",
+      "blockheight": 856379,
+      "inflow_total": 3845.1564,
+      "inflow_mean": 1.135585,
+      "inflow_top10": 951.6148,
+      "timestamp": 1783537200
+    },
+    {
+      "datetime": "2026-07-08T20:00:00Z",
+      "blockheight": 856380,
+      "inflow_total": 4408.3771,
+      "inflow_mean": 1.241789,
+      "inflow_top10": 1429.7625,
+      "timestamp": 1783540800
+    },
+    {
+      "datetime": "2026-07-08T21:00:00Z",
+      "blockheight": 856381,
+      "inflow_total": 3715.9511,
+      "inflow_mean": 0.907215,
+      "inflow_top10": 1311.1068,
+      "timestamp": 1783544400
+    },
+    {
+      "datetime": "2026-07-08T22:00:00Z",
+      "blockheight": 856382,
+      "inflow_total": 4465.9605,
+      "inflow_mean": 1.800806,
+      "inflow_top10": 836.3802,
+      "timestamp": 1783548000
+    },
+    {
+      "datetime": "2026-07-08T23:00:00Z",
+      "blockheight": 856383,
+      "inflow_total": 3644.741,
+      "inflow_mean": 1.81055,
+      "inflow_top10": 1304.2706,
+      "timestamp": 1783551600
+    },
+    {
+      "datetime": "2026-07-09T00:00:00Z",
+      "blockheight": 856384,
+      "inflow_total": 2771.4119,
+      "inflow_mean": 2.30967,
+      "inflow_top10": 1292.2402,
+      "timestamp": 1783555200
+    },
+    {
+      "datetime": "2026-07-09T01:00:00Z",
+      "blockheight": 856385,
+      "inflow_total": 5005.5962,
+      "inflow_mean": 1.491584,
+      "inflow_top10": 1416.9788,
+      "timestamp": 1783558800
+    },
+    {
+      "datetime": "2026-07-09T02:00:00Z",
+      "blockheight": 856386,
+      "inflow_total": 3178.3578,
+      "inflow_mean": 2.077925,
+      "inflow_top10": 1296.8944,
+      "timestamp": 1783562400
+    },
+    {
+      "datetime": "2026-07-09T03:00:00Z",
+      "blockheight": 856387,
+      "inflow_total": 3578.6953,
+      "inflow_mean": 1.697641,
+      "inflow_top10": 1238.0131,
+      "timestamp": 1783566000
+    },
+    {
+      "datetime": "2026-07-09T04:00:00Z",
+      "blockheight": 856388,
+      "inflow_total": 2219.6775,
+      "inflow_mean": 1.971858,
+      "inflow_top10": 1557.4535,
+      "timestamp": 1783569600
+    },
+    {
+      "datetime": "2026-07-09T05:00:00Z",
+      "blockheight": 856389,
+      "inflow_total": 4328.4204,
+      "inflow_mean": 1.390181,
+      "inflow_top10": 1403.012,
+      "timestamp": 1783573200
+    },
+    {
+      "datetime": "2026-07-09T06:00:00Z",
+      "blockheight": 856390,
+      "inflow_total": 4588.8024,
+      "inflow_mean": 1.441249,
+      "inflow_top10": 1489.1408,
+      "timestamp": 1783576800
+    },
+    {
+      "datetime": "2026-07-09T07:00:00Z",
+      "blockheight": 856391,
+      "inflow_total": 4143.8883,
+      "inflow_mean": 1.620999,
+      "inflow_top10": 1840.2195,
+      "timestamp": 1783580400
+    },
+    {
+      "datetime": "2026-07-09T08:00:00Z",
+      "blockheight": 856392,
+      "inflow_total": 3662.6173,
+      "inflow_mean": 1.265131,
+      "inflow_top10": 1363.3221,
+      "timestamp": 1783584000
+    },
+    {
+      "datetime": "2026-07-09T09:00:00Z",
+      "blockheight": 856393,
+      "inflow_total": 5286.3419,
+      "inflow_mean": 1.869761,
+      "inflow_top10": 1081.4731,
+      "timestamp": 1783587600
+    },
+    {
+      "datetime": "2026-07-09T10:00:00Z",
+      "blockheight": 856394,
+      "inflow_total": 4910.9488,
+      "inflow_mean": 1.847528,
+      "inflow_top10": 1701.0542,
+      "timestamp": 1783591200
+    },
+    {
+      "datetime": "2026-07-09T11:00:00Z",
+      "blockheight": 856395,
+      "inflow_total": 4945.9487,
+      "inflow_mean": 1.18656,
+      "inflow_top10": 2233.8328,
+      "timestamp": 1783594800
+    },
+    {
+      "datetime": "2026-07-09T12:00:00Z",
+      "blockheight": 856396,
+      "inflow_total": 2676.7742,
+      "inflow_mean": 2.407495,
+      "inflow_top10": 1190.6098,
+      "timestamp": 1783598400
+    },
+    {
+      "datetime": "2026-07-09T13:00:00Z",
+      "blockheight": 856397,
+      "inflow_total": 4154.7069,
+      "inflow_mean": 1.32222,
+      "inflow_top10": 1531.3339,
+      "timestamp": 1783602000
+    },
+    {
+      "datetime": "2026-07-09T14:00:00Z",
+      "blockheight": 856398,
+      "inflow_total": 3914.4616,
+      "inflow_mean": 1.145656,
+      "inflow_top10": 1288.6906,
+      "timestamp": 1783605600
+    },
+    {
+      "datetime": "2026-07-09T15:00:00Z",
+      "blockheight": 856399,
+      "inflow_total": 4249.3588,
+      "inflow_mean": 1.604467,
+      "inflow_top10": 1047.7105,
+      "timestamp": 1783609200
+    },
+    {
+      "datetime": "2026-07-09T16:00:00Z",
+      "blockheight": 856400,
+      "inflow_total": 3829.8138,
+      "inflow_mean": 2.459147,
+      "inflow_top10": 1093.3548,
+      "timestamp": 1783612800
+    },
+    {
+      "datetime": "2026-07-09T17:00:00Z",
+      "blockheight": 856401,
+      "inflow_total": 4700.1548,
+      "inflow_mean": 1.580144,
+      "inflow_top10": 1494.7147,
+      "timestamp": 1783616400
+    },
+    {
+      "datetime": "2026-07-09T18:00:00Z",
+      "blockheight": 856402,
+      "inflow_total": 3637.5282,
+      "inflow_mean": 1.877788,
+      "inflow_top10": 1699.6994,
+      "timestamp": 1783620000
+    },
+    {
+      "datetime": "2026-07-09T19:00:00Z",
+      "blockheight": 856403,
+      "inflow_total": 2610.8575,
+      "inflow_mean": 1.40496,
+      "inflow_top10": 2148.4404,
+      "timestamp": 1783623600
+    },
+    {
+      "datetime": "2026-07-09T20:00:00Z",
+      "blockheight": 856404,
+      "inflow_total": 3796.1823,
+      "inflow_mean": 2.1969,
+      "inflow_top10": 1647.2762,
+      "timestamp": 1783627200
+    },
+    {
+      "datetime": "2026-07-09T21:00:00Z",
+      "blockheight": 856405,
+      "inflow_total": 4386.4051,
+      "inflow_mean": 2.327927,
+      "inflow_top10": 957.2343,
+      "timestamp": 1783630800
+    },
+    {
+      "datetime": "2026-07-09T22:00:00Z",
+      "blockheight": 856406,
+      "inflow_total": 4026.9556,
+      "inflow_mean": 1.074205,
+      "inflow_top10": 1067.4536,
+      "timestamp": 1783634400
+    },
+    {
+      "datetime": "2026-07-09T23:00:00Z",
+      "blockheight": 856407,
+      "inflow_total": 3822.4769,
+      "inflow_mean": 1.030726,
+      "inflow_top10": 1973.9226,
+      "timestamp": 1783638000
+    },
+    {
+      "datetime": "2026-07-10T00:00:00Z",
+      "blockheight": 856408,
+      "inflow_total": 4022.5967,
+      "inflow_mean": 0.769985,
+      "inflow_top10": 1713.4297,
+      "timestamp": 1783641600
+    },
+    {
+      "datetime": "2026-07-10T01:00:00Z",
+      "blockheight": 856409,
+      "inflow_total": 4150.8492,
+      "inflow_mean": 0.995138,
+      "inflow_top10": 1223.3127,
+      "timestamp": 1783645200
+    },
+    {
+      "datetime": "2026-07-10T02:00:00Z",
+      "blockheight": 856410,
+      "inflow_total": 4073.2387,
+      "inflow_mean": 2.597385,
+      "inflow_top10": 1035.0722,
+      "timestamp": 1783648800
+    },
+    {
+      "datetime": "2026-07-10T03:00:00Z",
+      "blockheight": 856411,
+      "inflow_total": 3771.5649,
+      "inflow_mean": 1.024373,
+      "inflow_top10": 1155.2613,
+      "timestamp": 1783652400
+    },
+    {
+      "datetime": "2026-07-10T04:00:00Z",
+      "blockheight": 856412,
+      "inflow_total": 4276.6038,
+      "inflow_mean": 1.776273,
+      "inflow_top10": 1159.6088,
+      "timestamp": 1783656000
+    },
+    {
+      "datetime": "2026-07-10T05:00:00Z",
+      "blockheight": 856413,
+      "inflow_total": 4189.634,
+      "inflow_mean": 1.213922,
+      "inflow_top10": 1451.3964,
+      "timestamp": 1783659600
+    },
+    {
+      "datetime": "2026-07-10T06:00:00Z",
+      "blockheight": 856414,
+      "inflow_total": 3249.6551,
+      "inflow_mean": 1.258044,
+      "inflow_top10": 1140.7761,
+      "timestamp": 1783663200
+    },
+    {
+      "datetime": "2026-07-10T07:00:00Z",
+      "blockheight": 856415,
+      "inflow_total": 5028.9879,
+      "inflow_mean": 1.469672,
+      "inflow_top10": 1823.5568,
+      "timestamp": 1783666800
+    },
+    {
+      "datetime": "2026-07-10T08:00:00Z",
+      "blockheight": 856416,
+      "inflow_total": 3132.1941,
+      "inflow_mean": 2.075917,
+      "inflow_top10": 1773.1838,
+      "timestamp": 1783670400
+    },
+    {
+      "datetime": "2026-07-10T09:00:00Z",
+      "blockheight": 856417,
+      "inflow_total": 3498.6636,
+      "inflow_mean": 2.326238,
+      "inflow_top10": 868.3812,
+      "timestamp": 1783674000
+    },
+    {
+      "datetime": "2026-07-10T10:00:00Z",
+      "blockheight": 856418,
+      "inflow_total": 4440.6711,
+      "inflow_mean": 1.54192,
+      "inflow_top10": 1247.6901,
+      "timestamp": 1783677600
+    },
+    {
+      "datetime": "2026-07-10T11:00:00Z",
+      "blockheight": 856419,
+      "inflow_total": 3843.3578,
+      "inflow_mean": 1.091923,
+      "inflow_top10": 1838.4417,
+      "timestamp": 1783681200
+    },
+    {
+      "datetime": "2026-07-10T12:00:00Z",
+      "blockheight": 856420,
+      "inflow_total": 3265.5468,
+      "inflow_mean": 2.084229,
+      "inflow_top10": 1167.584,
+      "timestamp": 1783684800
+    },
+    {
+      "datetime": "2026-07-10T13:00:00Z",
+      "blockheight": 856421,
+      "inflow_total": 4579.527,
+      "inflow_mean": 2.196352,
+      "inflow_top10": 1650.576,
+      "timestamp": 1783688400
+    },
+    {
+      "datetime": "2026-07-10T14:00:00Z",
+      "blockheight": 856422,
+      "inflow_total": 3651.9476,
+      "inflow_mean": 1.387276,
+      "inflow_top10": 1911.1636,
+      "timestamp": 1783692000
+    },
+    {
+      "datetime": "2026-07-10T15:00:00Z",
+      "blockheight": 856423,
+      "inflow_total": 4190.6558,
+      "inflow_mean": 1.742578,
+      "inflow_top10": 1386.7718,
+      "timestamp": 1783695600
+    },
+    {
+      "datetime": "2026-07-10T16:00:00Z",
+      "blockheight": 856424,
+      "inflow_total": 4587.689,
+      "inflow_mean": 2.031808,
+      "inflow_top10": 1435.4572,
+      "timestamp": 1783699200
+    },
+    {
+      "datetime": "2026-07-10T17:00:00Z",
+      "blockheight": 856425,
+      "inflow_total": 6171.9336,
+      "inflow_mean": 1.472672,
+      "inflow_top10": 1345.9912,
+      "timestamp": 1783702800
+    },
+    {
+      "datetime": "2026-07-10T18:00:00Z",
+      "blockheight": 856426,
+      "inflow_total": 4390.2021,
+      "inflow_mean": 1.648096,
+      "inflow_top10": 1906.8557,
+      "timestamp": 1783706400
+    },
+    {
+      "datetime": "2026-07-10T19:00:00Z",
+      "blockheight": 856427,
+      "inflow_total": 5474.4523,
+      "inflow_mean": 1.100308,
+      "inflow_top10": 1430.1769,
+      "timestamp": 1783710000
+    },
+    {
+      "datetime": "2026-07-10T20:00:00Z",
+      "blockheight": 856428,
+      "inflow_total": 3988.6195,
+      "inflow_mean": 1.431671,
+      "inflow_top10": 1505.2448,
+      "timestamp": 1783713600
+    },
+    {
+      "datetime": "2026-07-10T21:00:00Z",
+      "blockheight": 856429,
+      "inflow_total": 4246.3755,
+      "inflow_mean": 1.934599,
+      "inflow_top10": 922.7507,
+      "timestamp": 1783717200
+    },
+    {
+      "datetime": "2026-07-10T22:00:00Z",
+      "blockheight": 856430,
+      "inflow_total": 5387.042,
+      "inflow_mean": 1.483764,
+      "inflow_top10": 1349.4727,
+      "timestamp": 1783720800
+    },
+    {
+      "datetime": "2026-07-10T23:00:00Z",
+      "blockheight": 856431,
+      "inflow_total": 4035.3752,
+      "inflow_mean": 1.754837,
+      "inflow_top10": 1761.2015,
+      "timestamp": 1783724400
+    },
+    {
+      "datetime": "2026-07-11T00:00:00Z",
+      "blockheight": 856432,
+      "inflow_total": 3926.9361,
+      "inflow_mean": 1.599184,
+      "inflow_top10": 1175.1796,
+      "timestamp": 1783728000
+    },
+    {
+      "datetime": "2026-07-11T01:00:00Z",
+      "blockheight": 856433,
+      "inflow_total": 3622.7467,
+      "inflow_mean": 1.734757,
+      "inflow_top10": 714.8744,
+      "timestamp": 1783731600
+    },
+    {
+      "datetime": "2026-07-11T02:00:00Z",
+      "blockheight": 856434,
+      "inflow_total": 4126.2207,
+      "inflow_mean": 2.009726,
+      "inflow_top10": 2035.1972,
+      "timestamp": 1783735200
+    },
+    {
+      "datetime": "2026-07-11T03:00:00Z",
+      "blockheight": 856435,
+      "inflow_total": 5198.9065,
+      "inflow_mean": 2.212641,
+      "inflow_top10": 1161.2635,
+      "timestamp": 1783738800
+    },
+    {
+      "datetime": "2026-07-11T04:00:00Z",
+      "blockheight": 856436,
+      "inflow_total": 4334.9962,
+      "inflow_mean": 1.652154,
+      "inflow_top10": 1407.9054,
+      "timestamp": 1783742400
+    },
+    {
+      "datetime": "2026-07-11T05:00:00Z",
+      "blockheight": 856437,
+      "inflow_total": 5253.3713,
+      "inflow_mean": 1.125945,
+      "inflow_top10": 1759.7775,
+      "timestamp": 1783746000
+    },
+    {
+      "datetime": "2026-07-11T06:00:00Z",
+      "blockheight": 856438,
+      "inflow_total": 4485.4466,
+      "inflow_mean": 1.454564,
+      "inflow_top10": 1801.0553,
+      "timestamp": 1783749600
+    },
+    {
+      "datetime": "2026-07-11T07:00:00Z",
+      "blockheight": 856439,
+      "inflow_total": 6051.1431,
+      "inflow_mean": 1.118621,
+      "inflow_top10": 1407.8741,
+      "timestamp": 1783753200
+    },
+    {
+      "datetime": "2026-07-11T08:00:00Z",
+      "blockheight": 856440,
+      "inflow_total": 2960.7574,
+      "inflow_mean": 2.129812,
+      "inflow_top10": 1242.3328,
+      "timestamp": 1783756800
+    },
+    {
+      "datetime": "2026-07-11T09:00:00Z",
+      "blockheight": 856441,
+      "inflow_total": 4013.7969,
+      "inflow_mean": 1.229896,
+      "inflow_top10": 2039.4244,
+      "timestamp": 1783760400
+    },
+    {
+      "datetime": "2026-07-11T10:00:00Z",
+      "blockheight": 856442,
+      "inflow_total": 4534.3739,
+      "inflow_mean": 1.3874,
+      "inflow_top10": 2004.6677,
+      "timestamp": 1783764000
+    },
+    {
+      "datetime": "2026-07-11T11:00:00Z",
+      "blockheight": 856443,
+      "inflow_total": 4147.3611,
+      "inflow_mean": 1.459381,
+      "inflow_top10": 1579.2593,
+      "timestamp": 1783767600
+    },
+    {
+      "datetime": "2026-07-11T12:00:00Z",
+      "blockheight": 856444,
+      "inflow_total": 4328.69,
+      "inflow_mean": 1.108045,
+      "inflow_top10": 1366.7539,
+      "timestamp": 1783771200
+    },
+    {
+      "datetime": "2026-07-11T13:00:00Z",
+      "blockheight": 856445,
+      "inflow_total": 3150.3886,
+      "inflow_mean": 1.374254,
+      "inflow_top10": 1275.4447,
+      "timestamp": 1783774800
+    },
+    {
+      "datetime": "2026-07-11T14:00:00Z",
+      "blockheight": 856446,
+      "inflow_total": 4432.16,
+      "inflow_mean": 1.160204,
+      "inflow_top10": 1472.3632,
+      "timestamp": 1783778400
+    },
+    {
+      "datetime": "2026-07-11T15:00:00Z",
+      "blockheight": 856447,
+      "inflow_total": 5003.0182,
+      "inflow_mean": 1.983965,
+      "inflow_top10": 1069.8924,
+      "timestamp": 1783782000
+    },
+    {
+      "datetime": "2026-07-11T16:00:00Z",
+      "blockheight": 856448,
+      "inflow_total": 3497.4682,
+      "inflow_mean": 2.073929,
+      "inflow_top10": 1422.8263,
+      "timestamp": 1783785600
+    },
+    {
+      "datetime": "2026-07-11T17:00:00Z",
+      "blockheight": 856449,
+      "inflow_total": 3990.837,
+      "inflow_mean": 2.623152,
+      "inflow_top10": 1864.1569,
+      "timestamp": 1783789200
+    },
+    {
+      "datetime": "2026-07-11T18:00:00Z",
+      "blockheight": 856450,
+      "inflow_total": 4096.668,
+      "inflow_mean": 1.063499,
+      "inflow_top10": 753.2165,
+      "timestamp": 1783792800
+    },
+    {
+      "datetime": "2026-07-11T19:00:00Z",
+      "blockheight": 856451,
+      "inflow_total": 5223.6931,
+      "inflow_mean": 1.447835,
+      "inflow_top10": 1200.6564,
+      "timestamp": 1783796400
+    },
+    {
+      "datetime": "2026-07-11T20:00:00Z",
+      "blockheight": 856452,
+      "inflow_total": 4517.345,
+      "inflow_mean": 2.651943,
+      "inflow_top10": 1046.1667,
+      "timestamp": 1783800000
+    },
+    {
+      "datetime": "2026-07-11T21:00:00Z",
+      "blockheight": 856453,
+      "inflow_total": 4086.8209,
+      "inflow_mean": 2.589386,
+      "inflow_top10": 1286.6672,
+      "timestamp": 1783803600
+    },
+    {
+      "datetime": "2026-07-11T22:00:00Z",
+      "blockheight": 856454,
+      "inflow_total": 5423.353,
+      "inflow_mean": 1.127482,
+      "inflow_top10": 1482.9648,
+      "timestamp": 1783807200
+    },
+    {
+      "datetime": "2026-07-11T23:00:00Z",
+      "blockheight": 856455,
+      "inflow_total": 4177.0845,
+      "inflow_mean": 2.027565,
+      "inflow_top10": 1061.958,
+      "timestamp": 1783810800
+    },
+    {
+      "datetime": "2026-07-12T00:00:00Z",
+      "blockheight": 856456,
+      "inflow_total": 5950.0912,
+      "inflow_mean": 1.066672,
+      "inflow_top10": 1718.5013,
+      "timestamp": 1783814400
+    },
+    {
+      "datetime": "2026-07-12T01:00:00Z",
+      "blockheight": 856457,
+      "inflow_total": 4233.7982,
+      "inflow_mean": 1.227641,
+      "inflow_top10": 1209.9571,
+      "timestamp": 1783818000
+    },
+    {
+      "datetime": "2026-07-12T02:00:00Z",
+      "blockheight": 856458,
+      "inflow_total": 5855.6328,
+      "inflow_mean": 1.495254,
+      "inflow_top10": 1679.0755,
+      "timestamp": 1783821600
+    },
+    {
+      "datetime": "2026-07-12T03:00:00Z",
+      "blockheight": 856459,
+      "inflow_total": 4752.4442,
+      "inflow_mean": 1.575126,
+      "inflow_top10": 1460.7992,
+      "timestamp": 1783825200
+    },
+    {
+      "datetime": "2026-07-12T04:00:00Z",
+      "blockheight": 856460,
+      "inflow_total": 5030.2222,
+      "inflow_mean": 2.86423,
+      "inflow_top10": 1094.6886,
+      "timestamp": 1783828800
+    },
+    {
+      "datetime": "2026-07-12T05:00:00Z",
+      "blockheight": 856461,
+      "inflow_total": 3715.6877,
+      "inflow_mean": 2.395137,
+      "inflow_top10": 1469.2919,
+      "timestamp": 1783832400
+    },
+    {
+      "datetime": "2026-07-12T06:00:00Z",
+      "blockheight": 856462,
+      "inflow_total": 3520.6855,
+      "inflow_mean": 1.734893,
+      "inflow_top10": 1215.3937,
+      "timestamp": 1783836000
+    },
+    {
+      "datetime": "2026-07-12T07:00:00Z",
+      "blockheight": 856463,
+      "inflow_total": 3774.6773,
+      "inflow_mean": 2.028077,
+      "inflow_top10": 920.0508,
+      "timestamp": 1783839600
+    },
+    {
+      "datetime": "2026-07-12T08:00:00Z",
+      "blockheight": 856464,
+      "inflow_total": 4447.1399,
+      "inflow_mean": 2.285247,
+      "inflow_top10": 1194.0496,
+      "timestamp": 1783843200
+    },
+    {
+      "datetime": "2026-07-12T09:00:00Z",
+      "blockheight": 856465,
+      "inflow_total": 3650.3837,
+      "inflow_mean": 1.899228,
+      "inflow_top10": 605.7827,
+      "timestamp": 1783846800
+    },
+    {
+      "datetime": "2026-07-12T10:00:00Z",
+      "blockheight": 856466,
+      "inflow_total": 3768.0802,
+      "inflow_mean": 1.212134,
+      "inflow_top10": 1250.8395,
+      "timestamp": 1783850400
+    },
+    {
+      "datetime": "2026-07-12T11:00:00Z",
+      "blockheight": 856467,
+      "inflow_total": 2198.4859,
+      "inflow_mean": 2.138687,
+      "inflow_top10": 1664.8119,
+      "timestamp": 1783854000
+    },
+    {
+      "datetime": "2026-07-12T12:00:00Z",
+      "blockheight": 856468,
+      "inflow_total": 4623.0008,
+      "inflow_mean": 1.995065,
+      "inflow_top10": 1058.9636,
+      "timestamp": 1783857600
+    },
+    {
+      "datetime": "2026-07-12T13:00:00Z",
+      "blockheight": 856469,
+      "inflow_total": 4023.6493,
+      "inflow_mean": 1.842243,
+      "inflow_top10": 976.5419,
+      "timestamp": 1783861200
+    },
+    {
+      "datetime": "2026-07-12T14:00:00Z",
+      "blockheight": 856470,
+      "inflow_total": 4239.2489,
+      "inflow_mean": 1.293321,
+      "inflow_top10": 1662.8107,
+      "timestamp": 1783864800
+    },
+    {
+      "datetime": "2026-07-12T15:00:00Z",
+      "blockheight": 856471,
+      "inflow_total": 5194.9269,
+      "inflow_mean": 0.840899,
+      "inflow_top10": 1564.5592,
+      "timestamp": 1783868400
+    },
+    {
+      "datetime": "2026-07-12T16:00:00Z",
+      "blockheight": 856472,
+      "inflow_total": 5644.2217,
+      "inflow_mean": 1.383399,
+      "inflow_top10": 1511.6225,
+      "timestamp": 1783872000
+    },
+    {
+      "datetime": "2026-07-12T17:00:00Z",
+      "blockheight": 856473,
+      "inflow_total": 5082.4349,
+      "inflow_mean": 1.500301,
+      "inflow_top10": 1883.6645,
+      "timestamp": 1783875600
+    },
+    {
+      "datetime": "2026-07-12T18:00:00Z",
+      "blockheight": 856474,
+      "inflow_total": 4100.756,
+      "inflow_mean": 1.932207,
+      "inflow_top10": 2430.2311,
+      "timestamp": 1783879200
+    },
+    {
+      "datetime": "2026-07-12T19:00:00Z",
+      "blockheight": 856475,
+      "inflow_total": 4522.9687,
+      "inflow_mean": 1.399007,
+      "inflow_top10": 1655.6997,
+      "timestamp": 1783882800
+    },
+    {
+      "datetime": "2026-07-12T20:00:00Z",
+      "blockheight": 856476,
+      "inflow_total": 3508.0203,
+      "inflow_mean": 0.999312,
+      "inflow_top10": 1517.1235,
+      "timestamp": 1783886400
+    },
+    {
+      "datetime": "2026-07-12T21:00:00Z",
+      "blockheight": 856477,
+      "inflow_total": 4109.1665,
+      "inflow_mean": 1.054421,
+      "inflow_top10": 1630.1086,
+      "timestamp": 1783890000
+    },
+    {
+      "datetime": "2026-07-12T22:00:00Z",
+      "blockheight": 856478,
+      "inflow_total": 3799.0614,
+      "inflow_mean": 1.562237,
+      "inflow_top10": 1267.8643,
+      "timestamp": 1783893600
+    },
+    {
+      "datetime": "2026-07-12T23:00:00Z",
+      "blockheight": 856479,
+      "inflow_total": 5132.9379,
+      "inflow_mean": 1.279944,
+      "inflow_top10": 2265.494,
+      "timestamp": 1783897200
+    },
+    {
+      "datetime": "2026-07-13T00:00:00Z",
+      "blockheight": 856480,
+      "inflow_total": 5139.9045,
+      "inflow_mean": 1.808481,
+      "inflow_top10": 1708.6815,
+      "timestamp": 1783900800
+    },
+    {
+      "datetime": "2026-07-13T01:00:00Z",
+      "blockheight": 856481,
+      "inflow_total": 5021.3836,
+      "inflow_mean": 1.543584,
+      "inflow_top10": 1091.2187,
+      "timestamp": 1783904400
+    },
+    {
+      "datetime": "2026-07-13T02:00:00Z",
+      "blockheight": 856482,
+      "inflow_total": 4552.1231,
+      "inflow_mean": 1.467624,
+      "inflow_top10": 1524.7129,
+      "timestamp": 1783908000
+    },
+    {
+      "datetime": "2026-07-13T03:00:00Z",
+      "blockheight": 856483,
+      "inflow_total": 4529.7899,
+      "inflow_mean": 1.566661,
+      "inflow_top10": 1995.1537,
+      "timestamp": 1783911600
+    },
+    {
+      "datetime": "2026-07-13T04:00:00Z",
+      "blockheight": 856484,
+      "inflow_total": 3733.9639,
+      "inflow_mean": 2.097233,
+      "inflow_top10": 931.802,
+      "timestamp": 1783915200
+    },
+    {
+      "datetime": "2026-07-13T05:00:00Z",
+      "blockheight": 856485,
+      "inflow_total": 3134.6164,
+      "inflow_mean": 1.846179,
+      "inflow_top10": 1403.9366,
+      "timestamp": 1783918800
+    },
+    {
+      "datetime": "2026-07-13T06:00:00Z",
+      "blockheight": 856486,
+      "inflow_total": 3819.4576,
+      "inflow_mean": 2.166736,
+      "inflow_top10": 1655.611,
+      "timestamp": 1783922400
+    },
+    {
+      "datetime": "2026-07-13T07:00:00Z",
+      "blockheight": 856487,
+      "inflow_total": 3445.6528,
+      "inflow_mean": 1.498184,
+      "inflow_top10": 1929.103,
+      "timestamp": 1783926000
+    },
+    {
+      "datetime": "2026-07-13T08:00:00Z",
+      "blockheight": 856488,
+      "inflow_total": 4898.1894,
+      "inflow_mean": 0.986666,
+      "inflow_top10": 1674.9607,
+      "timestamp": 1783929600
+    },
+    {
+      "datetime": "2026-07-13T09:00:00Z",
+      "blockheight": 856489,
+      "inflow_total": 5301.7197,
+      "inflow_mean": 2.13952,
+      "inflow_top10": 1262.4082,
+      "timestamp": 1783933200
+    },
+    {
+      "datetime": "2026-07-13T10:00:00Z",
+      "blockheight": 856490,
+      "inflow_total": 3518.4762,
+      "inflow_mean": 2.457445,
+      "inflow_top10": 2242.5541,
+      "timestamp": 1783936800
+    },
+    {
+      "datetime": "2026-07-13T11:00:00Z",
+      "blockheight": 856491,
+      "inflow_total": 3950.9496,
+      "inflow_mean": 1.701123,
+      "inflow_top10": 1203.873,
+      "timestamp": 1783940400
+    },
+    {
+      "datetime": "2026-07-13T12:00:00Z",
+      "blockheight": 856492,
+      "inflow_total": 3993.0515,
+      "inflow_mean": 2.06037,
+      "inflow_top10": 1244.2022,
+      "timestamp": 1783944000
+    },
+    {
+      "datetime": "2026-07-13T13:00:00Z",
+      "blockheight": 856493,
+      "inflow_total": 4106.7798,
+      "inflow_mean": 0.429427,
+      "inflow_top10": 698.5115,
+      "timestamp": 1783947600
+    },
+    {
+      "datetime": "2026-07-13T14:00:00Z",
+      "blockheight": 856494,
+      "inflow_total": 4212.4817,
+      "inflow_mean": 1.878181,
+      "inflow_top10": 1882.7953,
+      "timestamp": 1783951200
+    },
+    {
+      "datetime": "2026-07-13T15:00:00Z",
+      "blockheight": 856495,
+      "inflow_total": 4171.703,
+      "inflow_mean": 1.106021,
+      "inflow_top10": 2225.419,
+      "timestamp": 1783954800
+    },
+    {
+      "datetime": "2026-07-13T16:00:00Z",
+      "blockheight": 856496,
+      "inflow_total": 4473.4227,
+      "inflow_mean": 1.021071,
+      "inflow_top10": 1521.8117,
+      "timestamp": 1783958400
+    },
+    {
+      "datetime": "2026-07-13T17:00:00Z",
+      "blockheight": 856497,
+      "inflow_total": 5295.7204,
+      "inflow_mean": 1.956066,
+      "inflow_top10": 1282.3546,
+      "timestamp": 1783962000
+    },
+    {
+      "datetime": "2026-07-13T18:00:00Z",
+      "blockheight": 856498,
+      "inflow_total": 4512.7366,
+      "inflow_mean": 2.133859,
+      "inflow_top10": 1061.9481,
+      "timestamp": 1783965600
+    },
+    {
+      "datetime": "2026-07-13T19:00:00Z",
+      "blockheight": 856499,
+      "inflow_total": 4473.9716,
+      "inflow_mean": 1.810943,
+      "inflow_top10": 1601.8296,
+      "timestamp": 1783969200
+    },
+    {
+      "datetime": "2026-07-13T20:00:00Z",
+      "blockheight": 856500,
+      "inflow_total": 3492.3542,
+      "inflow_mean": 1.819664,
+      "inflow_top10": 1870.0385,
+      "timestamp": 1783972800
+    },
+    {
+      "datetime": "2026-07-13T21:00:00Z",
+      "blockheight": 856501,
+      "inflow_total": 3597.3456,
+      "inflow_mean": 1.313703,
+      "inflow_top10": 1225.5834,
+      "timestamp": 1783976400
+    },
+    {
+      "datetime": "2026-07-13T22:00:00Z",
+      "blockheight": 856502,
+      "inflow_total": 2825.0718,
+      "inflow_mean": 1.227871,
+      "inflow_top10": 941.4045,
+      "timestamp": 1783980000
+    },
+    {
+      "datetime": "2026-07-13T23:00:00Z",
+      "blockheight": 856503,
+      "inflow_total": 3575.5642,
+      "inflow_mean": 1.837803,
+      "inflow_top10": 1622.221,
+      "timestamp": 1783983600
+    },
+    {
+      "datetime": "2026-07-14T00:00:00Z",
+      "blockheight": 856504,
+      "inflow_total": 5374.7482,
+      "inflow_mean": 1.893126,
+      "inflow_top10": 2260.5155,
+      "timestamp": 1783987200
+    },
+    {
+      "datetime": "2026-07-14T01:00:00Z",
+      "blockheight": 856505,
+      "inflow_total": 4709.6576,
+      "inflow_mean": 0.9288,
+      "inflow_top10": 1458.5546,
+      "timestamp": 1783990800
+    },
+    {
+      "datetime": "2026-07-14T02:00:00Z",
+      "blockheight": 856506,
+      "inflow_total": 2852.8436,
+      "inflow_mean": 1.602092,
+      "inflow_top10": 1305.511,
+      "timestamp": 1783994400
+    },
+    {
+      "datetime": "2026-07-14T03:00:00Z",
+      "blockheight": 856507,
+      "inflow_total": 3149.772,
+      "inflow_mean": 1.261376,
+      "inflow_top10": 1411.2351,
+      "timestamp": 1783998000
+    },
+    {
+      "datetime": "2026-07-14T04:00:00Z",
+      "blockheight": 856508,
+      "inflow_total": 3295.6992,
+      "inflow_mean": 0.794266,
+      "inflow_top10": 968.4303,
+      "timestamp": 1784001600
+    },
+    {
+      "datetime": "2026-07-14T05:00:00Z",
+      "blockheight": 856509,
+      "inflow_total": 4264.5832,
+      "inflow_mean": 1.576346,
+      "inflow_top10": 1203.9004,
+      "timestamp": 1784005200
+    },
+    {
+      "datetime": "2026-07-14T06:00:00Z",
+      "blockheight": 856510,
+      "inflow_total": 5304.2996,
+      "inflow_mean": 1.619455,
+      "inflow_top10": 1490.9359,
+      "timestamp": 1784008800
+    },
+    {
+      "datetime": "2026-07-14T07:00:00Z",
+      "blockheight": 856511,
+      "inflow_total": 5200.5778,
+      "inflow_mean": 1.677755,
+      "inflow_top10": 1309.1298,
+      "timestamp": 1784012400
+    },
+    {
+      "datetime": "2026-07-14T08:00:00Z",
+      "blockheight": 856512,
+      "inflow_total": 4328.1205,
+      "inflow_mean": 1.523928,
+      "inflow_top10": 1765.1316,
+      "timestamp": 1784016000
+    },
+    {
+      "datetime": "2026-07-14T09:00:00Z",
+      "blockheight": 856513,
+      "inflow_total": 4206.8426,
+      "inflow_mean": 1.790606,
+      "inflow_top10": 1219.667,
+      "timestamp": 1784019600
+    },
+    {
+      "datetime": "2026-07-14T10:00:00Z",
+      "blockheight": 856514,
+      "inflow_total": 4198.7192,
+      "inflow_mean": 1.130033,
+      "inflow_top10": 1535.9411,
+      "timestamp": 1784023200
+    },
+    {
+      "datetime": "2026-07-14T11:00:00Z",
+      "blockheight": 856515,
+      "inflow_total": 3728.8495,
+      "inflow_mean": 2.6175,
+      "inflow_top10": 1502.8767,
+      "timestamp": 1784026800
+    },
+    {
+      "datetime": "2026-07-14T12:00:00Z",
+      "blockheight": 856516,
+      "inflow_total": 4812.6609,
+      "inflow_mean": 2.230408,
+      "inflow_top10": 1939.4079,
+      "timestamp": 1784030400
+    },
+    {
+      "datetime": "2026-07-14T13:00:00Z",
+      "blockheight": 856517,
+      "inflow_total": 5665.5012,
+      "inflow_mean": 1.6532,
+      "inflow_top10": 1228.9118,
+      "timestamp": 1784034000
+    },
+    {
+      "datetime": "2026-07-14T14:00:00Z",
+      "blockheight": 856518,
+      "inflow_total": 3520.9648,
+      "inflow_mean": 2.317582,
+      "inflow_top10": 1263.0143,
+      "timestamp": 1784037600
+    },
+    {
+      "datetime": "2026-07-14T15:00:00Z",
+      "blockheight": 856519,
+      "inflow_total": 4592.5092,
+      "inflow_mean": 1.771118,
+      "inflow_top10": 1650.7592,
+      "timestamp": 1784041200
+    },
+    {
+      "datetime": "2026-07-14T16:00:00Z",
+      "blockheight": 856520,
+      "inflow_total": 3739.7624,
+      "inflow_mean": 1.729332,
+      "inflow_top10": 1021.9567,
+      "timestamp": 1784044800
+    },
+    {
+      "datetime": "2026-07-14T17:00:00Z",
+      "blockheight": 856521,
+      "inflow_total": 5225.2243,
+      "inflow_mean": 1.389416,
+      "inflow_top10": 1562.8319,
+      "timestamp": 1784048400
+    },
+    {
+      "datetime": "2026-07-14T18:00:00Z",
+      "blockheight": 856522,
+      "inflow_total": 4550.1579,
+      "inflow_mean": 1.589288,
+      "inflow_top10": 1734.8996,
+      "timestamp": 1784052000
+    },
+    {
+      "datetime": "2026-07-14T19:00:00Z",
+      "blockheight": 856523,
+      "inflow_total": 3608.0377,
+      "inflow_mean": 2.220098,
+      "inflow_top10": 1500.2706,
+      "timestamp": 1784055600
+    },
+    {
+      "datetime": "2026-07-14T20:00:00Z",
+      "blockheight": 856524,
+      "inflow_total": 5659.7007,
+      "inflow_mean": 2.220817,
+      "inflow_top10": 1388.4073,
+      "timestamp": 1784059200
+    },
+    {
+      "datetime": "2026-07-14T21:00:00Z",
+      "blockheight": 856525,
+      "inflow_total": 3684.2237,
+      "inflow_mean": 2.683075,
+      "inflow_top10": 1805.1459,
+      "timestamp": 1784062800
+    },
+    {
+      "datetime": "2026-07-14T22:00:00Z",
+      "blockheight": 856526,
+      "inflow_total": 3384.9351,
+      "inflow_mean": 1.274684,
+      "inflow_top10": 887.1428,
+      "timestamp": 1784066400
+    },
+    {
+      "datetime": "2026-07-14T23:00:00Z",
+      "blockheight": 856527,
+      "inflow_total": 5531.2728,
+      "inflow_mean": 1.738413,
+      "inflow_top10": 1415.0122,
+      "timestamp": 1784070000
+    },
+    {
+      "datetime": "2026-07-15T00:00:00Z",
+      "blockheight": 856528,
+      "inflow_total": 4828.5279,
+      "inflow_mean": 1.98275,
+      "inflow_top10": 1365.3003,
+      "timestamp": 1784073600
+    },
+    {
+      "datetime": "2026-07-15T01:00:00Z",
+      "blockheight": 856529,
+      "inflow_total": 4148.4082,
+      "inflow_mean": 1.900848,
+      "inflow_top10": 1326.6724,
+      "timestamp": 1784077200
+    },
+    {
+      "datetime": "2026-07-15T02:00:00Z",
+      "blockheight": 856530,
+      "inflow_total": 3310.65,
+      "inflow_mean": 1.238927,
+      "inflow_top10": 1795.8984,
+      "timestamp": 1784080800
+    },
+    {
+      "datetime": "2026-07-15T03:00:00Z",
+      "blockheight": 856531,
+      "inflow_total": 2989.3082,
+      "inflow_mean": 1.645055,
+      "inflow_top10": 1617.7965,
+      "timestamp": 1784084400
+    },
+    {
+      "datetime": "2026-07-15T04:00:00Z",
+      "blockheight": 856532,
+      "inflow_total": 4741.0471,
+      "inflow_mean": 1.550242,
+      "inflow_top10": 1299.753,
+      "timestamp": 1784088000
+    },
+    {
+      "datetime": "2026-07-15T05:00:00Z",
+      "blockheight": 856533,
+      "inflow_total": 4469.8039,
+      "inflow_mean": 1.736286,
+      "inflow_top10": 718.7609,
+      "timestamp": 1784091600
+    },
+    {
+      "datetime": "2026-07-15T06:00:00Z",
+      "blockheight": 856534,
+      "inflow_total": 3427.9262,
+      "inflow_mean": 1.685158,
+      "inflow_top10": 1118.5699,
+      "timestamp": 1784095200
+    },
+    {
+      "datetime": "2026-07-15T07:00:00Z",
+      "blockheight": 856535,
+      "inflow_total": 4730.4625,
+      "inflow_mean": 0.722276,
+      "inflow_top10": 1815.4534,
+      "timestamp": 1784098800
+    },
+    {
+      "datetime": "2026-07-15T08:00:00Z",
+      "blockheight": 856536,
+      "inflow_total": 4039.3303,
+      "inflow_mean": 1.077156,
+      "inflow_top10": 1474.6361,
+      "timestamp": 1784102400
+    },
+    {
+      "datetime": "2026-07-15T09:00:00Z",
+      "blockheight": 856537,
+      "inflow_total": 4361.6362,
+      "inflow_mean": 1.118633,
+      "inflow_top10": 2137.7433,
+      "timestamp": 1784106000
+    },
+    {
+      "datetime": "2026-07-15T10:00:00Z",
+      "blockheight": 856538,
+      "inflow_total": 5607.2035,
+      "inflow_mean": 1.504122,
+      "inflow_top10": 1836.5425,
+      "timestamp": 1784109600
+    },
+    {
+      "datetime": "2026-07-15T11:00:00Z",
+      "blockheight": 856539,
+      "inflow_total": 5157.5955,
+      "inflow_mean": 0.721977,
+      "inflow_top10": 1421.3472,
+      "timestamp": 1784113200
+    },
+    {
+      "datetime": "2026-07-15T12:00:00Z",
+      "blockheight": 856540,
+      "inflow_total": 5023.1718,
+      "inflow_mean": 1.025439,
+      "inflow_top10": 1039.2429,
+      "timestamp": 1784116800
+    },
+    {
+      "datetime": "2026-07-15T13:00:00Z",
+      "blockheight": 856541,
+      "inflow_total": 4310.0613,
+      "inflow_mean": 2.045126,
+      "inflow_top10": 1598.5931,
+      "timestamp": 1784120400
+    },
+    {
+      "datetime": "2026-07-15T14:00:00Z",
+      "blockheight": 856542,
+      "inflow_total": 4979.6143,
+      "inflow_mean": 2.196347,
+      "inflow_top10": 1404.657,
+      "timestamp": 1784124000
+    },
+    {
+      "datetime": "2026-07-15T15:00:00Z",
+      "blockheight": 856543,
+      "inflow_total": 5602.3589,
+      "inflow_mean": 2.743112,
+      "inflow_top10": 2030.5285,
+      "timestamp": 1784127600
+    },
+    {
+      "datetime": "2026-07-15T16:00:00Z",
+      "blockheight": 856544,
+      "inflow_total": 4562.656,
+      "inflow_mean": 2.186316,
+      "inflow_top10": 1331.697,
+      "timestamp": 1784131200
+    },
+    {
+      "datetime": "2026-07-15T17:00:00Z",
+      "blockheight": 856545,
+      "inflow_total": 4930.8494,
+      "inflow_mean": 1.542518,
+      "inflow_top10": 914.7128,
+      "timestamp": 1784134800
+    },
+    {
+      "datetime": "2026-07-15T18:00:00Z",
+      "blockheight": 856546,
+      "inflow_total": 4337.2977,
+      "inflow_mean": 2.0152,
+      "inflow_top10": 1940.5894,
+      "timestamp": 1784138400
+    },
+    {
+      "datetime": "2026-07-15T19:00:00Z",
+      "blockheight": 856547,
+      "inflow_total": 2790.2253,
+      "inflow_mean": 2.519648,
+      "inflow_top10": 1259.0308,
+      "timestamp": 1784142000
+    },
+    {
+      "datetime": "2026-07-15T20:00:00Z",
+      "blockheight": 856548,
+      "inflow_total": 4708.454,
+      "inflow_mean": 1.046119,
+      "inflow_top10": 1091.4272,
+      "timestamp": 1784145600
+    },
+    {
+      "datetime": "2026-07-15T21:00:00Z",
+      "blockheight": 856549,
+      "inflow_total": 4718.4882,
+      "inflow_mean": 2.585129,
+      "inflow_top10": 2024.2073,
+      "timestamp": 1784149200
+    },
+    {
+      "datetime": "2026-07-15T22:00:00Z",
+      "blockheight": 856550,
+      "inflow_total": 5580.4136,
+      "inflow_mean": 1.782853,
+      "inflow_top10": 1633.5983,
+      "timestamp": 1784152800
+    },
+    {
+      "datetime": "2026-07-15T23:00:00Z",
+      "blockheight": 856551,
+      "inflow_total": 3781.2275,
+      "inflow_mean": 2.276382,
+      "inflow_top10": 1403.3524,
+      "timestamp": 1784156400
+    },
+    {
+      "datetime": "2026-07-16T00:00:00Z",
+      "blockheight": 856552,
+      "inflow_total": 4772.3828,
+      "inflow_mean": 2.011775,
+      "inflow_top10": 1170.7683,
+      "timestamp": 1784160000
+    },
+    {
+      "datetime": "2026-07-16T01:00:00Z",
+      "blockheight": 856553,
+      "inflow_total": 3612.9249,
+      "inflow_mean": 1.928699,
+      "inflow_top10": 619.0594,
+      "timestamp": 1784163600
+    },
+    {
+      "datetime": "2026-07-16T02:00:00Z",
+      "blockheight": 856554,
+      "inflow_total": 4859.6212,
+      "inflow_mean": 1.123729,
+      "inflow_top10": 1440.7148,
+      "timestamp": 1784167200
+    },
+    {
+      "datetime": "2026-07-16T03:00:00Z",
+      "blockheight": 856555,
+      "inflow_total": 3329.5476,
+      "inflow_mean": 2.054215,
+      "inflow_top10": 1346.0724,
+      "timestamp": 1784170800
+    },
+    {
+      "datetime": "2026-07-16T04:00:00Z",
+      "blockheight": 856556,
+      "inflow_total": 5261.2618,
+      "inflow_mean": 2.043282,
+      "inflow_top10": 2009.3995,
+      "timestamp": 1784174400
+    },
+    {
+      "datetime": "2026-07-16T05:00:00Z",
+      "blockheight": 856557,
+      "inflow_total": 4309.2557,
+      "inflow_mean": 1.771961,
+      "inflow_top10": 819.9545,
+      "timestamp": 1784178000
+    },
+    {
+      "datetime": "2026-07-16T06:00:00Z",
+      "blockheight": 856558,
+      "inflow_total": 3999.8421,
+      "inflow_mean": 1.494749,
+      "inflow_top10": 1558.904,
+      "timestamp": 1784181600
+    },
+    {
+      "datetime": "2026-07-16T07:00:00Z",
+      "blockheight": 856559,
+      "inflow_total": 3268.8596,
+      "inflow_mean": 2.390142,
+      "inflow_top10": 2366.4144,
+      "timestamp": 1784185200
+    },
+    {
+      "datetime": "2026-07-16T08:00:00Z",
+      "blockheight": 856560,
+      "inflow_total": 3750.5931,
+      "inflow_mean": 1.891169,
+      "inflow_top10": 1357.9791,
+      "timestamp": 1784188800
+    },
+    {
+      "datetime": "2026-07-16T09:00:00Z",
+      "blockheight": 856561,
+      "inflow_total": 3498.8376,
+      "inflow_mean": 1.78459,
+      "inflow_top10": 1030.7073,
+      "timestamp": 1784192400
+    },
+    {
+      "datetime": "2026-07-16T10:00:00Z",
+      "blockheight": 856562,
+      "inflow_total": 2910.2565,
+      "inflow_mean": 1.805242,
+      "inflow_top10": 1785.5722,
+      "timestamp": 1784196000
+    },
+    {
+      "datetime": "2026-07-16T11:00:00Z",
+      "blockheight": 856563,
+      "inflow_total": 4611.721,
+      "inflow_mean": 1.305204,
+      "inflow_top10": 900.3926,
+      "timestamp": 1784199600
+    },
+    {
+      "datetime": "2026-07-16T12:00:00Z",
+      "blockheight": 856564,
+      "inflow_total": 3439.7499,
+      "inflow_mean": 2.015806,
+      "inflow_top10": 884.8445,
+      "timestamp": 1784203200
+    },
+    {
+      "datetime": "2026-07-16T13:00:00Z",
+      "blockheight": 856565,
+      "inflow_total": 3936.0433,
+      "inflow_mean": 1.074532,
+      "inflow_top10": 1122.2674,
+      "timestamp": 1784206800
+    },
+    {
+      "datetime": "2026-07-16T14:00:00Z",
+      "blockheight": 856566,
+      "inflow_total": 4093.3346,
+      "inflow_mean": 1.576638,
+      "inflow_top10": 1563.9939,
+      "timestamp": 1784210400
+    },
+    {
+      "datetime": "2026-07-16T15:00:00Z",
+      "blockheight": 856567,
+      "inflow_total": 4584.3276,
+      "inflow_mean": 1.384316,
+      "inflow_top10": 2427.0751,
+      "timestamp": 1784214000
+    },
+    {
+      "datetime": "2026-07-16T16:00:00Z",
+      "blockheight": 856568,
+      "inflow_total": 2412.8627,
+      "inflow_mean": 1.822173,
+      "inflow_top10": 1434.2889,
+      "timestamp": 1784217600
+    },
+    {
+      "datetime": "2026-07-16T17:00:00Z",
+      "blockheight": 856569,
+      "inflow_total": 4390.7366,
+      "inflow_mean": 1.172581,
+      "inflow_top10": 669.6363,
+      "timestamp": 1784221200
+    },
+    {
+      "datetime": "2026-07-16T18:00:00Z",
+      "blockheight": 856570,
+      "inflow_total": 4159.1562,
+      "inflow_mean": 0.874645,
+      "inflow_top10": 1195.422,
+      "timestamp": 1784224800
+    },
+    {
+      "datetime": "2026-07-16T19:00:00Z",
+      "blockheight": 856571,
+      "inflow_total": 3914.3526,
+      "inflow_mean": 2.373069,
+      "inflow_top10": 1424.7885,
+      "timestamp": 1784228400
+    },
+    {
+      "datetime": "2026-07-16T20:00:00Z",
+      "blockheight": 856572,
+      "inflow_total": 4064.9535,
+      "inflow_mean": 1.795372,
+      "inflow_top10": 2669.1518,
+      "timestamp": 1784232000
+    },
+    {
+      "datetime": "2026-07-16T21:00:00Z",
+      "blockheight": 856573,
+      "inflow_total": 3769.7067,
+      "inflow_mean": 2.521571,
+      "inflow_top10": 1065.6612,
+      "timestamp": 1784235600
+    },
+    {
+      "datetime": "2026-07-16T22:00:00Z",
+      "blockheight": 856574,
+      "inflow_total": 5217.8247,
+      "inflow_mean": 1.455091,
+      "inflow_top10": 1518.5324,
+      "timestamp": 1784239200
+    },
+    {
+      "datetime": "2026-07-16T23:00:00Z",
+      "blockheight": 856575,
+      "inflow_total": 4773.3362,
+      "inflow_mean": 1.831776,
+      "inflow_top10": 1394.3992,
+      "timestamp": 1784242800
+    },
+    {
+      "datetime": "2026-07-17T00:00:00Z",
+      "blockheight": 856576,
+      "inflow_total": 5049.8225,
+      "inflow_mean": 1.783882,
+      "inflow_top10": 2139.2283,
+      "timestamp": 1784246400
+    },
+    {
+      "datetime": "2026-07-17T01:00:00Z",
+      "blockheight": 856577,
+      "inflow_total": 4462.8811,
+      "inflow_mean": 1.633933,
+      "inflow_top10": 1672.6216,
+      "timestamp": 1784250000
+    },
+    {
+      "datetime": "2026-07-17T02:00:00Z",
+      "blockheight": 856578,
+      "inflow_total": 3913.2468,
+      "inflow_mean": 2.632284,
+      "inflow_top10": 1209.6097,
+      "timestamp": 1784253600
+    },
+    {
+      "datetime": "2026-07-17T03:00:00Z",
+      "blockheight": 856579,
+      "inflow_total": 1790.3693,
+      "inflow_mean": 2.261394,
+      "inflow_top10": 1445.5389,
+      "timestamp": 1784257200
+    },
+    {
+      "datetime": "2026-07-17T04:00:00Z",
+      "blockheight": 856580,
+      "inflow_total": 4166.5733,
+      "inflow_mean": 1.621635,
+      "inflow_top10": 1414.0126,
+      "timestamp": 1784260800
+    },
+    {
+      "datetime": "2026-07-17T05:00:00Z",
+      "blockheight": 856581,
+      "inflow_total": 4280.8514,
+      "inflow_mean": 1.422601,
+      "inflow_top10": 1577.5936,
+      "timestamp": 1784264400
+    },
+    {
+      "datetime": "2026-07-17T06:00:00Z",
+      "blockheight": 856582,
+      "inflow_total": 4578.3687,
+      "inflow_mean": 2.346328,
+      "inflow_top10": 1794.8636,
+      "timestamp": 1784268000
+    },
+    {
+      "datetime": "2026-07-17T07:00:00Z",
+      "blockheight": 856583,
+      "inflow_total": 2806.927,
+      "inflow_mean": 1.38356,
+      "inflow_top10": 955.8498,
+      "timestamp": 1784271600
+    },
+    {
+      "datetime": "2026-07-17T08:00:00Z",
+      "blockheight": 856584,
+      "inflow_total": 5026.9064,
+      "inflow_mean": 1.504472,
+      "inflow_top10": 1656.6191,
+      "timestamp": 1784275200
+    },
+    {
+      "datetime": "2026-07-17T09:00:00Z",
+      "blockheight": 856585,
+      "inflow_total": 4651.7651,
+      "inflow_mean": 1.860146,
+      "inflow_top10": 1452.898,
+      "timestamp": 1784278800
+    },
+    {
+      "datetime": "2026-07-17T10:00:00Z",
+      "blockheight": 856586,
+      "inflow_total": 4372.6348,
+      "inflow_mean": 1.588827,
+      "inflow_top10": 1902.4923,
+      "timestamp": 1784282400
+    },
+    {
+      "datetime": "2026-07-17T11:00:00Z",
+      "blockheight": 856587,
+      "inflow_total": 3986.7015,
+      "inflow_mean": 0.928231,
+      "inflow_top10": 1445.1374,
+      "timestamp": 1784286000
+    },
+    {
+      "datetime": "2026-07-17T12:00:00Z",
+      "blockheight": 856588,
+      "inflow_total": 4789.3261,
+      "inflow_mean": 1.679956,
+      "inflow_top10": 1403.4579,
+      "timestamp": 1784289600
+    },
+    {
+      "datetime": "2026-07-17T13:00:00Z",
+      "blockheight": 856589,
+      "inflow_total": 3998.3311,
+      "inflow_mean": 0.67035,
+      "inflow_top10": 1212.5842,
+      "timestamp": 1784293200
+    },
+    {
+      "datetime": "2026-07-17T14:00:00Z",
+      "blockheight": 856590,
+      "inflow_total": 3604.8799,
+      "inflow_mean": 0.891614,
+      "inflow_top10": 2131.0296,
+      "timestamp": 1784296800
+    },
+    {
+      "datetime": "2026-07-17T15:00:00Z",
+      "blockheight": 856591,
+      "inflow_total": 3857.5353,
+      "inflow_mean": 0.761772,
+      "inflow_top10": 1209.3089,
+      "timestamp": 1784300400
+    },
+    {
+      "datetime": "2026-07-17T16:00:00Z",
+      "blockheight": 856592,
+      "inflow_total": 5401.7203,
+      "inflow_mean": 1.572658,
+      "inflow_top10": 1055.7386,
+      "timestamp": 1784304000
+    },
+    {
+      "datetime": "2026-07-17T17:00:00Z",
+      "blockheight": 856593,
+      "inflow_total": 4045.3746,
+      "inflow_mean": 0.644598,
+      "inflow_top10": 1416.3456,
+      "timestamp": 1784307600
+    },
+    {
+      "datetime": "2026-07-17T18:00:00Z",
+      "blockheight": 856594,
+      "inflow_total": 5396.54,
+      "inflow_mean": 2.428046,
+      "inflow_top10": 1603.2346,
+      "timestamp": 1784311200
+    },
+    {
+      "datetime": "2026-07-17T19:00:00Z",
+      "blockheight": 856595,
+      "inflow_total": 3791.0258,
+      "inflow_mean": 1.792473,
+      "inflow_top10": 1127.3485,
+      "timestamp": 1784314800
+    },
+    {
+      "datetime": "2026-07-17T20:00:00Z",
+      "blockheight": 856596,
+      "inflow_total": 4913.2224,
+      "inflow_mean": 1.167321,
+      "inflow_top10": 1583.7608,
+      "timestamp": 1784318400
+    },
+    {
+      "datetime": "2026-07-17T21:00:00Z",
+      "blockheight": 856597,
+      "inflow_total": 3907.2509,
+      "inflow_mean": 2.146497,
+      "inflow_top10": 885.9288,
+      "timestamp": 1784322000
+    },
+    {
+      "datetime": "2026-07-17T22:00:00Z",
+      "blockheight": 856598,
+      "inflow_total": 3856.0476,
+      "inflow_mean": 1.976774,
+      "inflow_top10": 1757.3137,
+      "timestamp": 1784325600
+    },
+    {
+      "datetime": "2026-07-17T23:00:00Z",
+      "blockheight": 856599,
+      "inflow_total": 5105.9099,
+      "inflow_mean": 1.872787,
+      "inflow_top10": 1218.4229,
+      "timestamp": 1784329200
+    }
+  ],
+  "metadata": {
+    "source": "synthetic",
+    "provider_endpoint": "cryptoquant_institutional_flows_exchange_inflow",
+    "path": "/btc/exchange-flows/inflow",
+    "raw_file": "C:/Users/Ottmar/Desktop/TradElatin-Processing/processing-signals/src/processing_signals/input/apis/cryptoquant/extracted_raw/20260704T154952Z/institutional_flows/exchange_inflow/hour_raw.json",
+    "raw_shape": "status_result_data_exchange_inflow",
+    "loader_strategy": "time_series",
+    "row_timestamp_required": true
+  },
+  "quality": {
+    "status": "ok",
+    "records_count": 600,
+    "min_records_required": 1,
+    "duplicates_removed": 0
+  }
+}
