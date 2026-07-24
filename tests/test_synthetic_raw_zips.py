@@ -7,10 +7,10 @@ import shutil
 import sys
 import tempfile
 import zipfile
-from datetime import UTC, datetime, timedelta
+from datetime  import UTC, datetime, timedelta
 from importlib import import_module
-from pathlib import Path
-from typing import Any
+from pathlib   import Path
+from typing    import Any
 
 
 SRC_ROOT = Path(__file__).resolve().parents[2]
@@ -18,11 +18,11 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 
-PROVIDERS = ("coinglass", "cryptoquant", "glassnode", "external_indices")
+PROVIDERS            = ("coinglass", "cryptoquant", "glassnode")
 SYNTHETIC_TIMEFRAMES = ("1m", "5m", "15m", "1h")
 TIMEFRAME_DATA_TYPES = {"candlestick", "candlestick_derived", "bars", "time_series"}
-WINDOW_DATA_TYPES = {"snapshot", "event_list", "heatmap"}
-BASE_TS = 1_782_777_600
+WINDOW_DATA_TYPES    = {"snapshot", "event_list", "heatmap"}
+BASE_TS              = 1_782_777_600
 
 
 def generate_all_synthetic_raw_zips(providers: tuple[str, ...] = PROVIDERS) -> dict[str, Any]:
@@ -33,14 +33,14 @@ def generate_all_synthetic_raw_zips(providers: tuple[str, ...] = PROVIDERS) -> d
 
 
 def generate_provider_synthetic_raw_zip(provider: str) -> dict[str, Any]:
-    endpoints = _load_endpoints(provider)
+    endpoints  = _load_endpoints(provider)
     output_dir = Path(__file__).resolve().parent / "apis" / provider / "synthetic_raw"
     output_dir.mkdir(parents=True, exist_ok=True)
     zip_path = output_dir / f"{provider}_synthetic_raw.zip"
 
     with tempfile.TemporaryDirectory(prefix=f"{provider}_", dir=output_dir) as tmp:
         tmp_root = Path(tmp)
-        files = _write_provider_raw_files(provider, endpoints, tmp_root)
+        files    = _write_provider_raw_files(provider, endpoints, tmp_root)
         _write_zip(tmp_root, zip_path)
 
     validation = validate_synthetic_raw_zip(provider, zip_path, endpoints)
@@ -59,7 +59,7 @@ def validate_synthetic_raw_zip(provider: str, zip_path: str | Path, endpoints: l
         return {"status": "error", "errors": [f"Missing ZIP: {zip_file}"], "files": 0}
 
     endpoint_by_member = _expected_members(endpoints or _load_endpoints(provider))
-    files = 0
+    files              = 0
     with zipfile.ZipFile(zip_file, "r") as archive:
         names = [name for name in archive.namelist() if name.endswith(".json")]
         for name in names:
@@ -86,7 +86,7 @@ def _write_provider_raw_files(provider: str, endpoints: list[dict[str, Any]], ro
     for endpoint in endpoints:
         for slot, records in _records_for_endpoint(provider, endpoint):
             relative = Path(endpoint["family"]) / endpoint["subtype"] / f"{slot}_raw.json"
-            path = root / relative
+            path     = root / relative
             path.parent.mkdir(parents=True, exist_ok=True)
             payload = _provider_payload(provider, endpoint, slot, records)
             path.write_text(json.dumps(payload, ensure_ascii=True, indent=2), encoding="utf-8")
@@ -122,15 +122,13 @@ def _provider_payload(provider: str, endpoint: dict[str, Any], slot: str, record
         return {"status": {"code": 200, "message": "success"}, "result": {"window": _cryptoquant_window(slot), "data": records}}
     if provider == "glassnode":
         return records
-    if provider == "external_indices":
-        return {"provider": endpoint["provider"], "index": endpoint["subtype"], "data": records}
     return {"data": records}
 
 
 def _timeframe_records(provider: str, endpoint: dict[str, Any], timeframe: str, count: int) -> list[dict[str, Any]]:
-    step = _timeframe_seconds(timeframe)
-    base = _base_value(endpoint)
-    start = BASE_TS - (count - 1) * step
+    step      = _timeframe_seconds(timeframe)
+    base      = _base_value(endpoint)
+    start     = BASE_TS - (count - 1) * step
     data_type = endpoint.get("data_type")
 
     if provider == "coinglass" and data_type in {"candlestick", "candlestick_derived", "bars"}:
@@ -156,15 +154,12 @@ def _timeframe_records(provider: str, endpoint: dict[str, Any], timeframe: str, 
     if provider == "glassnode":
         return [_glassnode_record(endpoint, start + index * step, base + index * 0.03, index) for index in range(count)]
 
-    if provider == "external_indices":
-        return [{"timestamp": start + index * step, "value": round(base + index * 0.01, 6)} for index in range(count)]
-
     return [{"timestamp": start + index * step, "value": round(base + index * 0.03, 6)} for index in range(count)]
 
 
 def _window_records(provider: str, endpoint: dict[str, Any], window: str, count: int) -> list[dict[str, Any]]:
-    base = _base_value(endpoint)
-    subtype = endpoint["subtype"]
+    base      = _base_value(endpoint)
+    subtype   = endpoint["subtype"]
     data_type = endpoint.get("data_type")
 
     if provider == "coinglass":
@@ -211,8 +206,8 @@ def _window_records(provider: str, endpoint: dict[str, Any], window: str, count:
 
 
 def _cryptoquant_record(endpoint: dict[str, Any], timestamp: int, value: float, index: int) -> dict[str, Any]:
-    subtype = endpoint["subtype"]
-    iso = datetime.fromtimestamp(timestamp, tz=UTC).isoformat().replace("+00:00", "Z")
+    subtype     = endpoint["subtype"]
+    iso         = datetime.fromtimestamp(timestamp, tz=UTC).isoformat().replace("+00:00", "Z")
     blockheight = 856_000 + index
 
     if endpoint["family"] == "institutional_flows":
@@ -271,11 +266,6 @@ def _validate_payload_shape(provider: str, endpoint: dict[str, Any], name: str, 
         if not isinstance(payload, list):
             errors.append(f"{name}: invalid Glassnode shape")
         records = payload if isinstance(payload, list) else []
-    elif provider == "external_indices":
-        if not isinstance(payload, dict) or payload.get("index") not in {"bviv", "bvx"} or "data" not in payload:
-            errors.append(f"{name}: invalid external index shape")
-        records = payload.get("data", []) if isinstance(payload, dict) else []
-
     if endpoint.get("supports_timeframe") and len(records) < 600:
         errors.append(f"{name}: timeframe file has {len(records)} records < 600")
 
@@ -304,8 +294,8 @@ def _write_zip(root: Path, zip_path: Path) -> None:
 
 
 def _load_endpoints(provider: str) -> list[dict[str, Any]]:
-    module_name = "endpoint_registry" if provider == "external_indices" else f"endpoint_registry_{provider}"
-    module = import_module(f"processing_signals.input.apis.{provider}.{module_name}")
+    module_name = f"endpoint_registry_{provider}"
+    module      = import_module(f"processing_signals.input.apis.{provider}.{module_name}")
     return list(getattr(module, "ENDPOINTS"))
 
 

@@ -10,7 +10,7 @@ This checkpoint closes the previous processing stage and establishes the validat
 
 ## Validated
 
-- 9 official families active
+- 8 official families active
 - 11 operational data_types
 - 4 official timeframes
 - 600 internal records per timeframe

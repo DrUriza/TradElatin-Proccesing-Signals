@@ -5,11 +5,11 @@ import pandas as pd
 
 
 def bollinger_bands(close: pd.Series, window: int = 20, std_mult: float = 2.0) -> pd.DataFrame:
-    close = pd.to_numeric(close, errors="coerce")
-    middle = close.rolling(window).mean()
-    std = close.rolling(window).std()
-    upper = middle + std_mult * std
-    lower = middle - std_mult * std
+    close     = pd.to_numeric(close, errors="coerce")
+    middle    = close.rolling(window).mean()
+    std       = close.rolling(window).std()
+    upper     = middle + std_mult * std
+    lower     = middle - std_mult * std
     bandwidth = (upper - lower) / middle.replace(0, np.nan)
     percent_b = (close - lower) / (upper - lower).replace(0, np.nan)
     return pd.DataFrame({

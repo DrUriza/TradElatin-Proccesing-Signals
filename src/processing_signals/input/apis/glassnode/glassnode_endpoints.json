@@ -264,6 +264,55 @@
     },
     {
       "provider": "glassnode",
+      "family": "onchain_miners",
+      "endpoint_id": "sopr",
+      "live_path": "/v1/metrics/indicators/sopr",
+      "extraction_mode": "provider_interval",
+      "raw_shape": "list_t_v_scalar",
+      "intervals": [
+        "24h"
+      ],
+      "direct_graphs": [
+        "miner_pressure_panel"
+      ],
+      "derived_graphs": [
+        "miner_ratio_line"
+      ]
+    },
+    {
+      "provider": "glassnode",
+      "family": "onchain_miners",
+      "endpoint_id": "nupl",
+      "live_path": "/v1/metrics/indicators/net_unrealized_profit_loss",
+      "extraction_mode": "provider_interval",
+      "raw_shape": "list_t_v_scalar",
+      "intervals": [
+        "24h"
+      ],
+      "direct_graphs": [
+        "miner_pressure_panel"
+      ],
+      "derived_graphs": [
+        "miner_ratio_line"
+      ]
+    },
+    {
+      "provider": "glassnode",
+      "family": "onchain_miners",
+      "endpoint_id": "block_interval_mean",
+      "live_path": "/v1/metrics/blockchain/block_interval_mean",
+      "extraction_mode": "provider_interval",
+      "raw_shape": "list_t_v_scalar",
+      "intervals": [
+        "24h"
+      ],
+      "direct_graphs": [
+        "miner_pressure_panel"
+      ],
+      "derived_graphs": []
+    },
+    {
+      "provider": "glassnode",
       "family": "options_volatility",
       "endpoint_id": "implied_volatility_atm",
       "live_path": "/v1/metrics/options/atm_implied_volatility_1_week",
