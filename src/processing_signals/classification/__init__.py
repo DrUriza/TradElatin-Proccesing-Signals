@@ -1,9 +1,6 @@
-__all__ = ["ClassificationPipeline"]
+from __future__ import annotations
+
+from .classification_pipeline import CLASSIFICATION_FAMILY_HANDLERS, run_classification_pipeline
 
 
-def __getattr__(name: str):
-	if name == "ClassificationPipeline":
-		from .classification_pipeline import ClassificationPipeline
-
-		return ClassificationPipeline
-	raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+__all__ = ["CLASSIFICATION_FAMILY_HANDLERS", "run_classification_pipeline"]

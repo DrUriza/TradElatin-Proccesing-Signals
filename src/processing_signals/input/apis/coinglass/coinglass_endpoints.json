@@ -131,8 +131,24 @@
       "timeframes": [
         "1m",
         "5m",
+        "1h",
+        "4h",
+        "1d"
+      ],
+      "live_timeframes": [
+        "1m",
+        "5m"
+      ],
+      "bootstrap_only_timeframes": [
+        "1h",
+        "4h",
+        "1d"
+      ],
+      "internally_generated_timeframes": [
         "15m",
-        "4h"
+        "1H",
+        "4H",
+        "1D"
       ],
       "direct_graphs": [
         "ohlcv_candlestick",
@@ -154,8 +170,24 @@
       "timeframes": [
         "1m",
         "5m",
+        "1h",
+        "4h",
+        "1d"
+      ],
+      "live_timeframes": [
+        "1m",
+        "5m"
+      ],
+      "bootstrap_only_timeframes": [
+        "1h",
+        "4h",
+        "1d"
+      ],
+      "internally_generated_timeframes": [
         "15m",
-        "4h"
+        "1H",
+        "4H",
+        "1D"
       ],
       "direct_graphs": [
         "ohlcv_candlestick",

@@ -4,9 +4,9 @@ import pandas as pd
 
 
 def true_range(high: pd.Series, low: pd.Series, close: pd.Series) -> pd.Series:
-    high = pd.to_numeric(high, errors="coerce")
-    low = pd.to_numeric(low, errors="coerce")
-    close = pd.to_numeric(close, errors="coerce")
+    high       = pd.to_numeric(high, errors="coerce")
+    low        = pd.to_numeric(low, errors="coerce")
+    close      = pd.to_numeric(close, errors="coerce")
     prev_close = close.shift(1)
     return pd.concat([high - low, (high - prev_close).abs(), (low - prev_close).abs()], axis=1).max(axis=1)
 
