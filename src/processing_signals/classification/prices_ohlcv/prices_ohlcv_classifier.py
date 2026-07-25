@@ -274,7 +274,7 @@ def classify_indicator_package(indicator_package: Mapping[str, Any], bias_compon
     stoch   = indicator_package.get("stochastic", {}).get("current", {})
     adx     = indicator_package.get("adx", {}).get("current", {})
     bias    = (bias_components or {}).get("values", bias_components or {})
-    return {
+    output  = {
         "rsi": classify_rsi(current("rsi", "rsi")),
         "macd": classify_macd(macd.get("macd"), macd.get("signal"), macd.get("histogram")),
         "macd_signal": classify_macd_signal(macd.get("signal")),
@@ -286,6 +286,11 @@ def classify_indicator_package(indicator_package: Mapping[str, Any], bias_compon
         "atr": classify_atr(current("atr", "atr"), bias.get("atr_percent_of_close")),
         "tsi": classify_tsi(current("tsi", "tsi"), indicator_package.get("tsi", {}).get("parameters", {})),
     }
+    parameter_sources = {"rsi": "rsi", "macd": "macd", "macd_signal": "macd", "macd_histogram": "macd", "stochastic": "stochastic",
+                         "adx": "adx", "cci": "cci", "mfi": "mfi", "williams_r": "williams_r", "atr": "atr", "tsi": "tsi"}
+    for indicator_id, source_id in parameter_sources.items():
+        output[indicator_id]["parameters"] = dict(indicator_package.get(source_id, {}).get("parameters", {}))
+    return output
 
 
 def _threshold_band_confidence(value: float, thresholds: Sequence[tuple[float, str]], selected_index: int) -> float:
