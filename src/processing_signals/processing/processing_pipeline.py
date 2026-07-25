@@ -1,12 +1,8 @@
-from __future__ import annotations
-
-from typing import Any, Mapping, Sequence
-
+from __future__                           import annotations
+from typing                               import Any, Mapping, Sequence
 from .prices_ohlcv.prices_ohlcv_processor import run_prices_ohlcv_processing
 
-
 PROCESSING_FAMILY_HANDLERS = {"prices_ohlcv": run_prices_ohlcv_processing}
-
 
 def run_processing_pipeline(*, input_contracts: Mapping[str, Mapping[str, Any]], enabled_families: Sequence[str] = ("prices_ohlcv",),
                             existing_processing: Mapping[str, Mapping[str, Any]] | None = None,

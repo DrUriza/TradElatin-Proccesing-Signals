@@ -47,7 +47,7 @@ def test_main_chart_switches_market_and_timeframe_together():
 def test_events_keep_market_and_timeframe_sources():
     processing = make_processing_output()
     contract   = build_prices_screen_contract(processing, run_prices_ohlcv_classification(processing))
-    events     = contract["events"]["technical_crosses"] + contract["events"]["candlestick_patterns"]
+    events     = list(contract["events"]["by_id"].values())
     assert events and all(event["source"]["market"] and event["source"]["timeframe"] for event in events)
 
 

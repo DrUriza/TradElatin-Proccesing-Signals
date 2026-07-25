@@ -6,7 +6,7 @@ from typing  import Any
 
 import pytest
 
-from processing_signals.main.export_prices_json import _run_synthetic_vertical, export_prices_screen_json, main, write_prices_screen_json
+from processing_signals.main.main_pipeline import _run_synthetic_vertical, export_prices_screen_json, main, write_prices_screen_json
 
 
 @pytest.fixture(scope="module")
@@ -50,10 +50,10 @@ def test_normal_export_contains_only_complete_unwrapped_screen(tmp_path: Path, v
     assert {"is_closed", "source_timeframe", "resampled", "coverage_complete"} <= set(chart_1h["metadata"])
     assert {"moving_averages", "bollinger_bands", "fibonacci_levels", "pivot_points", "support", "resistance", "vwap"} <= set(chart_1h["overlays"])
     annotations = contract["charts"]["ohlcv"]["annotations"]["general"]["1h"]
-    assert all(str(event["timestamp"]) in annotations["by_timestamp"] for event in annotations["events"])
+    assert all(event_uid in contract["events"]["by_id"] for event_ids in annotations["by_timestamp"].values() for event_uid in event_ids)
     assert contract["widgets"]["most_recent_candle"]["candle"]["timestamp"]
     assert contract["widgets"]["moving_averages_summary"]["values"]["ema_9"] is not None
-    assert contract["widgets"]["candlestick_patterns_analysis"]["rows"]
+    assert contract["widgets"]["candlestick_patterns_analysis"]["row_ids"]
     assert contract["widgets"]["volume_analysis"]["total_24h"] > 0
     assert contract["widgets"]["drawdown"]["basis"] == "market_returns"
     assert contract["widgets"]["volume_profile"]["status"] == "unavailable"
