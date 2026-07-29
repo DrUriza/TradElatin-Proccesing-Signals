@@ -29,7 +29,6 @@ def write_prices_screen_json(*, screen_contract: Mapping[str, Any], output_path:
     temporary.replace(output_path)
     return output_path
 
-
 def export_prices_screen_json(*, vertical_output: Mapping[str, Any], output_path: Path) -> Path:
     """Export only the unwrapped screen member of a completed Prices vertical."""
     screen_contract = vertical_output.get("screen")
@@ -107,20 +106,17 @@ def run_main_pipeline(*, enabled_families: Sequence[str] = ("prices_ohlcv",),
         outputs[family] = family_output["screen"] if screens_only else family_output
     return outputs
 
-
 def _run_synthetic_vertical(mode: str) -> dict[str, Any]:
     common           = {"bootstrap_limit": 120}
-    runtime_metadata = {"data_mode": "synthetic", "is_demo": True, "provider": "synthetic_prices_fetcher",
-                        "reference_timestamp": SYNTHETIC_REFERENCE_TIMESTAMP, "synthetic_seed": 17}
-    bootstrap        = run_main_pipeline(family_arguments={"prices_ohlcv": {"fetcher": SyntheticPricesFetcher(),
-                                          "input_arguments": {"requested_mode": "bootstrap", **common},
-                                          "now_timestamp": SYNTHETIC_REFERENCE_TIMESTAMP, "runtime_metadata": runtime_metadata}})["prices_ohlcv"]
+    runtime_metadata = {"data_mode": "synthetic", "is_demo": True, "provider": "synthetic_prices_fetcher", "reference_timestamp": SYNTHETIC_REFERENCE_TIMESTAMP, "synthetic_seed": 17}
+    bootstrap        = run_main_pipeline(family_arguments={"prices_ohlcv": {"fetcher": SyntheticPricesFetcher(), "input_arguments": {"requested_mode": "bootstrap", **common},
+                                                                            "now_timestamp": SYNTHETIC_REFERENCE_TIMESTAMP, "runtime_metadata": runtime_metadata}})["prices_ohlcv"]
     if mode == "bootstrap":
         return bootstrap
     if mode == "incremental":
         arguments = {"requested_mode": "incremental", "incremental_limits": {"1m": 6, "15m": 6}}
         return run_main_pipeline(family_arguments={"prices_ohlcv": {"fetcher": SyntheticPricesFetcher(reference_timestamp=SYNTHETIC_REFERENCE_TIMESTAMP + 900,
-                                                                                                           incremental_offset=1), "input_arguments": arguments,
+                                                                                                      incremental_offset=1), "input_arguments": arguments,
                                           "now_timestamp": SYNTHETIC_REFERENCE_TIMESTAMP + 900, "runtime_metadata": runtime_metadata}},
                                  previous_state={"prices_ohlcv": bootstrap})["prices_ohlcv"]
     requests = [{"market": market, "timeframe": timeframe, "limit": 120}
