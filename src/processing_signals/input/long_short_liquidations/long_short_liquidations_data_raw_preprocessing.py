@@ -31,6 +31,7 @@ from .long_short_liquidations_data_raw_extract import (
     VALID_MODES,
     LongShortLiquidationsRawExtractor,
     RawFetcher,
+    validate_request_contract,
 )
 
 DATASET_STATES = {"available", "partial", "unavailable", "invalid"}
@@ -545,6 +546,10 @@ def validate_long_short_liquidations_raw_bundle(raw_bundle: Any) -> None:
         if not isinstance(request.get("dimensions"), Mapping):
             raise ValueError(f"request_dimensions_must_be_mapping:{path}")
         copy_json_safe_value(request["dimensions"], path=f"{path}.dimensions")
+        try:
+            validate_request_contract(request, allow_skipped=True)
+        except ValueError as exc:
+            raise ValueError(f"{exc}:{path}") from exc
         status = request.get("status")
         if status not in RAW_STATES:
             raise ValueError(f"invalid_request_status:{path}")
@@ -559,7 +564,7 @@ def validate_long_short_liquidations_raw_bundle(raw_bundle: Any) -> None:
             raise ValueError(f"skipped_request_requires_null_response:{path}")
 
 
-def _request_dataset_path(request: Mapping[str, Any]) -> str | None:
+def _request_dataset_path(request: Mapping[str, Any]) -> str:
     endpoint = request["endpoint_id"]
     exchange = request["dimensions"].get("exchange")
     direct = {
@@ -581,9 +586,11 @@ def _request_dataset_path(request: Mapping[str, Any]) -> str | None:
     if endpoint in keyed and isinstance(exchange, str):
         return f"{keyed[endpoint]}.{exchange}"
     if endpoint == "cryptoquant_liquidations":
-        return ("cryptoquant.aggregate_history" if exchange == "all_exchange" else
-                f"cryptoquant.exchange_history.{exchange}" if isinstance(exchange, str) else None)
-    return None
+        if exchange == "all_exchange":
+            return "cryptoquant.aggregate_history"
+        if isinstance(exchange, str) and exchange:
+            return f"cryptoquant.exchange_history.{exchange}"
+    raise ValueError("unresolvable_dataset_target")
 
 
 def determine_required_datasets(
@@ -594,7 +601,10 @@ def determine_required_datasets(
     if mode == "recovery":
         if not raw_requests:
             raise ValueError("recovery_requests_required")
-        return {path for request in raw_requests if (path := _request_dataset_path(request)) is not None}
+        required = {_request_dataset_path(request) for request in raw_requests}
+        if not required:
+            raise ValueError("recovery_targets_unresolvable")
+        return required
     required = set()
     if mode == "bootstrap":
         required.update({"coinglass.aggregated_history", "coinglass.exchange_snapshot",
@@ -605,9 +615,7 @@ def determine_required_datasets(
     for request in raw_requests:
         endpoint = request["endpoint_id"]
         if endpoint in required_endpoints or (mode == "bootstrap" and endpoint == "supported_exchange_pairs"):
-            path = _request_dataset_path(request)
-            if path is not None:
-                required.add(path)
+            required.add(_request_dataset_path(request))
     return required
 
 

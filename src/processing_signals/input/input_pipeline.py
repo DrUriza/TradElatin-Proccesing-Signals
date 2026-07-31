@@ -3,9 +3,15 @@ from __future__ import annotations
 from typing import Any, Mapping, Sequence
 
 from .prices_ohlcv.prices_ohlcv_data_raw_preprocessing import run_prices_ohlcv_input
+from .long_short_liquidations.long_short_liquidations_data_raw_preprocessing import run_long_short_liquidations_input
+from .on_chain_miners.on_chain_miners_data_raw_preprocessing import run_on_chain_miners_input
+from .etf_exchange_flows.etf_exchange_flows_data_raw_preprocessing import run_etf_exchange_flows_input
 
 
-INPUT_FAMILY_HANDLERS = {"prices_ohlcv": run_prices_ohlcv_input}
+INPUT_FAMILY_HANDLERS = {"prices_ohlcv": run_prices_ohlcv_input,
+                         "long_short_liquidations": run_long_short_liquidations_input,
+                         "on_chain_miners": run_on_chain_miners_input,
+                         "etf_exchange_flows": run_etf_exchange_flows_input}
 
 
 def run_input_pipeline(*, enabled_families: Sequence[str] = ("prices_ohlcv",),

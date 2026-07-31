@@ -8,6 +8,7 @@
     "liquidity_microstructure",
     "cvd_volume_orderflow",
     "institutional_flows",
+    "etf_exchange_flows",
     "liquidations",
     "open_interest_and_funding",
     "sentiment_positioning",
@@ -143,7 +144,7 @@
     },
     {
       "provider": "cryptoquant",
-      "family": "institutional_flows",
+      "family": "etf_exchange_flows",
       "endpoint_id": "exchange_inflow",
       "live_path": "/btc/exchange-flows/inflow",
       "extraction_mode": "provider_window",
@@ -161,7 +162,7 @@
     },
     {
       "provider": "cryptoquant",
-      "family": "institutional_flows",
+      "family": "etf_exchange_flows",
       "endpoint_id": "exchange_outflow",
       "live_path": "/btc/exchange-flows/outflow",
       "extraction_mode": "provider_window",
@@ -179,7 +180,7 @@
     },
     {
       "provider": "cryptoquant",
-      "family": "institutional_flows",
+      "family": "etf_exchange_flows",
       "endpoint_id": "exchange_netflow",
       "live_path": "/btc/exchange-flows/netflow",
       "extraction_mode": "provider_window",
@@ -198,7 +199,7 @@
     },
     {
       "provider": "cryptoquant",
-      "family": "institutional_flows",
+      "family": "etf_exchange_flows",
       "endpoint_id": "exchange_reserve",
       "live_path": "/btc/exchange-flows/reserve",
       "extraction_mode": "provider_window",
@@ -208,10 +209,10 @@
         "day"
       ],
       "direct_graphs": [
-        "exchange_netflow_line"
+        "exchange_balance_history"
       ],
       "derived_graphs": [
-        "flow_pressure_panel"
+        "exchange_balance_history"
       ]
     },
     {

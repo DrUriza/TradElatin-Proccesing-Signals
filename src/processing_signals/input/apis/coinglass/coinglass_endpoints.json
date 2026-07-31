@@ -8,6 +8,7 @@
     "liquidity_microstructure",
     "cvd_volume_orderflow",
     "institutional_flows",
+    "etf_exchange_flows",
     "liquidations",
     "open_interest_and_funding",
     "sentiment_positioning",
@@ -325,7 +326,7 @@
     },
     {
       "provider": "coinglass",
-      "family": "institutional_flows",
+      "family": "etf_exchange_flows",
       "endpoint_id": "bitcoin_etf_flows",
       "live_path": "/api/etf/bitcoin/flow-history",
       "extraction_mode": "fixed_window",
@@ -339,6 +340,31 @@
       "derived_graphs": [
         "flow_pressure_panel"
       ]
+    },
+    {
+      "provider": "coinglass", "family": "etf_exchange_flows", "endpoint_id": "bitcoin_etf_list",
+      "live_path": "/api/etf/bitcoin/list", "extraction_mode": "fixed_window", "raw_shape": "code_msg_data_list_etf_funds",
+      "windows": ["latest"], "direct_graphs": ["etf_fund_table"], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "etf_exchange_flows", "endpoint_id": "bitcoin_etf_net_assets_history",
+      "live_path": "/api/etf/bitcoin/net-assets/history", "extraction_mode": "fixed_window", "raw_shape": "code_msg_data_list_net_assets",
+      "windows": ["30d"], "direct_graphs": ["etf_net_assets_history"], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "etf_exchange_flows", "endpoint_id": "bitcoin_etf_premium_discount_history",
+      "live_path": "/api/etf/bitcoin/premium-discount/history", "extraction_mode": "fixed_window", "raw_shape": "code_msg_data_nested_premium_list",
+      "windows": ["30d"], "direct_graphs": ["etf_premium_discount"], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "etf_exchange_flows", "endpoint_id": "exchange_balance_list",
+      "live_path": "/api/exchange/balance/list", "extraction_mode": "fixed_window", "raw_shape": "code_msg_data_exchange_balance_list",
+      "windows": ["latest"], "direct_graphs": ["exchange_balance_snapshot"], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "etf_exchange_flows", "endpoint_id": "exchange_balance_chart",
+      "live_path": "/api/exchange/balance/chart", "extraction_mode": "fixed_window", "raw_shape": "code_msg_data_exchange_balance_matrix",
+      "windows": ["30d"], "direct_graphs": ["exchange_balance_history"], "derived_graphs": []
     },
     {
       "provider": "coinglass",
