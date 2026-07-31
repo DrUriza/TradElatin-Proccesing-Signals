@@ -8,9 +8,15 @@ from pathlib         import Path
 from typing          import Any
 
 from .prices_ohlcv import run_prices_vertical
+from .long_short_liquidations import run_long_short_liquidations_vertical
+from .on_chain_miners import run_on_chain_miners_vertical
+from .etf_exchange_flows import run_etf_exchange_flows_vertical
 
 
-VERTICAL_FAMILY_HANDLERS      = {"prices_ohlcv": run_prices_vertical}
+VERTICAL_FAMILY_HANDLERS      = {"prices_ohlcv": run_prices_vertical,
+                                 "long_short_liquidations": run_long_short_liquidations_vertical,
+                                 "on_chain_miners": run_on_chain_miners_vertical,
+                                 "etf_exchange_flows": run_etf_exchange_flows_vertical}
 DEFAULT_OUTPUT_PATH           = Path("runtime/contracts/prices_screen.json")
 TIMEFRAME_SECONDS             = {"1m": 60, "5m": 300, "15m": 900, "1h": 3_600, "4h": 14_400, "1d": 86_400}
 SYNTHETIC_REFERENCE_TIMESTAMP = 1_749_945_600

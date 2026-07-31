@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from collections.abc import Callable, Mapping, Sequence
 from copy import deepcopy
+from datetime import datetime, timezone
+import math
 import time
 from typing import Any
 
@@ -47,6 +49,188 @@ ENDPOINT_MANIFEST: dict[tuple[str, str], str] = {
     (GLASSNODE_PROVIDER, GLASSNODE_TOTAL_LIQUIDATIONS_ENDPOINT_ID): "/v1/metrics/derivatives/futures_liquidated_total_volume_sum",
     (GLASSNODE_PROVIDER, GLASSNODE_LONG_LIQUIDATION_DOMINANCE_ENDPOINT_ID): "/v1/metrics/derivatives/futures_liquidated_volume_long_relative",
 }
+
+ENDPOINT_REQUEST_SCHEMAS: dict[tuple[str, str], dict[str, Any]] = {
+    (COINGLASS_PROVIDER, "supported_exchange_pairs"): {"params": (), "dimensions": ()},
+    (COINGLASS_PROVIDER, "aggregated_liquidation_history"): {
+        "params": ("exchange_list", "symbol", "interval", "limit", "start_time", "end_time"),
+        "dimensions": ("asset", "symbol"),
+    },
+    (COINGLASS_PROVIDER, "liquidation_exchange_list"): {
+        "params": ("symbol", "range"), "dimensions": ("asset", "symbol"),
+    },
+    (COINGLASS_PROVIDER, "pair_liquidation_history"): {
+        "params": ("exchange", "symbol", "interval", "limit", "start_time", "end_time"),
+        "dimensions": ("exchange", "asset", "symbol"),
+    },
+    (COINGLASS_PROVIDER, "liquidation_order_events"): {
+        "params": ("exchange", "symbol", "min_liquidation_amount", "start_time", "end_time"),
+        "dimensions": ("exchange", "asset", "symbol"),
+    },
+    (COINGLASS_PROVIDER, "aggregated_liquidation_map"): {
+        "params": ("symbol", "range"), "dimensions": ("asset", "symbol"),
+    },
+    (COINGLASS_PROVIDER, "pair_liquidation_map"): {
+        "params": ("exchange", "symbol", "range"),
+        "dimensions": ("exchange", "asset", "symbol"),
+    },
+    (COINGLASS_PROVIDER, "liquidation_max_pain"): {"params": ("range",), "dimensions": ()},
+    (CRYPTOQUANT_PROVIDER, "cryptoquant_liquidations"): {
+        "params": ("exchange", "symbol", "window", "from", "to", "limit", "format"),
+        "dimensions": ("exchange", "asset", "symbol"),
+    },
+}
+for _glassnode_endpoint in (
+    GLASSNODE_LONG_LIQUIDATIONS_ENDPOINT_ID,
+    GLASSNODE_SHORT_LIQUIDATIONS_ENDPOINT_ID,
+    GLASSNODE_TOTAL_LIQUIDATIONS_ENDPOINT_ID,
+    GLASSNODE_LONG_LIQUIDATION_DOMINANCE_ENDPOINT_ID,
+):
+    ENDPOINT_REQUEST_SCHEMAS[(GLASSNODE_PROVIDER, _glassnode_endpoint)] = {
+        "params": (("a", "s", "u", "i", "f", "timestamp_format", "c")
+                   if _glassnode_endpoint != GLASSNODE_LONG_LIQUIDATION_DOMINANCE_ENDPOINT_ID else
+                   ("a", "s", "u", "i", "f", "timestamp_format")),
+        "dimensions": ("asset", "symbol"),
+        "dimension_param_matches": {"asset": "a", "symbol": "a"},
+    }
+
+_COINGLASS_INTERVALS = {"1m", "1h", "1d"}
+_EXCHANGE_RANGES = {"1h", "4h", "12h", "24h"}
+_MAP_RANGES = {"1d", "7d", "30d", "180d", "365d"}
+_MAX_PAIN_RANGES = _EXCHANGE_RANGES | _MAP_RANGES
+_CRYPTOQUANT_WINDOWS = {"min", "hour", "day"}
+
+
+def _require_string(mapping: Mapping[str, Any], field: str, kind: str) -> str:
+    if field not in mapping:
+        raise ValueError(f"missing_required_{kind}:{field}")
+    value = mapping[field]
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"invalid_request_{kind}:{field}")
+    return value
+
+
+def _require_positive_int(mapping: Mapping[str, Any], field: str, kind: str = "param") -> int:
+    if field not in mapping:
+        raise ValueError(f"missing_required_{kind}:{field}")
+    value = mapping[field]
+    if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
+        raise ValueError(f"invalid_request_{kind}:{field}")
+    return value
+
+
+def _validate_string_keys(mapping: Mapping[Any, Any], kind: str) -> None:
+    if any(not isinstance(key, str) for key in mapping):
+        raise ValueError(f"invalid_request_{kind}:non_string_key")
+
+
+def _parse_cryptoquant_time(value: str, field: str) -> datetime:
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"invalid_request_param:{field}") from exc
+    if parsed.tzinfo is None or parsed.utcoffset() != timezone.utc.utcoffset(parsed):
+        raise ValueError(f"invalid_request_param:{field}")
+    return parsed
+
+
+def validate_request_contract(request: Mapping[str, Any], *, require_dimensions: bool = True,
+                              allow_skipped: bool = False) -> None:
+    """Validate one endpoint request before execution or normalization."""
+    if not isinstance(request, Mapping):
+        raise ValueError("request_must_be_mapping")
+    _validate_string_keys(request, "field")
+    provider = _require_string(request, "provider", "param")
+    endpoint_id = _require_string(request, "endpoint_id", "param")
+    schema = ENDPOINT_REQUEST_SCHEMAS.get((provider, endpoint_id))
+    if schema is None:
+        raise ValueError(f"unsupported_request_endpoint:{provider}:{endpoint_id}")
+    if "path" in request and request["path"] != ENDPOINT_MANIFEST[(provider, endpoint_id)]:
+        raise ValueError("request_path_mismatch")
+    params = request.get("params")
+    dimensions = request.get("dimensions", {})
+    if not isinstance(params, Mapping):
+        raise ValueError("request_params_must_be_mapping")
+    if not isinstance(dimensions, Mapping):
+        raise ValueError("request_dimensions_must_be_mapping")
+    _validate_string_keys(params, "param")
+    _validate_string_keys(dimensions, "dimension")
+    skipped = allow_skipped and (bool(request.get("skip_reason")) or request.get("status") == "skipped")
+    if not skipped:
+        for field in schema["params"]:
+            if field not in params:
+                raise ValueError(f"missing_required_param:{field}")
+    if skipped:
+        for field in ("exchange", "asset"):
+            if field in schema["dimensions"]:
+                _require_string(dimensions, field, "dimension")
+        return
+    if require_dimensions:
+        for field in schema["dimensions"]:
+            _require_string(dimensions, field, "dimension")
+
+    string_params = set(schema["params"]) - {
+        "limit", "start_time", "end_time", "s", "u", "from", "to", "min_liquidation_amount",
+    }
+    for field in string_params:
+        _require_string(params, field, "param")
+    for field in ("limit", "start_time", "end_time", "s", "u"):
+        if field in schema["params"]:
+            _require_positive_int(params, field)
+    if "start_time" in schema["params"] and params["start_time"] > params["end_time"]:
+        raise ValueError("invalid_request_time_range")
+    if "s" in schema["params"] and params["s"] > params["u"]:
+        raise ValueError("invalid_request_time_range")
+    if endpoint_id in {"aggregated_liquidation_history", "pair_liquidation_history"} and params["interval"] not in _COINGLASS_INTERVALS:
+        raise ValueError("invalid_request_param:interval")
+    if endpoint_id == "liquidation_exchange_list" and params["range"] not in _EXCHANGE_RANGES:
+        raise ValueError("invalid_request_param:range")
+    if endpoint_id in {"aggregated_liquidation_map", "pair_liquidation_map"} and params["range"] not in _MAP_RANGES:
+        raise ValueError("invalid_request_param:range")
+    if endpoint_id == "liquidation_max_pain" and params["range"] not in _MAX_PAIN_RANGES:
+        raise ValueError("invalid_request_param:range")
+    if endpoint_id == "liquidation_order_events":
+        try:
+            amount = float(params["min_liquidation_amount"])
+        except (TypeError, ValueError) as exc:
+            raise ValueError("invalid_request_param:min_liquidation_amount") from exc
+        if not math.isfinite(amount) or amount <= 0 or isinstance(params["min_liquidation_amount"], bool):
+            raise ValueError("invalid_request_param:min_liquidation_amount")
+    if endpoint_id == "cryptoquant_liquidations":
+        if params["window"] not in _CRYPTOQUANT_WINDOWS:
+            raise ValueError("invalid_request_param:window")
+        if params["format"] != "json":
+            raise ValueError("invalid_request_param:format")
+        start = _parse_cryptoquant_time(params["from"], "from")
+        end = _parse_cryptoquant_time(params["to"], "to")
+        if start > end:
+            raise ValueError("invalid_request_time_range")
+    if provider == GLASSNODE_PROVIDER:
+        if params["i"] not in _COINGLASS_INTERVALS or params["f"] != "json" or params["timestamp_format"] != "unix":
+            raise ValueError("invalid_request_param:glassnode_format")
+
+    for field in ("exchange", "symbol"):
+        if field in params and field in schema["dimensions"] and dimensions.get(field) != params[field]:
+            raise ValueError(f"request_dimension_mismatch:{field}")
+    for dimension, param in schema.get("dimension_param_matches", {}).items():
+        if dimensions.get(dimension) != params[param]:
+            raise ValueError(f"request_dimension_mismatch:{dimension}")
+    if endpoint_id == "liquidation_order_events" and dimensions.get("asset") != params["symbol"]:
+        raise ValueError("request_dimension_mismatch:asset")
+
+
+def build_canonical_dimensions(*, provider: str, endpoint_id: str, params: Mapping[str, Any],
+                               asset: str) -> dict[str, Any]:
+    schema = ENDPOINT_REQUEST_SCHEMAS[(provider, endpoint_id)]
+    dimensions: dict[str, Any] = {}
+    for field in schema["dimensions"]:
+        if field == "exchange":
+            dimensions[field] = params.get("exchange")
+        elif field == "symbol":
+            dimensions[field] = params.get("symbol", params.get("a", asset))
+        else:
+            dimensions[field] = params.get("a", asset)
+    return dimensions
 
 
 def _request(provider: str, endpoint_id: str, params: Mapping[str, Any], suffix: str = "",
@@ -107,11 +291,18 @@ def build_long_short_liquidations_fetch_plan(
             dimensions = item.get("dimensions", {})
             if not isinstance(dimensions, Mapping):
                 raise ValueError("recovery_dimensions_must_be_mapping")
-            inferred_dimensions = {"exchange": params.get("exchange"), "asset": asset,
-                                   "symbol": params.get("symbol", params.get("a"))}
-            inferred_dimensions.update(dimensions)
-            plan.append(_request(provider, endpoint_id, params, str(item.get("request_id", "recovery")),
-                                 inferred_dimensions))
+            canonical = build_canonical_dimensions(
+                provider=provider, endpoint_id=endpoint_id, params=params, asset=asset,
+            )
+            candidate = _request(provider, endpoint_id, params,
+                                 str(item.get("request_id", "recovery")), canonical)
+            validate_request_contract(candidate)
+            for field, value in dimensions.items():
+                if field in canonical and canonical[field] != value:
+                    raise ValueError(f"request_dimension_mismatch:{field}")
+            candidate["dimensions"].update(deepcopy(dict(dimensions)))
+            validate_request_contract(candidate)
+            plan.append(candidate)
         return plan
 
     pairs = dict(exchange_pairs or {})
@@ -178,7 +369,12 @@ def build_long_short_liquidations_fetch_plan(
     plan.append(_request(COINGLASS_PROVIDER, "liquidation_max_pain", {
         "range": max_pain_range,
     }, max_pain_range, {"exchange": None, "asset": asset, "symbol": asset}))
-    cq_common = {"window": "hour", "from": start, "to": end, "limit": limit, "format": "json"}
+    cq_common = {
+        "window": "hour",
+        "from": datetime.fromtimestamp(start, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "to": datetime.fromtimestamp(end, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "limit": limit, "format": "json",
+    }
     plan.append(_request(CRYPTOQUANT_PROVIDER, "cryptoquant_liquidations", {
         "exchange": "all_exchange", "symbol": "all_symbol", **cq_common,
     }, f"aggregate:{start}:{end}",
@@ -230,16 +426,23 @@ def _event_rows(response: Any) -> list[Any] | None:
 def _execute_event_window(
     *, fetcher: RawFetcher, request: Mapping[str, Any], minimum_event_window_seconds: int,
 ) -> list[dict[str, Any]]:
+    validate_request_contract(request)
     result = execute_raw_request(fetcher=fetcher, request=request)
     rows = _event_rows(result.get("response")) if result["status"] == "ok" else None
     if rows is None or len(rows) < 200:
         return [result]
     params = request["params"]
-    start_ms, end_ms = params["start_time"], params["end_time"]
+    start_ms = _require_positive_int(params, "start_time")
+    end_ms = _require_positive_int(params, "end_time")
+    if start_ms > end_ms:
+        raise ValueError("invalid_request_time_range")
     if end_ms - start_ms <= minimum_event_window_seconds * 1000:
         result["warnings"].append("event_endpoint_record_limit_reached")
         return [result]
     midpoint = (start_ms + end_ms) // 2
+    if midpoint <= start_ms or midpoint >= end_ms:
+        result["warnings"].append("event_endpoint_record_limit_reached")
+        return [result]
     children = []
     for child_start, child_end in ((start_ms, midpoint), (midpoint, end_ms)):
         child = deepcopy(dict(request))
@@ -263,6 +466,7 @@ def extract_long_short_liquidations_raw(
     )
     results: list[dict[str, Any]] = []
     for request in plan:
+        validate_request_contract(request, allow_skipped=True)
         if request["endpoint_id"] == "liquidation_order_events" and not request.get("skip_reason"):
             results.extend(_execute_event_window(
                 fetcher=fetcher, request=request, minimum_event_window_seconds=minimum_event_window_seconds,

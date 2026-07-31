@@ -14,11 +14,12 @@ TIMEFRAME_SECONDS = {"1m": 60, "5m": 300, "15m": 900, "1h": 3600, "4h": 14400, "
 BASE_TIMESTAMP    = 1_699_920_000
 
 
-def test_only_prices_is_registered_in_the_three_stage_pipelines():
-    assert tuple(INPUT_FAMILY_HANDLERS) == ("prices_ohlcv",)
-    assert tuple(PROCESSING_FAMILY_HANDLERS) == ("prices_ohlcv",)
-    assert tuple(CLASSIFICATION_FAMILY_HANDLERS) == ("prices_ohlcv",)
-    assert tuple(VERTICAL_FAMILY_HANDLERS) == ("prices_ohlcv",)
+def test_prices_and_long_short_are_registered_in_all_pipelines():
+    expected = ("prices_ohlcv", "long_short_liquidations", "on_chain_miners", "etf_exchange_flows")
+    assert tuple(INPUT_FAMILY_HANDLERS) == expected
+    assert tuple(PROCESSING_FAMILY_HANDLERS) == expected
+    assert tuple(CLASSIFICATION_FAMILY_HANDLERS) == expected
+    assert tuple(VERTICAL_FAMILY_HANDLERS) == expected
 
 
 class SyntheticPricesFetcher:

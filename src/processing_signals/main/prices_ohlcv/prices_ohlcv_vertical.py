@@ -5,8 +5,7 @@ from datetime import UTC, datetime
 from typing   import Any, Mapping
 
 from processing_signals.classification.classification_pipeline                    import run_classification_pipeline
-from processing_signals.classification.prices_ohlcv.prices_ohlcv_contract_builder import build_prices_screen_contract
-from processing_signals.classification.prices_ohlcv.prices_ohlcv_view_builder     import build_prices_selected_view
+from processing_signals.classification.prices_ohlcv.prices_ohlcv_contract_builder import build_prices_screen_contract, build_prices_selected_view
 from processing_signals.input.input_pipeline                                      import run_input_pipeline
 from processing_signals.input.prices_ohlcv.prices_ohlcv_data_raw_extract          import PricesFetcher
 from processing_signals.processing.processing_pipeline                            import run_processing_pipeline
