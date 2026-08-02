@@ -1,9 +1,9 @@
 """PC4 regressions for safe identities and endpoint-specific provenance."""
 from copy import deepcopy
-import hashlib
 import json
 from pathlib import Path
 
+from canonical_hash_helpers import canonical_text_sha256
 from etf_exchange_flows_processing_helpers import NOW, cloned_input
 from processing_signals.processing.etf_exchange_flows import process_etf_exchange_flows
 
@@ -127,5 +127,5 @@ def test_etf_pc4_19_pc4_20_input_hashes_and_no_registration():
         "etf_exchange_flows_data_raw_preprocessing.py": "8353C2AE7227EDBB23D3F70B00363975FC6B44F6639AAFE47F5743E3DE1953BE",
     }
     folder = root / "src/processing_signals/input/etf_exchange_flows"
-    actual = {name: hashlib.sha256((folder / name).read_bytes()).hexdigest().upper() for name in expected}
+    actual = {name: canonical_text_sha256(folder / name) for name in expected}
     assert actual == expected

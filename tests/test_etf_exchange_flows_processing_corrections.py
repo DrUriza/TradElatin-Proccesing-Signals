@@ -2,12 +2,12 @@
 from __future__ import annotations
 
 from copy import deepcopy
-import hashlib
 import json
 from pathlib import Path
 
 import pytest
 
+from canonical_hash_helpers import canonical_text_sha256
 from etf_exchange_flows_processing_helpers import NOW, cloned_input
 from processing_signals.processing.etf_exchange_flows import (
     build_etf_exchange_flows_features,
@@ -207,7 +207,7 @@ def test_etf_pc32_input_hashes_unchanged():
         "etf_exchange_flows_data_raw_preprocessing.py": "8353C2AE7227EDBB23D3F70B00363975FC6B44F6639AAFE47F5743E3DE1953BE",
     }
     folder = root / "src/processing_signals/input/etf_exchange_flows"
-    assert {name: hashlib.sha256((folder / name).read_bytes()).hexdigest().upper() for name in expected} == expected
+    assert {name: canonical_text_sha256(folder / name) for name in expected} == expected
 
 
 def test_etf_pc33_pc36_boundaries_and_regression_contract():

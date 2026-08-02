@@ -1,11 +1,11 @@
 """Registration and connection tests for the frozen ETF exchange-flow vertical."""
 from copy import deepcopy
-import hashlib
 import json
 from pathlib import Path
 
 import pytest
 
+from canonical_hash_helpers import canonical_text_sha256
 from etf_exchange_flows_helpers import Fetcher, NOW
 from processing_signals.classification.classification_pipeline import (
     CLASSIFICATION_FAMILY_HANDLERS,
@@ -185,5 +185,5 @@ def test_etf_pipeline_16_frozen_hashes_are_intact():
         "src/processing_signals/classification/etf_exchange_flows/etf_exchange_flows_classifier.py": "C260DB1E6D3CCC9E0D9FD0DB2C26AC6DD0F6BA3DBDDEF64F9E00C588CEB0CE7C",
         "src/processing_signals/classification/etf_exchange_flows/etf_exchange_flows_contract_builder.py": "8F960324CF767C64DAA5356E26ED15375156414B08A4157AF32EF08692F09A31",
     }
-    actual = {path: hashlib.sha256((root / path).read_bytes()).hexdigest().upper() for path in expected}
+    actual = {path: canonical_text_sha256(root / path) for path in expected}
     assert actual == expected
