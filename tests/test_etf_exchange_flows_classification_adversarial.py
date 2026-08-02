@@ -1,11 +1,11 @@
 """Adversarial boundaries for ETF exchange-flow Classification."""
 from copy import deepcopy
-import hashlib
 import math
 from pathlib import Path
 
 import pytest
 
+from canonical_hash_helpers import canonical_text_sha256
 from etf_exchange_flows_classification_helpers import NOW, cloned_processing
 from processing_signals.classification.etf_exchange_flows import classify_etf_exchange_flows
 
@@ -59,7 +59,7 @@ def test_no_visual_contract_pipeline_or_frozen_hash_changes():
         "src/processing_signals/processing/etf_exchange_flows/etf_exchange_flows_feature_builder.py": "832FD3A63D7A0C0A3E56474948587B468225ECE06E250869E0C2B802334BCD72",
         "src/processing_signals/processing/etf_exchange_flows/etf_exchange_flows_processor.py": "D8590C91815936074F837041DC8D354646C854EA9EDB754863DCAEAF850B014E",
     }
-    actual = {path: hashlib.sha256((root / path).read_bytes()).hexdigest().upper() for path in expected}
+    actual = {path: canonical_text_sha256(root / path) for path in expected}
     assert actual == expected
 
 

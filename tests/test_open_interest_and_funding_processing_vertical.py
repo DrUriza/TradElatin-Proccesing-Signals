@@ -1,5 +1,4 @@
 import copy
-import hashlib
 import json
 import math
 from pathlib import Path
@@ -8,6 +7,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
+from canonical_hash_helpers import canonical_text_sha256
 from processing_signals.processing.open_interest_and_funding.open_interest_and_funding_feature_builder import (
     OpenInterestAndFundingFeatureBuilder,
     build_open_interest_and_funding_features,
@@ -534,6 +534,10 @@ def test_strict_json_has_no_numpy_pandas_nonfinite_or_negative_zero():
     walk(output)
 
 
-def test_frozen_input_hashes_are_unchanged():
+def test_frozen_input_hashes_are_unchanged(tmp_path):
     for path, expected in FROZEN_HASHES.items():
-        assert hashlib.sha256(Path(path).read_bytes()).hexdigest().upper() == expected
+        assert canonical_text_sha256(Path(path)) == expected
+    lf, crlf = tmp_path / "lf.txt", tmp_path / "crlf.txt"
+    lf.write_bytes(b"first\nsecond\n")
+    crlf.write_bytes(b"first\r\nsecond\r\n")
+    assert canonical_text_sha256(lf) == canonical_text_sha256(crlf)

@@ -1,11 +1,11 @@
 """Causal timestamp corrections for ETF exchange-flow Classification."""
 from copy import deepcopy
 from decimal import Decimal
-import hashlib
 import json
 import math
 from pathlib import Path
 
+from canonical_hash_helpers import canonical_text_sha256
 from etf_exchange_flows_classification_helpers import NOW, PARAMETERS, cloned_processing, feature
 from processing_signals.classification.etf_exchange_flows import (
     classify_etf_exchange_flows,
@@ -161,7 +161,7 @@ def test_etf_cc24_cc25_frozen_hashes_and_boundaries():
         "src/processing_signals/processing/etf_exchange_flows/etf_exchange_flows_feature_builder.py": "832FD3A63D7A0C0A3E56474948587B468225ECE06E250869E0C2B802334BCD72",
         "src/processing_signals/processing/etf_exchange_flows/etf_exchange_flows_processor.py": "D8590C91815936074F837041DC8D354646C854EA9EDB754863DCAEAF850B014E",
     }
-    assert {path: hashlib.sha256((root / path).read_bytes()).hexdigest().upper() for path in expected} == expected
+    assert {path: canonical_text_sha256(root / path) for path in expected} == expected
 
 
 def test_etf_cc26_cc31_all_incompatible_timestamp_types_are_rejected():
@@ -215,4 +215,4 @@ def test_etf_cc39_cc40_strict_json_and_frozen_hashes_with_incompatible_type():
         "src/processing_signals/processing/etf_exchange_flows/etf_exchange_flows_feature_builder.py": "832FD3A63D7A0C0A3E56474948587B468225ECE06E250869E0C2B802334BCD72",
         "src/processing_signals/processing/etf_exchange_flows/etf_exchange_flows_processor.py": "D8590C91815936074F837041DC8D354646C854EA9EDB754863DCAEAF850B014E",
     }
-    assert {path: hashlib.sha256((root / path).read_bytes()).hexdigest().upper() for path in expected} == expected
+    assert {path: canonical_text_sha256(root / path) for path in expected} == expected
