@@ -11,7 +11,10 @@ from typing import Any
 
 FAMILY = "open_interest_and_funding"
 VERSION = "0.1"
+SCREEN_SCHEMA = "trad_elatin.open_interest_and_funding.screen.v1"
+SCREEN_VERSION = "1.0.0"
 TIMEFRAMES = ("1m", "5m", "15m", "1h", "4h", "1d")
+TIMEFRAME_SECONDS = {"1m": 60, "5m": 300, "15m": 900, "1h": 3_600, "4h": 14_400, "1d": 86_400}
 STATUSES = ("available", "partial", "unavailable", "invalid")
 CONTEXT_FIELDS = (
     "asset", "exchange_scope", "primary_provider", "confirmation_providers", "data_mode", "is_demo",
@@ -155,7 +158,7 @@ def _validate_bundle(bundle: Any, selected_timeframe: Any) -> tuple[Mapping[str,
         raise ValueError("contract_builder_bundle_mismatch:context")
     if "requested_at" in p_context:
         requested_at = p_context["requested_at"]
-        if type(requested_at) is not int or requested_at < 0:
+        if type(requested_at) is not str or not requested_at.strip():
             raise ValueError("contract_builder_bundle_mismatch:context")
     for field in ("include_snapshots", "include_confirmations"):
         if field in p_context and type(p_context[field]) is not bool:
@@ -629,30 +632,98 @@ def _validate_source_paths(value: Any, path: str = "root") -> None:
             _validate_source_paths(item, f"{path}[{index}]")
 
 
+def _title(identifier: str) -> str:
+    return identifier.replace("_", " ").upper()
+
+
+def _visual_kpis(items: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+    result = {}
+    for item in items:
+        identifier = str(item["id"])
+        result[identifier] = {
+            "kpi_id": identifier, "title": _title(identifier), "status": item["status"],
+            "reason": item["reason"], "value": item["value"], "secondary_value": item["secondary_value"],
+            "unit": item["unit"], "secondary_unit": item["secondary_unit"], "timestamp": item["timestamp"],
+            "timeframe": item["timeframe"], "classification": deepcopy(item["classification"]),
+            "source_paths": deepcopy(item["source_paths"]),
+        }
+    return result
+
+
+def _chart_current(chart: Mapping[str, Any]) -> dict[str, Any]:
+    values, timestamps = {}, []
+    for series in chart["series"]:
+        points = series.get("points", [])
+        if points:
+            point = points[-1]
+            timestamp = point.get("timestamp")
+            if type(timestamp) is int:
+                timestamps.append(timestamp)
+            values[series["id"]] = {key: deepcopy(value) for key, value in point.items() if key != "timestamp"}
+    timestamp = max(timestamps) if timestamps else None
+    return {"status": chart["status"], "timestamp": timestamp, "values": values,
+            "reason": chart["reason"]}
+
+
+def _visual_charts(processing: Mapping[str, Any], classification: Mapping[str, Any],
+                   selected_timeframe: str) -> dict[str, Any]:
+    by_timeframe = {timeframe: _build_charts(processing, classification, timeframe) for timeframe in TIMEFRAMES}
+    result = {}
+    for identifier in CHART_IDS:
+        selected = by_timeframe[selected_timeframe][identifier]
+        ranges = {}
+        for timeframe in TIMEFRAMES:
+            chart = by_timeframe[timeframe][identifier]
+            ranges[timeframe] = {
+                "timeframe": timeframe, "seconds": TIMEFRAME_SECONDS[timeframe], "status": chart["status"],
+                "reason": chart["reason"], "series": deepcopy(chart["series"]),
+                "overlays": deepcopy(chart["overlays"]), "classification": deepcopy(chart["classification"]),
+            }
+        result[identifier] = {
+            "chart_id": identifier, "title": _title(identifier),
+            "subtitle": f"{_title(identifier)} BY TIMEFRAME", "chart_type": selected["chart_type"],
+            "unit": selected["axes"]["y"]["left"]["unit"], "provider": "Coinglass",
+            "status": selected["status"], "reason": selected["reason"], "selected_timeframe": selected_timeframe,
+            "current": _chart_current(selected), "series_by_timeframe": ranges,
+            "axes": deepcopy(selected["axes"]), "source_paths": deepcopy(selected["source_paths"]),
+        }
+    return result
+
+
 def build_open_interest_and_funding_contract(bundle: Mapping[str, Any], *, selected_timeframe: str = "1h") -> dict[str, Any]:
-    """Build the deterministic v0.1 screen contract from the exact frozen vertical bundle."""
+    """Build the complete visual screen contract from the canonical vertical bundle."""
     before = deepcopy(bundle)
     processing, classification = _validate_bundle(bundle, selected_timeframe)
     context = _json_copy({field: processing["context"][field] for field in CONTEXT_FIELDS}, "context")
     kpis = _build_kpis(processing, classification, selected_timeframe)
-    charts = _build_charts(processing, classification, selected_timeframe)
+    selected_charts = _build_charts(processing, classification, selected_timeframe)
     table = _table(processing, classification, selected_timeframe)
     widgets = _widgets(classification, selected_timeframe)
     drilldowns = _drilldowns(classification)
     events = _events(classification, selected_timeframe)
-    availability = _availability(kpis, charts, table, widgets, drilldowns, events)
-    output = {"family": FAMILY, "stage": "screen_contract", "version": VERSION,
-        "mode": processing["mode"], "data_mode": context["data_mode"], "is_demo": context["is_demo"],
-        "data_as_of": context["reference_timestamp"], "context": context,
-        "navigation": {"screen_id": FAMILY, "route_key": f"screens.{FAMILY}",
-            "title_key": f"screens.{FAMILY}.title", "legend_key": f"screens.{FAMILY}.legend"},
-        "header": {"title_key": f"screens.{FAMILY}.title", "subtitle_key": f"screens.{FAMILY}.subtitle",
-            "asset": context["asset"], "exchange_scope": context["exchange_scope"], "demo_badge_key": "common.demo"},
-        "timeframe_selector": {"supported_timeframes": list(TIMEFRAMES), "default_timeframe": "1h",
-                               "selected_timeframe": selected_timeframe},
-        "kpis": kpis, "charts": charts, "tables": {"oi_technical_indicators": table}, "widgets": widgets,
-        "drilldowns": drilldowns, "events": events, "availability": availability, "quality": {}}
+    availability = _availability(kpis, selected_charts, table, widgets, drilldowns, events)
+    output_context = {**context, "data_as_of": context["reference_timestamp"],
+                      "presentation_default_timeframe": selected_timeframe}
+    output = {
+        "schema": {"id": SCREEN_SCHEMA, "version": SCREEN_VERSION},
+        "screen": {"id": FAMILY, "route": "/open-interest-and-funding",
+                   "title": "OPEN INTEREST & FUNDING", "family": FAMILY},
+        "stage": "screen_contract", "mode": processing["mode"], "context": output_context,
+        "timeframe_selector": {
+            "options": [{"id": timeframe, "seconds": TIMEFRAME_SECONDS[timeframe]} for timeframe in TIMEFRAMES],
+            "default": "1h", "selected": selected_timeframe,
+        },
+        "operational_status": {
+            "data_mode": context["data_mode"], "is_demo": context["is_demo"],
+            "quality_status": None, "connection_status": "not_reported", "cache_status": "not_reported",
+            "generated_at": context["generated_at"], "data_as_of": context["reference_timestamp"],
+        },
+        "kpis": _visual_kpis(kpis), "charts": _visual_charts(processing, classification, selected_timeframe),
+        "tables": {"oi_technical_indicators": table}, "widgets": widgets, "drilldowns": drilldowns,
+        "events": events, "availability": availability, "quality": {},
+    }
     output["quality"] = _quality(processing, classification, availability)
+    output["operational_status"]["quality_status"] = output["quality"]["status"]
     output = _json_copy(output, "screen_contract")
     _validate_source_paths(output)
     json.dumps(output, ensure_ascii=False, allow_nan=False, sort_keys=False)

@@ -30,9 +30,12 @@ VERSION = "0.1"
 MODES = {"bootstrap", "incremental", "recovery"}
 TIMEFRAMES = {"1m", "5m", "15m", "1h", "4h", "1d"}
 SCREEN_ROOT = (
-    "family", "stage", "version", "mode", "data_mode", "is_demo", "data_as_of", "context",
-    "navigation", "header", "timeframe_selector", "kpis", "charts", "tables", "widgets",
-    "drilldowns", "events", "availability", "quality",
+    "schema", "screen", "stage", "mode", "context", "timeframe_selector", "operational_status",
+    "kpis", "charts", "tables", "widgets", "drilldowns", "events", "availability", "quality",
+)
+VISUAL_CONTEXT_FIELDS = (
+    "asset", "exchange_scope", "primary_provider", "confirmation_providers", "data_mode", "is_demo",
+    "reference_timestamp", "execution_timestamp", "generated_at",
 )
 
 
@@ -106,11 +109,21 @@ def _validate_screen(value: Any, classification: Mapping[str, Any]) -> dict[str,
         raise ValueError("vertical_output_invalid:screen")
     if value.get("stage") != "screen_contract":
         raise ValueError("vertical_stage_mismatch:screen")
-    if value.get("family") != FAMILY or value.get("version") != VERSION or tuple(value) != SCREEN_ROOT:
+    schema, screen_identity = value.get("schema"), value.get("screen")
+    if (not isinstance(schema, Mapping) or schema.get("id") != "trad_elatin.open_interest_and_funding.screen.v1"
+            or schema.get("version") != "1.0.0" or not isinstance(screen_identity, Mapping)
+            or screen_identity.get("family") != FAMILY or screen_identity.get("id") != FAMILY
+            or tuple(value) != SCREEN_ROOT):
         raise ValueError("vertical_output_invalid:screen")
     if value.get("mode") != classification.get("mode"):
         raise ValueError("vertical_mode_mismatch:screen")
-    if not isinstance(value.get("context"), Mapping) or value.get("context") != classification.get("context"):
+    classification_context = classification.get("context")
+    if not isinstance(classification_context, Mapping):
+        raise ValueError("vertical_context_mismatch:screen")
+    visual_context = {field: classification_context.get(field) for field in VISUAL_CONTEXT_FIELDS}
+    visual_context.update(data_as_of=classification_context.get("reference_timestamp"),
+                          presentation_default_timeframe=value.get("timeframe_selector", {}).get("selected"))
+    if not isinstance(value.get("context"), Mapping) or value.get("context") != visual_context:
         raise ValueError("vertical_context_mismatch:screen")
     result = _json_copy(value, "screen")
     _strict_json(result, "screen")

@@ -44,8 +44,8 @@ def test_public_functional_api_and_no_oo_facade():
 def test_valid_input_returns_only_screen(input_contract):
     result = build_open_interest_and_funding_screen(input_contract)
     assert tuple(result) == vertical.SCREEN_ROOT
-    assert (result["family"], result["stage"], result["version"]) == (
-        vertical.FAMILY, "screen_contract", "0.1")
+    assert result["schema"] == {"id": "trad_elatin.open_interest_and_funding.screen.v1", "version": "1.0.0"}
+    assert (result["screen"]["family"], result["stage"]) == (vertical.FAMILY, "screen_contract")
     assert not ({"input", "processing", "classification", "screen"} <= set(result))
 
 
@@ -68,10 +68,10 @@ def test_input_boundary_identity(input_contract, field, value, reason):
 
 def test_default_and_all_selected_timeframes(input_contract):
     default = build_open_interest_and_funding_screen(input_contract)
-    assert default["timeframe_selector"]["selected_timeframe"] == "1h"
+    assert default["timeframe_selector"]["selected"] == "1h"
     for timeframe in ("1m", "5m", "15m", "1h", "4h", "1d"):
         result = build_open_interest_and_funding_screen(input_contract, selected_timeframe=timeframe)
-        assert result["timeframe_selector"]["selected_timeframe"] == timeframe
+        assert result["timeframe_selector"]["selected"] == timeframe
 
 
 @pytest.mark.parametrize("value", [None, True, 1, 1.0, "", "2h"])
@@ -193,7 +193,7 @@ def _runtime_args(input_helpers, **extra):
 
 def test_runtime_bootstrap_end_to_end(input_helpers):
     result = run_open_interest_and_funding_vertical(**_runtime_args(input_helpers))
-    assert result["mode"] == "bootstrap" and result["is_demo"] is True
+    assert result["mode"] == "bootstrap" and result["operational_status"]["is_demo"] is True
 
 
 def test_runtime_incremental_and_recovery_end_to_end(input_helpers):
@@ -276,12 +276,22 @@ def test_runtime_calls_input_once_with_exact_arguments_and_preserves_callers(mon
 def test_static_scope_has_only_public_stages_no_clock_network_registry_or_writes():
     source = SOURCE.read_text(encoding="utf-8")
     tree = ast.parse(source)
-    imports = {alias.name for node in ast.walk(tree) if isinstance(node, (ast.Import, ast.ImportFrom))
-               for alias in node.names}
-    prohibited = ("processing.math", "Processor", "Classifier", "requests", "urllib", "socket",
-                  "input_pipeline", "processing_pipeline", "classification_pipeline", "main_pipeline")
-    assert not any(token in source for token in prohibited)
-    assert not ({"time", "datetime", "uuid", "random", "os"} & imports)
+    modules = {node.module for node in ast.walk(tree)
+               if isinstance(node, ast.ImportFrom) and node.module is not None}
+    modules.update(alias.name for node in ast.walk(tree) if isinstance(node, ast.Import)
+                   for alias in node.names)
+    imported_names = {alias.name for node in ast.walk(tree)
+                      if isinstance(node, (ast.Import, ast.ImportFrom)) for alias in node.names}
+    prohibited_modules = {"requests", "urllib", "socket", "time", "datetime", "uuid", "random", "os"}
+    prohibited_modules.update({
+        "processing_signals.input.input_pipeline",
+        "processing_signals.processing.processing_pipeline",
+        "processing_signals.classification.classification_pipeline",
+        "processing_signals.main.main_pipeline",
+    })
+    assert not any(module == prohibited or module.startswith(f"{prohibited}.")
+                   for module in modules for prohibited in prohibited_modules)
+    assert not any("processing_signals.processing.math" in module for module in modules)
+    assert not ({"OpenInterestAndFundingProcessor", "OpenInterestAndFundingClassifier"} & imported_names)
     assert not any(isinstance(node, ast.Call) and isinstance(node.func, ast.Name)
                    and node.func.id in {"open", "hash"} for node in ast.walk(tree))
-

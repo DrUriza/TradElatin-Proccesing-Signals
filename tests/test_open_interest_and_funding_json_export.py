@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import copy
 import json
-import os
 from pathlib import Path
 import runpy
 
@@ -90,13 +89,13 @@ def test_invalid_policy_and_ok_partial_export(screen):
             screen_contract=candidate, output_path=f"runtime/contracts/{status}.json").exists()
 
 
-def test_default_path_utf8_lf_compact_json_and_no_mutation(screen):
+def test_default_path_utf8_lf_pretty_json_and_no_mutation(screen):
     candidate = copy.deepcopy(screen)
     before = copy.deepcopy(candidate)
     result = write_open_interest_and_funding_screen_json(screen_contract=candidate)
     assert result == DEFAULT_OPEN_INTEREST_AND_FUNDING_OUTPUT_PATH
     raw = result.read_bytes()
-    assert raw.endswith(b"\n") and b": " not in raw
+    assert raw.endswith(b"\n") and b'  "schema": {' in raw and b": " in raw
     assert json.loads(raw.decode("utf-8")) == screen and candidate == before
 
 
@@ -195,4 +194,3 @@ def test_existing_exporter_apis_remain_present():
                  "write_on_chain_miners_screen_json", "export_on_chain_miners_screen_json",
                  "write_etf_exchange_flows_screen_json", "export_etf_exchange_flows_screen_json"):
         assert callable(getattr(exporter, name))
-

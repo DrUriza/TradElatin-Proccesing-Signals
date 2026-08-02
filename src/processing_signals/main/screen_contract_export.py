@@ -12,9 +12,8 @@ DEFAULT_OPEN_INTEREST_AND_FUNDING_OUTPUT_PATH = Path(
     "runtime/contracts/open_interest_and_funding_screen.json"
 )
 OPEN_INTEREST_AND_FUNDING_SCREEN_ROOT = (
-    "family", "stage", "version", "mode", "data_mode", "is_demo", "data_as_of", "context",
-    "navigation", "header", "timeframe_selector", "kpis", "charts", "tables", "widgets",
-    "drilldowns", "events", "availability", "quality",
+    "schema", "screen", "stage", "mode", "context", "timeframe_selector", "operational_status",
+    "kpis", "charts", "tables", "widgets", "drilldowns", "events", "availability", "quality",
 )
 
 
@@ -66,10 +65,14 @@ def write_open_interest_and_funding_screen_json(
         raise ValueError("vertical_export_invalid:screen")
     if type(allow_invalid) is not bool:
         raise ValueError("vertical_export_invalid:allow_invalid")
-    quality = screen_contract.get("quality")
-    if (screen_contract.get("family") != "open_interest_and_funding"
+    quality, schema, screen = (screen_contract.get("quality"), screen_contract.get("schema"),
+                               screen_contract.get("screen"))
+    if (not isinstance(schema, Mapping)
+            or schema.get("id") != "trad_elatin.open_interest_and_funding.screen.v1"
+            or schema.get("version") != "1.0.0"
+            or not isinstance(screen, Mapping) or screen.get("id") != "open_interest_and_funding"
+            or screen.get("family") != "open_interest_and_funding"
             or screen_contract.get("stage") != "screen_contract"
-            or screen_contract.get("version") != "0.1"
             or tuple(screen_contract) != OPEN_INTEREST_AND_FUNDING_SCREEN_ROOT
             or not isinstance(quality, Mapping)
             or quality.get("status") not in {"ok", "partial", "invalid"}):
@@ -79,7 +82,7 @@ def write_open_interest_and_funding_screen_json(
     try:
         _validate_open_interest_and_funding_json(screen_contract)
         serialized = json.dumps(screen_contract, ensure_ascii=False, allow_nan=False,
-                                sort_keys=False, separators=(",", ":")) + "\n"
+                                sort_keys=False, indent=2) + "\n"
     except (TypeError, ValueError) as exc:
         if str(exc).startswith("vertical_export_invalid:"):
             raise
