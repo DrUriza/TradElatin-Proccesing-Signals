@@ -11,7 +11,7 @@ from processing_signals.input.cvd_volume_orderflow.cvd_volume_orderflow_data_raw
     build_glassnode_metric_params, required_base_records,
 )
 from processing_signals.input.cvd_volume_orderflow.cvd_volume_orderflow_data_raw_preprocessing import (
-    detect_internal_gaps, merge_paginated_records, normalize_coinglass_cvd_record, normalize_footprint_snapshot,
+    _primary_payload, detect_internal_gaps, merge_paginated_records, normalize_coinglass_cvd_record, normalize_footprint_snapshot,
     run_cvd_volume_orderflow_input, upsert_records_by_timestamp,
 )
 
@@ -91,6 +91,7 @@ def test_raw_deep_copies_response_and_uses_one_deterministic_clock_value():
 def test_bootstrap_paginates_15m_beyond_4500_and_collects_24192():
     raw = CvdVolumeOrderflowRawExtractor(fetcher, clock=lambda: REFERENCE).run(mode="bootstrap", reference_timestamp=REFERENCE,
         include_footprint=False, include_cryptoquant_confirmation=False, include_glassnode_confirmation=False)
+    assert len(raw["requests"]) == 14
     pages = [item for item in raw["requests"] if item["logical_request_id"] == "coinglass:spot:aggregated_cvd:15m"]
     merged, metadata, invalid = merge_paginated_records(pages)
     assert len(pages) == 6
@@ -156,8 +157,28 @@ def test_upsert_replaces_timestamp_preserves_history_and_does_not_mutate():
 
 def test_gap_detection_does_not_fill_records():
     records = [{"timestamp": 60}, {"timestamp": 180}]
-    assert detect_internal_gaps(records, 60)[0]["missing_records"] == 1
+    gap = detect_internal_gaps(records, 60)[0]
+    assert (gap["missing_records"], gap["first_missing_timestamp"], gap["last_missing_timestamp"]) == (1, 120, 120)
+    irregular = detect_internal_gaps([{"timestamp": 0}, {"timestamp": 121}], 60)[0]
+    assert (irregular["missing_records"], irregular["first_missing_timestamp"], irregular["last_missing_timestamp"]) == (2, 60, 120)
     assert len(records) == 2
+
+
+def test_incomplete_pagination_and_invalid_envelope_have_exact_statuses():
+    short = [{"page_index": 1, "status": "ok", "response": {"code": "0", "data": [cvd_row(1_700_000_000)]},
+        "pagination_stop_reason": "short_page"}]
+    assert merge_paginated_records(short, records_required=2)[1]["pagination_complete"] is False
+    invalid = [{"page_index": 1, "status": "ok", "response": {"code": "9", "data": []},
+        "pagination_stop_reason": "empty_page"}]
+    payload = _primary_payload(invalid, None, "1m", 1)
+    assert (payload["status"], payload["reason"]) == ("invalid", "invalid_structure")
+
+
+def test_incoming_duplicate_does_not_claim_historical_replacement():
+    records, metadata = upsert_records_by_timestamp([], [{"timestamp": 1, "value": 1}, {"timestamp": 1, "value": 2}])
+    assert records == [{"timestamp": 1, "value": 2}]
+    assert metadata == {"records_before": 0, "records_incoming": 2, "records_after": 1,
+        "duplicates_incoming": 1, "timestamps_replaced": []}
 
 
 def test_bootstrap_shape_readiness_quality_and_no_downstream_fields():

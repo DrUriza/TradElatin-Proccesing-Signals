@@ -137,6 +137,7 @@ def upsert_records_by_timestamp(existing: Sequence[Mapping[str, Any]], incoming:
     old = copy.deepcopy(list(existing))
     new = copy.deepcopy(list(incoming))
     records = {row["timestamp"]: row for row in old if isinstance(row, Mapping) and type(row.get("timestamp")) is int}
+    existing_timestamps = set(records)
     incoming_seen, duplicates, replaced = set(), 0, []
     for row in new:
         if not isinstance(row, Mapping) or type(row.get("timestamp")) is not int:
@@ -144,7 +145,7 @@ def upsert_records_by_timestamp(existing: Sequence[Mapping[str, Any]], incoming:
         stamp = row["timestamp"]
         duplicates += stamp in incoming_seen
         incoming_seen.add(stamp)
-        if stamp in records and stamp not in replaced:
+        if stamp in existing_timestamps and stamp not in replaced:
             replaced.append(stamp)
         records[stamp] = copy.deepcopy(dict(row))
     output = [records[key] for key in sorted(records)]
@@ -157,10 +158,13 @@ def detect_internal_gaps(records: Sequence[Mapping[str, Any]], expected_interval
     for previous, following in zip(records, records[1:]):
         difference = following["timestamp"] - previous["timestamp"]
         if difference > expected_interval_seconds:
+            missing_records = (difference - 1) // expected_interval_seconds
+            first_missing = previous["timestamp"] + expected_interval_seconds
+            last_missing = previous["timestamp"] + missing_records * expected_interval_seconds
             gaps.append({"previous_timestamp": previous["timestamp"], "next_timestamp": following["timestamp"],
-                "expected_interval_seconds": expected_interval_seconds, "missing_records": max(0, difference // expected_interval_seconds - 1),
-                "start_timestamp": previous["timestamp"] + expected_interval_seconds,
-                "end_timestamp": following["timestamp"] - expected_interval_seconds})
+                "expected_interval_seconds": expected_interval_seconds, "missing_records": missing_records,
+                "first_missing_timestamp": first_missing, "last_missing_timestamp": last_missing,
+                "start_timestamp": first_missing, "end_timestamp": last_missing})
     return gaps
 
 
@@ -174,7 +178,8 @@ def _normalize_rows(rows: Sequence[Any], normalizer: Any) -> tuple[list[dict[str
     return valid, invalid
 
 
-def merge_paginated_records(requests: Sequence[Mapping[str, Any]], *, dataset: str = "aggregated_cvd") -> tuple[list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
+def merge_paginated_records(requests: Sequence[Mapping[str, Any]], *, dataset: str = "aggregated_cvd",
+                            records_required: int | None = None) -> tuple[list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
     incoming, invalid, raw_count, succeeded, failed = [], [], 0, 0, 0
     signatures, repeated = set(), False
     stop_reasons = []
@@ -192,7 +197,7 @@ def merge_paginated_records(requests: Sequence[Mapping[str, Any]], *, dataset: s
             continue
         succeeded += 1
         raw_count += len(rows)
-        signature = tuple(normalize_timestamp(row.get("time")) for row in rows if isinstance(row, Mapping) and "time" in row) if dataset == "aggregated_cvd" else repr(rows)
+        signature = tuple(sorted(normalize_timestamp(row.get("time")) for row in rows if isinstance(row, Mapping) and "time" in row)) if dataset == "aggregated_cvd" else repr(rows)
         if signature in signatures and signature:
             repeated = True
         signatures.add(signature)
@@ -202,9 +207,10 @@ def merge_paginated_records(requests: Sequence[Mapping[str, Any]], *, dataset: s
     unique = {row["timestamp"]: row for row in incoming}
     records = [unique[key] for key in sorted(unique)]
     stop = next((item for item in reversed(stop_reasons) if item), None) or ("repeated_page_signature" if repeated else "single_page")
+    coverage_complete = records_required is None or len(records) >= records_required
     metadata = {"pages_requested": len(requests), "pages_succeeded": succeeded, "pages_failed": failed, "records_raw": raw_count,
         "records_unique": len(records), "duplicates_removed": len(incoming) - len(records),
-        "pagination_complete": failed == 0 and not repeated and stop not in {"max_pages_reached", "pagination_cursor_not_advancing", "page_error"},
+        "pagination_complete": coverage_complete and failed == 0 and not repeated and stop not in {"max_pages_reached", "pagination_cursor_not_advancing", "page_error"},
         "pagination_stop_reason": "repeated_page_signature" if repeated else stop}
     return records, metadata, invalid
 
@@ -253,11 +259,12 @@ def _status(*, structural: bool, records: Sequence[Any], failed: bool, invalid: 
 
 def _primary_payload(pages: Sequence[Mapping[str, Any]], existing: Mapping[str, Any] | None, timeframe: str,
                      required: int) -> dict[str, Any]:
-    incoming, pagination, invalid = merge_paginated_records(pages)
+    incoming, pagination, invalid = merge_paginated_records(pages, records_required=required)
     records, upsert = upsert_records_by_timestamp(existing.get("records", []) if isinstance(existing, Mapping) else [], incoming)
     gaps = detect_internal_gaps(records, TIMEFRAME_SECONDS[timeframe])
     failed = pagination["pages_failed"] > 0
-    status, reason = _status(structural=False, records=records, failed=failed, invalid=invalid, gaps=gaps, insufficient=len(records) < required)
+    structural = any(item.get("reason") == "invalid_coinglass_envelope" for item in invalid) or bool(invalid and not incoming and not failed)
+    status, reason = _status(structural=structural, records=records, failed=failed, invalid=invalid, gaps=gaps, insufficient=len(records) < required)
     earliest_required = records[-1]["timestamp"] - (required - 1) * TIMEFRAME_SECONDS[timeframe] if records else None
     return {"status": status, "reason": reason, "records": records, "incoming_records": incoming, "invalid_records": invalid,
         "records_required": required, "records_available": len(records), "missing_records": max(0, required - len(records)),
@@ -378,8 +385,9 @@ class CvdVolumeOrderflowInputPreprocessor:
     def preprocess_glassnode(self, requests: Sequence[Mapping[str, Any]], *, existing: Mapping[str, Any] | None, dataset: str, enabled: bool) -> dict[str, Any]:
         return _optional_payload(requests, existing, "glassnode", dataset, enabled)
 
-    def merge_paginated_records(self, requests: Sequence[Mapping[str, Any]], *, dataset: str = "aggregated_cvd") -> tuple[list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
-        return merge_paginated_records(requests, dataset=dataset)
+    def merge_paginated_records(self, requests: Sequence[Mapping[str, Any]], *, dataset: str = "aggregated_cvd",
+                                records_required: int | None = None) -> tuple[list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
+        return merge_paginated_records(requests, dataset=dataset, records_required=records_required)
 
     def evaluate_readiness(self, markets: Mapping[str, Any], target_display_records: int, warmup_records: int) -> dict[str, Any]:
         return evaluate_readiness(markets, target_display_records, warmup_records)
