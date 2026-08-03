@@ -124,9 +124,15 @@ class CvdVolumeOrderflowClassifier:
                     raise ValueError("invalid_current")
                 if source["status"] == "unavailable" and current is not None:
                     raise ValueError("unavailable_timeframe_has_current")
+                if current is not None and (type(current.get("timestamp")) is not int or current["timestamp"] < 0):
+                    raise ValueError("invalid_current_timestamp")
             for window in SUMMARY_WINDOWS:
                 if not isinstance(summaries[window], Mapping) or summaries[window].get("status") not in VALID_AVAILABILITY:
                     raise ValueError("invalid_summary")
+                for field in ("first_timestamp", "last_timestamp"):
+                    value = summaries[window].get(field)
+                    if value is not None and (type(value) is not int or value < 0):
+                        raise ValueError("invalid_summary_timestamp")
 
     def classify_delta(self, value: Any, status: str, reason: str | None, path: str) -> dict[str, Any]:
         if value is None or status in {"unavailable", "invalid"}:
@@ -171,6 +177,8 @@ class CvdVolumeOrderflowClassifier:
         if not isinstance(ohlc, Mapping):
             raise ValueError("invalid_cvd_ohlc")
         open_value, close_value = _finite(ohlc.get("open"), "cvd_open"), _finite(ohlc.get("close"), "cvd_close")
+        _finite(ohlc.get("high"), "cvd_high")
+        _finite(ohlc.get("low"), "cvd_low")
         state = "falling" if close_value < open_value else ("rising" if close_value > open_value else "flat")
         return _atom(state, {"open": ohlc["open"], "close": ohlc["close"]}, "USD", path, status, "cvd_open_close_direction_v1", reason)
 
@@ -274,10 +282,10 @@ class CvdVolumeOrderflowClassifier:
         else:
             state = "mixed"
         source_status = _aggregate_status([atoms["spot"]["availability"]["status"], atoms["futures"]["availability"]["status"]])
-        availability_status = "unavailable" if state == "unavailable" else ("partial" if source_status == "partial" else "available")
+        availability_status = "unavailable" if state == "unavailable" else ("partial" if source_status == "partial" or state == "mixed" else "available")
         return {"state": state, "spot_state": states["spot"], "futures_state": states["futures"], "general_order_flow_state": states["general"],
             "availability": _availability(availability_status, "source_state_unavailable" if state == "unavailable" else (
-                "source_partial" if availability_status == "partial" else None))}
+                "market_agreement_mixed" if state == "mixed" else ("source_partial" if availability_status == "partial" else None)))}
 
     def build_temporal_alignment(self, classified: Mapping[str, Any]) -> dict[str, Any]:
         output = {}

@@ -141,9 +141,19 @@ def test_efficiency_rejects_invalid_domain_and_numbers(value):
         CvdVolumeOrderflowClassifier().classify_flow_efficiency(metric(value), "x")
 
 
+@pytest.mark.parametrize("field", ["high", "low"])
+def test_non_finite_cvd_ohlc_snapshot_values_are_rejected(field):
+    contract = processing_contract()
+    contract["markets"]["spot"]["timeframes"]["1m"]["current"]["cvd_ohlc_usd"][field] = float("nan")
+    contract["markets"]["spot"]["timeframes"]["1m"]["records"][-1]["cvd_ohlc_usd"][field] = float("nan")
+    with pytest.raises(ValueError, match=f"cvd_{field}"):
+        classify(contract)
+
+
 @pytest.mark.parametrize(("open_value", "close_value", "state"), [(2, 1, "falling"), (2, 2, "flat"), (1, 2, "rising")])
 def test_cvd_direction_compares_received_open_close(open_value, close_value, state):
-    atom = CvdVolumeOrderflowClassifier().classify_cvd_direction({"open": open_value, "close": close_value}, "available", None, "x")
+    atom = CvdVolumeOrderflowClassifier().classify_cvd_direction(
+        {"open": open_value, "high": max(open_value, close_value), "low": min(open_value, close_value), "close": close_value}, "available", None, "x")
     assert (atom["state"], atom["value"]) == (state, {"open": open_value, "close": close_value})
 
 
@@ -279,6 +289,13 @@ def test_quality_ok_partial_invalid_and_enrichment_separation():
             source = contract["markets"][market]["timeframes"][timeframe_name]
             source.update(status="unavailable", reason="no_records", records=[], current=None)
     assert classify(contract)["quality"]["core_status"] == "invalid"
+    contract = processing_contract()
+    contract["markets"]["spot"]["window_summaries"]["1h"] = summary(imbalance=.2)
+    contract["markets"]["futures"]["window_summaries"]["1h"] = summary(imbalance=0)
+    mixed = classify(contract)
+    assert mixed["confirmations"]["market_agreement_1h"]["availability"] == {"status": "partial", "reason": "market_agreement_mixed"}
+    assert mixed["quality"]["core_status"] == "partial"
+    assert mixed["quality"]["status"] == "partial"
 
 
 def test_output_has_no_presentation_runtime_or_history_layers():
