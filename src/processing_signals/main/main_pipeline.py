@@ -11,12 +11,24 @@ from .prices_ohlcv import run_prices_vertical
 from .long_short_liquidations import run_long_short_liquidations_vertical
 from .on_chain_miners import run_on_chain_miners_vertical
 from .etf_exchange_flows import run_etf_exchange_flows_vertical
+from .cvd_volume_orderflow import run_cvd_volume_orderflow_vertical
+
+
+def _run_cvd_volume_orderflow_registered(*, previous_state: Mapping[str, Any] | None = None,
+                                         **arguments: Any) -> dict[str, Any]:
+    """Adapt the screen-only CVD vertical to the global pipeline envelope."""
+    if previous_state is not None and "existing_input" not in arguments:
+        previous_input = previous_state.get("input") if isinstance(previous_state, Mapping) else None
+        if isinstance(previous_input, Mapping):
+            arguments["existing_input"] = previous_input
+    return {"screen": run_cvd_volume_orderflow_vertical(**arguments)}
 
 
 VERTICAL_FAMILY_HANDLERS      = {"prices_ohlcv": run_prices_vertical,
                                  "long_short_liquidations": run_long_short_liquidations_vertical,
                                  "on_chain_miners": run_on_chain_miners_vertical,
-                                 "etf_exchange_flows": run_etf_exchange_flows_vertical}
+                                 "etf_exchange_flows": run_etf_exchange_flows_vertical,
+                                 "cvd_volume_orderflow": _run_cvd_volume_orderflow_registered}
 DEFAULT_OUTPUT_PATH           = Path("runtime/contracts/prices_screen.json")
 TIMEFRAME_SECONDS             = {"1m": 60, "5m": 300, "15m": 900, "1h": 3_600, "4h": 14_400, "1d": 86_400}
 SYNTHETIC_REFERENCE_TIMESTAMP = 1_749_945_600
