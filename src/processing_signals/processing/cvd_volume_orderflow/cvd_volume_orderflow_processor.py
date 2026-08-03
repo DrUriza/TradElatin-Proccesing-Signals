@@ -48,6 +48,9 @@ class CvdVolumeOrderflowProcessor:
         context, markets = input_contract.get("context"), input_contract.get("markets")
         if not isinstance(context, Mapping) or not isinstance(markets, Mapping) or set(("spot", "futures")) - set(markets):
             raise ValueError("invalid_input_structure")
+        reference = context.get("reference_timestamp")
+        if type(reference) is not int or reference < 0:
+            raise ValueError("invalid_reference_timestamp")
         normalized = {}
         for market in ("spot", "futures"):
             payload = markets.get(market)
@@ -62,6 +65,8 @@ class CvdVolumeOrderflowProcessor:
                 if not isinstance(timeframe_payload, Mapping) or not _sequence(timeframe_payload.get("records")):
                     raise ValueError("invalid_timeframe_payload")
                 normalized[market][timeframe] = self.feature_builder.validate_base_records(timeframe_payload["records"])
+                if any(row["timestamp"] > reference for row in normalized[market][timeframe]):
+                    raise ValueError("timestamp_after_reference_timestamp")
         return normalized
 
     def build_context(self, input_contract: Mapping[str, Any], processing_timestamp: int) -> dict[str, Any]:
@@ -122,7 +127,8 @@ class CvdVolumeOrderflowProcessor:
 
     def process_market(self, market: str, base_records: Mapping[str, Sequence[Mapping[str, Any]]],
                        input_market: Mapping[str, Any]) -> dict[str, Any]:
-        features = self.feature_builder.build_market_features(base_records)
+        declared_gaps = {source: input_market["cvd"]["timeframes"][source].get("gaps", []) for source in BASE_TIMEFRAMES}
+        features = self.feature_builder.build_market_features(base_records, declared_gaps)
         timeframes = {}
         for target in TARGET_TIMEFRAMES:
             source = SOURCE_TIMEFRAME[target]
@@ -137,11 +143,14 @@ class CvdVolumeOrderflowProcessor:
             "price_vs_vwap": {}, "availability": availability}
 
     def process_general(self, spot_base: Mapping[str, Sequence[Mapping[str, Any]]], futures_base: Mapping[str, Sequence[Mapping[str, Any]]],
-                        spot_result: Mapping[str, Any], futures_result: Mapping[str, Any]) -> dict[str, Any]:
+                        spot_result: Mapping[str, Any], futures_result: Mapping[str, Any], spot_input: Mapping[str, Any],
+                        futures_input: Mapping[str, Any]) -> dict[str, Any]:
         bases, alignment = {}, {}
         for timeframe in BASE_TIMEFRAMES:
             bases[timeframe], alignment[timeframe] = self.feature_builder.build_general_base(spot_base[timeframe], futures_base[timeframe])
-        features, timeframes = self.feature_builder.build_market_features(bases), {}
+        declared_gaps = {source: [*spot_input["cvd"]["timeframes"][source].get("gaps", []),
+            *futures_input["cvd"]["timeframes"][source].get("gaps", [])] for source in BASE_TIMEFRAMES}
+        features, timeframes = self.feature_builder.build_market_features(bases, declared_gaps), {}
         for target in TARGET_TIMEFRAMES:
             source = SOURCE_TIMEFRAME[target]
             input_status = "available" if bases[source] else "unavailable"
@@ -177,7 +186,7 @@ class CvdVolumeOrderflowProcessor:
         input_markets = input_contract["markets"]
         spot = self.process_market("spot", normalized["spot"], input_markets["spot"])
         futures = self.process_market("futures", normalized["futures"], input_markets["futures"])
-        general = self.process_general(normalized["spot"], normalized["futures"], spot, futures)
+        general = self.process_general(normalized["spot"], normalized["futures"], spot, futures, input_markets["spot"], input_markets["futures"])
         markets = {"spot": spot, "futures": futures, "general": general}
         references = price_reference_by_market or {}
         if not isinstance(references, Mapping) or set(references) - set(MARKETS):

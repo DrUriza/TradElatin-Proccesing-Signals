@@ -172,6 +172,33 @@ def test_gap_breaks_continuity_and_recovery_restores_it():
     assert recovered["markets"]["spot"]["timeframes"]["1m"]["continuity_breaks"] == []
 
 
+def test_declared_input_gap_breaks_only_affected_market_and_propagates_to_general():
+    contract = input_contract()
+    contract["markets"]["spot"]["cvd"]["timeframes"]["1m"]["gaps"] = [{
+        "previous_timestamp": START, "next_timestamp": START + 120, "missing_records": 1}]
+    output = process(contract)
+    assert output["markets"]["spot"]["timeframes"]["1m"]["current"]["continuity_status"] == "broken"
+    assert output["markets"]["futures"]["timeframes"]["1m"]["current"]["continuity_status"] == "complete"
+    assert output["markets"]["general"]["timeframes"]["1m"]["current"]["continuity_status"] == "broken"
+
+
+def test_partial_bucket_breaks_continuity_immediately():
+    output = process(input_contract(one_minute=rows(4, 60), fifteen_minute=rows(4, 900)))
+    five = output["markets"]["spot"]["timeframes"]["5m"]
+    assert five["current"]["is_partial"] is True
+    assert five["current"]["continuity_status"] == "broken"
+    assert five["current"]["reason"] == "cvd_continuity_broken_by_missing_intervals"
+    assert five["continuity_break_count"] == 1
+
+
+def test_future_records_are_rejected_before_summaries():
+    contract = input_contract(fifteen_minute=rows(4, 900))
+    contract["markets"]["spot"]["cvd"]["timeframes"]["15m"]["records"].append(
+        input_row(contract["context"]["reference_timestamp"] + 900, 1000, 0))
+    with pytest.raises(ValueError, match="timestamp_after_reference_timestamp"):
+        process(contract)
+
+
 def test_delta_ma_and_flow_efficiency_warmup_and_bar_21():
     output = process(input_contract(one_minute=rows(21, 60, buy=3, sell=1), fifteen_minute=rows(21, 900, buy=3, sell=1)))
     records = output["markets"]["spot"]["timeframes"]["1m"]["records"]

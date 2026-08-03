@@ -117,13 +117,29 @@ def _continuity_breaks(records: Sequence[Mapping[str, Any]], interval: int) -> l
     return breaks
 
 
-def build_cvd_bars(records: Sequence[Mapping[str, Any]], target_timeframe: str) -> tuple[list[dict[str, Any]], list[dict[str, int]], dict[str, Any]]:
+def build_cvd_bars(records: Sequence[Mapping[str, Any]], target_timeframe: str,
+                   declared_gaps: Sequence[Mapping[str, Any]] | None = None) -> tuple[list[dict[str, Any]], list[dict[str, int]], dict[str, Any]]:
     interval = TIMEFRAME_SECONDS[target_timeframe]
     breaks = _continuity_breaks(records, interval)
+    for gap in declared_gaps or ():
+        if not isinstance(gap, Mapping) or type(gap.get("previous_timestamp")) is not int or type(gap.get("next_timestamp")) is not int:
+            raise ValueError("invalid_declared_gap")
+        after = gap["previous_timestamp"] - gap["previous_timestamp"] % interval
+        before = gap["next_timestamp"] - gap["next_timestamp"] % interval
+        missing = gap.get("missing_records")
+        if type(missing) is not int or missing <= 0:
+            raise ValueError("invalid_declared_gap")
+        breaks.append({"after_timestamp": after, "before_timestamp": before, "missing_records": missing})
+    for row in records:
+        if row["is_partial"]:
+            breaks.append({"after_timestamp": row["last_source_timestamp"], "before_timestamp": row["timestamp"] + interval,
+                "missing_records": max(1, row["source_records_expected"] - row["source_records_used"])})
+    breaks = [{"after_timestamp": after, "before_timestamp": before, "missing_records": missing} for after, before, missing in
+        sorted({(item["after_timestamp"], item["before_timestamp"], item["missing_records"]) for item in breaks})]
     break_before = {item["before_timestamp"] for item in breaks}
     output, running, broken = [], 0.0, False
     for row in records:
-        if row["timestamp"] in break_before:
+        if row["timestamp"] in break_before or row["is_partial"]:
             broken = True
         open_value, path = running, [running]
         for delta in row["_source_deltas"]:
@@ -136,8 +152,6 @@ def build_cvd_bars(records: Sequence[Mapping[str, Any]], target_timeframe: str) 
             reason="cvd_continuity_broken_by_missing_intervals" if broken else ("incomplete_source_bucket" if row["is_partial"] else None),
             delta_ma_21_usd=None, flow_efficiency=_metric(None, "rolling_warmup_incomplete"))
         output.append(item)
-        if row["is_partial"]:
-            broken = True
     anchor = {"first_available_timestamp": output[0]["timestamp"] if output else None,
         "anchor_timestamp": output[0]["timestamp"] if output else None, "anchor_value_usd": 0.0,
         "anchor_method": "zero_before_first_available_record", "history_relative": True,
@@ -246,12 +260,13 @@ class CvdVolumeOrderflowFeatureBuilder:
     build_footprint_vwap        = staticmethod(build_footprint_vwap)
     build_price_vs_vwap         = staticmethod(build_price_vs_vwap)
 
-    def build_market_features(self, base_records: Mapping[str, Sequence[Mapping[str, Any]]]) -> dict[str, Any]:
+    def build_market_features(self, base_records: Mapping[str, Sequence[Mapping[str, Any]]],
+                              declared_gaps: Mapping[str, Sequence[Mapping[str, Any]]] | None = None) -> dict[str, Any]:
         timeframes = {}
         for target in TARGET_TIMEFRAMES:
             source = SOURCE_TIMEFRAME[target]
             resampled = resample_records(base_records[source], source, target)
-            bars, breaks, anchor = build_cvd_bars(resampled, target)
+            bars, breaks, anchor = build_cvd_bars(resampled, target, (declared_gaps or {}).get(source, ()))
             timeframes[target] = {"records": apply_rolling_features(bars), "continuity_breaks": breaks, **anchor}
         return timeframes
 
