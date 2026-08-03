@@ -129,6 +129,14 @@ def test_rejects_mode_context_and_demo_mismatches():
         build_cvd_volume_orderflow_contract(make_bundle(is_demo=False))
 
 
+def test_accepts_frozen_classification_market_order_and_preserves_visual_order():
+    bundle = make_bundle()
+    bundle["classification"]["context"]["markets"] = ["spot", "futures", "general"]
+    output = build_cvd_volume_orderflow_contract(bundle)
+    assert output["context"]["markets"] == ["general", "spot", "futures"]
+    assert [item["id"] for item in output["selectors"]["market"]["options"]] == ["general", "spot", "futures"]
+
+
 @pytest.mark.parametrize("kwargs", [{"selected_market": "x"}, {"selected_timeframe": "2h"},
     {"display_point_limit": True}, {"display_point_limit": 0}, {"display_point_limit": 221}])
 def test_rejects_invalid_selection(kwargs):

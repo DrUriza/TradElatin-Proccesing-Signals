@@ -248,7 +248,7 @@ class CvdVolumeOrderflowContractBuilder:
         for key in ("base_asset", "pair_symbol", "data_mode", "is_demo", "reference_timestamp", "processing_timestamp"):
             if p_context.get(key) != c_context.get(key):
                 raise ValueError(f"bundle_context_mismatch:{key}")
-        if tuple(c_context.get("markets", ())) != MARKETS or tuple(c_context.get("timeframes", ())) != TIMEFRAMES:
+        if set(c_context.get("markets", ())) != set(MARKETS) or tuple(c_context.get("timeframes", ())) != TIMEFRAMES:
             raise ValueError("classification_context_scope_mismatch")
 
     def build_context(self, processing: Mapping[str, Any], classification: Mapping[str, Any]) -> dict[str, Any]:
