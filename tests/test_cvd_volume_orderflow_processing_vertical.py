@@ -296,7 +296,8 @@ def test_availability_partial_unavailable_and_quality_partial():
     empty = process(input_contract(one_minute=[], fifteen_minute=[], futures_one_minute=[], futures_fifteen_minute=[]))
     assert empty["markets"]["spot"]["timeframes"]["1m"] == {**empty["markets"]["spot"]["timeframes"]["1m"],
         "status": "unavailable", "reason": "no_records"}
-    assert empty["quality"]["core_status"] == "partial"
+    assert empty["quality"]["core_status"] == "invalid"
+    assert empty["quality"]["status"] == "invalid"
 
 
 def test_quality_ok_with_complete_core_scoped_enrichment_and_prices():

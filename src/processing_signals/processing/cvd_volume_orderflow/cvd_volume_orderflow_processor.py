@@ -170,7 +170,10 @@ class CvdVolumeOrderflowProcessor:
         enrichments = [markets[market]["footprint_summaries"]["1h"]["status"] for market in MARKETS]
         enrichments.extend(markets[market]["price_vs_vwap"]["status"] for market in MARKETS)
         summaries = [markets[market]["window_summaries"][window]["status"] for market in MARKETS for window in ("1h", "24h")]
-        core_status = "invalid" if "invalid" in core or input_quality.get("status") == "invalid" else ("available" if all(item == "available" for item in core + summaries) else "partial")
+        no_safe_base = all(markets[market]["timeframes"][timeframe]["status"] == "unavailable"
+            for market in ("spot", "futures") for timeframe in BASE_TIMEFRAMES)
+        core_status = "invalid" if no_safe_base or "invalid" in core or input_quality.get("status") == "invalid" else (
+            "available" if all(item == "available" for item in core + summaries) else "partial")
         enrichment_status = "available" if all(item == "available" for item in enrichments) else "partial"
         status = "invalid" if core_status == "invalid" else ("ok" if core_status == enrichment_status == "available" else "partial")
         warnings = [f"{market}.{timeframe}:{markets[market]['timeframes'][timeframe]['reason']}" for market in MARKETS for timeframe in TARGET_TIMEFRAMES
