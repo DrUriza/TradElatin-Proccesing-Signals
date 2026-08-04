@@ -1,0 +1,4849 @@
+{
+  "schema": {
+    "id": "trad_elatin.open_interest_and_funding.screen.v1",
+    "version": "1.0.0"
+  },
+  "screen": {
+    "id": "open_interest_and_funding",
+    "route": "/open-interest-and-funding",
+    "title": "OPEN INTEREST & FUNDING",
+    "family": "open_interest_and_funding"
+  },
+  "stage": "screen_contract",
+  "mode": "bootstrap",
+  "context": {
+    "asset": "BTC",
+    "exchange_scope": "all_exchanges",
+    "primary_provider": "coinglass",
+    "confirmation_providers": [
+      "cryptoquant",
+      "glassnode"
+    ],
+    "data_mode": "synthetic",
+    "is_demo": true,
+    "reference_timestamp": 1800000000,
+    "execution_timestamp": 1800000010,
+    "generated_at": "2027-01-15T08:00:10Z",
+    "data_as_of": 1800000000,
+    "presentation_default_timeframe": "1h"
+  },
+  "timeframe_selector": {
+    "options": [
+      {
+        "id": "1m",
+        "seconds": 60
+      },
+      {
+        "id": "5m",
+        "seconds": 300
+      },
+      {
+        "id": "15m",
+        "seconds": 900
+      },
+      {
+        "id": "1h",
+        "seconds": 3600
+      },
+      {
+        "id": "4h",
+        "seconds": 14400
+      },
+      {
+        "id": "1d",
+        "seconds": 86400
+      }
+    ],
+    "default": "1h",
+    "selected": "1h"
+  },
+  "operational_status": {
+    "data_mode": "synthetic",
+    "is_demo": true,
+    "quality_status": "partial",
+    "connection_status": "not_reported",
+    "cache_status": "not_reported",
+    "generated_at": "2027-01-15T08:00:10Z",
+    "data_as_of": 1800000000
+  },
+  "kpis": {
+    "open_interest_usd": {
+      "kpi_id": "open_interest_usd",
+      "title": "OPEN INTEREST USD",
+      "status": "available",
+      "reason": null,
+      "value": 101.0,
+      "secondary_value": null,
+      "unit": "USD",
+      "secondary_unit": null,
+      "timestamp": 1800000000,
+      "timeframe": "1h",
+      "classification": null,
+      "source_paths": [
+        "series.open_interest_ohlc.timeframes.1h.current.close"
+      ]
+    },
+    "oi_change_24h": {
+      "kpi_id": "oi_change_24h",
+      "title": "OI CHANGE 24H",
+      "status": "partial",
+      "reason": "insufficient_history_for_exact_24h_change",
+      "value": null,
+      "secondary_value": null,
+      "unit": "USD",
+      "secondary_unit": "percent",
+      "timestamp": null,
+      "timeframe": "1h",
+      "classification": null,
+      "source_paths": [
+        "series.open_interest_ohlc.timeframes.1h.derived.oi_change_24h.current.change_absolute_usd",
+        "series.open_interest_ohlc.timeframes.1h.derived.oi_change_24h.current.change_percent"
+      ]
+    },
+    "oi_market_cap_ratio": {
+      "kpi_id": "oi_market_cap_ratio",
+      "title": "OI MARKET CAP RATIO",
+      "status": "unavailable",
+      "reason": "market_cap_source_not_configured",
+      "value": null,
+      "secondary_value": null,
+      "unit": null,
+      "secondary_unit": null,
+      "timestamp": null,
+      "timeframe": "1h",
+      "classification": null,
+      "source_paths": [
+        "availability.unavailable.open_interest_market_cap_ratio"
+      ]
+    },
+    "funding_rate": {
+      "kpi_id": "funding_rate",
+      "title": "FUNDING RATE",
+      "status": "available",
+      "reason": null,
+      "value": 1.01,
+      "secondary_value": null,
+      "unit": "percent_points",
+      "secondary_unit": null,
+      "timestamp": 1800000000,
+      "timeframe": "1h",
+      "classification": "positive",
+      "source_paths": [
+        "series.funding_rate_ohlc.timeframes.1h.current.close"
+      ]
+    },
+    "funding_8h": {
+      "kpi_id": "funding_8h",
+      "title": "FUNDING 8H",
+      "status": "unavailable",
+      "reason": "cross_exchange_8h_weighting_not_defined",
+      "value": null,
+      "secondary_value": null,
+      "unit": null,
+      "secondary_unit": null,
+      "timestamp": null,
+      "timeframe": "1h",
+      "classification": null,
+      "source_paths": [
+        "availability.unavailable.funding_8h_aggregate"
+      ]
+    }
+  },
+  "charts": {
+    "open_interest_line": {
+      "chart_id": "open_interest_line",
+      "title": "OPEN INTEREST LINE",
+      "subtitle": "OPEN INTEREST LINE BY TIMEFRAME",
+      "chart_type": "line",
+      "unit": "USD",
+      "provider": "Coinglass",
+      "status": "available",
+      "reason": null,
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "available",
+        "timestamp": 1800000000,
+        "values": {
+          "open_interest_close": {
+            "value": 101.0
+          }
+        },
+        "reason": null
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest_close",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1m"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest_close",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.5m"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest_close",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.15m"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest_close",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1h"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest_close",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.4h"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest_close",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1d"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "USD"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "series.open_interest_ohlc.timeframes.1h"
+      ]
+    },
+    "open_interest_interval_delta": {
+      "chart_id": "open_interest_interval_delta",
+      "title": "OPEN INTEREST INTERVAL DELTA",
+      "subtitle": "OPEN INTEREST INTERVAL DELTA BY TIMEFRAME",
+      "chart_type": "bar",
+      "unit": "USD",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "delta_absolute_usd": {
+            "value": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "delta_absolute_usd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1m.derived.oi_delta"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "delta_absolute_usd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.5m.derived.oi_delta"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "delta_absolute_usd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.15m.derived.oi_delta"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "delta_absolute_usd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1h.derived.oi_delta"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "delta_absolute_usd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.4h.derived.oi_delta"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "delta_absolute_usd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1d.derived.oi_delta"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "USD"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "series.open_interest_ohlc.timeframes.1h.derived.oi_delta"
+      ]
+    },
+    "funding_rate_line": {
+      "chart_id": "funding_rate_line",
+      "title": "FUNDING RATE LINE",
+      "subtitle": "FUNDING RATE LINE BY TIMEFRAME",
+      "chart_type": "line",
+      "unit": "percent_points",
+      "provider": "Coinglass",
+      "status": "available",
+      "reason": null,
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "available",
+        "timestamp": 1800000000,
+        "values": {
+          "funding_close": {
+            "value": 1.01
+          }
+        },
+        "reason": null
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_close",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1m"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_close",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.5m"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_close",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.15m"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_close",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1h"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_close",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.4h"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_close",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1d"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "percent_points"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "series.funding_rate_ohlc.timeframes.1h"
+      ]
+    },
+    "oi_funding_overlay": {
+      "chart_id": "oi_funding_overlay",
+      "title": "OI FUNDING OVERLAY",
+      "subtitle": "OI FUNDING OVERLAY BY TIMEFRAME",
+      "chart_type": "multi_line",
+      "unit": "USD",
+      "provider": "Coinglass",
+      "status": "available",
+      "reason": null,
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "available",
+        "timestamp": 1800000000,
+        "values": {
+          "open_interest": {
+            "value": 101.0
+          },
+          "funding_rate": {
+            "value": 1.01
+          }
+        },
+        "reason": null
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1m"
+            },
+            {
+              "id": "funding_rate",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1m"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.5m"
+            },
+            {
+              "id": "funding_rate",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.5m"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.15m"
+            },
+            {
+              "id": "funding_rate",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.15m"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1h"
+            },
+            {
+              "id": "funding_rate",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1h"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.4h"
+            },
+            {
+              "id": "funding_rate",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.4h"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "open_interest",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1d"
+            },
+            {
+              "id": "funding_rate",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1d"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "USD"
+          },
+          "right": {
+            "unit": "percent_points"
+          }
+        }
+      },
+      "source_paths": [
+        "series.open_interest_ohlc.timeframes.1h",
+        "series.funding_rate_ohlc.timeframes.1h"
+      ]
+    },
+    "open_interest_candlestick": {
+      "chart_id": "open_interest_candlestick",
+      "title": "OPEN INTEREST CANDLESTICK",
+      "subtitle": "OPEN INTEREST CANDLESTICK BY TIMEFRAME",
+      "chart_type": "candlestick",
+      "unit": "USD",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "open_interest_ohlc": {
+            "open": 100.0,
+            "high": 102.0,
+            "low": 98.0,
+            "close": 101.0
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "open_interest_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 100.0,
+                  "high": 102.0,
+                  "low": 98.0,
+                  "close": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1m"
+            }
+          ],
+          "overlays": [
+            {
+              "id": "sma_20",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.moving_averages"
+            },
+            {
+              "id": "sma_50",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.moving_averages"
+            },
+            {
+              "id": "sma_100",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.moving_averages"
+            },
+            {
+              "id": "sma_200",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.moving_averages"
+            }
+          ],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "open_interest_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 100.0,
+                  "high": 102.0,
+                  "low": 98.0,
+                  "close": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.5m"
+            }
+          ],
+          "overlays": [
+            {
+              "id": "sma_20",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.moving_averages"
+            },
+            {
+              "id": "sma_50",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.moving_averages"
+            },
+            {
+              "id": "sma_100",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.moving_averages"
+            },
+            {
+              "id": "sma_200",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.moving_averages"
+            }
+          ],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "open_interest_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 100.0,
+                  "high": 102.0,
+                  "low": 98.0,
+                  "close": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.15m"
+            }
+          ],
+          "overlays": [
+            {
+              "id": "sma_20",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.moving_averages"
+            },
+            {
+              "id": "sma_50",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.moving_averages"
+            },
+            {
+              "id": "sma_100",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.moving_averages"
+            },
+            {
+              "id": "sma_200",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.moving_averages"
+            }
+          ],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "open_interest_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 100.0,
+                  "high": 102.0,
+                  "low": 98.0,
+                  "close": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1h"
+            }
+          ],
+          "overlays": [
+            {
+              "id": "sma_20",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.moving_averages"
+            },
+            {
+              "id": "sma_50",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.moving_averages"
+            },
+            {
+              "id": "sma_100",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.moving_averages"
+            },
+            {
+              "id": "sma_200",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.moving_averages"
+            }
+          ],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "open_interest_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 100.0,
+                  "high": 102.0,
+                  "low": 98.0,
+                  "close": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.4h"
+            }
+          ],
+          "overlays": [
+            {
+              "id": "sma_20",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.moving_averages"
+            },
+            {
+              "id": "sma_50",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.moving_averages"
+            },
+            {
+              "id": "sma_100",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.moving_averages"
+            },
+            {
+              "id": "sma_200",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.moving_averages"
+            }
+          ],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "open_interest_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "USD",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 100.0,
+                  "high": 102.0,
+                  "low": 98.0,
+                  "close": 101.0
+                }
+              ],
+              "source_path": "series.open_interest_ohlc.timeframes.1d"
+            }
+          ],
+          "overlays": [
+            {
+              "id": "sma_20",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.moving_averages"
+            },
+            {
+              "id": "sma_50",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.moving_averages"
+            },
+            {
+              "id": "sma_100",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.moving_averages"
+            },
+            {
+              "id": "sma_200",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.moving_averages"
+            }
+          ],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "USD"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "series.open_interest_ohlc.timeframes.1h",
+        "indicators.open_interest.timeframes.1h.moving_averages"
+      ]
+    },
+    "funding_candlestick": {
+      "chart_id": "funding_candlestick",
+      "title": "FUNDING CANDLESTICK",
+      "subtitle": "FUNDING CANDLESTICK BY TIMEFRAME",
+      "chart_type": "candlestick",
+      "unit": "percent_points",
+      "provider": "Coinglass",
+      "status": "available",
+      "reason": null,
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "available",
+        "timestamp": 1800000000,
+        "values": {
+          "funding_ohlc": {
+            "open": 0.01,
+            "high": 2.01,
+            "low": -1.99,
+            "close": 1.01
+          }
+        },
+        "reason": null
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 0.01,
+                  "high": 2.01,
+                  "low": -1.99,
+                  "close": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1m"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 0.01,
+                  "high": 2.01,
+                  "low": -1.99,
+                  "close": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.5m"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 0.01,
+                  "high": 2.01,
+                  "low": -1.99,
+                  "close": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.15m"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 0.01,
+                  "high": 2.01,
+                  "low": -1.99,
+                  "close": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1h"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 0.01,
+                  "high": 2.01,
+                  "low": -1.99,
+                  "close": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.4h"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "available",
+          "reason": null,
+          "series": [
+            {
+              "id": "funding_ohlc",
+              "status": "available",
+              "reason": null,
+              "unit": "percent_points",
+              "representation": "ohlc",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "open": 0.01,
+                  "high": 2.01,
+                  "low": -1.99,
+                  "close": 1.01
+                }
+              ],
+              "source_path": "series.funding_rate_ohlc.timeframes.1d"
+            }
+          ],
+          "overlays": [],
+          "classification": "positive"
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "percent_points"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "series.funding_rate_ohlc.timeframes.1h"
+      ]
+    },
+    "bollinger_bands": {
+      "chart_id": "bollinger_bands",
+      "title": "BOLLINGER BANDS",
+      "subtitle": "BOLLINGER BANDS BY TIMEFRAME",
+      "chart_type": "multi_line",
+      "unit": "USD",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "middle": {
+            "value": null
+          },
+          "upper": {
+            "value": null
+          },
+          "lower": {
+            "value": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "middle",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.bollinger_bands"
+            },
+            {
+              "id": "upper",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.bollinger_bands"
+            },
+            {
+              "id": "lower",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.bollinger_bands"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "middle",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.bollinger_bands"
+            },
+            {
+              "id": "upper",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.bollinger_bands"
+            },
+            {
+              "id": "lower",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.bollinger_bands"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "middle",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.bollinger_bands"
+            },
+            {
+              "id": "upper",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.bollinger_bands"
+            },
+            {
+              "id": "lower",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.bollinger_bands"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "middle",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.bollinger_bands"
+            },
+            {
+              "id": "upper",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.bollinger_bands"
+            },
+            {
+              "id": "lower",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.bollinger_bands"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "middle",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.bollinger_bands"
+            },
+            {
+              "id": "upper",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.bollinger_bands"
+            },
+            {
+              "id": "lower",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.bollinger_bands"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "middle",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.bollinger_bands"
+            },
+            {
+              "id": "upper",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.bollinger_bands"
+            },
+            {
+              "id": "lower",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.bollinger_bands"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "USD"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h.bollinger_bands"
+      ]
+    },
+    "macd": {
+      "chart_id": "macd",
+      "title": "MACD",
+      "subtitle": "MACD BY TIMEFRAME",
+      "chart_type": "oscillator",
+      "unit": "USD",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "macd": {
+            "value": null
+          },
+          "signal": {
+            "value": null
+          },
+          "histogram": {
+            "value": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "macd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.macd"
+            },
+            {
+              "id": "signal",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.macd"
+            },
+            {
+              "id": "histogram",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.macd"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "macd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.macd"
+            },
+            {
+              "id": "signal",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.macd"
+            },
+            {
+              "id": "histogram",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.macd"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "macd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.macd"
+            },
+            {
+              "id": "signal",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.macd"
+            },
+            {
+              "id": "histogram",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.macd"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "macd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.macd"
+            },
+            {
+              "id": "signal",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.macd"
+            },
+            {
+              "id": "histogram",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.macd"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "macd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.macd"
+            },
+            {
+              "id": "signal",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.macd"
+            },
+            {
+              "id": "histogram",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.macd"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "macd",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.macd"
+            },
+            {
+              "id": "signal",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.macd"
+            },
+            {
+              "id": "histogram",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "bar",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.macd"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "USD"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h.macd"
+      ]
+    },
+    "adx_di": {
+      "chart_id": "adx_di",
+      "title": "ADX DI",
+      "subtitle": "ADX DI BY TIMEFRAME",
+      "chart_type": "oscillator",
+      "unit": "index_0_100",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "adx_di": {
+            "adx": null,
+            "di_plus": null,
+            "di_minus": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "adx_di",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "adx": null,
+                  "di_plus": null,
+                  "di_minus": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.adx"
+            }
+          ],
+          "overlays": [],
+          "classification": {
+            "oi_trend_strength": null,
+            "directional_index_relation": null
+          }
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "adx_di",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "adx": null,
+                  "di_plus": null,
+                  "di_minus": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.adx"
+            }
+          ],
+          "overlays": [],
+          "classification": {
+            "oi_trend_strength": null,
+            "directional_index_relation": null
+          }
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "adx_di",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "adx": null,
+                  "di_plus": null,
+                  "di_minus": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.adx"
+            }
+          ],
+          "overlays": [],
+          "classification": {
+            "oi_trend_strength": null,
+            "directional_index_relation": null
+          }
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "adx_di",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "adx": null,
+                  "di_plus": null,
+                  "di_minus": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.adx"
+            }
+          ],
+          "overlays": [],
+          "classification": {
+            "oi_trend_strength": null,
+            "directional_index_relation": null
+          }
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "adx_di",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "adx": null,
+                  "di_plus": null,
+                  "di_minus": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.adx"
+            }
+          ],
+          "overlays": [],
+          "classification": {
+            "oi_trend_strength": null,
+            "directional_index_relation": null
+          }
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "adx_di",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "adx": null,
+                  "di_plus": null,
+                  "di_minus": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.adx"
+            }
+          ],
+          "overlays": [],
+          "classification": {
+            "oi_trend_strength": null,
+            "directional_index_relation": null
+          }
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "index_0_100"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h.adx"
+      ]
+    },
+    "stochastic": {
+      "chart_id": "stochastic",
+      "title": "STOCHASTIC",
+      "subtitle": "STOCHASTIC BY TIMEFRAME",
+      "chart_type": "oscillator",
+      "unit": "index_0_100",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "stochastic": {
+            "k": null,
+            "d": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "stochastic",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "k": null,
+                  "d": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.stochastic"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "stochastic",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "k": null,
+                  "d": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.stochastic"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "stochastic",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "k": null,
+                  "d": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.stochastic"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "stochastic",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "k": null,
+                  "d": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.stochastic"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "stochastic",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "k": null,
+                  "d": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.stochastic"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "stochastic",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index_0_100",
+              "representation": "multi_value",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "k": null,
+                  "d": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.stochastic"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "index_0_100"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h.stochastic"
+      ]
+    },
+    "atr": {
+      "chart_id": "atr",
+      "title": "ATR",
+      "subtitle": "ATR BY TIMEFRAME",
+      "chart_type": "line",
+      "unit": "USD",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "atr": {
+            "value": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "atr",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.atr"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "atr",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.atr"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "atr",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.atr"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "atr",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.atr"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "atr",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.atr"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "atr",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "USD",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.atr"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "USD"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h.atr"
+      ]
+    },
+    "cci": {
+      "chart_id": "cci",
+      "title": "CCI",
+      "subtitle": "CCI BY TIMEFRAME",
+      "chart_type": "oscillator",
+      "unit": "index",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "cci": {
+            "value": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "cci",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.cci"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "cci",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.cci"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "cci",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.cci"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "cci",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.cci"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "cci",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.cci"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "cci",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "index",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.cci"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "index"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h.cci"
+      ]
+    },
+    "oi_roc": {
+      "chart_id": "oi_roc",
+      "title": "OI ROC",
+      "subtitle": "OI ROC BY TIMEFRAME",
+      "chart_type": "oscillator",
+      "unit": "percent",
+      "provider": "Coinglass",
+      "status": "partial",
+      "reason": "current_unavailable_history_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "partial",
+        "timestamp": 1800000000,
+        "values": {
+          "roc": {
+            "value": null
+          }
+        },
+        "reason": "current_unavailable_history_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "roc",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "percent",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1m.oi_roc"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "roc",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "percent",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.5m.oi_roc"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "roc",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "percent",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.15m.oi_roc"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "roc",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "percent",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1h.oi_roc"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "roc",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "percent",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.4h.oi_roc"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "partial",
+          "reason": "current_unavailable_history_available",
+          "series": [
+            {
+              "id": "roc",
+              "status": "partial",
+              "reason": "current_unavailable_history_available",
+              "unit": "percent",
+              "representation": "line",
+              "points": [
+                {
+                  "timestamp": 1800000000,
+                  "value": null
+                }
+              ],
+              "source_path": "indicators.open_interest.timeframes.1d.oi_roc"
+            }
+          ],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": "percent"
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h.oi_roc"
+      ]
+    },
+    "mfi": {
+      "chart_id": "mfi",
+      "title": "MFI",
+      "subtitle": "MFI BY TIMEFRAME",
+      "chart_type": "placeholder",
+      "unit": null,
+      "provider": "Coinglass",
+      "status": "unavailable",
+      "reason": "historical_volume_series_not_available",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "unavailable",
+        "timestamp": null,
+        "values": {},
+        "reason": "historical_volume_series_not_available"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "unavailable",
+          "reason": "historical_volume_series_not_available",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "unavailable",
+          "reason": "historical_volume_series_not_available",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "unavailable",
+          "reason": "historical_volume_series_not_available",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "unavailable",
+          "reason": "historical_volume_series_not_available",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "unavailable",
+          "reason": "historical_volume_series_not_available",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "unavailable",
+          "reason": "historical_volume_series_not_available",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": null
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "availability.unavailable.mfi"
+      ]
+    },
+    "oi_market_cap": {
+      "chart_id": "oi_market_cap",
+      "title": "OI MARKET CAP",
+      "subtitle": "OI MARKET CAP BY TIMEFRAME",
+      "chart_type": "placeholder",
+      "unit": null,
+      "provider": "Coinglass",
+      "status": "unavailable",
+      "reason": "market_cap_source_not_configured",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "unavailable",
+        "timestamp": null,
+        "values": {},
+        "reason": "market_cap_source_not_configured"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "unavailable",
+          "reason": "market_cap_source_not_configured",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "unavailable",
+          "reason": "market_cap_source_not_configured",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "unavailable",
+          "reason": "market_cap_source_not_configured",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "unavailable",
+          "reason": "market_cap_source_not_configured",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "unavailable",
+          "reason": "market_cap_source_not_configured",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "unavailable",
+          "reason": "market_cap_source_not_configured",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": null
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "availability.unavailable.open_interest_market_cap_ratio"
+      ]
+    },
+    "oi_vs_price": {
+      "chart_id": "oi_vs_price",
+      "title": "OI VS PRICE",
+      "subtitle": "OI VS PRICE BY TIMEFRAME",
+      "chart_type": "placeholder",
+      "unit": null,
+      "provider": "Coinglass",
+      "status": "unavailable",
+      "reason": "price_source_not_available_in_processing_contract",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "unavailable",
+        "timestamp": null,
+        "values": {},
+        "reason": "price_source_not_available_in_processing_contract"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "unavailable",
+          "reason": "price_source_not_available_in_processing_contract",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "unavailable",
+          "reason": "price_source_not_available_in_processing_contract",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "unavailable",
+          "reason": "price_source_not_available_in_processing_contract",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "unavailable",
+          "reason": "price_source_not_available_in_processing_contract",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "unavailable",
+          "reason": "price_source_not_available_in_processing_contract",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "unavailable",
+          "reason": "price_source_not_available_in_processing_contract",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": null
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "availability.unavailable.price_comparison"
+      ]
+    },
+    "contract_type_split": {
+      "chart_id": "contract_type_split",
+      "title": "CONTRACT TYPE SPLIT",
+      "subtitle": "CONTRACT TYPE SPLIT BY TIMEFRAME",
+      "chart_type": "placeholder",
+      "unit": null,
+      "provider": "Coinglass",
+      "status": "unavailable",
+      "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+      "selected_timeframe": "1h",
+      "current": {
+        "status": "unavailable",
+        "timestamp": null,
+        "values": {},
+        "reason": "dated_futures_open_interest_not_separated_by_current_sources"
+      },
+      "series_by_timeframe": {
+        "1m": {
+          "timeframe": "1m",
+          "seconds": 60,
+          "status": "unavailable",
+          "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "5m": {
+          "timeframe": "5m",
+          "seconds": 300,
+          "status": "unavailable",
+          "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "15m": {
+          "timeframe": "15m",
+          "seconds": 900,
+          "status": "unavailable",
+          "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1h": {
+          "timeframe": "1h",
+          "seconds": 3600,
+          "status": "unavailable",
+          "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "4h": {
+          "timeframe": "4h",
+          "seconds": 14400,
+          "status": "unavailable",
+          "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        },
+        "1d": {
+          "timeframe": "1d",
+          "seconds": 86400,
+          "status": "unavailable",
+          "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+          "series": [],
+          "overlays": [],
+          "classification": null
+        }
+      },
+      "axes": {
+        "x": {
+          "field": "timestamp",
+          "unit": "unix_seconds"
+        },
+        "y": {
+          "left": {
+            "unit": null
+          },
+          "right": {
+            "unit": null
+          }
+        }
+      },
+      "source_paths": [
+        "availability.unavailable.contract_type_split"
+      ]
+    }
+  },
+  "tables": {
+    "oi_technical_indicators": {
+      "id": "oi_technical_indicators",
+      "status": "partial",
+      "reason": "insufficient_history",
+      "label_key": "screens.open_interest_and_funding.tables.oi_technical_indicators",
+      "timeframe": "1h",
+      "columns": [
+        "indicator",
+        "value",
+        "secondary_values",
+        "unit",
+        "classification_state",
+        "status",
+        "reason",
+        "timestamp"
+      ],
+      "rows": [
+        {
+          "id": "sma_20",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "USD",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.moving_averages.current.sma_20"
+        },
+        {
+          "id": "sma_50",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "USD",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.moving_averages.current.sma_50"
+        },
+        {
+          "id": "sma_100",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "USD",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.moving_averages.current.sma_100"
+        },
+        {
+          "id": "sma_200",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "USD",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.moving_averages.current.sma_200"
+        },
+        {
+          "id": "bollinger_percent_b",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "ratio",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.bollinger_bands.current.percent_b"
+        },
+        {
+          "id": "macd",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {
+            "signal": null,
+            "histogram": null
+          },
+          "unit": "USD",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.macd.current.macd"
+        },
+        {
+          "id": "adx",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "index_0_100",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.adx.current.adx"
+        },
+        {
+          "id": "di_plus",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "index_0_100",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.adx.current.di_plus"
+        },
+        {
+          "id": "di_minus",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "index_0_100",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.adx.current.di_minus"
+        },
+        {
+          "id": "stochastic_k",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "index_0_100",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.stochastic.current.k"
+        },
+        {
+          "id": "stochastic_d",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "index_0_100",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.stochastic.current.d"
+        },
+        {
+          "id": "atr",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "USD",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.atr.current.atr"
+        },
+        {
+          "id": "cci",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "index",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.cci.current.cci"
+        },
+        {
+          "id": "oi_roc",
+          "status": "partial",
+          "reason": "insufficient_history",
+          "value": null,
+          "secondary_values": {},
+          "unit": "percent",
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "indicators.open_interest.timeframes.1h.oi_roc.current.roc"
+        },
+        {
+          "id": "mfi",
+          "status": "unavailable",
+          "reason": "historical_volume_series_not_available",
+          "value": null,
+          "secondary_values": {},
+          "unit": null,
+          "timestamp": null,
+          "timeframe": "1h",
+          "classification_state": null,
+          "source_path": "availability.unavailable.mfi"
+        }
+      ],
+      "source_paths": [
+        "indicators.open_interest.timeframes.1h",
+        "availability.unavailable.mfi"
+      ]
+    }
+  },
+  "widgets": {
+    "oi_funding_state": {
+      "id": "oi_funding_state",
+      "status": "unavailable",
+      "reason": "insufficient_history_for_exact_24h_change",
+      "label_key": "screens.open_interest_and_funding.widgets.oi_funding_state",
+      "timeframe": "1h",
+      "timestamp": null,
+      "open_interest_change_state": null,
+      "funding_state": null,
+      "quadrant_state": null,
+      "source_paths": [
+        "classifications.by_timeframe.1h.current.open_interest_change_state",
+        "classifications.by_timeframe.1h.current.funding_state",
+        "classifications.by_timeframe.1h.current.oi_funding_quadrant"
+      ]
+    },
+    "provider_availability": {
+      "id": "provider_availability",
+      "status": "available",
+      "reason": null,
+      "label_key": "screens.open_interest_and_funding.widgets.provider_availability",
+      "rows": [
+        {
+          "metric": "open_interest",
+          "provider": "cryptoquant",
+          "status": "available",
+          "reason": null,
+          "provider_state": "provider_available",
+          "endpoint_id": "open_interest",
+          "unit": "USD",
+          "window_or_interval": "hour",
+          "source_path": "confirmations.open_interest.cryptoquant"
+        },
+        {
+          "metric": "open_interest",
+          "provider": "glassnode",
+          "status": "available",
+          "reason": null,
+          "provider_state": "provider_available",
+          "endpoint_id": "futures_open_interest_sum",
+          "unit": "USD",
+          "window_or_interval": null,
+          "source_path": "confirmations.open_interest.glassnode"
+        },
+        {
+          "metric": "funding_rate",
+          "provider": "cryptoquant",
+          "status": "available",
+          "reason": null,
+          "provider_state": "provider_available",
+          "endpoint_id": "funding_rates",
+          "unit": "percent",
+          "window_or_interval": "hour",
+          "source_path": "confirmations.funding_rate.cryptoquant"
+        },
+        {
+          "metric": "funding_rate",
+          "provider": "glassnode",
+          "status": "available",
+          "reason": null,
+          "provider_state": "provider_available",
+          "endpoint_id": "futures_funding_rate_perpetual",
+          "unit": "percent",
+          "window_or_interval": null,
+          "source_path": "confirmations.funding_rate.glassnode"
+        }
+      ],
+      "comparisons": {
+        "status": "unavailable",
+        "reason": "provider_scope_not_proven_comparable",
+        "provider_state": "provider_unavailable"
+      },
+      "source_paths": [
+        "confirmations.open_interest",
+        "confirmations.funding_rate",
+        "availability.unavailable.provider_comparisons"
+      ]
+    }
+  },
+  "drilldowns": {
+    "open_interest_by_exchange": {
+      "id": "open_interest_by_exchange",
+      "status": "available",
+      "reason": null,
+      "label_key": "screens.open_interest_and_funding.drilldowns.open_interest_by_exchange",
+      "columns": [
+        "exchange",
+        "open_interest_usd",
+        "open_interest_change_percent_24h"
+      ],
+      "records": [
+        {
+          "exchange": "All",
+          "open_interest_usd": 1000.0,
+          "open_interest_change_percent_24h": 6.0
+        }
+      ],
+      "aggregate_record": {
+        "exchange": "All",
+        "open_interest_usd": 1000.0,
+        "open_interest_change_percent_24h": 6.0
+      },
+      "metadata": {
+        "invalid_records": [],
+        "exchange_count": 0,
+        "current_total_usd": 1000.0,
+        "reported_changes": {
+          "status": "available",
+          "reason": null,
+          "value": 6.0,
+          "unit": "percent",
+          "provider": "coinglass",
+          "endpoint_id": "open_interest_exchange_list",
+          "source_scope": "all_exchanges",
+          "observation_timestamp": null
+        }
+      },
+      "source_path": "snapshots.open_interest_by_exchange"
+    },
+    "funding_rate_by_exchange": {
+      "id": "funding_rate_by_exchange",
+      "status": "available",
+      "reason": null,
+      "label_key": "screens.open_interest_and_funding.drilldowns.funding_rate_by_exchange",
+      "columns": [
+        "exchange",
+        "margin_type",
+        "funding_rate_percent",
+        "next_funding_timestamp"
+      ],
+      "records": [
+        {
+          "exchange": "Binance",
+          "margin_type": "stablecoin",
+          "funding_rate_percent": 0.01,
+          "next_funding_timestamp": 1800000000
+        },
+        {
+          "exchange": "Binance",
+          "margin_type": "token",
+          "funding_rate_percent": -0.02,
+          "next_funding_timestamp": 1800000000
+        }
+      ],
+      "aggregate_record": null,
+      "metadata": {
+        "invalid_records": [],
+        "stablecoin_margin_records": [
+          {
+            "exchange": "Binance",
+            "margin_type": "stablecoin",
+            "funding_rate_percent": 0.01,
+            "next_funding_timestamp": 1800000000
+          }
+        ],
+        "token_margin_records": [
+          {
+            "exchange": "Binance",
+            "margin_type": "token",
+            "funding_rate_percent": -0.02,
+            "next_funding_timestamp": 1800000000
+          }
+        ],
+        "exchange_count": 1,
+        "next_funding_timestamps": [
+          1800000000
+        ]
+      },
+      "source_path": "snapshots.funding_rate_by_exchange"
+    },
+    "options_open_interest": {
+      "id": "options_open_interest",
+      "status": "available",
+      "reason": null,
+      "label_key": "screens.open_interest_and_funding.drilldowns.options_open_interest",
+      "columns": [
+        "exchange",
+        "open_interest_usd",
+        "open_interest_contracts"
+      ],
+      "records": [
+        {
+          "exchange": "All",
+          "open_interest_usd": 500.0,
+          "open_interest_contracts": 5.0
+        }
+      ],
+      "aggregate_record": {
+        "exchange": "All",
+        "open_interest_usd": 500.0,
+        "open_interest_contracts": 5.0
+      },
+      "metadata": {
+        "invalid_records": [],
+        "current_options_open_interest_usd": 500.0,
+        "current_options_contracts": 5.0
+      },
+      "source_path": "snapshots.options_open_interest"
+    }
+  },
+  "events": {
+    "id": "recent_events",
+    "status": "available",
+    "reason": null,
+    "timeframe": "1h",
+    "order": "timestamp_desc_event_type_asc_event_id_asc",
+    "limit": 50,
+    "total_available": 0,
+    "items": [],
+    "event_markers": [],
+    "source_path": "interpreted_events"
+  },
+  "availability": {
+    "required": {
+      "timeframe_selector": {
+        "status": "available",
+        "reason": null,
+        "source_paths": []
+      },
+      "kpis.open_interest_usd": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "series.open_interest_ohlc.timeframes.1h.current.close"
+        ]
+      },
+      "kpis.oi_change_24h": {
+        "status": "partial",
+        "reason": "insufficient_history_for_exact_24h_change",
+        "source_paths": [
+          "series.open_interest_ohlc.timeframes.1h.derived.oi_change_24h.current.change_absolute_usd",
+          "series.open_interest_ohlc.timeframes.1h.derived.oi_change_24h.current.change_percent"
+        ]
+      },
+      "kpis.funding_rate": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "series.funding_rate_ohlc.timeframes.1h.current.close"
+        ]
+      },
+      "charts.open_interest_line": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "series.open_interest_ohlc.timeframes.1h"
+        ]
+      },
+      "charts.funding_rate_line": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "series.funding_rate_ohlc.timeframes.1h"
+        ]
+      },
+      "charts.open_interest_candlestick": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "series.open_interest_ohlc.timeframes.1h",
+          "indicators.open_interest.timeframes.1h.moving_averages"
+        ]
+      },
+      "charts.funding_candlestick": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "series.funding_rate_ohlc.timeframes.1h"
+        ]
+      },
+      "tables.oi_technical_indicators": {
+        "status": "partial",
+        "reason": "insufficient_history",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h",
+          "availability.unavailable.mfi"
+        ]
+      }
+    },
+    "optional": {
+      "charts.open_interest_interval_delta": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "series.open_interest_ohlc.timeframes.1h.derived.oi_delta"
+        ]
+      },
+      "charts.oi_funding_overlay": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "series.open_interest_ohlc.timeframes.1h",
+          "series.funding_rate_ohlc.timeframes.1h"
+        ]
+      },
+      "charts.bollinger_bands": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h.bollinger_bands"
+        ]
+      },
+      "charts.macd": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h.macd"
+        ]
+      },
+      "charts.adx_di": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h.adx"
+        ]
+      },
+      "charts.stochastic": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h.stochastic"
+        ]
+      },
+      "charts.atr": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h.atr"
+        ]
+      },
+      "charts.cci": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h.cci"
+        ]
+      },
+      "charts.oi_roc": {
+        "status": "partial",
+        "reason": "current_unavailable_history_available",
+        "source_paths": [
+          "indicators.open_interest.timeframes.1h.oi_roc"
+        ]
+      },
+      "widgets.oi_funding_state": {
+        "status": "unavailable",
+        "reason": "insufficient_history_for_exact_24h_change",
+        "source_paths": [
+          "classifications.by_timeframe.1h.current.open_interest_change_state",
+          "classifications.by_timeframe.1h.current.funding_state",
+          "classifications.by_timeframe.1h.current.oi_funding_quadrant"
+        ]
+      },
+      "widgets.provider_availability": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "confirmations.open_interest",
+          "confirmations.funding_rate",
+          "availability.unavailable.provider_comparisons"
+        ]
+      },
+      "drilldowns.open_interest_by_exchange": {
+        "status": "available",
+        "reason": null,
+        "source_paths": []
+      },
+      "drilldowns.funding_rate_by_exchange": {
+        "status": "available",
+        "reason": null,
+        "source_paths": []
+      },
+      "drilldowns.options_open_interest": {
+        "status": "available",
+        "reason": null,
+        "source_paths": []
+      },
+      "events.recent_events": {
+        "status": "available",
+        "reason": null,
+        "source_paths": []
+      }
+    },
+    "passthrough": {
+      "snapshots": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "snapshots"
+        ]
+      },
+      "confirmations": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "confirmations"
+        ]
+      },
+      "events": {
+        "status": "available",
+        "reason": null,
+        "source_paths": [
+          "interpreted_events"
+        ]
+      }
+    },
+    "placeholders": {
+      "oi_market_cap_ratio": {
+        "status": "unavailable",
+        "reason": "market_cap_source_not_configured",
+        "source_paths": [
+          "availability.unavailable.open_interest_market_cap_ratio"
+        ]
+      },
+      "funding_8h": {
+        "status": "unavailable",
+        "reason": "cross_exchange_8h_weighting_not_defined",
+        "source_paths": [
+          "availability.unavailable.funding_8h_aggregate"
+        ]
+      },
+      "mfi": {
+        "status": "unavailable",
+        "reason": "historical_volume_series_not_available",
+        "source_paths": [
+          "availability.unavailable.mfi"
+        ]
+      },
+      "oi_market_cap": {
+        "status": "unavailable",
+        "reason": "market_cap_source_not_configured",
+        "source_paths": [
+          "availability.unavailable.open_interest_market_cap_ratio"
+        ]
+      },
+      "oi_vs_price": {
+        "status": "unavailable",
+        "reason": "price_source_not_available_in_processing_contract",
+        "source_paths": [
+          "availability.unavailable.price_comparison"
+        ]
+      },
+      "contract_type_split": {
+        "status": "unavailable",
+        "reason": "dated_futures_open_interest_not_separated_by_current_sources",
+        "source_paths": [
+          "availability.unavailable.contract_type_split"
+        ]
+      },
+      "provider_comparisons": {
+        "status": "unavailable",
+        "reason": "provider_scope_not_proven_comparable",
+        "source_paths": [
+          "availability.unavailable.provider_comparisons"
+        ]
+      }
+    }
+  },
+  "quality": {
+    "status": "partial",
+    "contract_complete": true,
+    "data_complete": false,
+    "source_quality": {
+      "processing": {
+        "status": "partial",
+        "contract_complete": true,
+        "data_complete": false,
+        "source_statuses": {
+          "open_interest_ohlc.1m": "available",
+          "open_interest_ohlc.5m": "available",
+          "open_interest_ohlc.15m": "available",
+          "open_interest_ohlc.1h": "available",
+          "open_interest_ohlc.4h": "available",
+          "open_interest_ohlc.1d": "available",
+          "funding_rate_ohlc.1m": "available",
+          "funding_rate_ohlc.5m": "available",
+          "funding_rate_ohlc.15m": "available",
+          "funding_rate_ohlc.1h": "available",
+          "funding_rate_ohlc.4h": "available",
+          "funding_rate_ohlc.1d": "available"
+        },
+        "calculation_statuses": {
+          "moving_averages.1m": "partial",
+          "bollinger_bands.1m": "partial",
+          "macd.1m": "partial",
+          "adx.1m": "partial",
+          "stochastic.1m": "partial",
+          "atr.1m": "partial",
+          "cci.1m": "partial",
+          "oi_roc.1m": "partial",
+          "moving_averages.5m": "partial",
+          "bollinger_bands.5m": "partial",
+          "macd.5m": "partial",
+          "adx.5m": "partial",
+          "stochastic.5m": "partial",
+          "atr.5m": "partial",
+          "cci.5m": "partial",
+          "oi_roc.5m": "partial",
+          "moving_averages.15m": "partial",
+          "bollinger_bands.15m": "partial",
+          "macd.15m": "partial",
+          "adx.15m": "partial",
+          "stochastic.15m": "partial",
+          "atr.15m": "partial",
+          "cci.15m": "partial",
+          "oi_roc.15m": "partial",
+          "moving_averages.1h": "partial",
+          "bollinger_bands.1h": "partial",
+          "macd.1h": "partial",
+          "adx.1h": "partial",
+          "stochastic.1h": "partial",
+          "atr.1h": "partial",
+          "cci.1h": "partial",
+          "oi_roc.1h": "partial",
+          "moving_averages.4h": "partial",
+          "bollinger_bands.4h": "partial",
+          "macd.4h": "partial",
+          "adx.4h": "partial",
+          "stochastic.4h": "partial",
+          "atr.4h": "partial",
+          "cci.4h": "partial",
+          "oi_roc.4h": "partial",
+          "moving_averages.1d": "partial",
+          "bollinger_bands.1d": "partial",
+          "macd.1d": "partial",
+          "adx.1d": "partial",
+          "stochastic.1d": "partial",
+          "atr.1d": "partial",
+          "cci.1d": "partial",
+          "oi_roc.1d": "partial",
+          "oi_delta.1m": "partial",
+          "oi_delta.5m": "partial",
+          "oi_delta.15m": "partial",
+          "oi_delta.1h": "partial",
+          "oi_delta.4h": "partial",
+          "oi_delta.1d": "partial",
+          "oi_change_24h.1m": "partial",
+          "oi_change_24h.5m": "partial",
+          "oi_change_24h.15m": "partial",
+          "oi_change_24h.1h": "partial",
+          "oi_change_24h.4h": "partial",
+          "oi_change_24h.1d": "partial"
+        },
+        "records_processed": {
+          "open_interest_ohlc": {
+            "1m": 1,
+            "5m": 1,
+            "15m": 1,
+            "1h": 1,
+            "4h": 1,
+            "1d": 1
+          },
+          "funding_rate_ohlc": {
+            "1m": 1,
+            "5m": 1,
+            "15m": 1,
+            "1h": 1,
+            "4h": 1,
+            "1d": 1
+          }
+        },
+        "gaps_present": false,
+        "warnings": [],
+        "errors": []
+      },
+      "classification": {
+        "status": "partial",
+        "contract_complete": true,
+        "data_complete": false,
+        "processing_quality": {
+          "status": "partial",
+          "contract_complete": true,
+          "data_complete": false,
+          "source_statuses": {
+            "open_interest_ohlc.1m": "available",
+            "open_interest_ohlc.5m": "available",
+            "open_interest_ohlc.15m": "available",
+            "open_interest_ohlc.1h": "available",
+            "open_interest_ohlc.4h": "available",
+            "open_interest_ohlc.1d": "available",
+            "funding_rate_ohlc.1m": "available",
+            "funding_rate_ohlc.5m": "available",
+            "funding_rate_ohlc.15m": "available",
+            "funding_rate_ohlc.1h": "available",
+            "funding_rate_ohlc.4h": "available",
+            "funding_rate_ohlc.1d": "available"
+          },
+          "calculation_statuses": {
+            "moving_averages.1m": "partial",
+            "bollinger_bands.1m": "partial",
+            "macd.1m": "partial",
+            "adx.1m": "partial",
+            "stochastic.1m": "partial",
+            "atr.1m": "partial",
+            "cci.1m": "partial",
+            "oi_roc.1m": "partial",
+            "moving_averages.5m": "partial",
+            "bollinger_bands.5m": "partial",
+            "macd.5m": "partial",
+            "adx.5m": "partial",
+            "stochastic.5m": "partial",
+            "atr.5m": "partial",
+            "cci.5m": "partial",
+            "oi_roc.5m": "partial",
+            "moving_averages.15m": "partial",
+            "bollinger_bands.15m": "partial",
+            "macd.15m": "partial",
+            "adx.15m": "partial",
+            "stochastic.15m": "partial",
+            "atr.15m": "partial",
+            "cci.15m": "partial",
+            "oi_roc.15m": "partial",
+            "moving_averages.1h": "partial",
+            "bollinger_bands.1h": "partial",
+            "macd.1h": "partial",
+            "adx.1h": "partial",
+            "stochastic.1h": "partial",
+            "atr.1h": "partial",
+            "cci.1h": "partial",
+            "oi_roc.1h": "partial",
+            "moving_averages.4h": "partial",
+            "bollinger_bands.4h": "partial",
+            "macd.4h": "partial",
+            "adx.4h": "partial",
+            "stochastic.4h": "partial",
+            "atr.4h": "partial",
+            "cci.4h": "partial",
+            "oi_roc.4h": "partial",
+            "moving_averages.1d": "partial",
+            "bollinger_bands.1d": "partial",
+            "macd.1d": "partial",
+            "adx.1d": "partial",
+            "stochastic.1d": "partial",
+            "atr.1d": "partial",
+            "cci.1d": "partial",
+            "oi_roc.1d": "partial",
+            "oi_delta.1m": "partial",
+            "oi_delta.5m": "partial",
+            "oi_delta.15m": "partial",
+            "oi_delta.1h": "partial",
+            "oi_delta.4h": "partial",
+            "oi_delta.1d": "partial",
+            "oi_change_24h.1m": "partial",
+            "oi_change_24h.5m": "partial",
+            "oi_change_24h.15m": "partial",
+            "oi_change_24h.1h": "partial",
+            "oi_change_24h.4h": "partial",
+            "oi_change_24h.1d": "partial"
+          },
+          "records_processed": {
+            "open_interest_ohlc": {
+              "1m": 1,
+              "5m": 1,
+              "15m": 1,
+              "1h": 1,
+              "4h": 1,
+              "1d": 1
+            },
+            "funding_rate_ohlc": {
+              "1m": 1,
+              "5m": 1,
+              "15m": 1,
+              "1h": 1,
+              "4h": 1,
+              "1d": 1
+            }
+          },
+          "gaps_present": false,
+          "warnings": [],
+          "errors": []
+        },
+        "classification_quality": {
+          "status": "partial",
+          "required_statuses": {
+            "1m.open_interest_change_state": "unavailable",
+            "1m.funding_state": "available",
+            "1m.oi_funding_quadrant": "unavailable",
+            "5m.open_interest_change_state": "unavailable",
+            "5m.funding_state": "available",
+            "5m.oi_funding_quadrant": "unavailable",
+            "15m.open_interest_change_state": "unavailable",
+            "15m.funding_state": "available",
+            "15m.oi_funding_quadrant": "unavailable",
+            "1h.open_interest_change_state": "unavailable",
+            "1h.funding_state": "available",
+            "1h.oi_funding_quadrant": "unavailable",
+            "4h.open_interest_change_state": "unavailable",
+            "4h.funding_state": "available",
+            "4h.oi_funding_quadrant": "unavailable",
+            "1d.open_interest_change_state": "unavailable",
+            "1d.funding_state": "available",
+            "1d.oi_funding_quadrant": "unavailable"
+          },
+          "optional_statuses": {
+            "1m.oi_trend_strength": "unavailable",
+            "1m.directional_index_relation": "unavailable",
+            "1m.macd_relation": "unavailable",
+            "1m.stochastic_range_state": "unavailable",
+            "1m.bollinger_position": "unavailable",
+            "1m.cci_state": "unavailable",
+            "1m.oi_roc_state": "unavailable",
+            "5m.oi_trend_strength": "unavailable",
+            "5m.directional_index_relation": "unavailable",
+            "5m.macd_relation": "unavailable",
+            "5m.stochastic_range_state": "unavailable",
+            "5m.bollinger_position": "unavailable",
+            "5m.cci_state": "unavailable",
+            "5m.oi_roc_state": "unavailable",
+            "15m.oi_trend_strength": "unavailable",
+            "15m.directional_index_relation": "unavailable",
+            "15m.macd_relation": "unavailable",
+            "15m.stochastic_range_state": "unavailable",
+            "15m.bollinger_position": "unavailable",
+            "15m.cci_state": "unavailable",
+            "15m.oi_roc_state": "unavailable",
+            "1h.oi_trend_strength": "unavailable",
+            "1h.directional_index_relation": "unavailable",
+            "1h.macd_relation": "unavailable",
+            "1h.stochastic_range_state": "unavailable",
+            "1h.bollinger_position": "unavailable",
+            "1h.cci_state": "unavailable",
+            "1h.oi_roc_state": "unavailable",
+            "4h.oi_trend_strength": "unavailable",
+            "4h.directional_index_relation": "unavailable",
+            "4h.macd_relation": "unavailable",
+            "4h.stochastic_range_state": "unavailable",
+            "4h.bollinger_position": "unavailable",
+            "4h.cci_state": "unavailable",
+            "4h.oi_roc_state": "unavailable",
+            "1d.oi_trend_strength": "unavailable",
+            "1d.directional_index_relation": "unavailable",
+            "1d.macd_relation": "unavailable",
+            "1d.stochastic_range_state": "unavailable",
+            "1d.bollinger_position": "unavailable",
+            "1d.cci_state": "unavailable",
+            "1d.oi_roc_state": "unavailable"
+          },
+          "passthrough_statuses": {
+            "snapshots": {
+              "open_interest_by_exchange": "available",
+              "funding_rate_by_exchange": "available",
+              "options_open_interest": "available",
+              "current_open_interest": "invalid"
+            },
+            "confirmations": {
+              "open_interest": {
+                "cryptoquant": "available",
+                "glassnode": "available"
+              },
+              "funding_rate": {
+                "cryptoquant": "available",
+                "glassnode": "available"
+              }
+            }
+          }
+        },
+        "warnings": [
+          "optional_unavailable:15m.bollinger_position",
+          "optional_unavailable:15m.cci_state",
+          "optional_unavailable:15m.directional_index_relation",
+          "optional_unavailable:15m.macd_relation",
+          "optional_unavailable:15m.oi_roc_state",
+          "optional_unavailable:15m.oi_trend_strength",
+          "optional_unavailable:15m.stochastic_range_state",
+          "optional_unavailable:1d.bollinger_position",
+          "optional_unavailable:1d.cci_state",
+          "optional_unavailable:1d.directional_index_relation",
+          "optional_unavailable:1d.macd_relation",
+          "optional_unavailable:1d.oi_roc_state",
+          "optional_unavailable:1d.oi_trend_strength",
+          "optional_unavailable:1d.stochastic_range_state",
+          "optional_unavailable:1h.bollinger_position",
+          "optional_unavailable:1h.cci_state",
+          "optional_unavailable:1h.directional_index_relation",
+          "optional_unavailable:1h.macd_relation",
+          "optional_unavailable:1h.oi_roc_state",
+          "optional_unavailable:1h.oi_trend_strength",
+          "optional_unavailable:1h.stochastic_range_state",
+          "optional_unavailable:1m.bollinger_position",
+          "optional_unavailable:1m.cci_state",
+          "optional_unavailable:1m.directional_index_relation",
+          "optional_unavailable:1m.macd_relation",
+          "optional_unavailable:1m.oi_roc_state",
+          "optional_unavailable:1m.oi_trend_strength",
+          "optional_unavailable:1m.stochastic_range_state",
+          "optional_unavailable:4h.bollinger_position",
+          "optional_unavailable:4h.cci_state",
+          "optional_unavailable:4h.directional_index_relation",
+          "optional_unavailable:4h.macd_relation",
+          "optional_unavailable:4h.oi_roc_state",
+          "optional_unavailable:4h.oi_trend_strength",
+          "optional_unavailable:4h.stochastic_range_state",
+          "optional_unavailable:5m.bollinger_position",
+          "optional_unavailable:5m.cci_state",
+          "optional_unavailable:5m.directional_index_relation",
+          "optional_unavailable:5m.macd_relation",
+          "optional_unavailable:5m.oi_roc_state",
+          "optional_unavailable:5m.oi_trend_strength",
+          "optional_unavailable:5m.stochastic_range_state"
+        ],
+        "errors": []
+      }
+    },
+    "builder_quality": {
+      "status": "partial",
+      "warnings": [
+        "optional_partial:charts.adx_di",
+        "optional_partial:charts.atr",
+        "optional_partial:charts.bollinger_bands",
+        "optional_partial:charts.cci",
+        "optional_partial:charts.macd",
+        "optional_partial:charts.oi_roc",
+        "optional_partial:charts.open_interest_interval_delta",
+        "optional_partial:charts.stochastic",
+        "optional_unavailable:widgets.oi_funding_state",
+        "required_partial:charts.open_interest_candlestick",
+        "required_partial:kpis.oi_change_24h",
+        "required_partial:tables.oi_technical_indicators"
+      ],
+      "errors": []
+    },
+    "required_statuses": {
+      "timeframe_selector": "available",
+      "kpis.open_interest_usd": "available",
+      "kpis.oi_change_24h": "partial",
+      "kpis.funding_rate": "available",
+      "charts.open_interest_line": "available",
+      "charts.funding_rate_line": "available",
+      "charts.open_interest_candlestick": "partial",
+      "charts.funding_candlestick": "available",
+      "tables.oi_technical_indicators": "partial"
+    },
+    "optional_statuses": {
+      "charts.open_interest_interval_delta": "partial",
+      "charts.oi_funding_overlay": "available",
+      "charts.bollinger_bands": "partial",
+      "charts.macd": "partial",
+      "charts.adx_di": "partial",
+      "charts.stochastic": "partial",
+      "charts.atr": "partial",
+      "charts.cci": "partial",
+      "charts.oi_roc": "partial",
+      "widgets.oi_funding_state": "unavailable",
+      "widgets.provider_availability": "available",
+      "drilldowns.open_interest_by_exchange": "available",
+      "drilldowns.funding_rate_by_exchange": "available",
+      "drilldowns.options_open_interest": "available",
+      "events.recent_events": "available"
+    },
+    "placeholder_statuses": {
+      "oi_market_cap_ratio": "unavailable",
+      "funding_8h": "unavailable",
+      "mfi": "unavailable",
+      "oi_market_cap": "unavailable",
+      "oi_vs_price": "unavailable",
+      "contract_type_split": "unavailable",
+      "provider_comparisons": "unavailable"
+    },
+    "warnings": [
+      "optional_partial:charts.adx_di",
+      "optional_partial:charts.atr",
+      "optional_partial:charts.bollinger_bands",
+      "optional_partial:charts.cci",
+      "optional_partial:charts.macd",
+      "optional_partial:charts.oi_roc",
+      "optional_partial:charts.open_interest_interval_delta",
+      "optional_partial:charts.stochastic",
+      "optional_unavailable:widgets.oi_funding_state",
+      "required_partial:charts.open_interest_candlestick",
+      "required_partial:kpis.oi_change_24h",
+      "required_partial:tables.oi_technical_indicators"
+    ],
+    "errors": []
+  }
+}

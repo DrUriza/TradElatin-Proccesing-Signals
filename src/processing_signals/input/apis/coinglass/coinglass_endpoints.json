@@ -201,66 +201,52 @@
       ]
     },
     {
-      "provider": "coinglass",
-      "family": "liquidity_microstructure",
-      "endpoint_id": "orderbook_conventional",
-      "live_path": "/api/futures/orderbook/ask-bids-history",
-      "extraction_mode": "fixed_window",
-      "raw_shape": "code_msg_data_orderbook_snapshots",
-      "windows": [
-        "latest",
-        "24h"
-      ],
-      "direct_graphs": [
-        "orderbook_conventional"
-      ],
-      "derived_graphs": [
-        "orderbook_conventional_candles",
-        "depth_volume",
-        "spread_line",
-        "bid_ask_imbalance"
-      ]
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "spot_orderbook_heatmap",
+      "live_path": "/api/spot/orderbook/history", "transport": "rest", "method": "GET",
+      "extraction_mode": "provider_interval", "raw_shape": "code_msg_data_orderbook_snapshots",
+      "timeframes": ["1m", "5m", "15m", "1h"], "direct_graphs": [], "derived_graphs": []
     },
     {
-      "provider": "coinglass",
-      "family": "liquidity_microstructure",
-      "endpoint_id": "orderbook_large_trades",
-      "live_path": "/api/futures/orderbook/large-limit-order",
-      "extraction_mode": "fixed_window",
-      "raw_shape": "code_msg_data_event_list",
-      "windows": [
-        "latest"
-      ],
-      "direct_graphs": [
-        "orderbook_large_trades"
-      ],
-      "derived_graphs": [
-        "orderbook_whale_orders",
-        "liquidity_walls",
-        "orderbook_large_trades_candles",
-        "orderbook_whale_orders_candles"
-      ]
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "perpetual_orderbook_heatmap",
+      "live_path": "/api/futures/orderbook/history", "transport": "rest", "method": "GET",
+      "extraction_mode": "provider_interval", "raw_shape": "code_msg_data_orderbook_snapshots",
+      "timeframes": ["1m", "5m", "15m", "1h"], "direct_graphs": [], "derived_graphs": []
     },
     {
-      "provider": "coinglass",
-      "family": "liquidity_microstructure",
-      "endpoint_id": "market_depth",
-      "live_path": "/api/futures/orderbook/aggregated-ask-bids-history",
-      "extraction_mode": "fixed_window",
-      "raw_shape": "code_msg_data_depth_snapshots",
-      "windows": [
-        "24h"
-      ],
-      "direct_graphs": [
-        "market_depth_conventional",
-        "depth_volume"
-      ],
-      "derived_graphs": [
-        "market_depth_large_trades",
-        "market_depth_whale_orders",
-        "spread_line",
-        "bid_ask_imbalance"
-      ]
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "spot_order_depth",
+      "live_path": "/api/spot/orderbook/ask-bids-history", "transport": "rest", "method": "GET",
+      "extraction_mode": "provider_interval", "raw_shape": "code_msg_data_depth_snapshots",
+      "timeframes": ["1m", "5m", "15m", "1h"], "depth_ranges_percent": [1, 5, 10], "direct_graphs": [], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "perpetual_order_depth",
+      "live_path": "/api/futures/orderbook/ask-bids-history", "transport": "rest", "method": "GET",
+      "extraction_mode": "provider_interval", "raw_shape": "code_msg_data_depth_snapshots",
+      "timeframes": ["1m", "5m", "15m", "1h"], "depth_ranges_percent": [1, 5, 10], "direct_graphs": [], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "spot_large_trades",
+      "live_path": null, "transport": "websocket", "base_url": "wss://open-ws.coinglass.com/ws-api",
+      "channel_template": "spot_trades@{exchange}_{symbol}@{minVol}", "method": "SUBSCRIBE",
+      "extraction_mode": "stream", "raw_shape": "websocket_trade_events", "direct_graphs": [], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "perpetual_large_trades",
+      "live_path": null, "transport": "websocket", "base_url": "wss://open-ws.coinglass.com/ws-api",
+      "channel_template": "futures_trades@{exchange}_{symbol}@{minVol}", "method": "SUBSCRIBE",
+      "extraction_mode": "stream", "raw_shape": "websocket_trade_events", "direct_graphs": [], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "whale_index",
+      "live_path": "/api/futures/whale-index/history", "transport": "rest", "method": "GET",
+      "extraction_mode": "provider_interval", "raw_shape": "code_msg_data_whale_index",
+      "timeframes": ["1m", "5m", "15m", "1h"], "direct_graphs": [], "derived_graphs": []
+    },
+    {
+      "provider": "coinglass", "family": "liquidity_microstructure", "endpoint_id": "market_data_history",
+      "live_path": "/api/coin/market-data-history", "transport": "rest", "method": "GET",
+      "extraction_mode": "fixed_window", "raw_shape": "code_msg_data_market_history",
+      "windows": ["daily_available"], "direct_graphs": [], "derived_graphs": []
     },
     {
       "provider": "coinglass",

@@ -1,0 +1,295 @@
+"""Validation, normalization and state merge for Liquidity Microstructure Input v0.1."""
+
+from __future__ import annotations
+
+from collections.abc import Mapping, Sequence
+from copy import deepcopy
+import hashlib
+import json
+import math
+import time
+from typing import Any
+
+from .liquidity_microstructure_data_raw_extract import (
+    LIQUIDITY_MICROSTRUCTURE_FAMILY, VALID_MODES, RawFetcher, extract_liquidity_microstructure_raw,
+)
+
+DATASET_STATES = {"available", "partial", "unavailable", "invalid"}
+REQUIRED_DATASETS = (
+    "coinglass.orderbook.spot", "coinglass.orderbook.perpetual", "coinglass.order_depth.spot",
+    "coinglass.order_depth.perpetual", "coinglass.whale_activity", "coinglass.market_history",
+)
+OPTIONAL_DATASETS = ("coinglass.large_trades.spot", "coinglass.large_trades.perpetual")
+
+
+def _finite(value: Any, field: str, *, positive: bool = False, nonnegative: bool = False) -> float:
+    if isinstance(value, bool):
+        raise ValueError(f"{field}_boolean_not_allowed")
+    try:
+        number = float(value)
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"{field}_must_be_numeric") from exc
+    if not math.isfinite(number) or (positive and number <= 0) or (nonnegative and number < 0):
+        raise ValueError(f"{field}_out_of_range")
+    return number
+
+
+def _timestamp(value: Any) -> tuple[int, str]:
+    number = _finite(value, "timestamp", positive=True)
+    unit = "milliseconds" if number >= 100_000_000_000 else "seconds"
+    return int(number / 1000 if unit == "milliseconds" else number), unit
+
+
+def _envelope(response: Any, *, websocket: bool = False) -> list[Any]:
+    if websocket:
+        if response is None:
+            return []
+        if isinstance(response, list):
+            return response
+        if isinstance(response, Mapping):
+            data = response.get("data", response.get("events", []))
+            return data if isinstance(data, list) else [data]
+        raise ValueError("websocket_response_invalid")
+    if not isinstance(response, Mapping) or response.get("code") not in (0, "0") or "data" not in response:
+        raise ValueError("coinglass_envelope_invalid")
+    data = response["data"]
+    if isinstance(data, Mapping) and isinstance(data.get("data"), list):
+        data = data["data"]
+    if not isinstance(data, list):
+        raise ValueError("coinglass_data_must_be_list")
+    return data
+
+
+def _levels(value: Any, *, descending: bool) -> list[dict[str, float]]:
+    if not isinstance(value, Sequence) or isinstance(value, (str, bytes)):
+        raise ValueError("orderbook_levels_invalid")
+    result = []
+    for row in value:
+        if isinstance(row, Mapping):
+            price, quantity = row.get("price"), row.get("quantity", row.get("volume"))
+        elif isinstance(row, Sequence) and not isinstance(row, (str, bytes)) and len(row) >= 2:
+            price, quantity = row[0], row[1]
+        else:
+            raise ValueError("orderbook_level_invalid")
+        result.append({"price": _finite(price, "price", positive=True), "quantity": _finite(quantity, "quantity", nonnegative=True)})
+    return sorted(result, key=lambda row: row["price"], reverse=descending)
+
+
+def _record_time(record: Mapping[str, Any]) -> tuple[int, str]:
+    return _timestamp(record.get("timestamp", record.get("time", record.get("t"))))
+
+
+def _normalize_heatmap(record: Mapping[str, Any], request: Mapping[str, Any]) -> tuple[dict[str, Any], str | None, str]:
+    timestamp, unit = _record_time(record)
+    base = {"timestamp": timestamp, "market_type": request["dimensions"]["market_type"],
+            "exchange": request["dimensions"]["exchange"], "symbol": request["dimensions"]["symbol"],
+            "timeframe": request["dimensions"]["timeframe"]}
+    if "bids" in record and "asks" in record:
+        return {**base, "bid_levels": _levels(record["bids"], descending=True), "ask_levels": _levels(record["asks"], descending=False)}, None, unit
+    sides = record.get("data", record.get("levels"))
+    if isinstance(sides, Sequence) and len(sides) >= 2:
+        return {**base, "provider_side_0": _levels(sides[0], descending=False),
+                "provider_side_1": _levels(sides[1], descending=False)}, "orderbook_side_mapping_unverified", unit
+    raise ValueError("orderbook_snapshot_shape_invalid")
+
+
+def _normalize_depth(record: Mapping[str, Any], request: Mapping[str, Any]) -> tuple[dict[str, Any], str]:
+    timestamp, unit = _record_time(record)
+    dimensions = request["dimensions"]
+    aliases = {"bids_usd": ("bids_usd", "bid_usd", "bidUsd"), "bids_quantity": ("bids_quantity", "bid_quantity", "bidQuantity"),
+               "asks_usd": ("asks_usd", "ask_usd", "askUsd"), "asks_quantity": ("asks_quantity", "ask_quantity", "askQuantity")}
+    output = {"timestamp": timestamp, "market_type": dimensions["market_type"], "exchange": dimensions["exchange"],
+              "symbol": dimensions["symbol"], "timeframe": dimensions["timeframe"], "range_percent": dimensions["range_percent"]}
+    for target, names in aliases.items():
+        output[target] = _finite(next((record[name] for name in names if name in record), None), target, nonnegative=True)
+    return output, unit
+
+
+def _normalize_trade(record: Mapping[str, Any], request: Mapping[str, Any]) -> tuple[dict[str, Any], str]:
+    timestamp, unit = _record_time(record)
+    side_raw = record.get("side")
+    if side_raw not in (1, 2):
+        raise ValueError("large_trade_side_invalid")
+    dimensions, channel = request["dimensions"], request["channel"]
+    price = _finite(record.get("price"), "price", positive=True)
+    volume = _finite(record.get("volume_usd"), "volume_usd", nonnegative=True)
+    identity = "|".join(map(str, ("coinglass", channel, dimensions["exchange"], dimensions["market_type"], dimensions["symbol"],
+                                   timestamp, price, volume, side_raw)))
+    threshold = _finite(request["params"]["min_volume_usd"], "min_volume_usd", nonnegative=True)
+    return {"event_id": str(record.get("trade_id") or hashlib.sha256(identity.encode()).hexdigest()), "timestamp": timestamp,
+            "market_type": dimensions["market_type"], "exchange": str(record.get("exchange", dimensions["exchange"])),
+            "symbol": str(record.get("symbol", dimensions["symbol"])), "base_asset": str(record.get("base_asset", dimensions["asset"])),
+            "side": "sell" if side_raw == 1 else "buy", "price": price, "volume_usd": volume,
+            "provider_channel": channel, "configured_min_volume_usd": threshold,
+            "meets_configured_threshold": volume >= threshold}, unit
+
+
+def _normalize_whale(record: Mapping[str, Any], request: Mapping[str, Any]) -> tuple[dict[str, Any], str]:
+    timestamp, unit = _record_time(record)
+    dimensions = request["dimensions"]
+    return {"timestamp": timestamp, "market_type": "perpetual", "exchange": dimensions["exchange"],
+            "symbol": dimensions["symbol"], "timeframe": dimensions["timeframe"],
+            "whale_index_value": _finite(record.get("whale_index_value", record.get("whaleIndexValue")), "whale_index_value")}, unit
+
+
+def _normalize_market(record: Mapping[str, Any], request: Mapping[str, Any]) -> tuple[dict[str, Any], str]:
+    timestamp, unit = _record_time(record)
+    return {"timestamp": timestamp, "asset": request["dimensions"]["asset"], "price": _finite(record.get("price"), "price", positive=True),
+            "circulating_supply": _finite(record.get("circulating_supply"), "circulating_supply", nonnegative=True),
+            "market_cap": _finite(record.get("market_cap"), "market_cap", nonnegative=True)}, unit
+
+
+def _dataset_key(request: Mapping[str, Any]) -> str:
+    endpoint, market = request["endpoint_id"], request["dimensions"].get("market_type")
+    if "orderbook_heatmap" in endpoint:
+        return f"coinglass.orderbook.{market}"
+    if "order_depth" in endpoint:
+        return f"coinglass.order_depth.{market}"
+    if "large_trades" in endpoint:
+        return f"coinglass.large_trades.{market}"
+    return "coinglass.whale_activity" if endpoint == "whale_index" else "coinglass.market_history"
+
+
+def validate_liquidity_microstructure_raw_bundle(bundle: Mapping[str, Any]) -> None:
+    if not isinstance(bundle, Mapping) or bundle.get("family") != LIQUIDITY_MICROSTRUCTURE_FAMILY or not isinstance(bundle.get("requests"), list):
+        raise ValueError("invalid_liquidity_microstructure_raw_bundle")
+    for request in bundle["requests"]:
+        if not isinstance(request, Mapping) or request.get("status") not in {"ok", "error"}:
+            raise ValueError("invalid_liquidity_microstructure_raw_request")
+
+
+def determine_liquidity_microstructure_input_mode(*, requested_mode: str | None = None,
+                                                   existing_contract: Mapping[str, Any] | None = None,
+                                                   recovery_requests: Sequence[Any] | None = None) -> str:
+    mode = requested_mode or ("incremental" if existing_contract else "bootstrap")
+    if mode not in VALID_MODES or (mode == "recovery" and not recovery_requests):
+        raise ValueError("invalid_liquidity_microstructure_input_mode")
+    return mode
+
+
+def _empty_dataset() -> dict[str, Any]:
+    return {"status": "unavailable", "reason": "no_data", "records": [], "incoming_records": 0,
+            "source_data_as_of": None, "provenance": {"provider": "coinglass", "timestamp_units": []}, "warnings": [], "errors": []}
+
+
+def _get_existing(contract: Mapping[str, Any] | None, key: str) -> Mapping[str, Any] | None:
+    if not contract:
+        return None
+    node: Any = contract.get("providers", {}).get("coinglass", {})
+    for part in key.split(".")[1:]:
+        node = node.get(part, {}) if isinstance(node, Mapping) else {}
+    return node if isinstance(node, Mapping) and "status" in node else None
+
+
+def _merge(existing: Mapping[str, Any] | None, incoming: list[dict[str, Any]], *, events: bool = False) -> list[dict[str, Any]]:
+    old = list((existing or {}).get("events" if events else "records", []))
+    def identity(row: Mapping[str, Any]) -> Any:
+        if events:
+            return row["event_id"]
+        return (row["timestamp"], row.get("market_type"), row.get("timeframe"), row.get("range_percent"))
+    merged = {identity(row): deepcopy(dict(row)) for row in old}
+    merged.update({identity(row): row for row in incoming})
+    return sorted(merged.values(), key=lambda row: (row["timestamp"], str(identity(row))))
+
+
+class LiquidityMicrostructureInputPreprocessor:
+    def preprocess(self, raw_bundle: Mapping[str, Any], *, existing_contract: Mapping[str, Any] | None = None,
+                   reference_timestamp: int | None = None, execution_timestamp: int | None = None,
+                   data_mode: str = "live", is_demo: bool = False, debug_raw: bool = False) -> dict[str, Any]:
+        validate_liquidity_microstructure_raw_bundle(raw_bundle)
+        mode = str(raw_bundle["mode"])
+        grouped: dict[str, list[Mapping[str, Any]]] = {}
+        for request in raw_bundle["requests"]:
+            grouped.setdefault(_dataset_key(request), []).append(request)
+        datasets: dict[str, dict[str, Any]] = {}
+        for key in (*REQUIRED_DATASETS, *OPTIONAL_DATASETS):
+            existing = _get_existing(existing_contract, key)
+            incoming: list[dict[str, Any]] = []
+            warnings: list[str] = []
+            errors: list[str] = []
+            units: set[str] = set()
+            requests = grouped.get(key, [])
+            if not requests and existing is not None:
+                datasets[key] = deepcopy(dict(existing))
+                continue
+            for request in requests:
+                if request["status"] == "error":
+                    errors.append(f'{request["request_id"]}:{request["error"]["type"]}')
+                    continue
+                try:
+                    records = _envelope(request["response"], websocket=request["transport"] == "websocket")
+                    for record in records:
+                        if not isinstance(record, Mapping):
+                            raise ValueError("record_must_be_mapping")
+                        if ".orderbook." in key:
+                            normalized, warning, unit = _normalize_heatmap(record, request)
+                            if warning:
+                                warnings.append(warning)
+                        elif ".order_depth." in key:
+                            normalized, unit = _normalize_depth(record, request)
+                        elif ".large_trades." in key:
+                            normalized, unit = _normalize_trade(record, request)
+                        elif key.endswith("whale_activity"):
+                            normalized, unit = _normalize_whale(record, request)
+                        else:
+                            normalized, unit = _normalize_market(record, request)
+                        units.add(unit)
+                        incoming.append(normalized)
+                except Exception as exc:
+                    errors.append(f'{request["request_id"]}:{type(exc).__name__}:{exc}')
+            events = ".large_trades." in key
+            merged = _merge(existing, incoming, events=events)
+            if incoming:
+                status = "partial" if warnings or errors else "available"
+                reason = warnings[0] if warnings else ("endpoint_update_partial" if errors else None)
+            elif existing and existing.get("status") in {"available", "partial"}:
+                status, reason = existing["status"], "update_failed_previous_state_preserved" if errors else existing.get("reason")
+            elif events and requests and not errors:
+                status, reason = "partial", "stream_warmup_in_progress"
+            else:
+                status, reason = ("invalid", "all_updates_invalid") if errors else ("unavailable", "no_data")
+            dataset = {"status": status, "reason": reason, "incoming_records": len(incoming),
+                       "source_data_as_of": max((row["timestamp"] for row in merged), default=(existing or {}).get("source_data_as_of")),
+                       "provenance": {"provider": "coinglass", "timestamp_units": sorted(units),
+                                      "latest_attempt": int(execution_timestamp or time.time())},
+                       "warnings": sorted(set(warnings)), "errors": errors}
+            dataset["events" if events else "records"] = merged
+            datasets[key] = dataset
+        coinglass = {"orderbook": {"spot": datasets["coinglass.orderbook.spot"], "perpetual": datasets["coinglass.orderbook.perpetual"]},
+                     "order_depth": {"spot": datasets["coinglass.order_depth.spot"], "perpetual": datasets["coinglass.order_depth.perpetual"]},
+                     "large_trades": {"spot": datasets["coinglass.large_trades.spot"], "perpetual": datasets["coinglass.large_trades.perpetual"]},
+                     "whale_activity": datasets["coinglass.whale_activity"], "market_history": datasets["coinglass.market_history"]}
+        missing = [key for key in REQUIRED_DATASETS if datasets[key]["status"] == "unavailable"]
+        invalid = [key for key in REQUIRED_DATASETS if datasets[key]["status"] == "invalid"]
+        partial = [key for key in REQUIRED_DATASETS if datasets[key]["status"] == "partial"]
+        quality_status = "invalid" if invalid else ("partial" if missing or partial else "ok")
+        output = {"family": LIQUIDITY_MICROSTRUCTURE_FAMILY, "stage": "input", "mode": mode,
+                  "reference_timestamp": int(reference_timestamp or time.time()), "execution_timestamp": int(execution_timestamp or time.time()),
+                  "context": {"asset": "BTC", "exchange": "Binance", "spot_symbol": "BTCUSDT", "perpetual_symbol": "BTCUSDT",
+                              "data_mode": data_mode, "is_demo": bool(is_demo)}, "providers": {"coinglass": coinglass},
+                  "quality": {"status": quality_status, "providers": ["coinglass"], "datasets": list(datasets),
+                              "required_datasets": list(REQUIRED_DATASETS), "optional_datasets": list(OPTIONAL_DATASETS),
+                              "missing_required_datasets": missing, "invalid_required_datasets": invalid,
+                              "partial_required_datasets": partial, "unavailable_required_datasets": missing,
+                              "recovery_required": bool(invalid),
+                              "warnings": sorted({warning for dataset in datasets.values() for warning in dataset["warnings"]}),
+                              "errors": [error for dataset in datasets.values() for error in dataset["errors"]]}}
+        if debug_raw:
+            output["debug_raw"] = deepcopy(raw_bundle)
+        json.dumps(output, ensure_ascii=False, allow_nan=False)
+        return output
+
+
+def run_liquidity_microstructure_input(*, fetcher: RawFetcher, requested_mode: str | None = None,
+                                       existing_contract: Mapping[str, Any] | None = None,
+                                       recovery_requests: Sequence[Any] | None = None, debug_raw: bool = False,
+                                       reference_timestamp: int | None = None, execution_timestamp: int | None = None,
+                                       data_mode: str = "live", is_demo: bool = False, **plan_arguments: Any) -> dict[str, Any]:
+    mode = determine_liquidity_microstructure_input_mode(requested_mode=requested_mode, existing_contract=existing_contract,
+                                                         recovery_requests=recovery_requests)
+    raw = extract_liquidity_microstructure_raw(fetcher=fetcher, mode=mode, reference_timestamp=reference_timestamp,
+                                                recovery_requests=recovery_requests, **plan_arguments)
+    return LiquidityMicrostructureInputPreprocessor().preprocess(raw, existing_contract=existing_contract,
+                                                                 reference_timestamp=reference_timestamp,
+                                                                 execution_timestamp=execution_timestamp,
+                                                                 data_mode=data_mode, is_demo=is_demo, debug_raw=debug_raw)
