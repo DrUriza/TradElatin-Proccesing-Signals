@@ -8,6 +8,156 @@ import tempfile
 from typing import Any
 
 
+DEFAULT_OPEN_INTEREST_AND_FUNDING_OUTPUT_PATH = Path(
+    "runtime/contracts/open_interest_and_funding_screen.json"
+)
+CVD_VOLUME_ORDERFLOW_OUTPUT_PATH = Path("runtime/contracts/cvd_volume_orderflow_screen.json")
+CVD_VOLUME_ORDERFLOW_SCREEN_ROOT = (
+    "schema", "screen", "stage", "mode", "context", "badges", "selectors", "operational_status",
+    "kpis", "charts", "widgets", "tables", "drilldowns", "events", "availability", "quality",
+)
+OPEN_INTEREST_AND_FUNDING_SCREEN_ROOT = (
+    "schema", "screen", "stage", "mode", "context", "timeframe_selector", "operational_status",
+    "kpis", "charts", "tables", "widgets", "drilldowns", "events", "availability", "quality",
+)
+
+
+def _validate_open_interest_and_funding_json(value: Any) -> None:
+    if value is None or isinstance(value, (str, bool)) or type(value) is int:
+        return
+    if type(value) is float:
+        if not __import__("math").isfinite(value):
+            raise ValueError("vertical_export_invalid:serialization")
+        return
+    if isinstance(value, Mapping):
+        if any(not isinstance(key, str) for key in value):
+            raise ValueError("vertical_export_invalid:serialization")
+        for item in value.values():
+            _validate_open_interest_and_funding_json(item)
+        return
+    if isinstance(value, list):
+        for item in value:
+            _validate_open_interest_and_funding_json(item)
+        return
+    raise ValueError("vertical_export_invalid:serialization")
+
+
+def _open_interest_and_funding_destination(output_path: str | Path) -> tuple[Path, Path]:
+    if not isinstance(output_path, (str, Path)) or isinstance(output_path, str) and not output_path:
+        raise ValueError("vertical_export_invalid:path")
+    destination = Path(output_path)
+    if destination.suffix != ".json":
+        raise ValueError("vertical_export_invalid:path")
+    allowed_root = (Path.cwd() / "runtime" / "contracts").resolve()
+    resolved = destination.resolve()
+    try:
+        resolved.relative_to(allowed_root)
+    except ValueError as exc:
+        raise ValueError("vertical_export_invalid:path") from exc
+    if resolved.is_dir():
+        raise ValueError("vertical_export_invalid:path")
+    return destination, resolved
+
+
+def write_open_interest_and_funding_screen_json(
+    *,
+    screen_contract: Mapping[str, Any],
+    output_path: str | Path = DEFAULT_OPEN_INTEREST_AND_FUNDING_OUTPUT_PATH,
+    allow_invalid: bool = False,
+) -> Path:
+    """Atomically write one validated Open Interest and Funding screen."""
+    if not isinstance(screen_contract, Mapping):
+        raise ValueError("vertical_export_invalid:screen")
+    if type(allow_invalid) is not bool:
+        raise ValueError("vertical_export_invalid:allow_invalid")
+    quality, schema, screen = (screen_contract.get("quality"), screen_contract.get("schema"),
+                               screen_contract.get("screen"))
+    if (not isinstance(schema, Mapping)
+            or schema.get("id") != "trad_elatin.open_interest_and_funding.screen.v1"
+            or schema.get("version") != "1.0.0"
+            or not isinstance(screen, Mapping) or screen.get("id") != "open_interest_and_funding"
+            or screen.get("family") != "open_interest_and_funding"
+            or screen_contract.get("stage") != "screen_contract"
+            or tuple(screen_contract) != OPEN_INTEREST_AND_FUNDING_SCREEN_ROOT
+            or not isinstance(quality, Mapping)
+            or quality.get("status") not in {"ok", "partial", "invalid"}):
+        raise ValueError("vertical_export_invalid:screen")
+    if quality["status"] == "invalid" and not allow_invalid:
+        raise ValueError("vertical_export_invalid:screen_invalid")
+    try:
+        _validate_open_interest_and_funding_json(screen_contract)
+        serialized = json.dumps(screen_contract, ensure_ascii=False, allow_nan=False,
+                                sort_keys=False, indent=2) + "\n"
+    except (TypeError, ValueError) as exc:
+        if str(exc).startswith("vertical_export_invalid:"):
+            raise
+        raise ValueError("vertical_export_invalid:serialization") from exc
+    destination, resolved = _open_interest_and_funding_destination(output_path)
+    temporary: Path | None = None
+    try:
+        resolved.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile(
+            "w", encoding="utf-8", prefix=f".{resolved.name}.", suffix=".tmp",
+            dir=resolved.parent, delete=False, newline="\n",
+        ) as handle:
+            temporary = Path(handle.name)
+            handle.write(serialized)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, resolved)
+        return destination
+    except Exception as exc:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+        raise ValueError("vertical_export_invalid:write") from exc
+
+
+def write_cvd_volume_orderflow_screen_json(*, screen_contract: Mapping[str, Any],
+                                           output_path: str | Path = CVD_VOLUME_ORDERFLOW_OUTPUT_PATH,
+                                           allow_invalid: bool = False) -> Path:
+    """Atomically write one validated CVD volume/order-flow screen contract."""
+    if not isinstance(screen_contract, Mapping) or type(allow_invalid) is not bool:
+        raise ValueError("cvd_export_invalid:screen")
+    schema, screen, quality = screen_contract.get("schema"), screen_contract.get("screen"), screen_contract.get("quality")
+    if (tuple(screen_contract) != CVD_VOLUME_ORDERFLOW_SCREEN_ROOT or not isinstance(schema, Mapping)
+            or schema.get("id") != "trad_elatin.cvd_volume_orderflow.screen.v1" or schema.get("version") != "1.0.0"
+            or not isinstance(screen, Mapping) or screen.get("id") != "cvd_volume_orderflow"
+            or screen.get("family") != "cvd_volume_orderflow" or screen_contract.get("stage") != "screen_contract"
+            or not isinstance(quality, Mapping) or quality.get("status") not in {"ok", "partial", "invalid"}):
+        raise ValueError("cvd_export_invalid:screen")
+    if quality["status"] == "invalid" and not allow_invalid:
+        raise ValueError("cvd_export_invalid:screen_invalid")
+    try:
+        _validate_open_interest_and_funding_json(screen_contract)
+        serialized = json.dumps(screen_contract, ensure_ascii=False, allow_nan=False, indent=2, sort_keys=False) + "\n"
+    except (TypeError, ValueError) as exc:
+        raise ValueError("cvd_export_invalid:serialization") from exc
+    destination = Path(output_path)
+    allowed_root = (Path.cwd() / "runtime" / "contracts").resolve()
+    resolved = destination.resolve()
+    try:
+        resolved.relative_to(allowed_root)
+    except ValueError as exc:
+        raise ValueError("cvd_export_invalid:path") from exc
+    if destination.suffix != ".json" or resolved.is_dir():
+        raise ValueError("cvd_export_invalid:path")
+    temporary: Path | None = None
+    try:
+        resolved.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", prefix=f".{resolved.name}.", suffix=".tmp",
+                                         dir=resolved.parent, delete=False, newline="\n") as handle:
+            temporary = Path(handle.name)
+            handle.write(serialized)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, resolved)
+        return destination
+    except Exception as exc:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+        raise ValueError("cvd_export_invalid:write") from exc
+
+
 def write_long_short_liquidations_screen_json(*, screen_contract: Mapping[str, Any],
                                               output_path: str | Path) -> Path:
     if not isinstance(screen_contract, Mapping):

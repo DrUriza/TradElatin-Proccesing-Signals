@@ -1,9 +1,9 @@
 """Regressions for entity-local future anomalies and canonical provenance paths."""
 from copy import deepcopy
-import hashlib
 import json
 from pathlib import Path
 
+from canonical_hash_helpers import canonical_text_sha256
 from etf_exchange_flows_processing_helpers import NOW, cloned_input
 from processing_signals.processing.etf_exchange_flows import process_etf_exchange_flows
 
@@ -133,6 +133,6 @@ def test_etf_pc3_26_pc3_30_boundaries_hashes_and_contract():
     expected = {"etf_exchange_flows_data_raw_extract.py": "2E98421B5F7502877552E3DBCA6EEF3774CCD9C4476325AAE61D2B47B9A0C8CC",
         "etf_exchange_flows_data_raw_preprocessing.py": "8353C2AE7227EDBB23D3F70B00363975FC6B44F6639AAFE47F5743E3DE1953BE"}
     folder = root / "src/processing_signals/input/etf_exchange_flows"
-    assert {name: hashlib.sha256((folder / name).read_bytes()).hexdigest().upper() for name in expected} == expected
+    assert {name: canonical_text_sha256(folder / name) for name in expected} == expected
     result = output(cloned_input())
     assert result["family"] == "etf_exchange_flows" and result["stage"] == "processing"
