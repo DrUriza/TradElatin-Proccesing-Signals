@@ -5,9 +5,9 @@ from processing_signals.classification.classification_pipeline import CLASSIFICA
 from processing_signals.main.main_pipeline import VERTICAL_FAMILY_HANDLERS
 
 
-def test_only_input_handler_is_registered():
+def test_processing_registration_supersedes_the_previous_input_only_expectation():
     assert "liquidity_microstructure" in INPUT_FAMILY_HANDLERS
-    assert "liquidity_microstructure" not in PROCESSING_FAMILY_HANDLERS
+    assert "liquidity_microstructure" in PROCESSING_FAMILY_HANDLERS
     assert "liquidity_microstructure" not in CLASSIFICATION_FAMILY_HANDLERS
     assert "liquidity_microstructure" not in VERTICAL_FAMILY_HANDLERS
 

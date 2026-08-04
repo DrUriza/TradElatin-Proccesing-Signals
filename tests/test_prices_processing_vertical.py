@@ -294,5 +294,6 @@ def test_processing_does_not_mutate_input_contract() -> None:
 
 
 def test_processing_pipeline_preserves_prices_while_registering_long_short_liquidations() -> None:
-    assert tuple(PROCESSING_FAMILY_HANDLERS) == ("prices_ohlcv", "long_short_liquidations", "on_chain_miners", "etf_exchange_flows")
+    assert tuple(PROCESSING_FAMILY_HANDLERS) == ("prices_ohlcv", "long_short_liquidations", "on_chain_miners", "etf_exchange_flows",
+                                                "liquidity_microstructure")
     assert PROCESSING_FAMILY_HANDLERS["prices_ohlcv"] is run_prices_ohlcv_processing

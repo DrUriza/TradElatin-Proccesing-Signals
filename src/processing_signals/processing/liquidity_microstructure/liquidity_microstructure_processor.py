@@ -10,7 +10,7 @@ import time
 from typing import Any
 
 from ..math.microstructure.order_book import depth_metrics, derive_cumulative_band, process_order_book_levels
-from ..math.microstructure.series_metrics import absolute_change, observation_at_or_before, rolling_mean, rolling_std, rolling_z_score, safe_percent_change
+from ..math.microstructure.series_metrics import absolute_change, clean_zero, observation_at_or_before, rolling_mean, rolling_std, rolling_z_score, safe_percent_change
 from ..math.microstructure.trade_flow import aggregate_trade_window, enrich_trade_event
 from .liquidity_microstructure_feature_builder import build_liquidity_microstructure_features
 
@@ -161,17 +161,115 @@ def _depth(dataset: Mapping[str, Any], market: str) -> dict[str, Any]:
         direct = [_direct_depth(record, dataset, path) for record in source]
         by_key = {(record["timestamp"], record["range_percent"]): record for record in source}
         derived = []
+        def derived_with_metrics(lower: Mapping[str, Any], upper: Mapping[str, Any], name: str) -> dict[str, Any]:
+            band = derive_cumulative_band(lower, upper, name=name)
+            if band["status"] == "available":
+                band["base_quantity"] = depth_metrics(band["bids_quantity"], band["asks_quantity"])
+                band["quote_notional"] = depth_metrics(band["bids_usd"], band["asks_usd"])
+            return band
         for timestamp in sorted({record["timestamp"] for record in source}):
             if (timestamp, 1) in by_key and (timestamp, 5) in by_key:
-                derived.append({"timestamp": timestamp, **derive_cumulative_band(by_key[(timestamp, 1)], by_key[(timestamp, 5)], name="one_to_five")})
+                derived.append({"timestamp": timestamp, **derived_with_metrics(by_key[(timestamp, 1)], by_key[(timestamp, 5)], "one_to_five")})
             if (timestamp, 5) in by_key and (timestamp, 10) in by_key:
-                derived.append({"timestamp": timestamp, **derive_cumulative_band(by_key[(timestamp, 5)], by_key[(timestamp, 10)], name="five_to_ten")})
+                derived.append({"timestamp": timestamp, **derived_with_metrics(by_key[(timestamp, 5)], by_key[(timestamp, 10)], "five_to_ten")})
         status = "invalid" if any(item["status"] == "invalid" for item in derived) else ("available" if direct else "unavailable")
         timeframes[timeframe] = {"status": status, "reason": "non_monotonic_cumulative_depth" if status == "invalid" else (None if direct else dataset.get("reason")),
                                  "direct_ranges": direct, "derived_bands": derived}
     aggregate = "invalid" if any(value["status"] == "invalid" for value in timeframes.values()) else (
         "available" if all(value["status"] == "available" for value in timeframes.values()) else "partial")
     return {"status": aggregate, "reason": None if aggregate == "available" else "one_or_more_timeframes_unavailable", "timeframes": timeframes}
+
+
+def _rebuild_derived_depth_bands(timeframe_node: dict[str, Any]) -> None:
+    direct = timeframe_node["direct_ranges"]
+    by_key = {(record["timestamp"], record["range_percent"]): record for record in direct}
+    derived = []
+    for timestamp in sorted({record["timestamp"] for record in direct}):
+        for lower_range, upper_range, name in ((1, 5, "one_to_five"), (5, 10, "five_to_ten")):
+            if (timestamp, lower_range) not in by_key or (timestamp, upper_range) not in by_key:
+                continue
+            band = derive_cumulative_band(by_key[(timestamp, lower_range)], by_key[(timestamp, upper_range)], name=name)
+            if band["status"] == "available":
+                band["base_quantity"] = depth_metrics(band["bids_quantity"], band["asks_quantity"])
+                band["quote_notional"] = depth_metrics(band["bids_usd"], band["asks_usd"])
+            derived.append({"timestamp": timestamp, **band})
+    timeframe_node["derived_bands"] = derived
+    timeframe_node["status"] = "invalid" if any(item["status"] == "invalid" for item in derived) else (
+        "partial" if any(item.get("preserved_from_previous") for item in direct) else ("available" if direct else "unavailable"))
+    timeframe_node["reason"] = ("non_monotonic_cumulative_depth" if timeframe_node["status"] == "invalid" else
+                                "update_failed_previous_processing_preserved" if timeframe_node["status"] == "partial" else
+                                None if direct else "no_usable_depth_records")
+
+
+def _mark_preserved(node: Mapping[str, Any], *, path: str, previous_execution: int | None) -> dict[str, Any]:
+    preserved = deepcopy(dict(node))
+    source_timestamp = (preserved.get("current_timestamp") or preserved.get("timestamp") or
+                        preserved.get("metadata", {}).get("current_timestamp"))
+    preserved.update({"status": "partial", "reason": "update_failed_previous_processing_preserved", "preserved_from_previous": True,
+                      "preserved_source_timestamp": source_timestamp, "preserved_execution_timestamp": previous_execution,
+                      "preserved_feature_path": path})
+    return preserved
+
+
+def _preserve_granular(*, provider: Mapping[str, Any], markets: dict[str, Any], whale: dict[str, Any], history: dict[str, Any],
+                       previous: Mapping[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
+    previous_execution = previous.get("execution_timestamp")
+    for market in MARKETS:
+        orderbook_source = provider["orderbook"][market]
+        if orderbook_source["status"] in {"partial", "unavailable"}:
+            present_timeframes = {record["timeframe"] for record in orderbook_source["records"] if "bid_levels" in record and "ask_levels" in record}
+            for timeframe in TIMEFRAMES:
+                current_node = markets[market]["orderbook"]["timeframes"][timeframe]
+                previous_node = previous["markets"][market]["orderbook"]["timeframes"][timeframe]
+                if timeframe not in present_timeframes and current_node["status"] != "invalid" and previous_node["status"] != "invalid":
+                    path = f"markets.{market}.orderbook.timeframes.{timeframe}"
+                    markets[market]["orderbook"]["timeframes"][timeframe] = _mark_preserved(previous_node, path=path,
+                                                                                            previous_execution=previous_execution)
+        depth_source = provider["order_depth"][market]
+        if depth_source["status"] in {"partial", "unavailable"}:
+            for timeframe in TIMEFRAMES:
+                current_node = markets[market]["order_depth"]["timeframes"][timeframe]
+                previous_node = previous["markets"][market]["order_depth"]["timeframes"][timeframe]
+                present_ranges = {record["range_percent"] for record in depth_source["records"] if record["timeframe"] == timeframe}
+                for range_percent in DEPTH_RANGES_PERCENT:
+                    if range_percent in present_ranges:
+                        continue
+                    previous_rows = [row for row in previous_node["direct_ranges"] if row["range_percent"] == range_percent and row["status"] != "invalid"]
+                    for row in previous_rows:
+                        path = f"markets.{market}.order_depth.timeframes.{timeframe}.direct_ranges.{range_percent}"
+                        current_node["direct_ranges"].append(_mark_preserved(row, path=path, previous_execution=previous_execution))
+                current_node["direct_ranges"].sort(key=lambda row: (row["timestamp"], row["range_percent"]))
+                _rebuild_derived_depth_bands(current_node)
+        trades_source = provider["large_trades"][market]
+        if trades_source["status"] in {"partial", "unavailable"} and not trades_source["events"]:
+            previous_node = previous["markets"][market]["large_trades"]
+            if previous_node["status"] != "invalid":
+                path = f"markets.{market}.large_trades"
+                markets[market]["large_trades"] = _mark_preserved(previous_node, path=path, previous_execution=previous_execution)
+    whale_source = provider["whale_activity"]
+    if whale_source["status"] in {"partial", "unavailable"}:
+        present_timeframes = {record["timeframe"] for record in whale_source["records"]}
+        for timeframe in TIMEFRAMES:
+            previous_node = previous["whale_activity"]["timeframes"][timeframe]
+            if timeframe not in present_timeframes and previous_node["status"] != "invalid":
+                path = f"whale_activity.timeframes.{timeframe}"
+                whale["timeframes"][timeframe] = _mark_preserved(previous_node, path=path, previous_execution=previous_execution)
+    market_source = provider["market_history"]
+    if market_source["status"] in {"partial", "unavailable"} and not market_source["records"] and previous["market_history"]["status"] != "invalid":
+        history = _mark_preserved(previous["market_history"], path="market_history", previous_execution=previous_execution)
+    return whale, history
+
+
+def _refresh_aggregate_statuses(markets: dict[str, Any], whale: dict[str, Any]) -> None:
+    for market in MARKETS:
+        for feature in ("orderbook", "order_depth"):
+            statuses = [node["status"] for node in markets[market][feature]["timeframes"].values()]
+            status = "invalid" if "invalid" in statuses else ("available" if all(value == "available" for value in statuses) else "partial")
+            markets[market][feature]["status"] = status
+            markets[market][feature]["reason"] = None if status == "available" else "one_or_more_timeframes_unavailable"
+    whale_statuses = [node["status"] for node in whale["timeframes"].values()]
+    whale["status"] = "invalid" if "invalid" in whale_statuses else ("available" if all(value == "available" for value in whale_statuses) else "partial")
+    whale["reason"] = None if whale["status"] == "available" else "one_or_more_timeframes_unavailable"
 
 
 def _trades(dataset: Mapping[str, Any], market: str, reference: int) -> dict[str, Any]:
@@ -208,11 +306,12 @@ def _whale(dataset: Mapping[str, Any], lookback: int) -> dict[str, Any]:
 
 
 def _market_history(dataset: Mapping[str, Any], reference: int) -> dict[str, Any]:
+    del reference
     records = [deepcopy(record) for record in dataset["records"]]
     enriched = []
     for index, record in enumerate(records):
         previous = records[index - 1] if index else None
-        enriched.append({**record, "price_return_decimal": None if previous is None else record["price"] / previous["price"] - 1})
+        enriched.append({**record, "price_return_decimal": None if previous is None else clean_zero(record["price"] / previous["price"] - 1)})
     current = enriched[-1] if enriched else None
     changes = {}
     for days in MARKET_HISTORY_WINDOWS_DAYS:
@@ -220,7 +319,7 @@ def _market_history(dataset: Mapping[str, Any], reference: int) -> dict[str, Any
         changes[f"{days}d"] = {"status": "available" if historical else "unavailable",
                                 "reason": None if historical else "insufficient_market_history",
                                 "source_timestamp": historical["timestamp"] if historical else None,
-                                "change_percent": 100 * (current["price"] / historical["price"] - 1) if historical else None}
+                                "change_percent": clean_zero(100 * (current["price"] / historical["price"] - 1)) if historical else None}
     return {"status": "available" if current else "unavailable", "reason": None if current else dataset.get("reason"),
             "records": enriched, "current": current, "changes": changes,
             "provenance": _provenance("providers.coinglass.market_history", dataset, current["timestamp"] if current else None,
@@ -229,6 +328,9 @@ def _market_history(dataset: Mapping[str, Any], reference: int) -> dict[str, Any
 
 def _comparison(markets: Mapping[str, Any]) -> dict[str, Any]:
     depth_rows = []
+    orderbook_rows = []
+    def difference(left: float | None, right: float | None) -> float | None:
+        return None if left is None or right is None else clean_zero(left - right)
     for timeframe in TIMEFRAMES:
         spot = {(row["timestamp"], row["range_percent"]): row for row in markets["spot"]["order_depth"]["timeframes"][timeframe]["direct_ranges"]}
         perpetual = {(row["timestamp"], row["range_percent"]): row for row in markets["perpetual"]["order_depth"]["timeframes"][timeframe]["direct_ranges"]}
@@ -237,11 +339,21 @@ def _comparison(markets: Mapping[str, Any]) -> dict[str, Any]:
             depth_rows.append({"timestamp": timestamp, "timeframe": timeframe, "range_percent": range_percent,
                                "perpetual_to_spot_total_depth_ratio_quote": None if s["quote_notional"]["total"] == 0 else p["quote_notional"]["total"] / s["quote_notional"]["total"],
                                "perpetual_to_spot_total_depth_ratio_base": None if s["base_quantity"]["total"] == 0 else p["base_quantity"]["total"] / s["base_quantity"]["total"],
-                               "imbalance_difference_quote_percent": p["quote_notional"]["imbalance_percent"] - s["quote_notional"]["imbalance_percent"],
-                               "imbalance_difference_base_percent": p["base_quantity"]["imbalance_percent"] - s["base_quantity"]["imbalance_percent"],
-                               "net_depth_difference_quote": p["quote_notional"]["net"] - s["quote_notional"]["net"]})
-    return {"spot_perpetual": {"status": "available" if depth_rows else "unavailable", "reason": None if depth_rows else "no_exact_timestamp_matches",
-                               "order_depth": depth_rows}}
+                               "imbalance_difference_quote_percent": difference(p["quote_notional"]["imbalance_percent"], s["quote_notional"]["imbalance_percent"]),
+                               "imbalance_difference_base_percent": difference(p["base_quantity"]["imbalance_percent"], s["base_quantity"]["imbalance_percent"]),
+                               "net_depth_difference_quote": difference(p["quote_notional"]["net"], s["quote_notional"]["net"])})
+        spot_books = {row["timestamp"]: row for row in markets["spot"]["orderbook"]["timeframes"][timeframe]["history"] if row["status"] == "available"}
+        perpetual_books = {row["timestamp"]: row for row in markets["perpetual"]["orderbook"]["timeframes"][timeframe]["history"] if row["status"] == "available"}
+        for timestamp in sorted(set(spot_books) & set(perpetual_books)):
+            spot_book, perpetual_book = spot_books[timestamp], perpetual_books[timestamp]
+            spot_impact, perpetual_impact = spot_book["market_impact"], perpetual_book["market_impact"]
+            orderbook_rows.append({"timestamp": timestamp, "timeframe": timeframe,
+                                   "spread_difference_bps": difference(perpetual_book["spread_bps"], spot_book["spread_bps"]),
+                                   "buy_impact_difference_bps": difference(perpetual_impact["buy"]["impact_bps"], spot_impact["buy"]["impact_bps"]),
+                                   "sell_impact_difference_bps": difference(perpetual_impact["sell"]["impact_bps"], spot_impact["sell"]["impact_bps"])})
+    available = bool(depth_rows or orderbook_rows)
+    return {"spot_perpetual": {"status": "available" if available else "unavailable", "reason": None if available else "no_exact_timestamp_matches",
+                               "order_depth": depth_rows, "orderbook": orderbook_rows}}
 
 
 def _source_selection(provider: Mapping[str, Any]) -> dict[str, Any]:
@@ -274,10 +386,11 @@ def process_liquidity_microstructure(input_contract: Mapping[str, Any], *, exist
     validate_liquidity_microstructure_input(input_copy)
     impact_quantity = float(config_copy.get("market_impact_quantity_base", MARKET_IMPACT_QUANTITY_BASE))
     lookback = int(config_copy.get("whale_rolling_lookback", WHALE_ROLLING_LOOKBACK))
-    if impact_quantity <= 0 or lookback <= 0:
+    configured_depth_ranges = tuple(config_copy.get("depth_ranges_percent", DEPTH_RANGES_PERCENT))
+    if impact_quantity <= 0 or lookback <= 0 or not configured_depth_ranges or any(value not in DEPTH_RANGES_PERCENT for value in configured_depth_ranges):
         raise ValueError("invalid_processing_configuration")
     configuration = {"version": PROCESSING_VERSION, "markets": list(MARKETS), "timeframes": list(TIMEFRAMES),
-                     "depth_ranges_percent": list(DEPTH_RANGES_PERCENT), "reference_depth_range_percent": REFERENCE_DEPTH_RANGE_PERCENT,
+                     "depth_ranges_percent": list(configured_depth_ranges), "reference_depth_range_percent": REFERENCE_DEPTH_RANGE_PERCENT,
                      "market_impact_quantity_base": impact_quantity, "whale_rolling_lookback": lookback}
     execution = int(now_timestamp or time.time())
     if input_copy["quality"]["status"] == "invalid":
@@ -296,20 +409,8 @@ def process_liquidity_microstructure(input_contract: Mapping[str, Any], *, exist
         except (TypeError, ValueError):
             compatible_previous = False
     if compatible_previous:
-        for market in MARKETS:
-            for feature, source_name, rows_name in (("orderbook", "orderbook", "records"), ("order_depth", "order_depth", "records"),
-                                                    ("large_trades", "large_trades", "events")):
-                dataset = provider[source_name][market]
-                if dataset["status"] == "unavailable" and not dataset[rows_name]:
-                    markets[market][feature] = deepcopy(previous["markets"][market][feature])
-                    markets[market][feature].update({"status": "partial", "reason": "update_failed_previous_processing_preserved",
-                                                     "preserved_from_previous": True})
-        if provider["whale_activity"]["status"] == "unavailable" and not provider["whale_activity"]["records"]:
-            whale = deepcopy(previous["whale_activity"])
-            whale.update({"status": "partial", "reason": "update_failed_previous_processing_preserved", "preserved_from_previous": True})
-        if provider["market_history"]["status"] == "unavailable" and not provider["market_history"]["records"]:
-            history = deepcopy(previous["market_history"])
-            history.update({"status": "partial", "reason": "update_failed_previous_processing_preserved", "preserved_from_previous": True})
+        whale, history = _preserve_granular(provider=provider, markets=markets, whale=whale, history=history, previous=previous)
+        _refresh_aggregate_statuses(markets, whale)
     comparison = _comparison(markets)
     required = {f"markets.{market}.{feature}": markets[market][feature]["status"] for market in MARKETS for feature in ("orderbook", "order_depth", "large_trades")}
     required.update({"whale_activity": whale["status"], "market_history": history["status"]})
