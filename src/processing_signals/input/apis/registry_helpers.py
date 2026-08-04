@@ -6,7 +6,11 @@ import json
 from pathlib import Path
 from typing  import Any
 
-from processing_signals.input.contracts import InputEndpointRegistryContract
+try:
+    from processing_signals.input.contracts import InputEndpointRegistryContract
+except ModuleNotFoundError:  # This checkout does not contain the optional contracts module.
+    class InputEndpointRegistryContract:
+        pass
 
 
 LEGACY_SYNTHETIC_FAMILY_ALIASES = {
@@ -34,6 +38,10 @@ class InputEndpointRegistry(InputEndpointRegistryContract):
         default_params: dict[str, Any] | None = None,
         notes: str = "",
         external_provider: str | None = None,
+        transport: str = "rest",
+        base_url: str | None = None,
+        channel_template: str | None = None,
+        method: str | None = None,
     ) -> dict[str, Any]:
         """
         Proposito:
@@ -51,7 +59,7 @@ class InputEndpointRegistry(InputEndpointRegistryContract):
         Ejemplos:
         - registry.endpoint(provider="coinglass", family="prices_ohlcv", ...)
         """
-        if path is None and live_status in {"supported"}:
+        if path is None and channel_template is None and live_status in {"supported"}:
             raise ValueError(f"{provider}/{family}/{subtype} is supported but has no live path")
 
         synthetic_timeframes = list(synthetic_timeframes or [])
@@ -77,7 +85,8 @@ class InputEndpointRegistry(InputEndpointRegistryContract):
             "subtype": subtype,
             "endpoint_name": f"{provider}_{family}_{subtype}",
             "path": path,
-            "method": "GET" if path else None,
+            "method": method or ("GET" if path else None),
+            "transport": transport,
             "coverage_role": coverage_role,
             "live_status": live_status,
             "synthetic_status": synthetic_status,
@@ -93,6 +102,10 @@ class InputEndpointRegistry(InputEndpointRegistryContract):
         }
         if external_provider:
             item["external_provider"] = external_provider
+        if base_url:
+            item["base_url"] = base_url
+        if channel_template:
+            item["channel_template"] = channel_template
         return item
 
     def load_json_endpoint_registry(self, provider: str, json_path: str | Path) -> list[dict[str, Any]]:
@@ -135,7 +148,7 @@ class InputEndpointRegistry(InputEndpointRegistryContract):
                 subtype=subtype,
                 path=source.get("live_path"),
                 coverage_role=str(source.get("coverage_role") or "primary"),
-                live_status="supported" if source.get("live_path") else "not_available",
+                live_status="supported" if source.get("live_path") or source.get("channel_template") else "not_available",
                 data_type=data_type,
                 supports_timeframe=supports_timeframe,
                 live_supported_timeframes=slots if supports_timeframe else [],
@@ -143,6 +156,10 @@ class InputEndpointRegistry(InputEndpointRegistryContract):
                 extraction_windows=[] if supports_timeframe else slots,
                 default_params={},
                 notes=str(source.get("notes") or contract.get("principle") or ""),
+                transport=str(source.get("transport") or "rest"),
+                base_url=source.get("base_url"),
+                channel_template=source.get("channel_template"),
+                method=source.get("method"),
             )
             item["synthetic_file_template"] = f"{provider}/{family}/{subtype}/{{{slot_name}}}_raw.json"
             item["raw_family"] = raw_family
