@@ -13,7 +13,11 @@ def test_only_input_handler_is_registered():
 
 
 def test_input_pipeline_executes_prices_and_liquidity_separately():
-    output = run_input_pipeline(enabled_families=("liquidity_microstructure",),
-                                family_arguments={"liquidity_microstructure": {"fetcher": valid_fetcher,
+    def prices_fetcher(**request):
+        return {"code": 0, "data": [{"time": 1_700_000_000_000, "open": 100, "high": 102,
+                                       "low": 99, "close": 101, "volume": 10}]}
+    output = run_input_pipeline(enabled_families=("prices_ohlcv", "liquidity_microstructure"),
+                                family_arguments={"prices_ohlcv": {"fetcher": prices_fetcher},
+                                                  "liquidity_microstructure": {"fetcher": valid_fetcher,
                                                                                "reference_timestamp": 1_700_000_000}})
-    assert tuple(output) == ("liquidity_microstructure",)
+    assert tuple(output) == ("prices_ohlcv", "liquidity_microstructure")
