@@ -12,6 +12,7 @@ from .long_short_liquidations import run_long_short_liquidations_vertical
 from .on_chain_miners import run_on_chain_miners_vertical
 from .etf_exchange_flows import run_etf_exchange_flows_vertical
 from .cvd_volume_orderflow import run_cvd_volume_orderflow_vertical
+from .liquidity_microstructure import run_liquidity_microstructure_vertical
 
 
 def _run_cvd_volume_orderflow_registered(*, previous_state: Mapping[str, Any] | None = None,
@@ -28,7 +29,8 @@ VERTICAL_FAMILY_HANDLERS      = {"prices_ohlcv": run_prices_vertical,
                                  "long_short_liquidations": run_long_short_liquidations_vertical,
                                  "on_chain_miners": run_on_chain_miners_vertical,
                                  "etf_exchange_flows": run_etf_exchange_flows_vertical,
-                                 "cvd_volume_orderflow": _run_cvd_volume_orderflow_registered}
+                                 "cvd_volume_orderflow": _run_cvd_volume_orderflow_registered,
+                                 "liquidity_microstructure": run_liquidity_microstructure_vertical}
 DEFAULT_OUTPUT_PATH           = Path("runtime/contracts/prices_screen.json")
 TIMEFRAME_SECONDS             = {"1m": 60, "5m": 300, "15m": 900, "1h": 3_600, "4h": 14_400, "1d": 86_400}
 SYNTHETIC_REFERENCE_TIMESTAMP = 1_749_945_600
@@ -109,7 +111,7 @@ class SyntheticPricesFetcher:
         return {"code": "0", "msg": "success", "data": records}
 
 
-def run_main_pipeline(*, enabled_families: Sequence[str] = ("prices_ohlcv",),
+def run_main_pipeline(*, enabled_families: Sequence[str] = ("prices_ohlcv", "liquidity_microstructure"),
                       family_arguments: Mapping[str, Mapping[str, Any]] | None = None,
                       previous_state: Mapping[str, Mapping[str, Any]] | None = None,
                       screens_only: bool = False) -> dict[str, Any]:

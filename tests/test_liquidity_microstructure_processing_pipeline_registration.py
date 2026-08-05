@@ -10,7 +10,7 @@ import pytest
 def test_registered_only_in_processing_pipeline():
     assert "liquidity_microstructure" in PROCESSING_FAMILY_HANDLERS
     assert "liquidity_microstructure" in CLASSIFICATION_FAMILY_HANDLERS
-    assert "liquidity_microstructure" not in VERTICAL_FAMILY_HANDLERS
+    assert "liquidity_microstructure" in VERTICAL_FAMILY_HANDLERS
     result = run_processing_pipeline(input_contracts={"liquidity_microstructure": liquidity_input()},
                                      enabled_families=("liquidity_microstructure",), now_timestamp=123)
     assert tuple(result) == ("liquidity_microstructure",)
