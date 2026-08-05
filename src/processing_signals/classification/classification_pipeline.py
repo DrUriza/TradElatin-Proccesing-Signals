@@ -6,6 +6,7 @@ from .prices_ohlcv.prices_ohlcv_classifier import run_prices_ohlcv_classificatio
 from .long_short_liquidations.long_short_liquidations_classifier import classify_long_short_liquidations
 from .on_chain_miners.on_chain_miners_classifier import classify_on_chain_miners
 from .etf_exchange_flows import run_etf_exchange_flows_classification
+from .liquidity_microstructure import classify_liquidity_microstructure
 
 
 def _run_long_short_liquidations_classification_adapter(processing_contract: Mapping[str, Any], *,
@@ -24,10 +25,15 @@ def _run_etf_exchange_flows_classification_adapter(processing_contract: Mapping[
         processing_contract=processing_contract, **dict(family_arguments)
     )
 
+def _run_liquidity_microstructure_classification_adapter(processing_contract: Mapping[str, Any], *,
+                                                          family_arguments: Mapping[str, Any]) -> dict[str, Any]:
+    return classify_liquidity_microstructure(processing_contract, **dict(family_arguments))
+
 CLASSIFICATION_FAMILY_HANDLERS = {"prices_ohlcv": run_prices_ohlcv_classification,
                                   "long_short_liquidations": _run_long_short_liquidations_classification_adapter,
                                   "on_chain_miners": _run_on_chain_miners_classification_adapter,
-                                  "etf_exchange_flows": _run_etf_exchange_flows_classification_adapter}
+                                  "etf_exchange_flows": _run_etf_exchange_flows_classification_adapter,
+                                  "liquidity_microstructure": _run_liquidity_microstructure_classification_adapter}
 
 
 def run_classification_pipeline(*, processing_contracts: Mapping[str, Mapping[str, Any]],
